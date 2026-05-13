@@ -1,11 +1,11 @@
 {
   "meta": {
-    "last_updated": "2026-05-13T13:00:00Z",
-    "total_contacted": 146,
+    "last_updated": "2026-05-13T09:00:00+02:00",
+    "total_contacted": 158,
     "total_replied": 3,
     "total_bounced": 16,
     "total_autoresponse": 11,
-    "first_run": true,
+    "first_run": false,
     "coverage_note": "First run — copre outbound visibili negli ultimi ~9 giorni (2026-05-06 → 2026-05-13). Le runs giornaliere successive aggiungeranno nuovi thread incrementalmente.",
     "schema_version": "v3.2",
     "earliest_contact": "2026-04-16",
@@ -7254,6 +7254,655 @@
         "out_date": "2026-07-06"
       },
       "subject_email": "Tracking + Meta campaigns"
+    },
+    {
+      "id": "prospect_166",
+      "brand": "Wax London",
+      "contact": "James Beasley",
+      "email": "james.beasley@waxlondon.com",
+      "domain": "waxlondon.com",
+      "assigned_to": "Dami",
+      "angle": "2B",
+      "platform": "Shopify",
+      "status": "follow_up_1_sent",
+      "first_contact": "2026-04-30",
+      "last_activity": "2026-05-12",
+      "next_action": "Follow-up 2",
+      "next_action_date": "2026-06-08",
+      "stape_score": null,
+      "notes": null,
+      "thread_id": "19ddab84152c17e4",
+      "timeline": [
+        {
+          "date": "2026-04-30",
+          "action": "Email outbound 2B inviata (stimato)"
+        },
+        {
+          "date": "2026-05-12",
+          "action": "Follow-up 1 inviato"
+        }
+      ],
+      "label_id": "Label_8658624016447790536",
+      "sender": "Dami",
+      "is_first_email": true,
+      "followups_sent": [
+        {
+          "date": "2026-05-12",
+          "type": "follow_up_1",
+          "sender": "Dami",
+          "snippet": "Hi James, bumping this up in case it got lost — the tracking issue I spotted on "
+        }
+      ],
+      "last_outbound_by_antonio": {
+        "date": "2026-05-12",
+        "snippet": "Hi James, bumping this up in case it got lost — the tracking issue I spotted on "
+      },
+      "last_reply_from_prospect": null,
+      "next_followup_due": "2026-06-08",
+      "days_since_last_activity": 1,
+      "first_email_snippet": "Hi James, I was looking into Wax London and noticed you're running Meta/Google campaigns on an alrea",
+      "scheduled_timeline": {
+        "first_email": "2026-04-30",
+        "follow_up_1": "2026-05-15",
+        "follow_up_2": "2026-06-08",
+        "follow_up_3": "2026-07-06",
+        "out_date": "2026-07-07"
+      },
+      "subject_email": "Tracking + Meta campaigns"
+    },
+    {
+      "id": "prospect_167",
+      "brand": "Mile Club",
+      "contact": "Lily",
+      "email": "lily@mile.club",
+      "domain": "mile.club",
+      "assigned_to": "Dami",
+      "angle": "2B",
+      "platform": "Shopify",
+      "status": "follow_up_1_sent",
+      "first_contact": "2026-04-30",
+      "last_activity": "2026-05-12",
+      "next_action": "Follow-up 2",
+      "next_action_date": "2026-06-08",
+      "stape_score": null,
+      "notes": null,
+      "thread_id": "19ddae507a3acc20",
+      "timeline": [
+        {
+          "date": "2026-04-30",
+          "action": "Email outbound 2B inviata (stimato)"
+        },
+        {
+          "date": "2026-05-12",
+          "action": "Follow-up 1 inviato"
+        }
+      ],
+      "label_id": "Label_8658624016447790536",
+      "sender": "Dami",
+      "is_first_email": true,
+      "followups_sent": [
+        {
+          "date": "2026-05-12",
+          "type": "follow_up_1",
+          "sender": "Dami",
+          "snippet": "Hi Lily, bumping this up in case it got lost — the tracking issue on Mile Club's"
+        }
+      ],
+      "last_outbound_by_antonio": {
+        "date": "2026-05-12",
+        "snippet": "Hi Lily, bumping this up in case it got lost — the tracking issue on Mile Club's"
+      },
+      "last_reply_from_prospect": null,
+      "next_followup_due": "2026-06-08",
+      "days_since_last_activity": 1,
+      "first_email_snippet": "Hi Lily, I was looking into Mile club and noticed you're running Meta/Google campaigns on an already",
+      "scheduled_timeline": {
+        "first_email": "2026-04-30",
+        "follow_up_1": "2026-05-15",
+        "follow_up_2": "2026-06-08",
+        "follow_up_3": "2026-07-06",
+        "out_date": "2026-07-07"
+      },
+      "subject_email": "Tracking + Meta campaigns"
+    },
+    {
+      "id": "prospect_168",
+      "brand": "Escentric Molecules",
+      "contact": "Elisa",
+      "email": "elisa@escentric.com",
+      "domain": "escentric.com",
+      "assigned_to": "Dami",
+      "angle": "2B",
+      "platform": "Shopify",
+      "status": "follow_up_1_sent",
+      "first_contact": "2026-04-30",
+      "last_activity": "2026-05-12",
+      "next_action": "Follow-up 2",
+      "next_action_date": "2026-06-08",
+      "stape_score": null,
+      "notes": null,
+      "thread_id": "19dda9cd7e80781b",
+      "timeline": [
+        {
+          "date": "2026-04-30",
+          "action": "Email outbound 2B inviata (stimato)"
+        },
+        {
+          "date": "2026-05-12",
+          "action": "Follow-up 1 inviato"
+        }
+      ],
+      "label_id": "Label_8658624016447790536",
+      "sender": "Dami",
+      "is_first_email": true,
+      "followups_sent": [
+        {
+          "date": "2026-05-12",
+          "type": "follow_up_1",
+          "sender": "Dami",
+          "snippet": "Hi Elisa, bumping this up — the tracking gap I spotted on Escentric Molecules' c"
+        }
+      ],
+      "last_outbound_by_antonio": {
+        "date": "2026-05-12",
+        "snippet": "Hi Elisa, bumping this up — the tracking gap I spotted on Escentric Molecules' c"
+      },
+      "last_reply_from_prospect": null,
+      "next_followup_due": "2026-06-08",
+      "days_since_last_activity": 1,
+      "first_email_snippet": "Hi Elisa, I was looking into Escentric Molecules and noticed you're running Meta/Google campaigns on",
+      "scheduled_timeline": {
+        "first_email": "2026-04-30",
+        "follow_up_1": "2026-05-15",
+        "follow_up_2": "2026-06-08",
+        "follow_up_3": "2026-07-06",
+        "out_date": "2026-07-07"
+      },
+      "subject_email": "Tracking + Meta campaigns"
+    },
+    {
+      "id": "prospect_169",
+      "brand": "Cult Furniture",
+      "contact": "Ariadna Petrova",
+      "email": "ariadna.petrova@cultfurniture.com",
+      "domain": "cultfurniture.com",
+      "assigned_to": "Dami",
+      "angle": "2B",
+      "platform": "Shopify",
+      "status": "follow_up_1_sent",
+      "first_contact": "2026-05-01",
+      "last_activity": "2026-05-12",
+      "next_action": "Follow-up 2",
+      "next_action_date": "2026-06-08",
+      "stape_score": null,
+      "notes": null,
+      "thread_id": "19ddfaa5fe0ea1cf",
+      "timeline": [
+        {
+          "date": "2026-05-01",
+          "action": "Email outbound 2B inviata (stimato)"
+        },
+        {
+          "date": "2026-05-12",
+          "action": "Follow-up 1 inviato"
+        }
+      ],
+      "label_id": "Label_8658624016447790536",
+      "sender": "Dami",
+      "is_first_email": true,
+      "followups_sent": [
+        {
+          "date": "2026-05-12",
+          "type": "follow_up_1",
+          "sender": "Dami",
+          "snippet": "Hi Ariadna, bumping this up — the tracking issue I spotted on Cult Furniture's c"
+        }
+      ],
+      "last_outbound_by_antonio": {
+        "date": "2026-05-12",
+        "snippet": "Hi Ariadna, bumping this up — the tracking issue I spotted on Cult Furniture's c"
+      },
+      "last_reply_from_prospect": null,
+      "next_followup_due": "2026-06-08",
+      "days_since_last_activity": 1,
+      "first_email_snippet": "Hi Ariadna, I was looking into Cult furniture and noticed you're running Meta/Google campaigns on an",
+      "scheduled_timeline": {
+        "first_email": "2026-05-01",
+        "follow_up_1": "2026-05-15",
+        "follow_up_2": "2026-06-08",
+        "follow_up_3": "2026-07-06",
+        "out_date": "2026-07-07"
+      },
+      "subject_email": "Tracking + Meta campaigns"
+    },
+    {
+      "id": "prospect_170",
+      "brand": "Pepa London (Pepa)",
+      "contact": "Pepa",
+      "email": "pepa@pepalondon.com",
+      "domain": "pepalondon.com",
+      "assigned_to": "Dami",
+      "angle": "2B",
+      "platform": "Shopify",
+      "status": "follow_up_1_sent",
+      "first_contact": "2026-04-30",
+      "last_activity": "2026-05-12",
+      "next_action": "Follow-up 2",
+      "next_action_date": "2026-06-08",
+      "stape_score": null,
+      "notes": null,
+      "thread_id": "19ddab41bebe6f27",
+      "timeline": [
+        {
+          "date": "2026-04-30",
+          "action": "Email outbound 2B inviata (stimato)"
+        },
+        {
+          "date": "2026-05-12",
+          "action": "Follow-up 1 inviato"
+        }
+      ],
+      "label_id": "Label_8658624016447790536",
+      "sender": "Dami",
+      "is_first_email": true,
+      "followups_sent": [
+        {
+          "date": "2026-05-12",
+          "type": "follow_up_1",
+          "sender": "Dami",
+          "snippet": "Hi Pepa, bumping this up — the tracking gap on Pepa London's campaigns is still "
+        }
+      ],
+      "last_outbound_by_antonio": {
+        "date": "2026-05-12",
+        "snippet": "Hi Pepa, bumping this up — the tracking gap on Pepa London's campaigns is still "
+      },
+      "last_reply_from_prospect": null,
+      "next_followup_due": "2026-06-08",
+      "days_since_last_activity": 1,
+      "first_email_snippet": "Hi Pepa, I was looking into Pepa London and noticed you're running Meta/Google campaigns on an alrea",
+      "scheduled_timeline": {
+        "first_email": "2026-04-30",
+        "follow_up_1": "2026-05-15",
+        "follow_up_2": "2026-06-08",
+        "follow_up_3": "2026-07-06",
+        "out_date": "2026-07-07"
+      },
+      "subject_email": "Pepa London, the numbers aren't adding up"
+    },
+    {
+      "id": "prospect_171",
+      "brand": "Solange",
+      "contact": "Martina",
+      "email": "martina@solange.co.uk",
+      "domain": "solange.co.uk",
+      "assigned_to": "Dami",
+      "angle": "2B",
+      "platform": "Shopify",
+      "status": "follow_up_1_sent",
+      "first_contact": "2026-04-30",
+      "last_activity": "2026-05-12",
+      "next_action": "Follow-up 2",
+      "next_action_date": "2026-06-08",
+      "stape_score": null,
+      "notes": null,
+      "thread_id": "19dda95546e62195",
+      "timeline": [
+        {
+          "date": "2026-04-30",
+          "action": "Email outbound 2B inviata (stimato)"
+        },
+        {
+          "date": "2026-05-12",
+          "action": "Follow-up 1 inviato"
+        }
+      ],
+      "label_id": "Label_8658624016447790536",
+      "sender": "Dami",
+      "is_first_email": true,
+      "followups_sent": [
+        {
+          "date": "2026-05-12",
+          "type": "follow_up_1",
+          "sender": "Dami",
+          "snippet": "Ciao Martina, rimando su in caso non l'avessi vista — il problema al tracking ch"
+        }
+      ],
+      "last_outbound_by_antonio": {
+        "date": "2026-05-12",
+        "snippet": "Ciao Martina, rimando su in caso non l'avessi vista — il problema al tracking ch"
+      },
+      "last_reply_from_prospect": null,
+      "next_followup_due": "2026-06-08",
+      "days_since_last_activity": 1,
+      "first_email_snippet": "Ciao Martina, Stavo guardando Solange e ho visto che state girando campagne Meta/Google su uno store",
+      "scheduled_timeline": {
+        "first_email": "2026-04-30",
+        "follow_up_1": "2026-05-15",
+        "follow_up_2": "2026-06-08",
+        "follow_up_3": "2026-07-06",
+        "out_date": "2026-07-07"
+      },
+      "subject_email": "Solange, i dati non tornano"
+    },
+    {
+      "id": "prospect_172",
+      "brand": "Crockett & Jones",
+      "contact": "Antonia McDonnell",
+      "email": "antoniamcdonnell@crockettandjones.com",
+      "domain": "crockettandjones.com",
+      "assigned_to": "Dami",
+      "angle": "2B",
+      "platform": "Shopify",
+      "status": "follow_up_1_sent",
+      "first_contact": "2026-04-30",
+      "last_activity": "2026-05-12",
+      "next_action": "Follow-up 2",
+      "next_action_date": "2026-06-08",
+      "stape_score": null,
+      "notes": null,
+      "thread_id": "19ddabe81eb4e921",
+      "timeline": [
+        {
+          "date": "2026-04-30",
+          "action": "Email outbound 2B inviata (stimato)"
+        },
+        {
+          "date": "2026-05-12",
+          "action": "Follow-up 1 inviato"
+        }
+      ],
+      "label_id": "Label_8658624016447790536",
+      "sender": "Dami",
+      "is_first_email": true,
+      "followups_sent": [
+        {
+          "date": "2026-05-12",
+          "type": "follow_up_1",
+          "sender": "Dami",
+          "snippet": "Hi Antonia, bumping this up — the tracking issue I spotted on Crockett & Jones' "
+        }
+      ],
+      "last_outbound_by_antonio": {
+        "date": "2026-05-12",
+        "snippet": "Hi Antonia, bumping this up — the tracking issue I spotted on Crockett & Jones' "
+      },
+      "last_reply_from_prospect": null,
+      "next_followup_due": "2026-06-08",
+      "days_since_last_activity": 1,
+      "first_email_snippet": "Hi Antonia, I was looking into Crockett & Jones and noticed you're running Meta/Google campaigns on ",
+      "scheduled_timeline": {
+        "first_email": "2026-04-30",
+        "follow_up_1": "2026-05-15",
+        "follow_up_2": "2026-06-08",
+        "follow_up_3": "2026-07-06",
+        "out_date": "2026-07-07"
+      },
+      "subject_email": "Crockett & Jones, one quick thing about your ads"
+    },
+    {
+      "id": "prospect_173",
+      "brand": "Le Col",
+      "contact": "Marina Hernandez",
+      "email": "marina.hernandez@lecol.cc",
+      "domain": "lecol.cc",
+      "assigned_to": "Dami",
+      "angle": "2B",
+      "platform": "Shopify",
+      "status": "follow_up_1_sent",
+      "first_contact": "2026-04-30",
+      "last_activity": "2026-05-12",
+      "next_action": "Follow-up 2",
+      "next_action_date": "2026-06-08",
+      "stape_score": null,
+      "notes": null,
+      "thread_id": "19ddae9da49ff842",
+      "timeline": [
+        {
+          "date": "2026-04-30",
+          "action": "Email outbound 2B inviata (stimato)"
+        },
+        {
+          "date": "2026-05-12",
+          "action": "Follow-up 1 inviato"
+        }
+      ],
+      "label_id": "Label_8658624016447790536",
+      "sender": "Dami",
+      "is_first_email": true,
+      "followups_sent": [
+        {
+          "date": "2026-05-12",
+          "type": "follow_up_1",
+          "sender": "Dami",
+          "snippet": "Hi Marina, bumping this up — the tracking gap on Le Col's campaigns is still the"
+        }
+      ],
+      "last_outbound_by_antonio": {
+        "date": "2026-05-12",
+        "snippet": "Hi Marina, bumping this up — the tracking gap on Le Col's campaigns is still the"
+      },
+      "last_reply_from_prospect": null,
+      "next_followup_due": "2026-06-08",
+      "days_since_last_activity": 1,
+      "first_email_snippet": "Hi Marina, I was looking into Le Col and noticed you're running Meta/Google campaigns on an already ",
+      "scheduled_timeline": {
+        "first_email": "2026-04-30",
+        "follow_up_1": "2026-05-15",
+        "follow_up_2": "2026-06-08",
+        "follow_up_3": "2026-07-06",
+        "out_date": "2026-07-07"
+      },
+      "subject_email": "Le Col, the numbers aren't adding up"
+    },
+    {
+      "id": "prospect_174",
+      "brand": "Pepa London (Dom)",
+      "contact": "Dom",
+      "email": "dom@pepalondon.com",
+      "domain": "pepalondon.com",
+      "assigned_to": "Dami",
+      "angle": "2B",
+      "platform": "Shopify",
+      "status": "follow_up_1_sent",
+      "first_contact": "2026-04-30",
+      "last_activity": "2026-05-12",
+      "next_action": "Follow-up 2",
+      "next_action_date": "2026-06-08",
+      "stape_score": null,
+      "notes": null,
+      "thread_id": "19ddab303ace12d4",
+      "timeline": [
+        {
+          "date": "2026-04-30",
+          "action": "Email outbound 2B inviata (stimato)"
+        },
+        {
+          "date": "2026-05-12",
+          "action": "Follow-up 1 inviato"
+        }
+      ],
+      "label_id": "Label_8658624016447790536",
+      "sender": "Dami",
+      "is_first_email": true,
+      "followups_sent": [
+        {
+          "date": "2026-05-12",
+          "type": "follow_up_1",
+          "sender": "Dami",
+          "snippet": "Hi Dom, bumping this up — the tracking issue I spotted on Pepa London's campaign"
+        }
+      ],
+      "last_outbound_by_antonio": {
+        "date": "2026-05-12",
+        "snippet": "Hi Dom, bumping this up — the tracking issue I spotted on Pepa London's campaign"
+      },
+      "last_reply_from_prospect": null,
+      "next_followup_due": "2026-06-08",
+      "days_since_last_activity": 1,
+      "first_email_snippet": "Hi Dom, I was looking into Pepa London and noticed you're running Meta/Google campaigns on an alread",
+      "scheduled_timeline": {
+        "first_email": "2026-04-30",
+        "follow_up_1": "2026-05-15",
+        "follow_up_2": "2026-06-08",
+        "follow_up_3": "2026-07-06",
+        "out_date": "2026-07-07"
+      },
+      "subject_email": "Pepa London, one quick thing about your ads"
+    },
+    {
+      "id": "prospect_175",
+      "brand": "The Go-To (Talitha)",
+      "contact": "Talitha",
+      "email": "talitha@thegoto.com",
+      "domain": "thegoto.com",
+      "assigned_to": "Dami",
+      "angle": "2B",
+      "platform": "Shopify",
+      "status": "follow_up_1_sent",
+      "first_contact": "2026-04-30",
+      "last_activity": "2026-05-12",
+      "next_action": "Follow-up 2",
+      "next_action_date": "2026-06-08",
+      "stape_score": null,
+      "notes": null,
+      "thread_id": "19ddac415eeb5542",
+      "timeline": [
+        {
+          "date": "2026-04-30",
+          "action": "Email outbound 2B inviata (stimato)"
+        },
+        {
+          "date": "2026-05-12",
+          "action": "Follow-up 1 inviato"
+        }
+      ],
+      "label_id": "Label_8658624016447790536",
+      "sender": "Dami",
+      "is_first_email": true,
+      "followups_sent": [
+        {
+          "date": "2026-05-12",
+          "type": "follow_up_1",
+          "sender": "Dami",
+          "snippet": "Hi Talitha, bumping this up — the tracking gap I spotted on The Go-To's campaign"
+        }
+      ],
+      "last_outbound_by_antonio": {
+        "date": "2026-05-12",
+        "snippet": "Hi Talitha, bumping this up — the tracking gap I spotted on The Go-To's campaign"
+      },
+      "last_reply_from_prospect": null,
+      "next_followup_due": "2026-06-08",
+      "days_since_last_activity": 1,
+      "first_email_snippet": "Hi Talitha, I was looking into The Go-To and noticed you're running Meta/Google campaigns on an alre",
+      "scheduled_timeline": {
+        "first_email": "2026-04-30",
+        "follow_up_1": "2026-05-15",
+        "follow_up_2": "2026-06-08",
+        "follow_up_3": "2026-07-06",
+        "out_date": "2026-07-07"
+      },
+      "subject_email": "The Go-To, the numbers aren't adding up"
+    },
+    {
+      "id": "prospect_176",
+      "brand": "Kiss the Hippo",
+      "contact": "Guy",
+      "email": "guy@kissthehippo.com",
+      "domain": "kissthehippo.com",
+      "assigned_to": "Dami",
+      "angle": "2B",
+      "platform": "Shopify",
+      "status": "follow_up_1_sent",
+      "first_contact": "2026-04-29",
+      "last_activity": "2026-05-12",
+      "next_action": "Follow-up 2",
+      "next_action_date": "2026-06-05",
+      "stape_score": null,
+      "notes": null,
+      "thread_id": "19dd5889a5c72686",
+      "timeline": [
+        {
+          "date": "2026-04-29",
+          "action": "Email outbound 2B inviata (stimato)"
+        },
+        {
+          "date": "2026-05-12",
+          "action": "Follow-up 1 inviato"
+        }
+      ],
+      "label_id": "Label_8658624016447790536",
+      "sender": "Dami",
+      "is_first_email": true,
+      "followups_sent": [
+        {
+          "date": "2026-05-12",
+          "type": "follow_up_1",
+          "sender": "Dami",
+          "snippet": "Hi Guy, bumping this up — the tracking gap on Kiss the Hippo's campaigns is stil"
+        }
+      ],
+      "last_outbound_by_antonio": {
+        "date": "2026-05-12",
+        "snippet": "Hi Guy, bumping this up — the tracking gap on Kiss the Hippo's campaigns is stil"
+      },
+      "last_reply_from_prospect": null,
+      "next_followup_due": "2026-06-05",
+      "days_since_last_activity": 1,
+      "first_email_snippet": "Hi Guy, I was looking into Kiss the Hippo and noticed you're running Meta/Google campaigns on an alr",
+      "scheduled_timeline": {
+        "first_email": "2026-04-29",
+        "follow_up_1": "2026-05-14",
+        "follow_up_2": "2026-06-05",
+        "follow_up_3": "2026-07-03",
+        "out_date": "2026-07-06"
+      },
+      "subject_email": "Kiss the Hippo, the numbers aren't adding up"
+    },
+    {
+      "id": "prospect_177",
+      "brand": "The Feeting Room",
+      "contact": "Guillaume Oliveira",
+      "email": "Goliveira@thefeetingroom.com",
+      "domain": "thefeetingroom.com",
+      "assigned_to": "Antonio",
+      "angle": "warm",
+      "platform": null,
+      "status": "contacted",
+      "first_contact": "2026-05-13",
+      "last_activity": "2026-05-13",
+      "next_action": "Follow-up 1",
+      "next_action_date": "2026-05-27",
+      "stape_score": null,
+      "notes": "Email warm — case study condiviso. Non cold outreach standard.",
+      "thread_id": "19e1f64180a23758",
+      "timeline": [
+        {
+          "date": "2026-05-13",
+          "action": "Email warm outbound inviata (case study)"
+        }
+      ],
+      "label_id": "Label_1523762719426921570",
+      "sender": "Antonio",
+      "is_first_email": true,
+      "followups_sent": [],
+      "last_outbound_by_antonio": {
+        "date": "2026-05-13",
+        "snippet": "Hey Guillaume, how are you? After a while, I finally put together something I've"
+      },
+      "last_reply_from_prospect": null,
+      "next_followup_due": "2026-05-27",
+      "days_since_last_activity": 0,
+      "first_email_snippet": "Hey Guillaume, how are you? After a while, I finally put together something I've been wanting to wri",
+      "scheduled_timeline": {
+        "first_email": "2026-05-13",
+        "follow_up_1": "2026-05-27",
+        "follow_up_2": "2026-06-18",
+        "follow_up_3": "2026-07-16",
+        "out_date": "2026-07-17"
+      },
+      "subject_email": "case study is live"
     }
   ],
   "bounced": [
