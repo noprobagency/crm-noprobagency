@@ -28,7 +28,10 @@
 
   <!-- 7-DAY ACTIVITY -->
   <section>
-    <h2 class="section-title">Attività ultimi 7 giorni</h2>
+    <h2 class="section-title">
+      Attività ultimi 7 giorni
+      <span class="right" id="week-bar-label" style="color:var(--muted);font-family:var(--font-mono);font-size:11px;">Ultimi 7 giorni · oggi escluso</span>
+    </h2>
     <div class="week-bar" id="week-bar"></div>
     <div class="week-legend">
       <span class="leg manu">Manu</span>
@@ -126,22 +129,35 @@ function renderWeekBar() {
 
   const flat = [...(STATE.data.active || []), ...(STATE.data.no_reply || [])];
 
-  // 7 giorni terminanti su IERI (oggi escluso — giornata in corso).
-  // Se range filter attivo, usa l'estremo superiore del range.
-  let endIso = todayRomeIso();
+  // DEFAULT (no filter): sempre "ultimi 7 giorni" calcolati al volo
+  // dal timestamp corrente in fuso Europa/Roma. La giornata di oggi
+  // è esclusa perché in corso. L'estremo destro è IERI.
+  // Se range filter attivo: usa l'estremo superiore del range.
+  let endIso;
   if (rangeActive() && STATE.range.to) {
     endIso = STATE.range.to;
   } else {
-    // Sottrai 1 giorno: la barra finisce su ieri, non oggi
-    const t = todayRome(); t.setDate(t.getDate() - 1);
-    endIso = t.toISOString().split('T')[0];
+    const t = todayRome();
+    t.setDate(t.getDate() - 1);
+    endIso = _toRomeIso(t);  // fuso italiano, no UTC shift
   }
-  const end = new Date(endIso + 'T00:00:00');
+  const end = new Date(endIso + 'T12:00:00');
   const todayIso = todayRomeIso();
+
+  // Aggiorna l'etichetta sopra la barra
+  const labelEl = document.getElementById('week-bar-label');
+  if (labelEl) {
+    if (rangeActive()) {
+      const fromStr = STATE.range.from ? formatDate(STATE.range.from) : '…';
+      labelEl.textContent = `Range: ${fromStr} → ${formatDate(endIso)}`;
+    } else {
+      labelEl.textContent = 'Ultimi 7 giorni · oggi escluso (giornata in corso)';
+    }
+  }
 
   for (let i = 6; i >= 0; i--) {
     const d = new Date(end); d.setDate(d.getDate() - i);
-    const iso = d.toISOString().split('T')[0];
+    const iso = _toRomeIso(d);  // fuso italiano
 
     // Prime email = first_contact == iso AND is_first_email !== false
     const onDayFirst = flat.filter(p => p.first_contact === iso && p.is_first_email !== false);
