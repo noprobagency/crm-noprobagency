@@ -1,4 +1,6 @@
-// CRM NoProb v3 — shared utilities (email-only sequence)
+// CRM NoProb v3.1 — shared utilities (timezone Europa/Roma, working days)
+
+const TZ = 'Europe/Rome';
 
 // ============ Data loading ============
 async function loadProspects() {
@@ -11,9 +13,9 @@ async function loadProspects() {
 async function loadAllProspects() {
   const data = await loadProspects();
   const all = [
-    ...(data.active   || []).map(p => ({ ...p, _section: 'active' })),
+    ...(data.active   || []).map(p => ({ ...p, _section: 'active'   })),
     ...(data.no_reply || []).map(p => ({ ...p, _section: 'no_reply' })),
-    ...(data.bounced  || []).map(p => ({ ...p, _section: 'bounced' })),
+    ...(data.bounced  || []).map(p => ({ ...p, _section: 'bounced'  })),
   ];
   // Ordina per first_contact DESC (più recenti prima)
   all.sort((a, b) => {
@@ -33,46 +35,76 @@ function getSender(labelIds = []) {
   return 'Manu';
 }
 
-// ============ Date utils ============
-function _today() { const d = new Date(); d.setHours(0,0,0,0); return d; }
-function _parse(s) {
+// ============ Date utils — Europa/Roma ============
+function todayRome() {
+  const now = new Date();
+  // 'en-CA' produce ISO yyyy-mm-dd
+  const romeStr = now.toLocaleDateString('en-CA', { timeZone: TZ });
+  return new Date(romeStr + 'T00:00:00');
+}
+
+function todayRomeIso() {
+  return new Date().toLocaleDateString('en-CA', { timeZone: TZ });
+}
+
+function _parseDate(s) {
   if (!s) return null;
+  // ISO date "YYYY-MM-DD" — interpretiamo come mezzanotte locale
   const d = new Date(s + 'T00:00:00');
   return isNaN(d) ? null : d;
 }
+
 function daysSince(dateStr) {
   if (!dateStr) return 0;
-  const d = _parse(dateStr); if (!d) return 0;
-  return Math.round((_today() - d) / 86400000);
+  const today = todayRome();
+  const d = _parseDate(dateStr);
+  if (!d) return 0;
+  return Math.round((today - d) / 86400000);
 }
+
 function daysUntil(dateStr) {
   if (!dateStr) return null;
-  const d = _parse(dateStr); if (!d) return null;
-  return Math.round((d - _today()) / 86400000);
+  const today = todayRome();
+  const d = _parseDate(dateStr);
+  if (!d) return null;
+  return Math.round((d - today) / 86400000);
 }
+
 function addDays(dateStr, n) {
-  const d = _parse(dateStr); if (!d) return null;
+  const d = _parseDate(dateStr);
+  if (!d) return null;
   d.setDate(d.getDate() + n);
   return d.toISOString().split('T')[0];
 }
+
 function formatDate(dateStr) {
   if (!dateStr) return '—';
-  const d = _parse(dateStr); if (!d) return '—';
-  return d.toLocaleDateString('it-IT', { day: '2-digit', month: '2-digit' });
-}
-function formatDateFull(dateStr) {
-  if (!dateStr) return '—';
-  const d = _parse(dateStr); if (!d) return '—';
-  return d.toLocaleDateString('it-IT', { day: '2-digit', month: '2-digit', year: 'numeric' });
-}
-function formatTimestamp(iso) {
-  if (!iso) return '—';
-  const d = new Date(iso); if (isNaN(d)) return '—';
-  return d.toLocaleString('it-IT', {
-    day: '2-digit', month: '2-digit', year: 'numeric',
-    hour: '2-digit', minute: '2-digit'
+  const d = _parseDate(dateStr); if (!d) return '—';
+  return d.toLocaleDateString('it-IT', {
+    day: '2-digit', month: '2-digit', timeZone: TZ
   });
 }
+
+function formatDateFull(dateStr) {
+  if (!dateStr) return '—';
+  const d = _parseDate(dateStr); if (!d) return '—';
+  return d.toLocaleDateString('it-IT', {
+    day: '2-digit', month: '2-digit', year: 'numeric', timeZone: TZ
+  });
+}
+
+function formatDateTime(isoStr) {
+  if (!isoStr) return '—';
+  const d = new Date(isoStr); if (isNaN(d)) return '—';
+  return d.toLocaleString('it-IT', {
+    day: '2-digit', month: '2-digit', year: 'numeric',
+    hour: '2-digit', minute: '2-digit', timeZone: TZ
+  });
+}
+
+// alias kept for backward compat
+function formatTimestamp(iso) { return formatDateTime(iso); }
+
 function urgency(dateStr) {
   const days = daysUntil(dateStr);
   if (days === null) return 'none';
@@ -88,49 +120,91 @@ function dueLabel(dateStr) {
   if (days === 1) return 'Domani';
   return `Tra ${days}g`;
 }
+
+const DOW_IT = ['Dom', 'Lun', 'Mar', 'Mer', 'Gio', 'Ven', 'Sab'];
+function dayOfWeek(dateStr) {
+  const d = _parseDate(dateStr); if (!d) return '—';
+  return DOW_IT[d.getDay()];
+}
 function dayCardLabel(dateStr) {
-  const d = _parse(dateStr); if (!d) return '—';
-  const day = d.toLocaleDateString('it-IT', { weekday: 'short' });
-  const num = d.toLocaleDateString('it-IT', { day: '2-digit', month: 'short' });
+  const d = _parseDate(dateStr); if (!d) return '—';
+  const day = d.toLocaleDateString('it-IT', { weekday: 'short', timeZone: TZ });
+  const num = d.toLocaleDateString('it-IT', { day: '2-digit', month: 'short', timeZone: TZ });
   return `${day.charAt(0).toUpperCase() + day.slice(1)} ${num}`;
 }
 
-// ============ SOP — sequenza email-only G0/G10/G25/G45 ============
-function getNextAction(firstContact, followupsSent) {
-  const days = daysSince(firstContact);
-  const sentTypes = (followupsSent || []).map(f => f.type);
+// ============ Italian holidays + working days ============
+function isItalianHoliday(date) {
+  const wd = date.getDay();
+  if (wd === 0 || wd === 6) return true;
+  const m = date.getMonth() + 1;
+  const day = date.getDate();
+  const fixed = [
+    [1,1],[1,6],[4,25],[5,1],[6,2],[8,15],[11,1],[12,8],[12,25],[12,26]
+  ];
+  if (fixed.some(([mo, da]) => m === mo && day === da)) return true;
+  if (m === 8  && day >= 10 && day <= 20) return true;
+  if (m === 12 && day >= 21) return true;
+  if (m === 1  && day <= 7)  return true;
+  return false;
+}
 
-  if (days < 10) return {
-    action: 'In attesa',
-    date: addDays(firstContact, 10),
-    auto: false, label: null
+function addWorkingDays(dateStr, n) {
+  let d = _parseDate(dateStr);
+  if (!d) return null;
+  let added = 0;
+  while (added < n) {
+    d.setDate(d.getDate() + 1);
+    if (!isItalianHoliday(d)) added++;
+  }
+  while (isItalianHoliday(d)) d.setDate(d.getDate() + 1);
+  return d.toISOString().split('T')[0];
+}
+
+function calculateTimeline(firstContact) {
+  if (!firstContact) return null;
+  return {
+    first_email: firstContact,
+    follow_up_1: addWorkingDays(firstContact, 10),
+    follow_up_2: addWorkingDays(firstContact, 25),
+    follow_up_3: addWorkingDays(firstContact, 45),
+    out_date:    addWorkingDays(firstContact, 46),
   };
-  if (!sentTypes.includes('follow_up_1')) return {
-    action: 'Follow-up 1',
-    date: addDays(firstContact, 10),
-    auto: true, label: 'FU 1'
+}
+
+function getTimeline(prospect) {
+  return prospect.scheduled_timeline || calculateTimeline(prospect.first_contact);
+}
+
+// ============ SOP — Next action (basata sulla timeline) ============
+function getNextAction(prospect) {
+  const tl = getTimeline(prospect);
+  const sent = (prospect.followups_sent || []).map(f => f.type);
+  const todayIso = todayRomeIso();
+
+  if (['in_conversation', 'call_booked', 'closed'].includes(prospect.status)) {
+    return { action: 'Gestione manuale', date: prospect.next_action_date || null, auto: false, label: null, overdue: false };
+  }
+  if (prospect.status === 'archived') {
+    return { action: 'Archiviato', date: null, auto: false, label: 'OUT', overdue: false };
+  }
+  if (prospect.status === 'bounced') {
+    return { action: 'Bounce', date: null, auto: false, label: 'BNC', overdue: false };
+  }
+
+  if (!sent.includes('follow_up_1') && tl) return {
+    action: 'Follow-up 1', date: tl.follow_up_1, auto: true,
+    label: 'FU 1', overdue: tl.follow_up_1 < todayIso
   };
-  if (days < 25) return {
-    action: 'In attesa FU 2',
-    date: addDays(firstContact, 25),
-    auto: false, label: null
+  if (!sent.includes('follow_up_2') && tl) return {
+    action: 'Follow-up 2', date: tl.follow_up_2, auto: true,
+    label: 'FU 2', overdue: tl.follow_up_2 < todayIso
   };
-  if (!sentTypes.includes('follow_up_2')) return {
-    action: 'Follow-up 2',
-    date: addDays(firstContact, 25),
-    auto: true, label: 'FU 2'
+  if (!sent.includes('follow_up_3') && tl) return {
+    action: 'Follow-up 3', date: tl.follow_up_3, auto: true,
+    label: 'FU 3', overdue: tl.follow_up_3 < todayIso
   };
-  if (days < 45) return {
-    action: 'In attesa FU 3',
-    date: addDays(firstContact, 45),
-    auto: false, label: null
-  };
-  if (!sentTypes.includes('follow_up_3')) return {
-    action: 'Follow-up 3',
-    date: addDays(firstContact, 45),
-    auto: true, label: 'FU 3'
-  };
-  return { action: 'Archivia', date: null, auto: true, label: 'OUT' };
+  return { action: 'Archivia', date: null, auto: true, label: 'OUT', overdue: false };
 }
 
 // ============ Pagination ============
@@ -150,14 +224,13 @@ function paginate(array, page, perPage = 50) {
   };
 }
 
-function renderPagination(container, currentPage, totalPages, onPageChangeName, total) {
+function renderPagination(container, currentPage, totalPages, onPageChangeName, total, perPage = 50) {
   if (totalPages <= 1) {
     container.innerHTML = total != null
       ? `<div class="pagination"><span class="info">${total} risultati</span></div>`
       : '';
     return;
   }
-
   const pages = [];
   for (let i = 1; i <= totalPages; i++) {
     if (i === 1 || i === totalPages || (i >= currentPage - 2 && i <= currentPage + 2)) {
@@ -166,11 +239,9 @@ function renderPagination(container, currentPage, totalPages, onPageChangeName, 
       pages.push('...');
     }
   }
-
-  const info = total != null
-    ? `<span class="info">${(currentPage - 1) * 50 + 1}-${Math.min(total, currentPage * 50)} di ${total}</span>`
-    : '';
-
+  const startN = (currentPage - 1) * perPage + 1;
+  const endN = Math.min(total, currentPage * perPage);
+  const info = total != null ? `<span class="info">${startN}-${endN} di ${total}</span>` : '';
   container.innerHTML = `
     <div class="pagination">
       ${info}
@@ -187,7 +258,7 @@ function renderPagination(container, currentPage, totalPages, onPageChangeName, 
   `;
 }
 
-// ============ Badges (HTML strings) ============
+// ============ Badges ============
 function senderBadge(sender) {
   const map = {
     Manu:    { bg: '#f3ebf8', color: '#6b3d7a', label: 'MANU' },
@@ -240,6 +311,17 @@ function fuTypeLabel(type) {
   return map[type] || type;
 }
 
+// ============ Utility: earliest first_contact ============
+function getEarliestContact(rawData) {
+  const all = [
+    ...(rawData.active || []),
+    ...(rawData.no_reply || []),
+    ...(rawData.bounced || [])
+  ];
+  const dates = all.map(p => p.first_contact).filter(Boolean).sort();
+  return dates[0] || todayRomeIso();
+}
+
 // ============ Header / Nav ============
 function buildHeader(activePage) {
   const items = [
@@ -261,7 +343,7 @@ function buildHeader(activePage) {
 
 function setTimestamp(iso) {
   const t = document.getElementById('app-timestamp');
-  if (t) t.textContent = 'Aggiornato: ' + formatTimestamp(iso);
+  if (t) t.textContent = 'Aggiornato: ' + formatDateTime(iso);
 }
 
 function showError(msg) {
@@ -273,7 +355,6 @@ function showError(msg) {
   main.insertBefore(div, main.firstChild);
 }
 
-// ============ HTML helper ============
 function escapeHtml(s) {
   if (s == null) return '';
   return String(s).replace(/[&<>"']/g, c =>
@@ -281,10 +362,65 @@ function escapeHtml(s) {
   );
 }
 
-// ============ Modal ============
+// ============ Mini timeline (per il modal prospect) ============
+function renderMiniTimeline(prospect) {
+  const tl = getTimeline(prospect);
+  if (!tl) return '';
+  const sent = new Set((prospect.followups_sent || []).map(f => f.type));
+  const todayIso = todayRomeIso();
+  const isActive = ['in_conversation', 'call_booked', 'closed'].includes(prospect.status);
+  const isArchived = prospect.status === 'archived';
+  const isBounced = prospect.status === 'bounced';
+
+  function stepStatus(date, key) {
+    if (key === 'first_email') return 'done';            // sempre eseguita
+    if (sent.has(key)) return 'done';                     // FU inviato
+    if (key === 'out_date') {
+      if (isArchived) return 'out';
+      if (isBounced)  return 'out';
+      return date < todayIso ? 'pending' : 'pending';
+    }
+    if (date < todayIso) return 'overdue';                // scaduto
+    return 'pending';                                      // schedulato
+  }
+
+  const steps = [
+    { key: 'first_email', label: 'Prima',  date: tl.first_email },
+    { key: 'follow_up_1', label: 'FU 1',   date: tl.follow_up_1 },
+    { key: 'follow_up_2', label: 'FU 2',   date: tl.follow_up_2 },
+    { key: 'follow_up_3', label: 'FU 3',   date: tl.follow_up_3 },
+    { key: 'out_date',    label: 'OUT',    date: tl.out_date    },
+  ];
+
+  const stepsHtml = steps.map(s => {
+    const st = stepStatus(s.date, s.key);
+    return `
+      <div class="mini-step ${st} ${isActive ? 'muted' : ''}">
+        <div class="mini-dot"></div>
+        <div class="mini-date">${dayOfWeek(s.date).toLowerCase()} ${formatDate(s.date)}</div>
+        <div class="mini-label">${s.label}</div>
+        <div class="mini-status">${
+          st === 'done'    ? 'Inviata' :
+          st === 'overdue' ? 'Scaduto' :
+          st === 'out'     ? '—' :
+          'Schedulato'
+        }</div>
+      </div>
+    `;
+  }).join('');
+
+  return `
+    <div class="mini-timeline">
+      <div class="mini-track">${stepsHtml}</div>
+      ${isActive ? '<div class="mini-banner">✓ Risposta ricevuta — gestione manuale</div>' : ''}
+    </div>
+  `;
+}
+
+// ============ Modal prospect (singolo contatto) ============
 function openProspectModal(prospect) {
   const p = prospect;
-  // Costruisci timeline email (prima email + tutti i followup)
+
   const emailEvents = [
     {
       date: p.first_contact,
@@ -292,7 +428,9 @@ function openProspectModal(prospect) {
       sender: p.sender || p.assigned_to,
       snippet: p.first_email_snippet || (p.last_outbound_by_antonio && p.last_outbound_by_antonio.snippet) || ''
     },
-    ...(p.followups_sent || []).map(f => ({ date: f.date, type: f.type, sender: f.sender, snippet: f.snippet }))
+    ...(p.followups_sent || []).map(f => ({
+      date: f.date, type: f.type, sender: f.sender, snippet: f.snippet
+    }))
   ].filter(e => e.date).sort((a, b) => a.date.localeCompare(b.date));
 
   const replyEvent = p.last_reply_from_prospect ? {
@@ -301,7 +439,9 @@ function openProspectModal(prospect) {
     inbound: true,
   } : null;
 
-  const allEvents = replyEvent ? [...emailEvents, replyEvent].sort((a, b) => a.date.localeCompare(b.date)) : emailEvents;
+  const allEvents = replyEvent
+    ? [...emailEvents, replyEvent].sort((a, b) => a.date.localeCompare(b.date))
+    : emailEvents;
 
   const overlay = document.createElement('div');
   overlay.className = 'modal-overlay';
@@ -324,7 +464,7 @@ function openProspectModal(prospect) {
             <dt>Email</dt><dd>${escapeHtml(p.email || '—')}</dd>
             <dt>Dominio</dt><dd>${p.domain ? `<a href="https://${p.domain}" target="_blank" rel="noopener">${p.domain}</a>` : '—'}</dd>
             <dt>Piattaforma</dt><dd>${escapeHtml(p.platform || '—')}</dd>
-            <dt>Primo contatto</dt><dd>${formatDateFull(p.first_contact)}</dd>
+            <dt>Primo contatto</dt><dd>${formatDateFull(p.first_contact)} (${dayOfWeek(p.first_contact)})</dd>
             <dt>Ultima attività</dt><dd>${formatDateFull(p.last_activity)} (${p.days_since_last_activity ?? '—'}g)</dd>
             <dt>Prossima azione</dt><dd>${escapeHtml(p.next_action || '—')}</dd>
             <dt>Scadenza</dt><dd>${p.next_action_date ? `${formatDateFull(p.next_action_date)} · ${dueLabel(p.next_action_date)}` : '—'}</dd>
@@ -333,7 +473,10 @@ function openProspectModal(prospect) {
           </dl>
         </div>
 
-        <h4 class="modal-h4">Timeline email</h4>
+        <h4 class="modal-h4">Roadmap programmata</h4>
+        ${renderMiniTimeline(p)}
+
+        <h4 class="modal-h4">Email inviate / ricevute</h4>
         <ul class="email-timeline">
           ${allEvents.map(e => `
             <li class="${e.inbound ? 'inbound' : 'outbound'}">
@@ -354,11 +497,8 @@ function openProspectModal(prospect) {
       </div>
     </div>
   `;
-  overlay.addEventListener('click', e => {
-    if (e.target === overlay) overlay.remove();
-  });
+  overlay.addEventListener('click', e => { if (e.target === overlay) overlay.remove(); });
   document.body.appendChild(overlay);
-  // ESC close
   const escHandler = (ev) => {
     if (ev.key === 'Escape') {
       overlay.remove();
@@ -366,4 +506,97 @@ function openProspectModal(prospect) {
     }
   };
   document.addEventListener('keydown', escHandler);
+}
+
+// ============ Modal azienda (raggruppato per brand) ============
+function openCompanyModal(company) {
+  // company = { brand, domain, prospects: [...] }
+  const overlay = document.createElement('div');
+  overlay.className = 'modal-overlay';
+  const earliestContact = company.prospects
+    .map(p => p.first_contact).filter(Boolean).sort()[0];
+
+  overlay.innerHTML = `
+    <div class="modal" onclick="event.stopPropagation()">
+      <div class="modal-header">
+        <div class="modal-title">
+          <span style="font-size:18px;">🏢</span>
+          <span class="brand">${escapeHtml(company.brand || '—')}</span>
+          ${company.domain ? `<a href="https://${company.domain}" target="_blank" rel="noopener" style="font-family:var(--font-mono);font-size:12px;color:var(--muted);">${escapeHtml(company.domain)}</a>` : ''}
+        </div>
+        <button class="modal-close-btn" onclick="this.closest('.modal-overlay').remove()">✕</button>
+      </div>
+
+      <div class="modal-body">
+        <div class="modal-grid">
+          <dl class="kv">
+            <dt>Primo contatto</dt><dd>${formatDateFull(earliestContact)}</dd>
+            <dt>Contatti raggiunti</dt><dd>${company.prospects.length}</dd>
+            <dt>Risposte</dt><dd>${company.prospects.filter(p => ['in_conversation','call_booked','closed'].includes(p.status)).length}</dd>
+          </dl>
+        </div>
+
+        <h4 class="modal-h4">Contatti raggiunti (${company.prospects.length})</h4>
+        <div class="company-contacts">
+          ${company.prospects.map(p => {
+            const sender = (p.sender || p.assigned_to || 'Manu').toLowerCase();
+            return `
+              <div class="cc-row ${sender}" data-pid="${p.id}">
+                <div class="cc-head">
+                  ${senderBadge(p.sender || p.assigned_to)}
+                  <span class="cc-name">${escapeHtml(p.contact || p.email || '—')}</span>
+                  ${angleBadge(p.angle)}
+                  ${statusBadge(p.status)}
+                </div>
+                <div class="cc-meta">
+                  ${escapeHtml(p.email || '—')} · primo contatto ${formatDate(p.first_contact)} (${dayOfWeek(p.first_contact)})
+                </div>
+                ${p.first_email_snippet ? `<div class="cc-snippet">"${escapeHtml(p.first_email_snippet.slice(0, 80))}${p.first_email_snippet.length > 80 ? '…' : ''}"</div>` : ''}
+              </div>
+            `;
+          }).join('')}
+        </div>
+      </div>
+
+      <div class="modal-footer">
+        <button class="btn secondary" onclick="this.closest('.modal-overlay').remove()">Chiudi</button>
+      </div>
+    </div>
+  `;
+  overlay.addEventListener('click', e => { if (e.target === overlay) overlay.remove(); });
+  // Click su un contatto → chiudi questo, apri prospect modal
+  overlay.querySelectorAll('.cc-row').forEach(row => {
+    row.addEventListener('click', () => {
+      const pid = row.getAttribute('data-pid');
+      const p = company.prospects.find(x => x.id === pid);
+      if (p) {
+        overlay.remove();
+        openProspectModal(p);
+      }
+    });
+  });
+  document.body.appendChild(overlay);
+  const escHandler = (ev) => {
+    if (ev.key === 'Escape') {
+      overlay.remove();
+      document.removeEventListener('keydown', escHandler);
+    }
+  };
+  document.addEventListener('keydown', escHandler);
+}
+
+// ============ Group prospects by company (brand) ============
+function groupByCompany(prospects) {
+  const map = new Map();
+  for (const p of prospects) {
+    const key = p.brand || 'Senza brand';
+    if (!map.has(key)) {
+      map.set(key, { brand: key, domain: p.domain || null, prospects: [] });
+    }
+    const co = map.get(key);
+    co.prospects.push(p);
+    // Tieni domain del primo prospect che ne ha uno
+    if (!co.domain && p.domain) co.domain = p.domain;
+  }
+  return Array.from(map.values());
 }

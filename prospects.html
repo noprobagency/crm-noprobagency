@@ -15,7 +15,13 @@
 
 <main>
   <section>
-    <h2 class="section-title">Prospect <span class="count" id="count"></span></h2>
+    <div style="display:flex;align-items:center;gap:14px;flex-wrap:wrap;margin-bottom:6px;">
+      <h2 class="section-title" style="border:none;margin:0;padding:0;">Prospect <span class="count" id="count"></span></h2>
+      <div class="view-toggle">
+        <button id="view-contact" class="active">👤 Per contatto</button>
+        <button id="view-company">🏢 Per azienda</button>
+      </div>
+    </div>
 
     <!-- ROW 1: search + sender -->
     <div class="filters">
@@ -74,8 +80,9 @@
 <script src="./js/shared.js"></script>
 <script>
 const STATE = {
-  all: [],   // tutti i prospect (active + no_reply + bounced) flat
+  all: [],
   meta: null,
+  view: 'contact',  // 'contact' | 'company'
   filters: { sender: 'all', angle: 'all', status: 'all', search: '', from: null, to: null },
   sort: { col: 'first_contact', dir: 'desc' },
   page: 1,
@@ -84,12 +91,10 @@ const STATE = {
 
 function activeFiltersCount() {
   let n = 0;
-  if (STATE.filters.sender !== 'all') n++;
-  if (STATE.filters.angle  !== 'all') n++;
-  if (STATE.filters.status !== 'all') n++;
-  if (STATE.filters.search)           n++;
-  if (STATE.filters.from)             n++;
-  if (STATE.filters.to)               n++;
+  for (const k of ['sender','angle','status']) if (STATE.filters[k] !== 'all') n++;
+  if (STATE.filters.search) n++;
+  if (STATE.filters.from) n++;
+  if (STATE.filters.to) n++;
   return n;
 }
 
@@ -99,8 +104,8 @@ function applyFilters(items) {
   if (f.sender !== 'all') r = r.filter(p => (p.sender || p.assigned_to) === f.sender);
   if (f.angle  !== 'all') r = r.filter(p => p.angle === f.angle);
   if (f.status !== 'all') r = r.filter(p => p.status === f.status);
-  if (f.from)  r = r.filter(p => p.first_contact && p.first_contact >= f.from);
-  if (f.to)    r = r.filter(p => p.first_contact && p.first_contact <= f.to);
+  if (f.from) r = r.filter(p => p.first_contact && p.first_contact >= f.from);
+  if (f.to)   r = r.filter(p => p.first_contact && p.first_contact <= f.to);
   if (f.search) {
     const q = f.search.toLowerCase();
     r = r.filter(p =>
@@ -113,15 +118,17 @@ function applyFilters(items) {
   return r;
 }
 
-function applySort(items) {
-  const { col, dir } = STATE.sort;
+function applySort(items, sortCfg) {
+  const { col, dir } = sortCfg;
   const sign = dir === 'asc' ? 1 : -1;
   const byCol = {
-    brand:           p => (p.brand || '').toLowerCase(),
-    first_contact:   p => p.first_contact || '',
-    days:            p => daysSince(p.first_contact),
-    next_action:     p => p.next_action || '',
-    next_action_date:p => p.next_action_date || '9999-12-31',
+    brand:            p => (p.brand || '').toLowerCase(),
+    first_contact:    p => p.first_contact || '',
+    days:             p => daysSince(p.first_contact),
+    next_action:      p => p.next_action || '',
+    next_action_date: p => p.next_action_date || '9999-12-31',
+    contacts_count:   p => p.contacts_count || 0,
+    replies_count:    p => p.replies_count || 0,
   };
   const fn = byCol[col] || byCol.first_contact;
   return [...items].sort((a, b) => {
@@ -137,7 +144,6 @@ function changeProspectsPage(p) {
   render();
   document.getElementById('table-wrap').scrollIntoView({ behavior: 'smooth', block: 'start' });
 }
-
 function setSort(col) {
   if (STATE.sort.col === col) {
     STATE.sort.dir = STATE.sort.dir === 'asc' ? 'desc' : 'asc';
@@ -156,32 +162,18 @@ function arrowFor(col) {
   return STATE.sort.dir === 'asc' ? '<span class="arrow">↑</span>' : '<span class="arrow">↓</span>';
 }
 
-function render() {
+// ---------- Vista per contatto ----------
+function renderContactView(filtered) {
   const wrap = document.getElementById('table-wrap');
   const pag  = document.getElementById('pagination');
-  wrap.innerHTML = ''; pag.innerHTML = '';
-
-  const filtered = applySort(applyFilters(STATE.all));
-
-  document.getElementById('count').textContent =
-    `${filtered.length}${filtered.length !== STATE.all.length ? ' filtrati su ' + STATE.all.length : ''}`;
-
-  // Active filters badge
-  const af = activeFiltersCount();
-  const badge = document.getElementById('f-active-badge');
-  if (af > 0) {
-    badge.style.display = 'inline-block';
-    badge.textContent = `${af} filtro${af > 1 ? 'i' : ''} attiv${af > 1 ? 'i' : 'o'}`;
-  } else {
-    badge.style.display = 'none';
-  }
 
   if (!filtered.length) {
     wrap.innerHTML = '<div class="empty">Nessun prospect coi filtri attuali</div>';
+    pag.innerHTML = '';
     return;
   }
-
-  const state = paginate(filtered, STATE.page, STATE.perPage);
+  const sorted = applySort(filtered, STATE.sort);
+  const state = paginate(sorted, STATE.page, STATE.perPage);
 
   let html = `
     <table class="crm-table">
@@ -229,7 +221,6 @@ function render() {
   html += '</tbody></table>';
   wrap.innerHTML = html;
 
-  // Bind row clicks
   wrap.querySelectorAll('tbody tr').forEach(tr => {
     tr.addEventListener('click', () => {
       const pid = tr.getAttribute('data-pid');
@@ -237,8 +228,116 @@ function render() {
       if (p) openProspectModal(p);
     });
   });
+  renderPagination(pag, state.currentPage, state.totalPages, 'changeProspectsPage', state.total, STATE.perPage);
+}
 
-  renderPagination(pag, state.currentPage, state.totalPages, 'changeProspectsPage', state.total);
+// ---------- Vista per azienda ----------
+function buildCompanies(filtered) {
+  const companies = groupByCompany(filtered);
+  for (const co of companies) {
+    co.contacts_count = co.prospects.length;
+    co.first_contact  = co.prospects.map(p => p.first_contact).filter(Boolean).sort()[0] || '';
+    co.last_status    = co.prospects
+      .slice()
+      .sort((a, b) => (b.last_activity || '').localeCompare(a.last_activity || ''))[0]?.status || '—';
+    co.angles         = [...new Set(co.prospects.map(p => p.angle).filter(Boolean))];
+    co.replies_count  = co.prospects.filter(p =>
+      ['in_conversation','call_booked','closed'].includes(p.status)
+    ).length;
+    // Per il sort "first_contact"
+    co._sortFirst = co.first_contact;
+  }
+  return companies;
+}
+
+function renderCompanyView(filtered) {
+  const wrap = document.getElementById('table-wrap');
+  const pag  = document.getElementById('pagination');
+
+  const companies = buildCompanies(filtered);
+  if (!companies.length) {
+    wrap.innerHTML = '<div class="empty">Nessuna azienda coi filtri attuali</div>';
+    pag.innerHTML = '';
+    return;
+  }
+
+  // Sort per company view
+  const sortCfg = { col: STATE.sort.col, dir: STATE.sort.dir };
+  // Mappa colonne company-view su getter sortabili
+  const sortable = applySort(companies.map(c => ({
+    ...c,
+    brand: c.brand,
+    first_contact: c.first_contact,
+    days: daysSince(c.first_contact),
+  })), sortCfg);
+  const state = paginate(sortable, STATE.page, STATE.perPage);
+
+  let html = `
+    <table class="crm-table">
+      <thead><tr>
+        <th class="sortable ${STATE.sort.col === 'brand' ? 'sorted' : ''}" onclick="setSort('brand')">Azienda ${arrowFor('brand')}</th>
+        <th>Dominio</th>
+        <th class="sortable ${STATE.sort.col === 'contacts_count' ? 'sorted' : ''}" onclick="setSort('contacts_count')">Contatti ${arrowFor('contacts_count')}</th>
+        <th>Angoli</th>
+        <th class="sortable ${STATE.sort.col === 'first_contact' ? 'sorted' : ''}" onclick="setSort('first_contact')">Primo contatto ${arrowFor('first_contact')}</th>
+        <th>Ultimo status</th>
+        <th class="sortable ${STATE.sort.col === 'replies_count' ? 'sorted' : ''}" onclick="setSort('replies_count')">Risposte ${arrowFor('replies_count')}</th>
+      </tr></thead>
+      <tbody>
+  `;
+  for (const co of state.items) {
+    const senderClasses = co.prospects.map(p => (p.sender || p.assigned_to || 'Manu').toLowerCase());
+    const dominantSender = senderClasses[0] || 'manu';
+    const anglesHtml = co.angles.map(a => angleBadge(a)).join(' ');
+    const domainHtml = co.domain
+      ? `<a href="https://${co.domain}" target="_blank" rel="noopener" onclick="event.stopPropagation()">${escapeHtml(co.domain)}</a>`
+      : '<span style="color:var(--muted);">—</span>';
+    html += `
+      <tr class="${dominantSender}" data-brand="${escapeHtml(co.brand)}">
+        <td class="brand-cell">🏢 ${escapeHtml(co.brand)}</td>
+        <td class="mono">${domainHtml}</td>
+        <td><strong>${co.contacts_count}</strong></td>
+        <td>${anglesHtml || '—'}</td>
+        <td class="mono">${formatDateFull(co.first_contact)}</td>
+        <td>${statusBadge(co.last_status)}</td>
+        <td>${co.replies_count > 0 ? `<strong style="color:var(--green);">${co.replies_count}</strong>` : '0'}</td>
+      </tr>
+    `;
+  }
+  html += '</tbody></table>';
+  wrap.innerHTML = html;
+
+  wrap.querySelectorAll('tbody tr').forEach(tr => {
+    tr.addEventListener('click', () => {
+      const brand = tr.getAttribute('data-brand');
+      const co = companies.find(x => x.brand === brand);
+      if (co) openCompanyModal(co);
+    });
+  });
+  renderPagination(pag, state.currentPage, state.totalPages, 'changeProspectsPage', state.total, STATE.perPage);
+}
+
+function render() {
+  const filtered = applyFilters(STATE.all);
+
+  // Update count
+  document.getElementById('count').textContent =
+    STATE.view === 'company'
+      ? `${groupByCompany(filtered).length} aziende${filtered.length !== STATE.all.length ? ' (' + filtered.length + ' contatti)' : ''}`
+      : `${filtered.length}${filtered.length !== STATE.all.length ? ' filtrati su ' + STATE.all.length : ''}`;
+
+  // Active filters badge
+  const af = activeFiltersCount();
+  const badge = document.getElementById('f-active-badge');
+  if (af > 0) {
+    badge.style.display = 'inline-block';
+    badge.textContent = `${af} filtro${af > 1 ? 'i' : ''} attiv${af > 1 ? 'i' : 'o'}`;
+  } else {
+    badge.style.display = 'none';
+  }
+
+  if (STATE.view === 'company') renderCompanyView(filtered);
+  else renderContactView(filtered);
 }
 
 function bindFilters() {
@@ -278,6 +377,40 @@ function bindFilters() {
     STATE.page = 1;
     render();
   });
+  document.getElementById('view-contact').addEventListener('click', () => {
+    STATE.view = 'contact';
+    document.getElementById('view-contact').classList.add('active');
+    document.getElementById('view-company').classList.remove('active');
+    STATE.page = 1; render();
+  });
+  document.getElementById('view-company').addEventListener('click', () => {
+    STATE.view = 'company';
+    document.getElementById('view-company').classList.add('active');
+    document.getElementById('view-contact').classList.remove('active');
+    STATE.page = 1; render();
+  });
+}
+
+function applyQueryParams() {
+  const params = new URLSearchParams(window.location.search);
+  const status = params.get('status');
+  if (status) {
+    STATE.filters.status = status;
+    document.getElementById('f-status').value = status;
+  }
+  const sender = params.get('sender');
+  if (sender) STATE.filters.sender = sender;
+  const angle = params.get('angle');
+  if (angle) STATE.filters.angle = angle;
+
+  // Sync chip UI
+  for (const key of ['sender', 'angle']) {
+    const val = STATE.filters[key];
+    const grp = document.getElementById('f-' + key);
+    if (grp) grp.querySelectorAll('.chip').forEach(c => {
+      c.classList.toggle('active', c.getAttribute('data-value') === val);
+    });
+  }
 }
 
 async function init() {
@@ -288,6 +421,7 @@ async function init() {
     STATE.meta = meta;
     setTimestamp(meta && meta.last_updated);
     bindFilters();
+    applyQueryParams();
     render();
   } catch (err) {
     showError(`Errore caricamento dati: ${err.message}`);

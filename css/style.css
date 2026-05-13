@@ -187,6 +187,58 @@ h2.section-title .right {
 .dot.claude::before  { background: var(--orange); }
 .dot.antonio::before { background: var(--green); }
 
+/* day card v3.1 — 2 righe (prime + totale) */
+.day-card .day-row {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 8px;
+  margin-bottom: 4px;
+}
+.day-card .row-label {
+  font-family: var(--font-mono);
+  font-size: 9px;
+  color: var(--muted);
+  text-transform: uppercase;
+  letter-spacing: 0.4px;
+}
+.day-card .row-num { font-weight: 700; }
+.day-card .row-num.primary { font-size: 22px; line-height: 1; }
+.day-card .row-num.secondary { font-size: 14px; color: var(--muted); }
+.day-card .day-dots-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 4px;
+  margin-bottom: 4px;
+}
+.day-card .day-divider {
+  height: 1px;
+  background: var(--border);
+  margin: 6px 0;
+}
+.week-legend {
+  display: flex;
+  gap: 14px;
+  font-family: var(--font-mono);
+  font-size: 11px;
+  color: var(--muted);
+  margin-top: 10px;
+  flex-wrap: wrap;
+}
+.week-legend .leg {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+}
+.week-legend .leg::before {
+  content: '';
+  width: 8px; height: 8px; border-radius: 50%;
+}
+.week-legend .manu::before    { background: var(--purple); }
+.week-legend .dami::before    { background: var(--blue); }
+.week-legend .claude::before  { background: var(--orange); }
+.week-legend .antonio::before { background: var(--green); }
+
 /* ============ Date range filter ============ */
 .range-filter {
   display: flex;
@@ -311,6 +363,115 @@ h2.section-title .right {
   font-family: var(--font-mono);
   font-size: 11px;
   color: var(--muted);
+  text-align: center;
+}
+.step .step-counter {
+  margin-top: 6px;
+  background: var(--bg);
+  color: var(--black);
+  font-family: var(--font-mono);
+  font-size: 11px;
+  padding: 3px 10px;
+  border-radius: 999px;
+  text-decoration: none;
+  border: 1px solid var(--border);
+}
+.step .step-counter:hover { background: var(--white); border-color: var(--black); text-decoration: none; }
+.step.stop .step-counter-group { display: flex; flex-direction: column; gap: 4px; align-items: center; }
+.step.stop .step-counter.bnc { background: #fde8e8; color: #8a1f1f; border-color: #f0c2c2; }
+.step.stop .step-counter.ooo { background: #fff3e0; color: #8a4a00; border-color: #f0d9a8; }
+.step.stop .step-counter.arc { background: #e8e8e8; color: #444; border-color: #d0d0d0; }
+
+/* Mini timeline (modal prospect) */
+.mini-timeline {
+  background: #fafafa;
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  padding: 16px 12px 14px;
+  margin-bottom: 8px;
+}
+.mini-track {
+  display: flex;
+  justify-content: space-between;
+  gap: 6px;
+  position: relative;
+  overflow-x: auto;
+}
+.mini-track::before {
+  content: '';
+  position: absolute;
+  top: 9px;
+  left: 8%;
+  right: 8%;
+  height: 2px;
+  background: var(--border);
+  z-index: 0;
+}
+.mini-step {
+  flex: 1;
+  min-width: 86px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  position: relative;
+  z-index: 1;
+}
+.mini-step .mini-dot {
+  width: 18px; height: 18px;
+  border-radius: 50%;
+  border: 2px solid var(--border);
+  background: var(--white);
+  margin-bottom: 6px;
+}
+.mini-step.done    .mini-dot { background: var(--green); border-color: var(--green); }
+.mini-step.overdue .mini-dot { background: var(--danger); border-color: var(--danger); }
+.mini-step.pending .mini-dot { background: var(--white); border-color: var(--border); }
+.mini-step.out     .mini-dot {
+  background: var(--danger); border-color: var(--danger);
+  position: relative;
+}
+.mini-step.out .mini-dot::after {
+  content: '×';
+  position: absolute;
+  top: -2px; left: 3px;
+  color: var(--white);
+  font-size: 14px;
+  font-weight: 700;
+}
+.mini-step.muted { opacity: 0.45; text-decoration: line-through; }
+.mini-step.muted .mini-dot { background: var(--bg); border-color: var(--border); }
+.mini-step.muted .mini-dot::after { display: none; }
+.mini-step .mini-date {
+  font-family: var(--font-mono);
+  font-size: 10px;
+  color: var(--muted);
+  letter-spacing: 0.3px;
+}
+.mini-step .mini-label {
+  font-weight: 700;
+  font-size: 11px;
+  margin-top: 2px;
+}
+.mini-step .mini-status {
+  font-family: var(--font-mono);
+  font-size: 9px;
+  color: var(--muted);
+  text-transform: uppercase;
+  letter-spacing: 0.4px;
+  margin-top: 1px;
+}
+.mini-step.done    .mini-status { color: #4d7920; }
+.mini-step.overdue .mini-status { color: var(--danger); }
+.mini-step.out     .mini-status { color: var(--danger); }
+.mini-banner {
+  margin-top: 12px;
+  padding: 8px 12px;
+  background: #edf7da;
+  color: #2a5a20;
+  font-family: var(--font-mono);
+  font-size: 12px;
+  border-radius: 6px;
   text-align: center;
 }
 
@@ -790,6 +951,89 @@ td .days-pill.red    { background: #fde8e8; color: #8a1f1f; }
   color: var(--muted);
   text-transform: uppercase;
   letter-spacing: 0.4px;
+}
+
+/* ============ Page toggle (per contatto / per azienda) ============ */
+.view-toggle {
+  display: inline-flex;
+  background: var(--white);
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  overflow: hidden;
+  margin-bottom: 14px;
+}
+.view-toggle button {
+  background: transparent;
+  border: none;
+  padding: 8px 16px;
+  font-family: var(--font-mono);
+  font-size: 12px;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  cursor: pointer;
+  color: var(--muted);
+}
+.view-toggle button.active {
+  background: var(--black);
+  color: var(--white);
+}
+
+/* ============ Company contacts (modal) ============ */
+.company-contacts {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+.cc-row {
+  background: var(--white);
+  border: 1px solid var(--border);
+  border-left: 3px solid transparent;
+  border-radius: 6px;
+  padding: 10px 12px;
+  cursor: pointer;
+  transition: background 0.05s ease;
+}
+.cc-row:hover { background: #fafafa; }
+.cc-row.manu    { border-left-color: var(--purple); }
+.cc-row.dami    { border-left-color: var(--blue); }
+.cc-row.claude  { border-left-color: var(--orange); }
+.cc-row.antonio { border-left-color: var(--green); }
+.cc-row .cc-head {
+  display: flex;
+  gap: 6px;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-bottom: 4px;
+}
+.cc-row .cc-name { font-weight: 700; font-size: 13px; }
+.cc-row .cc-meta {
+  font-family: var(--font-mono);
+  font-size: 11px;
+  color: var(--muted);
+}
+.cc-row .cc-snippet {
+  margin-top: 4px;
+  font-size: 12px;
+  font-style: italic;
+  color: var(--muted);
+  line-height: 1.4;
+}
+
+/* ============ Scaduti banner ============ */
+.scaduti-section { background: #fff5f5; border: 1px solid #f0c2c2; border-radius: 8px; padding: 14px; }
+.scaduti-section h2.section-title { color: var(--danger); border-color: #f0c2c2; }
+.scaduti-section .fu-card { background: #fffafa; }
+.fu-card.scaduto-tag {
+  position: relative;
+}
+.fu-card .scaduto-pill {
+  background: var(--danger);
+  color: var(--white);
+  font-family: var(--font-mono);
+  font-size: 10px;
+  padding: 2px 8px;
+  border-radius: 999px;
+  letter-spacing: 0.5px;
 }
 
 /* ============ Section "vedi tutti" link ============ */

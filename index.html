@@ -28,8 +28,14 @@
 
   <!-- 7-DAY ACTIVITY -->
   <section>
-    <h2 class="section-title">Attività ultimi 7 giorni (prime email)</h2>
+    <h2 class="section-title">Attività ultimi 7 giorni</h2>
     <div class="week-bar" id="week-bar"></div>
+    <div class="week-legend">
+      <span class="leg manu">Manu</span>
+      <span class="leg dami">Dami</span>
+      <span class="leg claude">Claude</span>
+      <span class="leg antonio">Antonio</span>
+    </div>
   </section>
 
   <!-- DATE RANGE FILTER -->
@@ -45,23 +51,12 @@
     </div>
   </section>
 
-  <!-- ROADMAP SOP -->
+  <!-- ROADMAP SOP con contatori -->
   <section>
     <h2 class="section-title">Sequenza Outreach (SOP)</h2>
     <div class="roadmap">
-      <div class="roadmap-track">
-        <div class="step"><div class="step-circle">G0</div>
-          <div class="step-label">Prima email</div><div class="step-sub">Outbound</div></div>
-        <div class="step"><div class="step-circle">G10</div>
-          <div class="step-label">FU 1</div><div class="step-sub">Rimando su</div></div>
-        <div class="step"><div class="step-circle">G25</div>
-          <div class="step-label">FU 2</div><div class="step-sub">Aggancio contestuale</div></div>
-        <div class="step"><div class="step-circle">G45</div>
-          <div class="step-label">FU 3</div><div class="step-sub">Ultima volta</div></div>
-        <div class="step stop"><div class="step-circle">OUT</div>
-          <div class="step-label">Archivia</div><div class="step-sub">G46+</div></div>
-      </div>
-      <div class="roadmap-legend">Tutto gestito automaticamente da Cowork</div>
+      <div class="roadmap-track" id="roadmap-track"></div>
+      <div class="roadmap-legend">Tutto gestito automaticamente da Cowork · giorni lavorativi (no weekend, no festività italiane)</div>
     </div>
   </section>
 
@@ -77,28 +72,38 @@
 <script>
 const STATE = { data: null, range: { from: null, to: null } };
 
-function applyRange(items) {
-  if (!STATE.range.from && !STATE.range.to) return items;
-  return items.filter(p => {
-    if (!p.first_contact) return false;
-    if (STATE.range.from && p.first_contact < STATE.range.from) return false;
-    if (STATE.range.to && p.first_contact > STATE.range.to) return false;
-    return true;
-  });
+function withinRange(dateStr) {
+  if (!dateStr) return false;
+  if (STATE.range.from && dateStr < STATE.range.from) return false;
+  if (STATE.range.to   && dateStr > STATE.range.to)   return false;
+  return true;
+}
+function rangeActive() { return !!(STATE.range.from || STATE.range.to); }
+
+function applyRangeToProspects(items) {
+  if (!rangeActive()) return items;
+  return items.filter(p => withinRange(p.first_contact));
 }
 
 function renderStats() {
   const m = STATE.data.meta || {};
-  const active  = STATE.data.active   || [];
-  const noReply = STATE.data.no_reply || [];
-  const bounced = STATE.data.bounced  || [];
+  let active  = STATE.data.active   || [];
+  let noReply = STATE.data.no_reply || [];
+  let bounced = STATE.data.bounced  || [];
+
+  if (rangeActive()) {
+    active  = applyRangeToProspects(active);
+    noReply = applyRangeToProspects(noReply);
+    bounced = applyRangeToProspects(bounced);
+  }
 
   const inConv = active.filter(p =>
     p.status === 'in_conversation' || p.status === 'call_booked' || p.status === 'closed'
   ).length;
-  const totalContacted = m.total_contacted ?? (active.length + noReply.length);
+  const totalContacted = rangeActive()
+    ? (active.length + noReply.length)
+    : (m.total_contacted ?? (active.length + noReply.length));
 
-  // FU programmati: scadenza oggi/domani/dopodomani
   const dueSoon = [...active, ...noReply].filter(p => {
     const due = p.next_action_date;
     if (!due) return false;
@@ -119,37 +124,129 @@ function renderWeekBar() {
   const wrap = document.getElementById('week-bar');
   wrap.innerHTML = '';
 
-  const flat = [
-    ...(STATE.data.active || []),
-    ...(STATE.data.no_reply || [])
-  ].filter(p => p.is_first_email !== false);
+  const flat = [...(STATE.data.active || []), ...(STATE.data.no_reply || [])];
 
-  const today = new Date(); today.setHours(0,0,0,0);
-  const todayIso = today.toISOString().split('T')[0];
+  // 7 giorni terminanti su "oggi" o sull'estremo superiore del range
+  let endIso = todayRomeIso();
+  if (rangeActive() && STATE.range.to) endIso = STATE.range.to;
+  const end = new Date(endIso + 'T00:00:00');
+  const todayIso = todayRomeIso();
 
   for (let i = 6; i >= 0; i--) {
-    const d = new Date(today); d.setDate(d.getDate() - i);
+    const d = new Date(end); d.setDate(d.getDate() - i);
     const iso = d.toISOString().split('T')[0];
-    const onDay = flat.filter(p => p.first_contact === iso);
-    const counts = { Manu: 0, Dami: 0, Claude: 0, Antonio: 0 };
-    for (const p of onDay) {
+
+    // Prime email = first_contact == iso AND is_first_email !== false
+    const onDayFirst = flat.filter(p => p.first_contact === iso && p.is_first_email !== false);
+    const firstCounts = { Manu: 0, Dami: 0, Claude: 0, Antonio: 0 };
+    for (const p of onDayFirst) {
       const s = p.sender || p.assigned_to || 'Manu';
-      if (counts[s] != null) counts[s]++;
+      if (firstCounts[s] != null) firstCounts[s]++;
     }
+
+    // Totale email = prime + tutti i followup_sent con date == iso
+    const fuCounts = { Manu: 0, Dami: 0, Claude: 0, Antonio: 0 };
+    for (const p of flat) {
+      for (const f of (p.followups_sent || [])) {
+        if (f.date === iso) {
+          const s = f.sender || p.sender || 'Manu';
+          if (fuCounts[s] != null) fuCounts[s]++;
+        }
+      }
+    }
+    const totalCounts = {};
+    for (const k of ['Manu','Dami','Claude','Antonio']) {
+      totalCounts[k] = (firstCounts[k] || 0) + (fuCounts[k] || 0);
+    }
+    const totalSum = Object.values(totalCounts).reduce((a,b)=>a+b,0);
+
     const isToday = iso === todayIso;
-    const isEmpty = onDay.length === 0;
-    const dotsHtml = ['Manu', 'Dami', 'Claude', 'Antonio']
+    const isEmpty = totalSum === 0;
+
+    const dotsHtml = (counts) => ['Manu','Dami','Claude','Antonio']
       .filter(s => counts[s] > 0)
-      .map(s => `<span class="dot ${s.toLowerCase()}">${counts[s]}</span>`)
-      .join('');
+      .map(s => `<span class="dot ${s.toLowerCase()}">${counts[s]}</span>`).join('');
+
     wrap.insertAdjacentHTML('beforeend', `
       <div class="day-card ${isToday ? 'today' : ''} ${isEmpty ? 'empty' : ''}">
         <div class="day-date">${dayCardLabel(iso)}</div>
-        <div class="day-total">${onDay.length}</div>
-        <div class="day-dots">${dotsHtml}</div>
+        <div class="day-row"><span class="row-label">Prime</span><span class="row-num primary">${onDayFirst.length}</span></div>
+        <div class="day-dots-row">${dotsHtml(firstCounts) || '<span style="color:var(--muted);font-size:10px;">—</span>'}</div>
+        <div class="day-divider"></div>
+        <div class="day-row"><span class="row-label">Totale</span><span class="row-num secondary">${totalSum}</span></div>
+        <div class="day-dots-row">${dotsHtml(totalCounts) || '<span style="color:var(--muted);font-size:10px;">—</span>'}</div>
       </div>
     `);
   }
+}
+
+function renderRoadmap() {
+  const all = [...(STATE.data.active || []), ...(STATE.data.no_reply || [])];
+  const bounced = STATE.data.bounced || [];
+
+  const sentTypes = p => new Set((p.followups_sent || []).map(f => f.type));
+
+  // G0: tutti tranne archived
+  const g0 = all.filter(p => p.status !== 'archived').length;
+  // FU 1: prospect senza follow_up_1 (e non in_conversation/closed/archived)
+  const fu1 = all.filter(p =>
+    !sentTypes(p).has('follow_up_1') &&
+    !['in_conversation','call_booked','closed','archived'].includes(p.status)
+  ).length;
+  // FU 2: con follow_up_1 ma senza follow_up_2 (e non chiusi)
+  const fu2 = all.filter(p => {
+    const t = sentTypes(p);
+    return t.has('follow_up_1') && !t.has('follow_up_2') &&
+      !['in_conversation','call_booked','closed','archived'].includes(p.status);
+  }).length;
+  // FU 3: con follow_up_2 ma senza follow_up_3
+  const fu3 = all.filter(p => {
+    const t = sentTypes(p);
+    return t.has('follow_up_2') && !t.has('follow_up_3') &&
+      !['in_conversation','call_booked','closed','archived'].includes(p.status);
+  }).length;
+
+  const ooo = (STATE.data.no_reply || []).filter(p => p.status === 'autoresponse').length;
+  const archCount = (STATE.data.no_reply || []).filter(p => p.status === 'archived').length;
+
+  const link = (status) => `prospects.html?status=${encodeURIComponent(status)}`;
+
+  document.getElementById('roadmap-track').innerHTML = `
+    <div class="step">
+      <div class="step-circle">G0</div>
+      <div class="step-label">Prima email</div>
+      <div class="step-sub">Outbound</div>
+      <a class="step-counter" href="prospects.html">${g0}</a>
+    </div>
+    <div class="step">
+      <div class="step-circle">G10</div>
+      <div class="step-label">FU 1</div>
+      <div class="step-sub">Rimando su</div>
+      <a class="step-counter" href="${link('contacted')}">${fu1}</a>
+    </div>
+    <div class="step">
+      <div class="step-circle">G25</div>
+      <div class="step-label">FU 2</div>
+      <div class="step-sub">Aggancio contestuale</div>
+      <a class="step-counter" href="${link('follow_up_1_sent')}">${fu2}</a>
+    </div>
+    <div class="step">
+      <div class="step-circle">G45</div>
+      <div class="step-label">FU 3</div>
+      <div class="step-sub">Ultima volta</div>
+      <a class="step-counter" href="${link('follow_up_2_sent')}">${fu3}</a>
+    </div>
+    <div class="step stop">
+      <div class="step-circle">OUT</div>
+      <div class="step-label">Stop</div>
+      <div class="step-sub">G46+</div>
+      <div class="step-counter-group">
+        <a class="step-counter bnc" href="bounced.html">Bounce ${bounced.length}</a>
+        <a class="step-counter ooo" href="${link('autoresponse')}">OOO ${ooo}</a>
+        <a class="step-counter arc" href="${link('archived')}">Arch ${archCount}</a>
+      </div>
+    </div>
+  `;
 }
 
 function renderConversations() {
@@ -160,7 +257,7 @@ function renderConversations() {
   let items = (STATE.data.active || []).filter(p =>
     p.status === 'in_conversation' || p.status === 'call_booked'
   );
-  items = applyRange(items);
+  if (rangeActive()) items = applyRangeToProspects(items);
   document.getElementById('conv-count').textContent = items.length;
 
   if (items.length === 0) {
@@ -173,7 +270,6 @@ function renderConversations() {
     const sender = (p.sender || p.assigned_to || 'Manu').toLowerCase();
     const due = p.next_action_date;
     const u = urgency(due);
-
     const out = p.last_outbound_by_antonio;
     const reply = p.last_reply_from_prospect;
 
@@ -216,28 +312,45 @@ function renderConversations() {
   }
 }
 
+function renderAll() {
+  renderStats();
+  renderWeekBar();
+  renderRoadmap();
+  renderConversations();
+}
+
 function bindRangeFilter() {
   document.getElementById('range-apply').addEventListener('click', () => {
     STATE.range.from = document.getElementById('range-from').value || null;
     STATE.range.to   = document.getElementById('range-to').value || null;
     updateRangeBadge();
-    renderConversations();
+    renderAll();
   });
   document.getElementById('range-reset').addEventListener('click', resetRange);
+
+  // Imposta data minima dinamica
+  const earliest = getEarliestContact(STATE.data);
+  document.getElementById('range-from').setAttribute('min', earliest);
+  document.getElementById('range-to').setAttribute('min', earliest);
+  const todayIso = todayRomeIso();
+  document.getElementById('range-from').setAttribute('max', todayIso);
+  document.getElementById('range-to').setAttribute('max', todayIso);
 }
 function resetRange() {
   STATE.range = { from: null, to: null };
   document.getElementById('range-from').value = '';
   document.getElementById('range-to').value = '';
   updateRangeBadge();
-  renderConversations();
+  renderAll();
 }
+window.resetRange = resetRange;
+
 function updateRangeBadge() {
   const b = document.getElementById('range-active');
-  if (!STATE.range.from && !STATE.range.to) { b.style.display = 'none'; return; }
+  if (!rangeActive()) { b.style.display = 'none'; return; }
   const f = STATE.range.from ? formatDate(STATE.range.from) : '…';
   const t = STATE.range.to   ? formatDate(STATE.range.to)   : '…';
-  b.innerHTML = `Filtro: ${f} – ${t} <a href="#" onclick="resetRange();return false;">Reset</a>`;
+  b.innerHTML = `Filtro: ${f} – ${t} <a href="#" onclick="resetRange();return false;">×</a>`;
   b.style.display = 'inline-block';
 }
 
@@ -246,10 +359,8 @@ async function init() {
   try {
     STATE.data = await loadProspects();
     setTimestamp(STATE.data.meta && STATE.data.meta.last_updated);
-    renderStats();
-    renderWeekBar();
     bindRangeFilter();
-    renderConversations();
+    renderAll();
   } catch (err) {
     showError(`Errore caricamento dati: ${err.message}`);
     setTimestamp(null);

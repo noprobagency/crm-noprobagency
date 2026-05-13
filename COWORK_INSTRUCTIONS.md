@@ -1,4 +1,4 @@
-# COWORK — Istruzioni aggiornamento CRM NoProb (v3)
+# COWORK — Istruzioni aggiornamento CRM NoProb (v3.1)
 
 Questo file descrive come Cowork deve mantenere aggiornato `data/prospects.json`.
 Non toccare `index.html`, `followups.html`, `prospects.html`, `bounced.html`,
@@ -77,7 +77,8 @@ python3 scripts/enrich.py
 ```
 Lo script ricalcola: `sender`, `label_id`, `days_since_last_activity`,
 `status` (in base ai followup inviati), `next_action`, `next_action_date`,
-`next_followup_due`, `suggested_action` sui bounce. Non duplica nulla.
+`next_followup_due`, `scheduled_timeline`, `suggested_action` sui bounce.
+Non duplica nulla, non sovrascrive `scheduled_timeline` se già presente.
 
 ### 7. Commit & push
 ```bash
@@ -193,15 +194,87 @@ chiama `users.threads.modify` con `addLabelIds: ["Label_9196661710752787047"]`.
 
 ---
 
+## Calcolo follow-up — GIORNI LAVORATIVI
+
+**Regola critica**: i follow-up NON si calcolano come `+10/+25/+45`
+giorni di calendario dal primo contatto. Si calcolano in **giorni
+lavorativi italiani**, saltando weekend e festività.
+
+Quando Cowork trova una nuova prima email:
+
+1. **Calcola** `scheduled_timeline` con la funzione `addWorkingDays()`
+   (presente sia in `js/shared.js` sia in `scripts/enrich.py`).
+2. **Salva** la timeline completa nel campo `scheduled_timeline` del
+   prospect — è la roadmap fissa, non si ricalcola dopo.
+3. Usa **sempre** `scheduled_timeline.follow_up_1/2/3` per determinare
+   quando mandare i follow-up. Mai sommare giorni di calendario.
+
+### Giorni non lavorativi (mai inviare)
+
+- **Weekend**: sabato e domenica
+- **Festività italiane fisse**: 1/1, 6/1, 25/4, 1/5, 2/6, 15/8, 1/11, 8/12, 25/12, 26/12
+- **Ferragosto esteso**: 10–20 agosto inclusi
+- **Natale/Capodanno**: 21 dicembre – 7 gennaio inclusi
+
+Se la data schedulata cade in un giorno non lavorativo, il follow-up
+**slitta automaticamente** al prossimo giorno lavorativo utile (la
+funzione `addWorkingDays` fa già questo).
+
+### Quando invii il follow-up
+
+Aggiorna `followups_sent[]` con la **data reale** di invio (può essere
+diversa da quella schedulata se Cowork è in ritardo). La
+`scheduled_timeline` resta invariata.
+
+```json
+{
+  "followups_sent": [
+    {
+      "date": "2026-05-27",        // data REALE di invio
+      "type": "follow_up_1",
+      "sender": "Claude",
+      "snippet": "Rimando su nel caso..."
+    }
+  ],
+  "scheduled_timeline": {           // FISSA, non cambia mai
+    "first_email": "2026-05-13",
+    "follow_up_1": "2026-05-27",
+    "follow_up_2": "2026-06-18",
+    "follow_up_3": "2026-07-16",
+    "out_date":    "2026-07-17"
+  }
+}
+```
+
+---
+
+## Timezone Europa/Roma
+
+Tutte le date e i timestamp nel CRM sono interpretati in timezone
+**Europe/Rome** (UTC+1 invernale, UTC+2 estivo, gestione DST automatica).
+Quando aggiorni `last_updated` in `meta`, usa sempre un timestamp ISO
+UTC: il frontend lo converte automaticamente in ora locale italiana.
+
+```json
+{
+  "meta": {
+    "last_updated": "2026-05-13T10:30:00Z"
+  }
+}
+```
+
+---
+
 ## Aggiornamento incrementale per i prospect
 
 Quando aggiungi un nuovo prospect:
 - `is_first_email: true`
 - `first_email_snippet`: prime ~100 caratteri della prima email outbound
 - `followups_sent: []`
+- `scheduled_timeline`: calcolata con `addWorkingDays` da `first_contact`
 - `last_outbound_by_antonio`: { date: first_contact, snippet: first_email_snippet }
 - `last_reply_from_prospect: null`
-- `next_action: "In attesa"`, `next_action_date: first_contact + 10d`
+- `next_action: "Follow-up 1"`, `next_action_date: scheduled_timeline.follow_up_1`
 - `status: "contacted"`, `days_since_last_activity: 0`
 
 Quando un prospect riceve risposta umana e passa ad `active[]`:

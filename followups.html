@@ -14,6 +14,12 @@
 <div id="header-slot"></div>
 
 <main>
+  <!-- SCADUTI -->
+  <section class="scaduti-section" id="scaduti-section" style="display:none;">
+    <h2 class="section-title">⚠ Follow-up scaduti — da inviare <span class="count" id="scaduti-count"></span></h2>
+    <div id="scaduti-list"></div>
+  </section>
+
   <!-- TODAY -->
   <section>
     <h2 class="section-title">Follow-up in scadenza oggi <span class="count" id="today-count"></span></h2>
@@ -50,7 +56,7 @@
       </div>
     </div>
 
-    <div id="sent-list"></div>
+    <div id="sent-table-wrap"></div>
     <div id="sent-pagination"></div>
   </section>
 </main>
@@ -62,34 +68,41 @@ const STATE = {
   sent: { kind: 'all', sender: 'all', from: null, to: null, page: 1 },
 };
 
-// ---------- Compute todos (next-action per ogni prospect) ----------
+// ---------- Compute todos ----------
 function computeAllTodos() {
   const all = [...(STATE.data.active || []), ...(STATE.data.no_reply || [])];
   const todos = [];
   for (const p of all) {
-    if (p.status === 'archived' || p.status === 'closed' || p.status === 'autoresponse') continue;
-    if (p.status === 'in_conversation' || p.status === 'call_booked') {
+    if (['archived', 'closed', 'autoresponse'].includes(p.status)) continue;
+    const next = getNextAction(p);
+    if (!next.date && !['in_conversation','call_booked'].includes(p.status)) continue;
+    if (['in_conversation','call_booked'].includes(p.status)) {
       if (p.next_action_date) {
-        todos.push({ prospect: p, action: p.next_action || 'Follow-up conversazione', date: p.next_action_date, label: null });
+        todos.push({ prospect: p, action: p.next_action || 'Follow-up conversazione', date: p.next_action_date, label: null, overdue: false, manual: true });
       }
       continue;
     }
-    const next = getNextAction(p.first_contact, p.followups_sent || []);
-    if (next.date && next.label) {
-      todos.push({ prospect: p, action: next.action, date: next.date, label: next.label, auto: next.auto });
-    }
+    todos.push({
+      prospect: p,
+      action: next.action,
+      date: next.date,
+      label: next.label,
+      overdue: next.overdue,
+      auto: next.auto,
+    });
   }
   return todos;
 }
 
-function todoCard(t) {
+function todoCard(t, opts = {}) {
   const p = t.prospect;
   const sender = (p.sender || p.assigned_to || 'Manu').toLowerCase();
   const u = urgency(t.date);
   const days = daysSince(p.first_contact);
+  const overdueDays = t.overdue ? Math.abs(daysUntil(t.date)) : 0;
 
   const card = document.createElement('div');
-  card.className = `fu-card ${sender}`;
+  card.className = `fu-card ${sender}${opts.scaduto ? ' scaduto-tag' : ''}`;
   card.innerHTML = `
     <div class="fu-main">
       <div class="fu-brand-row">
@@ -97,32 +110,50 @@ function todoCard(t) {
         <span class="fu-brand">${escapeHtml(p.brand)}</span>
         ${angleBadge(p.angle)}
         ${t.label ? `<span class="badge" style="background:#1A1A1A;color:#fff">${t.label}</span>` : ''}
+        ${opts.scaduto ? `<span class="scaduto-pill">SCADUTO ${overdueDays}g</span>` : ''}
       </div>
       <div class="fu-meta">
-        ${escapeHtml(p.contact || p.email || '—')} · primo contatto ${formatDate(p.first_contact)} · ${days}g dall'inizio
+        ${escapeHtml(p.contact || p.email || '—')} · primo contatto ${formatDate(p.first_contact)} (${dayOfWeek(p.first_contact)}) · ${days}g dall'inizio
       </div>
     </div>
     <div class="fu-right">
       <span class="fu-due ${u}">${dueLabel(t.date)}</span>
-      <span class="fu-date">${formatDate(t.date)}</span>
+      <span class="fu-date">${dayOfWeek(t.date)} ${formatDate(t.date)}</span>
     </div>
   `;
   card.addEventListener('click', () => openProspectModal(p));
   return card;
 }
 
+function renderScaduti() {
+  const wrap = document.getElementById('scaduti-list');
+  wrap.innerHTML = '';
+  const todos = computeAllTodos();
+  const list = todos.filter(t => t.overdue && !['in_conversation','call_booked'].includes(t.prospect.status));
+  document.getElementById('scaduti-count').textContent = list.length;
+
+  if (!list.length) {
+    document.getElementById('scaduti-section').style.display = 'none';
+    return;
+  }
+  document.getElementById('scaduti-section').style.display = 'block';
+  // Ordina per più vecchio scaduto prima
+  list.sort((a, b) => a.date.localeCompare(b.date));
+  for (const t of list) wrap.appendChild(todoCard(t, { scaduto: true }));
+}
+
 function renderTodaySection() {
   const wrap = document.getElementById('today-list');
   wrap.innerHTML = '';
   const todos = computeAllTodos();
-  const todayList = todos.filter(t => daysUntil(t.date) === 0);
-  document.getElementById('today-count').textContent = todayList.length;
+  const list = todos.filter(t => daysUntil(t.date) === 0);
+  document.getElementById('today-count').textContent = list.length;
 
-  if (!todayList.length) {
+  if (!list.length) {
     wrap.innerHTML = '<div class="empty success">Nessun follow-up in scadenza oggi ✓</div>';
     return;
   }
-  for (const t of todayList) wrap.appendChild(todoCard(t));
+  for (const t of list) wrap.appendChild(todoCard(t));
 }
 
 function renderNext7Section() {
@@ -140,7 +171,6 @@ function renderNext7Section() {
     return;
   }
 
-  // Raggruppa per data
   const groups = {};
   for (const t of list) {
     (groups[t.date] = groups[t.date] || []).push(t);
@@ -151,7 +181,7 @@ function renderNext7Section() {
     const dayLabel = days === 1 ? 'Domani' : `Tra ${days}g`;
     const g = document.createElement('div');
     g.className = 'fu-group';
-    g.innerHTML = `<h3>${dayLabel} · ${formatDateFull(date)} <span class="count">${groups[date].length}</span></h3>`;
+    g.innerHTML = `<h3>${dayLabel} · ${dayOfWeek(date)} ${formatDateFull(date)} <span class="count">${groups[date].length}</span></h3>`;
     for (const t of groups[date]) g.appendChild(todoCard(t));
     wrap.appendChild(g);
   }
@@ -162,7 +192,6 @@ function flattenSentEmails() {
   const all = [...(STATE.data.active || []), ...(STATE.data.no_reply || [])];
   const out = [];
   for (const p of all) {
-    // Prima email
     if (p.first_contact) {
       out.push({
         prospect: p,
@@ -173,7 +202,6 @@ function flattenSentEmails() {
         snippet: p.first_email_snippet || (p.last_outbound_by_antonio && p.last_outbound_by_antonio.snippet) || '',
       });
     }
-    // Follow-up
     for (const f of (p.followups_sent || [])) {
       out.push({
         prospect: p,
@@ -198,41 +226,17 @@ function applySentFilters(items) {
   return r;
 }
 
-function sentCard(e) {
-  const p = e.prospect;
-  const sender = (e.sender || 'Manu').toLowerCase();
-  const snippet = (e.snippet || '').slice(0, 140);
-  const card = document.createElement('div');
-  card.className = `fu-card ${sender}`;
-  card.innerHTML = `
-    <div class="fu-main">
-      <div class="fu-brand-row">
-        ${senderBadge(e.sender)}
-        <span class="fu-brand">${escapeHtml(p.brand)}</span>
-        <span class="badge" style="background:#1A1A1A;color:#fff">${fuTypeLabel(e.type)}</span>
-        ${angleBadge(p.angle)}
-      </div>
-      <div class="fu-meta">${escapeHtml(p.email || '—')}</div>
-      <div class="fu-snippet">"${escapeHtml(snippet)}${e.snippet && e.snippet.length > 140 ? '…' : ''}"</div>
-    </div>
-    <div class="fu-right">
-      <span class="fu-date">${formatDateFull(e.date)}</span>
-    </div>
-  `;
-  card.addEventListener('click', () => openProspectModal(p));
-  return card;
-}
-
 function changeSentPage(p) {
   STATE.sent.page = p;
   renderSent();
-  document.getElementById('sent-list').scrollIntoView({ behavior: 'smooth', block: 'start' });
+  document.getElementById('sent-table-wrap').scrollIntoView({ behavior: 'smooth', block: 'start' });
 }
+window.changeSentPage = changeSentPage;
 
 function renderSent() {
-  const wrap = document.getElementById('sent-list');
+  const wrap = document.getElementById('sent-table-wrap');
   const pag  = document.getElementById('sent-pagination');
-  wrap.innerHTML = '';
+  wrap.innerHTML = ''; pag.innerHTML = '';
 
   const all = flattenSentEmails();
   const filtered = applySentFilters(all);
@@ -241,13 +245,53 @@ function renderSent() {
 
   if (!filtered.length) {
     wrap.innerHTML = '<div class="empty">Nessuna email coi filtri attuali</div>';
-    pag.innerHTML = '';
     return;
   }
 
   const state = paginate(filtered, STATE.sent.page, 50);
-  for (const e of state.items) wrap.appendChild(sentCard(e));
-  renderPagination(pag, state.currentPage, state.totalPages, 'changeSentPage', state.total);
+
+  let html = `
+    <table class="crm-table">
+      <thead><tr>
+        <th>Data</th>
+        <th>Giorno</th>
+        <th>Brand</th>
+        <th>Email</th>
+        <th>Tipo</th>
+        <th>Mittente</th>
+        <th>Snippet</th>
+      </tr></thead>
+      <tbody>
+  `;
+  for (const e of state.items) {
+    const sender = (e.sender || 'Manu').toLowerCase();
+    const dow = dayOfWeek(e.date);
+    const isWeekend = dow === 'Sab' || dow === 'Dom';
+    const dowStyle = isWeekend ? 'color:var(--danger);font-weight:700;' : '';
+    const snippet = (e.snippet || '').slice(0, 140);
+    html += `
+      <tr class="${sender}" data-pid="${e.prospect.id}">
+        <td class="mono">${formatDateFull(e.date)}</td>
+        <td class="mono" style="${dowStyle}">${dow}</td>
+        <td class="brand-cell">${escapeHtml(e.prospect.brand)}</td>
+        <td>${escapeHtml(e.prospect.email || '—')}</td>
+        <td>${statusBadge('contacted').replace('Contattato', fuTypeLabel(e.type))}</td>
+        <td>${senderBadge(e.sender)}</td>
+        <td style="font-size:12px;color:var(--muted);font-style:italic;max-width:380px;">"${escapeHtml(snippet)}${e.snippet && e.snippet.length > 140 ? '…' : ''}"</td>
+      </tr>
+    `;
+  }
+  html += '</tbody></table>';
+  wrap.innerHTML = html;
+
+  wrap.querySelectorAll('tbody tr').forEach(tr => {
+    tr.addEventListener('click', () => {
+      const pid = tr.getAttribute('data-pid');
+      const p = [...(STATE.data.active || []), ...(STATE.data.no_reply || [])].find(x => x.id === pid);
+      if (p) openProspectModal(p);
+    });
+  });
+  renderPagination(pag, state.currentPage, state.totalPages, 'changeSentPage', state.total, 50);
 }
 
 function bindFilters() {
@@ -283,6 +327,7 @@ async function init() {
     STATE.data = await loadProspects();
     setTimestamp(STATE.data.meta && STATE.data.meta.last_updated);
     bindFilters();
+    renderScaduti();
     renderTodaySection();
     renderNext7Section();
     renderSent();

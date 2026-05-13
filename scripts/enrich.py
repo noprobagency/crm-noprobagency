@@ -156,30 +156,66 @@ def derive_status(prospect):
     return "contacted"
 
 
-def get_next_action_v3(first_contact, followups_sent):
-    """Stessa logica di shared.js getNextAction()."""
+def is_italian_holiday(d):
+    """True se la data è weekend o festività italiana o periodo bloccato."""
+    wd = d.weekday()  # 0=Mon, 6=Sun
+    if wd >= 5:
+        return True
+    fixed = {(1,1),(1,6),(4,25),(5,1),(6,2),(8,15),(11,1),(12,8),(12,25),(12,26)}
+    if (d.month, d.day) in fixed:
+        return True
+    # Ferragosto esteso 10-20 agosto
+    if d.month == 8 and 10 <= d.day <= 20:
+        return True
+    # Natale esteso 21/12 - 7/1
+    if d.month == 12 and d.day >= 21:
+        return True
+    if d.month == 1 and d.day <= 7:
+        return True
+    return False
+
+
+def add_working_days(date_str, n):
+    """Aggiunge n giorni lavorativi (salta weekend + festività)."""
+    if not date_str:
+        return None
+    d = datetime.strptime(date_str, "%Y-%m-%d").date()
+    added = 0
+    while added < n:
+        d = date.fromordinal(d.toordinal() + 1)
+        if not is_italian_holiday(d):
+            added += 1
+    # Se finisce su un giorno festivo (improbabile dato l'ultimo +1 era lavorativo, ma per sicurezza)
+    while is_italian_holiday(d):
+        d = date.fromordinal(d.toordinal() + 1)
+    return d.isoformat()
+
+
+def calculate_timeline(first_contact):
+    if not first_contact:
+        return None
+    return {
+        "first_email": first_contact,
+        "follow_up_1": add_working_days(first_contact, 10),
+        "follow_up_2": add_working_days(first_contact, 25),
+        "follow_up_3": add_working_days(first_contact, 45),
+        "out_date":    add_working_days(first_contact, 46),
+    }
+
+
+def get_next_action_v3(first_contact, followups_sent, scheduled_timeline=None):
+    """Stessa logica di shared.js getNextAction(), basata sulla timeline schedulata."""
     if not first_contact:
         return None, None
-    fc = datetime.strptime(first_contact, "%Y-%m-%d").date()
-    days = (TODAY - fc).days
+    tl = scheduled_timeline or calculate_timeline(first_contact)
     sent_types = {f.get("type") for f in (followups_sent or [])}
 
-    def add_days(n):
-        d = fc.toordinal() + n
-        return date.fromordinal(d).isoformat()
-
-    if days < 10:
-        return ("In attesa", add_days(10))
     if "follow_up_1" not in sent_types:
-        return ("Follow-up 1", add_days(10))
-    if days < 25:
-        return ("In attesa FU 2", add_days(25))
+        return ("Follow-up 1", tl["follow_up_1"])
     if "follow_up_2" not in sent_types:
-        return ("Follow-up 2", add_days(25))
-    if days < 45:
-        return ("In attesa FU 3", add_days(45))
+        return ("Follow-up 2", tl["follow_up_2"])
     if "follow_up_3" not in sent_types:
-        return ("Follow-up 3", add_days(45))
+        return ("Follow-up 3", tl["follow_up_3"])
     return ("Archivia", None)
 
 
@@ -231,8 +267,16 @@ def enrich_prospect(prospect):
     # Status update
     prospect["status"] = derive_status(prospect)
 
-    # Next action
-    action, due_date = get_next_action_v3(prospect.get("first_contact"), prospect["followups_sent"])
+    # Scheduled timeline (calcolata UNA VOLTA al primo contatto, fissa)
+    if not prospect.get("scheduled_timeline") and prospect.get("first_contact"):
+        prospect["scheduled_timeline"] = calculate_timeline(prospect["first_contact"])
+
+    # Next action — basata sulla scheduled_timeline
+    action, due_date = get_next_action_v3(
+        prospect.get("first_contact"),
+        prospect["followups_sent"],
+        prospect.get("scheduled_timeline")
+    )
     if prospect["status"] in {"in_conversation", "call_booked"}:
         # mantieni next_action già impostato per gli active
         pass
