@@ -101,9 +101,122 @@ git push origin main
   "email": "wrong@brand.com",
   "domain": "brand.com",
   "assigned_to": "Manu",
+  "sender": "Manu",
+  "label_id": "Label_1592668050883672428",
   "angle": "1A",
   "bounce_date": "2026-05-02",
   "notes": "Mailbox does not exist",
+  "suggested_action": "Cerca contatto su LinkedIn",
   "thread_id": "xyz789"
 }
 ```
+
+---
+
+## v2 — Schema fields aggiuntivi
+
+Da v2 in poi, ogni prospect in `active[]` e `no_reply[]` deve includere
+anche questi campi:
+
+```json
+{
+  "label_id": "Label_1592668050883672428",
+  "sender": "Manu",
+  "is_first_email": true,
+  "followups_sent": [
+    {
+      "date": "2026-05-07",
+      "type": "email_day10",
+      "sender": "Antonio",
+      "snippet": "Prime 100 caratteri del bump"
+    }
+  ],
+  "last_outbound_by_antonio": {
+    "date": "2026-05-12",
+    "snippet": "Prime 100 caratteri dell'ultima email outbound"
+  },
+  "last_reply_from_prospect": {
+    "date": "2026-05-07",
+    "snippet": "Prime 100 caratteri della risposta del prospect"
+  },
+  "next_followup_due": "2026-05-18",
+  "days_since_last_activity": 1
+}
+```
+
+`type` ammessi per `followups_sent`: `email_day10`, `email_day14`,
+`dm_linkedin`, `inmail`, `manual`.
+
+---
+
+## Gmail Labels — applica su ogni email inviata da Cowork
+
+Quando Cowork manda un'email (follow-up automatico al giorno 10/14, OOO
+reply, redirect verso il backup contatto), deve applicare il label
+**"Claude"** (ID: `Label_9196661710752787047`) al thread Gmail
+corrispondente, e impostare `sender: "Claude"` nel record JSON.
+
+Mappa label → sender:
+
+| Label nome | Label ID                         | sender    |
+|------------|----------------------------------|-----------|
+| Manuela    | Label_1592668050883672428        | Manu      |
+| Damiano    | Label_8658624016447790536        | Dami      |
+| Claude     | Label_9196661710752787047        | Claude    |
+| Antonio    | Label_1523762719426921570        | Antonio   |
+
+Come applicare il label via Gmail API: dopo aver inviato l'email,
+chiama `users.threads.modify` con `addLabelIds: ["Label_9196661710752787047"]`.
+
+Il CRM legge il `sender` per:
+- colorare il border-left delle righe tabella e card (Manu viola,
+  Dami blu, Claude arancio, Antonio verde)
+- popolare la 7-day activity bar in dashboard
+- filtrare follow-up per mittente
+
+---
+
+## v2 — Aggiornamento incrementale per i prospect
+
+Quando aggiungi un nuovo prospect:
+- `is_first_email: true`
+- `followups_sent: []`
+- `last_outbound_by_antonio`: snippet della prima email
+- `last_reply_from_prospect: null`
+- `next_followup_due: first_contact + 5d` (DM LinkedIn)
+- `days_since_last_activity: 0`
+
+Quando un prospect riceve risposta umana e passa ad `active[]`:
+- aggiorna `last_reply_from_prospect` con date + snippet
+- aggiorna `next_action` e `next_followup_due` in base a cosa serve
+  (es. "Attendere risposta su X" + 5gg, oppure azione specifica)
+- aggiungi entry in `timeline[]`
+
+Quando Cowork invia un follow-up automatico:
+- aggiungi entry in `followups_sent[]` con `sender: "Claude"`
+- aggiorna `last_outbound_by_antonio` (sì, anche se è da Cowork —
+  il campo rappresenta l'ultima outbound dal nostro lato)
+- aggiorna `last_activity` alla data del send
+- ricalcola `next_followup_due` al prossimo step SOP non eseguito
+- applica il label Claude al thread Gmail
+
+Quando Cowork archivia un prospect (giorno 17):
+- `status: "archived"`
+- `next_followup_due: null`
+- aggiungi entry timeline "Archiviato dopo 17 giorni senza risposta"
+
+---
+
+## v2 — Esegui lo script di enrichment se fai modifiche manuali al JSON
+
+Se modifichi `data/prospects.json` a mano (raro), prima del commit
+esegui:
+
+```bash
+python3 scripts/enrich_v2.py
+```
+
+Lo script è idempotente: rigenera i campi derivati (sender, label_id,
+days_since_last_activity, suggested_action sui bounce, ecc.) senza
+duplicare nulla. Solo i campi gestiti manualmente da Cowork (snippet,
+followups, status, note) sono lasciati intatti.

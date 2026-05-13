@@ -3,773 +3,285 @@
 <head>
 <meta charset="utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
-<title>NoProb · CRM</title>
+<title>NoProb · CRM · Dashboard</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=DM+Sans:wght@400;500;700&display=swap" rel="stylesheet">
-<style>
-  :root {
-    --black: #1A1A1A;
-    --bg: #F0F0F0;
-    --white: #ffffff;
-    --green: #96BF47;
-    --purple: #97588B;
-    --blue: #2E5EAA;
-    --border: #D8D8D8;
-    --muted: #888888;
-    --danger: #E04444;
-    --warning: #E89B2F;
-
-    --font-sans: "DM Sans", system-ui, -apple-system, sans-serif;
-    --font-mono: "DM Mono", ui-monospace, "SF Mono", Menlo, monospace;
-  }
-
-  * { box-sizing: border-box; }
-  html, body { margin: 0; padding: 0; }
-  body {
-    font-family: var(--font-sans);
-    color: var(--black);
-    background: var(--bg);
-    font-size: 14px;
-    line-height: 1.45;
-    -webkit-font-smoothing: antialiased;
-  }
-  a { color: var(--blue); text-decoration: none; }
-  a:hover { text-decoration: underline; }
-
-  /* Header */
-  header {
-    position: sticky;
-    top: 0;
-    z-index: 10;
-    background: var(--black);
-    color: var(--white);
-    padding: 14px 24px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    border-bottom: 1px solid var(--black);
-  }
-  .logo {
-    font-family: var(--font-mono);
-    font-weight: 500;
-    font-size: 14px;
-    letter-spacing: 0.5px;
-  }
-  .logo .slash { color: var(--muted); margin: 0 4px; }
-  .timestamp {
-    font-family: var(--font-mono);
-    font-size: 12px;
-    color: var(--muted);
-  }
-
-  main {
-    max-width: 1400px;
-    margin: 0 auto;
-    padding: 24px;
-  }
-
-  section { margin-bottom: 48px; }
-
-  h2 {
-    font-family: var(--font-sans);
-    font-weight: 700;
-    font-size: 16px;
-    text-transform: uppercase;
-    letter-spacing: 0.6px;
-    margin: 0 0 16px 0;
-    padding-bottom: 8px;
-    border-bottom: 1px solid var(--border);
-    color: var(--black);
-  }
-  h2 .count {
-    font-family: var(--font-mono);
-    font-weight: 400;
-    font-size: 12px;
-    color: var(--muted);
-    margin-left: 8px;
-    text-transform: none;
-    letter-spacing: 0;
-  }
-
-  /* Stats */
-  .stats {
-    display: grid;
-    grid-template-columns: repeat(6, 1fr);
-    gap: 12px;
-    margin-bottom: 40px;
-  }
-  .stat {
-    background: var(--white);
-    border: 1px solid var(--border);
-    padding: 16px;
-  }
-  .stat .label {
-    font-family: var(--font-mono);
-    font-size: 11px;
-    color: var(--muted);
-    text-transform: uppercase;
-    letter-spacing: 0.5px;
-    margin-bottom: 6px;
-  }
-  .stat .value {
-    font-family: var(--font-sans);
-    font-weight: 700;
-    font-size: 28px;
-    line-height: 1;
-  }
-  .stat.green .value  { color: var(--green); }
-  .stat.warning .value{ color: var(--warning); }
-  .stat.blue .value   { color: var(--blue); }
-  .stat.danger .value { color: var(--danger); }
-  .stat.purple .value { color: var(--purple); }
-
-  /* Next actions grid */
-  .actions-grid {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 12px;
-  }
-  .action-card {
-    background: var(--white);
-    border: 1px solid var(--border);
-    border-left: 3px solid var(--blue);
-    padding: 14px 16px;
-  }
-  .action-card.urgent { border-left-color: var(--danger); }
-  .action-card.soon   { border-left-color: var(--warning); }
-  .action-card.normal { border-left-color: var(--blue); }
-
-  .action-card .brand {
-    font-weight: 700;
-    font-size: 14px;
-    margin-bottom: 2px;
-  }
-  .action-card .meta {
-    font-family: var(--font-mono);
-    font-size: 11px;
-    color: var(--muted);
-    margin-bottom: 8px;
-  }
-  .action-card .action {
-    font-size: 13px;
-    margin-bottom: 6px;
-  }
-  .action-card .due {
-    font-family: var(--font-mono);
-    font-size: 11px;
-    text-transform: uppercase;
-    letter-spacing: 0.5px;
-  }
-  .action-card.urgent .due { color: var(--danger); }
-  .action-card.soon   .due { color: var(--warning); }
-  .action-card.normal .due { color: var(--muted); }
-
-  /* Conversation cards */
-  .conv-grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
-    gap: 12px;
-  }
-  .conv-card {
-    background: var(--white);
-    border: 1px solid var(--border);
-    border-top: 3px solid var(--green);
-    padding: 16px;
-  }
-  .conv-card.call-booked { border-top-color: var(--purple); }
-  .conv-card .brand {
-    font-weight: 700;
-    font-size: 15px;
-    margin-bottom: 2px;
-  }
-  .conv-card .contact {
-    font-size: 13px;
-    color: var(--muted);
-    margin-bottom: 10px;
-  }
-  .conv-card .row {
-    font-family: var(--font-mono);
-    font-size: 11px;
-    color: var(--muted);
-    margin: 2px 0;
-    text-transform: uppercase;
-    letter-spacing: 0.4px;
-  }
-  .conv-card .row strong {
-    color: var(--black);
-    font-weight: 500;
-  }
-  .conv-card .stape {
-    display: inline-block;
-    background: var(--bg);
-    padding: 2px 6px;
-    border: 1px solid var(--border);
-    font-family: var(--font-mono);
-    font-size: 11px;
-    margin-top: 6px;
-  }
-  .conv-card .notes {
-    margin-top: 10px;
-    padding-top: 10px;
-    border-top: 1px dashed var(--border);
-    font-size: 12px;
-    color: var(--black);
-    line-height: 1.5;
-  }
-  .conv-card .next {
-    margin-top: 10px;
-    font-size: 12px;
-    background: var(--bg);
-    padding: 8px 10px;
-    border-left: 2px solid var(--blue);
-  }
-  .conv-card .next .label {
-    font-family: var(--font-mono);
-    font-size: 10px;
-    color: var(--muted);
-    text-transform: uppercase;
-    letter-spacing: 0.5px;
-    margin-bottom: 2px;
-  }
-
-  /* Filters */
-  .filters {
-    display: flex;
-    gap: 6px;
-    margin-bottom: 12px;
-    flex-wrap: wrap;
-  }
-  .chip {
-    font-family: var(--font-mono);
-    font-size: 11px;
-    background: var(--white);
-    border: 1px solid var(--border);
-    padding: 5px 10px;
-    cursor: pointer;
-    color: var(--black);
-    text-transform: uppercase;
-    letter-spacing: 0.5px;
-    user-select: none;
-  }
-  .chip:hover { background: var(--bg); }
-  .chip.active {
-    background: var(--black);
-    color: var(--white);
-    border-color: var(--black);
-  }
-
-  /* Tables */
-  table {
-    width: 100%;
-    border-collapse: collapse;
-    background: var(--white);
-    border: 1px solid var(--border);
-    font-size: 13px;
-  }
-  th, td {
-    padding: 10px 12px;
-    text-align: left;
-    border-bottom: 1px solid var(--border);
-    vertical-align: middle;
-  }
-  th {
-    font-family: var(--font-mono);
-    font-weight: 500;
-    font-size: 11px;
-    text-transform: uppercase;
-    letter-spacing: 0.5px;
-    color: var(--muted);
-    background: var(--bg);
-    border-bottom: 1px solid var(--border);
-  }
-  tbody tr:last-child td { border-bottom: none; }
-  tbody tr:hover { background: var(--bg); }
-
-  td.brand-cell { font-weight: 500; }
-  td.mono { font-family: var(--font-mono); font-size: 12px; }
-  td.due-urgent { color: var(--danger); font-weight: 500; }
-  td.due-soon   { color: var(--warning); font-weight: 500; }
-
-  .badge {
-    display: inline-block;
-    font-family: var(--font-mono);
-    font-size: 10px;
-    padding: 2px 6px;
-    border: 1px solid var(--border);
-    text-transform: uppercase;
-    letter-spacing: 0.5px;
-    background: var(--white);
-  }
-  .badge.angle-1A { background: #FBE9F4; border-color: #F0C0DD; }
-  .badge.angle-2A { background: #E5F0FF; border-color: #B6CFEE; }
-  .badge.angle-3A { background: #E9F5D5; border-color: #C7DDA0; }
-  .badge.angle-3B { background: #FFF0D5; border-color: #EED9A4; }
-  .badge.angle-2B { background: #F0E1EB; border-color: #C9A8C0; }
-  .badge.platform-Shopify { background: #E9F5D5; border-color: #C7DDA0; }
-  .badge.platform-non-Shopify { background: #F0F0F0; border-color: var(--border); color: var(--muted); }
-  .badge.assigned { background: var(--bg); }
-
-  .empty {
-    background: var(--white);
-    border: 1px dashed var(--border);
-    padding: 32px;
-    text-align: center;
-    color: var(--muted);
-    font-family: var(--font-mono);
-    font-size: 12px;
-    text-transform: uppercase;
-    letter-spacing: 0.5px;
-  }
-
-  .error-box {
-    background: #FFF1F1;
-    border: 1px solid var(--danger);
-    color: var(--danger);
-    padding: 14px 16px;
-    font-family: var(--font-mono);
-    font-size: 12px;
-    margin-bottom: 16px;
-  }
-
-  /* Responsive */
-  @media (max-width: 1024px) {
-    .stats { grid-template-columns: repeat(3, 1fr); }
-    .actions-grid { grid-template-columns: repeat(2, 1fr); }
-  }
-  @media (max-width: 640px) {
-    main { padding: 16px; }
-    .stats { grid-template-columns: repeat(2, 1fr); }
-    .actions-grid { grid-template-columns: 1fr; }
-    table { font-size: 12px; }
-    th, td { padding: 8px; }
-    header { padding: 12px 16px; }
-  }
-</style>
+<link rel="stylesheet" href="./css/style.css">
 </head>
 <body>
 
-<header>
-  <div class="logo">NoProb<span class="slash">/</span>CRM</div>
-  <div class="timestamp" id="timestamp">Caricamento…</div>
-</header>
+<div id="header-slot"></div>
 
 <main>
-  <div id="error-slot"></div>
-
   <!-- STATS -->
   <section>
     <div class="stats" id="stats">
       <div class="stat"><div class="label">Contattati</div><div class="value" id="s-total">—</div></div>
       <div class="stat green"><div class="label">In conversazione</div><div class="value" id="s-conv">—</div></div>
-      <div class="stat warning"><div class="label">Autoresponse</div><div class="value" id="s-auto">—</div></div>
+      <div class="stat warning"><div class="label">FU oggi/domani</div><div class="value" id="s-due">—</div></div>
       <div class="stat blue"><div class="label">No reply</div><div class="value" id="s-noreply">—</div></div>
       <div class="stat danger"><div class="label">Bounce</div><div class="value" id="s-bounce">—</div></div>
       <div class="stat purple"><div class="label">Reply rate</div><div class="value" id="s-rate">—</div></div>
     </div>
   </section>
 
-  <!-- NEXT ACTIONS -->
+  <!-- 7-DAY ACTIVITY -->
   <section>
-    <h2>Prossime azioni <span class="count" id="actions-count"></span></h2>
-    <div class="actions-grid" id="actions-grid"></div>
+    <h2 class="section-title">Attività ultimi 7 giorni</h2>
+    <div class="week-bar" id="week-bar"></div>
   </section>
 
-  <!-- IN CONVERSATION -->
+  <!-- DATE RANGE FILTER -->
   <section>
-    <h2>In conversazione <span class="count" id="conv-count"></span></h2>
+    <div class="range-filter">
+      <label for="range-from">Dal</label>
+      <input type="date" id="range-from" />
+      <label for="range-to">Al</label>
+      <input type="date" id="range-to" />
+      <button class="btn" id="range-apply">Applica</button>
+      <button class="btn secondary" id="range-reset">Reset</button>
+      <span id="range-active" style="display:none;" class="range-active-badge"></span>
+    </div>
+  </section>
+
+  <!-- IN CONVERSAZIONE -->
+  <section>
+    <h2 class="section-title">In conversazione <span class="count" id="conv-count"></span></h2>
     <div class="conv-grid" id="conv-grid"></div>
   </section>
 
-  <!-- NO REPLY -->
+  <!-- ROADMAP SOP -->
   <section>
-    <h2>Contattati — nessuna risposta <span class="count" id="noreply-count"></span></h2>
-    <div class="filters" id="noreply-filters">
-      <span class="chip active" data-filter-type="assigned" data-value="all">Tutti</span>
-      <span class="chip" data-filter-type="assigned" data-value="Manu">Manu</span>
-      <span class="chip" data-filter-type="assigned" data-value="Dami">Dami</span>
-      <span class="chip" data-filter-type="angle" data-value="all">Tutti angoli</span>
-      <span class="chip" data-filter-type="angle" data-value="1A">1A</span>
-      <span class="chip" data-filter-type="angle" data-value="2A">2A</span>
-      <span class="chip" data-filter-type="angle" data-value="3A">3A</span>
-      <span class="chip" data-filter-type="angle" data-value="3B">3B</span>
-      <span class="chip" data-filter-type="angle" data-value="2B">2B</span>
+    <h2 class="section-title">Sequenza Outreach (SOP)</h2>
+    <div class="roadmap">
+      <div class="roadmap-track">
+        <div class="step manual">
+          <div class="step-circle">G1</div>
+          <div class="step-label">Email</div>
+          <div class="step-sub">Outbound iniziale</div>
+        </div>
+        <div class="step manual">
+          <div class="step-circle">G5/6</div>
+          <div class="step-label">DM LinkedIn</div>
+          <div class="step-sub">Manuale</div>
+        </div>
+        <div class="step manual">
+          <div class="step-circle">G8</div>
+          <div class="step-label">InMail</div>
+          <div class="step-sub">Manuale</div>
+        </div>
+        <div class="step auto">
+          <div class="step-circle">G10</div>
+          <div class="step-label">FU Email</div>
+          <div class="step-sub">Cowork</div>
+        </div>
+        <div class="step auto">
+          <div class="step-circle">G14</div>
+          <div class="step-label">FU LinkedIn</div>
+          <div class="step-sub">Cowork</div>
+        </div>
+        <div class="step stop">
+          <div class="step-circle">G17</div>
+          <div class="step-label">Archivia</div>
+          <div class="step-sub">Stop</div>
+        </div>
+      </div>
+      <div class="roadmap-legend">
+        <span class="legend-item"><span class="swatch auto"></span>Automatico (Cowork)</span>
+        <span class="legend-item"><span class="swatch manual"></span>Manuale</span>
+        <span class="legend-item"><span class="swatch stop"></span>Stop</span>
+      </div>
     </div>
-    <div id="noreply-table-wrap"></div>
-  </section>
-
-  <!-- BOUNCED -->
-  <section>
-    <h2>Bounce <span class="count" id="bounce-count"></span></h2>
-    <div id="bounce-table-wrap"></div>
   </section>
 </main>
 
+<script src="./js/shared.js"></script>
 <script>
-  const STATE = {
-    data: null,
-    filters: { assigned: "all", angle: "all" },
-  };
+const STATE = { data: null, range: { from: null, to: null } };
 
-  // ---------- Date helpers ----------
-  function today() {
-    const d = new Date();
-    d.setHours(0, 0, 0, 0);
-    return d;
-  }
-  function parseDate(s) {
-    if (!s) return null;
-    const d = new Date(s + "T00:00:00");
-    return isNaN(d) ? null : d;
-  }
-  function daysUntil(s) {
-    const d = parseDate(s);
-    if (!d) return null;
-    const ms = d.getTime() - today().getTime();
-    return Math.round(ms / (1000 * 60 * 60 * 24));
-  }
-  function urgencyClass(days) {
-    if (days === null) return "normal";
-    if (days <= 0) return "urgent";
-    if (days <= 2) return "soon";
-    return "normal";
-  }
-  function dueLabel(days) {
-    if (days === null) return "—";
-    if (days < 0) return `Scaduto ${Math.abs(days)}g fa`;
-    if (days === 0) return "Oggi";
-    if (days === 1) return "Domani";
-    return `Tra ${days}g`;
-  }
-  function fmtDateIT(s) {
-    const d = parseDate(s);
-    if (!d) return "—";
-    return d.toLocaleDateString("it-IT", { day: "2-digit", month: "2-digit", year: "numeric" });
-  }
-  function fmtTimestampIT(iso) {
-    if (!iso) return "—";
-    const d = new Date(iso);
-    if (isNaN(d)) return "—";
-    return d.toLocaleString("it-IT", {
-      day: "2-digit", month: "2-digit", year: "numeric",
-      hour: "2-digit", minute: "2-digit",
-    });
+function applyRange(prospects) {
+  if (!STATE.range.from && !STATE.range.to) return prospects;
+  return prospects.filter(p => inRange(p.first_contact, STATE.range.from, STATE.range.to));
+}
+
+function renderStats() {
+  const m = STATE.data.meta || {};
+  const active  = STATE.data.active || [];
+  const noReply = STATE.data.no_reply || [];
+  const bounced = STATE.data.bounced || [];
+
+  const inConv = active.filter(p =>
+    p.status === 'in_conversation' || p.status === 'call_booked' || p.status === 'closed'
+  ).length;
+  const totalContacted = m.total_contacted ?? (active.length + noReply.length);
+  const dueSoon = [...active, ...noReply].filter(p => {
+    const u = urgency(p.next_followup_due || p.next_action_date);
+    return u === 'urgent' || u === 'soon';
+  }).length;
+
+  document.getElementById('s-total').textContent   = totalContacted;
+  document.getElementById('s-conv').textContent    = inConv;
+  document.getElementById('s-due').textContent     = dueSoon;
+  document.getElementById('s-noreply').textContent = noReply.length;
+  document.getElementById('s-bounce').textContent  = bounced.length;
+  const rate = totalContacted > 0 ? Math.round(inConv / totalContacted * 1000) / 10 : 0;
+  document.getElementById('s-rate').textContent = totalContacted > 0 ? rate + '%' : '—';
+}
+
+function renderWeekBar() {
+  const wrap = document.getElementById('week-bar');
+  clear(wrap);
+
+  const all = [...(STATE.data.active || []), ...(STATE.data.no_reply || [])]
+    .filter(p => p.is_first_email !== false);
+
+  const days = [];
+  const t = today();
+  for (let i = 6; i >= 0; i--) {
+    const d = new Date(t); d.setDate(d.getDate() - i);
+    const iso = d.toISOString().split('T')[0];
+    days.push(iso);
   }
 
-  // ---------- Render helpers ----------
-  function el(tag, attrs = {}, ...children) {
-    const node = document.createElement(tag);
-    for (const [k, v] of Object.entries(attrs)) {
-      if (k === "class") node.className = v;
-      else if (k === "html") node.innerHTML = v;
-      else if (k.startsWith("data-")) node.setAttribute(k, v);
-      else node[k] = v;
-    }
-    for (const c of children) {
-      if (c == null || c === false) continue;
-      node.appendChild(typeof c === "string" ? document.createTextNode(c) : c);
-    }
-    return node;
-  }
-  function clear(node) { while (node.firstChild) node.removeChild(node.firstChild); }
+  const todayIso = t.toISOString().split('T')[0];
 
-  function angleBadge(a) {
-    if (!a) return el("span", { class: "badge" }, "—");
-    return el("span", { class: `badge angle-${a}` }, a);
-  }
-  function platformBadge(p) {
-    if (!p) return el("span", { class: "badge" }, "—");
-    const safe = p.replace(/[^A-Za-z]/g, "-");
-    return el("span", { class: `badge platform-${safe}` }, p);
-  }
-  function assignedBadge(a) {
-    return el("span", { class: "badge assigned" }, a || "—");
-  }
-
-  // ---------- Stats ----------
-  function renderStats() {
-    const m = STATE.data.meta || {};
-    const active = STATE.data.active || [];
-    const noReply = STATE.data.no_reply || [];
-    const bounced = STATE.data.bounced || [];
-
-    const inConv = active.filter(p =>
-      p.status === "in_conversation" ||
-      p.status === "call_booked" ||
-      p.status === "closed"
-    ).length;
-    const autoresp = noReply.filter(p => p.status === "autoresponse").length;
-    const totalContacted = m.total_contacted ?? (active.length + noReply.length);
-
-    document.getElementById("s-total").textContent   = totalContacted;
-    document.getElementById("s-conv").textContent    = inConv;
-    document.getElementById("s-auto").textContent    = autoresp;
-    document.getElementById("s-noreply").textContent = noReply.length;
-    document.getElementById("s-bounce").textContent  = bounced.length;
-
-    const rate = totalContacted > 0 ? Math.round((inConv / totalContacted) * 1000) / 10 : 0;
-    document.getElementById("s-rate").textContent = totalContacted > 0 ? `${rate}%` : "—";
-  }
-
-  // ---------- Next actions ----------
-  function renderActions() {
-    const grid = document.getElementById("actions-grid");
-    clear(grid);
-
-    const all = [
-      ...(STATE.data.active || []),
-      ...(STATE.data.no_reply || []),
-    ].filter(p => p.next_action_date && p.status !== "archived" && p.status !== "closed");
-
-    all.sort((a, b) => {
-      const da = daysUntil(a.next_action_date);
-      const db = daysUntil(b.next_action_date);
-      return da - db;
-    });
-
-    const next = all.slice(0, 6);
-    document.getElementById("actions-count").textContent = `${all.length} totali`;
-
-    if (next.length === 0) {
-      grid.appendChild(el("div", { class: "empty" }, "Nessuna azione pianificata"));
-      return;
+  for (const iso of days) {
+    const onDay = all.filter(p => p.first_contact === iso);
+    const counts = { Manu: 0, Dami: 0, Claude: 0, Antonio: 0 };
+    for (const p of onDay) {
+      const s = p.sender || p.assigned_to || 'Manu';
+      if (counts[s] != null) counts[s]++;
     }
 
-    for (const p of next) {
-      const days = daysUntil(p.next_action_date);
-      const cls = urgencyClass(days);
-      const card = el("div", { class: `action-card ${cls}` },
-        el("div", { class: "brand" }, p.brand || "—"),
-        el("div", { class: "meta" }, `${p.assigned_to || "—"} · ${p.angle || "—"} · ${p.contact || p.email || ""}`),
-        el("div", { class: "action" }, p.next_action || "—"),
-        el("div", { class: "due" }, `${dueLabel(days)} · ${fmtDateIT(p.next_action_date)}`),
-      );
-      grid.appendChild(card);
-    }
-  }
-
-  // ---------- In conversation ----------
-  function renderConversations() {
-    const grid = document.getElementById("conv-grid");
-    clear(grid);
-
-    const items = (STATE.data.active || []).filter(p =>
-      p.status === "in_conversation" || p.status === "call_booked"
-    );
-    document.getElementById("conv-count").textContent = `${items.length}`;
-
-    if (items.length === 0) {
-      grid.appendChild(el("div", { class: "empty" }, "Nessuna conversazione attiva"));
-      return;
-    }
-
-    for (const p of items) {
-      const card = el("div", { class: `conv-card ${p.status === "call_booked" ? "call-booked" : ""}` });
-      card.appendChild(el("div", { class: "brand" }, p.brand || "—"));
-      card.appendChild(el("div", { class: "contact" },
-        `${p.contact || "—"}${p.email ? " · " + p.email : ""}`
-      ));
-
-      card.appendChild(el("div", { class: "row" },
-        "Assegnato: ", el("strong", {}, p.assigned_to || "—"),
-        " · Angolo: ", el("strong", {}, p.angle || "—"),
-        " · Status: ", el("strong", {}, p.status || "—"),
-      ));
-
-      if (p.platform) {
-        card.appendChild(el("div", { class: "row" }, "Piattaforma: ", el("strong", {}, p.platform)));
+    const isToday = iso === todayIso;
+    const isEmpty = onDay.length === 0;
+    const card = el('div', { class: `day-card ${isToday ? 'today' : ''} ${isEmpty ? 'empty' : ''}` });
+    card.appendChild(el('div', { class: 'day-date' }, fmtDayCard(iso)));
+    card.appendChild(el('div', { class: 'day-total' }, String(onDay.length)));
+    const dots = el('div', { class: 'day-dots' });
+    for (const sender of SENDERS) {
+      if (counts[sender] > 0) {
+        dots.appendChild(el('span', { class: `dot ${sender.toLowerCase()}` }, String(counts[sender])));
       }
-
-      if (p.stape_score != null) {
-        card.appendChild(el("div", {},
-          el("span", { class: "stape" }, `Stape score: ${p.stape_score}`)
-        ));
-      }
-
-      if (p.notes) {
-        card.appendChild(el("div", { class: "notes" }, p.notes));
-      }
-
-      if (p.next_action) {
-        const days = daysUntil(p.next_action_date);
-        card.appendChild(el("div", { class: "next" },
-          el("div", { class: "label" }, "Prossima azione"),
-          el("div", {}, p.next_action),
-          p.next_action_date
-            ? el("div", { class: "label", style: "margin-top:4px" }, `${dueLabel(days)} · ${fmtDateIT(p.next_action_date)}`)
-            : null,
-        ));
-      }
-
-      grid.appendChild(card);
     }
+    card.appendChild(dots);
+    wrap.appendChild(card);
+  }
+}
+
+function renderConversations() {
+  const grid = document.getElementById('conv-grid');
+  clear(grid);
+
+  let items = (STATE.data.active || []).filter(p =>
+    p.status === 'in_conversation' || p.status === 'call_booked'
+  );
+  items = applyRange(items);
+
+  document.getElementById('conv-count').textContent = items.length;
+
+  if (items.length === 0) {
+    grid.appendChild(el('div', { class: 'empty' }, 'Nessuna conversazione attiva nel range'));
+    return;
   }
 
-  // ---------- No reply table ----------
-  function renderNoReply() {
-    const wrap = document.getElementById("noreply-table-wrap");
-    clear(wrap);
+  for (const p of items) {
+    const sender = (p.sender || p.assigned_to || 'Manu').toLowerCase();
+    const card = el('div', { class: `conv-card sender-${sender}` });
 
-    let items = STATE.data.no_reply || [];
+    // header
+    const header = el('div', { class: 'card-header' });
+    header.appendChild(senderBadge(p.sender || p.assigned_to));
+    header.appendChild(el('span', { class: 'brand' }, p.brand || '—'));
+    header.appendChild(angleBadge(p.angle));
+    header.appendChild(platformBadge(p.platform));
+    card.appendChild(header);
 
-    if (STATE.filters.assigned !== "all") {
-      items = items.filter(p => p.assigned_to === STATE.filters.assigned);
-    }
-    if (STATE.filters.angle !== "all") {
-      items = items.filter(p => p.angle === STATE.filters.angle);
-    }
+    // contact
+    const contactLine = [
+      p.contact || '—',
+      p.email,
+      p.domain ? p.domain : null
+    ].filter(Boolean).join(' · ');
+    card.appendChild(el('div', { class: 'contact-line' }, contactLine));
 
-    items.sort((a, b) => {
-      const da = daysUntil(a.next_action_date);
-      const db = daysUntil(b.next_action_date);
-      if (da == null && db == null) return 0;
-      if (da == null) return 1;
-      if (db == null) return -1;
-      return da - db;
-    });
-
-    document.getElementById("noreply-count").textContent =
-      `${items.length}${items.length !== (STATE.data.no_reply || []).length ? " filtrati" : ""}`;
-
-    if (items.length === 0) {
-      wrap.appendChild(el("div", { class: "empty" }, "Nessun prospect"));
-      return;
-    }
-
-    const table = el("table");
-    const thead = el("thead", {},
-      el("tr", {},
-        el("th", {}, "Brand"),
-        el("th", {}, "Contatto"),
-        el("th", {}, "Assegnato"),
-        el("th", {}, "Angolo"),
-        el("th", {}, "Piattaforma"),
-        el("th", {}, "Primo contatto"),
-        el("th", {}, "Prossima azione"),
-        el("th", {}, "Scadenza"),
-      )
-    );
-    const tbody = el("tbody");
-
-    for (const p of items) {
-      const days = daysUntil(p.next_action_date);
-      const dueClass = days === null ? "" :
-        (days <= 0 ? "due-urgent" : (days <= 2 ? "due-soon" : ""));
-
-      const brandCell = p.domain
-        ? el("td", { class: "brand-cell" },
-            el("a", { href: `https://${p.domain}`, target: "_blank", rel: "noopener" }, p.brand || p.domain))
-        : el("td", { class: "brand-cell" }, p.brand || "—");
-
-      tbody.appendChild(el("tr", {},
-        brandCell,
-        el("td", {}, p.contact || (p.email ? p.email : "—")),
-        el("td", {}, assignedBadge(p.assigned_to)),
-        el("td", {}, angleBadge(p.angle)),
-        el("td", {}, platformBadge(p.platform)),
-        el("td", { class: "mono" }, fmtDateIT(p.first_contact)),
-        el("td", {}, p.next_action || (p.status === "autoresponse" ? "Autoresponse ricevuta" : "—")),
-        el("td", { class: `mono ${dueClass}` },
-          p.next_action_date ? `${dueLabel(days)} · ${fmtDateIT(p.next_action_date)}` : "—"),
+    // ultima outbound antonio
+    if (p.last_outbound_by_antonio) {
+      const o = p.last_outbound_by_antonio;
+      card.appendChild(el('div', { class: 'panel outbound' },
+        el('div', { class: 'panel-label' }, '↗ Ultima email outbound'),
+        el('div', { class: 'snippet' }, `"${o.snippet}"`),
+        el('div', { class: 'meta' }, `inviata il ${fmtDateIT(o.date)}`)
       ));
     }
 
-    table.appendChild(thead);
-    table.appendChild(tbody);
-    wrap.appendChild(table);
-  }
-
-  // ---------- Bounce table ----------
-  function renderBounced() {
-    const wrap = document.getElementById("bounce-table-wrap");
-    clear(wrap);
-
-    const items = STATE.data.bounced || [];
-    document.getElementById("bounce-count").textContent = `${items.length}`;
-
-    if (items.length === 0) {
-      wrap.appendChild(el("div", { class: "empty" }, "Nessun bounce"));
-      return;
+    // ultima reply
+    if (p.last_reply_from_prospect) {
+      const r = p.last_reply_from_prospect;
+      card.appendChild(el('div', { class: 'panel inbound' },
+        el('div', { class: 'panel-label' }, '↙ Ultima risposta prospect'),
+        el('div', { class: 'snippet' }, `"${r.snippet}"`),
+        el('div', { class: 'meta' }, `ricevuta il ${fmtDateIT(r.date)}`)
+      ));
     }
 
-    const table = el("table");
-    table.appendChild(el("thead", {},
-      el("tr", {},
-        el("th", {}, "Brand"),
-        el("th", {}, "Email tentata"),
-        el("th", {}, "Assegnato"),
-        el("th", {}, "Angolo"),
-        el("th", {}, "Data"),
-        el("th", {}, "Note"),
-      )
+    // reminder
+    const due = p.next_followup_due || p.next_action_date;
+    const u = urgency(due);
+    card.appendChild(el('div', { class: `reminder ${u !== 'normal' && u !== 'none' ? u : ''}` },
+      el('span', { class: 'label' }, '🔔 REMINDER'),
+      due ? `${dueLabel(due)} · ${fmtDateIT(due)}` : 'Nessuna scadenza',
+      el('br'),
+      p.next_action || ''
     ));
-    const tbody = el("tbody");
 
-    for (const b of items) {
-      const brandCell = b.domain
-        ? el("td", { class: "brand-cell" },
-            el("a", { href: `https://${b.domain}`, target: "_blank", rel: "noopener" }, b.brand || b.domain))
-        : el("td", { class: "brand-cell" }, b.brand || "—");
+    if (p.notes) card.appendChild(el('div', { class: 'notes' }, p.notes));
 
-      tbody.appendChild(el("tr", {},
-        brandCell,
-        el("td", { class: "mono" }, b.email || "—"),
-        el("td", {}, assignedBadge(b.assigned_to)),
-        el("td", {}, angleBadge(b.angle)),
-        el("td", { class: "mono" }, fmtDateIT(b.bounce_date)),
-        el("td", {}, b.notes || "—"),
-      ));
-    }
-    table.appendChild(tbody);
-    wrap.appendChild(table);
+    card.addEventListener('click', () => openModal(p.brand, buildProspectModal(p)));
+    grid.appendChild(card);
   }
+}
 
-  // ---------- Filters ----------
-  function bindFilters() {
-    const root = document.getElementById("noreply-filters");
-    root.addEventListener("click", (e) => {
-      const chip = e.target.closest(".chip");
-      if (!chip) return;
-      const type = chip.getAttribute("data-filter-type");
-      const value = chip.getAttribute("data-value");
-      STATE.filters[type] = value;
+function bindRangeFilter() {
+  document.getElementById('range-apply').addEventListener('click', () => {
+    STATE.range.from = document.getElementById('range-from').value || null;
+    STATE.range.to   = document.getElementById('range-to').value || null;
+    updateRangeBadge();
+    renderConversations();
+  });
+  document.getElementById('range-reset').addEventListener('click', () => {
+    STATE.range = { from: null, to: null };
+    document.getElementById('range-from').value = '';
+    document.getElementById('range-to').value = '';
+    updateRangeBadge();
+    renderConversations();
+  });
+}
+function updateRangeBadge() {
+  const b = document.getElementById('range-active');
+  if (!STATE.range.from && !STATE.range.to) { b.style.display = 'none'; return; }
+  const f = STATE.range.from ? fmtDateIT(STATE.range.from) : '…';
+  const t = STATE.range.to   ? fmtDateIT(STATE.range.to)   : '…';
+  b.textContent = `Filtro attivo: ${f} → ${t}`;
+  b.style.display = 'inline-block';
+}
 
-      root.querySelectorAll(`.chip[data-filter-type="${type}"]`).forEach(c => c.classList.remove("active"));
-      chip.classList.add("active");
-
-      renderNoReply();
-    });
+async function init() {
+  document.getElementById('header-slot').appendChild(buildHeader('dashboard'));
+  try {
+    STATE.data = await loadProspects();
+    setTimestamp(STATE.data.meta && STATE.data.meta.last_updated);
+    renderStats();
+    renderWeekBar();
+    bindRangeFilter();
+    renderConversations();
+  } catch (err) {
+    showError(`Errore caricamento dati: ${err.message}`);
+    setTimestamp(null);
   }
-
-  // ---------- Bootstrap ----------
-  function showError(msg) {
-    const slot = document.getElementById("error-slot");
-    slot.appendChild(el("div", { class: "error-box" }, msg));
-  }
-
-  async function load() {
-    try {
-      const res = await fetch("./data/prospects.json?v=" + Date.now(), { cache: "no-store" });
-      if (!res.ok) throw new Error(`HTTP ${res.status}`);
-      STATE.data = await res.json();
-
-      document.getElementById("timestamp").textContent =
-        "Aggiornato: " + fmtTimestampIT(STATE.data.meta && STATE.data.meta.last_updated);
-
-      renderStats();
-      renderActions();
-      renderConversations();
-      renderNoReply();
-      renderBounced();
-    } catch (err) {
-      showError(`Errore caricamento dati: ${err.message}`);
-      document.getElementById("timestamp").textContent = "Errore caricamento";
-    }
-  }
-
-  bindFilters();
-  load();
+}
+init();
 </script>
-
 </body>
 </html>

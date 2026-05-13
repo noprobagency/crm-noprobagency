@@ -2,6 +2,7 @@
   "buildCommand": null,
   "outputDirectory": ".",
   "framework": null,
+  "cleanUrls": true,
   "headers": [
     {
       "source": "/data/(.*)",

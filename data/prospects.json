@@ -1,12 +1,13 @@
 {
   "meta": {
-    "last_updated": "2026-05-13T10:30:00Z",
+    "last_updated": "2026-05-13T11:00:00Z",
     "total_contacted": 147,
     "total_replied": 3,
     "total_bounced": 12,
     "total_autoresponse": 11,
     "first_run": true,
-    "coverage_note": "First run — copre outbound visibili negli ultimi ~9 giorni (2026-05-06 → 2026-05-13). Le runs giornaliere successive aggiungeranno nuovi thread incrementalmente."
+    "coverage_note": "First run — copre outbound visibili negli ultimi ~9 giorni (2026-05-06 → 2026-05-13). Le runs giornaliere successive aggiungeranno nuovi thread incrementalmente.",
+    "schema_version": "v2"
   },
   "active": [
     {
@@ -27,11 +28,44 @@
       "notes": "Founder & CEO. Ha chiesto il report dopo bump del 12/05. Inviato report Stape completo il 13/05 (Ads 44/100).",
       "thread_id": "19ddac7248b1a78a",
       "timeline": [
-        { "date": "2026-04-30", "action": "Email outbound 2B inviata" },
-        { "date": "2026-05-12", "action": "Bump email" },
-        { "date": "2026-05-12", "action": "Risposta positiva: 'Feel free to send report'" },
-        { "date": "2026-05-13", "action": "Inviato report Stape (39/100, Ads 44/100)" }
-      ]
+        {
+          "date": "2026-04-30",
+          "action": "Email outbound 2B inviata"
+        },
+        {
+          "date": "2026-05-12",
+          "action": "Bump email"
+        },
+        {
+          "date": "2026-05-12",
+          "action": "Risposta positiva: 'Feel free to send report'"
+        },
+        {
+          "date": "2026-05-13",
+          "action": "Inviato report Stape (39/100, Ads 44/100)"
+        }
+      ],
+      "label_id": "Label_8658624016447790536",
+      "sender": "Dami",
+      "is_first_email": true,
+      "followups_sent": [
+        {
+          "date": "2026-05-12",
+          "type": "email_day10",
+          "sender": "Antonio",
+          "snippet": "Hi Victoire, bumping this up — the tracking issue I spotted on The Go-To's campaigns is still there."
+        }
+      ],
+      "last_outbound_by_antonio": {
+        "date": "2026-05-13",
+        "snippet": "Hi Victoire, thanks for getting back to me! Here's the full report: stape.io/website-tracking-checker/019e1f11..."
+      },
+      "last_reply_from_prospect": {
+        "date": "2026-05-12",
+        "snippet": "Hi Antonio, Feel free to send report. Best, Victoire — Founder & CEO"
+      },
+      "next_followup_due": "2026-05-18",
+      "days_since_last_activity": 0
     },
     {
       "id": "prospect_002",
@@ -51,11 +85,56 @@
       "notes": "Risposta positiva il 07/05. Inviato video di analisi (10 min) l'08/05. Bump il 12/05 senza risposta ancora.",
       "thread_id": "19e026540b01048b",
       "timeline": [
-        { "date": "2026-05-01", "action": "Email outbound 2B inviata" },
-        { "date": "2026-05-07", "action": "Bump + risposta positiva: 'Va bene Antonio, me lo mandi pure'" },
-        { "date": "2026-05-08", "action": "Inviato video di analisi" },
-        { "date": "2026-05-12", "action": "Bump check video" }
-      ]
+        {
+          "date": "2026-05-01",
+          "action": "Email outbound 2B inviata"
+        },
+        {
+          "date": "2026-05-07",
+          "action": "Bump + risposta positiva: 'Va bene Antonio, me lo mandi pure'"
+        },
+        {
+          "date": "2026-05-08",
+          "action": "Inviato video di analisi"
+        },
+        {
+          "date": "2026-05-12",
+          "action": "Bump check video"
+        }
+      ],
+      "label_id": "Label_8658624016447790536",
+      "sender": "Dami",
+      "is_first_email": true,
+      "followups_sent": [
+        {
+          "date": "2026-05-07",
+          "type": "email_day10",
+          "sender": "Antonio",
+          "snippet": "Ciao, rimando su nel caso non l'avessi vista. Per Il Sellaio il caso studio è pronto quando vuoi."
+        },
+        {
+          "date": "2026-05-08",
+          "type": "manual",
+          "sender": "Antonio",
+          "snippet": "Buongiorno Valeria, ho preparato un video di 10 minuti in cui analizzo il vostro setup."
+        },
+        {
+          "date": "2026-05-12",
+          "type": "manual",
+          "sender": "Antonio",
+          "snippet": "Ciao Valeria, volevo solo verificare che il video fosse arrivato."
+        }
+      ],
+      "last_outbound_by_antonio": {
+        "date": "2026-05-12",
+        "snippet": "Ciao Valeria, volevo solo verificare che il video fosse arrivato, ha avuto modo di vederlo?"
+      },
+      "last_reply_from_prospect": {
+        "date": "2026-05-07",
+        "snippet": "Va bene Antonio, me lo mandi pure. Grazie, Valeria Gerosa — IL SELLAIO, F.lli Cazzaniga Srl"
+      },
+      "next_followup_due": "2026-05-18",
+      "days_since_last_activity": 1
     },
     {
       "id": "prospect_003",
@@ -75,11 +154,56 @@
       "notes": "Email personale (nicodeka03@gmail.com). Risposta positiva il 07/05 ('Manda pure'). Video inviato l'08/05. Bump il 12/05.",
       "thread_id": "19e02604b5efa2cb",
       "timeline": [
-        { "date": "2026-05-01", "action": "Email outbound 3A inviata" },
-        { "date": "2026-05-07", "action": "Bump + risposta positiva" },
-        { "date": "2026-05-08", "action": "Inviato video di analisi" },
-        { "date": "2026-05-12", "action": "Bump check video" }
-      ]
+        {
+          "date": "2026-05-01",
+          "action": "Email outbound 3A inviata"
+        },
+        {
+          "date": "2026-05-07",
+          "action": "Bump + risposta positiva"
+        },
+        {
+          "date": "2026-05-08",
+          "action": "Inviato video di analisi"
+        },
+        {
+          "date": "2026-05-12",
+          "action": "Bump check video"
+        }
+      ],
+      "label_id": "Label_1592668050883672428",
+      "sender": "Manu",
+      "is_first_email": true,
+      "followups_sent": [
+        {
+          "date": "2026-05-07",
+          "type": "email_day10",
+          "sender": "Antonio",
+          "snippet": "Ciao Nicolò, rimando su nel caso non l'avessi vista. Per Marandino il caso studio è pronto."
+        },
+        {
+          "date": "2026-05-08",
+          "type": "manual",
+          "sender": "Antonio",
+          "snippet": "Buongiorno Nicolò! ho preparato un video di 10 minuti in cui analizzo il vostro store."
+        },
+        {
+          "date": "2026-05-12",
+          "type": "manual",
+          "sender": "Antonio",
+          "snippet": "Ciao Nicolò, volevo solo verificare che il video fosse arrivato."
+        }
+      ],
+      "last_outbound_by_antonio": {
+        "date": "2026-05-12",
+        "snippet": "Ciao Nicolò, volevo solo verificare che il video fosse arrivato, hai avuto modo di vederlo?"
+      },
+      "last_reply_from_prospect": {
+        "date": "2026-05-07",
+        "snippet": "Ciao Antonio, Manda pure, non ho ricevuto nessuna mail."
+      },
+      "next_followup_due": "2026-05-18",
+      "days_since_last_activity": 1
     }
   ],
   "no_reply": [
@@ -100,7 +224,23 @@
       "stape_score": null,
       "notes": "Boutique Roma, fashion italiano",
       "thread_id": "19e1d2798cfa0e77",
-      "timeline": [{ "date": "2026-05-13", "action": "Email outbound 1A inviata" }]
+      "timeline": [
+        {
+          "date": "2026-05-13",
+          "action": "Email outbound 1A inviata"
+        }
+      ],
+      "label_id": "Label_1592668050883672428",
+      "sender": "Manu",
+      "is_first_email": true,
+      "followups_sent": [],
+      "last_outbound_by_antonio": {
+        "date": "2026-05-13",
+        "snippet": "Ciao, mi sono imbattuto in Laura Urbinati cercando le migliori realtà fashion del settore. Ho visto la piattaforma che state usando per le vendite online…"
+      },
+      "last_reply_from_prospect": null,
+      "next_followup_due": "2026-05-18",
+      "days_since_last_activity": 0
     },
     {
       "id": "prospect_011",
@@ -119,7 +259,23 @@
       "stape_score": null,
       "notes": "Boutique multibrand Cosenza",
       "thread_id": "19e1d236574a95ea",
-      "timeline": [{ "date": "2026-05-13", "action": "Email outbound 1A inviata" }]
+      "timeline": [
+        {
+          "date": "2026-05-13",
+          "action": "Email outbound 1A inviata"
+        }
+      ],
+      "label_id": "Label_1592668050883672428",
+      "sender": "Manu",
+      "is_first_email": true,
+      "followups_sent": [],
+      "last_outbound_by_antonio": {
+        "date": "2026-05-13",
+        "snippet": "Ciao, mi sono imbattuto in Giordano Cosenza cercando le migliori realtà fashion del settore. Ho visto la piattaforma che state usando per le vendite online…"
+      },
+      "last_reply_from_prospect": null,
+      "next_followup_due": "2026-05-18",
+      "days_since_last_activity": 0
     },
     {
       "id": "prospect_012",
@@ -138,7 +294,23 @@
       "stape_score": null,
       "notes": "Fashion italiano, gruppo Miroglio",
       "thread_id": "19e1d0d782cee143",
-      "timeline": [{ "date": "2026-05-13", "action": "Email outbound 1A inviata" }]
+      "timeline": [
+        {
+          "date": "2026-05-13",
+          "action": "Email outbound 1A inviata"
+        }
+      ],
+      "label_id": "Label_1592668050883672428",
+      "sender": "Manu",
+      "is_first_email": true,
+      "followups_sent": [],
+      "last_outbound_by_antonio": {
+        "date": "2026-05-13",
+        "snippet": "Ciao Jessica, mi sono imbattuto in Motivi (Miroglio) cercando le migliori realtà fashion del settore. Ho visto la piattaforma che state usando per le vendite online…"
+      },
+      "last_reply_from_prospect": null,
+      "next_followup_due": "2026-05-18",
+      "days_since_last_activity": 0
     },
     {
       "id": "prospect_013",
@@ -157,7 +329,23 @@
       "stape_score": null,
       "notes": "Luxury boutique multibrand Bellaria",
       "thread_id": "19e1d1de7220fe0f",
-      "timeline": [{ "date": "2026-05-13", "action": "Email outbound 1A inviata" }]
+      "timeline": [
+        {
+          "date": "2026-05-13",
+          "action": "Email outbound 1A inviata"
+        }
+      ],
+      "label_id": "Label_1592668050883672428",
+      "sender": "Manu",
+      "is_first_email": true,
+      "followups_sent": [],
+      "last_outbound_by_antonio": {
+        "date": "2026-05-13",
+        "snippet": "Ciao Manolo, mi sono imbattuto in 13metriquadri (TMQ Store) cercando le migliori realtà fashion del settore. Ho visto la piattaforma che state usando per le vendite online…"
+      },
+      "last_reply_from_prospect": null,
+      "next_followup_due": "2026-05-18",
+      "days_since_last_activity": 0
     },
     {
       "id": "prospect_014",
@@ -176,7 +364,23 @@
       "stape_score": null,
       "notes": "Boutique multibrand La Spezia",
       "thread_id": "19e1d12de4a2b954",
-      "timeline": [{ "date": "2026-05-13", "action": "Email outbound 1A inviata" }]
+      "timeline": [
+        {
+          "date": "2026-05-13",
+          "action": "Email outbound 1A inviata"
+        }
+      ],
+      "label_id": "Label_1592668050883672428",
+      "sender": "Manu",
+      "is_first_email": true,
+      "followups_sent": [],
+      "last_outbound_by_antonio": {
+        "date": "2026-05-13",
+        "snippet": "Ciao, mi sono imbattuto in Niba 1976 cercando le migliori realtà fashion del settore. Ho visto la piattaforma che state usando per le vendite online…"
+      },
+      "last_reply_from_prospect": null,
+      "next_followup_due": "2026-05-18",
+      "days_since_last_activity": 0
     },
     {
       "id": "prospect_015",
@@ -195,7 +399,23 @@
       "stape_score": null,
       "notes": "Luxury boutique Lugo",
       "thread_id": "19e1d068b43b13f3",
-      "timeline": [{ "date": "2026-05-13", "action": "Email outbound 1A inviata" }]
+      "timeline": [
+        {
+          "date": "2026-05-13",
+          "action": "Email outbound 1A inviata"
+        }
+      ],
+      "label_id": "Label_1592668050883672428",
+      "sender": "Manu",
+      "is_first_email": true,
+      "followups_sent": [],
+      "last_outbound_by_antonio": {
+        "date": "2026-05-13",
+        "snippet": "Ciao, mi sono imbattuto in Angelo Vintage cercando le migliori realtà fashion del settore. Ho visto la piattaforma che state usando per le vendite online…"
+      },
+      "last_reply_from_prospect": null,
+      "next_followup_due": "2026-05-18",
+      "days_since_last_activity": 0
     },
     {
       "id": "prospect_016",
@@ -214,7 +434,23 @@
       "stape_score": null,
       "notes": "Boutique multibrand",
       "thread_id": "19e1cdfc558ddcf2",
-      "timeline": [{ "date": "2026-05-13", "action": "Email outbound 1A inviata" }]
+      "timeline": [
+        {
+          "date": "2026-05-13",
+          "action": "Email outbound 1A inviata"
+        }
+      ],
+      "label_id": "Label_1592668050883672428",
+      "sender": "Manu",
+      "is_first_email": true,
+      "followups_sent": [],
+      "last_outbound_by_antonio": {
+        "date": "2026-05-13",
+        "snippet": "Ciao, mi sono imbattuto in Dante 5 cercando le migliori realtà fashion del settore. Ho visto la piattaforma che state usando per le vendite online…"
+      },
+      "last_reply_from_prospect": null,
+      "next_followup_due": "2026-05-18",
+      "days_since_last_activity": 0
     },
     {
       "id": "prospect_017",
@@ -233,7 +469,23 @@
       "stape_score": null,
       "notes": "Luxury boutique Montebelluna",
       "thread_id": "19e1cdb23170b2fc",
-      "timeline": [{ "date": "2026-05-13", "action": "Email outbound 1A inviata" }]
+      "timeline": [
+        {
+          "date": "2026-05-13",
+          "action": "Email outbound 1A inviata"
+        }
+      ],
+      "label_id": "Label_1592668050883672428",
+      "sender": "Manu",
+      "is_first_email": true,
+      "followups_sent": [],
+      "last_outbound_by_antonio": {
+        "date": "2026-05-13",
+        "snippet": "Ciao Elisa, mi sono imbattuto in Colognese cercando le migliori realtà fashion del settore. Ho visto la piattaforma che state usando per le vendite online…"
+      },
+      "last_reply_from_prospect": null,
+      "next_followup_due": "2026-05-18",
+      "days_since_last_activity": 0
     },
     {
       "id": "prospect_018",
@@ -252,7 +504,23 @@
       "stape_score": null,
       "notes": "Boutique multibrand Mantova",
       "thread_id": "19e1cb67d38a4596",
-      "timeline": [{ "date": "2026-05-13", "action": "Email outbound 1A inviata" }]
+      "timeline": [
+        {
+          "date": "2026-05-13",
+          "action": "Email outbound 1A inviata"
+        }
+      ],
+      "label_id": "Label_1592668050883672428",
+      "sender": "Manu",
+      "is_first_email": true,
+      "followups_sent": [],
+      "last_outbound_by_antonio": {
+        "date": "2026-05-13",
+        "snippet": "Ciao Ginevra, mi sono imbattuto in Bernardelli Stores cercando le migliori realtà fashion del settore. Ho visto la piattaforma che state usando per le vendite online…"
+      },
+      "last_reply_from_prospect": null,
+      "next_followup_due": "2026-05-18",
+      "days_since_last_activity": 0
     },
     {
       "id": "prospect_019",
@@ -271,7 +539,23 @@
       "stape_score": null,
       "notes": "UK bikepacking equipment",
       "thread_id": "19e1d59e7f3dcff3",
-      "timeline": [{ "date": "2026-05-13", "action": "Email outbound 2A inviata" }]
+      "timeline": [
+        {
+          "date": "2026-05-13",
+          "action": "Email outbound 2A inviata"
+        }
+      ],
+      "label_id": "Label_1592668050883672428",
+      "sender": "Manu",
+      "is_first_email": true,
+      "followups_sent": [],
+      "last_outbound_by_antonio": {
+        "date": "2026-05-13",
+        "snippet": "Ciao Nick, mi sono imbattuto in Tailfin cercando i migliori e-commerce del settore. Ho visto la piattaforma che state usando per le vendite online…"
+      },
+      "last_reply_from_prospect": null,
+      "next_followup_due": "2026-05-18",
+      "days_since_last_activity": 0
     },
     {
       "id": "prospect_020",
@@ -290,7 +574,23 @@
       "stape_score": null,
       "notes": "Luxury boutique Cuneo",
       "thread_id": "19e1cbe3611be12a",
-      "timeline": [{ "date": "2026-05-13", "action": "Email outbound 1A inviata" }]
+      "timeline": [
+        {
+          "date": "2026-05-13",
+          "action": "Email outbound 1A inviata"
+        }
+      ],
+      "label_id": "Label_1592668050883672428",
+      "sender": "Manu",
+      "is_first_email": true,
+      "followups_sent": [],
+      "last_outbound_by_antonio": {
+        "date": "2026-05-13",
+        "snippet": "Ciao Michela, mi sono imbattuto in Bruna Rosso cercando le migliori realtà fashion del settore. Ho visto la piattaforma che state usando per le vendite online…"
+      },
+      "last_reply_from_prospect": null,
+      "next_followup_due": "2026-05-18",
+      "days_since_last_activity": 0
     },
     {
       "id": "prospect_021",
@@ -309,7 +609,23 @@
       "stape_score": null,
       "notes": "Shopify, frenano le conversioni",
       "thread_id": "19e1d4956c82b2ae",
-      "timeline": [{ "date": "2026-05-13", "action": "Email outbound 3B inviata" }]
+      "timeline": [
+        {
+          "date": "2026-05-13",
+          "action": "Email outbound 3B inviata"
+        }
+      ],
+      "label_id": "Label_8658624016447790536",
+      "sender": "Dami",
+      "is_first_email": true,
+      "followups_sent": [],
+      "last_outbound_by_antonio": {
+        "date": "2026-05-13",
+        "snippet": "Ciao Mauro, stavo guardando i migliori store Shopify del settore e mi sono imbattuto in Eglooh, ma ho visto 2-3 cose che frenano le conversioni…"
+      },
+      "last_reply_from_prospect": null,
+      "next_followup_due": "2026-05-18",
+      "days_since_last_activity": 0
     },
     {
       "id": "prospect_022",
@@ -328,7 +644,23 @@
       "stape_score": null,
       "notes": "E-commerce settore medico",
       "thread_id": "19e1d5f3c7110350",
-      "timeline": [{ "date": "2026-05-13", "action": "Email outbound 2A inviata" }]
+      "timeline": [
+        {
+          "date": "2026-05-13",
+          "action": "Email outbound 2A inviata"
+        }
+      ],
+      "label_id": "Label_1592668050883672428",
+      "sender": "Manu",
+      "is_first_email": true,
+      "followups_sent": [],
+      "last_outbound_by_antonio": {
+        "date": "2026-05-13",
+        "snippet": "Ciao Giuseppe, mi sono imbattuto in MedicoShop cercando i migliori e-commerce del settore. Ho visto la piattaforma che state usando per le vendite online…"
+      },
+      "last_reply_from_prospect": null,
+      "next_followup_due": "2026-05-18",
+      "days_since_last_activity": 0
     },
     {
       "id": "prospect_023",
@@ -347,7 +679,23 @@
       "stape_score": null,
       "notes": "Luxury boutique Roma",
       "thread_id": "19e1d19427d1cd60",
-      "timeline": [{ "date": "2026-05-13", "action": "Email outbound 1A inviata" }]
+      "timeline": [
+        {
+          "date": "2026-05-13",
+          "action": "Email outbound 1A inviata"
+        }
+      ],
+      "label_id": "Label_1592668050883672428",
+      "sender": "Manu",
+      "is_first_email": true,
+      "followups_sent": [],
+      "last_outbound_by_antonio": {
+        "date": "2026-05-13",
+        "snippet": "Ciao, mi sono imbattuto in Galassia Roma cercando le migliori realtà fashion del settore. Ho visto la piattaforma che state usando per le vendite online…"
+      },
+      "last_reply_from_prospect": null,
+      "next_followup_due": "2026-05-18",
+      "days_since_last_activity": 0
     },
     {
       "id": "prospect_024",
@@ -366,7 +714,23 @@
       "stape_score": null,
       "notes": "UK Shopify, tracking + Meta",
       "thread_id": "19e1d68d41685938",
-      "timeline": [{ "date": "2026-05-13", "action": "Email outbound 2B inviata" }]
+      "timeline": [
+        {
+          "date": "2026-05-13",
+          "action": "Email outbound 2B inviata"
+        }
+      ],
+      "label_id": "Label_8658624016447790536",
+      "sender": "Dami",
+      "is_first_email": true,
+      "followups_sent": [],
+      "last_outbound_by_antonio": {
+        "date": "2026-05-13",
+        "snippet": "Ciao Paul, I was looking into Disturbia and noticed you're running Meta/Google campaigns on a Shopify store. Quick check on your tracking — found an issue you're likely unaware of…"
+      },
+      "last_reply_from_prospect": null,
+      "next_followup_due": "2026-05-18",
+      "days_since_last_activity": 0
     },
     {
       "id": "prospect_025",
@@ -385,7 +749,23 @@
       "stape_score": null,
       "notes": "Shopify, tracking",
       "thread_id": "19e1d52de6ee6901",
-      "timeline": [{ "date": "2026-05-13", "action": "Email outbound 2B inviata" }]
+      "timeline": [
+        {
+          "date": "2026-05-13",
+          "action": "Email outbound 2B inviata"
+        }
+      ],
+      "label_id": "Label_8658624016447790536",
+      "sender": "Dami",
+      "is_first_email": true,
+      "followups_sent": [],
+      "last_outbound_by_antonio": {
+        "date": "2026-05-13",
+        "snippet": "Ciao Frankie, I was looking into Glow For It and noticed you're running Meta/Google campaigns on a Shopify store. Quick check on your tracking — found an issue you're likely unaware of…"
+      },
+      "last_reply_from_prospect": null,
+      "next_followup_due": "2026-05-18",
+      "days_since_last_activity": 0
     },
     {
       "id": "prospect_026",
@@ -404,7 +784,23 @@
       "stape_score": null,
       "notes": "E-commerce scarpe. Contatto reindirizzato da L. Gioventu (in maternità).",
       "thread_id": "19e1f1f2a7d3cd16",
-      "timeline": [{ "date": "2026-05-13", "action": "Email outbound 1A inviata a contatto reindirizzato" }]
+      "timeline": [
+        {
+          "date": "2026-05-13",
+          "action": "Email outbound 1A inviata a contatto reindirizzato"
+        }
+      ],
+      "label_id": "Label_1592668050883672428",
+      "sender": "Manu",
+      "is_first_email": true,
+      "followups_sent": [],
+      "last_outbound_by_antonio": {
+        "date": "2026-05-13",
+        "snippet": "Ciao Eleonora, mi sono imbattuto in AGL Shoes cercando le migliori realtà fashion del settore. Ho visto la piattaforma che state usando per le vendite online…"
+      },
+      "last_reply_from_prospect": null,
+      "next_followup_due": "2026-05-18",
+      "days_since_last_activity": 0
     },
     {
       "id": "prospect_027",
@@ -423,7 +819,23 @@
       "stape_score": null,
       "notes": "Boutique Milano Marittima — uno di 3 contatti su Julian",
       "thread_id": "19e1f13127a825e1",
-      "timeline": [{ "date": "2026-05-13", "action": "Email outbound 1A inviata" }]
+      "timeline": [
+        {
+          "date": "2026-05-13",
+          "action": "Email outbound 1A inviata"
+        }
+      ],
+      "label_id": "Label_1592668050883672428",
+      "sender": "Manu",
+      "is_first_email": true,
+      "followups_sent": [],
+      "last_outbound_by_antonio": {
+        "date": "2026-05-13",
+        "snippet": "Ciao Giulia, mi sono imbattuto in Julian Fashion cercando le migliori realtà fashion del settore. Ho visto la piattaforma che state usando per le vendite online…"
+      },
+      "last_reply_from_prospect": null,
+      "next_followup_due": "2026-05-18",
+      "days_since_last_activity": 0
     },
     {
       "id": "prospect_028",
@@ -443,9 +855,29 @@
       "notes": "UK gift e-commerce. Autoresponse: customer service ticket #178627, reply entro 72h.",
       "thread_id": "19e1d328c7d122a4",
       "timeline": [
-        { "date": "2026-05-12", "action": "Email outbound 2A inviata" },
-        { "date": "2026-05-12", "action": "Autoresponse customer service" }
-      ]
+        {
+          "date": "2026-05-12",
+          "action": "Email outbound 2A inviata"
+        },
+        {
+          "date": "2026-05-12",
+          "action": "Autoresponse customer service"
+        }
+      ],
+      "label_id": "Label_1592668050883672428",
+      "sender": "Manu",
+      "is_first_email": true,
+      "followups_sent": [],
+      "last_outbound_by_antonio": {
+        "date": "2026-05-12",
+        "snippet": "Ciao Ashleigh, mi sono imbattuto in Sass & Belle cercando i migliori e-commerce del settore. Ho visto la piattaforma che state usando per le vendite online…"
+      },
+      "last_reply_from_prospect": {
+        "date": "2026-05-12",
+        "snippet": "Thank you for contacting Sass & Belle. Your request has been received — Customer Service ticket #178627."
+      },
+      "next_followup_due": "2026-05-17",
+      "days_since_last_activity": 1
     },
     {
       "id": "prospect_029",
@@ -464,7 +896,23 @@
       "stape_score": null,
       "notes": "UK Shopify, tracking",
       "thread_id": "19e1d262c59e178a",
-      "timeline": [{ "date": "2026-05-12", "action": "Email outbound 2B inviata" }]
+      "timeline": [
+        {
+          "date": "2026-05-12",
+          "action": "Email outbound 2B inviata"
+        }
+      ],
+      "label_id": "Label_8658624016447790536",
+      "sender": "Dami",
+      "is_first_email": true,
+      "followups_sent": [],
+      "last_outbound_by_antonio": {
+        "date": "2026-05-12",
+        "snippet": "Ciao Graham, I was looking into Montane and noticed you're running Meta/Google campaigns on a Shopify store. Quick check on your tracking — found an issue you're likely unaware of…"
+      },
+      "last_reply_from_prospect": null,
+      "next_followup_due": "2026-05-17",
+      "days_since_last_activity": 1
     },
     {
       "id": "prospect_030",
@@ -483,7 +931,23 @@
       "stape_score": null,
       "notes": "Shopify tea brand UK",
       "thread_id": "19e1d1e6bee211c5",
-      "timeline": [{ "date": "2026-05-12", "action": "Email outbound 2B inviata" }]
+      "timeline": [
+        {
+          "date": "2026-05-12",
+          "action": "Email outbound 2B inviata"
+        }
+      ],
+      "label_id": "Label_8658624016447790536",
+      "sender": "Dami",
+      "is_first_email": true,
+      "followups_sent": [],
+      "last_outbound_by_antonio": {
+        "date": "2026-05-12",
+        "snippet": "Ciao Sam, I was looking into New English Teas and noticed you're running Meta/Google campaigns on a Shopify store. Quick check on your tracking — found an issue you're likely unaware of…"
+      },
+      "last_reply_from_prospect": null,
+      "next_followup_due": "2026-05-17",
+      "days_since_last_activity": 1
     },
     {
       "id": "prospect_031",
@@ -502,7 +966,23 @@
       "stape_score": null,
       "notes": "UK fashion Shopify",
       "thread_id": "19e1d1a756c1f287",
-      "timeline": [{ "date": "2026-05-12", "action": "Email outbound 2B inviata" }]
+      "timeline": [
+        {
+          "date": "2026-05-12",
+          "action": "Email outbound 2B inviata"
+        }
+      ],
+      "label_id": "Label_8658624016447790536",
+      "sender": "Dami",
+      "is_first_email": true,
+      "followups_sent": [],
+      "last_outbound_by_antonio": {
+        "date": "2026-05-12",
+        "snippet": "Ciao Natalie, I was looking into Threadbare and noticed you're running Meta/Google campaigns on a Shopify store. Quick check on your tracking — found an issue you're likely unaware of…"
+      },
+      "last_reply_from_prospect": null,
+      "next_followup_due": "2026-05-17",
+      "days_since_last_activity": 1
     },
     {
       "id": "prospect_032",
@@ -521,7 +1001,23 @@
       "stape_score": null,
       "notes": "UK fragrance Shopify",
       "thread_id": "19e1d150d2181a49",
-      "timeline": [{ "date": "2026-05-12", "action": "Email outbound 2B inviata" }]
+      "timeline": [
+        {
+          "date": "2026-05-12",
+          "action": "Email outbound 2B inviata"
+        }
+      ],
+      "label_id": "Label_8658624016447790536",
+      "sender": "Dami",
+      "is_first_email": true,
+      "followups_sent": [],
+      "last_outbound_by_antonio": {
+        "date": "2026-05-12",
+        "snippet": "Ciao Teresa, I was looking into Jo Loves and noticed you're running Meta/Google campaigns on a Shopify store. Quick check on your tracking — found an issue you're likely unaware of…"
+      },
+      "last_reply_from_prospect": null,
+      "next_followup_due": "2026-05-17",
+      "days_since_last_activity": 1
     },
     {
       "id": "prospect_033",
@@ -540,7 +1036,23 @@
       "stape_score": null,
       "notes": "UK fashion Shopify",
       "thread_id": "19e1d09c6daf4b59",
-      "timeline": [{ "date": "2026-05-12", "action": "Email outbound 2B inviata" }]
+      "timeline": [
+        {
+          "date": "2026-05-12",
+          "action": "Email outbound 2B inviata"
+        }
+      ],
+      "label_id": "Label_8658624016447790536",
+      "sender": "Dami",
+      "is_first_email": true,
+      "followups_sent": [],
+      "last_outbound_by_antonio": {
+        "date": "2026-05-12",
+        "snippet": "Ciao Emma, I was looking into Rixo London and noticed you're running Meta/Google campaigns on a Shopify store. Quick check on your tracking — found an issue you're likely unaware of…"
+      },
+      "last_reply_from_prospect": null,
+      "next_followup_due": "2026-05-17",
+      "days_since_last_activity": 1
     },
     {
       "id": "prospect_034",
@@ -560,9 +1072,29 @@
       "notes": "Autoresponse: customer service Lun-Ven 10-16, reply entro 48h business",
       "thread_id": "19e1d027e7065518",
       "timeline": [
-        { "date": "2026-05-12", "action": "Email outbound 2B inviata" },
-        { "date": "2026-05-12", "action": "Autoresponse customer service" }
-      ]
+        {
+          "date": "2026-05-12",
+          "action": "Email outbound 2B inviata"
+        },
+        {
+          "date": "2026-05-12",
+          "action": "Autoresponse customer service"
+        }
+      ],
+      "label_id": "Label_8658624016447790536",
+      "sender": "Dami",
+      "is_first_email": true,
+      "followups_sent": [],
+      "last_outbound_by_antonio": {
+        "date": "2026-05-12",
+        "snippet": "Ciao Tanveer, I was looking into Grace & Co Jewellery and noticed you're running Meta/Google campaigns on a Shopify store. Quick check on your tracking — found an issue you're likely unaware of…"
+      },
+      "last_reply_from_prospect": {
+        "date": "2026-05-12",
+        "snippet": "Thank you for contacting us. Customer service team currently unavailable. Reply within 48h business hours."
+      },
+      "next_followup_due": "2026-05-17",
+      "days_since_last_activity": 1
     },
     {
       "id": "prospect_035",
@@ -581,7 +1113,23 @@
       "stape_score": null,
       "notes": "Luxury shoes Shopify",
       "thread_id": "19e1cfcadefc4736",
-      "timeline": [{ "date": "2026-05-12", "action": "Email outbound 2B inviata" }]
+      "timeline": [
+        {
+          "date": "2026-05-12",
+          "action": "Email outbound 2B inviata"
+        }
+      ],
+      "label_id": "Label_8658624016447790536",
+      "sender": "Dami",
+      "is_first_email": true,
+      "followups_sent": [],
+      "last_outbound_by_antonio": {
+        "date": "2026-05-12",
+        "snippet": "Ciao Lucy, I was looking into Malone Souliers and noticed you're running Meta/Google campaigns on a Shopify store. Quick check on your tracking — found an issue you're likely unaware of…"
+      },
+      "last_reply_from_prospect": null,
+      "next_followup_due": "2026-05-17",
+      "days_since_last_activity": 1
     },
     {
       "id": "prospect_036",
@@ -600,7 +1148,23 @@
       "stape_score": null,
       "notes": "Luxury boutique Villaricca",
       "thread_id": "19e1cecff37faf85",
-      "timeline": [{ "date": "2026-05-12", "action": "Email outbound 1A inviata" }]
+      "timeline": [
+        {
+          "date": "2026-05-12",
+          "action": "Email outbound 1A inviata"
+        }
+      ],
+      "label_id": "Label_1592668050883672428",
+      "sender": "Manu",
+      "is_first_email": true,
+      "followups_sent": [],
+      "last_outbound_by_antonio": {
+        "date": "2026-05-12",
+        "snippet": "Ciao, mi sono imbattuto in D'Aniello cercando le migliori realtà fashion del settore. Ho visto la piattaforma che state usando per le vendite online…"
+      },
+      "last_reply_from_prospect": null,
+      "next_followup_due": "2026-05-17",
+      "days_since_last_activity": 1
     },
     {
       "id": "prospect_037",
@@ -619,7 +1183,23 @@
       "stape_score": null,
       "notes": "Boutique Ancona, profumeria, Shopify",
       "thread_id": "19e1ce4f96fe37bc",
-      "timeline": [{ "date": "2026-05-12", "action": "Email outbound 3B inviata" }]
+      "timeline": [
+        {
+          "date": "2026-05-12",
+          "action": "Email outbound 3B inviata"
+        }
+      ],
+      "label_id": "Label_8658624016447790536",
+      "sender": "Dami",
+      "is_first_email": true,
+      "followups_sent": [],
+      "last_outbound_by_antonio": {
+        "date": "2026-05-12",
+        "snippet": "Ciao Maria, stavo guardando i migliori store Shopify del settore e mi sono imbattuto in Profumerie Galeazzi, ma ho visto 2-3 cose che frenano le conversioni…"
+      },
+      "last_reply_from_prospect": null,
+      "next_followup_due": "2026-05-17",
+      "days_since_last_activity": 1
     },
     {
       "id": "prospect_038",
@@ -638,7 +1218,23 @@
       "stape_score": null,
       "notes": "2° contatto Julian (Cecilia)",
       "thread_id": "19e1cdc5abbffa75",
-      "timeline": [{ "date": "2026-05-12", "action": "Email outbound 1A inviata" }]
+      "timeline": [
+        {
+          "date": "2026-05-12",
+          "action": "Email outbound 1A inviata"
+        }
+      ],
+      "label_id": "Label_1592668050883672428",
+      "sender": "Manu",
+      "is_first_email": true,
+      "followups_sent": [],
+      "last_outbound_by_antonio": {
+        "date": "2026-05-12",
+        "snippet": "Ciao Cecilia, mi sono imbattuto in Julian Fashion cercando le migliori realtà fashion del settore. Ho visto la piattaforma che state usando per le vendite online…"
+      },
+      "last_reply_from_prospect": null,
+      "next_followup_due": "2026-05-17",
+      "days_since_last_activity": 1
     },
     {
       "id": "prospect_039",
@@ -657,7 +1253,23 @@
       "stape_score": null,
       "notes": "UK childrenswear Shopify",
       "thread_id": "19e1cd7bdec3d456",
-      "timeline": [{ "date": "2026-05-12", "action": "Email outbound 2B inviata" }]
+      "timeline": [
+        {
+          "date": "2026-05-12",
+          "action": "Email outbound 2B inviata"
+        }
+      ],
+      "label_id": "Label_8658624016447790536",
+      "sender": "Dami",
+      "is_first_email": true,
+      "followups_sent": [],
+      "last_outbound_by_antonio": {
+        "date": "2026-05-12",
+        "snippet": "Ciao Jax, I was looking into Rachel Riley and noticed you're running Meta/Google campaigns on a Shopify store. Quick check on your tracking — found an issue you're likely unaware of…"
+      },
+      "last_reply_from_prospect": null,
+      "next_followup_due": "2026-05-17",
+      "days_since_last_activity": 1
     },
     {
       "id": "prospect_040",
@@ -676,7 +1288,23 @@
       "stape_score": null,
       "notes": "Luxury boutique Bassano del Grappa",
       "thread_id": "19e1cd5a3bdeda7d",
-      "timeline": [{ "date": "2026-05-12", "action": "Email outbound 1A inviata" }]
+      "timeline": [
+        {
+          "date": "2026-05-12",
+          "action": "Email outbound 1A inviata"
+        }
+      ],
+      "label_id": "Label_1592668050883672428",
+      "sender": "Manu",
+      "is_first_email": true,
+      "followups_sent": [],
+      "last_outbound_by_antonio": {
+        "date": "2026-05-12",
+        "snippet": "Ciao Pierpaolo, mi sono imbattuto in Cenere cercando le migliori realtà fashion del settore. Ho visto la piattaforma che state usando per le vendite online…"
+      },
+      "last_reply_from_prospect": null,
+      "next_followup_due": "2026-05-17",
+      "days_since_last_activity": 1
     },
     {
       "id": "prospect_041",
@@ -695,7 +1323,23 @@
       "stape_score": null,
       "notes": "Luxury boutique Caltanissetta",
       "thread_id": "19e1cc2bae004ae2",
-      "timeline": [{ "date": "2026-05-12", "action": "Email outbound 1A inviata" }]
+      "timeline": [
+        {
+          "date": "2026-05-12",
+          "action": "Email outbound 1A inviata"
+        }
+      ],
+      "label_id": "Label_1592668050883672428",
+      "sender": "Manu",
+      "is_first_email": true,
+      "followups_sent": [],
+      "last_outbound_by_antonio": {
+        "date": "2026-05-12",
+        "snippet": "Ciao, mi sono imbattuto in Cammalleri cercando le migliori realtà fashion del settore. Ho visto la piattaforma che state usando per le vendite online…"
+      },
+      "last_reply_from_prospect": null,
+      "next_followup_due": "2026-05-17",
+      "days_since_last_activity": 1
     },
     {
       "id": "prospect_042",
@@ -714,7 +1358,23 @@
       "stape_score": null,
       "notes": "Italian fashion Shopify, tracking",
       "thread_id": "19e1cd0201742c08",
-      "timeline": [{ "date": "2026-05-12", "action": "Email outbound 2B inviata" }]
+      "timeline": [
+        {
+          "date": "2026-05-12",
+          "action": "Email outbound 2B inviata"
+        }
+      ],
+      "label_id": "Label_8658624016447790536",
+      "sender": "Dami",
+      "is_first_email": true,
+      "followups_sent": [],
+      "last_outbound_by_antonio": {
+        "date": "2026-05-12",
+        "snippet": "Ciao Rosanna, I was looking into Boglioli and noticed you're running Meta/Google campaigns on a Shopify store. Quick check on your tracking — found an issue you're likely unaware of…"
+      },
+      "last_reply_from_prospect": null,
+      "next_followup_due": "2026-05-17",
+      "days_since_last_activity": 1
     },
     {
       "id": "prospect_043",
@@ -733,7 +1393,23 @@
       "stape_score": null,
       "notes": "Boutique multibrand",
       "thread_id": "19e1caed2b24dbe4",
-      "timeline": [{ "date": "2026-05-12", "action": "Email outbound 1A inviata" }]
+      "timeline": [
+        {
+          "date": "2026-05-12",
+          "action": "Email outbound 1A inviata"
+        }
+      ],
+      "label_id": "Label_1592668050883672428",
+      "sender": "Manu",
+      "is_first_email": true,
+      "followups_sent": [],
+      "last_outbound_by_antonio": {
+        "date": "2026-05-12",
+        "snippet": "Ciao, mi sono imbattuto in Boutique Antonia cercando le migliori realtà fashion del settore. Ho visto la piattaforma che state usando per le vendite online…"
+      },
+      "last_reply_from_prospect": null,
+      "next_followup_due": "2026-05-17",
+      "days_since_last_activity": 1
     },
     {
       "id": "prospect_044",
@@ -752,7 +1428,23 @@
       "stape_score": null,
       "notes": "Luxury boutique Padova",
       "thread_id": "19e1cab12b8c4939",
-      "timeline": [{ "date": "2026-05-12", "action": "Email outbound 1A inviata" }]
+      "timeline": [
+        {
+          "date": "2026-05-12",
+          "action": "Email outbound 1A inviata"
+        }
+      ],
+      "label_id": "Label_1592668050883672428",
+      "sender": "Manu",
+      "is_first_email": true,
+      "followups_sent": [],
+      "last_outbound_by_antonio": {
+        "date": "2026-05-12",
+        "snippet": "Ciao Alessandra, mi sono imbattuto in Al Duca d'Aosta cercando le migliori realtà fashion del settore. Ho visto la piattaforma che state usando per le vendite online…"
+      },
+      "last_reply_from_prospect": null,
+      "next_followup_due": "2026-05-17",
+      "days_since_last_activity": 1
     },
     {
       "id": "prospect_045",
@@ -771,7 +1463,23 @@
       "stape_score": null,
       "notes": "Luxury boutique Caserta",
       "thread_id": "19e1ca1bdce3a8e3",
-      "timeline": [{ "date": "2026-05-12", "action": "Email outbound 1A inviata" }]
+      "timeline": [
+        {
+          "date": "2026-05-12",
+          "action": "Email outbound 1A inviata"
+        }
+      ],
+      "label_id": "Label_1592668050883672428",
+      "sender": "Manu",
+      "is_first_email": true,
+      "followups_sent": [],
+      "last_outbound_by_antonio": {
+        "date": "2026-05-12",
+        "snippet": "Ciao, mi sono imbattuto in Nida cercando le migliori realtà fashion del settore. Ho visto la piattaforma che state usando per le vendite online…"
+      },
+      "last_reply_from_prospect": null,
+      "next_followup_due": "2026-05-17",
+      "days_since_last_activity": 1
     },
     {
       "id": "prospect_046",
@@ -790,7 +1498,23 @@
       "stape_score": null,
       "notes": "Luxury boutique San Giovanni Valdarno",
       "thread_id": "19e1bf08ecf18639",
-      "timeline": [{ "date": "2026-05-12", "action": "Email outbound 1A inviata" }]
+      "timeline": [
+        {
+          "date": "2026-05-12",
+          "action": "Email outbound 1A inviata"
+        }
+      ],
+      "label_id": "Label_1592668050883672428",
+      "sender": "Manu",
+      "is_first_email": true,
+      "followups_sent": [],
+      "last_outbound_by_antonio": {
+        "date": "2026-05-12",
+        "snippet": "Ciao, mi sono imbattuto in Mantovani Shop cercando le migliori realtà fashion del settore. Ho visto la piattaforma che state usando per le vendite online…"
+      },
+      "last_reply_from_prospect": null,
+      "next_followup_due": "2026-05-17",
+      "days_since_last_activity": 1
     },
     {
       "id": "prospect_047",
@@ -809,7 +1533,23 @@
       "stape_score": null,
       "notes": "Luxury boutique Lignano Sabbiadoro",
       "thread_id": "19e1be9d47516187",
-      "timeline": [{ "date": "2026-05-12", "action": "Email outbound 1A inviata" }]
+      "timeline": [
+        {
+          "date": "2026-05-12",
+          "action": "Email outbound 1A inviata"
+        }
+      ],
+      "label_id": "Label_1592668050883672428",
+      "sender": "Manu",
+      "is_first_email": true,
+      "followups_sent": [],
+      "last_outbound_by_antonio": {
+        "date": "2026-05-12",
+        "snippet": "Ciao Alice, mi sono imbattuto in Stilmoda cercando le migliori realtà fashion del settore. Ho visto la piattaforma che state usando per le vendite online…"
+      },
+      "last_reply_from_prospect": null,
+      "next_followup_due": "2026-05-17",
+      "days_since_last_activity": 1
     },
     {
       "id": "prospect_048",
@@ -828,7 +1568,23 @@
       "stape_score": null,
       "notes": "Boutique multibrand Vedelago",
       "thread_id": "19e183a6bc4fb385",
-      "timeline": [{ "date": "2026-05-12", "action": "Email outbound 1A inviata" }]
+      "timeline": [
+        {
+          "date": "2026-05-12",
+          "action": "Email outbound 1A inviata"
+        }
+      ],
+      "label_id": "Label_1592668050883672428",
+      "sender": "Manu",
+      "is_first_email": true,
+      "followups_sent": [],
+      "last_outbound_by_antonio": {
+        "date": "2026-05-12",
+        "snippet": "Ciao Maria, mi sono imbattuto in Pellizzari cercando le migliori realtà fashion del settore. Ho visto la piattaforma che state usando per le vendite online…"
+      },
+      "last_reply_from_prospect": null,
+      "next_followup_due": "2026-05-17",
+      "days_since_last_activity": 1
     },
     {
       "id": "prospect_049",
@@ -847,7 +1603,23 @@
       "stape_score": null,
       "notes": "Luxury boutique Brescia",
       "thread_id": "19e1832d23ed9339",
-      "timeline": [{ "date": "2026-05-12", "action": "Email outbound 1A inviata" }]
+      "timeline": [
+        {
+          "date": "2026-05-12",
+          "action": "Email outbound 1A inviata"
+        }
+      ],
+      "label_id": "Label_1592668050883672428",
+      "sender": "Manu",
+      "is_first_email": true,
+      "followups_sent": [],
+      "last_outbound_by_antonio": {
+        "date": "2026-05-12",
+        "snippet": "Ciao Mattia, mi sono imbattuto in Penelope Store cercando le migliori realtà fashion del settore. Ho visto la piattaforma che state usando per le vendite online…"
+      },
+      "last_reply_from_prospect": null,
+      "next_followup_due": "2026-05-17",
+      "days_since_last_activity": 1
     },
     {
       "id": "prospect_050",
@@ -866,7 +1638,23 @@
       "stape_score": null,
       "notes": "Luxury boutique Cagliari",
       "thread_id": "19e1820555f34c78",
-      "timeline": [{ "date": "2026-05-12", "action": "Email outbound 1A inviata" }]
+      "timeline": [
+        {
+          "date": "2026-05-12",
+          "action": "Email outbound 1A inviata"
+        }
+      ],
+      "label_id": "Label_1592668050883672428",
+      "sender": "Manu",
+      "is_first_email": true,
+      "followups_sent": [],
+      "last_outbound_by_antonio": {
+        "date": "2026-05-12",
+        "snippet": "Ciao, mi sono imbattuto in Vela Shop (Flashion) cercando le migliori realtà fashion del settore. Ho visto la piattaforma che state usando per le vendite online…"
+      },
+      "last_reply_from_prospect": null,
+      "next_followup_due": "2026-05-17",
+      "days_since_last_activity": 1
     },
     {
       "id": "prospect_051",
@@ -885,7 +1673,23 @@
       "stape_score": null,
       "notes": "Luxury boutique Borgomanero",
       "thread_id": "19e1826076a6f00e",
-      "timeline": [{ "date": "2026-05-11", "action": "Email outbound 1A inviata" }]
+      "timeline": [
+        {
+          "date": "2026-05-11",
+          "action": "Email outbound 1A inviata"
+        }
+      ],
+      "label_id": "Label_1592668050883672428",
+      "sender": "Manu",
+      "is_first_email": true,
+      "followups_sent": [],
+      "last_outbound_by_antonio": {
+        "date": "2026-05-11",
+        "snippet": "Ciao, mi sono imbattuto in Rabaini cercando le migliori realtà fashion del settore. Ho visto la piattaforma che state usando per le vendite online…"
+      },
+      "last_reply_from_prospect": null,
+      "next_followup_due": "2026-05-16",
+      "days_since_last_activity": 2
     },
     {
       "id": "prospect_052",
@@ -904,7 +1708,23 @@
       "stape_score": null,
       "notes": "Luxury boutique Viareggio",
       "thread_id": "19e17bbd05d75b0b",
-      "timeline": [{ "date": "2026-05-11", "action": "Email outbound 1A inviata" }]
+      "timeline": [
+        {
+          "date": "2026-05-11",
+          "action": "Email outbound 1A inviata"
+        }
+      ],
+      "label_id": "Label_1592668050883672428",
+      "sender": "Manu",
+      "is_first_email": true,
+      "followups_sent": [],
+      "last_outbound_by_antonio": {
+        "date": "2026-05-11",
+        "snippet": "Ciao, mi sono imbattuto in Silvia Bini cercando le migliori realtà fashion del settore. Ho visto la piattaforma che state usando per le vendite online…"
+      },
+      "last_reply_from_prospect": null,
+      "next_followup_due": "2026-05-16",
+      "days_since_last_activity": 2
     },
     {
       "id": "prospect_053",
@@ -923,7 +1743,23 @@
       "stape_score": null,
       "notes": "Boutique Livigno",
       "thread_id": "19e17ac4d6a43ea2",
-      "timeline": [{ "date": "2026-05-11", "action": "Email outbound 1A inviata" }]
+      "timeline": [
+        {
+          "date": "2026-05-11",
+          "action": "Email outbound 1A inviata"
+        }
+      ],
+      "label_id": "Label_1592668050883672428",
+      "sender": "Manu",
+      "is_first_email": true,
+      "followups_sent": [],
+      "last_outbound_by_antonio": {
+        "date": "2026-05-11",
+        "snippet": "Ciao, mi sono imbattuto in Valico Store cercando le migliori realtà fashion del settore. Ho visto la piattaforma che state usando per le vendite online…"
+      },
+      "last_reply_from_prospect": null,
+      "next_followup_due": "2026-05-16",
+      "days_since_last_activity": 2
     },
     {
       "id": "prospect_054",
@@ -942,7 +1778,23 @@
       "stape_score": null,
       "notes": "Boutique Modena",
       "thread_id": "19e17a8a068dcef8",
-      "timeline": [{ "date": "2026-05-11", "action": "Email outbound 1A inviata" }]
+      "timeline": [
+        {
+          "date": "2026-05-11",
+          "action": "Email outbound 1A inviata"
+        }
+      ],
+      "label_id": "Label_1592668050883672428",
+      "sender": "Manu",
+      "is_first_email": true,
+      "followups_sent": [],
+      "last_outbound_by_antonio": {
+        "date": "2026-05-11",
+        "snippet": "Ciao, mi sono imbattuto in Boutique Adani cercando le migliori realtà fashion del settore. Ho visto la piattaforma che state usando per le vendite online…"
+      },
+      "last_reply_from_prospect": null,
+      "next_followup_due": "2026-05-16",
+      "days_since_last_activity": 2
     },
     {
       "id": "prospect_055",
@@ -961,7 +1813,23 @@
       "stape_score": null,
       "notes": "Fashion Milano",
       "thread_id": "19e17a17001c6af1",
-      "timeline": [{ "date": "2026-05-11", "action": "Email outbound 1A inviata" }]
+      "timeline": [
+        {
+          "date": "2026-05-11",
+          "action": "Email outbound 1A inviata"
+        }
+      ],
+      "label_id": "Label_1592668050883672428",
+      "sender": "Manu",
+      "is_first_email": true,
+      "followups_sent": [],
+      "last_outbound_by_antonio": {
+        "date": "2026-05-11",
+        "snippet": "Ciao, mi sono imbattuto in Manzoni24 cercando le migliori realtà fashion del settore. Ho visto la piattaforma che state usando per le vendite online…"
+      },
+      "last_reply_from_prospect": null,
+      "next_followup_due": "2026-05-16",
+      "days_since_last_activity": 2
     },
     {
       "id": "prospect_056",
@@ -980,7 +1848,23 @@
       "stape_score": null,
       "notes": "UK fashion Shopify",
       "thread_id": "19e16f9b3608f5e4",
-      "timeline": [{ "date": "2026-05-11", "action": "Email outbound 2B inviata" }]
+      "timeline": [
+        {
+          "date": "2026-05-11",
+          "action": "Email outbound 2B inviata"
+        }
+      ],
+      "label_id": "Label_8658624016447790536",
+      "sender": "Dami",
+      "is_first_email": true,
+      "followups_sent": [],
+      "last_outbound_by_antonio": {
+        "date": "2026-05-11",
+        "snippet": "Ciao Alex, I was looking into YMC (You Must Create) and noticed you're running Meta/Google campaigns on a Shopify store. Quick check on your tracking — found an issue you're likely unaware of…"
+      },
+      "last_reply_from_prospect": null,
+      "next_followup_due": "2026-05-16",
+      "days_since_last_activity": 2
     },
     {
       "id": "prospect_057",
@@ -999,7 +1883,23 @@
       "stape_score": null,
       "notes": "UK menswear Shopify",
       "thread_id": "19e16f13b9a11a2b",
-      "timeline": [{ "date": "2026-05-11", "action": "Email outbound 2B inviata" }]
+      "timeline": [
+        {
+          "date": "2026-05-11",
+          "action": "Email outbound 2B inviata"
+        }
+      ],
+      "label_id": "Label_8658624016447790536",
+      "sender": "Dami",
+      "is_first_email": true,
+      "followups_sent": [],
+      "last_outbound_by_antonio": {
+        "date": "2026-05-11",
+        "snippet": "Ciao Chris, I was looking into Woven Gentlemen's Outfitters and noticed you're running Meta/Google campaigns on a Shopify store. Quick check on your tracking — found an issue you're likely unaware of…"
+      },
+      "last_reply_from_prospect": null,
+      "next_followup_due": "2026-05-16",
+      "days_since_last_activity": 2
     },
     {
       "id": "prospect_058",
@@ -1018,7 +1918,23 @@
       "stape_score": null,
       "notes": "Cosmetica IT, Shopify, tracking",
       "thread_id": "19e16dda8c8728c3",
-      "timeline": [{ "date": "2026-05-11", "action": "Email outbound 2B inviata" }]
+      "timeline": [
+        {
+          "date": "2026-05-11",
+          "action": "Email outbound 2B inviata"
+        }
+      ],
+      "label_id": "Label_8658624016447790536",
+      "sender": "Dami",
+      "is_first_email": true,
+      "followups_sent": [],
+      "last_outbound_by_antonio": {
+        "date": "2026-05-11",
+        "snippet": "Ciao Federica, I was looking into Skin First Cosmetics and noticed you're running Meta/Google campaigns on a Shopify store. Quick check on your tracking — found an issue you're likely unaware of…"
+      },
+      "last_reply_from_prospect": null,
+      "next_followup_due": "2026-05-16",
+      "days_since_last_activity": 2
     },
     {
       "id": "prospect_059",
@@ -1038,9 +1954,29 @@
       "notes": "Geri ha lasciato. Autoresponse rimanda all'Online Team — serve trovare un nuovo riferimento.",
       "thread_id": "19e16d6058404c6e",
       "timeline": [
-        { "date": "2026-05-11", "action": "Email outbound 2B inviata" },
-        { "date": "2026-05-11", "action": "Autoresponse: Geri non più dipendente" }
-      ]
+        {
+          "date": "2026-05-11",
+          "action": "Email outbound 2B inviata"
+        },
+        {
+          "date": "2026-05-11",
+          "action": "Autoresponse: Geri non più dipendente"
+        }
+      ],
+      "label_id": "Label_8658624016447790536",
+      "sender": "Dami",
+      "is_first_email": true,
+      "followups_sent": [],
+      "last_outbound_by_antonio": {
+        "date": "2026-05-11",
+        "snippet": "Ciao Geri, I was looking into Sunspel and noticed you're running Meta/Google campaigns on a Shopify store. Quick check on your tracking — found an issue you're likely unaware of…"
+      },
+      "last_reply_from_prospect": {
+        "date": "2026-05-11",
+        "snippet": "Thank you for your email. I no longer work for Sunspel. Please contact another member of the Online Team."
+      },
+      "next_followup_due": "2026-05-14",
+      "days_since_last_activity": 2
     },
     {
       "id": "prospect_060",
@@ -1059,7 +1995,23 @@
       "stape_score": null,
       "notes": "UK cosmetics Shopify",
       "thread_id": "19e16c58be4d5c08",
-      "timeline": [{ "date": "2026-05-11", "action": "Email outbound 2B inviata" }]
+      "timeline": [
+        {
+          "date": "2026-05-11",
+          "action": "Email outbound 2B inviata"
+        }
+      ],
+      "label_id": "Label_8658624016447790536",
+      "sender": "Dami",
+      "is_first_email": true,
+      "followups_sent": [],
+      "last_outbound_by_antonio": {
+        "date": "2026-05-11",
+        "snippet": "Ciao Mollie, I was looking into Give Me Cosmetics and noticed you're running Meta/Google campaigns on a Shopify store. Quick check on your tracking — found an issue you're likely unaware of…"
+      },
+      "last_reply_from_prospect": null,
+      "next_followup_due": "2026-05-16",
+      "days_since_last_activity": 2
     },
     {
       "id": "prospect_061",
@@ -1078,7 +2030,23 @@
       "stape_score": null,
       "notes": "UK shoes — competitor analysis Instagram",
       "thread_id": "19e16bf318c6f7aa",
-      "timeline": [{ "date": "2026-05-11", "action": "Email outbound 3A inviata" }]
+      "timeline": [
+        {
+          "date": "2026-05-11",
+          "action": "Email outbound 3A inviata"
+        }
+      ],
+      "label_id": "Label_1592668050883672428",
+      "sender": "Manu",
+      "is_first_email": true,
+      "followups_sent": [],
+      "last_outbound_by_antonio": {
+        "date": "2026-05-11",
+        "snippet": "Ciao Rosie, stavo analizzando competitor del settore e mi sono imbattuto in GRS Footwear. Ho notato 2-3 cose sul vostro online store…"
+      },
+      "last_reply_from_prospect": null,
+      "next_followup_due": "2026-05-16",
+      "days_since_last_activity": 2
     },
     {
       "id": "prospect_062",
@@ -1097,7 +2065,23 @@
       "stape_score": null,
       "notes": "UK luggage Shopify",
       "thread_id": "19e16b9e7b2c344e",
-      "timeline": [{ "date": "2026-05-11", "action": "Email outbound 2B inviata" }]
+      "timeline": [
+        {
+          "date": "2026-05-11",
+          "action": "Email outbound 2B inviata"
+        }
+      ],
+      "label_id": "Label_8658624016447790536",
+      "sender": "Dami",
+      "is_first_email": true,
+      "followups_sent": [],
+      "last_outbound_by_antonio": {
+        "date": "2026-05-11",
+        "snippet": "Ciao Daniel, I was looking into Case Luggage and noticed you're running Meta/Google campaigns on a Shopify store. Quick check on your tracking — found an issue you're likely unaware of…"
+      },
+      "last_reply_from_prospect": null,
+      "next_followup_due": "2026-05-16",
+      "days_since_last_activity": 2
     },
     {
       "id": "prospect_063",
@@ -1116,7 +2100,23 @@
       "stape_score": null,
       "notes": "UK shoes — competitor analysis Instagram",
       "thread_id": "19e16a7cf2075f89",
-      "timeline": [{ "date": "2026-05-11", "action": "Email outbound 3A inviata" }]
+      "timeline": [
+        {
+          "date": "2026-05-11",
+          "action": "Email outbound 3A inviata"
+        }
+      ],
+      "label_id": "Label_1592668050883672428",
+      "sender": "Manu",
+      "is_first_email": true,
+      "followups_sent": [],
+      "last_outbound_by_antonio": {
+        "date": "2026-05-11",
+        "snippet": "Ciao Carl, stavo analizzando competitor del settore e mi sono imbattuto in Ice Gripper. Ho notato 2-3 cose sul vostro online store…"
+      },
+      "last_reply_from_prospect": null,
+      "next_followup_due": "2026-05-16",
+      "days_since_last_activity": 2
     },
     {
       "id": "prospect_064",
@@ -1135,7 +2135,23 @@
       "stape_score": null,
       "notes": "UK beauty Shopify",
       "thread_id": "19e16a4711839c57",
-      "timeline": [{ "date": "2026-05-11", "action": "Email outbound 2B inviata" }]
+      "timeline": [
+        {
+          "date": "2026-05-11",
+          "action": "Email outbound 2B inviata"
+        }
+      ],
+      "label_id": "Label_8658624016447790536",
+      "sender": "Dami",
+      "is_first_email": true,
+      "followups_sent": [],
+      "last_outbound_by_antonio": {
+        "date": "2026-05-11",
+        "snippet": "Ciao Felipe, I was looking into Uklash and noticed you're running Meta/Google campaigns on a Shopify store. Quick check on your tracking — found an issue you're likely unaware of…"
+      },
+      "last_reply_from_prospect": null,
+      "next_followup_due": "2026-05-16",
+      "days_since_last_activity": 2
     },
     {
       "id": "prospect_065",
@@ -1155,10 +2171,40 @@
       "notes": "OoO Roma fino al 13/05. Bumped 11/05.",
       "thread_id": "19e150b0cc1ab9d0",
       "timeline": [
-        { "date": "2026-05-01", "action": "Email outbound 2B inviata (stimato)" },
-        { "date": "2026-05-11", "action": "Bump email" },
-        { "date": "2026-05-11", "action": "Autoresponse OoO Roma fino 13/05" }
-      ]
+        {
+          "date": "2026-05-01",
+          "action": "Email outbound 2B inviata (stimato)"
+        },
+        {
+          "date": "2026-05-11",
+          "action": "Bump email"
+        },
+        {
+          "date": "2026-05-11",
+          "action": "Autoresponse OoO Roma fino 13/05"
+        }
+      ],
+      "label_id": "Label_8658624016447790536",
+      "sender": "Dami",
+      "is_first_email": true,
+      "followups_sent": [
+        {
+          "date": "2026-05-11",
+          "type": "email_day10",
+          "sender": "Dami",
+          "snippet": "Bump — caso studio pronto"
+        }
+      ],
+      "last_outbound_by_antonio": {
+        "date": "2026-05-11",
+        "snippet": "Bump — caso studio pronto"
+      },
+      "last_reply_from_prospect": {
+        "date": "2026-05-11",
+        "snippet": "I'm currently soaking up the sun in Rome. I'll be back in the office on the 13th May."
+      },
+      "next_followup_due": "2026-05-15",
+      "days_since_last_activity": 2
     },
     {
       "id": "prospect_066",
@@ -1178,9 +2224,33 @@
       "notes": "Bumped 11/05 senza risposta",
       "thread_id": "19e15098a1e20266",
       "timeline": [
-        { "date": "2026-05-01", "action": "Email outbound 2B inviata (stimato)" },
-        { "date": "2026-05-11", "action": "Bump email" }
-      ]
+        {
+          "date": "2026-05-01",
+          "action": "Email outbound 2B inviata (stimato)"
+        },
+        {
+          "date": "2026-05-11",
+          "action": "Bump email"
+        }
+      ],
+      "label_id": "Label_8658624016447790536",
+      "sender": "Dami",
+      "is_first_email": true,
+      "followups_sent": [
+        {
+          "date": "2026-05-11",
+          "type": "email_day10",
+          "sender": "Dami",
+          "snippet": "Bump — caso studio pronto"
+        }
+      ],
+      "last_outbound_by_antonio": {
+        "date": "2026-05-11",
+        "snippet": "Bump — caso studio pronto"
+      },
+      "last_reply_from_prospect": null,
+      "next_followup_due": "2026-05-15",
+      "days_since_last_activity": 2
     },
     {
       "id": "prospect_067",
@@ -1200,9 +2270,33 @@
       "notes": "Bumped 11/05",
       "thread_id": "19e1508cef9c33e7",
       "timeline": [
-        { "date": "2026-05-01", "action": "Email outbound 2B inviata (stimato)" },
-        { "date": "2026-05-11", "action": "Bump email" }
-      ]
+        {
+          "date": "2026-05-01",
+          "action": "Email outbound 2B inviata (stimato)"
+        },
+        {
+          "date": "2026-05-11",
+          "action": "Bump email"
+        }
+      ],
+      "label_id": "Label_8658624016447790536",
+      "sender": "Dami",
+      "is_first_email": true,
+      "followups_sent": [
+        {
+          "date": "2026-05-11",
+          "type": "email_day10",
+          "sender": "Dami",
+          "snippet": "Bump — caso studio pronto"
+        }
+      ],
+      "last_outbound_by_antonio": {
+        "date": "2026-05-11",
+        "snippet": "Bump — caso studio pronto"
+      },
+      "last_reply_from_prospect": null,
+      "next_followup_due": "2026-05-15",
+      "days_since_last_activity": 2
     },
     {
       "id": "prospect_068",
@@ -1222,10 +2316,40 @@
       "notes": "Autoresponse 'Sample Sale' — risposta intermittente. Bumped 11/05.",
       "thread_id": "19e1508047c20c29",
       "timeline": [
-        { "date": "2026-05-01", "action": "Email outbound 2B inviata" },
-        { "date": "2026-05-01", "action": "Autoresponse Sample Sale" },
-        { "date": "2026-05-11", "action": "Bump email" }
-      ]
+        {
+          "date": "2026-05-01",
+          "action": "Email outbound 2B inviata"
+        },
+        {
+          "date": "2026-05-01",
+          "action": "Autoresponse Sample Sale"
+        },
+        {
+          "date": "2026-05-11",
+          "action": "Bump email"
+        }
+      ],
+      "label_id": "Label_8658624016447790536",
+      "sender": "Dami",
+      "is_first_email": true,
+      "followups_sent": [
+        {
+          "date": "2026-05-11",
+          "type": "email_day10",
+          "sender": "Dami",
+          "snippet": "Bump — caso studio pronto"
+        }
+      ],
+      "last_outbound_by_antonio": {
+        "date": "2026-05-11",
+        "snippet": "Bump — caso studio pronto"
+      },
+      "last_reply_from_prospect": {
+        "date": "2026-05-11",
+        "snippet": "I am at the Sample Sale today, answering emails intermittently."
+      },
+      "next_followup_due": "2026-05-15",
+      "days_since_last_activity": 2
     },
     {
       "id": "prospect_069",
@@ -1245,9 +2369,33 @@
       "notes": "Bumped 11/05",
       "thread_id": "19e15060fbcb7b5c",
       "timeline": [
-        { "date": "2026-05-01", "action": "Email outbound 3A inviata (stimato)" },
-        { "date": "2026-05-11", "action": "Bump email" }
-      ]
+        {
+          "date": "2026-05-01",
+          "action": "Email outbound 3A inviata (stimato)"
+        },
+        {
+          "date": "2026-05-11",
+          "action": "Bump email"
+        }
+      ],
+      "label_id": "Label_1592668050883672428",
+      "sender": "Manu",
+      "is_first_email": true,
+      "followups_sent": [
+        {
+          "date": "2026-05-11",
+          "type": "email_day10",
+          "sender": "Manu",
+          "snippet": "Bump — caso studio pronto"
+        }
+      ],
+      "last_outbound_by_antonio": {
+        "date": "2026-05-11",
+        "snippet": "Bump — caso studio pronto"
+      },
+      "last_reply_from_prospect": null,
+      "next_followup_due": "2026-05-15",
+      "days_since_last_activity": 2
     },
     {
       "id": "prospect_070",
@@ -1266,7 +2414,23 @@
       "stape_score": null,
       "notes": "Luxury boutique Treviso",
       "thread_id": "19e080b60889856e",
-      "timeline": [{ "date": "2026-05-08", "action": "Email outbound 1A inviata" }]
+      "timeline": [
+        {
+          "date": "2026-05-08",
+          "action": "Email outbound 1A inviata"
+        }
+      ],
+      "label_id": "Label_1592668050883672428",
+      "sender": "Manu",
+      "is_first_email": true,
+      "followups_sent": [],
+      "last_outbound_by_antonio": {
+        "date": "2026-05-08",
+        "snippet": "Ciao, mi sono imbattuto in Le Noir Boutique cercando le migliori realtà fashion del settore. Ho visto la piattaforma che state usando per le vendite online…"
+      },
+      "last_reply_from_prospect": null,
+      "next_followup_due": "2026-05-13",
+      "days_since_last_activity": 5
     },
     {
       "id": "prospect_071",
@@ -1285,7 +2449,23 @@
       "stape_score": null,
       "notes": "Boutique multibrand",
       "thread_id": "19e07ff56b7c8b5a",
-      "timeline": [{ "date": "2026-05-08", "action": "Email outbound 1A inviata" }]
+      "timeline": [
+        {
+          "date": "2026-05-08",
+          "action": "Email outbound 1A inviata"
+        }
+      ],
+      "label_id": "Label_1592668050883672428",
+      "sender": "Manu",
+      "is_first_email": true,
+      "followups_sent": [],
+      "last_outbound_by_antonio": {
+        "date": "2026-05-08",
+        "snippet": "Ciao, mi sono imbattuto in Folli Follie cercando le migliori realtà fashion del settore. Ho visto la piattaforma che state usando per le vendite online…"
+      },
+      "last_reply_from_prospect": null,
+      "next_followup_due": "2026-05-13",
+      "days_since_last_activity": 5
     },
     {
       "id": "prospect_072",
@@ -1304,7 +2484,23 @@
       "stape_score": null,
       "notes": "Luxury boutique Flero",
       "thread_id": "19e07f590ea28b67",
-      "timeline": [{ "date": "2026-05-08", "action": "Email outbound 1A inviata" }]
+      "timeline": [
+        {
+          "date": "2026-05-08",
+          "action": "Email outbound 1A inviata"
+        }
+      ],
+      "label_id": "Label_1592668050883672428",
+      "sender": "Manu",
+      "is_first_email": true,
+      "followups_sent": [],
+      "last_outbound_by_antonio": {
+        "date": "2026-05-08",
+        "snippet": "Ciao, mi sono imbattuto in G&B Negozi Online cercando le migliori realtà fashion del settore. Ho visto la piattaforma che state usando per le vendite online…"
+      },
+      "last_reply_from_prospect": null,
+      "next_followup_due": "2026-05-13",
+      "days_since_last_activity": 5
     },
     {
       "id": "prospect_073",
@@ -1323,7 +2519,23 @@
       "stape_score": null,
       "notes": "Luxury boutique Roma",
       "thread_id": "19e07e00193671d6",
-      "timeline": [{ "date": "2026-05-08", "action": "Email outbound 1A inviata" }]
+      "timeline": [
+        {
+          "date": "2026-05-08",
+          "action": "Email outbound 1A inviata"
+        }
+      ],
+      "label_id": "Label_1592668050883672428",
+      "sender": "Manu",
+      "is_first_email": true,
+      "followups_sent": [],
+      "last_outbound_by_antonio": {
+        "date": "2026-05-08",
+        "snippet": "Ciao, mi sono imbattuto in Davide Cenci cercando le migliori realtà fashion del settore. Ho visto la piattaforma che state usando per le vendite online…"
+      },
+      "last_reply_from_prospect": null,
+      "next_followup_due": "2026-05-13",
+      "days_since_last_activity": 5
     },
     {
       "id": "prospect_074",
@@ -1342,7 +2554,23 @@
       "stape_score": null,
       "notes": "Iconic concept store Milano",
       "thread_id": "19e07dba1ea51730",
-      "timeline": [{ "date": "2026-05-08", "action": "Email outbound 1A inviata" }]
+      "timeline": [
+        {
+          "date": "2026-05-08",
+          "action": "Email outbound 1A inviata"
+        }
+      ],
+      "label_id": "Label_1592668050883672428",
+      "sender": "Manu",
+      "is_first_email": true,
+      "followups_sent": [],
+      "last_outbound_by_antonio": {
+        "date": "2026-05-08",
+        "snippet": "Ciao Gianluca, mi sono imbattuto in 10 Corso Como cercando le migliori realtà fashion del settore. Ho visto la piattaforma che state usando per le vendite online…"
+      },
+      "last_reply_from_prospect": null,
+      "next_followup_due": "2026-05-13",
+      "days_since_last_activity": 5
     },
     {
       "id": "prospect_075",
@@ -1361,7 +2589,23 @@
       "stape_score": null,
       "notes": "Luxury Firenze, online retailer",
       "thread_id": "19e07c9a68e73cfc",
-      "timeline": [{ "date": "2026-05-08", "action": "Email outbound 1A inviata" }]
+      "timeline": [
+        {
+          "date": "2026-05-08",
+          "action": "Email outbound 1A inviata"
+        }
+      ],
+      "label_id": "Label_1592668050883672428",
+      "sender": "Manu",
+      "is_first_email": true,
+      "followups_sent": [],
+      "last_outbound_by_antonio": {
+        "date": "2026-05-08",
+        "snippet": "Ciao Marco, mi sono imbattuto in Luisaviaroma cercando le migliori realtà fashion del settore. Ho visto la piattaforma che state usando per le vendite online…"
+      },
+      "last_reply_from_prospect": null,
+      "next_followup_due": "2026-05-13",
+      "days_since_last_activity": 5
     },
     {
       "id": "prospect_076",
@@ -1380,7 +2624,23 @@
       "stape_score": null,
       "notes": "Boutique Palermo",
       "thread_id": "19e07c110e51efb7",
-      "timeline": [{ "date": "2026-05-08", "action": "Email outbound 1A inviata" }]
+      "timeline": [
+        {
+          "date": "2026-05-08",
+          "action": "Email outbound 1A inviata"
+        }
+      ],
+      "label_id": "Label_1592668050883672428",
+      "sender": "Manu",
+      "is_first_email": true,
+      "followups_sent": [],
+      "last_outbound_by_antonio": {
+        "date": "2026-05-08",
+        "snippet": "Ciao Giuseppe, mi sono imbattuto in Giglio cercando le migliori realtà fashion del settore. Ho visto la piattaforma che state usando per le vendite online…"
+      },
+      "last_reply_from_prospect": null,
+      "next_followup_due": "2026-05-13",
+      "days_since_last_activity": 5
     },
     {
       "id": "prospect_077",
@@ -1399,7 +2659,23 @@
       "stape_score": null,
       "notes": "Luxury boutique Santa Maria a Monte",
       "thread_id": "19e07bbfdd4bbe62",
-      "timeline": [{ "date": "2026-05-08", "action": "Email outbound 1A inviata" }]
+      "timeline": [
+        {
+          "date": "2026-05-08",
+          "action": "Email outbound 1A inviata"
+        }
+      ],
+      "label_id": "Label_1592668050883672428",
+      "sender": "Manu",
+      "is_first_email": true,
+      "followups_sent": [],
+      "last_outbound_by_antonio": {
+        "date": "2026-05-08",
+        "snippet": "Ciao, mi sono imbattuto in Divo Boutique cercando le migliori realtà fashion del settore. Ho visto la piattaforma che state usando per le vendite online…"
+      },
+      "last_reply_from_prospect": null,
+      "next_followup_due": "2026-05-13",
+      "days_since_last_activity": 5
     },
     {
       "id": "prospect_078",
@@ -1418,7 +2694,23 @@
       "stape_score": null,
       "notes": "Luxury boutique Siena",
       "thread_id": "19e07b3d9f891b8f",
-      "timeline": [{ "date": "2026-05-08", "action": "Email outbound 1A inviata" }]
+      "timeline": [
+        {
+          "date": "2026-05-08",
+          "action": "Email outbound 1A inviata"
+        }
+      ],
+      "label_id": "Label_1592668050883672428",
+      "sender": "Manu",
+      "is_first_email": true,
+      "followups_sent": [],
+      "last_outbound_by_antonio": {
+        "date": "2026-05-08",
+        "snippet": "Ciao, mi sono imbattuto in Cortecci Siena 1935 cercando le migliori realtà fashion del settore. Ho visto la piattaforma che state usando per le vendite online…"
+      },
+      "last_reply_from_prospect": null,
+      "next_followup_due": "2026-05-13",
+      "days_since_last_activity": 5
     },
     {
       "id": "prospect_079",
@@ -1437,7 +2729,23 @@
       "stape_score": null,
       "notes": "Luxury boutique Bolzano",
       "thread_id": "19e07a7ec8f71d9e",
-      "timeline": [{ "date": "2026-05-08", "action": "Email outbound 1A inviata" }]
+      "timeline": [
+        {
+          "date": "2026-05-08",
+          "action": "Email outbound 1A inviata"
+        }
+      ],
+      "label_id": "Label_1592668050883672428",
+      "sender": "Manu",
+      "is_first_email": true,
+      "followups_sent": [],
+      "last_outbound_by_antonio": {
+        "date": "2026-05-08",
+        "snippet": "Ciao, mi sono imbattuto in Oberrauch Zitt cercando le migliori realtà fashion del settore. Ho visto la piattaforma che state usando per le vendite online…"
+      },
+      "last_reply_from_prospect": null,
+      "next_followup_due": "2026-05-13",
+      "days_since_last_activity": 5
     },
     {
       "id": "prospect_080",
@@ -1456,7 +2764,23 @@
       "stape_score": null,
       "notes": "Luxury boutique Forte dei Marmi",
       "thread_id": "19e079e7a8507191",
-      "timeline": [{ "date": "2026-05-08", "action": "Email outbound 1A inviata" }]
+      "timeline": [
+        {
+          "date": "2026-05-08",
+          "action": "Email outbound 1A inviata"
+        }
+      ],
+      "label_id": "Label_1592668050883672428",
+      "sender": "Manu",
+      "is_first_email": true,
+      "followups_sent": [],
+      "last_outbound_by_antonio": {
+        "date": "2026-05-08",
+        "snippet": "Ciao, mi sono imbattuto in Gianni Cuccuini cercando le migliori realtà fashion del settore. Ho visto la piattaforma che state usando per le vendite online…"
+      },
+      "last_reply_from_prospect": null,
+      "next_followup_due": "2026-05-13",
+      "days_since_last_activity": 5
     },
     {
       "id": "prospect_081",
@@ -1475,7 +2799,23 @@
       "stape_score": null,
       "notes": "Luxury boutique Roma (Via Frattina)",
       "thread_id": "19e0798919a3c431",
-      "timeline": [{ "date": "2026-05-08", "action": "Email outbound 1A inviata" }]
+      "timeline": [
+        {
+          "date": "2026-05-08",
+          "action": "Email outbound 1A inviata"
+        }
+      ],
+      "label_id": "Label_1592668050883672428",
+      "sender": "Manu",
+      "is_first_email": true,
+      "followups_sent": [],
+      "last_outbound_by_antonio": {
+        "date": "2026-05-08",
+        "snippet": "Ciao Daniel, mi sono imbattuto in Gente Roma cercando le migliori realtà fashion del settore. Ho visto la piattaforma che state usando per le vendite online…"
+      },
+      "last_reply_from_prospect": null,
+      "next_followup_due": "2026-05-13",
+      "days_since_last_activity": 5
     },
     {
       "id": "prospect_082",
@@ -1494,7 +2834,23 @@
       "stape_score": null,
       "notes": "Luxury boutique Bergamo",
       "thread_id": "19e078e8f954fd03",
-      "timeline": [{ "date": "2026-05-08", "action": "Email outbound 1A inviata" }]
+      "timeline": [
+        {
+          "date": "2026-05-08",
+          "action": "Email outbound 1A inviata"
+        }
+      ],
+      "label_id": "Label_1592668050883672428",
+      "sender": "Manu",
+      "is_first_email": true,
+      "followups_sent": [],
+      "last_outbound_by_antonio": {
+        "date": "2026-05-08",
+        "snippet": "Ciao Tiziana, mi sono imbattuto in Tiziana Fausti cercando le migliori realtà fashion del settore. Ho visto la piattaforma che state usando per le vendite online…"
+      },
+      "last_reply_from_prospect": null,
+      "next_followup_due": "2026-05-13",
+      "days_since_last_activity": 5
     },
     {
       "id": "prospect_083",
@@ -1513,7 +2869,23 @@
       "stape_score": null,
       "notes": "Luxury boutique Bellagio",
       "thread_id": "19e0784e65085792",
-      "timeline": [{ "date": "2026-05-08", "action": "Email outbound 1A inviata" }]
+      "timeline": [
+        {
+          "date": "2026-05-08",
+          "action": "Email outbound 1A inviata"
+        }
+      ],
+      "label_id": "Label_1592668050883672428",
+      "sender": "Manu",
+      "is_first_email": true,
+      "followups_sent": [],
+      "last_outbound_by_antonio": {
+        "date": "2026-05-08",
+        "snippet": "Ciao Filippo, mi sono imbattuto in Tessabit cercando le migliori realtà fashion del settore. Ho visto la piattaforma che state usando per le vendite online…"
+      },
+      "last_reply_from_prospect": null,
+      "next_followup_due": "2026-05-13",
+      "days_since_last_activity": 5
     },
     {
       "id": "prospect_084",
@@ -1532,7 +2904,23 @@
       "stape_score": null,
       "notes": "Boutique Arezzo",
       "thread_id": "19e078052a8dfa7d",
-      "timeline": [{ "date": "2026-05-08", "action": "Email outbound 1A inviata" }]
+      "timeline": [
+        {
+          "date": "2026-05-08",
+          "action": "Email outbound 1A inviata"
+        }
+      ],
+      "label_id": "Label_1592668050883672428",
+      "sender": "Manu",
+      "is_first_email": true,
+      "followups_sent": [],
+      "last_outbound_by_antonio": {
+        "date": "2026-05-08",
+        "snippet": "Ciao Ludovica, mi sono imbattuto in Sugar cercando le migliori realtà fashion del settore. Ho visto la piattaforma che state usando per le vendite online…"
+      },
+      "last_reply_from_prospect": null,
+      "next_followup_due": "2026-05-13",
+      "days_since_last_activity": 5
     },
     {
       "id": "prospect_085",
@@ -1551,7 +2939,23 @@
       "stape_score": null,
       "notes": "Luxury boutique Cesena",
       "thread_id": "19e02d1055d68c1f",
-      "timeline": [{ "date": "2026-05-07", "action": "Email outbound 1A inviata" }]
+      "timeline": [
+        {
+          "date": "2026-05-07",
+          "action": "Email outbound 1A inviata"
+        }
+      ],
+      "label_id": "Label_1592668050883672428",
+      "sender": "Manu",
+      "is_first_email": true,
+      "followups_sent": [],
+      "last_outbound_by_antonio": {
+        "date": "2026-05-07",
+        "snippet": "Ciao, mi sono imbattuto in Monti Boutique cercando le migliori realtà fashion del settore. Ho visto la piattaforma che state usando per le vendite online…"
+      },
+      "last_reply_from_prospect": null,
+      "next_followup_due": "2026-05-15",
+      "days_since_last_activity": 6
     },
     {
       "id": "prospect_086",
@@ -1570,7 +2974,23 @@
       "stape_score": null,
       "notes": "Luxury boutique Caserta",
       "thread_id": "19e02c15b76af405",
-      "timeline": [{ "date": "2026-05-07", "action": "Email outbound 1A inviata" }]
+      "timeline": [
+        {
+          "date": "2026-05-07",
+          "action": "Email outbound 1A inviata"
+        }
+      ],
+      "label_id": "Label_1592668050883672428",
+      "sender": "Manu",
+      "is_first_email": true,
+      "followups_sent": [],
+      "last_outbound_by_antonio": {
+        "date": "2026-05-07",
+        "snippet": "Ciao, mi sono imbattuto in Mario D'Anna cercando le migliori realtà fashion del settore. Ho visto la piattaforma che state usando per le vendite online…"
+      },
+      "last_reply_from_prospect": null,
+      "next_followup_due": "2026-05-15",
+      "days_since_last_activity": 6
     },
     {
       "id": "prospect_087",
@@ -1589,7 +3009,23 @@
       "stape_score": null,
       "notes": "Luxury boutique Mondovì",
       "thread_id": "19e02b8928ea8361",
-      "timeline": [{ "date": "2026-05-07", "action": "Email outbound 1A inviata" }]
+      "timeline": [
+        {
+          "date": "2026-05-07",
+          "action": "Email outbound 1A inviata"
+        }
+      ],
+      "label_id": "Label_1592668050883672428",
+      "sender": "Manu",
+      "is_first_email": true,
+      "followups_sent": [],
+      "last_outbound_by_antonio": {
+        "date": "2026-05-07",
+        "snippet": "Ciao, mi sono imbattuto in Marcos cercando le migliori realtà fashion del settore. Ho visto la piattaforma che state usando per le vendite online…"
+      },
+      "last_reply_from_prospect": null,
+      "next_followup_due": "2026-05-15",
+      "days_since_last_activity": 6
     },
     {
       "id": "prospect_088",
@@ -1608,7 +3044,23 @@
       "stape_score": null,
       "notes": "Boutique multibrand — 2° tentativo (vedi prospect_046)",
       "thread_id": "19e02b4b20e41a06",
-      "timeline": [{ "date": "2026-05-07", "action": "Email outbound 1A inviata" }]
+      "timeline": [
+        {
+          "date": "2026-05-07",
+          "action": "Email outbound 1A inviata"
+        }
+      ],
+      "label_id": "Label_1592668050883672428",
+      "sender": "Manu",
+      "is_first_email": true,
+      "followups_sent": [],
+      "last_outbound_by_antonio": {
+        "date": "2026-05-07",
+        "snippet": "Ciao, mi sono imbattuto in Mantovani Shop (B) cercando le migliori realtà fashion del settore. Ho visto la piattaforma che state usando per le vendite online…"
+      },
+      "last_reply_from_prospect": null,
+      "next_followup_due": "2026-05-15",
+      "days_since_last_activity": 6
     },
     {
       "id": "prospect_089",
@@ -1627,7 +3079,23 @@
       "stape_score": null,
       "notes": "Luxury boutique Bari",
       "thread_id": "19e027d32f45ec43",
-      "timeline": [{ "date": "2026-05-07", "action": "Email outbound 1A inviata" }]
+      "timeline": [
+        {
+          "date": "2026-05-07",
+          "action": "Email outbound 1A inviata"
+        }
+      ],
+      "label_id": "Label_1592668050883672428",
+      "sender": "Manu",
+      "is_first_email": true,
+      "followups_sent": [],
+      "last_outbound_by_antonio": {
+        "date": "2026-05-07",
+        "snippet": "Ciao, mi sono imbattuto in Luciana Boutique cercando le migliori realtà fashion del settore. Ho visto la piattaforma che state usando per le vendite online…"
+      },
+      "last_reply_from_prospect": null,
+      "next_followup_due": "2026-05-15",
+      "days_since_last_activity": 6
     },
     {
       "id": "prospect_090",
@@ -1646,7 +3114,23 @@
       "stape_score": null,
       "notes": "Luxury boutique Madonna di Campiglio",
       "thread_id": "19e027999e538b9b",
-      "timeline": [{ "date": "2026-05-07", "action": "Email outbound 1A inviata" }]
+      "timeline": [
+        {
+          "date": "2026-05-07",
+          "action": "Email outbound 1A inviata"
+        }
+      ],
+      "label_id": "Label_1592668050883672428",
+      "sender": "Manu",
+      "is_first_email": true,
+      "followups_sent": [],
+      "last_outbound_by_antonio": {
+        "date": "2026-05-07",
+        "snippet": "Ciao, mi sono imbattuto in Lorenzetti Luxury cercando le migliori realtà fashion del settore. Ho visto la piattaforma che state usando per le vendite online…"
+      },
+      "last_reply_from_prospect": null,
+      "next_followup_due": "2026-05-15",
+      "days_since_last_activity": 6
     },
     {
       "id": "prospect_091",
@@ -1665,7 +3149,23 @@
       "stape_score": null,
       "notes": "Luxury boutique Roma",
       "thread_id": "19e027130d69d3f9",
-      "timeline": [{ "date": "2026-05-07", "action": "Email outbound 1A inviata" }]
+      "timeline": [
+        {
+          "date": "2026-05-07",
+          "action": "Email outbound 1A inviata"
+        }
+      ],
+      "label_id": "Label_1592668050883672428",
+      "sender": "Manu",
+      "is_first_email": true,
+      "followups_sent": [],
+      "last_outbound_by_antonio": {
+        "date": "2026-05-07",
+        "snippet": "Ciao Vittorio, mi sono imbattuto in Leam cercando le migliori realtà fashion del settore. Ho visto la piattaforma che state usando per le vendite online…"
+      },
+      "last_reply_from_prospect": null,
+      "next_followup_due": "2026-05-15",
+      "days_since_last_activity": 6
     },
     {
       "id": "prospect_092",
@@ -1684,7 +3184,23 @@
       "stape_score": null,
       "notes": "Luxury boutique San Vittore Olona",
       "thread_id": "19e026c168a716b8",
-      "timeline": [{ "date": "2026-05-07", "action": "Email outbound 1A inviata" }]
+      "timeline": [
+        {
+          "date": "2026-05-07",
+          "action": "Email outbound 1A inviata"
+        }
+      ],
+      "label_id": "Label_1592668050883672428",
+      "sender": "Manu",
+      "is_first_email": true,
+      "followups_sent": [],
+      "last_outbound_by_antonio": {
+        "date": "2026-05-07",
+        "snippet": "Ciao, mi sono imbattuto in Lattuada cercando le migliori realtà fashion del settore. Ho visto la piattaforma che state usando per le vendite online…"
+      },
+      "last_reply_from_prospect": null,
+      "next_followup_due": "2026-05-15",
+      "days_since_last_activity": 6
     },
     {
       "id": "prospect_093",
@@ -1703,7 +3219,23 @@
       "stape_score": null,
       "notes": "3° contatto Julian (Sabina, boutique Rimini)",
       "thread_id": "19e02644a834f247",
-      "timeline": [{ "date": "2026-05-07", "action": "Email outbound 1A inviata" }]
+      "timeline": [
+        {
+          "date": "2026-05-07",
+          "action": "Email outbound 1A inviata"
+        }
+      ],
+      "label_id": "Label_1592668050883672428",
+      "sender": "Manu",
+      "is_first_email": true,
+      "followups_sent": [],
+      "last_outbound_by_antonio": {
+        "date": "2026-05-07",
+        "snippet": "Ciao Sabina, mi sono imbattuto in Julian Fashion cercando le migliori realtà fashion del settore. Ho visto la piattaforma che state usando per le vendite online…"
+      },
+      "last_reply_from_prospect": null,
+      "next_followup_due": "2026-05-15",
+      "days_since_last_activity": 6
     },
     {
       "id": "prospect_094",
@@ -1722,7 +3254,23 @@
       "stape_score": null,
       "notes": "Boutique Pescara",
       "thread_id": "19dfe92b3230c8ee",
-      "timeline": [{ "date": "2026-05-06", "action": "Email outbound 1A inviata" }]
+      "timeline": [
+        {
+          "date": "2026-05-06",
+          "action": "Email outbound 1A inviata"
+        }
+      ],
+      "label_id": "Label_1592668050883672428",
+      "sender": "Manu",
+      "is_first_email": true,
+      "followups_sent": [],
+      "last_outbound_by_antonio": {
+        "date": "2026-05-06",
+        "snippet": "Ciao, mi sono imbattuto in Italiani Pescara cercando le migliori realtà fashion del settore. Ho visto la piattaforma che state usando per le vendite online…"
+      },
+      "last_reply_from_prospect": null,
+      "next_followup_due": "2026-05-14",
+      "days_since_last_activity": 7
     },
     {
       "id": "prospect_100",
@@ -1742,9 +3290,33 @@
       "notes": "Caso studio pronto. Bumped 07/05 con offerta caso studio.",
       "thread_id": "19e028452e01c448",
       "timeline": [
-        { "date": "2026-04-30", "action": "Email outbound 3A inviata (stimato)" },
-        { "date": "2026-05-07", "action": "Bump con caso studio" }
-      ]
+        {
+          "date": "2026-04-30",
+          "action": "Email outbound 3A inviata (stimato)"
+        },
+        {
+          "date": "2026-05-07",
+          "action": "Bump con caso studio"
+        }
+      ],
+      "label_id": "Label_1592668050883672428",
+      "sender": "Manu",
+      "is_first_email": true,
+      "followups_sent": [
+        {
+          "date": "2026-05-07",
+          "type": "email_day10",
+          "sender": "Manu",
+          "snippet": "Bump — caso studio pronto"
+        }
+      ],
+      "last_outbound_by_antonio": {
+        "date": "2026-05-07",
+        "snippet": "Bump — caso studio pronto"
+      },
+      "last_reply_from_prospect": null,
+      "next_followup_due": "2026-05-14",
+      "days_since_last_activity": 6
     },
     {
       "id": "prospect_101",
@@ -1764,9 +3336,33 @@
       "notes": "Bumped 07/05",
       "thread_id": "19e02842dc63cde4",
       "timeline": [
-        { "date": "2026-04-30", "action": "Email outbound 3A inviata (stimato)" },
-        { "date": "2026-05-07", "action": "Bump con caso studio" }
-      ]
+        {
+          "date": "2026-04-30",
+          "action": "Email outbound 3A inviata (stimato)"
+        },
+        {
+          "date": "2026-05-07",
+          "action": "Bump con caso studio"
+        }
+      ],
+      "label_id": "Label_1592668050883672428",
+      "sender": "Manu",
+      "is_first_email": true,
+      "followups_sent": [
+        {
+          "date": "2026-05-07",
+          "type": "email_day10",
+          "sender": "Manu",
+          "snippet": "Bump — caso studio pronto"
+        }
+      ],
+      "last_outbound_by_antonio": {
+        "date": "2026-05-07",
+        "snippet": "Bump — caso studio pronto"
+      },
+      "last_reply_from_prospect": null,
+      "next_followup_due": "2026-05-14",
+      "days_since_last_activity": 6
     },
     {
       "id": "prospect_102",
@@ -1786,9 +3382,33 @@
       "notes": "Bumped 07/05",
       "thread_id": "19e028402a7d1b10",
       "timeline": [
-        { "date": "2026-04-30", "action": "Email outbound 3A inviata (stimato)" },
-        { "date": "2026-05-07", "action": "Bump con caso studio" }
-      ]
+        {
+          "date": "2026-04-30",
+          "action": "Email outbound 3A inviata (stimato)"
+        },
+        {
+          "date": "2026-05-07",
+          "action": "Bump con caso studio"
+        }
+      ],
+      "label_id": "Label_1592668050883672428",
+      "sender": "Manu",
+      "is_first_email": true,
+      "followups_sent": [
+        {
+          "date": "2026-05-07",
+          "type": "email_day10",
+          "sender": "Manu",
+          "snippet": "Bump — caso studio pronto"
+        }
+      ],
+      "last_outbound_by_antonio": {
+        "date": "2026-05-07",
+        "snippet": "Bump — caso studio pronto"
+      },
+      "last_reply_from_prospect": null,
+      "next_followup_due": "2026-05-14",
+      "days_since_last_activity": 6
     },
     {
       "id": "prospect_103",
@@ -1808,9 +3428,33 @@
       "notes": "Bumped 07/05",
       "thread_id": "19e0283dca8a5b71",
       "timeline": [
-        { "date": "2026-04-30", "action": "Email outbound 3A inviata (stimato)" },
-        { "date": "2026-05-07", "action": "Bump con caso studio" }
-      ]
+        {
+          "date": "2026-04-30",
+          "action": "Email outbound 3A inviata (stimato)"
+        },
+        {
+          "date": "2026-05-07",
+          "action": "Bump con caso studio"
+        }
+      ],
+      "label_id": "Label_1592668050883672428",
+      "sender": "Manu",
+      "is_first_email": true,
+      "followups_sent": [
+        {
+          "date": "2026-05-07",
+          "type": "email_day10",
+          "sender": "Manu",
+          "snippet": "Bump — caso studio pronto"
+        }
+      ],
+      "last_outbound_by_antonio": {
+        "date": "2026-05-07",
+        "snippet": "Bump — caso studio pronto"
+      },
+      "last_reply_from_prospect": null,
+      "next_followup_due": "2026-05-14",
+      "days_since_last_activity": 6
     },
     {
       "id": "prospect_104",
@@ -1830,9 +3474,33 @@
       "notes": "Bumped 07/05",
       "thread_id": "19e0283b5ed240fa",
       "timeline": [
-        { "date": "2026-04-30", "action": "Email outbound 3A inviata (stimato)" },
-        { "date": "2026-05-07", "action": "Bump con caso studio" }
-      ]
+        {
+          "date": "2026-04-30",
+          "action": "Email outbound 3A inviata (stimato)"
+        },
+        {
+          "date": "2026-05-07",
+          "action": "Bump con caso studio"
+        }
+      ],
+      "label_id": "Label_1592668050883672428",
+      "sender": "Manu",
+      "is_first_email": true,
+      "followups_sent": [
+        {
+          "date": "2026-05-07",
+          "type": "email_day10",
+          "sender": "Manu",
+          "snippet": "Bump — caso studio pronto"
+        }
+      ],
+      "last_outbound_by_antonio": {
+        "date": "2026-05-07",
+        "snippet": "Bump — caso studio pronto"
+      },
+      "last_reply_from_prospect": null,
+      "next_followup_due": "2026-05-14",
+      "days_since_last_activity": 6
     },
     {
       "id": "prospect_105",
@@ -1852,9 +3520,33 @@
       "notes": "Secondo angolo (2B/Shopify) verso 10 Corso Como — vedi anche prospect_074",
       "thread_id": "19e02832d982bf52",
       "timeline": [
-        { "date": "2026-04-30", "action": "Email outbound 2B inviata (stimato)" },
-        { "date": "2026-05-07", "action": "Bump con caso studio" }
-      ]
+        {
+          "date": "2026-04-30",
+          "action": "Email outbound 2B inviata (stimato)"
+        },
+        {
+          "date": "2026-05-07",
+          "action": "Bump con caso studio"
+        }
+      ],
+      "label_id": "Label_8658624016447790536",
+      "sender": "Dami",
+      "is_first_email": true,
+      "followups_sent": [
+        {
+          "date": "2026-05-07",
+          "type": "email_day10",
+          "sender": "Dami",
+          "snippet": "Bump — caso studio pronto"
+        }
+      ],
+      "last_outbound_by_antonio": {
+        "date": "2026-05-07",
+        "snippet": "Bump — caso studio pronto"
+      },
+      "last_reply_from_prospect": null,
+      "next_followup_due": "2026-05-14",
+      "days_since_last_activity": 6
     },
     {
       "id": "prospect_106",
@@ -1874,9 +3566,33 @@
       "notes": "Bumped 07/05",
       "thread_id": "19e028303af97c5d",
       "timeline": [
-        { "date": "2026-04-30", "action": "Email outbound 2B inviata (stimato)" },
-        { "date": "2026-05-07", "action": "Bump con caso studio" }
-      ]
+        {
+          "date": "2026-04-30",
+          "action": "Email outbound 2B inviata (stimato)"
+        },
+        {
+          "date": "2026-05-07",
+          "action": "Bump con caso studio"
+        }
+      ],
+      "label_id": "Label_8658624016447790536",
+      "sender": "Dami",
+      "is_first_email": true,
+      "followups_sent": [
+        {
+          "date": "2026-05-07",
+          "type": "email_day10",
+          "sender": "Dami",
+          "snippet": "Bump — caso studio pronto"
+        }
+      ],
+      "last_outbound_by_antonio": {
+        "date": "2026-05-07",
+        "snippet": "Bump — caso studio pronto"
+      },
+      "last_reply_from_prospect": null,
+      "next_followup_due": "2026-05-14",
+      "days_since_last_activity": 6
     },
     {
       "id": "prospect_107",
@@ -1896,9 +3612,33 @@
       "notes": "2° contatto Biffi",
       "thread_id": "19e0282cf6bcb7db",
       "timeline": [
-        { "date": "2026-04-30", "action": "Email outbound 2B inviata (stimato)" },
-        { "date": "2026-05-07", "action": "Bump con caso studio" }
-      ]
+        {
+          "date": "2026-04-30",
+          "action": "Email outbound 2B inviata (stimato)"
+        },
+        {
+          "date": "2026-05-07",
+          "action": "Bump con caso studio"
+        }
+      ],
+      "label_id": "Label_8658624016447790536",
+      "sender": "Dami",
+      "is_first_email": true,
+      "followups_sent": [
+        {
+          "date": "2026-05-07",
+          "type": "email_day10",
+          "sender": "Dami",
+          "snippet": "Bump — caso studio pronto"
+        }
+      ],
+      "last_outbound_by_antonio": {
+        "date": "2026-05-07",
+        "snippet": "Bump — caso studio pronto"
+      },
+      "last_reply_from_prospect": null,
+      "next_followup_due": "2026-05-14",
+      "days_since_last_activity": 6
     },
     {
       "id": "prospect_108",
@@ -1918,9 +3658,33 @@
       "notes": "Bumped 07/05",
       "thread_id": "19e0282a9957b919",
       "timeline": [
-        { "date": "2026-04-30", "action": "Email outbound 2B inviata (stimato)" },
-        { "date": "2026-05-07", "action": "Bump con caso studio" }
-      ]
+        {
+          "date": "2026-04-30",
+          "action": "Email outbound 2B inviata (stimato)"
+        },
+        {
+          "date": "2026-05-07",
+          "action": "Bump con caso studio"
+        }
+      ],
+      "label_id": "Label_8658624016447790536",
+      "sender": "Dami",
+      "is_first_email": true,
+      "followups_sent": [
+        {
+          "date": "2026-05-07",
+          "type": "email_day10",
+          "sender": "Dami",
+          "snippet": "Bump — caso studio pronto"
+        }
+      ],
+      "last_outbound_by_antonio": {
+        "date": "2026-05-07",
+        "snippet": "Bump — caso studio pronto"
+      },
+      "last_reply_from_prospect": null,
+      "next_followup_due": "2026-05-14",
+      "days_since_last_activity": 6
     },
     {
       "id": "prospect_109",
@@ -1940,9 +3704,33 @@
       "notes": "Conversazione tecnica: AOV alto, posizionamento forte. Citato cliente fashion >15MLN. Bumped 07/05.",
       "thread_id": "19e02822b79fb990",
       "timeline": [
-        { "date": "2026-04-25", "action": "Email outbound 3B inviata (stimato)" },
-        { "date": "2026-05-07", "action": "Bump con dettaglio cliente fashion" }
-      ]
+        {
+          "date": "2026-04-25",
+          "action": "Email outbound 3B inviata (stimato)"
+        },
+        {
+          "date": "2026-05-07",
+          "action": "Bump con dettaglio cliente fashion"
+        }
+      ],
+      "label_id": "Label_8658624016447790536",
+      "sender": "Dami",
+      "is_first_email": true,
+      "followups_sent": [
+        {
+          "date": "2026-05-07",
+          "type": "email_day10",
+          "sender": "Dami",
+          "snippet": "Bump — caso studio pronto"
+        }
+      ],
+      "last_outbound_by_antonio": {
+        "date": "2026-05-07",
+        "snippet": "Bump — caso studio pronto"
+      },
+      "last_reply_from_prospect": null,
+      "next_followup_due": "2026-05-14",
+      "days_since_last_activity": 6
     },
     {
       "id": "prospect_110",
@@ -1962,9 +3750,33 @@
       "notes": "Bumped 07/05",
       "thread_id": "19e02673fcc64ac1",
       "timeline": [
-        { "date": "2026-04-30", "action": "Email outbound 2B inviata (stimato)" },
-        { "date": "2026-05-07", "action": "Bump con caso studio" }
-      ]
+        {
+          "date": "2026-04-30",
+          "action": "Email outbound 2B inviata (stimato)"
+        },
+        {
+          "date": "2026-05-07",
+          "action": "Bump con caso studio"
+        }
+      ],
+      "label_id": "Label_8658624016447790536",
+      "sender": "Dami",
+      "is_first_email": true,
+      "followups_sent": [
+        {
+          "date": "2026-05-07",
+          "type": "email_day10",
+          "sender": "Dami",
+          "snippet": "Bump — caso studio pronto"
+        }
+      ],
+      "last_outbound_by_antonio": {
+        "date": "2026-05-07",
+        "snippet": "Bump — caso studio pronto"
+      },
+      "last_reply_from_prospect": null,
+      "next_followup_due": "2026-05-14",
+      "days_since_last_activity": 6
     },
     {
       "id": "prospect_111",
@@ -1984,9 +3796,33 @@
       "notes": "Bumped 07/05",
       "thread_id": "19e0266c6d339161",
       "timeline": [
-        { "date": "2026-04-30", "action": "Email outbound 2B inviata (stimato)" },
-        { "date": "2026-05-07", "action": "Bump con caso studio" }
-      ]
+        {
+          "date": "2026-04-30",
+          "action": "Email outbound 2B inviata (stimato)"
+        },
+        {
+          "date": "2026-05-07",
+          "action": "Bump con caso studio"
+        }
+      ],
+      "label_id": "Label_8658624016447790536",
+      "sender": "Dami",
+      "is_first_email": true,
+      "followups_sent": [
+        {
+          "date": "2026-05-07",
+          "type": "email_day10",
+          "sender": "Dami",
+          "snippet": "Bump — caso studio pronto"
+        }
+      ],
+      "last_outbound_by_antonio": {
+        "date": "2026-05-07",
+        "snippet": "Bump — caso studio pronto"
+      },
+      "last_reply_from_prospect": null,
+      "next_followup_due": "2026-05-14",
+      "days_since_last_activity": 6
     },
     {
       "id": "prospect_112",
@@ -2006,9 +3842,33 @@
       "notes": "Bumped 07/05",
       "thread_id": "19e0266a21e2f255",
       "timeline": [
-        { "date": "2026-04-30", "action": "Email outbound 2B inviata (stimato)" },
-        { "date": "2026-05-07", "action": "Bump con caso studio" }
-      ]
+        {
+          "date": "2026-04-30",
+          "action": "Email outbound 2B inviata (stimato)"
+        },
+        {
+          "date": "2026-05-07",
+          "action": "Bump con caso studio"
+        }
+      ],
+      "label_id": "Label_8658624016447790536",
+      "sender": "Dami",
+      "is_first_email": true,
+      "followups_sent": [
+        {
+          "date": "2026-05-07",
+          "type": "email_day10",
+          "sender": "Dami",
+          "snippet": "Bump — caso studio pronto"
+        }
+      ],
+      "last_outbound_by_antonio": {
+        "date": "2026-05-07",
+        "snippet": "Bump — caso studio pronto"
+      },
+      "last_reply_from_prospect": null,
+      "next_followup_due": "2026-05-14",
+      "days_since_last_activity": 6
     },
     {
       "id": "prospect_113",
@@ -2028,9 +3888,33 @@
       "notes": "Bumped 07/05",
       "thread_id": "19e02667c4daf481",
       "timeline": [
-        { "date": "2026-04-30", "action": "Email outbound 3B inviata (stimato)" },
-        { "date": "2026-05-07", "action": "Bump con caso studio" }
-      ]
+        {
+          "date": "2026-04-30",
+          "action": "Email outbound 3B inviata (stimato)"
+        },
+        {
+          "date": "2026-05-07",
+          "action": "Bump con caso studio"
+        }
+      ],
+      "label_id": "Label_8658624016447790536",
+      "sender": "Dami",
+      "is_first_email": true,
+      "followups_sent": [
+        {
+          "date": "2026-05-07",
+          "type": "email_day10",
+          "sender": "Dami",
+          "snippet": "Bump — caso studio pronto"
+        }
+      ],
+      "last_outbound_by_antonio": {
+        "date": "2026-05-07",
+        "snippet": "Bump — caso studio pronto"
+      },
+      "last_reply_from_prospect": null,
+      "next_followup_due": "2026-05-14",
+      "days_since_last_activity": 6
     },
     {
       "id": "prospect_114",
@@ -2050,9 +3934,33 @@
       "notes": "Bumped 07/05",
       "thread_id": "19e026658a3ef53a",
       "timeline": [
-        { "date": "2026-04-30", "action": "Email outbound 3B inviata (stimato)" },
-        { "date": "2026-05-07", "action": "Bump con caso studio" }
-      ]
+        {
+          "date": "2026-04-30",
+          "action": "Email outbound 3B inviata (stimato)"
+        },
+        {
+          "date": "2026-05-07",
+          "action": "Bump con caso studio"
+        }
+      ],
+      "label_id": "Label_8658624016447790536",
+      "sender": "Dami",
+      "is_first_email": true,
+      "followups_sent": [
+        {
+          "date": "2026-05-07",
+          "type": "email_day10",
+          "sender": "Dami",
+          "snippet": "Bump — caso studio pronto"
+        }
+      ],
+      "last_outbound_by_antonio": {
+        "date": "2026-05-07",
+        "snippet": "Bump — caso studio pronto"
+      },
+      "last_reply_from_prospect": null,
+      "next_followup_due": "2026-05-14",
+      "days_since_last_activity": 6
     },
     {
       "id": "prospect_115",
@@ -2072,9 +3980,33 @@
       "notes": "Eraldo, store Shopify. Bumped 07/05.",
       "thread_id": "19e0266130279422",
       "timeline": [
-        { "date": "2026-04-30", "action": "Email outbound 2B inviata (stimato)" },
-        { "date": "2026-05-07", "action": "Bump con caso studio" }
-      ]
+        {
+          "date": "2026-04-30",
+          "action": "Email outbound 2B inviata (stimato)"
+        },
+        {
+          "date": "2026-05-07",
+          "action": "Bump con caso studio"
+        }
+      ],
+      "label_id": "Label_8658624016447790536",
+      "sender": "Dami",
+      "is_first_email": true,
+      "followups_sent": [
+        {
+          "date": "2026-05-07",
+          "type": "email_day10",
+          "sender": "Dami",
+          "snippet": "Bump — caso studio pronto"
+        }
+      ],
+      "last_outbound_by_antonio": {
+        "date": "2026-05-07",
+        "snippet": "Bump — caso studio pronto"
+      },
+      "last_reply_from_prospect": null,
+      "next_followup_due": "2026-05-14",
+      "days_since_last_activity": 6
     },
     {
       "id": "prospect_116",
@@ -2094,9 +4026,33 @@
       "notes": "Bumped 07/05",
       "thread_id": "19e0265c9b972acb",
       "timeline": [
-        { "date": "2026-04-30", "action": "Email outbound 2B inviata (stimato)" },
-        { "date": "2026-05-07", "action": "Bump con caso studio" }
-      ]
+        {
+          "date": "2026-04-30",
+          "action": "Email outbound 2B inviata (stimato)"
+        },
+        {
+          "date": "2026-05-07",
+          "action": "Bump con caso studio"
+        }
+      ],
+      "label_id": "Label_8658624016447790536",
+      "sender": "Dami",
+      "is_first_email": true,
+      "followups_sent": [
+        {
+          "date": "2026-05-07",
+          "type": "email_day10",
+          "sender": "Dami",
+          "snippet": "Bump — caso studio pronto"
+        }
+      ],
+      "last_outbound_by_antonio": {
+        "date": "2026-05-07",
+        "snippet": "Bump — caso studio pronto"
+      },
+      "last_reply_from_prospect": null,
+      "next_followup_due": "2026-05-14",
+      "days_since_last_activity": 6
     },
     {
       "id": "prospect_117",
@@ -2116,9 +4072,33 @@
       "notes": "Bumped 07/05",
       "thread_id": "19e0265a4296e96a",
       "timeline": [
-        { "date": "2026-04-30", "action": "Email outbound 2B inviata (stimato)" },
-        { "date": "2026-05-07", "action": "Bump con caso studio" }
-      ]
+        {
+          "date": "2026-04-30",
+          "action": "Email outbound 2B inviata (stimato)"
+        },
+        {
+          "date": "2026-05-07",
+          "action": "Bump con caso studio"
+        }
+      ],
+      "label_id": "Label_8658624016447790536",
+      "sender": "Dami",
+      "is_first_email": true,
+      "followups_sent": [
+        {
+          "date": "2026-05-07",
+          "type": "email_day10",
+          "sender": "Dami",
+          "snippet": "Bump — caso studio pronto"
+        }
+      ],
+      "last_outbound_by_antonio": {
+        "date": "2026-05-07",
+        "snippet": "Bump — caso studio pronto"
+      },
+      "last_reply_from_prospect": null,
+      "next_followup_due": "2026-05-14",
+      "days_since_last_activity": 6
     },
     {
       "id": "prospect_118",
@@ -2138,9 +4118,33 @@
       "notes": "Bumped 07/05",
       "thread_id": "19e0265617f4d1f1",
       "timeline": [
-        { "date": "2026-04-30", "action": "Email outbound 3B inviata (stimato)" },
-        { "date": "2026-05-07", "action": "Bump con caso studio" }
-      ]
+        {
+          "date": "2026-04-30",
+          "action": "Email outbound 3B inviata (stimato)"
+        },
+        {
+          "date": "2026-05-07",
+          "action": "Bump con caso studio"
+        }
+      ],
+      "label_id": "Label_8658624016447790536",
+      "sender": "Dami",
+      "is_first_email": true,
+      "followups_sent": [
+        {
+          "date": "2026-05-07",
+          "type": "email_day10",
+          "sender": "Dami",
+          "snippet": "Bump — caso studio pronto"
+        }
+      ],
+      "last_outbound_by_antonio": {
+        "date": "2026-05-07",
+        "snippet": "Bump — caso studio pronto"
+      },
+      "last_reply_from_prospect": null,
+      "next_followup_due": "2026-05-14",
+      "days_since_last_activity": 6
     },
     {
       "id": "prospect_119",
@@ -2160,9 +4164,33 @@
       "notes": "Bumped 07/05",
       "thread_id": "19e02651b68df109",
       "timeline": [
-        { "date": "2026-04-30", "action": "Email outbound 2B inviata (stimato)" },
-        { "date": "2026-05-07", "action": "Bump con caso studio" }
-      ]
+        {
+          "date": "2026-04-30",
+          "action": "Email outbound 2B inviata (stimato)"
+        },
+        {
+          "date": "2026-05-07",
+          "action": "Bump con caso studio"
+        }
+      ],
+      "label_id": "Label_8658624016447790536",
+      "sender": "Dami",
+      "is_first_email": true,
+      "followups_sent": [
+        {
+          "date": "2026-05-07",
+          "type": "email_day10",
+          "sender": "Dami",
+          "snippet": "Bump — caso studio pronto"
+        }
+      ],
+      "last_outbound_by_antonio": {
+        "date": "2026-05-07",
+        "snippet": "Bump — caso studio pronto"
+      },
+      "last_reply_from_prospect": null,
+      "next_followup_due": "2026-05-14",
+      "days_since_last_activity": 6
     },
     {
       "id": "prospect_120",
@@ -2182,9 +4210,33 @@
       "notes": "Bumped 07/05",
       "thread_id": "19e0264f6109b0ba",
       "timeline": [
-        { "date": "2026-04-30", "action": "Email outbound 3A inviata (stimato)" },
-        { "date": "2026-05-07", "action": "Bump con caso studio" }
-      ]
+        {
+          "date": "2026-04-30",
+          "action": "Email outbound 3A inviata (stimato)"
+        },
+        {
+          "date": "2026-05-07",
+          "action": "Bump con caso studio"
+        }
+      ],
+      "label_id": "Label_1592668050883672428",
+      "sender": "Manu",
+      "is_first_email": true,
+      "followups_sent": [
+        {
+          "date": "2026-05-07",
+          "type": "email_day10",
+          "sender": "Manu",
+          "snippet": "Bump — caso studio pronto"
+        }
+      ],
+      "last_outbound_by_antonio": {
+        "date": "2026-05-07",
+        "snippet": "Bump — caso studio pronto"
+      },
+      "last_reply_from_prospect": null,
+      "next_followup_due": "2026-05-14",
+      "days_since_last_activity": 6
     },
     {
       "id": "prospect_121",
@@ -2204,9 +4256,33 @@
       "notes": "Bumped 07/05",
       "thread_id": "19e0264ad0bd02b6",
       "timeline": [
-        { "date": "2026-04-30", "action": "Email outbound 3A inviata (stimato)" },
-        { "date": "2026-05-07", "action": "Bump con caso studio" }
-      ]
+        {
+          "date": "2026-04-30",
+          "action": "Email outbound 3A inviata (stimato)"
+        },
+        {
+          "date": "2026-05-07",
+          "action": "Bump con caso studio"
+        }
+      ],
+      "label_id": "Label_1592668050883672428",
+      "sender": "Manu",
+      "is_first_email": true,
+      "followups_sent": [
+        {
+          "date": "2026-05-07",
+          "type": "email_day10",
+          "sender": "Manu",
+          "snippet": "Bump — caso studio pronto"
+        }
+      ],
+      "last_outbound_by_antonio": {
+        "date": "2026-05-07",
+        "snippet": "Bump — caso studio pronto"
+      },
+      "last_reply_from_prospect": null,
+      "next_followup_due": "2026-05-14",
+      "days_since_last_activity": 6
     },
     {
       "id": "prospect_122",
@@ -2226,9 +4302,33 @@
       "notes": "Bumped 07/05",
       "thread_id": "19e026489e0de105",
       "timeline": [
-        { "date": "2026-04-30", "action": "Email outbound 3A inviata (stimato)" },
-        { "date": "2026-05-07", "action": "Bump con caso studio" }
-      ]
+        {
+          "date": "2026-04-30",
+          "action": "Email outbound 3A inviata (stimato)"
+        },
+        {
+          "date": "2026-05-07",
+          "action": "Bump con caso studio"
+        }
+      ],
+      "label_id": "Label_1592668050883672428",
+      "sender": "Manu",
+      "is_first_email": true,
+      "followups_sent": [
+        {
+          "date": "2026-05-07",
+          "type": "email_day10",
+          "sender": "Manu",
+          "snippet": "Bump — caso studio pronto"
+        }
+      ],
+      "last_outbound_by_antonio": {
+        "date": "2026-05-07",
+        "snippet": "Bump — caso studio pronto"
+      },
+      "last_reply_from_prospect": null,
+      "next_followup_due": "2026-05-14",
+      "days_since_last_activity": 6
     },
     {
       "id": "prospect_123",
@@ -2248,9 +4348,33 @@
       "notes": "Bumped 07/05",
       "thread_id": "19e0264653e576a2",
       "timeline": [
-        { "date": "2026-04-30", "action": "Email outbound 3A inviata (stimato)" },
-        { "date": "2026-05-07", "action": "Bump con caso studio" }
-      ]
+        {
+          "date": "2026-04-30",
+          "action": "Email outbound 3A inviata (stimato)"
+        },
+        {
+          "date": "2026-05-07",
+          "action": "Bump con caso studio"
+        }
+      ],
+      "label_id": "Label_1592668050883672428",
+      "sender": "Manu",
+      "is_first_email": true,
+      "followups_sent": [
+        {
+          "date": "2026-05-07",
+          "type": "email_day10",
+          "sender": "Manu",
+          "snippet": "Bump — caso studio pronto"
+        }
+      ],
+      "last_outbound_by_antonio": {
+        "date": "2026-05-07",
+        "snippet": "Bump — caso studio pronto"
+      },
+      "last_reply_from_prospect": null,
+      "next_followup_due": "2026-05-14",
+      "days_since_last_activity": 6
     },
     {
       "id": "prospect_124",
@@ -2270,9 +4394,33 @@
       "notes": "Bumped 07/05",
       "thread_id": "19e0264415b43e69",
       "timeline": [
-        { "date": "2026-04-30", "action": "Email outbound 3A inviata (stimato)" },
-        { "date": "2026-05-07", "action": "Bump con caso studio" }
-      ]
+        {
+          "date": "2026-04-30",
+          "action": "Email outbound 3A inviata (stimato)"
+        },
+        {
+          "date": "2026-05-07",
+          "action": "Bump con caso studio"
+        }
+      ],
+      "label_id": "Label_1592668050883672428",
+      "sender": "Manu",
+      "is_first_email": true,
+      "followups_sent": [
+        {
+          "date": "2026-05-07",
+          "type": "email_day10",
+          "sender": "Manu",
+          "snippet": "Bump — caso studio pronto"
+        }
+      ],
+      "last_outbound_by_antonio": {
+        "date": "2026-05-07",
+        "snippet": "Bump — caso studio pronto"
+      },
+      "last_reply_from_prospect": null,
+      "next_followup_due": "2026-05-14",
+      "days_since_last_activity": 6
     },
     {
       "id": "prospect_125",
@@ -2292,9 +4440,33 @@
       "notes": "Bumped 07/05",
       "thread_id": "19e0263fa22f85a7",
       "timeline": [
-        { "date": "2026-04-30", "action": "Email outbound 3A inviata (stimato)" },
-        { "date": "2026-05-07", "action": "Bump con caso studio" }
-      ]
+        {
+          "date": "2026-04-30",
+          "action": "Email outbound 3A inviata (stimato)"
+        },
+        {
+          "date": "2026-05-07",
+          "action": "Bump con caso studio"
+        }
+      ],
+      "label_id": "Label_1592668050883672428",
+      "sender": "Manu",
+      "is_first_email": true,
+      "followups_sent": [
+        {
+          "date": "2026-05-07",
+          "type": "email_day10",
+          "sender": "Manu",
+          "snippet": "Bump — caso studio pronto"
+        }
+      ],
+      "last_outbound_by_antonio": {
+        "date": "2026-05-07",
+        "snippet": "Bump — caso studio pronto"
+      },
+      "last_reply_from_prospect": null,
+      "next_followup_due": "2026-05-14",
+      "days_since_last_activity": 6
     },
     {
       "id": "prospect_126",
@@ -2314,9 +4486,33 @@
       "notes": "Bumped 07/05",
       "thread_id": "19e0263d5f4b62ce",
       "timeline": [
-        { "date": "2026-04-30", "action": "Email outbound 3A inviata (stimato)" },
-        { "date": "2026-05-07", "action": "Bump con caso studio" }
-      ]
+        {
+          "date": "2026-04-30",
+          "action": "Email outbound 3A inviata (stimato)"
+        },
+        {
+          "date": "2026-05-07",
+          "action": "Bump con caso studio"
+        }
+      ],
+      "label_id": "Label_1592668050883672428",
+      "sender": "Manu",
+      "is_first_email": true,
+      "followups_sent": [
+        {
+          "date": "2026-05-07",
+          "type": "email_day10",
+          "sender": "Manu",
+          "snippet": "Bump — caso studio pronto"
+        }
+      ],
+      "last_outbound_by_antonio": {
+        "date": "2026-05-07",
+        "snippet": "Bump — caso studio pronto"
+      },
+      "last_reply_from_prospect": null,
+      "next_followup_due": "2026-05-14",
+      "days_since_last_activity": 6
     },
     {
       "id": "prospect_127",
@@ -2336,9 +4532,33 @@
       "notes": "Bumped 07/05",
       "thread_id": "19e0263b1f442d52",
       "timeline": [
-        { "date": "2026-04-30", "action": "Email outbound 3A inviata (stimato)" },
-        { "date": "2026-05-07", "action": "Bump con caso studio" }
-      ]
+        {
+          "date": "2026-04-30",
+          "action": "Email outbound 3A inviata (stimato)"
+        },
+        {
+          "date": "2026-05-07",
+          "action": "Bump con caso studio"
+        }
+      ],
+      "label_id": "Label_1592668050883672428",
+      "sender": "Manu",
+      "is_first_email": true,
+      "followups_sent": [
+        {
+          "date": "2026-05-07",
+          "type": "email_day10",
+          "sender": "Manu",
+          "snippet": "Bump — caso studio pronto"
+        }
+      ],
+      "last_outbound_by_antonio": {
+        "date": "2026-05-07",
+        "snippet": "Bump — caso studio pronto"
+      },
+      "last_reply_from_prospect": null,
+      "next_followup_due": "2026-05-14",
+      "days_since_last_activity": 6
     },
     {
       "id": "prospect_128",
@@ -2358,9 +4578,33 @@
       "notes": "Bumped 07/05",
       "thread_id": "19e02638a59caf7a",
       "timeline": [
-        { "date": "2026-04-30", "action": "Email outbound 3A inviata (stimato)" },
-        { "date": "2026-05-07", "action": "Bump con caso studio" }
-      ]
+        {
+          "date": "2026-04-30",
+          "action": "Email outbound 3A inviata (stimato)"
+        },
+        {
+          "date": "2026-05-07",
+          "action": "Bump con caso studio"
+        }
+      ],
+      "label_id": "Label_1592668050883672428",
+      "sender": "Manu",
+      "is_first_email": true,
+      "followups_sent": [
+        {
+          "date": "2026-05-07",
+          "type": "email_day10",
+          "sender": "Manu",
+          "snippet": "Bump — caso studio pronto"
+        }
+      ],
+      "last_outbound_by_antonio": {
+        "date": "2026-05-07",
+        "snippet": "Bump — caso studio pronto"
+      },
+      "last_reply_from_prospect": null,
+      "next_followup_due": "2026-05-14",
+      "days_since_last_activity": 6
     },
     {
       "id": "prospect_129",
@@ -2380,9 +4624,33 @@
       "notes": "Bumped 07/05",
       "thread_id": "19e02629b3e073dd",
       "timeline": [
-        { "date": "2026-04-30", "action": "Email outbound 3A inviata (stimato)" },
-        { "date": "2026-05-07", "action": "Bump con caso studio" }
-      ]
+        {
+          "date": "2026-04-30",
+          "action": "Email outbound 3A inviata (stimato)"
+        },
+        {
+          "date": "2026-05-07",
+          "action": "Bump con caso studio"
+        }
+      ],
+      "label_id": "Label_1592668050883672428",
+      "sender": "Manu",
+      "is_first_email": true,
+      "followups_sent": [
+        {
+          "date": "2026-05-07",
+          "type": "email_day10",
+          "sender": "Manu",
+          "snippet": "Bump — caso studio pronto"
+        }
+      ],
+      "last_outbound_by_antonio": {
+        "date": "2026-05-07",
+        "snippet": "Bump — caso studio pronto"
+      },
+      "last_reply_from_prospect": null,
+      "next_followup_due": "2026-05-14",
+      "days_since_last_activity": 6
     },
     {
       "id": "prospect_130",
@@ -2402,9 +4670,33 @@
       "notes": "Bumped 07/05",
       "thread_id": "19e026276cefea10",
       "timeline": [
-        { "date": "2026-04-30", "action": "Email outbound 3A inviata (stimato)" },
-        { "date": "2026-05-07", "action": "Bump con caso studio" }
-      ]
+        {
+          "date": "2026-04-30",
+          "action": "Email outbound 3A inviata (stimato)"
+        },
+        {
+          "date": "2026-05-07",
+          "action": "Bump con caso studio"
+        }
+      ],
+      "label_id": "Label_1592668050883672428",
+      "sender": "Manu",
+      "is_first_email": true,
+      "followups_sent": [
+        {
+          "date": "2026-05-07",
+          "type": "email_day10",
+          "sender": "Manu",
+          "snippet": "Bump — caso studio pronto"
+        }
+      ],
+      "last_outbound_by_antonio": {
+        "date": "2026-05-07",
+        "snippet": "Bump — caso studio pronto"
+      },
+      "last_reply_from_prospect": null,
+      "next_followup_due": "2026-05-14",
+      "days_since_last_activity": 6
     },
     {
       "id": "prospect_131",
@@ -2424,9 +4716,33 @@
       "notes": "Bumped 07/05",
       "thread_id": "19e02625012672d2",
       "timeline": [
-        { "date": "2026-04-30", "action": "Email outbound 3A inviata (stimato)" },
-        { "date": "2026-05-07", "action": "Bump con caso studio" }
-      ]
+        {
+          "date": "2026-04-30",
+          "action": "Email outbound 3A inviata (stimato)"
+        },
+        {
+          "date": "2026-05-07",
+          "action": "Bump con caso studio"
+        }
+      ],
+      "label_id": "Label_1592668050883672428",
+      "sender": "Manu",
+      "is_first_email": true,
+      "followups_sent": [
+        {
+          "date": "2026-05-07",
+          "type": "email_day10",
+          "sender": "Manu",
+          "snippet": "Bump — caso studio pronto"
+        }
+      ],
+      "last_outbound_by_antonio": {
+        "date": "2026-05-07",
+        "snippet": "Bump — caso studio pronto"
+      },
+      "last_reply_from_prospect": null,
+      "next_followup_due": "2026-05-14",
+      "days_since_last_activity": 6
     },
     {
       "id": "prospect_132",
@@ -2446,9 +4762,33 @@
       "notes": "Bumped 07/05",
       "thread_id": "19e0262073293d39",
       "timeline": [
-        { "date": "2026-04-30", "action": "Email outbound 3A inviata (stimato)" },
-        { "date": "2026-05-07", "action": "Bump con caso studio" }
-      ]
+        {
+          "date": "2026-04-30",
+          "action": "Email outbound 3A inviata (stimato)"
+        },
+        {
+          "date": "2026-05-07",
+          "action": "Bump con caso studio"
+        }
+      ],
+      "label_id": "Label_1592668050883672428",
+      "sender": "Manu",
+      "is_first_email": true,
+      "followups_sent": [
+        {
+          "date": "2026-05-07",
+          "type": "email_day10",
+          "sender": "Manu",
+          "snippet": "Bump — caso studio pronto"
+        }
+      ],
+      "last_outbound_by_antonio": {
+        "date": "2026-05-07",
+        "snippet": "Bump — caso studio pronto"
+      },
+      "last_reply_from_prospect": null,
+      "next_followup_due": "2026-05-14",
+      "days_since_last_activity": 6
     },
     {
       "id": "prospect_133",
@@ -2468,9 +4808,33 @@
       "notes": "Bumped 07/05",
       "thread_id": "19e0261d66e08cf1",
       "timeline": [
-        { "date": "2026-04-30", "action": "Email outbound 3A inviata (stimato)" },
-        { "date": "2026-05-07", "action": "Bump con caso studio" }
-      ]
+        {
+          "date": "2026-04-30",
+          "action": "Email outbound 3A inviata (stimato)"
+        },
+        {
+          "date": "2026-05-07",
+          "action": "Bump con caso studio"
+        }
+      ],
+      "label_id": "Label_1592668050883672428",
+      "sender": "Manu",
+      "is_first_email": true,
+      "followups_sent": [
+        {
+          "date": "2026-05-07",
+          "type": "email_day10",
+          "sender": "Manu",
+          "snippet": "Bump — caso studio pronto"
+        }
+      ],
+      "last_outbound_by_antonio": {
+        "date": "2026-05-07",
+        "snippet": "Bump — caso studio pronto"
+      },
+      "last_reply_from_prospect": null,
+      "next_followup_due": "2026-05-14",
+      "days_since_last_activity": 6
     },
     {
       "id": "prospect_134",
@@ -2490,9 +4854,33 @@
       "notes": "Bumped 07/05",
       "thread_id": "19e0261a71a7912b",
       "timeline": [
-        { "date": "2026-04-30", "action": "Email outbound 3A inviata (stimato)" },
-        { "date": "2026-05-07", "action": "Bump con caso studio" }
-      ]
+        {
+          "date": "2026-04-30",
+          "action": "Email outbound 3A inviata (stimato)"
+        },
+        {
+          "date": "2026-05-07",
+          "action": "Bump con caso studio"
+        }
+      ],
+      "label_id": "Label_1592668050883672428",
+      "sender": "Manu",
+      "is_first_email": true,
+      "followups_sent": [
+        {
+          "date": "2026-05-07",
+          "type": "email_day10",
+          "sender": "Manu",
+          "snippet": "Bump — caso studio pronto"
+        }
+      ],
+      "last_outbound_by_antonio": {
+        "date": "2026-05-07",
+        "snippet": "Bump — caso studio pronto"
+      },
+      "last_reply_from_prospect": null,
+      "next_followup_due": "2026-05-14",
+      "days_since_last_activity": 6
     },
     {
       "id": "prospect_135",
@@ -2512,9 +4900,33 @@
       "notes": "Bumped 07/05",
       "thread_id": "19e026159e019fc5",
       "timeline": [
-        { "date": "2026-04-30", "action": "Email outbound 3A inviata (stimato)" },
-        { "date": "2026-05-07", "action": "Bump con caso studio" }
-      ]
+        {
+          "date": "2026-04-30",
+          "action": "Email outbound 3A inviata (stimato)"
+        },
+        {
+          "date": "2026-05-07",
+          "action": "Bump con caso studio"
+        }
+      ],
+      "label_id": "Label_1592668050883672428",
+      "sender": "Manu",
+      "is_first_email": true,
+      "followups_sent": [
+        {
+          "date": "2026-05-07",
+          "type": "email_day10",
+          "sender": "Manu",
+          "snippet": "Bump — caso studio pronto"
+        }
+      ],
+      "last_outbound_by_antonio": {
+        "date": "2026-05-07",
+        "snippet": "Bump — caso studio pronto"
+      },
+      "last_reply_from_prospect": null,
+      "next_followup_due": "2026-05-14",
+      "days_since_last_activity": 6
     },
     {
       "id": "prospect_136",
@@ -2534,9 +4946,33 @@
       "notes": "Bumped 07/05",
       "thread_id": "19e026132c723968",
       "timeline": [
-        { "date": "2026-04-30", "action": "Email outbound 3A inviata (stimato)" },
-        { "date": "2026-05-07", "action": "Bump con caso studio" }
-      ]
+        {
+          "date": "2026-04-30",
+          "action": "Email outbound 3A inviata (stimato)"
+        },
+        {
+          "date": "2026-05-07",
+          "action": "Bump con caso studio"
+        }
+      ],
+      "label_id": "Label_1592668050883672428",
+      "sender": "Manu",
+      "is_first_email": true,
+      "followups_sent": [
+        {
+          "date": "2026-05-07",
+          "type": "email_day10",
+          "sender": "Manu",
+          "snippet": "Bump — caso studio pronto"
+        }
+      ],
+      "last_outbound_by_antonio": {
+        "date": "2026-05-07",
+        "snippet": "Bump — caso studio pronto"
+      },
+      "last_reply_from_prospect": null,
+      "next_followup_due": "2026-05-14",
+      "days_since_last_activity": 6
     },
     {
       "id": "prospect_137",
@@ -2556,9 +4992,33 @@
       "notes": "Bumped 07/05",
       "thread_id": "19e026109f48de1e",
       "timeline": [
-        { "date": "2026-04-30", "action": "Email outbound 3A inviata (stimato)" },
-        { "date": "2026-05-07", "action": "Bump con caso studio" }
-      ]
+        {
+          "date": "2026-04-30",
+          "action": "Email outbound 3A inviata (stimato)"
+        },
+        {
+          "date": "2026-05-07",
+          "action": "Bump con caso studio"
+        }
+      ],
+      "label_id": "Label_1592668050883672428",
+      "sender": "Manu",
+      "is_first_email": true,
+      "followups_sent": [
+        {
+          "date": "2026-05-07",
+          "type": "email_day10",
+          "sender": "Manu",
+          "snippet": "Bump — caso studio pronto"
+        }
+      ],
+      "last_outbound_by_antonio": {
+        "date": "2026-05-07",
+        "snippet": "Bump — caso studio pronto"
+      },
+      "last_reply_from_prospect": null,
+      "next_followup_due": "2026-05-14",
+      "days_since_last_activity": 6
     },
     {
       "id": "prospect_138",
@@ -2578,9 +5038,33 @@
       "notes": "Bumped 07/05",
       "thread_id": "19e0260b10e1a2b0",
       "timeline": [
-        { "date": "2026-04-30", "action": "Email outbound 3A inviata (stimato)" },
-        { "date": "2026-05-07", "action": "Bump con caso studio" }
-      ]
+        {
+          "date": "2026-04-30",
+          "action": "Email outbound 3A inviata (stimato)"
+        },
+        {
+          "date": "2026-05-07",
+          "action": "Bump con caso studio"
+        }
+      ],
+      "label_id": "Label_1592668050883672428",
+      "sender": "Manu",
+      "is_first_email": true,
+      "followups_sent": [
+        {
+          "date": "2026-05-07",
+          "type": "email_day10",
+          "sender": "Manu",
+          "snippet": "Bump — caso studio pronto"
+        }
+      ],
+      "last_outbound_by_antonio": {
+        "date": "2026-05-07",
+        "snippet": "Bump — caso studio pronto"
+      },
+      "last_reply_from_prospect": null,
+      "next_followup_due": "2026-05-14",
+      "days_since_last_activity": 6
     },
     {
       "id": "prospect_139",
@@ -2600,9 +5084,33 @@
       "notes": "Bumped 07/05",
       "thread_id": "19e026071b6190c2",
       "timeline": [
-        { "date": "2026-04-30", "action": "Email outbound 3A inviata (stimato)" },
-        { "date": "2026-05-07", "action": "Bump con caso studio" }
-      ]
+        {
+          "date": "2026-04-30",
+          "action": "Email outbound 3A inviata (stimato)"
+        },
+        {
+          "date": "2026-05-07",
+          "action": "Bump con caso studio"
+        }
+      ],
+      "label_id": "Label_1592668050883672428",
+      "sender": "Manu",
+      "is_first_email": true,
+      "followups_sent": [
+        {
+          "date": "2026-05-07",
+          "type": "email_day10",
+          "sender": "Manu",
+          "snippet": "Bump — caso studio pronto"
+        }
+      ],
+      "last_outbound_by_antonio": {
+        "date": "2026-05-07",
+        "snippet": "Bump — caso studio pronto"
+      },
+      "last_reply_from_prospect": null,
+      "next_followup_due": "2026-05-14",
+      "days_since_last_activity": 6
     },
     {
       "id": "prospect_140",
@@ -2622,9 +5130,33 @@
       "notes": "2° contatto Nugnes (Giuseppe)",
       "thread_id": "19e025ffc6d0a773",
       "timeline": [
-        { "date": "2026-04-30", "action": "Email outbound 3A inviata (stimato)" },
-        { "date": "2026-05-07", "action": "Bump con caso studio" }
-      ]
+        {
+          "date": "2026-04-30",
+          "action": "Email outbound 3A inviata (stimato)"
+        },
+        {
+          "date": "2026-05-07",
+          "action": "Bump con caso studio"
+        }
+      ],
+      "label_id": "Label_1592668050883672428",
+      "sender": "Manu",
+      "is_first_email": true,
+      "followups_sent": [
+        {
+          "date": "2026-05-07",
+          "type": "email_day10",
+          "sender": "Manu",
+          "snippet": "Bump — caso studio pronto"
+        }
+      ],
+      "last_outbound_by_antonio": {
+        "date": "2026-05-07",
+        "snippet": "Bump — caso studio pronto"
+      },
+      "last_reply_from_prospect": null,
+      "next_followup_due": "2026-05-14",
+      "days_since_last_activity": 6
     },
     {
       "id": "prospect_141",
@@ -2644,9 +5176,33 @@
       "notes": "Bumped 07/05",
       "thread_id": "19e025fd86222729",
       "timeline": [
-        { "date": "2026-04-30", "action": "Email outbound 3A inviata (stimato)" },
-        { "date": "2026-05-07", "action": "Bump con caso studio" }
-      ]
+        {
+          "date": "2026-04-30",
+          "action": "Email outbound 3A inviata (stimato)"
+        },
+        {
+          "date": "2026-05-07",
+          "action": "Bump con caso studio"
+        }
+      ],
+      "label_id": "Label_1592668050883672428",
+      "sender": "Manu",
+      "is_first_email": true,
+      "followups_sent": [
+        {
+          "date": "2026-05-07",
+          "type": "email_day10",
+          "sender": "Manu",
+          "snippet": "Bump — caso studio pronto"
+        }
+      ],
+      "last_outbound_by_antonio": {
+        "date": "2026-05-07",
+        "snippet": "Bump — caso studio pronto"
+      },
+      "last_reply_from_prospect": null,
+      "next_followup_due": "2026-05-14",
+      "days_since_last_activity": 6
     },
     {
       "id": "prospect_142",
@@ -2666,9 +5222,33 @@
       "notes": "Co-founder Velasca",
       "thread_id": "19e025fb21686ff3",
       "timeline": [
-        { "date": "2026-04-30", "action": "Email outbound 3A inviata (stimato)" },
-        { "date": "2026-05-07", "action": "Bump con caso studio" }
-      ]
+        {
+          "date": "2026-04-30",
+          "action": "Email outbound 3A inviata (stimato)"
+        },
+        {
+          "date": "2026-05-07",
+          "action": "Bump con caso studio"
+        }
+      ],
+      "label_id": "Label_1592668050883672428",
+      "sender": "Manu",
+      "is_first_email": true,
+      "followups_sent": [
+        {
+          "date": "2026-05-07",
+          "type": "email_day10",
+          "sender": "Manu",
+          "snippet": "Bump — caso studio pronto"
+        }
+      ],
+      "last_outbound_by_antonio": {
+        "date": "2026-05-07",
+        "snippet": "Bump — caso studio pronto"
+      },
+      "last_reply_from_prospect": null,
+      "next_followup_due": "2026-05-14",
+      "days_since_last_activity": 6
     },
     {
       "id": "prospect_143",
@@ -2688,9 +5268,33 @@
       "notes": "2° co-founder Velasca",
       "thread_id": "19e02554dc5ad82b",
       "timeline": [
-        { "date": "2026-04-30", "action": "Email outbound 3A inviata (stimato)" },
-        { "date": "2026-05-07", "action": "Bump con caso studio" }
-      ]
+        {
+          "date": "2026-04-30",
+          "action": "Email outbound 3A inviata (stimato)"
+        },
+        {
+          "date": "2026-05-07",
+          "action": "Bump con caso studio"
+        }
+      ],
+      "label_id": "Label_1592668050883672428",
+      "sender": "Manu",
+      "is_first_email": true,
+      "followups_sent": [
+        {
+          "date": "2026-05-07",
+          "type": "email_day10",
+          "sender": "Manu",
+          "snippet": "Bump — caso studio pronto"
+        }
+      ],
+      "last_outbound_by_antonio": {
+        "date": "2026-05-07",
+        "snippet": "Bump — caso studio pronto"
+      },
+      "last_reply_from_prospect": null,
+      "next_followup_due": "2026-05-14",
+      "days_since_last_activity": 6
     },
     {
       "id": "prospect_144",
@@ -2710,9 +5314,33 @@
       "notes": "Bumped 07/05",
       "thread_id": "19e025f6010c2c5f",
       "timeline": [
-        { "date": "2026-04-30", "action": "Email outbound 3A inviata (stimato)" },
-        { "date": "2026-05-07", "action": "Bump con caso studio" }
-      ]
+        {
+          "date": "2026-04-30",
+          "action": "Email outbound 3A inviata (stimato)"
+        },
+        {
+          "date": "2026-05-07",
+          "action": "Bump con caso studio"
+        }
+      ],
+      "label_id": "Label_1592668050883672428",
+      "sender": "Manu",
+      "is_first_email": true,
+      "followups_sent": [
+        {
+          "date": "2026-05-07",
+          "type": "email_day10",
+          "sender": "Manu",
+          "snippet": "Bump — caso studio pronto"
+        }
+      ],
+      "last_outbound_by_antonio": {
+        "date": "2026-05-07",
+        "snippet": "Bump — caso studio pronto"
+      },
+      "last_reply_from_prospect": null,
+      "next_followup_due": "2026-05-14",
+      "days_since_last_activity": 6
     },
     {
       "id": "prospect_145",
@@ -2732,9 +5360,33 @@
       "notes": "Bumped 07/05",
       "thread_id": "19e025f3d93df421",
       "timeline": [
-        { "date": "2026-04-30", "action": "Email outbound 3A inviata (stimato)" },
-        { "date": "2026-05-07", "action": "Bump con caso studio" }
-      ]
+        {
+          "date": "2026-04-30",
+          "action": "Email outbound 3A inviata (stimato)"
+        },
+        {
+          "date": "2026-05-07",
+          "action": "Bump con caso studio"
+        }
+      ],
+      "label_id": "Label_1592668050883672428",
+      "sender": "Manu",
+      "is_first_email": true,
+      "followups_sent": [
+        {
+          "date": "2026-05-07",
+          "type": "email_day10",
+          "sender": "Manu",
+          "snippet": "Bump — caso studio pronto"
+        }
+      ],
+      "last_outbound_by_antonio": {
+        "date": "2026-05-07",
+        "snippet": "Bump — caso studio pronto"
+      },
+      "last_reply_from_prospect": null,
+      "next_followup_due": "2026-05-14",
+      "days_since_last_activity": 6
     },
     {
       "id": "prospect_146",
@@ -2754,9 +5406,33 @@
       "notes": "Bumped 07/05",
       "thread_id": "19e025eea7f51ff1",
       "timeline": [
-        { "date": "2026-04-30", "action": "Email outbound 3A inviata (stimato)" },
-        { "date": "2026-05-07", "action": "Bump con caso studio" }
-      ]
+        {
+          "date": "2026-04-30",
+          "action": "Email outbound 3A inviata (stimato)"
+        },
+        {
+          "date": "2026-05-07",
+          "action": "Bump con caso studio"
+        }
+      ],
+      "label_id": "Label_1592668050883672428",
+      "sender": "Manu",
+      "is_first_email": true,
+      "followups_sent": [
+        {
+          "date": "2026-05-07",
+          "type": "email_day10",
+          "sender": "Manu",
+          "snippet": "Bump — caso studio pronto"
+        }
+      ],
+      "last_outbound_by_antonio": {
+        "date": "2026-05-07",
+        "snippet": "Bump — caso studio pronto"
+      },
+      "last_reply_from_prospect": null,
+      "next_followup_due": "2026-05-14",
+      "days_since_last_activity": 6
     },
     {
       "id": "prospect_147",
@@ -2776,9 +5452,33 @@
       "notes": "Bumped 07/05",
       "thread_id": "19e025e1b5271cba",
       "timeline": [
-        { "date": "2026-04-30", "action": "Email outbound 3A inviata (stimato)" },
-        { "date": "2026-05-07", "action": "Bump con caso studio" }
-      ]
+        {
+          "date": "2026-04-30",
+          "action": "Email outbound 3A inviata (stimato)"
+        },
+        {
+          "date": "2026-05-07",
+          "action": "Bump con caso studio"
+        }
+      ],
+      "label_id": "Label_1592668050883672428",
+      "sender": "Manu",
+      "is_first_email": true,
+      "followups_sent": [
+        {
+          "date": "2026-05-07",
+          "type": "email_day10",
+          "sender": "Manu",
+          "snippet": "Bump — caso studio pronto"
+        }
+      ],
+      "last_outbound_by_antonio": {
+        "date": "2026-05-07",
+        "snippet": "Bump — caso studio pronto"
+      },
+      "last_reply_from_prospect": null,
+      "next_followup_due": "2026-05-14",
+      "days_since_last_activity": 6
     },
     {
       "id": "prospect_148",
@@ -2798,9 +5498,33 @@
       "notes": "Bumped 07/05",
       "thread_id": "19e025d29a2d439b",
       "timeline": [
-        { "date": "2026-04-30", "action": "Email outbound 3A inviata (stimato)" },
-        { "date": "2026-05-07", "action": "Bump con caso studio" }
-      ]
+        {
+          "date": "2026-04-30",
+          "action": "Email outbound 3A inviata (stimato)"
+        },
+        {
+          "date": "2026-05-07",
+          "action": "Bump con caso studio"
+        }
+      ],
+      "label_id": "Label_1592668050883672428",
+      "sender": "Manu",
+      "is_first_email": true,
+      "followups_sent": [
+        {
+          "date": "2026-05-07",
+          "type": "email_day10",
+          "sender": "Manu",
+          "snippet": "Bump — caso studio pronto"
+        }
+      ],
+      "last_outbound_by_antonio": {
+        "date": "2026-05-07",
+        "snippet": "Bump — caso studio pronto"
+      },
+      "last_reply_from_prospect": null,
+      "next_followup_due": "2026-05-14",
+      "days_since_last_activity": 6
     },
     {
       "id": "prospect_149",
@@ -2820,9 +5544,33 @@
       "notes": "Bumped 07/05",
       "thread_id": "19e0259b8f6e05a6",
       "timeline": [
-        { "date": "2026-04-30", "action": "Email outbound 3A inviata (stimato)" },
-        { "date": "2026-05-07", "action": "Bump con caso studio" }
-      ]
+        {
+          "date": "2026-04-30",
+          "action": "Email outbound 3A inviata (stimato)"
+        },
+        {
+          "date": "2026-05-07",
+          "action": "Bump con caso studio"
+        }
+      ],
+      "label_id": "Label_1592668050883672428",
+      "sender": "Manu",
+      "is_first_email": true,
+      "followups_sent": [
+        {
+          "date": "2026-05-07",
+          "type": "email_day10",
+          "sender": "Manu",
+          "snippet": "Bump — caso studio pronto"
+        }
+      ],
+      "last_outbound_by_antonio": {
+        "date": "2026-05-07",
+        "snippet": "Bump — caso studio pronto"
+      },
+      "last_reply_from_prospect": null,
+      "next_followup_due": "2026-05-14",
+      "days_since_last_activity": 6
     },
     {
       "id": "prospect_150",
@@ -2842,9 +5590,33 @@
       "notes": "Bumped 07/05",
       "thread_id": "19e0257dacaba8e3",
       "timeline": [
-        { "date": "2026-04-30", "action": "Email outbound 3A inviata (stimato)" },
-        { "date": "2026-05-07", "action": "Bump con caso studio" }
-      ]
+        {
+          "date": "2026-04-30",
+          "action": "Email outbound 3A inviata (stimato)"
+        },
+        {
+          "date": "2026-05-07",
+          "action": "Bump con caso studio"
+        }
+      ],
+      "label_id": "Label_1592668050883672428",
+      "sender": "Manu",
+      "is_first_email": true,
+      "followups_sent": [
+        {
+          "date": "2026-05-07",
+          "type": "email_day10",
+          "sender": "Manu",
+          "snippet": "Bump — caso studio pronto"
+        }
+      ],
+      "last_outbound_by_antonio": {
+        "date": "2026-05-07",
+        "snippet": "Bump — caso studio pronto"
+      },
+      "last_reply_from_prospect": null,
+      "next_followup_due": "2026-05-14",
+      "days_since_last_activity": 6
     },
     {
       "id": "prospect_151",
@@ -2864,9 +5636,33 @@
       "notes": "Bumped 07/05",
       "thread_id": "19e02560cbd9da7d",
       "timeline": [
-        { "date": "2026-04-30", "action": "Email outbound 3A inviata (stimato)" },
-        { "date": "2026-05-07", "action": "Bump con caso studio" }
-      ]
+        {
+          "date": "2026-04-30",
+          "action": "Email outbound 3A inviata (stimato)"
+        },
+        {
+          "date": "2026-05-07",
+          "action": "Bump con caso studio"
+        }
+      ],
+      "label_id": "Label_1592668050883672428",
+      "sender": "Manu",
+      "is_first_email": true,
+      "followups_sent": [
+        {
+          "date": "2026-05-07",
+          "type": "email_day10",
+          "sender": "Manu",
+          "snippet": "Bump — caso studio pronto"
+        }
+      ],
+      "last_outbound_by_antonio": {
+        "date": "2026-05-07",
+        "snippet": "Bump — caso studio pronto"
+      },
+      "last_reply_from_prospect": null,
+      "next_followup_due": "2026-05-14",
+      "days_since_last_activity": 6
     },
     {
       "id": "prospect_152",
@@ -2886,9 +5682,33 @@
       "notes": "Tech report dedicato",
       "thread_id": "19e02500be7a0353",
       "timeline": [
-        { "date": "2026-04-30", "action": "Email outbound 3A (tech report) inviata (stimato)" },
-        { "date": "2026-05-07", "action": "Bump con caso studio" }
-      ]
+        {
+          "date": "2026-04-30",
+          "action": "Email outbound 3A (tech report) inviata (stimato)"
+        },
+        {
+          "date": "2026-05-07",
+          "action": "Bump con caso studio"
+        }
+      ],
+      "label_id": "Label_1592668050883672428",
+      "sender": "Manu",
+      "is_first_email": true,
+      "followups_sent": [
+        {
+          "date": "2026-05-07",
+          "type": "email_day10",
+          "sender": "Manu",
+          "snippet": "Bump — caso studio pronto"
+        }
+      ],
+      "last_outbound_by_antonio": {
+        "date": "2026-05-07",
+        "snippet": "Bump — caso studio pronto"
+      },
+      "last_reply_from_prospect": null,
+      "next_followup_due": "2026-05-14",
+      "days_since_last_activity": 6
     },
     {
       "id": "prospect_160",
@@ -2908,9 +5728,29 @@
       "notes": "OoO fino 11/05. Backup: customercare@gaudenziboutique.com",
       "thread_id": "19dfe74b8d226f45",
       "timeline": [
-        { "date": "2026-05-01", "action": "Email outbound 1A inviata (stimato)" },
-        { "date": "2026-05-06", "action": "Autoresponse OoO" }
-      ]
+        {
+          "date": "2026-05-01",
+          "action": "Email outbound 1A inviata (stimato)"
+        },
+        {
+          "date": "2026-05-06",
+          "action": "Autoresponse OoO"
+        }
+      ],
+      "label_id": "Label_1592668050883672428",
+      "sender": "Manu",
+      "is_first_email": true,
+      "followups_sent": [],
+      "last_outbound_by_antonio": {
+        "date": "2026-05-01",
+        "snippet": "Ciao Martina, mi sono imbattuto in Gaudenzi Boutique cercando le migliori realtà fashion del settore. Ho visto la piattaforma che state usando per le vendite online…"
+      },
+      "last_reply_from_prospect": {
+        "date": "2026-05-06",
+        "snippet": "Sarò fuori ufficio fino a lunedì 11 maggio. Per urgenze contattare customercare@gaudenziboutique.com."
+      },
+      "next_followup_due": "2026-05-15",
+      "days_since_last_activity": 7
     },
     {
       "id": "prospect_161",
@@ -2930,9 +5770,29 @@
       "notes": "Risposta da indirizzo no-reply",
       "thread_id": "19dfdf24cd55976b",
       "timeline": [
-        { "date": "2026-05-01", "action": "Email outbound 1A inviata (stimato)" },
-        { "date": "2026-05-06", "action": "Autoresponse no-reply" }
-      ]
+        {
+          "date": "2026-05-01",
+          "action": "Email outbound 1A inviata (stimato)"
+        },
+        {
+          "date": "2026-05-06",
+          "action": "Autoresponse no-reply"
+        }
+      ],
+      "label_id": "Label_1592668050883672428",
+      "sender": "Manu",
+      "is_first_email": true,
+      "followups_sent": [],
+      "last_outbound_by_antonio": {
+        "date": "2026-05-01",
+        "snippet": "Ciao Jessica, mi sono imbattuto in Monsoon London cercando le migliori realtà fashion del settore. Ho visto la piattaforma che state usando per le vendite online…"
+      },
+      "last_reply_from_prospect": {
+        "date": "2026-05-06",
+        "snippet": "Hi Jessica, I came across Monsoon London while researching the best shoes... [autoresponse no-reply]"
+      },
+      "next_followup_due": "2026-05-15",
+      "days_since_last_activity": 7
     },
     {
       "id": "prospect_162",
@@ -2952,9 +5812,29 @@
       "notes": "MW non più dipendente. Backup: sales@toogood.com",
       "thread_id": "19dfdd895ef4b85d",
       "timeline": [
-        { "date": "2026-05-01", "action": "Email outbound 2B inviata (stimato)" },
-        { "date": "2026-05-06", "action": "Autoresponse: MW non più dipendente" }
-      ]
+        {
+          "date": "2026-05-01",
+          "action": "Email outbound 2B inviata (stimato)"
+        },
+        {
+          "date": "2026-05-06",
+          "action": "Autoresponse: MW non più dipendente"
+        }
+      ],
+      "label_id": "Label_8658624016447790536",
+      "sender": "Dami",
+      "is_first_email": true,
+      "followups_sent": [],
+      "last_outbound_by_antonio": {
+        "date": "2026-05-01",
+        "snippet": "Ciao MW, I was looking into Toogood and noticed you're running Meta/Google campaigns on a Shopify store. Quick check on your tracking — found an issue you're likely unaware of…"
+      },
+      "last_reply_from_prospect": {
+        "date": "2026-05-06",
+        "snippet": "Thank you for your message. I no longer work at Tooogood. For assistance, please contact sales@toogood.com."
+      },
+      "next_followup_due": "2026-05-15",
+      "days_since_last_activity": 7
     },
     {
       "id": "prospect_163",
@@ -2974,9 +5854,29 @@
       "notes": "Zendesk ticket #339934",
       "thread_id": "19dfd713e4ae7dd4",
       "timeline": [
-        { "date": "2026-05-06", "action": "Email outbound 2B inviata" },
-        { "date": "2026-05-06", "action": "Autoresponse zendesk ticket" }
-      ]
+        {
+          "date": "2026-05-06",
+          "action": "Email outbound 2B inviata"
+        },
+        {
+          "date": "2026-05-06",
+          "action": "Autoresponse zendesk ticket"
+        }
+      ],
+      "label_id": "Label_8658624016447790536",
+      "sender": "Dami",
+      "is_first_email": true,
+      "followups_sent": [],
+      "last_outbound_by_antonio": {
+        "date": "2026-05-06",
+        "snippet": "Ciao, I was looking into KFBeauty and noticed you're running Meta/Google campaigns on a Shopify store. Quick check on your tracking — found an issue you're likely unaware of…"
+      },
+      "last_reply_from_prospect": {
+        "date": "2026-05-06",
+        "snippet": "Thank you for your request, someone will follow up within 1 business day. — Customer Services Team (Zendesk #339934)"
+      },
+      "next_followup_due": "2026-05-14",
+      "days_since_last_activity": 7
     },
     {
       "id": "prospect_164",
@@ -2996,9 +5896,29 @@
       "notes": "UK coffee Shopify. Autoreply 'reply within 24h'.",
       "thread_id": "19dfce5f1a24f926",
       "timeline": [
-        { "date": "2026-05-06", "action": "Email outbound 3B inviata" },
-        { "date": "2026-05-06", "action": "Autoresponse 24h reply" }
-      ]
+        {
+          "date": "2026-05-06",
+          "action": "Email outbound 3B inviata"
+        },
+        {
+          "date": "2026-05-06",
+          "action": "Autoresponse 24h reply"
+        }
+      ],
+      "label_id": "Label_8658624016447790536",
+      "sender": "Dami",
+      "is_first_email": true,
+      "followups_sent": [],
+      "last_outbound_by_antonio": {
+        "date": "2026-05-06",
+        "snippet": "Ciao Toby, stavo guardando i migliori store Shopify del settore e mi sono imbattuto in Dark Arts Coffee, ma ho visto 2-3 cose che frenano le conversioni…"
+      },
+      "last_reply_from_prospect": {
+        "date": "2026-05-06",
+        "snippet": "Hey, Thank you for getting in touch with your favourite bean browner — we'll get back to you within 24 hours."
+      },
+      "next_followup_due": "2026-05-14",
+      "days_since_last_activity": 7
     },
     {
       "id": "prospect_165",
@@ -3018,10 +5938,40 @@
       "notes": "UK fashion Shopify. Autoresponse 72h reply. Bumped 12/05.",
       "thread_id": "19dd598f80445588",
       "timeline": [
-        { "date": "2026-04-29", "action": "Email outbound 2B inviata" },
-        { "date": "2026-05-12", "action": "Bump email" },
-        { "date": "2026-05-12", "action": "Autoresponse 72h reply" }
-      ]
+        {
+          "date": "2026-04-29",
+          "action": "Email outbound 2B inviata"
+        },
+        {
+          "date": "2026-05-12",
+          "action": "Bump email"
+        },
+        {
+          "date": "2026-05-12",
+          "action": "Autoresponse 72h reply"
+        }
+      ],
+      "label_id": "Label_8658624016447790536",
+      "sender": "Dami",
+      "is_first_email": true,
+      "followups_sent": [
+        {
+          "date": "2026-05-12",
+          "type": "email_day10",
+          "sender": "Dami",
+          "snippet": "Bump — caso studio pronto"
+        }
+      ],
+      "last_outbound_by_antonio": {
+        "date": "2026-05-12",
+        "snippet": "Bump — caso studio pronto"
+      },
+      "last_reply_from_prospect": {
+        "date": "2026-05-12",
+        "snippet": "Thank you for contacting Ed Hardy Customer Service Team. Please allow up to 72 hours for a reply."
+      },
+      "next_followup_due": "2026-05-13",
+      "days_since_last_activity": 1
     }
   ],
   "bounced": [
@@ -3034,7 +5984,10 @@
       "angle": "2B",
       "bounce_date": "2026-05-12",
       "notes": "Indirizzo inesistente (Anastasia)",
-      "thread_id": "19e1d40f75462495"
+      "thread_id": "19e1d40f75462495",
+      "label_id": "Label_8658624016447790536",
+      "sender": "Dami",
+      "suggested_action": "Cerca contatto su LinkedIn"
     },
     {
       "id": "bounce_002",
@@ -3045,7 +5998,10 @@
       "angle": "2B",
       "bounce_date": "2026-05-12",
       "notes": "Office 365: alexander.g not found at wearclubseven.com",
-      "thread_id": "19e1d2c898ca576c"
+      "thread_id": "19e1d2c898ca576c",
+      "label_id": "Label_8658624016447790536",
+      "sender": "Dami",
+      "suggested_action": "Cerca contatto su LinkedIn"
     },
     {
       "id": "bounce_003",
@@ -3056,7 +6012,10 @@
       "angle": "3A",
       "bounce_date": "2026-05-12",
       "notes": "Address not found",
-      "thread_id": "19e1d0f1d2e8d6fc"
+      "thread_id": "19e1d0f1d2e8d6fc",
+      "label_id": "Label_1592668050883672428",
+      "sender": "Manu",
+      "suggested_action": "Cerca contatto su LinkedIn"
     },
     {
       "id": "bounce_004",
@@ -3067,7 +6026,10 @@
       "angle": "1A",
       "bounce_date": "2026-05-12",
       "notes": "Bounce su fo@satu.it (typo) — riprovare con info@satu.it se non già fatto",
-      "thread_id": "19e1bd730ca8f4e5"
+      "thread_id": "19e1bd730ca8f4e5",
+      "label_id": "Label_1592668050883672428",
+      "sender": "Manu",
+      "suggested_action": "Verifica indirizzo alternativo nelle note"
     },
     {
       "id": "bounce_005",
@@ -3078,7 +6040,10 @@
       "angle": "2B",
       "bounce_date": "2026-05-07",
       "notes": "Aruba mail server returned undelivered",
-      "thread_id": "19e026763f269fef"
+      "thread_id": "19e026763f269fef",
+      "label_id": "Label_8658624016447790536",
+      "sender": "Dami",
+      "suggested_action": "Cerca contatto su LinkedIn"
     },
     {
       "id": "bounce_006",
@@ -3089,7 +6054,10 @@
       "angle": "2B",
       "bounce_date": "2026-05-07",
       "notes": "Indirizzo inesistente (550 5.1.1)",
-      "thread_id": "19e0265ecd8ec21f"
+      "thread_id": "19e0265ecd8ec21f",
+      "label_id": "Label_8658624016447790536",
+      "sender": "Dami",
+      "suggested_action": "Cerca contatto su LinkedIn"
     },
     {
       "id": "bounce_007",
@@ -3100,7 +6068,10 @@
       "angle": "1A",
       "bounce_date": "2026-05-06",
       "notes": "Gmail address inesistente",
-      "thread_id": "19dfe5af6c16fa3a"
+      "thread_id": "19dfe5af6c16fa3a",
+      "label_id": "Label_1592668050883672428",
+      "sender": "Manu",
+      "suggested_action": "Cerca contatto su LinkedIn"
     },
     {
       "id": "bounce_008",
@@ -3111,7 +6082,10 @@
       "angle": "1A",
       "bounce_date": "2026-05-06",
       "notes": "mailer-daemon@electric.net permanent error",
-      "thread_id": "19dfe1a178fd9b9e"
+      "thread_id": "19dfe1a178fd9b9e",
+      "label_id": "Label_1592668050883672428",
+      "sender": "Manu",
+      "suggested_action": "Verifica indirizzo alternativo nelle note"
     },
     {
       "id": "bounce_009",
@@ -3122,7 +6096,10 @@
       "angle": "2B",
       "bounce_date": "2026-05-06",
       "notes": "Address not found",
-      "thread_id": "19dfdf715003bda2"
+      "thread_id": "19dfdf715003bda2",
+      "label_id": "Label_8658624016447790536",
+      "sender": "Dami",
+      "suggested_action": "Cerca contatto su LinkedIn"
     },
     {
       "id": "bounce_010",
@@ -3133,7 +6110,10 @@
       "angle": "1A",
       "bounce_date": "2026-05-06",
       "notes": "Forward a info@helmecatania.it: casella piena",
-      "thread_id": "19dfe8baf55a523a"
+      "thread_id": "19dfe8baf55a523a",
+      "label_id": "Label_1592668050883672428",
+      "sender": "Manu",
+      "suggested_action": "Verifica indirizzo alternativo nelle note"
     },
     {
       "id": "bounce_011",
@@ -3144,7 +6124,10 @@
       "angle": "3A",
       "bounce_date": "2026-05-11",
       "notes": "Office 365: luke not found",
-      "thread_id": "19e16b289db71ee6"
+      "thread_id": "19e16b289db71ee6",
+      "label_id": "Label_1592668050883672428",
+      "sender": "Manu",
+      "suggested_action": "Cerca contatto su LinkedIn"
     },
     {
       "id": "bounce_012",
@@ -3155,7 +6138,10 @@
       "angle": "3A",
       "bounce_date": "2026-04-22",
       "notes": "Indirizzo inesistente",
-      "thread_id": "19db3fe24d6aebd9"
+      "thread_id": "19db3fe24d6aebd9",
+      "label_id": "Label_1592668050883672428",
+      "sender": "Manu",
+      "suggested_action": "Cerca contatto su LinkedIn"
     }
   ]
 }

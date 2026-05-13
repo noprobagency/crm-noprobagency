@@ -1,0 +1,228 @@
+<!doctype html>
+<html lang="it">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>NoProb · CRM · Prospect</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=DM+Sans:wght@400;500;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+
+<div id="header-slot"></div>
+
+<main>
+  <section>
+    <h2 class="section-title">Prospect contattati <span class="count" id="count"></span></h2>
+
+    <div class="filters">
+      <div class="filter-group" id="f-sender">
+        <span class="chip active" data-key="sender" data-value="all">Tutti</span>
+        <span class="chip" data-key="sender" data-value="Manu">Manu</span>
+        <span class="chip" data-key="sender" data-value="Dami">Dami</span>
+        <span class="chip" data-key="sender" data-value="Claude">Claude</span>
+        <span class="chip" data-key="sender" data-value="Antonio">Antonio</span>
+      </div>
+      <div class="filter-group" id="f-angle">
+        <span class="chip active" data-key="angle" data-value="all">Tutti angoli</span>
+        <span class="chip" data-key="angle" data-value="1A">1A</span>
+        <span class="chip" data-key="angle" data-value="2A">2A</span>
+        <span class="chip" data-key="angle" data-value="3A">3A</span>
+        <span class="chip" data-key="angle" data-value="3B">3B</span>
+        <span class="chip" data-key="angle" data-value="2B">2B</span>
+      </div>
+      <div class="filter-group" id="f-platform">
+        <span class="chip active" data-key="platform" data-value="all">Piattaforma</span>
+        <span class="chip" data-key="platform" data-value="Shopify">Shopify</span>
+        <span class="chip" data-key="platform" data-value="non-Shopify">non-Shopify</span>
+      </div>
+      <div class="filter-group" id="f-status">
+        <span class="chip active" data-key="status" data-value="all">Status</span>
+        <span class="chip" data-key="status" data-value="contacted">Contattato</span>
+        <span class="chip" data-key="status" data-value="autoresponse">Autoresponse</span>
+        <span class="chip" data-key="status" data-value="archived">Archiviato</span>
+      </div>
+    </div>
+
+    <div class="filters" style="margin-top:6px;">
+      <div class="filter-group" style="border-left:none;">
+        <input type="search" id="f-search" class="search-input" placeholder="Cerca brand, contatto, email…" />
+      </div>
+      <div class="filter-group">
+        <label style="font-family:var(--font-mono);font-size:11px;color:var(--muted);text-transform:uppercase;letter-spacing:0.5px;align-self:center;">Dal</label>
+        <input type="date" id="f-from" class="search-input" style="min-width:auto;" />
+        <label style="font-family:var(--font-mono);font-size:11px;color:var(--muted);text-transform:uppercase;letter-spacing:0.5px;align-self:center;">Al</label>
+        <input type="date" id="f-to" class="search-input" style="min-width:auto;" />
+        <button class="btn secondary" id="f-reset">Reset filtri</button>
+      </div>
+    </div>
+
+    <div id="table-wrap"></div>
+    <div id="pagination"></div>
+  </section>
+</main>
+
+<script src="./js/shared.js"></script>
+<script>
+const STATE = {
+  data: null,
+  filters: { sender: 'all', angle: 'all', platform: 'all', status: 'all', search: '', from: null, to: null },
+  page: 1,
+  perPage: 50,
+};
+
+function applyFilters(items) {
+  let r = items;
+  const f = STATE.filters;
+  if (f.sender   !== 'all') r = r.filter(p => (p.sender || p.assigned_to) === f.sender);
+  if (f.angle    !== 'all') r = r.filter(p => p.angle === f.angle);
+  if (f.platform !== 'all') r = r.filter(p => p.platform === f.platform);
+  if (f.status   !== 'all') r = r.filter(p => p.status === f.status);
+  if (f.from)               r = r.filter(p => p.first_contact >= f.from);
+  if (f.to)                 r = r.filter(p => p.first_contact <= f.to);
+  if (f.search) {
+    const q = f.search.toLowerCase();
+    r = r.filter(p =>
+      (p.brand || '').toLowerCase().includes(q) ||
+      (p.contact || '').toLowerCase().includes(q) ||
+      (p.email || '').toLowerCase().includes(q) ||
+      (p.domain || '').toLowerCase().includes(q)
+    );
+  }
+  return r;
+}
+
+function render() {
+  const wrap = document.getElementById('table-wrap');
+  const pag  = document.getElementById('pagination');
+  clear(wrap); clear(pag);
+
+  const all = STATE.data.no_reply || [];
+  const filtered = applyFilters(all);
+  filtered.sort((a, b) => {
+    const da = daysUntil(a.next_followup_due || a.next_action_date);
+    const db = daysUntil(b.next_followup_due || b.next_action_date);
+    if (da == null && db == null) return 0;
+    if (da == null) return 1;
+    if (db == null) return -1;
+    return da - db;
+  });
+
+  document.getElementById('count').textContent =
+    `${filtered.length}${filtered.length !== all.length ? ' filtrati su ' + all.length : ''}`;
+
+  if (!filtered.length) {
+    wrap.appendChild(el('div', { class: 'empty' }, 'Nessun prospect coi filtri attuali'));
+    return;
+  }
+
+  const state = paginate(filtered, STATE.page, STATE.perPage);
+
+  const table = el('table', { class: 'crm-table' });
+  table.appendChild(el('thead', {}, el('tr', {},
+    el('th', {}, 'Brand'),
+    el('th', {}, 'Contatto'),
+    el('th', {}, 'Assegnato'),
+    el('th', {}, 'Angolo'),
+    el('th', {}, 'Piattaforma'),
+    el('th', {}, 'Primo contatto'),
+    el('th', {}, 'Giorni'),
+    el('th', {}, 'Status'),
+    el('th', {}, 'Prossima azione'),
+    el('th', {}, 'Scadenza'),
+  )));
+
+  const tbody = el('tbody');
+  for (const p of state.slice) {
+    const sender = (p.sender || p.assigned_to || 'Manu').toLowerCase();
+    const due = p.next_followup_due || p.next_action_date;
+    const u = urgency(due);
+    const dueClass = u === 'urgent' ? 'due-urgent' : (u === 'soon' ? 'due-soon' : '');
+    const days = p.days_since_last_activity ?? daysSince(p.last_activity);
+
+    const brandCell = p.domain
+      ? el('td', { class: 'brand-cell' },
+          el('a', { href: `https://${p.domain}`, target: '_blank', rel: 'noopener', on: { click: e => e.stopPropagation() } }, p.brand || p.domain))
+      : el('td', { class: 'brand-cell' }, p.brand || '—');
+
+    const tr = el('tr', { class: `sender-${sender}` },
+      brandCell,
+      el('td', {}, p.contact || p.email || '—'),
+      el('td', {}, senderBadge(p.sender || p.assigned_to)),
+      el('td', {}, angleBadge(p.angle)),
+      el('td', {}, platformBadge(p.platform)),
+      el('td', { class: 'mono' }, fmtDateIT(p.first_contact)),
+      el('td', { class: 'mono' }, days != null ? `${days}g` : '—'),
+      el('td', { class: 'mono', style: 'font-size:11px;text-transform:uppercase;color:var(--muted);' }, p.status || '—'),
+      el('td', {}, p.next_action || '—'),
+      el('td', { class: `mono ${dueClass}` }, due ? `${dueLabel(due)} · ${fmtDateShort(due)}` : '—'),
+    );
+    tr.addEventListener('click', () => openModal(p.brand, buildProspectModal(p)));
+    tbody.appendChild(tr);
+  }
+  table.appendChild(tbody);
+  wrap.appendChild(table);
+
+  pag.appendChild(renderPagination(state, p => {
+    STATE.page = p;
+    render();
+    document.getElementById('table-wrap').scrollIntoView({ behavior: 'smooth', block: 'start' });
+  }));
+}
+
+function bindFilters() {
+  document.querySelectorAll('.chip[data-key]').forEach(chip => {
+    chip.addEventListener('click', () => {
+      const key = chip.getAttribute('data-key');
+      const val = chip.getAttribute('data-value');
+      STATE.filters[key] = val;
+      const grp = chip.parentElement;
+      grp.querySelectorAll('.chip').forEach(c => c.classList.remove('active'));
+      chip.classList.add('active');
+      STATE.page = 1;
+      render();
+    });
+  });
+
+  document.getElementById('f-search').addEventListener('input', e => {
+    STATE.filters.search = e.target.value.trim();
+    STATE.page = 1;
+    render();
+  });
+  document.getElementById('f-from').addEventListener('change', e => {
+    STATE.filters.from = e.target.value || null; STATE.page = 1; render();
+  });
+  document.getElementById('f-to').addEventListener('change', e => {
+    STATE.filters.to = e.target.value || null; STATE.page = 1; render();
+  });
+  document.getElementById('f-reset').addEventListener('click', () => {
+    STATE.filters = { sender: 'all', angle: 'all', platform: 'all', status: 'all', search: '', from: null, to: null };
+    document.getElementById('f-search').value = '';
+    document.getElementById('f-from').value = '';
+    document.getElementById('f-to').value = '';
+    document.querySelectorAll('.chip[data-key]').forEach(c => {
+      c.classList.toggle('active', c.getAttribute('data-value') === 'all');
+    });
+    STATE.page = 1;
+    render();
+  });
+}
+
+async function init() {
+  document.getElementById('header-slot').appendChild(buildHeader('prospects'));
+  try {
+    STATE.data = await loadProspects();
+    setTimestamp(STATE.data.meta && STATE.data.meta.last_updated);
+    bindFilters();
+    render();
+  } catch (err) {
+    showError(`Errore caricamento dati: ${err.message}`);
+    setTimestamp(null);
+  }
+}
+init();
+</script>
+</body>
+</html>

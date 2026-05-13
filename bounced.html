@@ -1,0 +1,224 @@
+<!doctype html>
+<html lang="it">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>NoProb · CRM · Bounce</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=DM+Sans:wght@400;500;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+
+<div id="header-slot"></div>
+
+<main>
+  <!-- STATS BOUNCE -->
+  <section>
+    <div class="stats" style="grid-template-columns:repeat(4,1fr);">
+      <div class="stat danger"><div class="label">Totale bounce</div><div class="value" id="b-total">—</div></div>
+      <div class="stat purple"><div class="label">Da Manu</div><div class="value" id="b-manu">—</div></div>
+      <div class="stat blue"><div class="label">Da Dami</div><div class="value" id="b-dami">—</div></div>
+      <div class="stat green"><div class="label">Con backup</div><div class="value" id="b-backup">—</div></div>
+    </div>
+  </section>
+
+  <!-- TABELLA BOUNCE -->
+  <section>
+    <h2 class="section-title">Bounce <span class="count" id="bounce-count"></span></h2>
+    <div class="filters">
+      <div class="filter-group" id="bf-sender">
+        <span class="chip active" data-key="sender" data-value="all">Tutti</span>
+        <span class="chip" data-key="sender" data-value="Manu">Manu</span>
+        <span class="chip" data-key="sender" data-value="Dami">Dami</span>
+        <span class="chip" data-key="sender" data-value="Claude">Claude</span>
+        <span class="chip" data-key="sender" data-value="Antonio">Antonio</span>
+      </div>
+      <div class="filter-group" id="bf-angle">
+        <span class="chip active" data-key="angle" data-value="all">Tutti angoli</span>
+        <span class="chip" data-key="angle" data-value="1A">1A</span>
+        <span class="chip" data-key="angle" data-value="2A">2A</span>
+        <span class="chip" data-key="angle" data-value="3A">3A</span>
+        <span class="chip" data-key="angle" data-value="3B">3B</span>
+        <span class="chip" data-key="angle" data-value="2B">2B</span>
+      </div>
+    </div>
+    <div id="bounce-table-wrap"></div>
+    <div id="bounce-pagination"></div>
+  </section>
+
+  <!-- ARCHIVIATI -->
+  <section>
+    <h2 class="section-title">Archiviati (gg 17+) <span class="count" id="arch-count"></span></h2>
+    <div id="arch-table-wrap"></div>
+    <div id="arch-pagination"></div>
+  </section>
+</main>
+
+<script src="./js/shared.js"></script>
+<script>
+const STATE = {
+  data: null,
+  bounce: { sender: 'all', angle: 'all', page: 1, perPage: 50 },
+  arch:   { page: 1, perPage: 50 },
+};
+
+function renderStats() {
+  const all = STATE.data.bounced || [];
+  document.getElementById('b-total').textContent = all.length;
+  document.getElementById('b-manu').textContent = all.filter(b => (b.sender || b.assigned_to) === 'Manu').length;
+  document.getElementById('b-dami').textContent = all.filter(b => (b.sender || b.assigned_to) === 'Dami').length;
+  document.getElementById('b-backup').textContent = all.filter(b =>
+    /alternativ|backup|@|customercare|sales@/i.test(b.notes || '')
+  ).length;
+}
+
+function applyBounceFilters(items) {
+  let r = items;
+  if (STATE.bounce.sender !== 'all') r = r.filter(b => (b.sender || b.assigned_to) === STATE.bounce.sender);
+  if (STATE.bounce.angle  !== 'all') r = r.filter(b => b.angle === STATE.bounce.angle);
+  return r;
+}
+
+function renderBounces() {
+  const wrap = document.getElementById('bounce-table-wrap');
+  const pag  = document.getElementById('bounce-pagination');
+  clear(wrap); clear(pag);
+
+  const all = STATE.data.bounced || [];
+  const filtered = applyBounceFilters(all);
+  filtered.sort((a, b) => (b.bounce_date || '').localeCompare(a.bounce_date || ''));
+
+  document.getElementById('bounce-count').textContent =
+    `${filtered.length}${filtered.length !== all.length ? ' filtrati su ' + all.length : ''}`;
+
+  if (!filtered.length) {
+    wrap.appendChild(el('div', { class: 'empty' }, 'Nessun bounce'));
+    return;
+  }
+
+  const state = paginate(filtered, STATE.bounce.page, STATE.bounce.perPage);
+
+  const table = el('table', { class: 'crm-table' });
+  table.appendChild(el('thead', {}, el('tr', {},
+    el('th', {}, 'Brand'),
+    el('th', {}, 'Email tentata'),
+    el('th', {}, 'Assegnato'),
+    el('th', {}, 'Angolo'),
+    el('th', {}, 'Data'),
+    el('th', {}, 'Note'),
+    el('th', {}, 'Azione suggerita'),
+  )));
+  const tbody = el('tbody');
+  for (const b of state.slice) {
+    const sender = (b.sender || b.assigned_to || 'Manu').toLowerCase();
+    const brandCell = b.domain
+      ? el('td', { class: 'brand-cell' },
+          el('a', { href: `https://${b.domain}`, target: '_blank', rel: 'noopener' }, b.brand || b.domain))
+      : el('td', { class: 'brand-cell' }, b.brand || '—');
+    tbody.appendChild(el('tr', { class: `sender-${sender}` },
+      brandCell,
+      el('td', { class: 'mono' }, b.email || '—'),
+      el('td', {}, senderBadge(b.sender || b.assigned_to)),
+      el('td', {}, angleBadge(b.angle)),
+      el('td', { class: 'mono' }, fmtDateIT(b.bounce_date)),
+      el('td', { style: 'font-size:12px;color:var(--muted);' }, b.notes || '—'),
+      el('td', { style: 'font-size:12px;font-weight:500;' }, b.suggested_action || 'Cerca contatto su LinkedIn'),
+    ));
+  }
+  table.appendChild(tbody);
+  wrap.appendChild(table);
+
+  pag.appendChild(renderPagination(state, p => {
+    STATE.bounce.page = p; renderBounces();
+    document.getElementById('bounce-table-wrap').scrollIntoView({ behavior: 'smooth', block: 'start' });
+  }));
+}
+
+function renderArchived() {
+  const wrap = document.getElementById('arch-table-wrap');
+  const pag  = document.getElementById('arch-pagination');
+  clear(wrap); clear(pag);
+
+  const all = STATE.data.no_reply || [];
+  const archived = all.filter(p => p.status === 'archived' || (p.first_contact && daysSince(p.first_contact) >= 17 && p.status !== 'autoresponse'));
+  archived.sort((a, b) => (a.first_contact || '').localeCompare(b.first_contact || ''));
+
+  document.getElementById('arch-count').textContent = archived.length;
+
+  if (!archived.length) {
+    wrap.appendChild(el('div', { class: 'empty' }, 'Nessun prospect archiviato'));
+    return;
+  }
+
+  const state = paginate(archived, STATE.arch.page, STATE.arch.perPage);
+
+  const table = el('table', { class: 'crm-table' });
+  table.appendChild(el('thead', {}, el('tr', {},
+    el('th', {}, 'Brand'),
+    el('th', {}, 'Contatto'),
+    el('th', {}, 'Assegnato'),
+    el('th', {}, 'Angolo'),
+    el('th', {}, 'Primo contatto'),
+    el('th', {}, 'Giorni'),
+    el('th', {}, 'Note'),
+  )));
+  const tbody = el('tbody');
+  for (const p of state.slice) {
+    const sender = (p.sender || p.assigned_to || 'Manu').toLowerCase();
+    const days = daysSince(p.first_contact);
+    const tr = el('tr', { class: `sender-${sender}` },
+      el('td', { class: 'brand-cell' }, p.brand || '—'),
+      el('td', {}, p.contact || p.email || '—'),
+      el('td', {}, senderBadge(p.sender || p.assigned_to)),
+      el('td', {}, angleBadge(p.angle)),
+      el('td', { class: 'mono' }, fmtDateIT(p.first_contact)),
+      el('td', { class: 'mono' }, days != null ? `${days}g` : '—'),
+      el('td', { style: 'font-size:12px;color:var(--muted);' }, p.notes || '—'),
+    );
+    tr.addEventListener('click', () => openModal(p.brand, buildProspectModal(p)));
+    tbody.appendChild(tr);
+  }
+  table.appendChild(tbody);
+  wrap.appendChild(table);
+
+  pag.appendChild(renderPagination(state, p => {
+    STATE.arch.page = p; renderArchived();
+    document.getElementById('arch-table-wrap').scrollIntoView({ behavior: 'smooth', block: 'start' });
+  }));
+}
+
+function bindFilters() {
+  document.querySelectorAll('#bf-sender .chip, #bf-angle .chip').forEach(chip => {
+    chip.addEventListener('click', () => {
+      const key = chip.getAttribute('data-key');
+      const val = chip.getAttribute('data-value');
+      STATE.bounce[key] = val;
+      const grp = chip.parentElement;
+      grp.querySelectorAll('.chip').forEach(c => c.classList.remove('active'));
+      chip.classList.add('active');
+      STATE.bounce.page = 1;
+      renderBounces();
+    });
+  });
+}
+
+async function init() {
+  document.getElementById('header-slot').appendChild(buildHeader('bounced'));
+  try {
+    STATE.data = await loadProspects();
+    setTimestamp(STATE.data.meta && STATE.data.meta.last_updated);
+    bindFilters();
+    renderStats();
+    renderBounces();
+    renderArchived();
+  } catch (err) {
+    showError(`Errore caricamento dati: ${err.message}`);
+    setTimestamp(null);
+  }
+}
+init();
+</script>
+</body>
+</html>
