@@ -199,6 +199,7 @@ function flattenSentEmails() {
         kind: 'first',
         type: 'first',
         sender: p.sender || p.assigned_to,
+        subject: p.subject_email || '',
         snippet: p.first_email_snippet || (p.last_outbound_by_antonio && p.last_outbound_by_antonio.snippet) || '',
       });
     }
@@ -209,6 +210,7 @@ function flattenSentEmails() {
         kind: 'followup',
         type: f.type,
         sender: f.sender || p.sender || p.assigned_to,
+        subject: p.subject_email || '',
         snippet: f.snippet || '',
       });
     }
@@ -256,6 +258,7 @@ function renderSent() {
         <th>Data</th>
         <th>Giorno</th>
         <th>Brand</th>
+        <th>Oggetto</th>
         <th>Email</th>
         <th>Tipo</th>
         <th>Mittente</th>
@@ -269,15 +272,18 @@ function renderSent() {
     const isWeekend = dow === 'Sab' || dow === 'Dom';
     const dowStyle = isWeekend ? 'color:var(--danger);font-weight:700;' : '';
     const snippet = (e.snippet || '').slice(0, 140);
+    const subj = e.subject || '';
+    const subjShort = subj.length > 35 ? subj.slice(0, 35) + '…' : subj;
     html += `
       <tr class="${sender}" data-pid="${e.prospect.id}">
         <td class="mono">${formatDateFull(e.date)}</td>
         <td class="mono" style="${dowStyle}">${dow}</td>
         <td class="brand-cell">${escapeHtml(e.prospect.brand)}</td>
+        <td class="subject-cell" title="${escapeHtml(subj)}">${escapeHtml(subjShort) || '<span style="color:var(--muted);">—</span>'}</td>
         <td>${escapeHtml(e.prospect.email || '—')}</td>
         <td>${statusBadge('contacted').replace('Contattato', fuTypeLabel(e.type))}</td>
         <td>${senderBadge(e.sender)}</td>
-        <td style="font-size:12px;color:var(--muted);font-style:italic;max-width:380px;">"${escapeHtml(snippet)}${e.snippet && e.snippet.length > 140 ? '…' : ''}"</td>
+        <td style="font-size:12px;color:var(--muted);font-style:italic;max-width:300px;">"${escapeHtml(snippet)}${e.snippet && e.snippet.length > 140 ? '…' : ''}"</td>
       </tr>
     `;
   }

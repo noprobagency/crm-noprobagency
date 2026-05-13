@@ -1,13 +1,14 @@
 {
   "meta": {
-    "last_updated": "2026-05-13T11:30:00Z",
-    "total_contacted": 147,
+    "last_updated": "2026-05-13T12:00:00Z",
+    "total_contacted": 146,
     "total_replied": 3,
-    "total_bounced": 12,
+    "total_bounced": 13,
     "total_autoresponse": 11,
     "first_run": true,
     "coverage_note": "First run — copre outbound visibili negli ultimi ~9 giorni (2026-05-06 → 2026-05-13). Le runs giornaliere successive aggiungeranno nuovi thread incrementalmente.",
-    "schema_version": "v3"
+    "schema_version": "v3.2",
+    "earliest_contact": "2026-04-16"
   },
   "active": [
     {
@@ -73,7 +74,8 @@
         "follow_up_2": "2026-06-08",
         "follow_up_3": "2026-07-06",
         "out_date": "2026-07-07"
-      }
+      },
+      "subject_email": "Tracking + Meta campaigns"
     },
     {
       "id": "prospect_002",
@@ -150,7 +152,8 @@
         "follow_up_2": "2026-06-08",
         "follow_up_3": "2026-07-06",
         "out_date": "2026-07-07"
-      }
+      },
+      "subject_email": "Re: Il Sellaio, una cosa sulle ads"
     },
     {
       "id": "prospect_003",
@@ -227,7 +230,8 @@
         "follow_up_2": "2026-06-08",
         "follow_up_3": "2026-07-06",
         "out_date": "2026-07-07"
-      }
+      },
+      "subject_email": "Re: Accorgimento rapido sullo store"
     }
   ],
   "no_reply": [
@@ -272,7 +276,8 @@
         "follow_up_2": "2026-06-18",
         "follow_up_3": "2026-07-16",
         "out_date": "2026-07-17"
-      }
+      },
+      "subject_email": "lauraurbinati.com - aggiornamento store online"
     },
     {
       "id": "prospect_011",
@@ -315,7 +320,8 @@
         "follow_up_2": "2026-06-18",
         "follow_up_3": "2026-07-16",
         "out_date": "2026-07-17"
-      }
+      },
+      "subject_email": "Problema su giordanocosenza.com"
     },
     {
       "id": "prospect_012",
@@ -358,7 +364,8 @@
         "follow_up_2": "2026-06-18",
         "follow_up_3": "2026-07-16",
         "out_date": "2026-07-17"
-      }
+      },
+      "subject_email": "Problema su motivi.com - C.A. Jessica Sannino"
     },
     {
       "id": "prospect_013",
@@ -401,7 +408,8 @@
         "follow_up_2": "2026-06-18",
         "follow_up_3": "2026-07-16",
         "out_date": "2026-07-17"
-      }
+      },
+      "subject_email": "tmqstore.com  - aggiornamento store online"
     },
     {
       "id": "prospect_014",
@@ -444,7 +452,8 @@
         "follow_up_2": "2026-06-18",
         "follow_up_3": "2026-07-16",
         "out_date": "2026-07-17"
-      }
+      },
+      "subject_email": "[RE]: Report niba1976.com"
     },
     {
       "id": "prospect_015",
@@ -487,7 +496,8 @@
         "follow_up_2": "2026-06-18",
         "follow_up_3": "2026-07-16",
         "out_date": "2026-07-17"
-      }
+      },
+      "subject_email": "Problema su angelovintage.com"
     },
     {
       "id": "prospect_016",
@@ -530,7 +540,8 @@
         "follow_up_2": "2026-06-18",
         "follow_up_3": "2026-07-16",
         "out_date": "2026-07-17"
-      }
+      },
+      "subject_email": "Problema su dante5.com"
     },
     {
       "id": "prospect_017",
@@ -573,7 +584,8 @@
         "follow_up_2": "2026-06-18",
         "follow_up_3": "2026-07-16",
         "out_date": "2026-07-17"
-      }
+      },
+      "subject_email": "Problema su colognese.com"
     },
     {
       "id": "prospect_018",
@@ -616,7 +628,8 @@
         "follow_up_2": "2026-06-18",
         "follow_up_3": "2026-07-16",
         "out_date": "2026-07-17"
-      }
+      },
+      "subject_email": "Report - bernardellistores.com - tracciamento"
     },
     {
       "id": "prospect_019",
@@ -659,50 +672,8 @@
         "follow_up_2": "2026-06-18",
         "follow_up_3": "2026-07-16",
         "out_date": "2026-07-17"
-      }
-    },
-    {
-      "id": "prospect_020",
-      "brand": "Bruna Rosso",
-      "contact": "Michela Viola",
-      "email": "michela.viola@brunarosso.com",
-      "domain": "brunarosso.com",
-      "assigned_to": "Manu",
-      "angle": "1A",
-      "platform": "non-Shopify",
-      "status": "contacted",
-      "first_contact": "2026-05-13",
-      "last_activity": "2026-05-13",
-      "next_action": "Follow-up 1",
-      "next_action_date": "2026-05-27",
-      "stape_score": null,
-      "notes": "Luxury boutique Cuneo",
-      "thread_id": "19e1cbe3611be12a",
-      "timeline": [
-        {
-          "date": "2026-05-13",
-          "action": "Email outbound 1A inviata"
-        }
-      ],
-      "label_id": "Label_1592668050883672428",
-      "sender": "Manu",
-      "is_first_email": true,
-      "followups_sent": [],
-      "last_outbound_by_antonio": {
-        "date": "2026-05-13",
-        "snippet": "Ciao Michela, mi sono imbattuto in Bruna Rosso cercando le migliori realtà fashion del settore. Ho visto la piattaforma che state usando per le vendite online, la conosco molto bene."
       },
-      "last_reply_from_prospect": null,
-      "next_followup_due": "2026-05-27",
-      "days_since_last_activity": 0,
-      "first_email_snippet": "Ciao Michela, mi sono imbattuto in Bruna Rosso cercando le migliori realtà fashion del settore. Ho visto la piattaforma che state usando per le vendite online, la conosco molto bene.",
-      "scheduled_timeline": {
-        "first_email": "2026-05-13",
-        "follow_up_1": "2026-05-27",
-        "follow_up_2": "2026-06-18",
-        "follow_up_3": "2026-07-16",
-        "out_date": "2026-07-17"
-      }
+      "subject_email": "Re: Issue with tailfin.cc"
     },
     {
       "id": "prospect_021",
@@ -745,7 +716,8 @@
         "follow_up_2": "2026-06-18",
         "follow_up_3": "2026-07-16",
         "out_date": "2026-07-17"
-      }
+      },
+      "subject_email": "Eglooh, 2-3 fix sul vostro eCommerce"
     },
     {
       "id": "prospect_022",
@@ -788,7 +760,8 @@
         "follow_up_2": "2026-06-18",
         "follow_up_3": "2026-07-16",
         "out_date": "2026-07-17"
-      }
+      },
+      "subject_email": "Re: Report MedicoShop"
     },
     {
       "id": "prospect_023",
@@ -831,7 +804,8 @@
         "follow_up_2": "2026-06-18",
         "follow_up_3": "2026-07-16",
         "out_date": "2026-07-17"
-      }
+      },
+      "subject_email": "Problema su galassiaroma.com"
     },
     {
       "id": "prospect_024",
@@ -874,7 +848,8 @@
         "follow_up_2": "2026-06-18",
         "follow_up_3": "2026-07-16",
         "out_date": "2026-07-17"
-      }
+      },
+      "subject_email": "Re: Tracking + Meta campaigns"
     },
     {
       "id": "prospect_025",
@@ -917,7 +892,8 @@
         "follow_up_2": "2026-06-18",
         "follow_up_3": "2026-07-16",
         "out_date": "2026-07-17"
-      }
+      },
+      "subject_email": "Glow for it, the numbers aren't adding up"
     },
     {
       "id": "prospect_026",
@@ -925,7 +901,7 @@
       "contact": "Eleonora Francioni",
       "email": "e.francioni@agl.com",
       "domain": "agl.com",
-      "assigned_to": "Manu",
+      "assigned_to": "Claude",
       "angle": "1A",
       "platform": "non-Shopify",
       "status": "contacted",
@@ -942,8 +918,8 @@
           "action": "Email outbound 1A inviata a contatto reindirizzato"
         }
       ],
-      "label_id": "Label_1592668050883672428",
-      "sender": "Manu",
+      "label_id": "Label_9196661710752787047",
+      "sender": "Claude",
       "is_first_email": true,
       "followups_sent": [],
       "last_outbound_by_antonio": {
@@ -960,7 +936,8 @@
         "follow_up_2": "2026-06-18",
         "follow_up_3": "2026-07-16",
         "out_date": "2026-07-17"
-      }
+      },
+      "subject_email": "[RE] Report agl.com"
     },
     {
       "id": "prospect_027",
@@ -968,7 +945,7 @@
       "contact": "Giulia Tondini",
       "email": "giulia.tondini@julian-fashion.com",
       "domain": "julian-fashion.com",
-      "assigned_to": "Manu",
+      "assigned_to": "Claude",
       "angle": "1A",
       "platform": "non-Shopify",
       "status": "contacted",
@@ -985,8 +962,8 @@
           "action": "Email outbound 1A inviata"
         }
       ],
-      "label_id": "Label_1592668050883672428",
-      "sender": "Manu",
+      "label_id": "Label_9196661710752787047",
+      "sender": "Claude",
       "is_first_email": true,
       "followups_sent": [],
       "last_outbound_by_antonio": {
@@ -1003,7 +980,8 @@
         "follow_up_2": "2026-06-18",
         "follow_up_3": "2026-07-16",
         "out_date": "2026-07-17"
-      }
+      },
+      "subject_email": "[RE]: Report julian-fashion.com"
     },
     {
       "id": "prospect_028",
@@ -1053,7 +1031,8 @@
         "follow_up_2": "2026-06-17",
         "follow_up_3": "2026-07-15",
         "out_date": "2026-07-16"
-      }
+      },
+      "subject_email": "Re: Issue with sassandbelletrade.co.uk"
     },
     {
       "id": "prospect_029",
@@ -1096,7 +1075,8 @@
         "follow_up_2": "2026-06-17",
         "follow_up_3": "2026-07-15",
         "out_date": "2026-07-16"
-      }
+      },
+      "subject_email": "Montane, the numbers aren't adding up"
     },
     {
       "id": "prospect_030",
@@ -1139,7 +1119,8 @@
         "follow_up_2": "2026-06-17",
         "follow_up_3": "2026-07-15",
         "out_date": "2026-07-16"
-      }
+      },
+      "subject_email": "Re: Tracking + Meta campaigns"
     },
     {
       "id": "prospect_031",
@@ -1182,7 +1163,8 @@
         "follow_up_2": "2026-06-17",
         "follow_up_3": "2026-07-15",
         "out_date": "2026-07-16"
-      }
+      },
+      "subject_email": "Threadbare, the numbers aren't adding up"
     },
     {
       "id": "prospect_032",
@@ -1225,7 +1207,8 @@
         "follow_up_2": "2026-06-17",
         "follow_up_3": "2026-07-15",
         "out_date": "2026-07-16"
-      }
+      },
+      "subject_email": "Re: Tracking + Meta campaigns"
     },
     {
       "id": "prospect_033",
@@ -1268,7 +1251,8 @@
         "follow_up_2": "2026-06-17",
         "follow_up_3": "2026-07-15",
         "out_date": "2026-07-16"
-      }
+      },
+      "subject_email": "Re: Rixo, one quick thing about your ads"
     },
     {
       "id": "prospect_034",
@@ -1318,7 +1302,8 @@
         "follow_up_2": "2026-06-17",
         "follow_up_3": "2026-07-15",
         "out_date": "2026-07-16"
-      }
+      },
+      "subject_email": "Grace & Co, one quick thing about your ads"
     },
     {
       "id": "prospect_035",
@@ -1361,7 +1346,8 @@
         "follow_up_2": "2026-06-17",
         "follow_up_3": "2026-07-15",
         "out_date": "2026-07-16"
-      }
+      },
+      "subject_email": "Malone Souliers, the numbers aren't adding up"
     },
     {
       "id": "prospect_036",
@@ -1404,7 +1390,8 @@
         "follow_up_2": "2026-06-17",
         "follow_up_3": "2026-07-15",
         "out_date": "2026-07-16"
-      }
+      },
+      "subject_email": "Report daniello.com tracciamento"
     },
     {
       "id": "prospect_037",
@@ -1447,7 +1434,8 @@
         "follow_up_2": "2026-06-17",
         "follow_up_3": "2026-07-15",
         "out_date": "2026-07-16"
-      }
+      },
+      "subject_email": "Profumerie Galeazzi, 2-3 fix sul vostro eCommerce"
     },
     {
       "id": "prospect_038",
@@ -1490,7 +1478,8 @@
         "follow_up_2": "2026-06-17",
         "follow_up_3": "2026-07-15",
         "out_date": "2026-07-16"
-      }
+      },
+      "subject_email": "[RE]: Report julian-fashion.com"
     },
     {
       "id": "prospect_039",
@@ -1533,7 +1522,8 @@
         "follow_up_2": "2026-06-17",
         "follow_up_3": "2026-07-15",
         "out_date": "2026-07-16"
-      }
+      },
+      "subject_email": "Tracking + Meta campaigns"
     },
     {
       "id": "prospect_040",
@@ -1576,7 +1566,8 @@
         "follow_up_2": "2026-06-17",
         "follow_up_3": "2026-07-15",
         "out_date": "2026-07-16"
-      }
+      },
+      "subject_email": "[RE]: Report ceneregb.com"
     },
     {
       "id": "prospect_041",
@@ -1619,7 +1610,8 @@
         "follow_up_2": "2026-06-17",
         "follow_up_3": "2026-07-15",
         "out_date": "2026-07-16"
-      }
+      },
+      "subject_email": "Problema su cammalleristore.com"
     },
     {
       "id": "prospect_042",
@@ -1662,7 +1654,8 @@
         "follow_up_2": "2026-06-17",
         "follow_up_3": "2026-07-15",
         "out_date": "2026-07-16"
-      }
+      },
+      "subject_email": "Re: Boglioli, i dati non tornano"
     },
     {
       "id": "prospect_043",
@@ -1705,7 +1698,8 @@
         "follow_up_2": "2026-06-17",
         "follow_up_3": "2026-07-15",
         "out_date": "2026-07-16"
-      }
+      },
+      "subject_email": "Report boutiqueantonia.com tracciamento"
     },
     {
       "id": "prospect_044",
@@ -1748,7 +1742,8 @@
         "follow_up_2": "2026-06-17",
         "follow_up_3": "2026-07-15",
         "out_date": "2026-07-16"
-      }
+      },
+      "subject_email": "Problema su alducadaosta.com"
     },
     {
       "id": "prospect_045",
@@ -1791,7 +1786,8 @@
         "follow_up_2": "2026-06-17",
         "follow_up_3": "2026-07-15",
         "out_date": "2026-07-16"
-      }
+      },
+      "subject_email": "[RE]: Report nidacaserta.it"
     },
     {
       "id": "prospect_046",
@@ -1834,7 +1830,8 @@
         "follow_up_2": "2026-06-17",
         "follow_up_3": "2026-07-15",
         "out_date": "2026-07-16"
-      }
+      },
+      "subject_email": "[RE]: Report mantovanishop.it"
     },
     {
       "id": "prospect_047",
@@ -1877,7 +1874,8 @@
         "follow_up_2": "2026-06-17",
         "follow_up_3": "2026-07-15",
         "out_date": "2026-07-16"
-      }
+      },
+      "subject_email": "Problema stilmoda.it"
     },
     {
       "id": "prospect_048",
@@ -1920,7 +1918,8 @@
         "follow_up_2": "2026-06-17",
         "follow_up_3": "2026-07-15",
         "out_date": "2026-07-16"
-      }
+      },
+      "subject_email": "[RE]: Report negozipellizzari.it"
     },
     {
       "id": "prospect_049",
@@ -1963,7 +1962,8 @@
         "follow_up_2": "2026-06-17",
         "follow_up_3": "2026-07-15",
         "out_date": "2026-07-16"
-      }
+      },
+      "subject_email": "[RE]: Report penelope-store.it"
     },
     {
       "id": "prospect_050",
@@ -2006,7 +2006,8 @@
         "follow_up_2": "2026-06-17",
         "follow_up_3": "2026-07-15",
         "out_date": "2026-07-16"
-      }
+      },
+      "subject_email": "Problema su flashionshop.com/negozi/vela-shop/"
     },
     {
       "id": "prospect_051",
@@ -2049,7 +2050,8 @@
         "follow_up_2": "2026-06-16",
         "follow_up_3": "2026-07-14",
         "out_date": "2026-07-15"
-      }
+      },
+      "subject_email": "Report rabaini.it tracciamento"
     },
     {
       "id": "prospect_052",
@@ -2092,7 +2094,8 @@
         "follow_up_2": "2026-06-16",
         "follow_up_3": "2026-07-14",
         "out_date": "2026-07-15"
-      }
+      },
+      "subject_email": "[RE]: Report binisilvia.com"
     },
     {
       "id": "prospect_053",
@@ -2135,7 +2138,8 @@
         "follow_up_2": "2026-06-16",
         "follow_up_3": "2026-07-14",
         "out_date": "2026-07-15"
-      }
+      },
+      "subject_email": "Report valicostore.com tracciamento"
     },
     {
       "id": "prospect_054",
@@ -2178,7 +2182,8 @@
         "follow_up_2": "2026-06-16",
         "follow_up_3": "2026-07-14",
         "out_date": "2026-07-15"
-      }
+      },
+      "subject_email": "Problema su boutiqueadani.it"
     },
     {
       "id": "prospect_055",
@@ -2221,7 +2226,8 @@
         "follow_up_2": "2026-06-16",
         "follow_up_3": "2026-07-14",
         "out_date": "2026-07-15"
-      }
+      },
+      "subject_email": "[RE]: Report manzoni24.it"
     },
     {
       "id": "prospect_056",
@@ -2264,7 +2270,8 @@
         "follow_up_2": "2026-06-16",
         "follow_up_3": "2026-07-14",
         "out_date": "2026-07-15"
-      }
+      },
+      "subject_email": "Re: YMC - tracking + Meta ads"
     },
     {
       "id": "prospect_057",
@@ -2307,7 +2314,8 @@
         "follow_up_2": "2026-06-16",
         "follow_up_3": "2026-07-14",
         "out_date": "2026-07-15"
-      }
+      },
+      "subject_email": "Re: Woven - online store update"
     },
     {
       "id": "prospect_058",
@@ -2350,7 +2358,8 @@
         "follow_up_2": "2026-06-16",
         "follow_up_3": "2026-07-14",
         "out_date": "2026-07-15"
-      }
+      },
+      "subject_email": "Re: tracking + campagne Meta"
     },
     {
       "id": "prospect_059",
@@ -2400,7 +2409,8 @@
         "follow_up_2": "2026-06-16",
         "follow_up_3": "2026-07-14",
         "out_date": "2026-07-15"
-      }
+      },
+      "subject_email": "Re: Sunspel, something I spotted"
     },
     {
       "id": "prospect_060",
@@ -2443,7 +2453,8 @@
         "follow_up_2": "2026-06-16",
         "follow_up_3": "2026-07-14",
         "out_date": "2026-07-15"
-      }
+      },
+      "subject_email": "Re: Give Me, the numbers aren't adding up"
     },
     {
       "id": "prospect_061",
@@ -2486,7 +2497,8 @@
         "follow_up_2": "2026-06-16",
         "follow_up_3": "2026-07-14",
         "out_date": "2026-07-15"
-      }
+      },
+      "subject_email": "Re: 2-3 things I noticed"
     },
     {
       "id": "prospect_062",
@@ -2529,7 +2541,8 @@
         "follow_up_2": "2026-06-16",
         "follow_up_3": "2026-07-14",
         "out_date": "2026-07-15"
-      }
+      },
+      "subject_email": "Re: Case, the numbers aren't adding up"
     },
     {
       "id": "prospect_063",
@@ -2572,7 +2585,8 @@
         "follow_up_2": "2026-06-16",
         "follow_up_3": "2026-07-14",
         "out_date": "2026-07-15"
-      }
+      },
+      "subject_email": "Ice Gripper, something I spotted"
     },
     {
       "id": "prospect_064",
@@ -2615,7 +2629,8 @@
         "follow_up_2": "2026-06-16",
         "follow_up_3": "2026-07-14",
         "out_date": "2026-07-15"
-      }
+      },
+      "subject_email": "Uklash, the numbers aren't adding up"
     },
     {
       "id": "prospect_065",
@@ -2676,7 +2691,8 @@
         "follow_up_2": "2026-06-08",
         "follow_up_3": "2026-07-06",
         "out_date": "2026-07-07"
-      }
+      },
+      "subject_email": "Re: Dock & Bay, one quick thing about your ads"
     },
     {
       "id": "prospect_066",
@@ -2730,7 +2746,8 @@
         "follow_up_2": "2026-06-08",
         "follow_up_3": "2026-07-06",
         "out_date": "2026-07-07"
-      }
+      },
+      "subject_email": "Re: Gingerlily, the numbers aren't adding up"
     },
     {
       "id": "prospect_067",
@@ -2784,7 +2801,8 @@
         "follow_up_2": "2026-06-08",
         "follow_up_3": "2026-07-06",
         "out_date": "2026-07-07"
-      }
+      },
+      "subject_email": "Re: Youth & Earth, one quick thing about your ads"
     },
     {
       "id": "prospect_068",
@@ -2845,7 +2863,8 @@
         "follow_up_2": "2026-06-08",
         "follow_up_3": "2026-07-06",
         "out_date": "2026-07-07"
-      }
+      },
+      "subject_email": "Re: Margaret Howell, the numbers aren't adding up"
     },
     {
       "id": "prospect_069",
@@ -2899,7 +2918,8 @@
         "follow_up_2": "2026-06-08",
         "follow_up_3": "2026-07-06",
         "out_date": "2026-07-07"
-      }
+      },
+      "subject_email": "Re: Anxashop, una cosa che ho visto"
     },
     {
       "id": "prospect_070",
@@ -2942,7 +2962,8 @@
         "follow_up_2": "2026-06-15",
         "follow_up_3": "2026-07-13",
         "out_date": "2026-07-14"
-      }
+      },
+      "subject_email": "Report lenoirboutique.com tracciamento"
     },
     {
       "id": "prospect_071",
@@ -2985,7 +3006,8 @@
         "follow_up_2": "2026-06-15",
         "follow_up_3": "2026-07-13",
         "out_date": "2026-07-14"
-      }
+      },
+      "subject_email": "Report follifolliegroup.it tracciamento"
     },
     {
       "id": "prospect_072",
@@ -3028,7 +3050,8 @@
         "follow_up_2": "2026-06-15",
         "follow_up_3": "2026-07-13",
         "out_date": "2026-07-14"
-      }
+      },
+      "subject_email": "[RE]: Report gebnegozionline.com"
     },
     {
       "id": "prospect_073",
@@ -3071,7 +3094,8 @@
         "follow_up_2": "2026-06-15",
         "follow_up_3": "2026-07-13",
         "out_date": "2026-07-14"
-      }
+      },
+      "subject_email": "Problema su davidecenci.com"
     },
     {
       "id": "prospect_074",
@@ -3114,7 +3138,8 @@
         "follow_up_2": "2026-06-15",
         "follow_up_3": "2026-07-13",
         "out_date": "2026-07-14"
-      }
+      },
+      "subject_email": "[RE]: Report 10corsocomo.com"
     },
     {
       "id": "prospect_075",
@@ -3157,7 +3182,8 @@
         "follow_up_2": "2026-06-15",
         "follow_up_3": "2026-07-13",
         "out_date": "2026-07-14"
-      }
+      },
+      "subject_email": "[RE]: Report luisaviaroma.com"
     },
     {
       "id": "prospect_076",
@@ -3200,7 +3226,8 @@
         "follow_up_2": "2026-06-15",
         "follow_up_3": "2026-07-13",
         "out_date": "2026-07-14"
-      }
+      },
+      "subject_email": "[RE]: Report giglio.com"
     },
     {
       "id": "prospect_077",
@@ -3243,7 +3270,8 @@
         "follow_up_2": "2026-06-15",
         "follow_up_3": "2026-07-13",
         "out_date": "2026-07-14"
-      }
+      },
+      "subject_email": "divoboutique.com - aggiornamento store online"
     },
     {
       "id": "prospect_078",
@@ -3286,7 +3314,8 @@
         "follow_up_2": "2026-06-15",
         "follow_up_3": "2026-07-13",
         "out_date": "2026-07-14"
-      }
+      },
+      "subject_email": "Problema su corteccisiena.it"
     },
     {
       "id": "prospect_079",
@@ -3329,7 +3358,8 @@
         "follow_up_2": "2026-06-15",
         "follow_up_3": "2026-07-13",
         "out_date": "2026-07-14"
-      }
+      },
+      "subject_email": "Report oberrauch-zitt.com tracciamento"
     },
     {
       "id": "prospect_080",
@@ -3372,7 +3402,8 @@
         "follow_up_2": "2026-06-15",
         "follow_up_3": "2026-07-13",
         "out_date": "2026-07-14"
-      }
+      },
+      "subject_email": "Problema su cuccuini.it"
     },
     {
       "id": "prospect_081",
@@ -3415,7 +3446,8 @@
         "follow_up_2": "2026-06-15",
         "follow_up_3": "2026-07-13",
         "out_date": "2026-07-14"
-      }
+      },
+      "subject_email": "[RE]: Report genteroma.com"
     },
     {
       "id": "prospect_082",
@@ -3458,7 +3490,8 @@
         "follow_up_2": "2026-06-15",
         "follow_up_3": "2026-07-13",
         "out_date": "2026-07-14"
-      }
+      },
+      "subject_email": "[RE]: Report tizianafausti.com tracciamento"
     },
     {
       "id": "prospect_083",
@@ -3501,7 +3534,8 @@
         "follow_up_2": "2026-06-15",
         "follow_up_3": "2026-07-13",
         "out_date": "2026-07-14"
-      }
+      },
+      "subject_email": "Problema su tessabit.com"
     },
     {
       "id": "prospect_084",
@@ -3544,7 +3578,8 @@
         "follow_up_2": "2026-06-15",
         "follow_up_3": "2026-07-13",
         "out_date": "2026-07-14"
-      }
+      },
+      "subject_email": "[RE]: Report sugar.it"
     },
     {
       "id": "prospect_085",
@@ -3587,7 +3622,8 @@
         "follow_up_2": "2026-06-12",
         "follow_up_3": "2026-07-10",
         "out_date": "2026-07-13"
-      }
+      },
+      "subject_email": "montiboutique.com - aggiornamento store online"
     },
     {
       "id": "prospect_086",
@@ -3630,7 +3666,8 @@
         "follow_up_2": "2026-06-12",
         "follow_up_3": "2026-07-10",
         "out_date": "2026-07-13"
-      }
+      },
+      "subject_email": "[RE]: Report mariodannashop.it"
     },
     {
       "id": "prospect_087",
@@ -3673,7 +3710,8 @@
         "follow_up_2": "2026-06-12",
         "follow_up_3": "2026-07-10",
         "out_date": "2026-07-13"
-      }
+      },
+      "subject_email": "[RE]: Report shop-marcos.com tracciamento"
     },
     {
       "id": "prospect_088",
@@ -3716,7 +3754,8 @@
         "follow_up_2": "2026-06-12",
         "follow_up_3": "2026-07-10",
         "out_date": "2026-07-13"
-      }
+      },
+      "subject_email": "[RE]: Report mantovanishop.it"
     },
     {
       "id": "prospect_089",
@@ -3759,7 +3798,8 @@
         "follow_up_2": "2026-06-12",
         "follow_up_3": "2026-07-10",
         "out_date": "2026-07-13"
-      }
+      },
+      "subject_email": "lucianabari.com  - aggiornamento store online"
     },
     {
       "id": "prospect_090",
@@ -3802,7 +3842,8 @@
         "follow_up_2": "2026-06-12",
         "follow_up_3": "2026-07-10",
         "out_date": "2026-07-13"
-      }
+      },
+      "subject_email": "lorenzetti.com"
     },
     {
       "id": "prospect_091",
@@ -3845,7 +3886,8 @@
         "follow_up_2": "2026-06-12",
         "follow_up_3": "2026-07-10",
         "out_date": "2026-07-13"
-      }
+      },
+      "subject_email": "[RE]: Report leam.com tracciamento"
     },
     {
       "id": "prospect_092",
@@ -3888,7 +3930,8 @@
         "follow_up_2": "2026-06-12",
         "follow_up_3": "2026-07-10",
         "out_date": "2026-07-13"
-      }
+      },
+      "subject_email": "Problema su lattuadaboutique.it"
     },
     {
       "id": "prospect_093",
@@ -3931,7 +3974,8 @@
         "follow_up_2": "2026-06-12",
         "follow_up_3": "2026-07-10",
         "out_date": "2026-07-13"
-      }
+      },
+      "subject_email": "[RE]: Report julian-fashion.com"
     },
     {
       "id": "prospect_094",
@@ -3974,7 +4018,8 @@
         "follow_up_2": "2026-06-11",
         "follow_up_3": "2026-07-09",
         "out_date": "2026-07-10"
-      }
+      },
+      "subject_email": "https://italianistore.com/ ho visto una cosa"
     },
     {
       "id": "prospect_100",
@@ -4028,7 +4073,8 @@
         "follow_up_2": "2026-06-08",
         "follow_up_3": "2026-07-06",
         "out_date": "2026-07-07"
-      }
+      },
+      "subject_email": "Re: Accorgimento rapido sullo store"
     },
     {
       "id": "prospect_101",
@@ -4082,7 +4128,8 @@
         "follow_up_2": "2026-06-08",
         "follow_up_3": "2026-07-06",
         "out_date": "2026-07-07"
-      }
+      },
+      "subject_email": "Re: Accorgimento rapido sullo store"
     },
     {
       "id": "prospect_102",
@@ -4136,7 +4183,8 @@
         "follow_up_2": "2026-06-08",
         "follow_up_3": "2026-07-06",
         "out_date": "2026-07-07"
-      }
+      },
+      "subject_email": "Re: Accorgimento rapido sullo store"
     },
     {
       "id": "prospect_103",
@@ -4190,7 +4238,8 @@
         "follow_up_2": "2026-06-08",
         "follow_up_3": "2026-07-06",
         "out_date": "2026-07-07"
-      }
+      },
+      "subject_email": "Re: Accorgimento rapido sullo store"
     },
     {
       "id": "prospect_104",
@@ -4244,7 +4293,8 @@
         "follow_up_2": "2026-06-08",
         "follow_up_3": "2026-07-06",
         "out_date": "2026-07-07"
-      }
+      },
+      "subject_email": "Re: Accorgimento rapido sullo store"
     },
     {
       "id": "prospect_105",
@@ -4298,7 +4348,8 @@
         "follow_up_2": "2026-06-08",
         "follow_up_3": "2026-07-06",
         "out_date": "2026-07-07"
-      }
+      },
+      "subject_email": "Re: 10 Corso Como, una cosa sulle ads"
     },
     {
       "id": "prospect_106",
@@ -4352,7 +4403,8 @@
         "follow_up_2": "2026-06-08",
         "follow_up_3": "2026-07-06",
         "out_date": "2026-07-07"
-      }
+      },
+      "subject_email": "Re: Tracking + campagne Meta"
     },
     {
       "id": "prospect_107",
@@ -4406,7 +4458,8 @@
         "follow_up_2": "2026-06-08",
         "follow_up_3": "2026-07-06",
         "out_date": "2026-07-07"
-      }
+      },
+      "subject_email": "Re: Tracking + campagne Meta"
     },
     {
       "id": "prospect_108",
@@ -4460,7 +4513,8 @@
         "follow_up_2": "2026-06-08",
         "follow_up_3": "2026-07-06",
         "out_date": "2026-07-07"
-      }
+      },
+      "subject_email": "Re: Tricot, una cosa sulle ads"
     },
     {
       "id": "prospect_109",
@@ -4514,7 +4568,8 @@
         "follow_up_2": "2026-06-01",
         "follow_up_3": "2026-06-30",
         "out_date": "2026-07-01"
-      }
+      },
+      "subject_email": "Re: Shopify + crescita eComm"
     },
     {
       "id": "prospect_110",
@@ -4568,7 +4623,8 @@
         "follow_up_2": "2026-06-08",
         "follow_up_3": "2026-07-06",
         "out_date": "2026-07-07"
-      }
+      },
+      "subject_email": "Re: Di Pierro, i dati non tornano"
     },
     {
       "id": "prospect_111",
@@ -4622,7 +4678,8 @@
         "follow_up_2": "2026-06-08",
         "follow_up_3": "2026-07-06",
         "out_date": "2026-07-07"
-      }
+      },
+      "subject_email": "Re: Carmen boutique, una cosa sulle ads"
     },
     {
       "id": "prospect_112",
@@ -4676,7 +4733,8 @@
         "follow_up_2": "2026-06-08",
         "follow_up_3": "2026-07-06",
         "out_date": "2026-07-07"
-      }
+      },
+      "subject_email": "Re: Gaia, una cosa sulle ads"
     },
     {
       "id": "prospect_113",
@@ -4730,7 +4788,8 @@
         "follow_up_2": "2026-06-08",
         "follow_up_3": "2026-07-06",
         "out_date": "2026-07-07"
-      }
+      },
+      "subject_email": "Re: 2-3 fix sul vostro eCommerce"
     },
     {
       "id": "prospect_114",
@@ -4784,7 +4843,8 @@
         "follow_up_2": "2026-06-08",
         "follow_up_3": "2026-07-06",
         "out_date": "2026-07-07"
-      }
+      },
+      "subject_email": "Re: Kau boutique, una cosa che ho visto"
     },
     {
       "id": "prospect_115",
@@ -4838,7 +4898,8 @@
         "follow_up_2": "2026-06-08",
         "follow_up_3": "2026-07-06",
         "out_date": "2026-07-07"
-      }
+      },
+      "subject_email": "Re: Eraldo, store Shopify"
     },
     {
       "id": "prospect_116",
@@ -4892,7 +4953,8 @@
         "follow_up_2": "2026-06-08",
         "follow_up_3": "2026-07-06",
         "out_date": "2026-07-07"
-      }
+      },
+      "subject_email": "Re: Tracking + campagne Meta"
     },
     {
       "id": "prospect_117",
@@ -4946,7 +5008,8 @@
         "follow_up_2": "2026-06-08",
         "follow_up_3": "2026-07-06",
         "out_date": "2026-07-07"
-      }
+      },
+      "subject_email": "Re: iDress Map, una cosa sulle ads"
     },
     {
       "id": "prospect_118",
@@ -5000,7 +5063,8 @@
         "follow_up_2": "2026-06-08",
         "follow_up_3": "2026-07-06",
         "out_date": "2026-07-07"
-      }
+      },
+      "subject_email": "Re: 2-3 fix sul vostro eCommerce"
     },
     {
       "id": "prospect_119",
@@ -5054,7 +5118,8 @@
         "follow_up_2": "2026-06-08",
         "follow_up_3": "2026-07-06",
         "out_date": "2026-07-07"
-      }
+      },
+      "subject_email": "Re: Tracking + campagne Meta"
     },
     {
       "id": "prospect_120",
@@ -5108,7 +5173,8 @@
         "follow_up_2": "2026-06-08",
         "follow_up_3": "2026-07-06",
         "out_date": "2026-07-07"
-      }
+      },
+      "subject_email": "Re: Nugnes, una cosa che ho visto"
     },
     {
       "id": "prospect_121",
@@ -5162,7 +5228,8 @@
         "follow_up_2": "2026-06-08",
         "follow_up_3": "2026-07-06",
         "out_date": "2026-07-07"
-      }
+      },
+      "subject_email": "Re: Sana Osmani"
     },
     {
       "id": "prospect_122",
@@ -5216,7 +5283,8 @@
         "follow_up_2": "2026-06-08",
         "follow_up_3": "2026-07-06",
         "out_date": "2026-07-07"
-      }
+      },
+      "subject_email": "Re: Accorgimento rapido sullo store"
     },
     {
       "id": "prospect_123",
@@ -5270,7 +5338,8 @@
         "follow_up_2": "2026-06-08",
         "follow_up_3": "2026-07-06",
         "out_date": "2026-07-07"
-      }
+      },
+      "subject_email": "Re: Accorgimento rapido sullo store"
     },
     {
       "id": "prospect_124",
@@ -5324,7 +5393,8 @@
         "follow_up_2": "2026-06-08",
         "follow_up_3": "2026-07-06",
         "out_date": "2026-07-07"
-      }
+      },
+      "subject_email": "Re: Accorgimento rapido sullo store"
     },
     {
       "id": "prospect_125",
@@ -5378,7 +5448,8 @@
         "follow_up_2": "2026-06-08",
         "follow_up_3": "2026-07-06",
         "out_date": "2026-07-07"
-      }
+      },
+      "subject_email": "Re: Accorgimento rapido sullo store"
     },
     {
       "id": "prospect_126",
@@ -5432,7 +5503,8 @@
         "follow_up_2": "2026-06-08",
         "follow_up_3": "2026-07-06",
         "out_date": "2026-07-07"
-      }
+      },
+      "subject_email": "Re: Accorgimento rapido sullo store"
     },
     {
       "id": "prospect_127",
@@ -5486,7 +5558,8 @@
         "follow_up_2": "2026-06-08",
         "follow_up_3": "2026-07-06",
         "out_date": "2026-07-07"
-      }
+      },
+      "subject_email": "Re: Accorgimento rapido sullo store"
     },
     {
       "id": "prospect_128",
@@ -5540,7 +5613,8 @@
         "follow_up_2": "2026-06-08",
         "follow_up_3": "2026-07-06",
         "out_date": "2026-07-07"
-      }
+      },
+      "subject_email": "Re: Accorgimento rapido sullo store"
     },
     {
       "id": "prospect_129",
@@ -5594,7 +5668,8 @@
         "follow_up_2": "2026-06-08",
         "follow_up_3": "2026-07-06",
         "out_date": "2026-07-07"
-      }
+      },
+      "subject_email": "Re: Accorgimento rapido sullo store"
     },
     {
       "id": "prospect_130",
@@ -5648,7 +5723,8 @@
         "follow_up_2": "2026-06-08",
         "follow_up_3": "2026-07-06",
         "out_date": "2026-07-07"
-      }
+      },
+      "subject_email": "Re: Accorgimento rapido sullo store"
     },
     {
       "id": "prospect_131",
@@ -5702,7 +5778,8 @@
         "follow_up_2": "2026-06-08",
         "follow_up_3": "2026-07-06",
         "out_date": "2026-07-07"
-      }
+      },
+      "subject_email": "Re: Accorgimento rapido sullo store"
     },
     {
       "id": "prospect_132",
@@ -5756,7 +5833,8 @@
         "follow_up_2": "2026-06-08",
         "follow_up_3": "2026-07-06",
         "out_date": "2026-07-07"
-      }
+      },
+      "subject_email": "Re: Accorgimento rapido sullo store"
     },
     {
       "id": "prospect_133",
@@ -5810,7 +5888,8 @@
         "follow_up_2": "2026-06-08",
         "follow_up_3": "2026-07-06",
         "out_date": "2026-07-07"
-      }
+      },
+      "subject_email": "Re: Accorgimento rapido sullo store"
     },
     {
       "id": "prospect_134",
@@ -5864,7 +5943,8 @@
         "follow_up_2": "2026-06-08",
         "follow_up_3": "2026-07-06",
         "out_date": "2026-07-07"
-      }
+      },
+      "subject_email": "Re: Accorgimento rapido sullo store"
     },
     {
       "id": "prospect_135",
@@ -5918,7 +5998,8 @@
         "follow_up_2": "2026-06-08",
         "follow_up_3": "2026-07-06",
         "out_date": "2026-07-07"
-      }
+      },
+      "subject_email": "Re: Accorgimento rapido sullo store"
     },
     {
       "id": "prospect_136",
@@ -5972,7 +6053,8 @@
         "follow_up_2": "2026-06-08",
         "follow_up_3": "2026-07-06",
         "out_date": "2026-07-07"
-      }
+      },
+      "subject_email": "Re: Accorgimento rapido sullo store"
     },
     {
       "id": "prospect_137",
@@ -6026,7 +6108,8 @@
         "follow_up_2": "2026-06-08",
         "follow_up_3": "2026-07-06",
         "out_date": "2026-07-07"
-      }
+      },
+      "subject_email": "Re: Accorgimento rapido sullo store"
     },
     {
       "id": "prospect_138",
@@ -6080,7 +6163,8 @@
         "follow_up_2": "2026-06-08",
         "follow_up_3": "2026-07-06",
         "out_date": "2026-07-07"
-      }
+      },
+      "subject_email": "Re: Accorgimento rapido sullo store"
     },
     {
       "id": "prospect_139",
@@ -6134,7 +6218,8 @@
         "follow_up_2": "2026-06-08",
         "follow_up_3": "2026-07-06",
         "out_date": "2026-07-07"
-      }
+      },
+      "subject_email": "Re: Accorgimento rapido sullo store"
     },
     {
       "id": "prospect_140",
@@ -6188,7 +6273,8 @@
         "follow_up_2": "2026-06-08",
         "follow_up_3": "2026-07-06",
         "out_date": "2026-07-07"
-      }
+      },
+      "subject_email": "Re: Accorgimento rapido sullo store"
     },
     {
       "id": "prospect_141",
@@ -6242,7 +6328,8 @@
         "follow_up_2": "2026-06-08",
         "follow_up_3": "2026-07-06",
         "out_date": "2026-07-07"
-      }
+      },
+      "subject_email": "Re: Accorgimento rapido sullo store"
     },
     {
       "id": "prospect_142",
@@ -6296,7 +6383,8 @@
         "follow_up_2": "2026-06-08",
         "follow_up_3": "2026-07-06",
         "out_date": "2026-07-07"
-      }
+      },
+      "subject_email": "Re: Accorgimento rapido sullo store"
     },
     {
       "id": "prospect_143",
@@ -6350,7 +6438,8 @@
         "follow_up_2": "2026-06-08",
         "follow_up_3": "2026-07-06",
         "out_date": "2026-07-07"
-      }
+      },
+      "subject_email": "Re: Accorgimento rapido sullo store"
     },
     {
       "id": "prospect_144",
@@ -6404,7 +6493,8 @@
         "follow_up_2": "2026-06-08",
         "follow_up_3": "2026-07-06",
         "out_date": "2026-07-07"
-      }
+      },
+      "subject_email": "Re: Accorgimento rapido sullo store"
     },
     {
       "id": "prospect_145",
@@ -6458,7 +6548,8 @@
         "follow_up_2": "2026-06-08",
         "follow_up_3": "2026-07-06",
         "out_date": "2026-07-07"
-      }
+      },
+      "subject_email": "Re: Accorgimento rapido sullo store"
     },
     {
       "id": "prospect_146",
@@ -6512,7 +6603,8 @@
         "follow_up_2": "2026-06-08",
         "follow_up_3": "2026-07-06",
         "out_date": "2026-07-07"
-      }
+      },
+      "subject_email": "Re: Accorgimento rapido sullo store"
     },
     {
       "id": "prospect_147",
@@ -6566,7 +6658,8 @@
         "follow_up_2": "2026-06-08",
         "follow_up_3": "2026-07-06",
         "out_date": "2026-07-07"
-      }
+      },
+      "subject_email": "Re: Accorgimento rapido sullo store"
     },
     {
       "id": "prospect_148",
@@ -6620,7 +6713,8 @@
         "follow_up_2": "2026-06-08",
         "follow_up_3": "2026-07-06",
         "out_date": "2026-07-07"
-      }
+      },
+      "subject_email": "Re: Accorgimento rapido sullo store"
     },
     {
       "id": "prospect_149",
@@ -6674,7 +6768,8 @@
         "follow_up_2": "2026-06-08",
         "follow_up_3": "2026-07-06",
         "out_date": "2026-07-07"
-      }
+      },
+      "subject_email": "Re: Accorgimento rapido sullo store"
     },
     {
       "id": "prospect_150",
@@ -6728,7 +6823,8 @@
         "follow_up_2": "2026-06-08",
         "follow_up_3": "2026-07-06",
         "out_date": "2026-07-07"
-      }
+      },
+      "subject_email": "Re: Accorgimento rapido sullo store"
     },
     {
       "id": "prospect_151",
@@ -6782,7 +6878,8 @@
         "follow_up_2": "2026-06-08",
         "follow_up_3": "2026-07-06",
         "out_date": "2026-07-07"
-      }
+      },
+      "subject_email": "Re: Accorgimento rapido sullo store"
     },
     {
       "id": "prospect_152",
@@ -6836,7 +6933,8 @@
         "follow_up_2": "2026-06-08",
         "follow_up_3": "2026-07-06",
         "out_date": "2026-07-07"
-      }
+      },
+      "subject_email": "Re: Antonio Manitta - Il Duomo Novara Tech Report"
     },
     {
       "id": "prospect_160",
@@ -6886,7 +6984,8 @@
         "follow_up_2": "2026-06-08",
         "follow_up_3": "2026-07-06",
         "out_date": "2026-07-07"
-      }
+      },
+      "subject_email": ""
     },
     {
       "id": "prospect_161",
@@ -6936,7 +7035,8 @@
         "follow_up_2": "2026-06-08",
         "follow_up_3": "2026-07-06",
         "out_date": "2026-07-07"
-      }
+      },
+      "subject_email": ""
     },
     {
       "id": "prospect_162",
@@ -6986,7 +7086,8 @@
         "follow_up_2": "2026-06-08",
         "follow_up_3": "2026-07-06",
         "out_date": "2026-07-07"
-      }
+      },
+      "subject_email": ""
     },
     {
       "id": "prospect_163",
@@ -7036,7 +7137,8 @@
         "follow_up_2": "2026-06-11",
         "follow_up_3": "2026-07-09",
         "out_date": "2026-07-10"
-      }
+      },
+      "subject_email": ""
     },
     {
       "id": "prospect_164",
@@ -7086,7 +7188,8 @@
         "follow_up_2": "2026-06-11",
         "follow_up_3": "2026-07-09",
         "out_date": "2026-07-10"
-      }
+      },
+      "subject_email": ""
     },
     {
       "id": "prospect_165",
@@ -7147,7 +7250,8 @@
         "follow_up_2": "2026-06-05",
         "follow_up_3": "2026-07-03",
         "out_date": "2026-07-06"
-      }
+      },
+      "subject_email": "Tracking + Meta campaigns"
     }
   ],
   "bounced": [
@@ -7174,7 +7278,8 @@
       "next_followup_due": null,
       "followups_sent": [],
       "is_first_email": false,
-      "alt_contact_found": false
+      "alt_contact_found": false,
+      "subject_email": "Re: Tracking + Meta campaigns"
     },
     {
       "id": "bounce_002",
@@ -7199,7 +7304,8 @@
       "next_followup_due": null,
       "followups_sent": [],
       "is_first_email": false,
-      "alt_contact_found": false
+      "alt_contact_found": false,
+      "subject_email": "Re: Club Seven, one quick thing about your ads"
     },
     {
       "id": "bounce_003",
@@ -7224,7 +7330,8 @@
       "next_followup_due": null,
       "followups_sent": [],
       "is_first_email": false,
-      "alt_contact_found": false
+      "alt_contact_found": false,
+      "subject_email": "Re: Peachy Den - I noticed something"
     },
     {
       "id": "bounce_004",
@@ -7249,7 +7356,8 @@
       "next_followup_due": null,
       "followups_sent": [],
       "is_first_email": false,
-      "alt_contact_found": true
+      "alt_contact_found": true,
+      "subject_email": "[RE]: Report satu.it"
     },
     {
       "id": "bounce_005",
@@ -7274,7 +7382,8 @@
       "next_followup_due": null,
       "followups_sent": [],
       "is_first_email": false,
-      "alt_contact_found": false
+      "alt_contact_found": false,
+      "subject_email": "Re: Tracking + campagne Meta"
     },
     {
       "id": "bounce_006",
@@ -7299,7 +7408,8 @@
       "next_followup_due": null,
       "followups_sent": [],
       "is_first_email": false,
-      "alt_contact_found": false
+      "alt_contact_found": false,
+      "subject_email": "Re: Franz Kraler, una cosa sulle ads"
     },
     {
       "id": "bounce_007",
@@ -7324,7 +7434,8 @@
       "next_followup_due": null,
       "followups_sent": [],
       "is_first_email": false,
-      "alt_contact_found": false
+      "alt_contact_found": false,
+      "subject_email": "[RE]: Report https://www.dolcitrame.shop/"
     },
     {
       "id": "bounce_008",
@@ -7349,7 +7460,8 @@
       "next_followup_due": null,
       "followups_sent": [],
       "is_first_email": false,
-      "alt_contact_found": true
+      "alt_contact_found": true,
+      "subject_email": "[RE] Report: penelopechilvers.com"
     },
     {
       "id": "bounce_009",
@@ -7374,7 +7486,8 @@
       "next_followup_due": null,
       "followups_sent": [],
       "is_first_email": false,
-      "alt_contact_found": false
+      "alt_contact_found": false,
+      "subject_email": "Odd Muse, the numbers aren't adding up"
     },
     {
       "id": "bounce_010",
@@ -7399,7 +7512,8 @@
       "next_followup_due": null,
       "followups_sent": [],
       "is_first_email": false,
-      "alt_contact_found": true
+      "alt_contact_found": true,
+      "subject_email": "Problema su https://www.helmestore.com/"
     },
     {
       "id": "bounce_011",
@@ -7424,7 +7538,8 @@
       "next_followup_due": null,
       "followups_sent": [],
       "is_first_email": false,
-      "alt_contact_found": false
+      "alt_contact_found": false,
+      "subject_email": "Finnieston Clothing, something I spotted"
     },
     {
       "id": "bounce_012",
@@ -7449,7 +7564,34 @@
       "next_followup_due": null,
       "followups_sent": [],
       "is_first_email": false,
-      "alt_contact_found": false
+      "alt_contact_found": false,
+      "subject_email": "Accorgimento rapido sullo store"
+    },
+    {
+      "id": "bounce_013",
+      "brand": "Bruna Rosso",
+      "email": "michela.viola@brunarosso.com",
+      "domain": "brunarosso.com",
+      "subject_email": "[RE]: Report brunarosso.com",
+      "assigned_to": "Manu",
+      "sender": "Manu",
+      "label_id": "Label_1592668050883672428",
+      "angle": "1A",
+      "bounce_date": "2026-05-13",
+      "first_contact": "2026-05-13",
+      "last_activity": "2026-05-13",
+      "status": "bounced",
+      "notes": "Bounce — MAILER-DAEMON@cloud.vadesecure.com (vadesecure rejection)",
+      "thread_id": "19e1cbe3611be12a",
+      "suggested_action": "Cerca contatto alternativo",
+      "alt_contact_found": false,
+      "is_first_email": false,
+      "followups_sent": [],
+      "platform": "non-Shopify",
+      "contact": "Michela Viola",
+      "next_action": null,
+      "next_action_date": null,
+      "next_followup_due": null
     }
   ]
 }

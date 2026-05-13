@@ -1019,6 +1019,28 @@ td .days-pill.red    { background: #fde8e8; color: #8a1f1f; }
   line-height: 1.4;
 }
 
+/* ============ Subject email styles ============ */
+.subject-cell {
+  font-family: var(--font-mono);
+  font-size: 11px;
+  color: var(--muted);
+  max-width: 220px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  cursor: help;
+}
+.fu-card .fu-subject {
+  font-family: var(--font-mono);
+  font-size: 12px;
+  color: var(--muted);
+  margin-bottom: 4px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  max-width: 100%;
+}
+
 /* ============ Scaduti banner ============ */
 .scaduti-section { background: #fff5f5; border: 1px solid #f0c2c2; border-radius: 8px; padding: 14px; }
 .scaduti-section h2.section-title { color: var(--danger); border-color: #f0c2c2; }

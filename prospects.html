@@ -180,6 +180,7 @@ function renderContactView(filtered) {
       <thead><tr>
         <th class="sortable ${STATE.sort.col === 'brand' ? 'sorted' : ''}" onclick="setSort('brand')">Brand ${arrowFor('brand')}</th>
         <th>Contatto</th>
+        <th>Oggetto</th>
         <th>Assegnato</th>
         <th>Angolo</th>
         <th class="sortable ${STATE.sort.col === 'first_contact' ? 'sorted' : ''}" onclick="setSort('first_contact')">Primo contatto ${arrowFor('first_contact')}</th>
@@ -204,10 +205,14 @@ function renderContactView(filtered) {
       ? `<a href="https://${p.domain}" target="_blank" rel="noopener" onclick="event.stopPropagation()">${escapeHtml(p.brand || p.domain)}</a>`
       : escapeHtml(p.brand || '—');
 
+    const subj = p.subject_email || '';
+    const subjShort = subj.length > 40 ? subj.slice(0, 40) + '…' : subj;
+
     html += `
       <tr class="${sender}" data-pid="${p.id}">
         <td class="brand-cell">${brandHtml}</td>
         <td>${escapeHtml(p.contact || p.email || '—')}</td>
+        <td class="subject-cell" title="${escapeHtml(subj)}">${escapeHtml(subjShort) || '<span style="color:var(--muted);">—</span>'}</td>
         <td>${senderBadge(p.sender || p.assigned_to)}</td>
         <td>${angleBadge(p.angle)}</td>
         <td class="mono">${formatDateFull(p.first_contact)}</td>

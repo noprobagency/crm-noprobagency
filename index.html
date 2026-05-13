@@ -167,14 +167,15 @@ function renderWeekBar() {
       .filter(s => counts[s] > 0)
       .map(s => `<span class="dot ${s.toLowerCase()}">${counts[s]}</span>`).join('');
 
+    const fuSum = Object.values(fuCounts).reduce((a,b)=>a+b,0);
     wrap.insertAdjacentHTML('beforeend', `
       <div class="day-card ${isToday ? 'today' : ''} ${isEmpty ? 'empty' : ''}">
         <div class="day-date">${dayCardLabel(iso)}</div>
         <div class="day-row"><span class="row-label">Prime</span><span class="row-num primary">${onDayFirst.length}</span></div>
         <div class="day-dots-row">${dotsHtml(firstCounts) || '<span style="color:var(--muted);font-size:10px;">—</span>'}</div>
         <div class="day-divider"></div>
-        <div class="day-row"><span class="row-label">Totale</span><span class="row-num secondary">${totalSum}</span></div>
-        <div class="day-dots-row">${dotsHtml(totalCounts) || '<span style="color:var(--muted);font-size:10px;">—</span>'}</div>
+        <div class="day-row"><span class="row-label">${fuSum} follow-up</span><span class="row-num secondary">= ${totalSum} tot</span></div>
+        <div class="day-dots-row">${dotsHtml(fuCounts) || '<span style="color:var(--muted);font-size:10px;">—</span>'}</div>
       </div>
     `);
   }

@@ -312,14 +312,21 @@ function fuTypeLabel(type) {
 }
 
 // ============ Utility: earliest first_contact ============
+// Default: 2026-04-16 (prima email outreach confermata)
+const OUTREACH_START_DATE = '2026-04-16';
+
 function getEarliestContact(rawData) {
+  if (rawData?.meta?.earliest_contact) return rawData.meta.earliest_contact;
   const all = [
     ...(rawData.active || []),
     ...(rawData.no_reply || []),
     ...(rawData.bounced || [])
   ];
   const dates = all.map(p => p.first_contact).filter(Boolean).sort();
-  return dates[0] || todayRomeIso();
+  const earliest = dates[0];
+  // Floor a OUTREACH_START_DATE
+  if (!earliest || earliest > OUTREACH_START_DATE) return OUTREACH_START_DATE;
+  return earliest;
 }
 
 // ============ Header / Nav ============
@@ -472,6 +479,13 @@ function openProspectModal(prospect) {
             ${p.thread_id ? `<dt>Gmail thread</dt><dd><a href="https://mail.google.com/mail/u/0/#all/${p.thread_id}" target="_blank" rel="noopener">${p.thread_id}</a></dd>` : ''}
           </dl>
         </div>
+
+        ${p.subject_email ? `
+          <h4 class="modal-h4">Prima email — oggetto</h4>
+          <div style="font-family:var(--font-mono);font-size:13px;background:#fafafa;padding:10px 12px;border-radius:6px;border:1px solid var(--border);">
+            ${escapeHtml(p.subject_email)}
+          </div>
+        ` : ''}
 
         <h4 class="modal-h4">Roadmap programmata</h4>
         ${renderMiniTimeline(p)}
