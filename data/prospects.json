@@ -1,0 +1,12 @@
+{
+  "meta": {
+    "last_updated": "2026-05-13T08:00:00Z",
+    "total_contacted": 0,
+    "total_replied": 0,
+    "total_bounced": 0,
+    "total_autoresponse": 0
+  },
+  "active": [],
+  "no_reply": [],
+  "bounced": []
+}
