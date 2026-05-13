@@ -126,9 +126,16 @@ function renderWeekBar() {
 
   const flat = [...(STATE.data.active || []), ...(STATE.data.no_reply || [])];
 
-  // 7 giorni terminanti su "oggi" o sull'estremo superiore del range
+  // 7 giorni terminanti su IERI (oggi escluso — giornata in corso).
+  // Se range filter attivo, usa l'estremo superiore del range.
   let endIso = todayRomeIso();
-  if (rangeActive() && STATE.range.to) endIso = STATE.range.to;
+  if (rangeActive() && STATE.range.to) {
+    endIso = STATE.range.to;
+  } else {
+    // Sottrai 1 giorno: la barra finisce su ieri, non oggi
+    const t = todayRome(); t.setDate(t.getDate() - 1);
+    endIso = t.toISOString().split('T')[0];
+  }
   const end = new Date(endIso + 'T00:00:00');
   const todayIso = todayRomeIso();
 
@@ -160,7 +167,9 @@ function renderWeekBar() {
     }
     const totalSum = Object.values(totalCounts).reduce((a,b)=>a+b,0);
 
-    const isToday = iso === todayIso;
+    // Highlight l'ultima card a destra (ieri o estremo range).
+    // 'today' CSS class significa "card evidenziata", non letteralmente oggi.
+    const isToday = iso === endIso;
     const isEmpty = totalSum === 0;
 
     const dotsHtml = (counts) => ['Manu','Dami','Claude','Antonio']
