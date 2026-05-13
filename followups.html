@@ -69,19 +69,17 @@ const STATE = {
 };
 
 // ---------- Compute todos ----------
+// I prospect 'in_conversation' / 'call_booked' / 'closed' sono esclusi
+// dalle sezioni Scaduti/Oggi/Prossimi 7 giorni: hanno la loro pagina
+// in dashboard come "In conversazione" e la gestione è manuale.
 function computeAllTodos() {
   const all = [...(STATE.data.active || []), ...(STATE.data.no_reply || [])];
+  const EXCLUDED = ['archived', 'closed', 'autoresponse', 'in_conversation', 'call_booked'];
   const todos = [];
   for (const p of all) {
-    if (['archived', 'closed', 'autoresponse'].includes(p.status)) continue;
+    if (EXCLUDED.includes(p.status)) continue;
     const next = getNextAction(p);
-    if (!next.date && !['in_conversation','call_booked'].includes(p.status)) continue;
-    if (['in_conversation','call_booked'].includes(p.status)) {
-      if (p.next_action_date) {
-        todos.push({ prospect: p, action: p.next_action || 'Follow-up conversazione', date: p.next_action_date, label: null, overdue: false, manual: true });
-      }
-      continue;
-    }
+    if (!next.date) continue;
     todos.push({
       prospect: p,
       action: next.action,
