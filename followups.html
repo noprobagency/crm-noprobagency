@@ -204,6 +204,7 @@ function flattenSentEmails() {
       });
     }
     for (const f of (p.followups_sent || [])) {
+      if (!f.date) continue;  // skip entries senza data
       out.push({
         prospect: p,
         date: f.date,
@@ -215,7 +216,13 @@ function flattenSentEmails() {
       });
     }
   }
-  out.sort((a, b) => b.date.localeCompare(a.date));
+  // Sort DESC robusto: entries senza data vanno in fondo
+  out.sort((a, b) => {
+    if (!a.date && !b.date) return 0;
+    if (!a.date) return 1;
+    if (!b.date) return -1;
+    return b.date.localeCompare(a.date);
+  });
   return out;
 }
 

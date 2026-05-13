@@ -55,11 +55,20 @@ function todayRomeIso() {
   return new Date().toLocaleDateString('en-CA', { timeZone: TZ });
 }
 
+// Anchora a mezzogiorno locale per evitare shift DST (±1h) che
+// possono spostare la data al giorno precedente con toISOString().
 function _parseDate(s) {
   if (!s) return null;
-  // ISO date "YYYY-MM-DD" — interpretiamo come mezzanotte locale
-  const d = new Date(s + 'T00:00:00');
+  const d = new Date(s + 'T12:00:00');
   return isNaN(d) ? null : d;
+}
+
+// Serializza una Date al formato YYYY-MM-DD in timezone Europa/Roma.
+// NON usare d.toISOString().split('T')[0] — quello restituisce UTC
+// e per browser CEST scivola al giorno precedente.
+function _toRomeIso(d) {
+  if (!d || isNaN(d)) return null;
+  return d.toLocaleDateString('en-CA', { timeZone: TZ });
 }
 
 function daysSince(dateStr) {
@@ -82,7 +91,7 @@ function addDays(dateStr, n) {
   const d = _parseDate(dateStr);
   if (!d) return null;
   d.setDate(d.getDate() + n);
-  return d.toISOString().split('T')[0];
+  return _toRomeIso(d);
 }
 
 function formatDate(dateStr) {
@@ -166,8 +175,26 @@ function addWorkingDays(dateStr, n) {
     if (!isItalianHoliday(d)) added++;
   }
   while (isItalianHoliday(d)) d.setDate(d.getDate() + 1);
-  return d.toISOString().split('T')[0];
+  return _toRomeIso(d);
 }
+
+// Debug helper — chiama `testWorkingDays()` in console browser
+function testWorkingDays() {
+  const tests = [
+    { start: '2026-05-05', n: 10, expected: '2026-05-19' },
+    { start: '2026-05-07', n: 10, expected: '2026-05-21' },
+    { start: '2026-05-13', n: 10, expected: '2026-05-27' },
+    { start: '2026-04-23', n: 10, expected: '2026-05-07' },
+    { start: '2026-04-16', n: 10, expected: '2026-04-30' },
+    { start: '2026-04-17', n: 10, expected: '2026-05-04' }, // attraversa 1 mag
+  ];
+  for (const t of tests) {
+    const result = addWorkingDays(t.start, t.n);
+    const ok = result === t.expected;
+    console.log(`${ok ? '✅' : '❌'} +${t.n}wd da ${t.start}: ${result} (atteso ${t.expected})`);
+  }
+}
+window.testWorkingDays = testWorkingDays;
 
 function calculateTimeline(firstContact) {
   if (!firstContact) return null;

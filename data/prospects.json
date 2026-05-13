@@ -1,13 +1,13 @@
 {
   "meta": {
-    "last_updated": "2026-05-13T09:00:00+02:00",
+    "last_updated": "2026-05-13T14:00:00+02:00",
     "total_contacted": 158,
     "total_replied": 3,
     "total_bounced": 16,
     "total_autoresponse": 11,
     "first_run": false,
     "coverage_note": "First run — copre outbound visibili negli ultimi ~9 giorni (2026-05-06 → 2026-05-13). Le runs giornaliere successive aggiungeranno nuovi thread incrementalmente.",
-    "schema_version": "v3.2",
+    "schema_version": "v3.3",
     "earliest_contact": "2026-04-16",
     "audit_date": "2026-05-13",
     "audit_note": "Audit deep eseguito il 2026-05-13: 217 thread Gmail validi vs 159 nel JSON. Identificate 124 prime email mancanti (il JSON contiene i thread_id dei bump del 7/05 invece delle prime email originali del 22-30 aprile). Per ricostruzione canonica: node scripts/audit-gmail.js. Vedi AUDIT_REPORT.md per dettagli."
