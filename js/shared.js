@@ -9,18 +9,26 @@ async function loadProspects() {
   return res.json();
 }
 
-// Carica TUTTI i prospect in un unico array flat (active + no_reply + bounced)
-async function loadAllProspects() {
+// Carica TUTTI i prospect in un unico array flat (active + no_reply).
+// I bounced[] hanno pagina dedicata (bounced.html) e non vengono inclusi qui.
+// Se serve includerli, passare { includeBounced: true }.
+async function loadAllProspects(opts = {}) {
   const data = await loadProspects();
   const all = [
     ...(data.active   || []).map(p => ({ ...p, _section: 'active'   })),
     ...(data.no_reply || []).map(p => ({ ...p, _section: 'no_reply' })),
-    ...(data.bounced  || []).map(p => ({ ...p, _section: 'bounced'  })),
+    ...(opts.includeBounced
+      ? (data.bounced || []).map(p => ({ ...p, _section: 'bounced' }))
+      : []),
   ];
-  // Ordina per first_contact DESC (più recenti prima)
+  // Ordina per first_contact DESC (più recenti prima).
+  // Fallback safe: prospect senza first_contact vanno in fondo.
   all.sort((a, b) => {
     const da = a.first_contact || '';
     const db = b.first_contact || '';
+    if (!da && !db) return 0;
+    if (!da) return 1;
+    if (!db) return -1;
     return db.localeCompare(da);
   });
   return { all, meta: data.meta, raw: data };
