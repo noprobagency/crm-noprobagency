@@ -20,7 +20,7 @@
       <div class="stat danger"><div class="label">Totale bounce</div><div class="value" id="b-total">—</div></div>
       <div class="stat purple"><div class="label">Da Manu</div><div class="value" id="b-manu">—</div></div>
       <div class="stat blue"><div class="label">Da Dami</div><div class="value" id="b-dami">—</div></div>
-      <div class="stat green"><div class="label">Con backup</div><div class="value" id="b-backup">—</div></div>
+      <div class="stat warning"><div class="label">Da Claude</div><div class="value" id="b-claude">—</div></div>
     </div>
   </section>
 
@@ -33,7 +33,6 @@
         <span class="chip" data-key="sender" data-value="Manu">Manu</span>
         <span class="chip" data-key="sender" data-value="Dami">Dami</span>
         <span class="chip" data-key="sender" data-value="Claude">Claude</span>
-        <span class="chip" data-key="sender" data-value="Antonio">Antonio</span>
       </div>
       <div class="filter-group" id="bf-angle">
         <span class="chip active" data-key="angle" data-value="all">Tutti angoli</span>
@@ -50,7 +49,7 @@
 
   <!-- ARCHIVIATI -->
   <section>
-    <h2 class="section-title">Archiviati (gg 17+) <span class="count" id="arch-count"></span></h2>
+    <h2 class="section-title">Archiviati <span class="count" id="arch-count"></span></h2>
     <div id="arch-table-wrap"></div>
     <div id="arch-pagination"></div>
   </section>
@@ -60,18 +59,16 @@
 <script>
 const STATE = {
   data: null,
-  bounce: { sender: 'all', angle: 'all', page: 1, perPage: 50 },
-  arch:   { page: 1, perPage: 50 },
+  bounce: { sender: 'all', angle: 'all', page: 1 },
+  arch:   { page: 1 },
 };
 
 function renderStats() {
   const all = STATE.data.bounced || [];
-  document.getElementById('b-total').textContent = all.length;
-  document.getElementById('b-manu').textContent = all.filter(b => (b.sender || b.assigned_to) === 'Manu').length;
-  document.getElementById('b-dami').textContent = all.filter(b => (b.sender || b.assigned_to) === 'Dami').length;
-  document.getElementById('b-backup').textContent = all.filter(b =>
-    /alternativ|backup|@|customercare|sales@/i.test(b.notes || '')
-  ).length;
+  document.getElementById('b-total').textContent  = all.length;
+  document.getElementById('b-manu').textContent   = all.filter(b => (b.sender || b.assigned_to) === 'Manu').length;
+  document.getElementById('b-dami').textContent   = all.filter(b => (b.sender || b.assigned_to) === 'Dami').length;
+  document.getElementById('b-claude').textContent = all.filter(b => (b.sender || b.assigned_to) === 'Claude').length;
 }
 
 function applyBounceFilters(items) {
@@ -81,112 +78,131 @@ function applyBounceFilters(items) {
   return r;
 }
 
+function changeBouncePage(p) {
+  STATE.bounce.page = p; renderBounces();
+  document.getElementById('bounce-table-wrap').scrollIntoView({ behavior: 'smooth', block: 'start' });
+}
+function changeArchPage(p) {
+  STATE.arch.page = p; renderArchived();
+  document.getElementById('arch-table-wrap').scrollIntoView({ behavior: 'smooth', block: 'start' });
+}
+window.changeBouncePage = changeBouncePage;
+window.changeArchPage   = changeArchPage;
+
 function renderBounces() {
   const wrap = document.getElementById('bounce-table-wrap');
   const pag  = document.getElementById('bounce-pagination');
-  clear(wrap); clear(pag);
+  wrap.innerHTML = ''; pag.innerHTML = '';
 
   const all = STATE.data.bounced || [];
-  const filtered = applyBounceFilters(all);
-  filtered.sort((a, b) => (b.bounce_date || '').localeCompare(a.bounce_date || ''));
-
+  const filtered = applyBounceFilters(all)
+    .sort((a, b) => (b.bounce_date || '').localeCompare(a.bounce_date || ''));
   document.getElementById('bounce-count').textContent =
     `${filtered.length}${filtered.length !== all.length ? ' filtrati su ' + all.length : ''}`;
 
   if (!filtered.length) {
-    wrap.appendChild(el('div', { class: 'empty' }, 'Nessun bounce'));
+    wrap.innerHTML = '<div class="empty">Nessun bounce</div>';
     return;
   }
 
-  const state = paginate(filtered, STATE.bounce.page, STATE.bounce.perPage);
-
-  const table = el('table', { class: 'crm-table' });
-  table.appendChild(el('thead', {}, el('tr', {},
-    el('th', {}, 'Brand'),
-    el('th', {}, 'Email tentata'),
-    el('th', {}, 'Assegnato'),
-    el('th', {}, 'Angolo'),
-    el('th', {}, 'Data'),
-    el('th', {}, 'Note'),
-    el('th', {}, 'Azione suggerita'),
-  )));
-  const tbody = el('tbody');
-  for (const b of state.slice) {
+  const state = paginate(filtered, STATE.bounce.page, 50);
+  let html = `
+    <table class="crm-table">
+      <thead><tr>
+        <th>Brand</th>
+        <th>Email tentata</th>
+        <th>Assegnato</th>
+        <th>Angolo</th>
+        <th>Data bounce</th>
+        <th>Contatto alt.</th>
+        <th>Note</th>
+      </tr></thead>
+      <tbody>
+  `;
+  for (const b of state.items) {
     const sender = (b.sender || b.assigned_to || 'Manu').toLowerCase();
-    const brandCell = b.domain
-      ? el('td', { class: 'brand-cell' },
-          el('a', { href: `https://${b.domain}`, target: '_blank', rel: 'noopener' }, b.brand || b.domain))
-      : el('td', { class: 'brand-cell' }, b.brand || '—');
-    tbody.appendChild(el('tr', { class: `sender-${sender}` },
-      brandCell,
-      el('td', { class: 'mono' }, b.email || '—'),
-      el('td', {}, senderBadge(b.sender || b.assigned_to)),
-      el('td', {}, angleBadge(b.angle)),
-      el('td', { class: 'mono' }, fmtDateIT(b.bounce_date)),
-      el('td', { style: 'font-size:12px;color:var(--muted);' }, b.notes || '—'),
-      el('td', { style: 'font-size:12px;font-weight:500;' }, b.suggested_action || 'Cerca contatto su LinkedIn'),
-    ));
+    const altPill = b.alt_contact_found
+      ? `<span class="badge" style="background:#edf7da;color:#2a5a20">Trovato</span>`
+      : `<span class="badge" style="background:#fde8e8;color:#8a1f1f">Da cercare</span>`;
+    const brandHtml = b.domain
+      ? `<a href="https://${b.domain}" target="_blank" rel="noopener">${escapeHtml(b.brand || b.domain)}</a>`
+      : escapeHtml(b.brand || '—');
+    html += `
+      <tr class="${sender}">
+        <td class="brand-cell">${brandHtml}</td>
+        <td class="mono">${escapeHtml(b.email || '—')}</td>
+        <td>${senderBadge(b.sender || b.assigned_to)}</td>
+        <td>${angleBadge(b.angle)}</td>
+        <td class="mono">${formatDateFull(b.bounce_date)}</td>
+        <td>${altPill}</td>
+        <td style="font-size:12px;color:var(--muted);">${escapeHtml(b.notes || '—')}</td>
+      </tr>
+    `;
   }
-  table.appendChild(tbody);
-  wrap.appendChild(table);
+  html += '</tbody></table>';
+  wrap.innerHTML = html;
 
-  pag.appendChild(renderPagination(state, p => {
-    STATE.bounce.page = p; renderBounces();
-    document.getElementById('bounce-table-wrap').scrollIntoView({ behavior: 'smooth', block: 'start' });
-  }));
+  renderPagination(pag, state.currentPage, state.totalPages, 'changeBouncePage', state.total);
 }
 
 function renderArchived() {
   const wrap = document.getElementById('arch-table-wrap');
   const pag  = document.getElementById('arch-pagination');
-  clear(wrap); clear(pag);
+  wrap.innerHTML = ''; pag.innerHTML = '';
 
   const all = STATE.data.no_reply || [];
-  const archived = all.filter(p => p.status === 'archived' || (p.first_contact && daysSince(p.first_contact) >= 17 && p.status !== 'autoresponse'));
-  archived.sort((a, b) => (a.first_contact || '').localeCompare(b.first_contact || ''));
-
+  const archived = all
+    .filter(p => p.status === 'archived')
+    .sort((a, b) => (b.first_contact || '').localeCompare(a.first_contact || ''));
   document.getElementById('arch-count').textContent = archived.length;
 
   if (!archived.length) {
-    wrap.appendChild(el('div', { class: 'empty' }, 'Nessun prospect archiviato'));
+    wrap.innerHTML = '<div class="empty">Nessun prospect archiviato (sequenza completata G45+)</div>';
     return;
   }
 
-  const state = paginate(archived, STATE.arch.page, STATE.arch.perPage);
-
-  const table = el('table', { class: 'crm-table' });
-  table.appendChild(el('thead', {}, el('tr', {},
-    el('th', {}, 'Brand'),
-    el('th', {}, 'Contatto'),
-    el('th', {}, 'Assegnato'),
-    el('th', {}, 'Angolo'),
-    el('th', {}, 'Primo contatto'),
-    el('th', {}, 'Giorni'),
-    el('th', {}, 'Note'),
-  )));
-  const tbody = el('tbody');
-  for (const p of state.slice) {
+  const state = paginate(archived, STATE.arch.page, 50);
+  let html = `
+    <table class="crm-table">
+      <thead><tr>
+        <th>Brand</th>
+        <th>Contatto</th>
+        <th>Assegnato</th>
+        <th>Angolo</th>
+        <th>Primo contatto</th>
+        <th>Giorni totali</th>
+        <th>Note</th>
+      </tr></thead>
+      <tbody>
+  `;
+  for (const p of state.items) {
     const sender = (p.sender || p.assigned_to || 'Manu').toLowerCase();
     const days = daysSince(p.first_contact);
-    const tr = el('tr', { class: `sender-${sender}` },
-      el('td', { class: 'brand-cell' }, p.brand || '—'),
-      el('td', {}, p.contact || p.email || '—'),
-      el('td', {}, senderBadge(p.sender || p.assigned_to)),
-      el('td', {}, angleBadge(p.angle)),
-      el('td', { class: 'mono' }, fmtDateIT(p.first_contact)),
-      el('td', { class: 'mono' }, days != null ? `${days}g` : '—'),
-      el('td', { style: 'font-size:12px;color:var(--muted);' }, p.notes || '—'),
-    );
-    tr.addEventListener('click', () => openModal(p.brand, buildProspectModal(p)));
-    tbody.appendChild(tr);
+    html += `
+      <tr class="${sender}" data-pid="${p.id}">
+        <td class="brand-cell">${escapeHtml(p.brand || '—')}</td>
+        <td>${escapeHtml(p.contact || p.email || '—')}</td>
+        <td>${senderBadge(p.sender || p.assigned_to)}</td>
+        <td>${angleBadge(p.angle)}</td>
+        <td class="mono">${formatDateFull(p.first_contact)}</td>
+        <td><span class="days-pill red">${days}g</span></td>
+        <td style="font-size:12px;color:var(--muted);">${escapeHtml(p.notes || '—')}</td>
+      </tr>
+    `;
   }
-  table.appendChild(tbody);
-  wrap.appendChild(table);
+  html += '</tbody></table>';
+  wrap.innerHTML = html;
 
-  pag.appendChild(renderPagination(state, p => {
-    STATE.arch.page = p; renderArchived();
-    document.getElementById('arch-table-wrap').scrollIntoView({ behavior: 'smooth', block: 'start' });
-  }));
+  // bind row click → modal
+  wrap.querySelectorAll('tbody tr').forEach(tr => {
+    tr.addEventListener('click', () => {
+      const pid = tr.getAttribute('data-pid');
+      const p = (STATE.data.no_reply || []).find(x => x.id === pid);
+      if (p) openProspectModal(p);
+    });
+  });
+
+  renderPagination(pag, state.currentPage, state.totalPages, 'changeArchPage', state.total);
 }
 
 function bindFilters() {
@@ -205,7 +221,7 @@ function bindFilters() {
 }
 
 async function init() {
-  document.getElementById('header-slot').appendChild(buildHeader('bounced'));
+  document.getElementById('header-slot').innerHTML = buildHeader('bounced');
   try {
     STATE.data = await loadProspects();
     setTimestamp(STATE.data.meta && STATE.data.meta.last_updated);

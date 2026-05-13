@@ -16,10 +16,10 @@
 <main>
   <!-- STATS -->
   <section>
-    <div class="stats" id="stats">
+    <div class="stats">
       <div class="stat"><div class="label">Contattati</div><div class="value" id="s-total">—</div></div>
       <div class="stat green"><div class="label">In conversazione</div><div class="value" id="s-conv">—</div></div>
-      <div class="stat warning"><div class="label">FU oggi/domani</div><div class="value" id="s-due">—</div></div>
+      <div class="stat warning"><div class="label">Programmato</div><div class="value" id="s-due">—</div></div>
       <div class="stat blue"><div class="label">No reply</div><div class="value" id="s-noreply">—</div></div>
       <div class="stat danger"><div class="label">Bounce</div><div class="value" id="s-bounce">—</div></div>
       <div class="stat purple"><div class="label">Reply rate</div><div class="value" id="s-rate">—</div></div>
@@ -28,7 +28,7 @@
 
   <!-- 7-DAY ACTIVITY -->
   <section>
-    <h2 class="section-title">Attività ultimi 7 giorni</h2>
+    <h2 class="section-title">Attività ultimi 7 giorni (prime email)</h2>
     <div class="week-bar" id="week-bar"></div>
   </section>
 
@@ -45,54 +45,31 @@
     </div>
   </section>
 
-  <!-- IN CONVERSAZIONE -->
-  <section>
-    <h2 class="section-title">In conversazione <span class="count" id="conv-count"></span></h2>
-    <div class="conv-grid" id="conv-grid"></div>
-  </section>
-
   <!-- ROADMAP SOP -->
   <section>
     <h2 class="section-title">Sequenza Outreach (SOP)</h2>
     <div class="roadmap">
       <div class="roadmap-track">
-        <div class="step manual">
-          <div class="step-circle">G1</div>
-          <div class="step-label">Email</div>
-          <div class="step-sub">Outbound iniziale</div>
-        </div>
-        <div class="step manual">
-          <div class="step-circle">G5/6</div>
-          <div class="step-label">DM LinkedIn</div>
-          <div class="step-sub">Manuale</div>
-        </div>
-        <div class="step manual">
-          <div class="step-circle">G8</div>
-          <div class="step-label">InMail</div>
-          <div class="step-sub">Manuale</div>
-        </div>
-        <div class="step auto">
-          <div class="step-circle">G10</div>
-          <div class="step-label">FU Email</div>
-          <div class="step-sub">Cowork</div>
-        </div>
-        <div class="step auto">
-          <div class="step-circle">G14</div>
-          <div class="step-label">FU LinkedIn</div>
-          <div class="step-sub">Cowork</div>
-        </div>
-        <div class="step stop">
-          <div class="step-circle">G17</div>
-          <div class="step-label">Archivia</div>
-          <div class="step-sub">Stop</div>
-        </div>
+        <div class="step"><div class="step-circle">G0</div>
+          <div class="step-label">Prima email</div><div class="step-sub">Outbound</div></div>
+        <div class="step"><div class="step-circle">G10</div>
+          <div class="step-label">FU 1</div><div class="step-sub">Rimando su</div></div>
+        <div class="step"><div class="step-circle">G25</div>
+          <div class="step-label">FU 2</div><div class="step-sub">Aggancio contestuale</div></div>
+        <div class="step"><div class="step-circle">G45</div>
+          <div class="step-label">FU 3</div><div class="step-sub">Ultima volta</div></div>
+        <div class="step stop"><div class="step-circle">OUT</div>
+          <div class="step-label">Archivia</div><div class="step-sub">G46+</div></div>
       </div>
-      <div class="roadmap-legend">
-        <span class="legend-item"><span class="swatch auto"></span>Automatico (Cowork)</span>
-        <span class="legend-item"><span class="swatch manual"></span>Manuale</span>
-        <span class="legend-item"><span class="swatch stop"></span>Stop</span>
-      </div>
+      <div class="roadmap-legend">Tutto gestito automaticamente da Cowork</div>
     </div>
+  </section>
+
+  <!-- IN CONVERSAZIONE -->
+  <section>
+    <h2 class="section-title">In conversazione <span class="count" id="conv-count"></span></h2>
+    <div class="conv-grid" id="conv-grid"></div>
+    <div id="conv-see-all"></div>
   </section>
 </main>
 
@@ -100,24 +77,33 @@
 <script>
 const STATE = { data: null, range: { from: null, to: null } };
 
-function applyRange(prospects) {
-  if (!STATE.range.from && !STATE.range.to) return prospects;
-  return prospects.filter(p => inRange(p.first_contact, STATE.range.from, STATE.range.to));
+function applyRange(items) {
+  if (!STATE.range.from && !STATE.range.to) return items;
+  return items.filter(p => {
+    if (!p.first_contact) return false;
+    if (STATE.range.from && p.first_contact < STATE.range.from) return false;
+    if (STATE.range.to && p.first_contact > STATE.range.to) return false;
+    return true;
+  });
 }
 
 function renderStats() {
   const m = STATE.data.meta || {};
-  const active  = STATE.data.active || [];
+  const active  = STATE.data.active   || [];
   const noReply = STATE.data.no_reply || [];
-  const bounced = STATE.data.bounced || [];
+  const bounced = STATE.data.bounced  || [];
 
   const inConv = active.filter(p =>
     p.status === 'in_conversation' || p.status === 'call_booked' || p.status === 'closed'
   ).length;
   const totalContacted = m.total_contacted ?? (active.length + noReply.length);
+
+  // FU programmati: scadenza oggi/domani/dopodomani
   const dueSoon = [...active, ...noReply].filter(p => {
-    const u = urgency(p.next_followup_due || p.next_action_date);
-    return u === 'urgent' || u === 'soon';
+    const due = p.next_action_date;
+    if (!due) return false;
+    const d = daysUntil(due);
+    return d != null && d >= 0 && d <= 2;
   }).length;
 
   document.getElementById('s-total').textContent   = totalContacted;
@@ -131,115 +117,102 @@ function renderStats() {
 
 function renderWeekBar() {
   const wrap = document.getElementById('week-bar');
-  clear(wrap);
+  wrap.innerHTML = '';
 
-  const all = [...(STATE.data.active || []), ...(STATE.data.no_reply || [])]
-    .filter(p => p.is_first_email !== false);
+  const flat = [
+    ...(STATE.data.active || []),
+    ...(STATE.data.no_reply || [])
+  ].filter(p => p.is_first_email !== false);
 
-  const days = [];
-  const t = today();
+  const today = new Date(); today.setHours(0,0,0,0);
+  const todayIso = today.toISOString().split('T')[0];
+
   for (let i = 6; i >= 0; i--) {
-    const d = new Date(t); d.setDate(d.getDate() - i);
+    const d = new Date(today); d.setDate(d.getDate() - i);
     const iso = d.toISOString().split('T')[0];
-    days.push(iso);
-  }
-
-  const todayIso = t.toISOString().split('T')[0];
-
-  for (const iso of days) {
-    const onDay = all.filter(p => p.first_contact === iso);
+    const onDay = flat.filter(p => p.first_contact === iso);
     const counts = { Manu: 0, Dami: 0, Claude: 0, Antonio: 0 };
     for (const p of onDay) {
       const s = p.sender || p.assigned_to || 'Manu';
       if (counts[s] != null) counts[s]++;
     }
-
     const isToday = iso === todayIso;
     const isEmpty = onDay.length === 0;
-    const card = el('div', { class: `day-card ${isToday ? 'today' : ''} ${isEmpty ? 'empty' : ''}` });
-    card.appendChild(el('div', { class: 'day-date' }, fmtDayCard(iso)));
-    card.appendChild(el('div', { class: 'day-total' }, String(onDay.length)));
-    const dots = el('div', { class: 'day-dots' });
-    for (const sender of SENDERS) {
-      if (counts[sender] > 0) {
-        dots.appendChild(el('span', { class: `dot ${sender.toLowerCase()}` }, String(counts[sender])));
-      }
-    }
-    card.appendChild(dots);
-    wrap.appendChild(card);
+    const dotsHtml = ['Manu', 'Dami', 'Claude', 'Antonio']
+      .filter(s => counts[s] > 0)
+      .map(s => `<span class="dot ${s.toLowerCase()}">${counts[s]}</span>`)
+      .join('');
+    wrap.insertAdjacentHTML('beforeend', `
+      <div class="day-card ${isToday ? 'today' : ''} ${isEmpty ? 'empty' : ''}">
+        <div class="day-date">${dayCardLabel(iso)}</div>
+        <div class="day-total">${onDay.length}</div>
+        <div class="day-dots">${dotsHtml}</div>
+      </div>
+    `);
   }
 }
 
 function renderConversations() {
   const grid = document.getElementById('conv-grid');
-  clear(grid);
+  const seeAll = document.getElementById('conv-see-all');
+  grid.innerHTML = ''; seeAll.innerHTML = '';
 
   let items = (STATE.data.active || []).filter(p =>
     p.status === 'in_conversation' || p.status === 'call_booked'
   );
   items = applyRange(items);
-
   document.getElementById('conv-count').textContent = items.length;
 
   if (items.length === 0) {
-    grid.appendChild(el('div', { class: 'empty' }, 'Nessuna conversazione attiva nel range'));
+    grid.innerHTML = '<div class="empty">Nessuna conversazione attiva nel range</div>';
     return;
   }
 
-  for (const p of items) {
+  const visible = items.slice(0, 10);
+  for (const p of visible) {
     const sender = (p.sender || p.assigned_to || 'Manu').toLowerCase();
-    const card = el('div', { class: `conv-card sender-${sender}` });
-
-    // header
-    const header = el('div', { class: 'card-header' });
-    header.appendChild(senderBadge(p.sender || p.assigned_to));
-    header.appendChild(el('span', { class: 'brand' }, p.brand || '—'));
-    header.appendChild(angleBadge(p.angle));
-    header.appendChild(platformBadge(p.platform));
-    card.appendChild(header);
-
-    // contact
-    const contactLine = [
-      p.contact || '—',
-      p.email,
-      p.domain ? p.domain : null
-    ].filter(Boolean).join(' · ');
-    card.appendChild(el('div', { class: 'contact-line' }, contactLine));
-
-    // ultima outbound antonio
-    if (p.last_outbound_by_antonio) {
-      const o = p.last_outbound_by_antonio;
-      card.appendChild(el('div', { class: 'panel outbound' },
-        el('div', { class: 'panel-label' }, '↗ Ultima email outbound'),
-        el('div', { class: 'snippet' }, `"${o.snippet}"`),
-        el('div', { class: 'meta' }, `inviata il ${fmtDateIT(o.date)}`)
-      ));
-    }
-
-    // ultima reply
-    if (p.last_reply_from_prospect) {
-      const r = p.last_reply_from_prospect;
-      card.appendChild(el('div', { class: 'panel inbound' },
-        el('div', { class: 'panel-label' }, '↙ Ultima risposta prospect'),
-        el('div', { class: 'snippet' }, `"${r.snippet}"`),
-        el('div', { class: 'meta' }, `ricevuta il ${fmtDateIT(r.date)}`)
-      ));
-    }
-
-    // reminder
-    const due = p.next_followup_due || p.next_action_date;
+    const due = p.next_action_date;
     const u = urgency(due);
-    card.appendChild(el('div', { class: `reminder ${u !== 'normal' && u !== 'none' ? u : ''}` },
-      el('span', { class: 'label' }, '🔔 REMINDER'),
-      due ? `${dueLabel(due)} · ${fmtDateIT(due)}` : 'Nessuna scadenza',
-      el('br'),
-      p.next_action || ''
-    ));
 
-    if (p.notes) card.appendChild(el('div', { class: 'notes' }, p.notes));
+    const out = p.last_outbound_by_antonio;
+    const reply = p.last_reply_from_prospect;
 
-    card.addEventListener('click', () => openModal(p.brand, buildProspectModal(p)));
+    const card = document.createElement('div');
+    card.className = `conv-card ${sender}`;
+    card.innerHTML = `
+      <div class="card-header">
+        ${senderBadge(p.sender || p.assigned_to)}
+        <span class="brand">${escapeHtml(p.brand || '—')}</span>
+        ${angleBadge(p.angle)}
+      </div>
+      <div class="contact-line">
+        ${escapeHtml(p.contact || '—')}${p.email ? ' · ' + escapeHtml(p.email) : ''}
+      </div>
+      ${out ? `
+        <div class="panel outbound">
+          <div class="panel-label">↗ Ultima email inviata</div>
+          <div class="snippet">"${escapeHtml(out.snippet)}"</div>
+          <div class="when">${formatDateFull(out.date)}</div>
+        </div>
+      ` : ''}
+      ${reply ? `
+        <div class="panel inbound">
+          <div class="panel-label">↙ Ultima risposta</div>
+          <div class="snippet">"${escapeHtml(reply.snippet)}"</div>
+          <div class="when">${formatDateFull(reply.date)}</div>
+        </div>
+      ` : ''}
+      <div class="reminder ${u !== 'normal' && u !== 'none' ? u : ''}">
+        <span class="label">🔔 Reminder</span>
+        ${due ? `${formatDateFull(due)} · ${dueLabel(due)}` : 'Nessuna scadenza'}<br>
+        <span style="color:var(--muted);font-size:12px;">${escapeHtml(p.next_action || '')}</span>
+      </div>
+    `;
+    card.addEventListener('click', () => openProspectModal(p));
     grid.appendChild(card);
+  }
+  if (items.length > 10) {
+    seeAll.innerHTML = `<a href="prospects.html" class="see-all">Vedi tutti i ${items.length} →</a>`;
   }
 }
 
@@ -250,25 +223,26 @@ function bindRangeFilter() {
     updateRangeBadge();
     renderConversations();
   });
-  document.getElementById('range-reset').addEventListener('click', () => {
-    STATE.range = { from: null, to: null };
-    document.getElementById('range-from').value = '';
-    document.getElementById('range-to').value = '';
-    updateRangeBadge();
-    renderConversations();
-  });
+  document.getElementById('range-reset').addEventListener('click', resetRange);
+}
+function resetRange() {
+  STATE.range = { from: null, to: null };
+  document.getElementById('range-from').value = '';
+  document.getElementById('range-to').value = '';
+  updateRangeBadge();
+  renderConversations();
 }
 function updateRangeBadge() {
   const b = document.getElementById('range-active');
   if (!STATE.range.from && !STATE.range.to) { b.style.display = 'none'; return; }
-  const f = STATE.range.from ? fmtDateIT(STATE.range.from) : '…';
-  const t = STATE.range.to   ? fmtDateIT(STATE.range.to)   : '…';
-  b.textContent = `Filtro attivo: ${f} → ${t}`;
+  const f = STATE.range.from ? formatDate(STATE.range.from) : '…';
+  const t = STATE.range.to   ? formatDate(STATE.range.to)   : '…';
+  b.innerHTML = `Filtro: ${f} – ${t} <a href="#" onclick="resetRange();return false;">Reset</a>`;
   b.style.display = 'inline-block';
 }
 
 async function init() {
-  document.getElementById('header-slot').appendChild(buildHeader('dashboard'));
+  document.getElementById('header-slot').innerHTML = buildHeader('dashboard');
   try {
     STATE.data = await loadProspects();
     setTimestamp(STATE.data.meta && STATE.data.meta.last_updated);

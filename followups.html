@@ -14,45 +14,44 @@
 <div id="header-slot"></div>
 
 <main>
-  <!-- DA FARE -->
+  <!-- TODAY -->
   <section>
-    <h2 class="section-title">Da fare <span class="count" id="todo-count"></span></h2>
-    <div id="todo-groups"></div>
+    <h2 class="section-title">Follow-up in scadenza oggi <span class="count" id="today-count"></span></h2>
+    <div id="today-list"></div>
   </section>
 
-  <!-- FOLLOW-UP INVIATI -->
+  <!-- NEXT 7 DAYS -->
   <section>
-    <h2 class="section-title">Follow-up già inviati <span class="count" id="sent-count"></span></h2>
+    <h2 class="section-title">Prossimi 7 giorni <span class="count" id="next7-count"></span></h2>
+    <div id="next7-list"></div>
+  </section>
+
+  <!-- HISTORICAL SENT -->
+  <section>
+    <h2 class="section-title">Tutti gli invii <span class="count" id="sent-count"></span></h2>
+
     <div class="filters">
-      <div class="filter-group" id="sent-sender-filters">
-        <span class="chip active" data-key="sender" data-value="all">Tutti</span>
+      <div class="filter-group" id="f-kind">
+        <span class="chip active" data-key="kind" data-value="all">Tutti</span>
+        <span class="chip" data-key="kind" data-value="first">Prime email</span>
+        <span class="chip" data-key="kind" data-value="followup">Follow-up</span>
+      </div>
+      <div class="filter-group" id="f-sender">
+        <span class="chip active" data-key="sender" data-value="all">Tutti mittenti</span>
         <span class="chip" data-key="sender" data-value="Manu">Manu</span>
         <span class="chip" data-key="sender" data-value="Dami">Dami</span>
         <span class="chip" data-key="sender" data-value="Claude">Claude</span>
         <span class="chip" data-key="sender" data-value="Antonio">Antonio</span>
       </div>
-      <div class="filter-group" id="sent-type-filters">
-        <span class="chip active" data-key="type" data-value="all">Tutti tipi</span>
-        <span class="chip" data-key="type" data-value="email_day10">Email gg10</span>
-        <span class="chip" data-key="type" data-value="email_day14">Email gg14</span>
-        <span class="chip" data-key="type" data-value="dm_linkedin">DM LinkedIn</span>
-        <span class="chip" data-key="type" data-value="inmail">InMail</span>
-        <span class="chip" data-key="type" data-value="manual">Manuale</span>
-      </div>
       <div class="filter-group" style="border-left:none;">
         <input type="date" id="sent-from" class="search-input" style="min-width:auto;" />
         <input type="date" id="sent-to"   class="search-input" style="min-width:auto;" />
-        <button class="btn secondary" id="sent-reset">Reset date</button>
+        <button class="btn secondary" id="sent-reset-dates">Reset date</button>
       </div>
     </div>
-    <div id="sent-table"></div>
-    <div id="sent-pagination"></div>
-  </section>
 
-  <!-- FORECAST 14gg -->
-  <section>
-    <h2 class="section-title">Prossime azioni — 14 giorni</h2>
-    <div class="forecast" id="forecast"></div>
+    <div id="sent-list"></div>
+    <div id="sent-pagination"></div>
   </section>
 </main>
 
@@ -60,118 +59,129 @@
 <script>
 const STATE = {
   data: null,
-  sent: { sender: 'all', type: 'all', from: null, to: null, page: 1, perPage: 50 }
+  sent: { kind: 'all', sender: 'all', from: null, to: null, page: 1 },
 };
 
-// ---------- Da fare ----------
-function computeTodos() {
+// ---------- Compute todos (next-action per ogni prospect) ----------
+function computeAllTodos() {
   const all = [...(STATE.data.active || []), ...(STATE.data.no_reply || [])];
   const todos = [];
   for (const p of all) {
-    if (p.status === 'archived' || p.status === 'closed') continue;
+    if (p.status === 'archived' || p.status === 'closed' || p.status === 'autoresponse') continue;
     if (p.status === 'in_conversation' || p.status === 'call_booked') {
-      // per gli active usiamo next_followup_due / next_action così com'è
-      if (p.next_followup_due) {
-        todos.push({
-          prospect: p,
-          action: p.next_action || 'Follow-up conversazione',
-          date: p.next_followup_due,
-          manual: true,
-          type: 'manual',
-        });
+      if (p.next_action_date) {
+        todos.push({ prospect: p, action: p.next_action || 'Follow-up conversazione', date: p.next_action_date, label: null });
       }
       continue;
     }
     const next = getNextAction(p.first_contact, p.followups_sent || []);
-    if (next.action && next.date && !next.archived) {
-      todos.push({ prospect: p, action: next.action, date: next.date, manual: next.manual, type: next.type });
+    if (next.date && next.label) {
+      todos.push({ prospect: p, action: next.action, date: next.date, label: next.label, auto: next.auto });
     }
   }
-  todos.sort((a, b) => (daysUntil(a.date) ?? 999) - (daysUntil(b.date) ?? 999));
   return todos;
 }
 
-function renderTodos() {
-  const wrap = document.getElementById('todo-groups');
-  clear(wrap);
-
-  const todos = computeTodos();
-  document.getElementById('todo-count').textContent = todos.length;
-
-  const groups = {
-    'Oggi':           [],
-    'Domani':         [],
-    'Questa settimana': [],
-    'Oltre':          [],
-    'Scaduti':        [],
-  };
-  for (const t of todos) {
-    const d = daysUntil(t.date);
-    if (d == null) continue;
-    if (d < 0) groups['Scaduti'].push(t);
-    else if (d === 0) groups['Oggi'].push(t);
-    else if (d === 1) groups['Domani'].push(t);
-    else if (d <= 7) groups['Questa settimana'].push(t);
-    else groups['Oltre'].push(t);
-  }
-
-  let any = false;
-  for (const [name, list] of Object.entries(groups)) {
-    if (!list.length) continue;
-    any = true;
-    const g = el('div', { class: 'fu-group' });
-    g.appendChild(el('h3', {}, name, el('span', { class: 'count' }, `${list.length}`)));
-    for (const t of list) {
-      g.appendChild(renderTodoRow(t));
-    }
-    wrap.appendChild(g);
-  }
-  if (!any) wrap.appendChild(el('div', { class: 'empty' }, 'Nessuna azione pianificata'));
-}
-
-function renderTodoRow(t) {
+function todoCard(t) {
   const p = t.prospect;
   const sender = (p.sender || p.assigned_to || 'Manu').toLowerCase();
   const u = urgency(t.date);
-  const tag = t.manual
-    ? el('span', { class: 'tag manual' }, 'Manuale')
-    : el('span', { class: 'tag cowork' }, 'Cowork auto');
+  const days = daysSince(p.first_contact);
 
-  const row = el('div', { class: `fu-row sender-${sender}` },
-    el('div', {},
-      senderBadge(p.sender || p.assigned_to),
-      ' ',
-      angleBadge(p.angle)
-    ),
-    el('div', {},
-      el('strong', {}, p.brand),
-      ' · ',
-      p.contact || p.email || '—',
-      el('br'),
-      el('span', { class: 'fu-action' }, t.action),
-      ' ',
-      tag
-    ),
-    el('div', { class: `fu-due ${u}` }, dueLabel(t.date)),
-    el('div', { class: 'mono', style: 'color:var(--muted);font-size:11px;' }, fmtDateIT(t.date)),
-  );
-  row.style.cursor = 'pointer';
-  row.addEventListener('click', () => openModal(p.brand, buildProspectModal(p)));
-  return row;
+  const card = document.createElement('div');
+  card.className = `fu-card ${sender}`;
+  card.innerHTML = `
+    <div class="fu-main">
+      <div class="fu-brand-row">
+        ${senderBadge(p.sender || p.assigned_to)}
+        <span class="fu-brand">${escapeHtml(p.brand)}</span>
+        ${angleBadge(p.angle)}
+        ${t.label ? `<span class="badge" style="background:#1A1A1A;color:#fff">${t.label}</span>` : ''}
+      </div>
+      <div class="fu-meta">
+        ${escapeHtml(p.contact || p.email || '—')} · primo contatto ${formatDate(p.first_contact)} · ${days}g dall'inizio
+      </div>
+    </div>
+    <div class="fu-right">
+      <span class="fu-due ${u}">${dueLabel(t.date)}</span>
+      <span class="fu-date">${formatDate(t.date)}</span>
+    </div>
+  `;
+  card.addEventListener('click', () => openProspectModal(p));
+  return card;
 }
 
-// ---------- Sent followups ----------
-function flattenSent() {
+function renderTodaySection() {
+  const wrap = document.getElementById('today-list');
+  wrap.innerHTML = '';
+  const todos = computeAllTodos();
+  const todayList = todos.filter(t => daysUntil(t.date) === 0);
+  document.getElementById('today-count').textContent = todayList.length;
+
+  if (!todayList.length) {
+    wrap.innerHTML = '<div class="empty success">Nessun follow-up in scadenza oggi ✓</div>';
+    return;
+  }
+  for (const t of todayList) wrap.appendChild(todoCard(t));
+}
+
+function renderNext7Section() {
+  const wrap = document.getElementById('next7-list');
+  wrap.innerHTML = '';
+  const todos = computeAllTodos();
+  const list = todos.filter(t => {
+    const d = daysUntil(t.date);
+    return d != null && d > 0 && d <= 7;
+  });
+  document.getElementById('next7-count').textContent = list.length;
+
+  if (!list.length) {
+    wrap.innerHTML = '<div class="empty">Nessun follow-up nei prossimi 7 giorni</div>';
+    return;
+  }
+
+  // Raggruppa per data
+  const groups = {};
+  for (const t of list) {
+    (groups[t.date] = groups[t.date] || []).push(t);
+  }
+  const sortedDates = Object.keys(groups).sort();
+  for (const date of sortedDates) {
+    const days = daysUntil(date);
+    const dayLabel = days === 1 ? 'Domani' : `Tra ${days}g`;
+    const g = document.createElement('div');
+    g.className = 'fu-group';
+    g.innerHTML = `<h3>${dayLabel} · ${formatDateFull(date)} <span class="count">${groups[date].length}</span></h3>`;
+    for (const t of groups[date]) g.appendChild(todoCard(t));
+    wrap.appendChild(g);
+  }
+}
+
+// ---------- Sent (historical) ----------
+function flattenSentEmails() {
   const all = [...(STATE.data.active || []), ...(STATE.data.no_reply || [])];
   const out = [];
   for (const p of all) {
+    // Prima email
+    if (p.first_contact) {
+      out.push({
+        prospect: p,
+        date: p.first_contact,
+        kind: 'first',
+        type: 'first',
+        sender: p.sender || p.assigned_to,
+        snippet: p.first_email_snippet || (p.last_outbound_by_antonio && p.last_outbound_by_antonio.snippet) || '',
+      });
+    }
+    // Follow-up
     for (const f of (p.followups_sent || [])) {
       out.push({
-        date: f.date,
-        type: f.type,
-        sender: f.sender,
-        snippet: f.snippet,
         prospect: p,
+        date: f.date,
+        kind: 'followup',
+        type: f.type,
+        sender: f.sender || p.sender || p.assigned_to,
+        snippet: f.snippet || '',
       });
     }
   }
@@ -181,65 +191,67 @@ function flattenSent() {
 
 function applySentFilters(items) {
   let r = items;
-  if (STATE.sent.sender !== 'all') r = r.filter(f => f.sender === STATE.sent.sender);
-  if (STATE.sent.type !== 'all')   r = r.filter(f => f.type === STATE.sent.type);
-  if (STATE.sent.from) r = r.filter(f => f.date >= STATE.sent.from);
-  if (STATE.sent.to)   r = r.filter(f => f.date <= STATE.sent.to);
+  if (STATE.sent.kind !== 'all')   r = r.filter(e => e.kind === STATE.sent.kind);
+  if (STATE.sent.sender !== 'all') r = r.filter(e => e.sender === STATE.sent.sender);
+  if (STATE.sent.from)             r = r.filter(e => e.date >= STATE.sent.from);
+  if (STATE.sent.to)               r = r.filter(e => e.date <= STATE.sent.to);
   return r;
 }
 
-function renderSent() {
-  const wrap = document.getElementById('sent-table');
-  const pagWrap = document.getElementById('sent-pagination');
-  clear(wrap); clear(pagWrap);
+function sentCard(e) {
+  const p = e.prospect;
+  const sender = (e.sender || 'Manu').toLowerCase();
+  const snippet = (e.snippet || '').slice(0, 140);
+  const card = document.createElement('div');
+  card.className = `fu-card ${sender}`;
+  card.innerHTML = `
+    <div class="fu-main">
+      <div class="fu-brand-row">
+        ${senderBadge(e.sender)}
+        <span class="fu-brand">${escapeHtml(p.brand)}</span>
+        <span class="badge" style="background:#1A1A1A;color:#fff">${fuTypeLabel(e.type)}</span>
+        ${angleBadge(p.angle)}
+      </div>
+      <div class="fu-meta">${escapeHtml(p.email || '—')}</div>
+      <div class="fu-snippet">"${escapeHtml(snippet)}${e.snippet && e.snippet.length > 140 ? '…' : ''}"</div>
+    </div>
+    <div class="fu-right">
+      <span class="fu-date">${formatDateFull(e.date)}</span>
+    </div>
+  `;
+  card.addEventListener('click', () => openProspectModal(p));
+  return card;
+}
 
-  const all = flattenSent();
+function changeSentPage(p) {
+  STATE.sent.page = p;
+  renderSent();
+  document.getElementById('sent-list').scrollIntoView({ behavior: 'smooth', block: 'start' });
+}
+
+function renderSent() {
+  const wrap = document.getElementById('sent-list');
+  const pag  = document.getElementById('sent-pagination');
+  wrap.innerHTML = '';
+
+  const all = flattenSentEmails();
   const filtered = applySentFilters(all);
   document.getElementById('sent-count').textContent =
-    `${filtered.length}${filtered.length !== all.length ? ' filtrati' : ''}`;
+    `${filtered.length}${filtered.length !== all.length ? ' filtrati su ' + all.length : ''}`;
 
   if (!filtered.length) {
-    wrap.appendChild(el('div', { class: 'empty' }, 'Nessun follow-up inviato'));
+    wrap.innerHTML = '<div class="empty">Nessuna email coi filtri attuali</div>';
+    pag.innerHTML = '';
     return;
   }
 
-  const state = paginate(filtered, STATE.sent.page, STATE.sent.perPage);
-
-  const table = el('table', { class: 'crm-table' });
-  table.appendChild(el('thead', {}, el('tr', {},
-    el('th', {}, 'Data'),
-    el('th', {}, 'Brand'),
-    el('th', {}, 'Contatto'),
-    el('th', {}, 'Tipo'),
-    el('th', {}, 'Mittente'),
-    el('th', {}, 'Snippet'),
-  )));
-  const tbody = el('tbody');
-  for (const f of state.slice) {
-    const sender = (f.sender || 'Manu').toLowerCase();
-    const tr = el('tr', { class: `sender-${sender}` },
-      el('td', { class: 'mono' }, fmtDateIT(f.date)),
-      el('td', { class: 'brand-cell' }, f.prospect.brand),
-      el('td', {}, f.prospect.contact || f.prospect.email || '—'),
-      el('td', {}, el('span', { class: 'tag manual' }, f.type)),
-      el('td', {}, senderBadge(f.sender)),
-      el('td', { style: 'max-width:380px;color:var(--muted);font-size:12px;font-style:italic;' }, f.snippet || ''),
-    );
-    tr.addEventListener('click', () => openModal(f.prospect.brand, buildProspectModal(f.prospect)));
-    tbody.appendChild(tr);
-  }
-  table.appendChild(tbody);
-  wrap.appendChild(table);
-
-  pagWrap.appendChild(renderPagination(state, p => {
-    STATE.sent.page = p;
-    renderSent();
-    document.getElementById('sent-table').scrollIntoView({ behavior: 'smooth', block: 'start' });
-  }));
+  const state = paginate(filtered, STATE.sent.page, 50);
+  for (const e of state.items) wrap.appendChild(sentCard(e));
+  renderPagination(pag, state.currentPage, state.totalPages, 'changeSentPage', state.total);
 }
 
-function bindSentFilters() {
-  document.querySelectorAll('#sent-sender-filters .chip, #sent-type-filters .chip').forEach(chip => {
+function bindFilters() {
+  document.querySelectorAll('#f-kind .chip, #f-sender .chip').forEach(chip => {
     chip.addEventListener('click', () => {
       const key = chip.getAttribute('data-key');
       const val = chip.getAttribute('data-value');
@@ -251,14 +263,13 @@ function bindSentFilters() {
       renderSent();
     });
   });
-  ['sent-from', 'sent-to'].forEach(id => {
-    document.getElementById(id).addEventListener('change', e => {
-      STATE.sent[id === 'sent-from' ? 'from' : 'to'] = e.target.value || null;
-      STATE.sent.page = 1;
-      renderSent();
-    });
+  document.getElementById('sent-from').addEventListener('change', e => {
+    STATE.sent.from = e.target.value || null; STATE.sent.page = 1; renderSent();
   });
-  document.getElementById('sent-reset').addEventListener('click', () => {
+  document.getElementById('sent-to').addEventListener('change', e => {
+    STATE.sent.to = e.target.value || null; STATE.sent.page = 1; renderSent();
+  });
+  document.getElementById('sent-reset-dates').addEventListener('click', () => {
     STATE.sent.from = null; STATE.sent.to = null; STATE.sent.page = 1;
     document.getElementById('sent-from').value = '';
     document.getElementById('sent-to').value = '';
@@ -266,49 +277,15 @@ function bindSentFilters() {
   });
 }
 
-// ---------- Forecast ----------
-function renderForecast() {
-  const wrap = document.getElementById('forecast');
-  clear(wrap);
-
-  const todos = computeTodos();
-  const t = today();
-  for (let i = 0; i < 14; i++) {
-    const d = new Date(t); d.setDate(d.getDate() + i);
-    const iso = d.toISOString().split('T')[0];
-    const onDay = todos.filter(x => x.date === iso);
-    if (!onDay.length) continue;
-
-    const dayCol = el('div', { class: 'day-col' },
-      el('strong', {}, fmtDateShort(iso)),
-      i === 0 ? 'Oggi' : (i === 1 ? 'Domani' : `+${i}g`)
-    );
-    const events = el('div', { class: 'day-events' });
-    for (const ev of onDay) {
-      events.appendChild(el('div', { class: 'event' },
-        senderBadge(ev.prospect.sender || ev.prospect.assigned_to),
-        ' ',
-        el('strong', {}, ev.prospect.brand),
-        el('span', { class: 'e-action' }, ev.action)
-      ));
-    }
-    wrap.appendChild(dayCol);
-    wrap.appendChild(events);
-  }
-  if (!wrap.children.length) {
-    wrap.appendChild(el('div', { class: 'empty' }, 'Nessuna azione pianificata nei prossimi 14 giorni'));
-  }
-}
-
 async function init() {
-  document.getElementById('header-slot').appendChild(buildHeader('followups'));
+  document.getElementById('header-slot').innerHTML = buildHeader('followups');
   try {
     STATE.data = await loadProspects();
     setTimestamp(STATE.data.meta && STATE.data.meta.last_updated);
-    bindSentFilters();
-    renderTodos();
+    bindFilters();
+    renderTodaySection();
+    renderNext7Section();
     renderSent();
-    renderForecast();
   } catch (err) {
     showError(`Errore caricamento dati: ${err.message}`);
     setTimestamp(null);
