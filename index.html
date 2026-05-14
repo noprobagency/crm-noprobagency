@@ -144,6 +144,10 @@ function renderWeekBar() {
   const end = new Date(endIso + 'T12:00:00');
   const todayIso = todayRomeIso();
 
+  // Calcola la data del primo giorno mostrato (end - 6) per l'etichetta
+  const startD = new Date(end); startD.setDate(startD.getDate() - 6);
+  const startIso = _toRomeIso(startD);
+
   // Aggiorna l'etichetta sopra la barra
   const labelEl = document.getElementById('week-bar-label');
   if (labelEl) {
@@ -151,7 +155,10 @@ function renderWeekBar() {
       const fromStr = STATE.range.from ? formatDate(STATE.range.from) : '…';
       labelEl.textContent = `Range: ${fromStr} → ${formatDate(endIso)}`;
     } else {
-      labelEl.textContent = 'Ultimi 7 giorni · oggi escluso (giornata in corso)';
+      // Sempre relativo a OGGI (computato live via todayRome).
+      // Oggi escluso perché giornata in corso. Se today = 14 maggio →
+      // mostra 7→13 maggio (cards da sinistra a destra).
+      labelEl.textContent = `${formatDate(startIso)} → ${formatDate(endIso)} · oggi escluso`;
     }
   }
 
