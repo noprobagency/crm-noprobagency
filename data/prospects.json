@@ -1,7 +1,7 @@
 {
   "meta": {
-    "last_updated": "2026-05-14T09:30:00+02:00",
-    "total_contacted": 176,
+    "last_updated": "2026-05-15T01:03:35+02:00",
+    "total_contacted": 223,
     "total_replied": 3,
     "total_bounced": 22,
     "total_autoresponse": 11,
@@ -8435,6 +8435,1370 @@
         "out_date": "2026-07-20"
       },
       "subject_email": "Problema su bellettini.com"
+    },
+    {
+      "id": "prospect_192",
+      "brand": "Rokit",
+      "contact": "Umberto",
+      "email": "info@rokit.co.uk",
+      "domain": "rokit.co.uk",
+      "assigned_to": "Dami",
+      "angle": "2B",
+      "platform": "Shopify",
+      "status": "contacted",
+      "first_contact": "2026-05-15",
+      "last_activity": "2026-05-15",
+      "next_action": "Follow-up 1",
+      "next_action_date": "2026-05-29",
+      "stape_score": null,
+      "notes": "UK fashion brand",
+      "thread_id": "19e280c67cb548d0",
+      "timeline": [
+        {
+          "date": "2026-05-15",
+          "action": "Email outbound 2B inviata"
+        }
+      ],
+      "label_id": "Label_8658624016447790536",
+      "sender": "Dami",
+      "is_first_email": true,
+      "followups_sent": [],
+      "last_outbound_by_antonio": {
+        "date": "2026-05-15",
+        "snippet": "Stavo guardando Rokit e ho visto che state girando campagne Meta/Google su uno store Shopify già strutturato. Ho control"
+      },
+      "last_reply_from_prospect": null,
+      "next_followup_due": "2026-05-29",
+      "days_since_last_activity": 0,
+      "first_email_snippet": "Stavo guardando Rokit e ho visto che state girando campagne Meta/Google su uno store Shopify già strutturato. Ho controllato velocemente il tracking, c'è un problema che probabilmente",
+      "scheduled_timeline": {
+        "first_email": "2026-05-15",
+        "follow_up_1": "2026-05-29",
+        "follow_up_2": "2026-06-22",
+        "follow_up_3": "2026-07-20",
+        "out_date": "2026-07-21"
+      },
+      "subject_email": "Rokit, i dati non tornano"
+    },
+    {
+      "id": "prospect_193",
+      "brand": "Estella Bartlett",
+      "contact": "Van",
+      "email": "van@estellabartlett.com",
+      "domain": "estellabartlett.com",
+      "assigned_to": "Dami",
+      "angle": "2B",
+      "platform": "Shopify",
+      "status": "contacted",
+      "first_contact": "2026-05-15",
+      "last_activity": "2026-05-15",
+      "next_action": "Follow-up 1",
+      "next_action_date": "2026-05-29",
+      "stape_score": null,
+      "notes": "UK jewellery & accessories brand",
+      "thread_id": "19e2804f33fe2675",
+      "timeline": [
+        {
+          "date": "2026-05-15",
+          "action": "Email outbound 2B inviata"
+        }
+      ],
+      "label_id": "Label_8658624016447790536",
+      "sender": "Dami",
+      "is_first_email": true,
+      "followups_sent": [],
+      "last_outbound_by_antonio": {
+        "date": "2026-05-15",
+        "snippet": "Hi Van, I was looking into Estella Bartlett and noticed you're running Meta/Google campaigns on an already well-structur"
+      },
+      "last_reply_from_prospect": null,
+      "next_followup_due": "2026-05-29",
+      "days_since_last_activity": 0,
+      "first_email_snippet": "Hi Van, I was looking into Estella Bartlett and noticed you're running Meta/Google campaigns on an already well-structured Shopify store. I did a quick check on your tracking and found an issue you're likely unaware of.",
+      "scheduled_timeline": {
+        "first_email": "2026-05-15",
+        "follow_up_1": "2026-05-29",
+        "follow_up_2": "2026-06-22",
+        "follow_up_3": "2026-07-20",
+        "out_date": "2026-07-21"
+      },
+      "subject_email": "Re: Tracking + Meta campaigns"
+    },
+    {
+      "id": "prospect_194",
+      "brand": "Passenger Clothing",
+      "contact": "Julien",
+      "email": "hello@passenger-clothing.com",
+      "domain": "passenger-clothing.com",
+      "assigned_to": "Dami",
+      "angle": "2B",
+      "platform": "Shopify",
+      "status": "contacted",
+      "first_contact": "2026-05-15",
+      "last_activity": "2026-05-15",
+      "next_action": "Follow-up 1",
+      "next_action_date": "2026-05-29",
+      "stape_score": null,
+      "notes": "UK outdoor/sustainable clothing brand",
+      "thread_id": "19e28239a26a2086",
+      "timeline": [
+        {
+          "date": "2026-05-15",
+          "action": "Email outbound 2B inviata"
+        }
+      ],
+      "label_id": "Label_8658624016447790536",
+      "sender": "Dami",
+      "is_first_email": true,
+      "followups_sent": [],
+      "last_outbound_by_antonio": {
+        "date": "2026-05-15",
+        "snippet": "Hi Julien, I was looking into Passenger Clothing and noticed you're running Meta/Google campaigns on an already well-str"
+      },
+      "last_reply_from_prospect": null,
+      "next_followup_due": "2026-05-29",
+      "days_since_last_activity": 0,
+      "first_email_snippet": "Hi Julien, I was looking into Passenger Clothing and noticed you're running Meta/Google campaigns on an already well-structured Shopify store. I did a quick check on your tracking and found an issue.",
+      "scheduled_timeline": {
+        "first_email": "2026-05-15",
+        "follow_up_1": "2026-05-29",
+        "follow_up_2": "2026-06-22",
+        "follow_up_3": "2026-07-20",
+        "out_date": "2026-07-21"
+      },
+      "subject_email": "Re: Tracking + Meta campaigns"
+    },
+    {
+      "id": "prospect_195",
+      "brand": "Vagheggi Phytocosmetici",
+      "contact": "Carla Cappuccio",
+      "email": "ccappuccio@vagheggi.com",
+      "domain": "vagheggi.com",
+      "assigned_to": "Dami",
+      "angle": "2B",
+      "platform": "Shopify",
+      "status": "contacted",
+      "first_contact": "2026-05-15",
+      "last_activity": "2026-05-15",
+      "next_action": "Follow-up 1",
+      "next_action_date": "2026-05-29",
+      "stape_score": null,
+      "notes": "Brand cosmetica/phytocosmetica italiana",
+      "thread_id": "19e2870800f0de65",
+      "timeline": [
+        {
+          "date": "2026-05-15",
+          "action": "Email outbound 2B inviata"
+        }
+      ],
+      "label_id": "Label_8658624016447790536",
+      "sender": "Dami",
+      "is_first_email": true,
+      "followups_sent": [],
+      "last_outbound_by_antonio": {
+        "date": "2026-05-15",
+        "snippet": "Ciao Carla, Mi sono imbattuto in Vagheggi Phytocosmetici cercando i migliori brand del settore in Italia. Ho visto la pi"
+      },
+      "last_reply_from_prospect": null,
+      "next_followup_due": "2026-05-29",
+      "days_since_last_activity": 0,
+      "first_email_snippet": "Ciao Carla, Mi sono imbattuto in Vagheggi Phytocosmetici cercando i migliori brand del settore in Italia. Ho visto la piattaforma che state usando per le vendite online, la conosco molto bene.",
+      "scheduled_timeline": {
+        "first_email": "2026-05-15",
+        "follow_up_1": "2026-05-29",
+        "follow_up_2": "2026-06-22",
+        "follow_up_3": "2026-07-20",
+        "out_date": "2026-07-21"
+      },
+      "subject_email": "[RE]: Report shop.vagheggi.com"
+    },
+    {
+      "id": "prospect_196",
+      "brand": "Anya Hindmarch",
+      "contact": "Vikki Holford",
+      "email": "vikki.holford@anyahindmarch.com",
+      "domain": "anyahindmarch.com",
+      "assigned_to": "Dami",
+      "angle": "2B",
+      "platform": "Shopify",
+      "status": "contacted",
+      "first_contact": "2026-05-15",
+      "last_activity": "2026-05-15",
+      "next_action": "Follow-up 1",
+      "next_action_date": "2026-05-29",
+      "stape_score": null,
+      "notes": "UK luxury accessories brand",
+      "thread_id": "19e285bb5149ce47",
+      "timeline": [
+        {
+          "date": "2026-05-15",
+          "action": "Email outbound 2B inviata"
+        }
+      ],
+      "label_id": "Label_8658624016447790536",
+      "sender": "Dami",
+      "is_first_email": true,
+      "followups_sent": [],
+      "last_outbound_by_antonio": {
+        "date": "2026-05-15",
+        "snippet": "Hi Vikki, I was looking into Anya Hindmarch website and noticed you're running Meta/Google campaigns on an already well-"
+      },
+      "last_reply_from_prospect": null,
+      "next_followup_due": "2026-05-29",
+      "days_since_last_activity": 0,
+      "first_email_snippet": "Hi Vikki, I was looking into Anya Hindmarch website and noticed you're running Meta/Google campaigns on an already well-structured Shopify store. I did a quick check on your tracking and found an issue.",
+      "scheduled_timeline": {
+        "first_email": "2026-05-15",
+        "follow_up_1": "2026-05-29",
+        "follow_up_2": "2026-06-22",
+        "follow_up_3": "2026-07-20",
+        "out_date": "2026-07-21"
+      },
+      "subject_email": "[RE]: Report anyahindmarch.com"
+    },
+    {
+      "id": "prospect_197",
+      "brand": "Joel & Son Fabrics",
+      "contact": "Coby",
+      "email": "coby@joelandsonfabrics.com",
+      "domain": "joelandsonfabrics.com",
+      "assigned_to": "Dami",
+      "angle": "2B",
+      "platform": "Shopify",
+      "status": "contacted",
+      "first_contact": "2026-05-15",
+      "last_activity": "2026-05-15",
+      "next_action": "Follow-up 1",
+      "next_action_date": "2026-05-29",
+      "stape_score": null,
+      "notes": "UK luxury fabrics, London",
+      "thread_id": "19e281294bdb51fc",
+      "timeline": [
+        {
+          "date": "2026-05-15",
+          "action": "Email outbound 2B inviata"
+        }
+      ],
+      "label_id": "Label_8658624016447790536",
+      "sender": "Dami",
+      "is_first_email": true,
+      "followups_sent": [],
+      "last_outbound_by_antonio": {
+        "date": "2026-05-15",
+        "snippet": "Hi Coby, I was looking into Joel & Son Fabrics website and noticed you're running Meta/Google campaigns on an already we"
+      },
+      "last_reply_from_prospect": null,
+      "next_followup_due": "2026-05-29",
+      "days_since_last_activity": 0,
+      "first_email_snippet": "Hi Coby, I was looking into Joel & Son Fabrics website and noticed you're running Meta/Google campaigns on an already well-structured Shopify store. I did a quick check on your tracking.",
+      "scheduled_timeline": {
+        "first_email": "2026-05-15",
+        "follow_up_1": "2026-05-29",
+        "follow_up_2": "2026-06-22",
+        "follow_up_3": "2026-07-20",
+        "out_date": "2026-07-21"
+      },
+      "subject_email": "Joel & Son, the numbers aren't adding up"
+    },
+    {
+      "id": "prospect_198",
+      "brand": "Corner94",
+      "contact": "Luca",
+      "email": "info@corner94.it",
+      "domain": "corner94.it",
+      "assigned_to": "Dami",
+      "angle": "2B",
+      "platform": "Shopify",
+      "status": "contacted",
+      "first_contact": "2026-05-15",
+      "last_activity": "2026-05-15",
+      "next_action": "Follow-up 1",
+      "next_action_date": "2026-05-29",
+      "stape_score": null,
+      "notes": "Boutique multibrand Maranello",
+      "thread_id": "19e27ea1afddf6b1",
+      "timeline": [
+        {
+          "date": "2026-05-15",
+          "action": "Email outbound 2B inviata"
+        }
+      ],
+      "label_id": "Label_8658624016447790536",
+      "sender": "Dami",
+      "is_first_email": true,
+      "followups_sent": [],
+      "last_outbound_by_antonio": {
+        "date": "2026-05-15",
+        "snippet": "Ciao Luca, Mi sono imbattuto in Corner94 cercando le migliori boutique multibrand del settore in Italia, a proposito, la"
+      },
+      "last_reply_from_prospect": null,
+      "next_followup_due": "2026-05-29",
+      "days_since_last_activity": 0,
+      "first_email_snippet": "Ciao Luca, Mi sono imbattuto in Corner94 cercando le migliori boutique multibrand del settore in Italia, a proposito, la boutique a Maranello è molto carina. Ho visto la piattaforma che state usando.",
+      "scheduled_timeline": {
+        "first_email": "2026-05-15",
+        "follow_up_1": "2026-05-29",
+        "follow_up_2": "2026-06-22",
+        "follow_up_3": "2026-07-20",
+        "out_date": "2026-07-21"
+      },
+      "subject_email": "[RE]: Report corner94.it"
+    },
+    {
+      "id": "prospect_199",
+      "brand": "Mauvais",
+      "contact": "Holly Downing",
+      "email": "holly.downing@mauvais.co.uk",
+      "domain": "mauvais.co.uk",
+      "assigned_to": "Dami",
+      "angle": "2B",
+      "platform": "Shopify",
+      "status": "contacted",
+      "first_contact": "2026-05-15",
+      "last_activity": "2026-05-15",
+      "next_action": "Follow-up 1",
+      "next_action_date": "2026-05-29",
+      "stape_score": null,
+      "notes": "UK fashion brand",
+      "thread_id": "19e27f3ef4dbaa76",
+      "timeline": [
+        {
+          "date": "2026-05-15",
+          "action": "Email outbound 2B inviata"
+        }
+      ],
+      "label_id": "Label_8658624016447790536",
+      "sender": "Dami",
+      "is_first_email": true,
+      "followups_sent": [],
+      "last_outbound_by_antonio": {
+        "date": "2026-05-15",
+        "snippet": "Hi Holly, I came across Mauvais while researching the best UK fashion e-commerce websites. I noticed the platform you're"
+      },
+      "last_reply_from_prospect": null,
+      "next_followup_due": "2026-05-29",
+      "days_since_last_activity": 0,
+      "first_email_snippet": "Hi Holly, I came across Mauvais while researching the best UK fashion e-commerce websites. I noticed the platform you're currently using for your online sales, and noticed you're running Meta/Google campaigns.",
+      "scheduled_timeline": {
+        "first_email": "2026-05-15",
+        "follow_up_1": "2026-05-29",
+        "follow_up_2": "2026-06-22",
+        "follow_up_3": "2026-07-20",
+        "out_date": "2026-07-21"
+      },
+      "subject_email": "Re: Issue with mauvais.co.uk"
+    },
+    {
+      "id": "prospect_200",
+      "brand": "MiaMily",
+      "contact": "Francesco",
+      "email": "questions@miamily.com",
+      "domain": "miamily.com",
+      "assigned_to": "Dami",
+      "angle": "2B",
+      "platform": "Shopify",
+      "status": "contacted",
+      "first_contact": "2026-05-15",
+      "last_activity": "2026-05-15",
+      "next_action": "Follow-up 1",
+      "next_action_date": "2026-05-29",
+      "stape_score": null,
+      "notes": "Brand baby carrier e accessori bambino",
+      "thread_id": "19e2828b5f3740e0",
+      "timeline": [
+        {
+          "date": "2026-05-15",
+          "action": "Email outbound 2B inviata"
+        }
+      ],
+      "label_id": "Label_8658624016447790536",
+      "sender": "Dami",
+      "is_first_email": true,
+      "followups_sent": [],
+      "last_outbound_by_antonio": {
+        "date": "2026-05-15",
+        "snippet": "Ciao Francesco, Stavo guardando MiaMily e ho visto che state girando campagne Meta/Google su uno store Shopify già strut"
+      },
+      "last_reply_from_prospect": null,
+      "next_followup_due": "2026-05-29",
+      "days_since_last_activity": 0,
+      "first_email_snippet": "Ciao Francesco, Stavo guardando MiaMily e ho visto che state girando campagne Meta/Google su uno store Shopify già strutturato. Ho controllato velocemente il tracking, c'è un problema.",
+      "scheduled_timeline": {
+        "first_email": "2026-05-15",
+        "follow_up_1": "2026-05-29",
+        "follow_up_2": "2026-06-22",
+        "follow_up_3": "2026-07-20",
+        "out_date": "2026-07-21"
+      },
+      "subject_email": "MiaMily, i dati non tornano"
+    },
+    {
+      "id": "prospect_201",
+      "brand": "Sellier",
+      "contact": "Giulia",
+      "email": "giulia@sellierknightsbridge.com",
+      "domain": "sellierknightsbridge.com",
+      "assigned_to": "Dami",
+      "angle": "2B",
+      "platform": "Shopify",
+      "status": "contacted",
+      "first_contact": "2026-05-15",
+      "last_activity": "2026-05-15",
+      "next_action": "Follow-up 1",
+      "next_action_date": "2026-05-29",
+      "stape_score": null,
+      "notes": "Luxury leather goods, Knightsbridge Londra",
+      "thread_id": "19e27fd9a084891e",
+      "timeline": [
+        {
+          "date": "2026-05-15",
+          "action": "Email outbound 2B inviata"
+        }
+      ],
+      "label_id": "Label_8658624016447790536",
+      "sender": "Dami",
+      "is_first_email": true,
+      "followups_sent": [],
+      "last_outbound_by_antonio": {
+        "date": "2026-05-15",
+        "snippet": "Ciao Giulia, Stavo guardando Sellier e ho visto che state girando campagne Meta/Google su uno store Shopify già struttur"
+      },
+      "last_reply_from_prospect": null,
+      "next_followup_due": "2026-05-29",
+      "days_since_last_activity": 0,
+      "first_email_snippet": "Ciao Giulia, Stavo guardando Sellier e ho visto che state girando campagne Meta/Google su uno store Shopify già strutturato. Ho controllato velocemente il tracking.",
+      "scheduled_timeline": {
+        "first_email": "2026-05-15",
+        "follow_up_1": "2026-05-29",
+        "follow_up_2": "2026-06-22",
+        "follow_up_3": "2026-07-20",
+        "out_date": "2026-07-21"
+      },
+      "subject_email": "Sellier, i dati non tornano"
+    },
+    {
+      "id": "prospect_202",
+      "brand": "Chicchi Ginepri",
+      "contact": null,
+      "email": "info@chicchiginepri.it",
+      "domain": "chicchiginepri.it",
+      "assigned_to": "Manu",
+      "angle": "1A",
+      "platform": "non-Shopify",
+      "status": "contacted",
+      "first_contact": "2026-05-14",
+      "last_activity": "2026-05-14",
+      "next_action": "Follow-up 1",
+      "next_action_date": "2026-05-28",
+      "stape_score": null,
+      "notes": "Luxury boutique Milano",
+      "thread_id": "19e271d485872dea",
+      "timeline": [
+        {
+          "date": "2026-05-14",
+          "action": "Email outbound 1A inviata"
+        }
+      ],
+      "label_id": "Label_1592668050883672428",
+      "sender": "Manu",
+      "is_first_email": true,
+      "followups_sent": [],
+      "last_outbound_by_antonio": {
+        "date": "2026-05-14",
+        "snippet": "Buonasera, mi sono imbattuto in Chicchi Ginepri cercando le migliori luxury boutique multibrand del settore in Italia, a"
+      },
+      "last_reply_from_prospect": null,
+      "next_followup_due": "2026-05-28",
+      "days_since_last_activity": 0,
+      "first_email_snippet": "Buonasera, mi sono imbattuto in Chicchi Ginepri cercando le migliori luxury boutique multibrand del settore in Italia, a proposito, le boutique a Milano sono stupende.",
+      "scheduled_timeline": {
+        "first_email": "2026-05-14",
+        "follow_up_1": "2026-05-28",
+        "follow_up_2": "2026-06-19",
+        "follow_up_3": "2026-07-17",
+        "out_date": "2026-07-20"
+      },
+      "subject_email": "chicchiginepri.it - aggiornamento store online"
+    },
+    {
+      "id": "prospect_203",
+      "brand": "Freeport",
+      "contact": null,
+      "email": "info@freeportclusone.it",
+      "domain": "freeportclusone.it",
+      "assigned_to": "Manu",
+      "angle": "1A",
+      "platform": "non-Shopify",
+      "status": "contacted",
+      "first_contact": "2026-05-14",
+      "last_activity": "2026-05-14",
+      "next_action": "Follow-up 1",
+      "next_action_date": "2026-05-28",
+      "stape_score": null,
+      "notes": "Luxury boutique Clusone (BG)",
+      "thread_id": "19e271a4920fc320",
+      "timeline": [
+        {
+          "date": "2026-05-14",
+          "action": "Email outbound 1A inviata"
+        }
+      ],
+      "label_id": "Label_1592668050883672428",
+      "sender": "Manu",
+      "is_first_email": true,
+      "followups_sent": [],
+      "last_outbound_by_antonio": {
+        "date": "2026-05-14",
+        "snippet": "Buonasera mi sono imbattuto in Freeport cercando le migliori luxury boutique multibrand del settore in Italia, a proposi"
+      },
+      "last_reply_from_prospect": null,
+      "next_followup_due": "2026-05-28",
+      "days_since_last_activity": 0,
+      "first_email_snippet": "Buonasera mi sono imbattuto in Freeport cercando le migliori luxury boutique multibrand del settore in Italia, a proposito, la boutique a Clusone è stupenda.",
+      "scheduled_timeline": {
+        "first_email": "2026-05-14",
+        "follow_up_1": "2026-05-28",
+        "follow_up_2": "2026-06-19",
+        "follow_up_3": "2026-07-17",
+        "out_date": "2026-07-20"
+      },
+      "subject_email": "freeportclusone.it"
+    },
+    {
+      "id": "prospect_204",
+      "brand": "Ghiglino",
+      "contact": null,
+      "email": "info@ghiglino.it",
+      "domain": "ghiglino.it",
+      "assigned_to": "Manu",
+      "angle": "1A",
+      "platform": "non-Shopify",
+      "status": "contacted",
+      "first_contact": "2026-05-14",
+      "last_activity": "2026-05-14",
+      "next_action": "Follow-up 1",
+      "next_action_date": "2026-05-28",
+      "stape_score": null,
+      "notes": "Boutique multibrand Genova",
+      "thread_id": "19e271682d6681ff",
+      "timeline": [
+        {
+          "date": "2026-05-14",
+          "action": "Email outbound 1A inviata"
+        }
+      ],
+      "label_id": "Label_1592668050883672428",
+      "sender": "Manu",
+      "is_first_email": true,
+      "followups_sent": [],
+      "last_outbound_by_antonio": {
+        "date": "2026-05-14",
+        "snippet": "Buonasera, mi sono imbattuto in Ghiglino cercando le migliori boutique multibrand del settore in Italia, a proposito, la"
+      },
+      "last_reply_from_prospect": null,
+      "next_followup_due": "2026-05-28",
+      "days_since_last_activity": 0,
+      "first_email_snippet": "Buonasera, mi sono imbattuto in Ghiglino cercando le migliori boutique multibrand del settore in Italia, a proposito, la boutique a Genova è stupenda.",
+      "scheduled_timeline": {
+        "first_email": "2026-05-14",
+        "follow_up_1": "2026-05-28",
+        "follow_up_2": "2026-06-19",
+        "follow_up_3": "2026-07-17",
+        "out_date": "2026-07-20"
+      },
+      "subject_email": "Ho notato una cosa su ghiglino.it"
+    },
+    {
+      "id": "prospect_205",
+      "brand": "Bernardelli",
+      "contact": null,
+      "email": "info@bernardellistores.com",
+      "domain": "bernardellistores.com",
+      "assigned_to": "Manu",
+      "angle": "1A",
+      "platform": "non-Shopify",
+      "status": "contacted",
+      "first_contact": "2026-05-14",
+      "last_activity": "2026-05-14",
+      "next_action": "Follow-up 1",
+      "next_action_date": "2026-05-28",
+      "stape_score": null,
+      "notes": "Luxury boutique Mantova",
+      "thread_id": "19e2712de825de14",
+      "timeline": [
+        {
+          "date": "2026-05-14",
+          "action": "Email outbound 1A inviata"
+        }
+      ],
+      "label_id": "Label_1592668050883672428",
+      "sender": "Manu",
+      "is_first_email": true,
+      "followups_sent": [],
+      "last_outbound_by_antonio": {
+        "date": "2026-05-14",
+        "snippet": "Buonasera, mi sono imbattuto in Bernardelli cercando le migliori luxury boutique multibrand del settore in Italia, a pro"
+      },
+      "last_reply_from_prospect": null,
+      "next_followup_due": "2026-05-28",
+      "days_since_last_activity": 0,
+      "first_email_snippet": "Buonasera, mi sono imbattuto in Bernardelli cercando le migliori luxury boutique multibrand del settore in Italia, a proposito, la boutique a Mantova è stupenda.",
+      "scheduled_timeline": {
+        "first_email": "2026-05-14",
+        "follow_up_1": "2026-05-28",
+        "follow_up_2": "2026-06-19",
+        "follow_up_3": "2026-07-17",
+        "out_date": "2026-07-20"
+      },
+      "subject_email": "Problema su bernardellistores.com"
+    },
+    {
+      "id": "prospect_206",
+      "brand": "Cread",
+      "contact": null,
+      "email": "info@creadtorino.com",
+      "domain": "creadtorino.com",
+      "assigned_to": "Manu",
+      "angle": "1A",
+      "platform": "non-Shopify",
+      "status": "contacted",
+      "first_contact": "2026-05-14",
+      "last_activity": "2026-05-14",
+      "next_action": "Follow-up 1",
+      "next_action_date": "2026-05-28",
+      "stape_score": null,
+      "notes": "Luxury boutique Torino",
+      "thread_id": "19e270de33ae10f7",
+      "timeline": [
+        {
+          "date": "2026-05-14",
+          "action": "Email outbound 1A inviata"
+        }
+      ],
+      "label_id": "Label_1592668050883672428",
+      "sender": "Manu",
+      "is_first_email": true,
+      "followups_sent": [],
+      "last_outbound_by_antonio": {
+        "date": "2026-05-14",
+        "snippet": "Buonasera, mi sono imbattuto in Cread cercando le migliori luxury boutique multibrand del settore in Italia, a proposito"
+      },
+      "last_reply_from_prospect": null,
+      "next_followup_due": "2026-05-28",
+      "days_since_last_activity": 0,
+      "first_email_snippet": "Buonasera, mi sono imbattuto in Cread cercando le migliori luxury boutique multibrand del settore in Italia, a proposito, la boutique a Torino è stupenda.",
+      "scheduled_timeline": {
+        "first_email": "2026-05-14",
+        "follow_up_1": "2026-05-28",
+        "follow_up_2": "2026-06-19",
+        "follow_up_3": "2026-07-17",
+        "out_date": "2026-07-20"
+      },
+      "subject_email": "[RE]: Report creadtorino.com"
+    },
+    {
+      "id": "prospect_207",
+      "brand": "Andriani",
+      "contact": null,
+      "email": "customer@andrianistore.it",
+      "domain": "andrianistore.it",
+      "assigned_to": "Manu",
+      "angle": "1A",
+      "platform": "non-Shopify",
+      "status": "contacted",
+      "first_contact": "2026-05-14",
+      "last_activity": "2026-05-14",
+      "next_action": "Follow-up 1",
+      "next_action_date": "2026-05-28",
+      "stape_score": null,
+      "notes": "Boutique multibrand Taranto",
+      "thread_id": "19e270b57e5e0f19",
+      "timeline": [
+        {
+          "date": "2026-05-14",
+          "action": "Email outbound 1A inviata"
+        }
+      ],
+      "label_id": "Label_1592668050883672428",
+      "sender": "Manu",
+      "is_first_email": true,
+      "followups_sent": [],
+      "last_outbound_by_antonio": {
+        "date": "2026-05-14",
+        "snippet": "Buonasera, mi sono imbattuto in Andriani cercando le migliori boutique multibrand del settore in Italia, a proposito, la"
+      },
+      "last_reply_from_prospect": null,
+      "next_followup_due": "2026-05-28",
+      "days_since_last_activity": 0,
+      "first_email_snippet": "Buonasera, mi sono imbattuto in Andriani cercando le migliori boutique multibrand del settore in Italia, a proposito, la boutique a Taranto è stupenda.",
+      "scheduled_timeline": {
+        "first_email": "2026-05-14",
+        "follow_up_1": "2026-05-28",
+        "follow_up_2": "2026-06-19",
+        "follow_up_3": "2026-07-17",
+        "out_date": "2026-07-20"
+      },
+      "subject_email": "andrianistore.it - aggiornamento store online"
+    },
+    {
+      "id": "prospect_208",
+      "brand": "Avant-Garde",
+      "contact": null,
+      "email": "info@avant-gardeandria.it",
+      "domain": "avant-gardeandria.it",
+      "assigned_to": "Manu",
+      "angle": "1A",
+      "platform": "non-Shopify",
+      "status": "contacted",
+      "first_contact": "2026-05-14",
+      "last_activity": "2026-05-14",
+      "next_action": "Follow-up 1",
+      "next_action_date": "2026-05-28",
+      "stape_score": null,
+      "notes": "Luxury boutique Andria",
+      "thread_id": "19e268b1aedb9cc1",
+      "timeline": [
+        {
+          "date": "2026-05-14",
+          "action": "Email outbound 1A inviata"
+        }
+      ],
+      "label_id": "Label_1592668050883672428",
+      "sender": "Manu",
+      "is_first_email": true,
+      "followups_sent": [],
+      "last_outbound_by_antonio": {
+        "date": "2026-05-14",
+        "snippet": "Buonasera, mi sono imbattuto in Avant-Garde cercando le migliori luxury boutique multibrand del settore in Italia, a pro"
+      },
+      "last_reply_from_prospect": null,
+      "next_followup_due": "2026-05-28",
+      "days_since_last_activity": 0,
+      "first_email_snippet": "Buonasera, mi sono imbattuto in Avant-Garde cercando le migliori luxury boutique multibrand del settore in Italia, a proposito, la boutique ad Andria è stupenda.",
+      "scheduled_timeline": {
+        "first_email": "2026-05-14",
+        "follow_up_1": "2026-05-28",
+        "follow_up_2": "2026-06-19",
+        "follow_up_3": "2026-07-17",
+        "out_date": "2026-07-20"
+      },
+      "subject_email": "avant-gardeandria.it - aggiornamento store online"
+    },
+    {
+      "id": "prospect_209",
+      "brand": "Csei",
+      "contact": "Cinzia",
+      "email": "cinzia@cseisoave.it",
+      "domain": "cseisoave.it",
+      "assigned_to": "Manu",
+      "angle": "1A",
+      "platform": "non-Shopify",
+      "status": "contacted",
+      "first_contact": "2026-05-14",
+      "last_activity": "2026-05-14",
+      "next_action": "Follow-up 1",
+      "next_action_date": "2026-05-28",
+      "stape_score": null,
+      "notes": "Boutique Soave (VR)",
+      "thread_id": "19e2686731054965",
+      "timeline": [
+        {
+          "date": "2026-05-14",
+          "action": "Email outbound 1A inviata"
+        }
+      ],
+      "label_id": "Label_1592668050883672428",
+      "sender": "Manu",
+      "is_first_email": true,
+      "followups_sent": [],
+      "last_outbound_by_antonio": {
+        "date": "2026-05-14",
+        "snippet": "Buonasera Cinzia, mi sono imbattuto in Csei cercando le migliori boutique multibrand del settore in Italia, a proposito,"
+      },
+      "last_reply_from_prospect": null,
+      "next_followup_due": "2026-05-28",
+      "days_since_last_activity": 0,
+      "first_email_snippet": "Buonasera Cinzia, mi sono imbattuto in Csei cercando le migliori boutique multibrand del settore in Italia, a proposito, la boutique a Soave è stupenda.",
+      "scheduled_timeline": {
+        "first_email": "2026-05-14",
+        "follow_up_1": "2026-05-28",
+        "follow_up_2": "2026-06-19",
+        "follow_up_3": "2026-07-17",
+        "out_date": "2026-07-20"
+      },
+      "subject_email": "Report cseisoave.it tracciamento"
+    },
+    {
+      "id": "prospect_210",
+      "brand": "Silvia Bini",
+      "contact": null,
+      "email": "customerservice@binisilvia.com",
+      "domain": "binisilvia.com",
+      "assigned_to": "Manu",
+      "angle": "1A",
+      "platform": "non-Shopify",
+      "status": "contacted",
+      "first_contact": "2026-05-14",
+      "last_activity": "2026-05-14",
+      "next_action": "Follow-up 1",
+      "next_action_date": "2026-05-28",
+      "stape_score": null,
+      "notes": "Luxury boutique Viareggio",
+      "thread_id": "19e2681476662a19",
+      "timeline": [
+        {
+          "date": "2026-05-14",
+          "action": "Email outbound 1A inviata"
+        }
+      ],
+      "label_id": "Label_1592668050883672428",
+      "sender": "Manu",
+      "is_first_email": true,
+      "followups_sent": [],
+      "last_outbound_by_antonio": {
+        "date": "2026-05-14",
+        "snippet": "Buonasera, mi sono imbattuto in Silvia Bini cercando le migliori luxury boutique multibrand del settore in Italia, a pro"
+      },
+      "last_reply_from_prospect": null,
+      "next_followup_due": "2026-05-28",
+      "days_since_last_activity": 0,
+      "first_email_snippet": "Buonasera, mi sono imbattuto in Silvia Bini cercando le migliori luxury boutique multibrand del settore in Italia, a proposito, la boutique a Viareggio è stupenda.",
+      "scheduled_timeline": {
+        "first_email": "2026-05-14",
+        "follow_up_1": "2026-05-28",
+        "follow_up_2": "2026-06-19",
+        "follow_up_3": "2026-07-17",
+        "out_date": "2026-07-20"
+      },
+      "subject_email": "[RE]: Report binisilvia.com"
+    },
+    {
+      "id": "prospect_211",
+      "brand": "Agnetti Boutique",
+      "contact": "Andrea Agnetti",
+      "email": "andrea.agnetti@agnettiboutique.it",
+      "domain": "agnettiboutique.it",
+      "assigned_to": "Manu",
+      "angle": "1A",
+      "platform": "non-Shopify",
+      "status": "contacted",
+      "first_contact": "2026-05-14",
+      "last_activity": "2026-05-14",
+      "next_action": "Follow-up 1",
+      "next_action_date": "2026-05-28",
+      "stape_score": null,
+      "notes": "Boutique Villa Potenza (MC)",
+      "thread_id": "19e267b10e51dd5c",
+      "timeline": [
+        {
+          "date": "2026-05-14",
+          "action": "Email outbound 1A inviata"
+        }
+      ],
+      "label_id": "Label_1592668050883672428",
+      "sender": "Manu",
+      "is_first_email": true,
+      "followups_sent": [],
+      "last_outbound_by_antonio": {
+        "date": "2026-05-14",
+        "snippet": "Ciao Andrea, mi sono imbattuto in Agnetti Boutique cercando le migliori boutique multibrand del settore in Italia, a pro"
+      },
+      "last_reply_from_prospect": null,
+      "next_followup_due": "2026-05-28",
+      "days_since_last_activity": 0,
+      "first_email_snippet": "Ciao Andrea, mi sono imbattuto in Agnetti Boutique cercando le migliori boutique multibrand del settore in Italia, a proposito, la boutique a Villa Potenza è stupenda.",
+      "scheduled_timeline": {
+        "first_email": "2026-05-14",
+        "follow_up_1": "2026-05-28",
+        "follow_up_2": "2026-06-19",
+        "follow_up_3": "2026-07-17",
+        "out_date": "2026-07-20"
+      },
+      "subject_email": "Problema su agnettiboutique.it"
+    },
+    {
+      "id": "prospect_212",
+      "brand": "Anmapet",
+      "contact": null,
+      "email": "shop@anmapet.it",
+      "domain": "anmapet.it",
+      "assigned_to": "Manu",
+      "angle": "1A",
+      "platform": "non-Shopify",
+      "status": "contacted",
+      "first_contact": "2026-05-14",
+      "last_activity": "2026-05-14",
+      "next_action": "Follow-up 1",
+      "next_action_date": "2026-05-28",
+      "stape_score": null,
+      "notes": "Store Melendugno (LE)",
+      "thread_id": "19e26757ca9718e2",
+      "timeline": [
+        {
+          "date": "2026-05-14",
+          "action": "Email outbound 1A inviata"
+        }
+      ],
+      "label_id": "Label_1592668050883672428",
+      "sender": "Manu",
+      "is_first_email": true,
+      "followups_sent": [],
+      "last_outbound_by_antonio": {
+        "date": "2026-05-14",
+        "snippet": "Buonasera, mi sono imbattuto in Anmapet cercando le migliori boutique multibrand del settore in Italia, a proposito, lo "
+      },
+      "last_reply_from_prospect": null,
+      "next_followup_due": "2026-05-28",
+      "days_since_last_activity": 0,
+      "first_email_snippet": "Buonasera, mi sono imbattuto in Anmapet cercando le migliori boutique multibrand del settore in Italia, a proposito, lo store a Melendugno è stupendo.",
+      "scheduled_timeline": {
+        "first_email": "2026-05-14",
+        "follow_up_1": "2026-05-28",
+        "follow_up_2": "2026-06-19",
+        "follow_up_3": "2026-07-17",
+        "out_date": "2026-07-20"
+      },
+      "subject_email": "Ho notato una cosa su anmapet.it"
+    },
+    {
+      "id": "prospect_213",
+      "brand": "Five",
+      "contact": null,
+      "email": "info@fivebrescia.com",
+      "domain": "fivebrescia.com",
+      "assigned_to": "Manu",
+      "angle": "1A",
+      "platform": "non-Shopify",
+      "status": "contacted",
+      "first_contact": "2026-05-14",
+      "last_activity": "2026-05-14",
+      "next_action": "Follow-up 1",
+      "next_action_date": "2026-05-28",
+      "stape_score": null,
+      "notes": "Boutique multibrand Brescia",
+      "thread_id": "19e26722dc43031c",
+      "timeline": [
+        {
+          "date": "2026-05-14",
+          "action": "Email outbound 1A inviata"
+        }
+      ],
+      "label_id": "Label_1592668050883672428",
+      "sender": "Manu",
+      "is_first_email": true,
+      "followups_sent": [],
+      "last_outbound_by_antonio": {
+        "date": "2026-05-14",
+        "snippet": "Buonasera, mi sono imbattuto in Five cercando le migliori boutique multibrand del settore in Italia, a proposito, la bou"
+      },
+      "last_reply_from_prospect": null,
+      "next_followup_due": "2026-05-28",
+      "days_since_last_activity": 0,
+      "first_email_snippet": "Buonasera, mi sono imbattuto in Five cercando le migliori boutique multibrand del settore in Italia, a proposito, la boutique a Brescia è stupenda.",
+      "scheduled_timeline": {
+        "first_email": "2026-05-14",
+        "follow_up_1": "2026-05-28",
+        "follow_up_2": "2026-06-19",
+        "follow_up_3": "2026-07-17",
+        "out_date": "2026-07-20"
+      },
+      "subject_email": "Problema su fivebrescia.com"
+    },
+    {
+      "id": "prospect_214",
+      "brand": "Calabro Moda",
+      "contact": null,
+      "email": "calabro@calabromoda.com",
+      "domain": "calabromoda.com",
+      "assigned_to": "Manu",
+      "angle": "1A",
+      "platform": "non-Shopify",
+      "status": "contacted",
+      "first_contact": "2026-05-14",
+      "last_activity": "2026-05-14",
+      "next_action": "Follow-up 1",
+      "next_action_date": "2026-05-28",
+      "stape_score": null,
+      "notes": "Boutique Agrigento",
+      "thread_id": "19e266f860be2ed1",
+      "timeline": [
+        {
+          "date": "2026-05-14",
+          "action": "Email outbound 1A inviata"
+        }
+      ],
+      "label_id": "Label_1592668050883672428",
+      "sender": "Manu",
+      "is_first_email": true,
+      "followups_sent": [],
+      "last_outbound_by_antonio": {
+        "date": "2026-05-14",
+        "snippet": "Buonasera, mi sono imbattuto in Calabro Moda cercando le migliori boutique multibrand del settore in Italia, a proposito"
+      },
+      "last_reply_from_prospect": null,
+      "next_followup_due": "2026-05-28",
+      "days_since_last_activity": 0,
+      "first_email_snippet": "Buonasera, mi sono imbattuto in Calabro Moda cercando le migliori boutique multibrand del settore in Italia, a proposito, la boutique ad Agrigento è stupenda.",
+      "scheduled_timeline": {
+        "first_email": "2026-05-14",
+        "follow_up_1": "2026-05-28",
+        "follow_up_2": "2026-06-19",
+        "follow_up_3": "2026-07-17",
+        "out_date": "2026-07-20"
+      },
+      "subject_email": "[RE]: Report calabromoda.com"
+    },
+    {
+      "id": "prospect_215",
+      "brand": "Farcoz Couture",
+      "contact": null,
+      "email": "farcozcouture@gmail.com",
+      "domain": "farcozcouture.com",
+      "assigned_to": "Manu",
+      "angle": "1A",
+      "platform": "non-Shopify",
+      "status": "contacted",
+      "first_contact": "2026-05-14",
+      "last_activity": "2026-05-14",
+      "next_action": "Follow-up 1",
+      "next_action_date": "2026-05-28",
+      "stape_score": null,
+      "notes": "Boutique Courmayeur — email Gmail",
+      "thread_id": "19e2665bd61a1f87",
+      "timeline": [
+        {
+          "date": "2026-05-14",
+          "action": "Email outbound 1A inviata"
+        }
+      ],
+      "label_id": "Label_1592668050883672428",
+      "sender": "Manu",
+      "is_first_email": true,
+      "followups_sent": [],
+      "last_outbound_by_antonio": {
+        "date": "2026-05-14",
+        "snippet": "Buonasera, mi sono imbattuto in Farcoz Couture cercando le migliori boutique multibrand del settore in Italia, a proposi"
+      },
+      "last_reply_from_prospect": null,
+      "next_followup_due": "2026-05-28",
+      "days_since_last_activity": 0,
+      "first_email_snippet": "Buonasera, mi sono imbattuto in Farcoz Couture cercando le migliori boutique multibrand del settore in Italia, a proposito, la boutique a Courmayeur è stupenda.",
+      "scheduled_timeline": {
+        "first_email": "2026-05-14",
+        "follow_up_1": "2026-05-28",
+        "follow_up_2": "2026-06-19",
+        "follow_up_3": "2026-07-17",
+        "out_date": "2026-07-20"
+      },
+      "subject_email": "farcozcouture.com"
+    },
+    {
+      "id": "prospect_216",
+      "brand": "Eredi Chiarini / Ciarrocchi",
+      "contact": null,
+      "email": null,
+      "domain": "ciarrocchiboutique.it",
+      "assigned_to": "Manu",
+      "angle": "1A",
+      "platform": "non-Shopify",
+      "status": "contacted",
+      "first_contact": "2026-05-14",
+      "last_activity": "2026-05-14",
+      "next_action": "Follow-up 1",
+      "next_action_date": "2026-05-28",
+      "stape_score": null,
+      "notes": "⚠️ Destinatario BCC/undisclosed — email non visibile. Dominio: ciarrocchiboutique.it. Da verificare manualmente.",
+      "thread_id": "19e26568492de7cd",
+      "timeline": [
+        {
+          "date": "2026-05-14",
+          "action": "Email outbound 1A inviata"
+        }
+      ],
+      "label_id": "Label_1592668050883672428",
+      "sender": "Manu",
+      "is_first_email": true,
+      "followups_sent": [],
+      "last_outbound_by_antonio": {
+        "date": "2026-05-14",
+        "snippet": "Buonasera , mi sono imbattuto in Eredi Chiarini cercando le migliori boutique multibrand del settore in Italia, a propos"
+      },
+      "last_reply_from_prospect": null,
+      "next_followup_due": "2026-05-28",
+      "days_since_last_activity": 0,
+      "first_email_snippet": "Buonasera , mi sono imbattuto in Eredi Chiarini cercando le migliori boutique multibrand del settore in Italia, a proposito, la boutique a Teramo è stupenda.",
+      "scheduled_timeline": {
+        "first_email": "2026-05-14",
+        "follow_up_1": "2026-05-28",
+        "follow_up_2": "2026-06-19",
+        "follow_up_3": "2026-07-17",
+        "out_date": "2026-07-20"
+      },
+      "subject_email": "Problema su ciarrocchiboutique.it"
+    },
+    {
+      "id": "prospect_217",
+      "brand": "Brancaccio",
+      "contact": null,
+      "email": "info@brancaccio.it",
+      "domain": "brancaccio.it",
+      "assigned_to": "Manu",
+      "angle": "1A",
+      "platform": "non-Shopify",
+      "status": "contacted",
+      "first_contact": "2026-05-14",
+      "last_activity": "2026-05-14",
+      "next_action": "Follow-up 1",
+      "next_action_date": "2026-05-28",
+      "stape_score": null,
+      "notes": "Boutique Salerno",
+      "thread_id": "19e25f5381ab19f9",
+      "timeline": [
+        {
+          "date": "2026-05-14",
+          "action": "Email outbound 1A inviata"
+        }
+      ],
+      "label_id": "Label_1592668050883672428",
+      "sender": "Manu",
+      "is_first_email": true,
+      "followups_sent": [],
+      "last_outbound_by_antonio": {
+        "date": "2026-05-14",
+        "snippet": "Ciao, mi sono imbattuto in Brancaccio cercando le migliori boutique multibrand del settore in Italia, a proposito, la bo"
+      },
+      "last_reply_from_prospect": null,
+      "next_followup_due": "2026-05-28",
+      "days_since_last_activity": 0,
+      "first_email_snippet": "Ciao, mi sono imbattuto in Brancaccio cercando le migliori boutique multibrand del settore in Italia, a proposito, la boutique a Salerno è stupenda.",
+      "scheduled_timeline": {
+        "first_email": "2026-05-14",
+        "follow_up_1": "2026-05-28",
+        "follow_up_2": "2026-06-19",
+        "follow_up_3": "2026-07-17",
+        "out_date": "2026-07-20"
+      },
+      "subject_email": "Report brancaccio.it tracciamento"
+    },
+    {
+      "id": "prospect_218",
+      "brand": "Boysloft",
+      "contact": null,
+      "email": "customerservice@boysloft.it",
+      "domain": "boysloft.it",
+      "assigned_to": "Manu",
+      "angle": "1A",
+      "platform": "non-Shopify",
+      "status": "contacted",
+      "first_contact": "2026-05-14",
+      "last_activity": "2026-05-14",
+      "next_action": "Follow-up 1",
+      "next_action_date": "2026-05-28",
+      "stape_score": null,
+      "notes": "Boutique Brescia",
+      "thread_id": "19e25ef09c3f6b2e",
+      "timeline": [
+        {
+          "date": "2026-05-14",
+          "action": "Email outbound 1A inviata"
+        }
+      ],
+      "label_id": "Label_1592668050883672428",
+      "sender": "Manu",
+      "is_first_email": true,
+      "followups_sent": [],
+      "last_outbound_by_antonio": {
+        "date": "2026-05-14",
+        "snippet": "Ciao, mi sono imbattuto in Boysloft cercando le migliori boutique multibrand del settore in Italia, a proposito, la bout"
+      },
+      "last_reply_from_prospect": null,
+      "next_followup_due": "2026-05-28",
+      "days_since_last_activity": 0,
+      "first_email_snippet": "Ciao, mi sono imbattuto in Boysloft cercando le migliori boutique multibrand del settore in Italia, a proposito, la boutique a Brescia è stupenda.",
+      "scheduled_timeline": {
+        "first_email": "2026-05-14",
+        "follow_up_1": "2026-05-28",
+        "follow_up_2": "2026-06-19",
+        "follow_up_3": "2026-07-17",
+        "out_date": "2026-07-20"
+      },
+      "subject_email": "Problema su boysloft.it"
+    },
+    {
+      "id": "prospect_219",
+      "brand": "Capuzzi Moda",
+      "contact": null,
+      "email": "shop@capuzzimoda.com",
+      "domain": "capuzzimoda.com",
+      "assigned_to": "Manu",
+      "angle": "1A",
+      "platform": "non-Shopify",
+      "status": "contacted",
+      "first_contact": "2026-05-14",
+      "last_activity": "2026-05-14",
+      "next_action": "Follow-up 1",
+      "next_action_date": "2026-05-28",
+      "stape_score": null,
+      "notes": "Boutique Casoli (CH)",
+      "thread_id": "19e25ec3a700da12",
+      "timeline": [
+        {
+          "date": "2026-05-14",
+          "action": "Email outbound 1A inviata"
+        }
+      ],
+      "label_id": "Label_1592668050883672428",
+      "sender": "Manu",
+      "is_first_email": true,
+      "followups_sent": [],
+      "last_outbound_by_antonio": {
+        "date": "2026-05-14",
+        "snippet": "Ciao, mi sono imbattuto in Capuzzi Moda cercando le migliori boutique multibrand del settore in Italia, a proposito, la "
+      },
+      "last_reply_from_prospect": null,
+      "next_followup_due": "2026-05-28",
+      "days_since_last_activity": 0,
+      "first_email_snippet": "Ciao, mi sono imbattuto in Capuzzi Moda cercando le migliori boutique multibrand del settore in Italia, a proposito, la boutique a Casoli è stupenda.",
+      "scheduled_timeline": {
+        "first_email": "2026-05-14",
+        "follow_up_1": "2026-05-28",
+        "follow_up_2": "2026-06-19",
+        "follow_up_3": "2026-07-17",
+        "out_date": "2026-07-20"
+      },
+      "subject_email": "Ho notato una cosa su capuzzimoda.com"
+    },
+    {
+      "id": "prospect_220",
+      "brand": "Caneppele",
+      "contact": "Alice e Stefania",
+      "email": "e-commerce@caneppele.it",
+      "domain": "caneppele.it",
+      "assigned_to": "Manu",
+      "angle": "1A",
+      "platform": "non-Shopify",
+      "status": "contacted",
+      "first_contact": "2026-05-14",
+      "last_activity": "2026-05-14",
+      "next_action": "Follow-up 1",
+      "next_action_date": "2026-05-28",
+      "stape_score": null,
+      "notes": "Boutique multibrand Trento",
+      "thread_id": "19e25df22e5e8a52",
+      "timeline": [
+        {
+          "date": "2026-05-14",
+          "action": "Email outbound 1A inviata"
+        }
+      ],
+      "label_id": "Label_1592668050883672428",
+      "sender": "Manu",
+      "is_first_email": true,
+      "followups_sent": [],
+      "last_outbound_by_antonio": {
+        "date": "2026-05-14",
+        "snippet": "Ciao Alice e Stefania, mi sono imbattuto in Caneppele cercando le migliori boutique multibrand del settore in Italia, a "
+      },
+      "last_reply_from_prospect": null,
+      "next_followup_due": "2026-05-28",
+      "days_since_last_activity": 0,
+      "first_email_snippet": "Ciao Alice e Stefania, mi sono imbattuto in Caneppele cercando le migliori boutique multibrand del settore in Italia, a proposito, la boutique a Trento è stupenda.",
+      "scheduled_timeline": {
+        "first_email": "2026-05-14",
+        "follow_up_1": "2026-05-28",
+        "follow_up_2": "2026-06-19",
+        "follow_up_3": "2026-07-17",
+        "out_date": "2026-07-20"
+      },
+      "subject_email": "Problema su caneppele.it"
+    },
+    {
+      "id": "prospect_221",
+      "brand": "Bordoni 1926",
+      "contact": null,
+      "email": "info@bordoni1926.it",
+      "domain": "bordoni1926.it",
+      "assigned_to": "Manu",
+      "angle": "1A",
+      "platform": "non-Shopify",
+      "status": "contacted",
+      "first_contact": "2026-05-14",
+      "last_activity": "2026-05-14",
+      "next_action": "Follow-up 1",
+      "next_action_date": "2026-05-28",
+      "stape_score": null,
+      "notes": "Boutique Morbegno (SO)",
+      "thread_id": "19e25dbffc485eda",
+      "timeline": [
+        {
+          "date": "2026-05-14",
+          "action": "Email outbound 1A inviata"
+        }
+      ],
+      "label_id": "Label_1592668050883672428",
+      "sender": "Manu",
+      "is_first_email": true,
+      "followups_sent": [],
+      "last_outbound_by_antonio": {
+        "date": "2026-05-14",
+        "snippet": "Ciao, mi sono imbattuto in Bordoni 1926 cercando le migliori boutique multibrand del settore in Italia, a proposito, la "
+      },
+      "last_reply_from_prospect": null,
+      "next_followup_due": "2026-05-28",
+      "days_since_last_activity": 0,
+      "first_email_snippet": "Ciao, mi sono imbattuto in Bordoni 1926 cercando le migliori boutique multibrand del settore in Italia, a proposito, la boutique a Morbegno è stupenda.",
+      "scheduled_timeline": {
+        "first_email": "2026-05-14",
+        "follow_up_1": "2026-05-28",
+        "follow_up_2": "2026-06-19",
+        "follow_up_3": "2026-07-17",
+        "out_date": "2026-07-20"
+      },
+      "subject_email": "[RE]: Report shop.bordoni1926.it"
+    },
+    {
+      "id": "prospect_222",
+      "brand": "Peeper",
+      "contact": null,
+      "email": "info@peeperstore.it",
+      "domain": "peeperstore.it",
+      "assigned_to": "Manu",
+      "angle": "1A",
+      "platform": "non-Shopify",
+      "status": "contacted",
+      "first_contact": "2026-05-14",
+      "last_activity": "2026-05-14",
+      "next_action": "Follow-up 1",
+      "next_action_date": "2026-05-28",
+      "stape_score": null,
+      "notes": "Boutique Andria",
+      "thread_id": "19e2525afa3201fc",
+      "timeline": [
+        {
+          "date": "2026-05-14",
+          "action": "Email outbound 1A inviata"
+        }
+      ],
+      "label_id": "Label_1592668050883672428",
+      "sender": "Manu",
+      "is_first_email": true,
+      "followups_sent": [],
+      "last_outbound_by_antonio": {
+        "date": "2026-05-14",
+        "snippet": "Ciao, mi sono imbattuto in Peeper cercando le migliori boutique multibrand del settore in Italia, a proposito, la boutiq"
+      },
+      "last_reply_from_prospect": null,
+      "next_followup_due": "2026-05-28",
+      "days_since_last_activity": 0,
+      "first_email_snippet": "Ciao, mi sono imbattuto in Peeper cercando le migliori boutique multibrand del settore in Italia, a proposito, la boutique ad Andria è stupenda.",
+      "scheduled_timeline": {
+        "first_email": "2026-05-14",
+        "follow_up_1": "2026-05-28",
+        "follow_up_2": "2026-06-19",
+        "follow_up_3": "2026-07-17",
+        "out_date": "2026-07-20"
+      },
+      "subject_email": "[RE]: Report peeperstore.it"
     }
   ],
   "bounced": [
