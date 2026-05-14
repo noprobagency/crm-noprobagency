@@ -1,9 +1,9 @@
 {
   "meta": {
-    "last_updated": "2026-05-13T14:00:00+02:00",
-    "total_contacted": 158,
+    "last_updated": "2026-05-14T09:30:00+02:00",
+    "total_contacted": 176,
     "total_replied": 3,
-    "total_bounced": 16,
+    "total_bounced": 22,
     "total_autoresponse": 11,
     "first_run": false,
     "coverage_note": "First run — copre outbound visibili negli ultimi ~9 giorni (2026-05-06 → 2026-05-13). Le runs giornaliere successive aggiungeranno nuovi thread incrementalmente.",
@@ -168,7 +168,7 @@
       "platform": "non-Shopify",
       "status": "in_conversation",
       "first_contact": "2026-05-01",
-      "last_activity": "2026-05-12",
+      "last_activity": "2026-05-13",
       "next_action": "Attendere conferma visione video. Se silenzio dopo 5-6gg dal bump, proporre call.",
       "next_action_date": "2026-05-18",
       "stape_score": null,
@@ -190,6 +190,10 @@
         {
           "date": "2026-05-12",
           "action": "Bump check video"
+        },
+        {
+          "date": "2026-05-13",
+          "action": "Risposta da Nicolò: 'Visto adesso il video, molto insightful! ...mi faccio risentire settimana prossima se decidiamo di investire nel online'"
         }
       ],
       "label_id": "Label_1592668050883672428",
@@ -220,11 +224,11 @@
         "snippet": "Ciao Nicolò, volevo solo verificare che il video fosse arrivato, hai avuto modo di vederlo?"
       },
       "last_reply_from_prospect": {
-        "date": "2026-05-07",
-        "snippet": "Ciao Antonio, Manda pure, non ho ricevuto nessuna mail."
+        "date": "2026-05-13",
+        "snippet": "Ciao Antonio, Visto adesso il video, molto insightful! La newsletter ce l'abbiamo e funziona anche bene, però hai ragione è poco trovabile. In questi giorni stiamo entrando in un progetto pre-loved (rivendita borse vintage), quindi siamo molto presi, però sicuramente mi farò risentire."
       },
       "next_followup_due": "2026-05-18",
-      "days_since_last_activity": 1,
+      "days_since_last_activity": 0,
       "first_email_snippet": "Ciao Nicolò, mi sono imbattuto in Marandino guardando i competitor del settore. Ho 2-3 accorgimenti rapidi sullo store che vorrei segnalarti.",
       "scheduled_timeline": {
         "first_email": "2026-05-01",
@@ -280,50 +284,6 @@
         "out_date": "2026-07-17"
       },
       "subject_email": "lauraurbinati.com - aggiornamento store online"
-    },
-    {
-      "id": "prospect_011",
-      "brand": "Giordano Cosenza",
-      "contact": null,
-      "email": "info@giordanocosenza.com",
-      "domain": "giordanocosenza.com",
-      "assigned_to": "Manu",
-      "angle": "1A",
-      "platform": "non-Shopify",
-      "status": "contacted",
-      "first_contact": "2026-05-13",
-      "last_activity": "2026-05-13",
-      "next_action": "Follow-up 1",
-      "next_action_date": "2026-05-27",
-      "stape_score": null,
-      "notes": "Boutique multibrand Cosenza",
-      "thread_id": "19e1d236574a95ea",
-      "timeline": [
-        {
-          "date": "2026-05-13",
-          "action": "Email outbound 1A inviata"
-        }
-      ],
-      "label_id": "Label_1592668050883672428",
-      "sender": "Manu",
-      "is_first_email": true,
-      "followups_sent": [],
-      "last_outbound_by_antonio": {
-        "date": "2026-05-13",
-        "snippet": "Ciao, mi sono imbattuto in Giordano Cosenza cercando le migliori realtà fashion del settore. Ho visto la piattaforma che state usando per le vendite online, la conosco molto bene."
-      },
-      "last_reply_from_prospect": null,
-      "next_followup_due": "2026-05-27",
-      "days_since_last_activity": 0,
-      "first_email_snippet": "Ciao, mi sono imbattuto in Giordano Cosenza cercando le migliori realtà fashion del settore. Ho visto la piattaforma che state usando per le vendite online, la conosco molto bene.",
-      "scheduled_timeline": {
-        "first_email": "2026-05-13",
-        "follow_up_1": "2026-05-27",
-        "follow_up_2": "2026-06-18",
-        "follow_up_3": "2026-07-16",
-        "out_date": "2026-07-17"
-      },
-      "subject_email": "Problema su giordanocosenza.com"
     },
     {
       "id": "prospect_012",
@@ -456,50 +416,6 @@
         "out_date": "2026-07-17"
       },
       "subject_email": "[RE]: Report niba1976.com"
-    },
-    {
-      "id": "prospect_015",
-      "brand": "Angelo Vintage",
-      "contact": null,
-      "email": "info@angelo.it",
-      "domain": "angelovintage.com",
-      "assigned_to": "Manu",
-      "angle": "1A",
-      "platform": "non-Shopify",
-      "status": "contacted",
-      "first_contact": "2026-05-13",
-      "last_activity": "2026-05-13",
-      "next_action": "Follow-up 1",
-      "next_action_date": "2026-05-27",
-      "stape_score": null,
-      "notes": "Luxury boutique Lugo",
-      "thread_id": "19e1d068b43b13f3",
-      "timeline": [
-        {
-          "date": "2026-05-13",
-          "action": "Email outbound 1A inviata"
-        }
-      ],
-      "label_id": "Label_1592668050883672428",
-      "sender": "Manu",
-      "is_first_email": true,
-      "followups_sent": [],
-      "last_outbound_by_antonio": {
-        "date": "2026-05-13",
-        "snippet": "Ciao, mi sono imbattuto in Angelo Vintage cercando le migliori realtà fashion del settore. Ho visto la piattaforma che state usando per le vendite online, la conosco molto bene."
-      },
-      "last_reply_from_prospect": null,
-      "next_followup_due": "2026-05-27",
-      "days_since_last_activity": 0,
-      "first_email_snippet": "Ciao, mi sono imbattuto in Angelo Vintage cercando le migliori realtà fashion del settore. Ho visto la piattaforma che state usando per le vendite online, la conosco molto bene.",
-      "scheduled_timeline": {
-        "first_email": "2026-05-13",
-        "follow_up_1": "2026-05-27",
-        "follow_up_2": "2026-06-18",
-        "follow_up_3": "2026-07-16",
-        "out_date": "2026-07-17"
-      },
-      "subject_email": "Problema su angelovintage.com"
     },
     {
       "id": "prospect_016",
@@ -7903,6 +7819,622 @@
         "out_date": "2026-07-17"
       },
       "subject_email": "case study is live"
+    },
+    {
+      "id": "prospect_178",
+      "brand": "Amedeo D.",
+      "contact": "Leonardo Tartaglia",
+      "email": "tartaglia@amedeod.it",
+      "domain": "amedeod.it",
+      "assigned_to": "Manu",
+      "angle": "1A",
+      "platform": "non-Shopify",
+      "status": "contacted",
+      "first_contact": "2026-05-13",
+      "last_activity": "2026-05-13",
+      "next_action": "Follow-up 1",
+      "next_action_date": "2026-05-27",
+      "stape_score": null,
+      "notes": "Boutique multibrand",
+      "thread_id": "19e21511d5060b51",
+      "timeline": [
+        {
+          "date": "2026-05-13",
+          "action": "Email outbound 1A inviata"
+        }
+      ],
+      "label_id": "Label_1592668050883672428",
+      "sender": "Manu",
+      "is_first_email": true,
+      "followups_sent": [],
+      "last_outbound_by_antonio": {
+        "date": "2026-05-13",
+        "snippet": "Buonasera Leonardo, mi sono imbattuto in Amedeo D. cercando le migliori boutique multibrand del settore in Italia"
+      },
+      "last_reply_from_prospect": null,
+      "next_followup_due": "2026-05-27",
+      "days_since_last_activity": 1,
+      "first_email_snippet": "Buonasera Leonardo, mi sono imbattuto in Amedeo D. cercando le migliori boutique multibrand del settore in Italia",
+      "scheduled_timeline": {
+        "first_email": "2026-05-13",
+        "follow_up_1": "2026-05-27",
+        "follow_up_2": "2026-06-18",
+        "follow_up_3": "2026-07-16",
+        "out_date": "2026-07-17"
+      },
+      "subject_email": "Problema su amedeod.it"
+    },
+    {
+      "id": "prospect_179",
+      "brand": "Cotton Club",
+      "contact": null,
+      "email": "information@cottonclubshop.com",
+      "domain": "cottonclubshop.com",
+      "assigned_to": "Manu",
+      "angle": "1A",
+      "platform": "non-Shopify",
+      "status": "contacted",
+      "first_contact": "2026-05-13",
+      "last_activity": "2026-05-13",
+      "next_action": "Follow-up 1",
+      "next_action_date": "2026-05-27",
+      "stape_score": null,
+      "notes": "Luxury boutique multibrand Monza",
+      "thread_id": "19e211f62d561292",
+      "timeline": [
+        {
+          "date": "2026-05-13",
+          "action": "Email outbound 1A inviata"
+        }
+      ],
+      "label_id": "Label_1592668050883672428",
+      "sender": "Manu",
+      "is_first_email": true,
+      "followups_sent": [],
+      "last_outbound_by_antonio": {
+        "date": "2026-05-13",
+        "snippet": "Buonasera, mi sono imbattuto in Cotton Club cercando le migliori luxury boutique multibrand del settore in Italia, la boutique a Monza è stupenda."
+      },
+      "last_reply_from_prospect": null,
+      "next_followup_due": "2026-05-27",
+      "days_since_last_activity": 1,
+      "first_email_snippet": "Buonasera, mi sono imbattuto in Cotton Club cercando le migliori luxury boutique multibrand del settore in Italia, la boutique a Monza è stupenda.",
+      "scheduled_timeline": {
+        "first_email": "2026-05-13",
+        "follow_up_1": "2026-05-27",
+        "follow_up_2": "2026-06-18",
+        "follow_up_3": "2026-07-16",
+        "out_date": "2026-07-17"
+      },
+      "subject_email": "cottonclubshop.com - aggiornamento store online"
+    },
+    {
+      "id": "prospect_180",
+      "brand": "Ivo Milan Radical Fashion",
+      "contact": null,
+      "email": "commerce@ivomilan.com",
+      "domain": "ivomilan.com",
+      "assigned_to": "Manu",
+      "angle": "1A",
+      "platform": "non-Shopify",
+      "status": "contacted",
+      "first_contact": "2026-05-13",
+      "last_activity": "2026-05-13",
+      "next_action": "Follow-up 1",
+      "next_action_date": "2026-05-27",
+      "stape_score": null,
+      "notes": "Luxury boutique Padova",
+      "thread_id": "19e212ff713c2811",
+      "timeline": [
+        {
+          "date": "2026-05-13",
+          "action": "Email outbound 1A inviata"
+        }
+      ],
+      "label_id": "Label_1592668050883672428",
+      "sender": "Manu",
+      "is_first_email": true,
+      "followups_sent": [],
+      "last_outbound_by_antonio": {
+        "date": "2026-05-13",
+        "snippet": "Buonasera, mi sono imbattuto in Ivo Milan Radical Fashion cercando le migliori luxury boutique multibrand del settore in Italia, la boutique a Padova è stupenda."
+      },
+      "last_reply_from_prospect": null,
+      "next_followup_due": "2026-05-27",
+      "days_since_last_activity": 1,
+      "first_email_snippet": "Buonasera, mi sono imbattuto in Ivo Milan Radical Fashion cercando le migliori luxury boutique multibrand del settore in Italia, la boutique a Padova è stupenda.",
+      "scheduled_timeline": {
+        "first_email": "2026-05-13",
+        "follow_up_1": "2026-05-27",
+        "follow_up_2": "2026-06-18",
+        "follow_up_3": "2026-07-16",
+        "out_date": "2026-07-17"
+      },
+      "subject_email": "Problema su ivomilan.com"
+    },
+    {
+      "id": "prospect_181",
+      "brand": "Singolare",
+      "contact": null,
+      "email": "info@singolare.it",
+      "domain": "singolare.it",
+      "assigned_to": "Manu",
+      "angle": "1A",
+      "platform": "non-Shopify",
+      "status": "contacted",
+      "first_contact": "2026-05-13",
+      "last_activity": "2026-05-13",
+      "next_action": "Follow-up 1",
+      "next_action_date": "2026-05-27",
+      "stape_score": null,
+      "notes": "Boutique multibrand Napoli",
+      "thread_id": "19e20d92d3b71d4f",
+      "timeline": [
+        {
+          "date": "2026-05-13",
+          "action": "Email outbound 1A inviata"
+        }
+      ],
+      "label_id": "Label_1592668050883672428",
+      "sender": "Manu",
+      "is_first_email": true,
+      "followups_sent": [],
+      "last_outbound_by_antonio": {
+        "date": "2026-05-13",
+        "snippet": "Buonasera, mi sono imbattuto in Singolare cercando le migliori boutique multibrand del settore in Italia, la boutique a Napoli è stupenda."
+      },
+      "last_reply_from_prospect": null,
+      "next_followup_due": "2026-05-27",
+      "days_since_last_activity": 1,
+      "first_email_snippet": "Buonasera, mi sono imbattuto in Singolare cercando le migliori boutique multibrand del settore in Italia, la boutique a Napoli è stupenda.",
+      "scheduled_timeline": {
+        "first_email": "2026-05-13",
+        "follow_up_1": "2026-05-27",
+        "follow_up_2": "2026-06-18",
+        "follow_up_3": "2026-07-16",
+        "out_date": "2026-07-17"
+      },
+      "subject_email": "[RE]: Report singolare.it"
+    },
+    {
+      "id": "prospect_182",
+      "brand": "Angelo Minetti",
+      "contact": "Sara Agnelli",
+      "email": "sara.agnelli@angelominetti.it",
+      "domain": "angelominetti.it",
+      "assigned_to": "Manu",
+      "angle": "1A",
+      "platform": "non-Shopify",
+      "status": "contacted",
+      "first_contact": "2026-05-13",
+      "last_activity": "2026-05-13",
+      "next_action": "Follow-up 1",
+      "next_action_date": "2026-05-27",
+      "stape_score": null,
+      "notes": "Luxury boutique Casale Monferrato",
+      "thread_id": "19e213be13545c0d",
+      "timeline": [
+        {
+          "date": "2026-05-13",
+          "action": "Email outbound 1A inviata"
+        }
+      ],
+      "label_id": "Label_1592668050883672428",
+      "sender": "Manu",
+      "is_first_email": true,
+      "followups_sent": [],
+      "last_outbound_by_antonio": {
+        "date": "2026-05-13",
+        "snippet": "Ciao Sara, mi sono imbattuto in Angelo Minetti cercando le migliori luxury boutique multibrand del settore in Italia"
+      },
+      "last_reply_from_prospect": null,
+      "next_followup_due": "2026-05-27",
+      "days_since_last_activity": 1,
+      "first_email_snippet": "Ciao Sara, mi sono imbattuto in Angelo Minetti cercando le migliori luxury boutique multibrand del settore in Italia",
+      "scheduled_timeline": {
+        "first_email": "2026-05-13",
+        "follow_up_1": "2026-05-27",
+        "follow_up_2": "2026-06-18",
+        "follow_up_3": "2026-07-16",
+        "out_date": "2026-07-17"
+      },
+      "subject_email": "Problema su angelominetti.it"
+    },
+    {
+      "id": "prospect_183",
+      "brand": "Il Faro",
+      "contact": null,
+      "email": "info@ilfaroboutique.it",
+      "domain": "ilfaroboutique.it",
+      "assigned_to": "Manu",
+      "angle": "1A",
+      "platform": "non-Shopify",
+      "status": "contacted",
+      "first_contact": "2026-05-13",
+      "last_activity": "2026-05-13",
+      "next_action": "Follow-up 1",
+      "next_action_date": "2026-05-27",
+      "stape_score": null,
+      "notes": "Boutique multibrand Avellino",
+      "thread_id": "19e20d3738672f8c",
+      "timeline": [
+        {
+          "date": "2026-05-13",
+          "action": "Email outbound 1A inviata"
+        }
+      ],
+      "label_id": "Label_1592668050883672428",
+      "sender": "Manu",
+      "is_first_email": true,
+      "followups_sent": [],
+      "last_outbound_by_antonio": {
+        "date": "2026-05-13",
+        "snippet": "Buonasera, mi sono imbattuto in Il Faro cercando le migliori boutique multibrand del settore in Italia, la boutique ad Avellino è stupenda."
+      },
+      "last_reply_from_prospect": null,
+      "next_followup_due": "2026-05-27",
+      "days_since_last_activity": 1,
+      "first_email_snippet": "Buonasera, mi sono imbattuto in Il Faro cercando le migliori boutique multibrand del settore in Italia, la boutique ad Avellino è stupenda.",
+      "scheduled_timeline": {
+        "first_email": "2026-05-13",
+        "follow_up_1": "2026-05-27",
+        "follow_up_2": "2026-06-18",
+        "follow_up_3": "2026-07-16",
+        "out_date": "2026-07-17"
+      },
+      "subject_email": "[RE]: Report ilfaroboutique.it"
+    },
+    {
+      "id": "prospect_184",
+      "brand": "Deliberti",
+      "contact": "Panos Salvaras",
+      "email": "panos.salvaras@deliberti.it",
+      "domain": "deliberti.it",
+      "assigned_to": "Manu",
+      "angle": "1A",
+      "platform": "non-Shopify",
+      "status": "contacted",
+      "first_contact": "2026-05-13",
+      "last_activity": "2026-05-13",
+      "next_action": "Follow-up 1",
+      "next_action_date": "2026-05-27",
+      "stape_score": null,
+      "notes": "Luxury boutique Napoli (più sedi)",
+      "thread_id": "19e20c5a82f04c5f",
+      "timeline": [
+        {
+          "date": "2026-05-13",
+          "action": "Email outbound 1A inviata"
+        }
+      ],
+      "label_id": "Label_1592668050883672428",
+      "sender": "Manu",
+      "is_first_email": true,
+      "followups_sent": [],
+      "last_outbound_by_antonio": {
+        "date": "2026-05-13",
+        "snippet": "Ciao Panos, mi sono imbattuto in Deliberti cercando le migliori luxury boutique multibrand del settore in Italia, le boutique a Napoli sono stupende."
+      },
+      "last_reply_from_prospect": null,
+      "next_followup_due": "2026-05-27",
+      "days_since_last_activity": 1,
+      "first_email_snippet": "Ciao Panos, mi sono imbattuto in Deliberti cercando le migliori luxury boutique multibrand del settore in Italia, le boutique a Napoli sono stupende.",
+      "scheduled_timeline": {
+        "first_email": "2026-05-13",
+        "follow_up_1": "2026-05-27",
+        "follow_up_2": "2026-06-18",
+        "follow_up_3": "2026-07-16",
+        "out_date": "2026-07-17"
+      },
+      "subject_email": "deliberti.it - aggiornamento store online"
+    },
+    {
+      "id": "prospect_185",
+      "brand": "Petit Pasha",
+      "contact": null,
+      "email": "info@petitpasha.com",
+      "domain": "petitpasha.com",
+      "assigned_to": "Manu",
+      "angle": "1A",
+      "platform": "non-Shopify",
+      "status": "contacted",
+      "first_contact": "2026-05-13",
+      "last_activity": "2026-05-13",
+      "next_action": "Follow-up 1",
+      "next_action_date": "2026-05-27",
+      "stape_score": null,
+      "notes": "Boutique multibrand",
+      "thread_id": "19e214b3d3a50636",
+      "timeline": [
+        {
+          "date": "2026-05-13",
+          "action": "Email outbound 1A inviata"
+        }
+      ],
+      "label_id": "Label_1592668050883672428",
+      "sender": "Manu",
+      "is_first_email": true,
+      "followups_sent": [],
+      "last_outbound_by_antonio": {
+        "date": "2026-05-13",
+        "snippet": "Ciao, mi sono imbattuto in Petit Pasha cercando le migliori boutique multibrand del settore in Italia, bella la selezione che avete in questo periodo."
+      },
+      "last_reply_from_prospect": null,
+      "next_followup_due": "2026-05-27",
+      "days_since_last_activity": 1,
+      "first_email_snippet": "Ciao, mi sono imbattuto in Petit Pasha cercando le migliori boutique multibrand del settore in Italia, bella la selezione che avete in questo periodo.",
+      "scheduled_timeline": {
+        "first_email": "2026-05-13",
+        "follow_up_1": "2026-05-27",
+        "follow_up_2": "2026-06-18",
+        "follow_up_3": "2026-07-16",
+        "out_date": "2026-07-17"
+      },
+      "subject_email": "Report petitpasha.com tracciamento"
+    },
+    {
+      "id": "prospect_186",
+      "brand": "Paolo Fiorillo",
+      "contact": null,
+      "email": "info@paolofiorillo.com",
+      "domain": "paolofiorillo.com",
+      "assigned_to": "Manu",
+      "angle": "1A",
+      "platform": "non-Shopify",
+      "status": "contacted",
+      "first_contact": "2026-05-13",
+      "last_activity": "2026-05-13",
+      "next_action": "Follow-up 1",
+      "next_action_date": "2026-05-27",
+      "stape_score": null,
+      "notes": "Boutique multibrand Napoli",
+      "thread_id": "19e2144dfb973b5a",
+      "timeline": [
+        {
+          "date": "2026-05-13",
+          "action": "Email outbound 1A inviata"
+        }
+      ],
+      "label_id": "Label_1592668050883672428",
+      "sender": "Manu",
+      "is_first_email": true,
+      "followups_sent": [],
+      "last_outbound_by_antonio": {
+        "date": "2026-05-13",
+        "snippet": "Buonasera, mi sono imbattuto in Paolo Fiorillo cercando le migliori boutique multibrand del settore in Italia, la boutique a Napoli è stupenda."
+      },
+      "last_reply_from_prospect": null,
+      "next_followup_due": "2026-05-27",
+      "days_since_last_activity": 1,
+      "first_email_snippet": "Buonasera, mi sono imbattuto in Paolo Fiorillo cercando le migliori boutique multibrand del settore in Italia, la boutique a Napoli è stupenda.",
+      "scheduled_timeline": {
+        "first_email": "2026-05-13",
+        "follow_up_1": "2026-05-27",
+        "follow_up_2": "2026-06-18",
+        "follow_up_3": "2026-07-16",
+        "out_date": "2026-07-17"
+      },
+      "subject_email": "[RE]: Report paolofiorillo.com"
+    },
+    {
+      "id": "prospect_187",
+      "brand": "Montorsi Modena 1964",
+      "contact": null,
+      "email": "info@montorsiboutique.com",
+      "domain": "montorsiboutique.com",
+      "assigned_to": "Manu",
+      "angle": "1A",
+      "platform": "non-Shopify",
+      "status": "contacted",
+      "first_contact": "2026-05-13",
+      "last_activity": "2026-05-13",
+      "next_action": "Follow-up 1",
+      "next_action_date": "2026-05-27",
+      "stape_score": null,
+      "notes": "Luxury boutique Modena",
+      "thread_id": "19e2100b5714f158",
+      "timeline": [
+        {
+          "date": "2026-05-13",
+          "action": "Email outbound 1A inviata"
+        }
+      ],
+      "label_id": "Label_1592668050883672428",
+      "sender": "Manu",
+      "is_first_email": true,
+      "followups_sent": [],
+      "last_outbound_by_antonio": {
+        "date": "2026-05-13",
+        "snippet": "Buonasera, mi sono imbattuto in Montorsi Modena 1964 cercando le migliori luxury boutique multibrand del settore in Italia, la boutique a Modena è stupenda."
+      },
+      "last_reply_from_prospect": null,
+      "next_followup_due": "2026-05-27",
+      "days_since_last_activity": 1,
+      "first_email_snippet": "Buonasera, mi sono imbattuto in Montorsi Modena 1964 cercando le migliori luxury boutique multibrand del settore in Italia, la boutique a Modena è stupenda.",
+      "scheduled_timeline": {
+        "first_email": "2026-05-13",
+        "follow_up_1": "2026-05-27",
+        "follow_up_2": "2026-06-18",
+        "follow_up_3": "2026-07-16",
+        "out_date": "2026-07-17"
+      },
+      "subject_email": "[RE]: Report montorsiboutique.com"
+    },
+    {
+      "id": "prospect_188",
+      "brand": "The Chill Pepper",
+      "contact": null,
+      "email": "support@thechilipepper.it",
+      "domain": "thechilipepperstore.it",
+      "assigned_to": "Manu",
+      "angle": "1A",
+      "platform": "non-Shopify",
+      "status": "contacted",
+      "first_contact": "2026-05-13",
+      "last_activity": "2026-05-13",
+      "next_action": "Follow-up 1",
+      "next_action_date": "2026-05-27",
+      "stape_score": null,
+      "notes": "Boutique multibrand Reggio Calabria",
+      "thread_id": "19e20c36a5bf78a9",
+      "timeline": [
+        {
+          "date": "2026-05-13",
+          "action": "Email outbound 1A inviata"
+        }
+      ],
+      "label_id": "Label_1592668050883672428",
+      "sender": "Manu",
+      "is_first_email": true,
+      "followups_sent": [],
+      "last_outbound_by_antonio": {
+        "date": "2026-05-13",
+        "snippet": "Buongiorno, mi sono imbattuto in The Chill Pepper cercando le migliori boutique multibrand del settore in Italia, la boutique a Reggio Calabria è molto bella."
+      },
+      "last_reply_from_prospect": null,
+      "next_followup_due": "2026-05-27",
+      "days_since_last_activity": 1,
+      "first_email_snippet": "Buongiorno, mi sono imbattuto in The Chill Pepper cercando le migliori boutique multibrand del settore in Italia, la boutique a Reggio Calabria è molto bella.",
+      "scheduled_timeline": {
+        "first_email": "2026-05-13",
+        "follow_up_1": "2026-05-27",
+        "follow_up_2": "2026-06-18",
+        "follow_up_3": "2026-07-16",
+        "out_date": "2026-07-17"
+      },
+      "subject_email": "Report thechilipepperstore.it tracciamento"
+    },
+    {
+      "id": "prospect_189",
+      "brand": "Foti",
+      "contact": null,
+      "email": "info@fotiboutique.com",
+      "domain": "fotiboutique.com",
+      "assigned_to": "Manu",
+      "angle": "1A",
+      "platform": "non-Shopify",
+      "status": "contacted",
+      "first_contact": "2026-05-13",
+      "last_activity": "2026-05-13",
+      "next_action": "Follow-up 1",
+      "next_action_date": "2026-05-27",
+      "stape_score": null,
+      "notes": "Luxury boutique Reggio Calabria",
+      "thread_id": "19e20be8e55b0cdd",
+      "timeline": [
+        {
+          "date": "2026-05-13",
+          "action": "Email outbound 1A inviata"
+        }
+      ],
+      "label_id": "Label_1592668050883672428",
+      "sender": "Manu",
+      "is_first_email": true,
+      "followups_sent": [],
+      "last_outbound_by_antonio": {
+        "date": "2026-05-13",
+        "snippet": "Buongiorno, mi sono imbattuto in Foti cercando le migliori luxury boutique multibrand del settore in Italia, la boutique a Reggio Calabria è stupenda."
+      },
+      "last_reply_from_prospect": null,
+      "next_followup_due": "2026-05-27",
+      "days_since_last_activity": 1,
+      "first_email_snippet": "Buongiorno, mi sono imbattuto in Foti cercando le migliori luxury boutique multibrand del settore in Italia, la boutique a Reggio Calabria è stupenda.",
+      "scheduled_timeline": {
+        "first_email": "2026-05-13",
+        "follow_up_1": "2026-05-27",
+        "follow_up_2": "2026-06-18",
+        "follow_up_3": "2026-07-16",
+        "out_date": "2026-07-17"
+      },
+      "subject_email": "Problema su fotiboutique.com"
+    },
+    {
+      "id": "prospect_190",
+      "brand": "Insight Concept Store",
+      "contact": null,
+      "email": "info@insightconceptstore.com",
+      "domain": "insightconceptstore.com",
+      "assigned_to": "Manu",
+      "angle": "1A",
+      "platform": "non-Shopify",
+      "status": "contacted",
+      "first_contact": "2026-05-13",
+      "last_activity": "2026-05-13",
+      "next_action": "Follow-up 1",
+      "next_action_date": "2026-05-27",
+      "stape_score": null,
+      "notes": "Luxury boutique Roma",
+      "thread_id": "19e20ba5587c973d",
+      "timeline": [
+        {
+          "date": "2026-05-13",
+          "action": "Email outbound 1A inviata"
+        }
+      ],
+      "label_id": "Label_1592668050883672428",
+      "sender": "Manu",
+      "is_first_email": true,
+      "followups_sent": [],
+      "last_outbound_by_antonio": {
+        "date": "2026-05-13",
+        "snippet": "Buongiorno, mi sono imbattuto in Insight cercando le migliori luxury boutique multibrand del settore in Italia, la boutique a Roma è stupenda."
+      },
+      "last_reply_from_prospect": null,
+      "next_followup_due": "2026-05-27",
+      "days_since_last_activity": 1,
+      "first_email_snippet": "Buongiorno, mi sono imbattuto in Insight cercando le migliori luxury boutique multibrand del settore in Italia, la boutique a Roma è stupenda.",
+      "scheduled_timeline": {
+        "first_email": "2026-05-13",
+        "follow_up_1": "2026-05-27",
+        "follow_up_2": "2026-06-18",
+        "follow_up_3": "2026-07-16",
+        "out_date": "2026-07-17"
+      },
+      "subject_email": "[RE]: Report insightconceptstore.com"
+    },
+    {
+      "id": "prospect_191",
+      "brand": "Bellettini",
+      "contact": "Silvia Berardi",
+      "email": "s.berardi@bellettini.com",
+      "domain": "bellettini.com",
+      "assigned_to": "Manu",
+      "angle": "1A",
+      "platform": "non-Shopify",
+      "status": "contacted",
+      "first_contact": "2026-05-14",
+      "last_activity": "2026-05-14",
+      "next_action": "Follow-up 1",
+      "next_action_date": "2026-05-28",
+      "stape_score": null,
+      "notes": "Luxury boutique Vetralla",
+      "thread_id": "19e216b2f240e6d4",
+      "timeline": [
+        {
+          "date": "2026-05-14",
+          "action": "Email outbound 1A inviata"
+        }
+      ],
+      "label_id": "Label_1592668050883672428",
+      "sender": "Manu",
+      "is_first_email": true,
+      "followups_sent": [],
+      "last_outbound_by_antonio": {
+        "date": "2026-05-14",
+        "snippet": "Buongiorno Silvia, mi sono imbattuto in Bellettini cercando le migliori luxury boutique multibrand del settore in Italia, la boutique a Vetralla è stupenda."
+      },
+      "last_reply_from_prospect": null,
+      "next_followup_due": "2026-05-28",
+      "days_since_last_activity": 0,
+      "first_email_snippet": "Buongiorno Silvia, mi sono imbattuto in Bellettini cercando le migliori luxury boutique multibrand del settore in Italia, la boutique a Vetralla è stupenda.",
+      "scheduled_timeline": {
+        "first_email": "2026-05-14",
+        "follow_up_1": "2026-05-28",
+        "follow_up_2": "2026-06-19",
+        "follow_up_3": "2026-07-17",
+        "out_date": "2026-07-20"
+      },
+      "subject_email": "Problema su bellettini.com"
     }
   ],
   "bounced": [
@@ -8318,6 +8850,162 @@
       "followups_sent": [],
       "platform": "Shopify",
       "contact": "Marcela",
+      "next_action": null,
+      "next_action_date": null,
+      "next_followup_due": null
+    },
+    {
+      "id": "bounce_017",
+      "brand": "Giordano Cosenza",
+      "email": "info@giordanocosenza.com",
+      "domain": "giordanocosenza.com",
+      "subject_email": "Problema su giordanocosenza.com",
+      "assigned_to": "Manu",
+      "sender": "Manu",
+      "label_id": "Label_1592668050883672428",
+      "angle": "1A",
+      "bounce_date": "2026-05-13",
+      "first_contact": "2026-05-13",
+      "last_activity": "2026-05-13",
+      "status": "bounced",
+      "notes": "Bounce — shop@giordanocosenza.com non trovato (550 5.1.1). Email inviata a info@, forward a shop@ fallito.",
+      "thread_id": "19e1d236574a95ea",
+      "suggested_action": "Cerca contatto alternativo",
+      "alt_contact_found": false,
+      "is_first_email": false,
+      "followups_sent": [],
+      "platform": "non-Shopify",
+      "contact": null,
+      "next_action": null,
+      "next_action_date": null,
+      "next_followup_due": null
+    },
+    {
+      "id": "bounce_018",
+      "brand": "Angelo Vintage",
+      "email": "info@angelo.it",
+      "domain": "angelovintage.com",
+      "subject_email": "Problema su angelovintage.com",
+      "assigned_to": "Manu",
+      "sender": "Manu",
+      "label_id": "Label_1592668050883672428",
+      "angle": "1A",
+      "bounce_date": "2026-05-13",
+      "first_contact": "2026-05-13",
+      "last_activity": "2026-05-13",
+      "status": "bounced",
+      "notes": "Bounce — eshop@angelo.it e shop@angelo.it entrambi non trovati (mailer-daemon@googlemail.com)",
+      "thread_id": "19e1d068b43b13f3",
+      "suggested_action": "Cerca contatto alternativo",
+      "alt_contact_found": false,
+      "is_first_email": false,
+      "followups_sent": [],
+      "platform": "non-Shopify",
+      "contact": null,
+      "next_action": null,
+      "next_action_date": null,
+      "next_followup_due": null
+    },
+    {
+      "id": "bounce_019",
+      "brand": "Anteprima Extra",
+      "email": "a.salvaggiulo@anteprimaextra.com",
+      "domain": "anteprimaextra.com",
+      "subject_email": "Problema su anteprimaextra.com",
+      "assigned_to": "Manu",
+      "sender": "Manu",
+      "label_id": "Label_1592668050883672428",
+      "angle": "1A",
+      "bounce_date": "2026-05-13",
+      "first_contact": "2026-05-13",
+      "last_activity": "2026-05-13",
+      "status": "bounced",
+      "notes": "Bounce immediato — a.salvaggiulo@anteprimaextra.com indirizzo inesistente (550 5.1.1)",
+      "thread_id": "19e21404ba48e7aa",
+      "suggested_action": "Cerca contatto alternativo",
+      "alt_contact_found": false,
+      "is_first_email": false,
+      "followups_sent": [],
+      "platform": "non-Shopify",
+      "contact": "Anna Salvaggiulo",
+      "next_action": null,
+      "next_action_date": null,
+      "next_followup_due": null
+    },
+    {
+      "id": "bounce_020",
+      "brand": "Hype Clothinga",
+      "email": "info@hypeclothinga.com",
+      "domain": "hypeclothinga.com",
+      "subject_email": "Report hypeclothinga.com  tracciamento",
+      "assigned_to": "Manu",
+      "sender": "Manu",
+      "label_id": "Label_1592668050883672428",
+      "angle": "1A",
+      "bounce_date": "2026-05-13",
+      "first_contact": "2026-05-13",
+      "last_activity": "2026-05-13",
+      "status": "bounced",
+      "notes": "Bounce — info@hypeclothinga.com forward a viani@hypeclothinga.com: 550 No Such User Here",
+      "thread_id": "19e210ebe5dc0c8d",
+      "suggested_action": "Cerca contatto alternativo",
+      "alt_contact_found": false,
+      "is_first_email": false,
+      "followups_sent": [],
+      "platform": "non-Shopify",
+      "contact": null,
+      "next_action": null,
+      "next_action_date": null,
+      "next_followup_due": null
+    },
+    {
+      "id": "bounce_021",
+      "brand": "Spazio Bra",
+      "email": "contact@spaziobra.com",
+      "domain": "spaziobra.com",
+      "subject_email": "Problema su spaziobra.com",
+      "assigned_to": "Manu",
+      "sender": "Manu",
+      "label_id": "Label_1592668050883672428",
+      "angle": "1A",
+      "bounce_date": "2026-05-13",
+      "first_contact": "2026-05-13",
+      "last_activity": "2026-05-13",
+      "status": "bounced",
+      "notes": "Bounce — contact@spaziobra.com: Recipient Unknown (postmaster@spaziobra.com Office365)",
+      "thread_id": "19e21341bb786918",
+      "suggested_action": "Cerca contatto alternativo",
+      "alt_contact_found": false,
+      "is_first_email": false,
+      "followups_sent": [],
+      "platform": "non-Shopify",
+      "contact": null,
+      "next_action": null,
+      "next_action_date": null,
+      "next_followup_due": null
+    },
+    {
+      "id": "bounce_022",
+      "brand": "The Double F",
+      "email": "info@frboutique.it",
+      "domain": "thedoublef.com",
+      "subject_email": "Problema su thedoublef.com",
+      "assigned_to": "Manu",
+      "sender": "Manu",
+      "label_id": "Label_1592668050883672428",
+      "angle": "1A",
+      "bounce_date": "2026-05-13",
+      "first_contact": "2026-05-13",
+      "last_activity": "2026-05-13",
+      "status": "bounced",
+      "notes": "Bounce — info@frboutique.it indirizzo inesistente (mailer-daemon@googlemail.com)",
+      "thread_id": "19e210395aad3e1e",
+      "suggested_action": "Cerca contatto alternativo",
+      "alt_contact_found": false,
+      "is_first_email": false,
+      "followups_sent": [],
+      "platform": "non-Shopify",
+      "contact": null,
       "next_action": null,
       "next_action_date": null,
       "next_followup_due": null
