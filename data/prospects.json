@@ -1,9 +1,9 @@
 {
   "meta": {
-    "last_updated": "2026-05-15T16:00:00+02:00",
-    "total_contacted": 202,
-    "total_replied": 3,
-    "total_bounced": 23,
+    "last_updated": "2026-05-16T01:05:00+02:00",
+    "total_contacted": 245,
+    "total_replied": 5,
+    "total_bounced": 31,
     "total_autoresponse": 11,
     "first_run": false,
     "coverage_note": "First run — copre outbound visibili negli ultimi ~9 giorni (2026-05-06 → 2026-05-13). Le runs giornaliere successive aggiungeranno nuovi thread incrementalmente.",
@@ -240,6 +240,111 @@
         "out_date": "2026-07-07"
       },
       "subject_email": "Re: Accorgimento rapido sullo store"
+    },
+    {
+      "id": "prospect_182",
+      "brand": "Angelo Minetti",
+      "contact": "Sara Agnelli",
+      "email": "sara.agnelli@angelominetti.it",
+      "domain": "angelominetti.it",
+      "assigned_to": "Manu",
+      "angle": "1A",
+      "platform": "non-Shopify",
+      "status": "in_conversation",
+      "first_contact": "2026-05-13",
+      "last_activity": "2026-05-15",
+      "next_action": "Attendere risposta dall'ufficio competente. Ricontattare Sara se silenzio.",
+      "next_action_date": null,
+      "stape_score": null,
+      "notes": "Luxury boutique Casale Monferrato",
+      "thread_id": "19e213be13545c0d",
+      "timeline": [
+        {
+          "date": "2026-05-13",
+          "action": "Email outbound 1A inviata"
+        },
+        {
+          "date": "2026-05-15",
+          "action": "Risposta umana: Sara Agnelli ha girato la mail a chi di competenza"
+        },
+        {
+          "date": "2026-05-15",
+          "action": "Email di risposta inviata da Antonio: 'Grazie mille Sara 😊'"
+        }
+      ],
+      "label_id": "Label_1592668050883672428",
+      "sender": "Manu",
+      "is_first_email": true,
+      "followups_sent": [],
+      "last_outbound_by_antonio": {
+        "date": "2026-05-15",
+        "snippet": "Grazie mille Sara 😊"
+      },
+      "last_reply_from_prospect": {
+        "date": "2026-05-15",
+        "snippet": "Buongiorno Antonio, ho girato la sua mail a chi di competenza. Cordiali saluti, Sara Agnelli MINETTI ANGELO SRL"
+      },
+      "next_followup_due": "2026-05-27",
+      "days_since_last_activity": 1,
+      "first_email_snippet": "Ciao Sara, mi sono imbattuto in Angelo Minetti cercando le migliori luxury boutique multibrand del settore in Italia",
+      "scheduled_timeline": {
+        "first_email": "2026-05-13",
+        "follow_up_1": "2026-05-27",
+        "follow_up_2": "2026-06-18",
+        "follow_up_3": "2026-07-16",
+        "out_date": "2026-07-17"
+      },
+      "subject_email": "Problema su angelominetti.it"
+    },
+    {
+      "id": "prospect_224",
+      "brand": "Salt",
+      "contact": "Caterina Zorzan",
+      "email": "caterina@saltresortwear.com",
+      "domain": "saltresortwear.com",
+      "subject_email": "Salt, i dati non tornano",
+      "assigned_to": "Dami",
+      "sender": "Dami",
+      "label_id": "Label_8658624016447790536",
+      "angle": "2B",
+      "platform": "Shopify",
+      "status": "in_conversation",
+      "first_contact": "2026-05-15",
+      "last_activity": "2026-05-15",
+      "multi_to": false,
+      "had_cc_bcc": false,
+      "redirect_to": null,
+      "stape_score": null,
+      "notes": "E-commerce Manager. Ha risposto positivamente dopo 16 minuti: 'I would be happy to have a look at your report'",
+      "thread_id": "19e2be2290b50c3b",
+      "followups_sent": [],
+      "scheduled_timeline": {
+        "first_email": "2026-05-15",
+        "follow_up_1": "2026-05-29",
+        "follow_up_2": "2026-06-22",
+        "follow_up_3": "2026-07-20",
+        "out_date": "2026-07-21"
+      },
+      "last_outbound_by_antonio": {
+        "date": "2026-05-15",
+        "snippet": "Ciao Caterina, Stavo guardando Salt boutique (molto fico lo store a Londra) e ho visto che state girando campagne Meta/Google"
+      },
+      "last_reply_from_prospect": {
+        "date": "2026-05-15",
+        "snippet": "Ciao Antonio, Thank you for your email. I would be happy to have a look at your report, why not ;) Best, Caterina Zorzan E-commerce Manager"
+      },
+      "next_action": "Inviare report Stape a Caterina Zorzan",
+      "next_action_date": null,
+      "timeline": [
+        {
+          "date": "2026-05-15",
+          "action": "Email outbound 2B inviata da Dami"
+        },
+        {
+          "date": "2026-05-15",
+          "action": "Risposta positiva: 'I would be happy to have a look at your report, why not ;)'"
+        }
+      ]
     }
   ],
   "no_reply": [
@@ -6871,11 +6976,11 @@
       "assigned_to": "Manu",
       "angle": "1A",
       "platform": "non-Shopify",
-      "status": "autoresponse",
+      "status": "follow_up_1_sent",
       "first_contact": "2026-05-01",
-      "last_activity": "2026-05-06",
-      "next_action": "Follow-up al rientro (OOO fino 11/05)",
-      "next_action_date": "2026-05-15",
+      "last_activity": "2026-05-15",
+      "next_action": "Follow-up 2",
+      "next_action_date": "2026-06-08",
       "stape_score": null,
       "notes": "OoO fino 11/05. Backup: customercare@gaudenziboutique.com",
       "thread_id": "19dfe74b8d226f45",
@@ -6887,15 +6992,26 @@
         {
           "date": "2026-05-06",
           "action": "Autoresponse OoO"
+        },
+        {
+          "date": "2026-05-15",
+          "action": "Follow-up 1 inviato da Antonio (post-OOO)"
         }
       ],
       "label_id": "Label_1592668050883672428",
       "sender": "Manu",
       "is_first_email": true,
-      "followups_sent": [],
+      "followups_sent": [
+        {
+          "date": "2026-05-15",
+          "type": "follow_up_1",
+          "sender": "Antonio",
+          "snippet": "Ciao Martina, ti rimando su — ti avevo scritto un mese fa e avevi il fuori ufficio attivo. Nel frattempo ho rivisto lo store: c'è qualcosa che mi piacerebbe mostrarti sull'esperienza online di..."
+        }
+      ],
       "last_outbound_by_antonio": {
-        "date": "2026-05-01",
-        "snippet": "Ciao Martina, mi sono imbattuto in Gaudenzi Boutique cercando le migliori realtà fashion del settore. Ho visto la piattaforma che state usando per le vendite online, la conosco molto bene."
+        "date": "2026-05-15",
+        "snippet": "Ciao Martina, ti rimando su — ti avevo scritto un mese fa e avevi il fuori ufficio attivo. Nel frattempo ho rivisto lo store:"
       },
       "last_reply_from_prospect": {
         "date": "2026-05-06",
@@ -8004,50 +8120,6 @@
         "out_date": "2026-07-17"
       },
       "subject_email": "[RE]: Report singolare.it"
-    },
-    {
-      "id": "prospect_182",
-      "brand": "Angelo Minetti",
-      "contact": "Sara Agnelli",
-      "email": "sara.agnelli@angelominetti.it",
-      "domain": "angelominetti.it",
-      "assigned_to": "Manu",
-      "angle": "1A",
-      "platform": "non-Shopify",
-      "status": "contacted",
-      "first_contact": "2026-05-13",
-      "last_activity": "2026-05-13",
-      "next_action": "Follow-up 1",
-      "next_action_date": "2026-05-27",
-      "stape_score": null,
-      "notes": "Luxury boutique Casale Monferrato",
-      "thread_id": "19e213be13545c0d",
-      "timeline": [
-        {
-          "date": "2026-05-13",
-          "action": "Email outbound 1A inviata"
-        }
-      ],
-      "label_id": "Label_1592668050883672428",
-      "sender": "Manu",
-      "is_first_email": true,
-      "followups_sent": [],
-      "last_outbound_by_antonio": {
-        "date": "2026-05-13",
-        "snippet": "Ciao Sara, mi sono imbattuto in Angelo Minetti cercando le migliori luxury boutique multibrand del settore in Italia"
-      },
-      "last_reply_from_prospect": null,
-      "next_followup_due": "2026-05-27",
-      "days_since_last_activity": 1,
-      "first_email_snippet": "Ciao Sara, mi sono imbattuto in Angelo Minetti cercando le migliori luxury boutique multibrand del settore in Italia",
-      "scheduled_timeline": {
-        "first_email": "2026-05-13",
-        "follow_up_1": "2026-05-27",
-        "follow_up_2": "2026-06-18",
-        "follow_up_3": "2026-07-16",
-        "out_date": "2026-07-17"
-      },
-      "subject_email": "Problema su angelominetti.it"
     },
     {
       "id": "prospect_183",
@@ -9849,6 +9921,1812 @@
       "stape_score": null,
       "multi_to": false,
       "had_cc_bcc": false
+    },
+    {
+      "id": "prospect_225",
+      "brand": "Plümo",
+      "contact": "Lucy",
+      "email": "lucy@plumo.com",
+      "domain": "plumo.com",
+      "subject_email": "Plümo, the numbers aren't adding up",
+      "assigned_to": "Dami",
+      "sender": "Dami",
+      "label_id": "Label_8658624016447790536",
+      "angle": "1A",
+      "platform": "non-Shopify",
+      "thread_id": "19e2c62aca5520ee",
+      "status": "contacted",
+      "first_contact": "2026-05-15",
+      "last_activity": "2026-05-15",
+      "multi_to": false,
+      "had_cc_bcc": false,
+      "redirect_to": null,
+      "stape_score": null,
+      "notes": "",
+      "followups_sent": [],
+      "scheduled_timeline": {
+        "first_email": "2026-05-15",
+        "follow_up_1": "2026-05-29",
+        "follow_up_2": "2026-06-22",
+        "follow_up_3": "2026-07-20",
+        "out_date": "2026-07-21"
+      },
+      "last_outbound_by_antonio": {
+        "date": "2026-05-15",
+        "snippet": "Hi Lucy, I came across Plümo website, and I noticed the platform you're currently using for your online sales, and I know it"
+      },
+      "last_reply_from_prospect": null,
+      "next_action": "Follow-up 1",
+      "next_action_date": "2026-05-29",
+      "timeline": [
+        {
+          "date": "2026-05-15",
+          "action": "Email outbound 1A inviata da Dami"
+        }
+      ]
+    },
+    {
+      "id": "prospect_226",
+      "brand": "Plümo",
+      "contact": "Esther",
+      "email": "esther@plumo.com",
+      "domain": "plumo.com",
+      "subject_email": "Re: Plümo, the numbers aren't adding up",
+      "assigned_to": "Dami",
+      "sender": "Dami",
+      "label_id": "Label_8658624016447790536",
+      "angle": "1A",
+      "platform": "non-Shopify",
+      "thread_id": "19e2c60ee72a947e",
+      "status": "contacted",
+      "first_contact": "2026-05-15",
+      "last_activity": "2026-05-15",
+      "multi_to": false,
+      "had_cc_bcc": false,
+      "redirect_to": null,
+      "stape_score": null,
+      "notes": "",
+      "followups_sent": [],
+      "scheduled_timeline": {
+        "first_email": "2026-05-15",
+        "follow_up_1": "2026-05-29",
+        "follow_up_2": "2026-06-22",
+        "follow_up_3": "2026-07-20",
+        "out_date": "2026-07-21"
+      },
+      "last_outbound_by_antonio": {
+        "date": "2026-05-15",
+        "snippet": "Hi Esther, I came across Plümo website, and I noticed the platform you're currently using for your online sales, and I know"
+      },
+      "last_reply_from_prospect": null,
+      "next_action": "Follow-up 1",
+      "next_action_date": "2026-05-29",
+      "timeline": [
+        {
+          "date": "2026-05-15",
+          "action": "Email outbound 1A inviata da Dami"
+        }
+      ]
+    },
+    {
+      "id": "prospect_227",
+      "brand": "Alex Monroe",
+      "contact": "Tom Graham",
+      "email": "tom.graham@alexmonroe.com",
+      "domain": "alexmonroe.com",
+      "subject_email": "Alex Monroe, the numbers aren't adding up",
+      "assigned_to": "Dami",
+      "sender": "Dami",
+      "label_id": "Label_8658624016447790536",
+      "angle": "1A",
+      "platform": "non-Shopify",
+      "thread_id": "19e2c5bbcee41cbb",
+      "status": "contacted",
+      "first_contact": "2026-05-15",
+      "last_activity": "2026-05-15",
+      "multi_to": false,
+      "had_cc_bcc": false,
+      "redirect_to": null,
+      "stape_score": null,
+      "notes": "",
+      "followups_sent": [],
+      "scheduled_timeline": {
+        "first_email": "2026-05-15",
+        "follow_up_1": "2026-05-29",
+        "follow_up_2": "2026-06-22",
+        "follow_up_3": "2026-07-20",
+        "out_date": "2026-07-21"
+      },
+      "last_outbound_by_antonio": {
+        "date": "2026-05-15",
+        "snippet": "Hi Tom, I came across Alex Monroe website, and I noticed the platform you're currently using for your online sales, and I kno"
+      },
+      "last_reply_from_prospect": null,
+      "next_action": "Follow-up 1",
+      "next_action_date": "2026-05-29",
+      "timeline": [
+        {
+          "date": "2026-05-15",
+          "action": "Email outbound 1A inviata da Dami"
+        }
+      ]
+    },
+    {
+      "id": "prospect_228",
+      "brand": "Zelens",
+      "contact": "Erin",
+      "email": "info@zelens.com",
+      "domain": "zelens.com",
+      "subject_email": "Re: Tracking + Meta campaigns",
+      "assigned_to": "Dami",
+      "sender": "Dami",
+      "label_id": "Label_8658624016447790536",
+      "angle": "2B",
+      "platform": "Shopify",
+      "thread_id": "19e2c5782555b6ea",
+      "status": "contacted",
+      "first_contact": "2026-05-15",
+      "last_activity": "2026-05-15",
+      "multi_to": false,
+      "had_cc_bcc": false,
+      "redirect_to": null,
+      "stape_score": null,
+      "notes": "",
+      "followups_sent": [],
+      "scheduled_timeline": {
+        "first_email": "2026-05-15",
+        "follow_up_1": "2026-05-29",
+        "follow_up_2": "2026-06-22",
+        "follow_up_3": "2026-07-20",
+        "out_date": "2026-07-21"
+      },
+      "last_outbound_by_antonio": {
+        "date": "2026-05-15",
+        "snippet": "Hi Erin, I was looking into Zelens and noticed you're running Meta/Google campaigns on an already well-structured Shopify st"
+      },
+      "last_reply_from_prospect": null,
+      "next_action": "Follow-up 1",
+      "next_action_date": "2026-05-29",
+      "timeline": [
+        {
+          "date": "2026-05-15",
+          "action": "Email outbound 2B inviata da Dami"
+        }
+      ]
+    },
+    {
+      "id": "prospect_229",
+      "brand": "Mistr.",
+      "contact": null,
+      "email": "customercare@mistr.co.uk",
+      "domain": "mistr.co.uk",
+      "subject_email": "[RE]: Report, mistr.co.uk",
+      "assigned_to": "Dami",
+      "sender": "Dami",
+      "label_id": "Label_8658624016447790536",
+      "angle": "3B",
+      "platform": "Shopify",
+      "thread_id": "19e2c516c0f10493",
+      "status": "contacted",
+      "first_contact": "2026-05-15",
+      "last_activity": "2026-05-15",
+      "multi_to": false,
+      "had_cc_bcc": false,
+      "redirect_to": null,
+      "stape_score": null,
+      "notes": "",
+      "followups_sent": [],
+      "scheduled_timeline": {
+        "first_email": "2026-05-15",
+        "follow_up_1": "2026-05-29",
+        "follow_up_2": "2026-06-22",
+        "follow_up_3": "2026-07-20",
+        "out_date": "2026-07-21"
+      },
+      "last_outbound_by_antonio": {
+        "date": "2026-05-15",
+        "snippet": "Hi, I was analyzing competitors in the fashion industry on Instagram (I work with many clients in this space, such as 'Cumini'"
+      },
+      "last_reply_from_prospect": null,
+      "next_action": "Follow-up 1",
+      "next_action_date": "2026-05-29",
+      "timeline": [
+        {
+          "date": "2026-05-15",
+          "action": "Email outbound 3B inviata da Dami"
+        }
+      ]
+    },
+    {
+      "id": "prospect_230",
+      "brand": "Sea Island Coffee",
+      "contact": "Emily",
+      "email": "info@seaislandcoffee.com",
+      "domain": "seaislandcoffee.com",
+      "subject_email": "Re: Sea Island Coffee, the numbers aren't adding up",
+      "assigned_to": "Dami",
+      "sender": "Dami",
+      "label_id": "Label_8658624016447790536",
+      "angle": "2B",
+      "platform": "Shopify",
+      "thread_id": "19e2c38203ab8525",
+      "status": "contacted",
+      "first_contact": "2026-05-15",
+      "last_activity": "2026-05-15",
+      "multi_to": false,
+      "had_cc_bcc": false,
+      "redirect_to": null,
+      "stape_score": null,
+      "notes": "",
+      "followups_sent": [],
+      "scheduled_timeline": {
+        "first_email": "2026-05-15",
+        "follow_up_1": "2026-05-29",
+        "follow_up_2": "2026-06-22",
+        "follow_up_3": "2026-07-20",
+        "out_date": "2026-07-21"
+      },
+      "last_outbound_by_antonio": {
+        "date": "2026-05-15",
+        "snippet": "Hi Emily, I was looking into Sea Island Coffee website and noticed you're running Meta/Google campaigns on an already well-st"
+      },
+      "last_reply_from_prospect": null,
+      "next_action": "Follow-up 1",
+      "next_action_date": "2026-05-29",
+      "timeline": [
+        {
+          "date": "2026-05-15",
+          "action": "Email outbound 2B inviata da Dami"
+        }
+      ]
+    },
+    {
+      "id": "prospect_231",
+      "brand": "Dolls of Decadence",
+      "contact": "Paulinah",
+      "email": "dollsofdecadencefashion@gmail.com",
+      "domain": "dollsofdecadence.co.uk",
+      "subject_email": "[RE]: Report, dollsofdecadence.co.uk",
+      "assigned_to": "Dami",
+      "sender": "Dami",
+      "label_id": "Label_8658624016447790536",
+      "angle": "3B",
+      "platform": "Shopify",
+      "thread_id": "19e2c2fa3895bcff",
+      "status": "contacted",
+      "first_contact": "2026-05-15",
+      "last_activity": "2026-05-15",
+      "multi_to": false,
+      "had_cc_bcc": false,
+      "redirect_to": null,
+      "stape_score": null,
+      "notes": "",
+      "followups_sent": [],
+      "scheduled_timeline": {
+        "first_email": "2026-05-15",
+        "follow_up_1": "2026-05-29",
+        "follow_up_2": "2026-06-22",
+        "follow_up_3": "2026-07-20",
+        "out_date": "2026-07-21"
+      },
+      "last_outbound_by_antonio": {
+        "date": "2026-05-15",
+        "snippet": "Hi Paulinah, I was analyzing competitors in the fashion industry on Instagram (I work with many clients in this space, such a"
+      },
+      "last_reply_from_prospect": null,
+      "next_action": "Follow-up 1",
+      "next_action_date": "2026-05-29",
+      "timeline": [
+        {
+          "date": "2026-05-15",
+          "action": "Email outbound 3B inviata da Dami"
+        }
+      ]
+    },
+    {
+      "id": "prospect_232",
+      "brand": "Somerville Scarves",
+      "contact": "Sally",
+      "email": "sally@somervillescarves.com",
+      "domain": "somervillescarves.com",
+      "subject_email": "Re: Tracking + Meta campaigns",
+      "assigned_to": "Dami",
+      "sender": "Dami",
+      "label_id": "Label_8658624016447790536",
+      "angle": "1A",
+      "platform": "non-Shopify",
+      "thread_id": "19e2c27d83b298e3",
+      "status": "contacted",
+      "first_contact": "2026-05-15",
+      "last_activity": "2026-05-15",
+      "multi_to": false,
+      "had_cc_bcc": false,
+      "redirect_to": null,
+      "stape_score": null,
+      "notes": "",
+      "followups_sent": [],
+      "scheduled_timeline": {
+        "first_email": "2026-05-15",
+        "follow_up_1": "2026-05-29",
+        "follow_up_2": "2026-06-22",
+        "follow_up_3": "2026-07-20",
+        "out_date": "2026-07-21"
+      },
+      "last_outbound_by_antonio": {
+        "date": "2026-05-15",
+        "snippet": "Hi Sally, I came across Somerville Scarves while researching the best clothing brand websites in the UK. I noticed the platfo"
+      },
+      "last_reply_from_prospect": null,
+      "next_action": "Follow-up 1",
+      "next_action_date": "2026-05-29",
+      "timeline": [
+        {
+          "date": "2026-05-15",
+          "action": "Email outbound 1A inviata da Dami"
+        }
+      ]
+    },
+    {
+      "id": "prospect_233",
+      "brand": "Primrose Park",
+      "contact": "Jennifer",
+      "email": "jennifer@primroseparkmpls.com",
+      "domain": "primroseparkmpls.com",
+      "subject_email": "Primrose Park, the numbers aren't adding up",
+      "assigned_to": "Dami",
+      "sender": "Dami",
+      "label_id": "Label_8658624016447790536",
+      "angle": "1A",
+      "platform": "non-Shopify",
+      "thread_id": "19e2c2162ff35523",
+      "status": "contacted",
+      "first_contact": "2026-05-15",
+      "last_activity": "2026-05-15",
+      "multi_to": false,
+      "had_cc_bcc": false,
+      "redirect_to": null,
+      "stape_score": null,
+      "notes": "",
+      "followups_sent": [],
+      "scheduled_timeline": {
+        "first_email": "2026-05-15",
+        "follow_up_1": "2026-05-29",
+        "follow_up_2": "2026-06-22",
+        "follow_up_3": "2026-07-20",
+        "out_date": "2026-07-21"
+      },
+      "last_outbound_by_antonio": {
+        "date": "2026-05-15",
+        "snippet": "Hi Jennifer, I came across Primrose Park website, and I noticed the platform you're currently using for your online sales, an"
+      },
+      "last_reply_from_prospect": null,
+      "next_action": "Follow-up 1",
+      "next_action_date": "2026-05-29",
+      "timeline": [
+        {
+          "date": "2026-05-15",
+          "action": "Email outbound 1A inviata da Dami"
+        }
+      ]
+    },
+    {
+      "id": "prospect_234",
+      "brand": "Anna",
+      "contact": "Anna",
+      "email": "anna@shopatanna.co.uk",
+      "domain": "shopatanna.co.uk",
+      "subject_email": "Anna, the numbers aren't adding up",
+      "assigned_to": "Dami",
+      "sender": "Dami",
+      "label_id": "Label_8658624016447790536",
+      "angle": "1A",
+      "platform": "non-Shopify",
+      "thread_id": "19e2c1a59ac5691c",
+      "status": "contacted",
+      "first_contact": "2026-05-15",
+      "last_activity": "2026-05-15",
+      "multi_to": false,
+      "had_cc_bcc": false,
+      "redirect_to": null,
+      "stape_score": null,
+      "notes": "",
+      "followups_sent": [],
+      "scheduled_timeline": {
+        "first_email": "2026-05-15",
+        "follow_up_1": "2026-05-29",
+        "follow_up_2": "2026-06-22",
+        "follow_up_3": "2026-07-20",
+        "out_date": "2026-07-21"
+      },
+      "last_outbound_by_antonio": {
+        "date": "2026-05-15",
+        "snippet": "Hi Anna, I came across Anna website while researching the best fashion brands in the UK. I noticed the platform you're curren"
+      },
+      "last_reply_from_prospect": null,
+      "next_action": "Follow-up 1",
+      "next_action_date": "2026-05-29",
+      "timeline": [
+        {
+          "date": "2026-05-15",
+          "action": "Email outbound 1A inviata da Dami"
+        }
+      ]
+    },
+    {
+      "id": "prospect_235",
+      "brand": "Anna",
+      "contact": null,
+      "email": "primrose@shopatanna.co.uk",
+      "domain": "shopatanna.co.uk",
+      "subject_email": "Re: Anna, the numbers aren't adding up",
+      "assigned_to": "Dami",
+      "sender": "Dami",
+      "label_id": "Label_8658624016447790536",
+      "angle": "1A",
+      "platform": "non-Shopify",
+      "thread_id": "19e2c1a39ec2f014",
+      "status": "contacted",
+      "first_contact": "2026-05-15",
+      "last_activity": "2026-05-15",
+      "multi_to": false,
+      "had_cc_bcc": false,
+      "redirect_to": null,
+      "stape_score": null,
+      "notes": "",
+      "followups_sent": [],
+      "scheduled_timeline": {
+        "first_email": "2026-05-15",
+        "follow_up_1": "2026-05-29",
+        "follow_up_2": "2026-06-22",
+        "follow_up_3": "2026-07-20",
+        "out_date": "2026-07-21"
+      },
+      "last_outbound_by_antonio": {
+        "date": "2026-05-15",
+        "snippet": "Hi Anna, I came across Anna website while researching the best fashion brands in the UK. I noticed the platform you're curren"
+      },
+      "last_reply_from_prospect": null,
+      "next_action": "Follow-up 1",
+      "next_action_date": "2026-05-29",
+      "timeline": [
+        {
+          "date": "2026-05-15",
+          "action": "Email outbound 1A inviata da Dami"
+        }
+      ]
+    },
+    {
+      "id": "prospect_236",
+      "brand": "Black & White Denim",
+      "contact": "Jo",
+      "email": "wereallycare@blackwhitedenim.com",
+      "domain": "blackwhitedenim.com",
+      "subject_email": "Re: Black & White Denim, the numbers aren't adding up",
+      "assigned_to": "Dami",
+      "sender": "Dami",
+      "label_id": "Label_8658624016447790536",
+      "angle": "1A",
+      "platform": "non-Shopify",
+      "thread_id": "19e2bf65a641047a",
+      "status": "contacted",
+      "first_contact": "2026-05-15",
+      "last_activity": "2026-05-15",
+      "multi_to": false,
+      "had_cc_bcc": false,
+      "redirect_to": null,
+      "stape_score": null,
+      "notes": "",
+      "followups_sent": [],
+      "scheduled_timeline": {
+        "first_email": "2026-05-15",
+        "follow_up_1": "2026-05-29",
+        "follow_up_2": "2026-06-22",
+        "follow_up_3": "2026-07-20",
+        "out_date": "2026-07-21"
+      },
+      "last_outbound_by_antonio": {
+        "date": "2026-05-15",
+        "snippet": "Hi Jo, I came across Black & White Denim while researching the best fashion boutiques in the UK. I noticed the platform you'r"
+      },
+      "last_reply_from_prospect": null,
+      "next_action": "Follow-up 1",
+      "next_action_date": "2026-05-29",
+      "timeline": [
+        {
+          "date": "2026-05-15",
+          "action": "Email outbound 1A inviata da Dami"
+        }
+      ]
+    },
+    {
+      "id": "prospect_237",
+      "brand": "Jessimara",
+      "contact": "Laura",
+      "email": "laura@jessimara.com",
+      "domain": "jessimara.com",
+      "subject_email": "Tracking + Meta campaigns",
+      "assigned_to": "Dami",
+      "sender": "Dami",
+      "label_id": "Label_8658624016447790536",
+      "angle": "1A",
+      "platform": "non-Shopify",
+      "thread_id": "19e2beef1d2eee48",
+      "status": "contacted",
+      "first_contact": "2026-05-15",
+      "last_activity": "2026-05-15",
+      "multi_to": false,
+      "had_cc_bcc": false,
+      "redirect_to": null,
+      "stape_score": null,
+      "notes": "",
+      "followups_sent": [],
+      "scheduled_timeline": {
+        "first_email": "2026-05-15",
+        "follow_up_1": "2026-05-29",
+        "follow_up_2": "2026-06-22",
+        "follow_up_3": "2026-07-20",
+        "out_date": "2026-07-21"
+      },
+      "last_outbound_by_antonio": {
+        "date": "2026-05-15",
+        "snippet": "Hi Laura, I came across Jessimara while researching the best fashion boutiques in the UK. I noticed the platform you're curre"
+      },
+      "last_reply_from_prospect": null,
+      "next_action": "Follow-up 1",
+      "next_action_date": "2026-05-29",
+      "timeline": [
+        {
+          "date": "2026-05-15",
+          "action": "Email outbound 1A inviata da Dami"
+        }
+      ]
+    },
+    {
+      "id": "prospect_238",
+      "brand": "Salt",
+      "contact": "Stephanie",
+      "email": "stephanie@saltresortwear.com",
+      "domain": "saltresortwear.com",
+      "subject_email": "Re: Salt boutique, the numbers aren't adding up",
+      "assigned_to": "Dami",
+      "sender": "Dami",
+      "label_id": "Label_8658624016447790536",
+      "angle": "2B",
+      "platform": "Shopify",
+      "thread_id": "19e2be6ec5dac447",
+      "status": "contacted",
+      "first_contact": "2026-05-15",
+      "last_activity": "2026-05-15",
+      "multi_to": false,
+      "had_cc_bcc": false,
+      "redirect_to": null,
+      "stape_score": null,
+      "notes": "",
+      "followups_sent": [],
+      "scheduled_timeline": {
+        "first_email": "2026-05-15",
+        "follow_up_1": "2026-05-29",
+        "follow_up_2": "2026-06-22",
+        "follow_up_3": "2026-07-20",
+        "out_date": "2026-07-21"
+      },
+      "last_outbound_by_antonio": {
+        "date": "2026-05-15",
+        "snippet": "Hi Stephanie, I was looking into Salt boutique (the store in South Kensington is really cool btw) and noticed you're running"
+      },
+      "last_reply_from_prospect": null,
+      "next_action": "Follow-up 1",
+      "next_action_date": "2026-05-29",
+      "timeline": [
+        {
+          "date": "2026-05-15",
+          "action": "Email outbound 2B inviata da Dami"
+        }
+      ]
+    },
+    {
+      "id": "prospect_239",
+      "brand": "Lulu Guinness",
+      "contact": "Grace Gardner",
+      "email": "ggardner@luluguinness.com",
+      "domain": "luluguinness.com",
+      "subject_email": "Re: Tracking + Meta campaigns",
+      "assigned_to": "Dami",
+      "sender": "Dami",
+      "label_id": "Label_8658624016447790536",
+      "angle": "2B",
+      "platform": "Shopify",
+      "thread_id": "19e2bdd7240b0fa3",
+      "status": "contacted",
+      "first_contact": "2026-05-15",
+      "last_activity": "2026-05-15",
+      "multi_to": false,
+      "had_cc_bcc": false,
+      "redirect_to": null,
+      "stape_score": null,
+      "notes": "",
+      "followups_sent": [],
+      "scheduled_timeline": {
+        "first_email": "2026-05-15",
+        "follow_up_1": "2026-05-29",
+        "follow_up_2": "2026-06-22",
+        "follow_up_3": "2026-07-20",
+        "out_date": "2026-07-21"
+      },
+      "last_outbound_by_antonio": {
+        "date": "2026-05-15",
+        "snippet": "Hi Grace, I was looking into Lulu Guinness and noticed you're running Meta/Google campaigns on an already well-structured Sh"
+      },
+      "last_reply_from_prospect": null,
+      "next_action": "Follow-up 1",
+      "next_action_date": "2026-05-29",
+      "timeline": [
+        {
+          "date": "2026-05-15",
+          "action": "Email outbound 2B inviata da Dami"
+        }
+      ]
+    },
+    {
+      "id": "prospect_240",
+      "brand": "Needle & Thread",
+      "contact": "Alice",
+      "email": "alice@needleandthread.com",
+      "domain": "needleandthread.com",
+      "subject_email": "Re: Needle & Thread, the numbers aren't adding up",
+      "assigned_to": "Dami",
+      "sender": "Dami",
+      "label_id": "Label_8658624016447790536",
+      "angle": "2B",
+      "platform": "Shopify",
+      "thread_id": "19e2bd8650978839",
+      "status": "contacted",
+      "first_contact": "2026-05-15",
+      "last_activity": "2026-05-15",
+      "multi_to": false,
+      "had_cc_bcc": false,
+      "redirect_to": null,
+      "stape_score": null,
+      "notes": "",
+      "followups_sent": [],
+      "scheduled_timeline": {
+        "first_email": "2026-05-15",
+        "follow_up_1": "2026-05-29",
+        "follow_up_2": "2026-06-22",
+        "follow_up_3": "2026-07-20",
+        "out_date": "2026-07-21"
+      },
+      "last_outbound_by_antonio": {
+        "date": "2026-05-15",
+        "snippet": "Hi Alice, I was looking into Needle & Thread website and noticed you're running Meta/Google campaigns on an already well-str"
+      },
+      "last_reply_from_prospect": null,
+      "next_action": "Follow-up 1",
+      "next_action_date": "2026-05-29",
+      "timeline": [
+        {
+          "date": "2026-05-15",
+          "action": "Email outbound 2B inviata da Dami"
+        }
+      ]
+    },
+    {
+      "id": "prospect_241",
+      "brand": "The Flat Lay Co.",
+      "contact": "Isabella Howe",
+      "email": "i.howe@theflatlayco.com",
+      "domain": "theflatlayco.com",
+      "subject_email": "The Flat Lay Co. one quick thing about your website",
+      "assigned_to": "Dami",
+      "sender": "Dami",
+      "label_id": "Label_8658624016447790536",
+      "angle": "3B",
+      "platform": "Shopify",
+      "thread_id": "19e2bcf062a7e79e",
+      "status": "contacted",
+      "first_contact": "2026-05-15",
+      "last_activity": "2026-05-15",
+      "multi_to": false,
+      "had_cc_bcc": false,
+      "redirect_to": null,
+      "stape_score": null,
+      "notes": "",
+      "followups_sent": [],
+      "scheduled_timeline": {
+        "first_email": "2026-05-15",
+        "follow_up_1": "2026-05-29",
+        "follow_up_2": "2026-06-22",
+        "follow_up_3": "2026-07-20",
+        "out_date": "2026-07-21"
+      },
+      "last_outbound_by_antonio": {
+        "date": "2026-05-15",
+        "snippet": "Hi Isabella, I was analyzing competitors and came across The Flat Lay Co. I'm sure it's already performing quite well. Howeve"
+      },
+      "last_reply_from_prospect": null,
+      "next_action": "Follow-up 1",
+      "next_action_date": "2026-05-29",
+      "timeline": [
+        {
+          "date": "2026-05-15",
+          "action": "Email outbound 3B inviata da Dami"
+        }
+      ]
+    },
+    {
+      "id": "prospect_242",
+      "brand": "The Flat Lay Co.",
+      "contact": "Ruby",
+      "email": "ruby@theflatlayco.com",
+      "domain": "theflatlayco.com",
+      "subject_email": "The Flat Lay Co. one quick thing about your website",
+      "assigned_to": "Dami",
+      "sender": "Dami",
+      "label_id": "Label_8658624016447790536",
+      "angle": "3B",
+      "platform": "Shopify",
+      "thread_id": "19e2bcb8799509e4",
+      "status": "contacted",
+      "first_contact": "2026-05-15",
+      "last_activity": "2026-05-15",
+      "multi_to": false,
+      "had_cc_bcc": false,
+      "redirect_to": null,
+      "stape_score": null,
+      "notes": "",
+      "followups_sent": [],
+      "scheduled_timeline": {
+        "first_email": "2026-05-15",
+        "follow_up_1": "2026-05-29",
+        "follow_up_2": "2026-06-22",
+        "follow_up_3": "2026-07-20",
+        "out_date": "2026-07-21"
+      },
+      "last_outbound_by_antonio": {
+        "date": "2026-05-15",
+        "snippet": "Hi Ruby, I was analyzing competitors and came across The Flat Lay Co. I'm sure it's already performing quite well. However, I"
+      },
+      "last_reply_from_prospect": null,
+      "next_action": "Follow-up 1",
+      "next_action_date": "2026-05-29",
+      "timeline": [
+        {
+          "date": "2026-05-15",
+          "action": "Email outbound 3B inviata da Dami"
+        }
+      ]
+    },
+    {
+      "id": "prospect_243",
+      "brand": "Design My World",
+      "contact": "Dean",
+      "email": "dean@designmyworld.net",
+      "domain": "designmyworld.net",
+      "subject_email": "Re: Tracking + Meta campaigns",
+      "assigned_to": "Dami",
+      "sender": "Dami",
+      "label_id": "Label_8658624016447790536",
+      "angle": "2B",
+      "platform": "Shopify",
+      "thread_id": "19e2bb62c494c8d8",
+      "status": "contacted",
+      "first_contact": "2026-05-15",
+      "last_activity": "2026-05-15",
+      "multi_to": false,
+      "had_cc_bcc": false,
+      "redirect_to": null,
+      "stape_score": null,
+      "notes": "",
+      "followups_sent": [],
+      "scheduled_timeline": {
+        "first_email": "2026-05-15",
+        "follow_up_1": "2026-05-29",
+        "follow_up_2": "2026-06-22",
+        "follow_up_3": "2026-07-20",
+        "out_date": "2026-07-21"
+      },
+      "last_outbound_by_antonio": {
+        "date": "2026-05-15",
+        "snippet": "Hi Dean, I was looking into Design My World and noticed you're running Meta/Google campaigns on an already well-structured Sh"
+      },
+      "last_reply_from_prospect": null,
+      "next_action": "Follow-up 1",
+      "next_action_date": "2026-05-29",
+      "timeline": [
+        {
+          "date": "2026-05-15",
+          "action": "Email outbound 2B inviata da Dami"
+        }
+      ]
+    },
+    {
+      "id": "prospect_244",
+      "brand": "Aurum & Grey",
+      "contact": "Tayla",
+      "email": "info@aurumandgrey.com",
+      "domain": "aurumandgrey.com",
+      "subject_email": "[RE]: Report aurumandgrey.com",
+      "assigned_to": "Dami",
+      "sender": "Dami",
+      "label_id": "Label_8658624016447790536",
+      "angle": "2B",
+      "platform": "Shopify",
+      "thread_id": "19e2bb1e61a11d5c",
+      "status": "autoresponse",
+      "notes": "CS autoresponse da Aurum & Grey Zendesk — 'Dear Valued Customer, we aim to get back to you within 24-48 hours'. CS ticket ricevuto da support@aurumandgrey.zendesk.com",
+      "next_action": "Attendere risposta CS",
+      "next_action_date": "2026-05-21",
+      "first_contact": "2026-05-15",
+      "last_activity": "2026-05-15",
+      "multi_to": false,
+      "had_cc_bcc": false,
+      "redirect_to": null,
+      "stape_score": null,
+      "followups_sent": [],
+      "scheduled_timeline": {
+        "first_email": "2026-05-15",
+        "follow_up_1": "2026-05-29",
+        "follow_up_2": "2026-06-22",
+        "follow_up_3": "2026-07-20",
+        "out_date": "2026-07-21"
+      },
+      "last_outbound_by_antonio": {
+        "date": "2026-05-15",
+        "snippet": "Hi Tayla, I was looking into Aurum & Grey website and noticed you're running Meta/Google campaigns on an already well-structu"
+      },
+      "last_reply_from_prospect": null,
+      "timeline": [
+        {
+          "date": "2026-05-15",
+          "action": "Email outbound 2B inviata da Dami"
+        }
+      ]
+    },
+    {
+      "id": "prospect_245",
+      "brand": "Acid Running",
+      "contact": "Oliver",
+      "email": "team@acidrunning.com",
+      "domain": "acidrunning.com",
+      "subject_email": "Re: Acid Running, the numbers aren't adding up",
+      "assigned_to": "Dami",
+      "sender": "Dami",
+      "label_id": "Label_8658624016447790536",
+      "angle": "2B",
+      "platform": "Shopify",
+      "thread_id": "19e2ba8622eaf58c",
+      "status": "contacted",
+      "first_contact": "2026-05-15",
+      "last_activity": "2026-05-15",
+      "multi_to": false,
+      "had_cc_bcc": false,
+      "redirect_to": null,
+      "stape_score": null,
+      "notes": "",
+      "followups_sent": [],
+      "scheduled_timeline": {
+        "first_email": "2026-05-15",
+        "follow_up_1": "2026-05-29",
+        "follow_up_2": "2026-06-22",
+        "follow_up_3": "2026-07-20",
+        "out_date": "2026-07-21"
+      },
+      "last_outbound_by_antonio": {
+        "date": "2026-05-15",
+        "snippet": "Hi Oliver, I was looking into Acid Running website and noticed you're running Meta/Google campaigns on an already well-struct"
+      },
+      "last_reply_from_prospect": null,
+      "next_action": "Follow-up 1",
+      "next_action_date": "2026-05-29",
+      "timeline": [
+        {
+          "date": "2026-05-15",
+          "action": "Email outbound 2B inviata da Dami"
+        }
+      ]
+    },
+    {
+      "id": "prospect_246",
+      "brand": "Aurélien",
+      "contact": "Roza Francken",
+      "email": "r.francken@aurelien-online.com",
+      "domain": "aurelien-online.com",
+      "subject_email": "Re: Tracking + Meta campaigns",
+      "assigned_to": "Dami",
+      "sender": "Dami",
+      "label_id": "Label_8658624016447790536",
+      "angle": "2B",
+      "platform": "Shopify",
+      "thread_id": "19e2ba113514a46e",
+      "status": "contacted",
+      "first_contact": "2026-05-15",
+      "last_activity": "2026-05-15",
+      "multi_to": false,
+      "had_cc_bcc": false,
+      "redirect_to": null,
+      "stape_score": null,
+      "notes": "",
+      "followups_sent": [],
+      "scheduled_timeline": {
+        "first_email": "2026-05-15",
+        "follow_up_1": "2026-05-29",
+        "follow_up_2": "2026-06-22",
+        "follow_up_3": "2026-07-20",
+        "out_date": "2026-07-21"
+      },
+      "last_outbound_by_antonio": {
+        "date": "2026-05-15",
+        "snippet": "Hi Roza, I was looking into Aurélien and noticed you're running Meta/Google campaigns on an already well-structured Shopify s"
+      },
+      "last_reply_from_prospect": null,
+      "next_action": "Follow-up 1",
+      "next_action_date": "2026-05-29",
+      "timeline": [
+        {
+          "date": "2026-05-15",
+          "action": "Email outbound 2B inviata da Dami"
+        }
+      ]
+    },
+    {
+      "id": "prospect_247",
+      "brand": "Lemon",
+      "contact": null,
+      "email": "lemon@lemonshop.it",
+      "domain": "lemonshop.it",
+      "subject_email": "Problema su lemonshop.it",
+      "assigned_to": "Manu",
+      "sender": "Manu",
+      "label_id": "Label_1592668050883672428",
+      "angle": "1A",
+      "platform": "non-Shopify",
+      "thread_id": "19e2bddbec665263",
+      "status": "contacted",
+      "first_contact": "2026-05-15",
+      "last_activity": "2026-05-15",
+      "multi_to": false,
+      "had_cc_bcc": false,
+      "redirect_to": null,
+      "stape_score": null,
+      "notes": "",
+      "followups_sent": [],
+      "scheduled_timeline": {
+        "first_email": "2026-05-15",
+        "follow_up_1": "2026-05-29",
+        "follow_up_2": "2026-06-22",
+        "follow_up_3": "2026-07-20",
+        "out_date": "2026-07-21"
+      },
+      "last_outbound_by_antonio": {
+        "date": "2026-05-15",
+        "snippet": "Buonasera, mi sono imbattuto in Lemon cercando le migliori boutique multibrand del settore in Italia, a proposito, la boutiq"
+      },
+      "last_reply_from_prospect": null,
+      "next_action": "Follow-up 1",
+      "next_action_date": "2026-05-29",
+      "timeline": [
+        {
+          "date": "2026-05-15",
+          "action": "Email outbound 1A inviata da Manu"
+        }
+      ]
+    },
+    {
+      "id": "prospect_248",
+      "brand": "Pizzolante",
+      "contact": null,
+      "email": "commerciale@pizzolante.it",
+      "domain": "pizzolante.it",
+      "subject_email": "pizzolante.it - aggiornamento store online",
+      "assigned_to": "Manu",
+      "sender": "Manu",
+      "label_id": "Label_1592668050883672428",
+      "angle": "1A",
+      "platform": "non-Shopify",
+      "thread_id": "19e2bdb6a0f923b9",
+      "status": "contacted",
+      "first_contact": "2026-05-15",
+      "last_activity": "2026-05-15",
+      "multi_to": false,
+      "had_cc_bcc": false,
+      "redirect_to": null,
+      "stape_score": null,
+      "notes": "",
+      "followups_sent": [],
+      "scheduled_timeline": {
+        "first_email": "2026-05-15",
+        "follow_up_1": "2026-05-29",
+        "follow_up_2": "2026-06-22",
+        "follow_up_3": "2026-07-20",
+        "out_date": "2026-07-21"
+      },
+      "last_outbound_by_antonio": {
+        "date": "2026-05-15",
+        "snippet": "Buonasera, mi sono imbattuto in Pizzolante cercando le migliori boutique multibrand del settore in Italia, a proposito, la b"
+      },
+      "last_reply_from_prospect": null,
+      "next_action": "Follow-up 1",
+      "next_action_date": "2026-05-29",
+      "timeline": [
+        {
+          "date": "2026-05-15",
+          "action": "Email outbound 1A inviata da Manu"
+        }
+      ]
+    },
+    {
+      "id": "prospect_249",
+      "brand": "Pier",
+      "contact": null,
+      "email": "info@pierabbigliamento.it",
+      "domain": "pierabbigliamento.it",
+      "subject_email": "Problema su pierabbigliamento.it",
+      "assigned_to": "Manu",
+      "sender": "Manu",
+      "label_id": "Label_1592668050883672428",
+      "angle": "1A",
+      "platform": "non-Shopify",
+      "thread_id": "19e2bd93b55ed49f",
+      "status": "contacted",
+      "first_contact": "2026-05-15",
+      "last_activity": "2026-05-15",
+      "multi_to": false,
+      "had_cc_bcc": false,
+      "redirect_to": null,
+      "stape_score": null,
+      "notes": "",
+      "followups_sent": [],
+      "scheduled_timeline": {
+        "first_email": "2026-05-15",
+        "follow_up_1": "2026-05-29",
+        "follow_up_2": "2026-06-22",
+        "follow_up_3": "2026-07-20",
+        "out_date": "2026-07-21"
+      },
+      "last_outbound_by_antonio": {
+        "date": "2026-05-15",
+        "snippet": "Buonasera, mi sono imbattuto in Pier cercando le migliori boutique multibrand del settore in Italia, a proposito, la boutique"
+      },
+      "last_reply_from_prospect": null,
+      "next_action": "Follow-up 1",
+      "next_action_date": "2026-05-29",
+      "timeline": [
+        {
+          "date": "2026-05-15",
+          "action": "Email outbound 1A inviata da Manu"
+        }
+      ]
+    },
+    {
+      "id": "prospect_250",
+      "brand": "Labels Fashion",
+      "contact": null,
+      "email": "customercare@labelsfashion.com",
+      "domain": "labelsfashion.com",
+      "subject_email": "Quick note about labelsfashion.com sales setup",
+      "assigned_to": "Manu",
+      "sender": "Manu",
+      "label_id": "Label_1592668050883672428",
+      "angle": "1A",
+      "platform": "non-Shopify",
+      "thread_id": "19e2bce1cb67d9d3",
+      "status": "contacted",
+      "first_contact": "2026-05-15",
+      "last_activity": "2026-05-15",
+      "multi_to": false,
+      "had_cc_bcc": false,
+      "redirect_to": null,
+      "stape_score": null,
+      "notes": "",
+      "followups_sent": [],
+      "scheduled_timeline": {
+        "first_email": "2026-05-15",
+        "follow_up_1": "2026-05-29",
+        "follow_up_2": "2026-06-22",
+        "follow_up_3": "2026-07-20",
+        "out_date": "2026-07-21"
+      },
+      "last_outbound_by_antonio": {
+        "date": "2026-05-15",
+        "snippet": "Good evening, I came across Labels while researching some of the best multi brand boutiques in the industry. By the way, you"
+      },
+      "last_reply_from_prospect": null,
+      "next_action": "Follow-up 1",
+      "next_action_date": "2026-05-29",
+      "timeline": [
+        {
+          "date": "2026-05-15",
+          "action": "Email outbound 1A inviata da Manu"
+        }
+      ]
+    },
+    {
+      "id": "prospect_251",
+      "brand": "Soho Soho",
+      "contact": null,
+      "email": "customerservice@sohosoho.gr",
+      "domain": "sohosoho.gr",
+      "subject_email": "Quick note about sohosohoboutique.com sales setup",
+      "assigned_to": "Manu",
+      "sender": "Manu",
+      "label_id": "Label_1592668050883672428",
+      "angle": "1A",
+      "platform": "non-Shopify",
+      "thread_id": "19e2bc873d65f352",
+      "status": "contacted",
+      "first_contact": "2026-05-15",
+      "last_activity": "2026-05-15",
+      "multi_to": false,
+      "had_cc_bcc": false,
+      "redirect_to": null,
+      "stape_score": null,
+      "notes": "",
+      "followups_sent": [],
+      "scheduled_timeline": {
+        "first_email": "2026-05-15",
+        "follow_up_1": "2026-05-29",
+        "follow_up_2": "2026-06-22",
+        "follow_up_3": "2026-07-20",
+        "out_date": "2026-07-21"
+      },
+      "last_outbound_by_antonio": {
+        "date": "2026-05-15",
+        "snippet": "Good evening, I came across Soho Soho while researching some of the best multi brand boutiques in the industry. By the way, y"
+      },
+      "last_reply_from_prospect": null,
+      "next_action": "Follow-up 1",
+      "next_action_date": "2026-05-29",
+      "timeline": [
+        {
+          "date": "2026-05-15",
+          "action": "Email outbound 1A inviata da Manu"
+        }
+      ]
+    },
+    {
+      "id": "prospect_252",
+      "brand": "Mixage",
+      "contact": null,
+      "email": "info@mixageshop.it",
+      "domain": "mixageshop.it",
+      "subject_email": "Report mixageshop.it tracciamento",
+      "assigned_to": "Manu",
+      "sender": "Manu",
+      "label_id": "Label_1592668050883672428",
+      "angle": "1A",
+      "platform": "non-Shopify",
+      "thread_id": "19e2bc501cff9581",
+      "status": "contacted",
+      "first_contact": "2026-05-15",
+      "last_activity": "2026-05-15",
+      "multi_to": false,
+      "had_cc_bcc": false,
+      "redirect_to": null,
+      "stape_score": null,
+      "notes": "",
+      "followups_sent": [],
+      "scheduled_timeline": {
+        "first_email": "2026-05-15",
+        "follow_up_1": "2026-05-29",
+        "follow_up_2": "2026-06-22",
+        "follow_up_3": "2026-07-20",
+        "out_date": "2026-07-21"
+      },
+      "last_outbound_by_antonio": {
+        "date": "2026-05-15",
+        "snippet": "Buonasera, mi sono imbattuto in Mixage cercando le migliori boutique multibrand del settore in Italia, a proposito, la bouti"
+      },
+      "last_reply_from_prospect": null,
+      "next_action": "Follow-up 1",
+      "next_action_date": "2026-05-29",
+      "timeline": [
+        {
+          "date": "2026-05-15",
+          "action": "Email outbound 1A inviata da Manu"
+        }
+      ]
+    },
+    {
+      "id": "prospect_253",
+      "brand": "Mocerino Alta Moda",
+      "contact": null,
+      "email": "info@mocerinoaltamoda.it",
+      "domain": "mocerinoaltamoda.it",
+      "subject_email": "[RE]: Report mocerinoaltamoda.it",
+      "assigned_to": "Manu",
+      "sender": "Manu",
+      "label_id": "Label_1592668050883672428",
+      "angle": "1A",
+      "platform": "non-Shopify",
+      "thread_id": "19e2bc11f72610dd",
+      "status": "contacted",
+      "first_contact": "2026-05-15",
+      "last_activity": "2026-05-15",
+      "multi_to": false,
+      "had_cc_bcc": false,
+      "redirect_to": null,
+      "stape_score": null,
+      "notes": "",
+      "followups_sent": [],
+      "scheduled_timeline": {
+        "first_email": "2026-05-15",
+        "follow_up_1": "2026-05-29",
+        "follow_up_2": "2026-06-22",
+        "follow_up_3": "2026-07-20",
+        "out_date": "2026-07-21"
+      },
+      "last_outbound_by_antonio": {
+        "date": "2026-05-15",
+        "snippet": "Buonasera, mi sono imbattuto in Mocerino Alta Moda cercando le migliori boutique multibrand del settore in Italia, a proposi"
+      },
+      "last_reply_from_prospect": null,
+      "next_action": "Follow-up 1",
+      "next_action_date": "2026-05-29",
+      "timeline": [
+        {
+          "date": "2026-05-15",
+          "action": "Email outbound 1A inviata da Manu"
+        }
+      ]
+    },
+    {
+      "id": "prospect_254",
+      "brand": "Tessabit",
+      "contact": "Andrea Molteni",
+      "email": "andrea.molteni@tessabit.com",
+      "domain": "tessabit.com",
+      "subject_email": "Problema su tessabit.com",
+      "assigned_to": "Manu",
+      "sender": "Manu",
+      "label_id": "Label_1592668050883672428",
+      "angle": "1A",
+      "platform": "non-Shopify",
+      "thread_id": "19e2bbd9707e0db7",
+      "status": "contacted",
+      "first_contact": "2026-05-15",
+      "last_activity": "2026-05-15",
+      "multi_to": false,
+      "had_cc_bcc": false,
+      "redirect_to": null,
+      "stape_score": null,
+      "notes": "",
+      "followups_sent": [],
+      "scheduled_timeline": {
+        "first_email": "2026-05-15",
+        "follow_up_1": "2026-05-29",
+        "follow_up_2": "2026-06-22",
+        "follow_up_3": "2026-07-20",
+        "out_date": "2026-07-21"
+      },
+      "last_outbound_by_antonio": {
+        "date": "2026-05-15",
+        "snippet": "Ciao Andrea, mi sono imbattuto in Tessabit cercando le migliori luxury boutique multibrand del settore in Italia, a proposito"
+      },
+      "last_reply_from_prospect": null,
+      "next_action": "Follow-up 1",
+      "next_action_date": "2026-05-29",
+      "timeline": [
+        {
+          "date": "2026-05-15",
+          "action": "Email outbound 1A inviata da Manu"
+        }
+      ]
+    },
+    {
+      "id": "prospect_255",
+      "brand": "Peter Ci",
+      "contact": null,
+      "email": "sales@peterci.com",
+      "domain": "peterci.com",
+      "subject_email": "Problema su peterci.com",
+      "assigned_to": "Manu",
+      "sender": "Manu",
+      "label_id": "Label_1592668050883672428",
+      "angle": "1A",
+      "platform": "non-Shopify",
+      "thread_id": "19e2bbbdd2bca6ad",
+      "status": "contacted",
+      "first_contact": "2026-05-15",
+      "last_activity": "2026-05-15",
+      "multi_to": false,
+      "had_cc_bcc": false,
+      "redirect_to": null,
+      "stape_score": null,
+      "notes": "",
+      "followups_sent": [],
+      "scheduled_timeline": {
+        "first_email": "2026-05-15",
+        "follow_up_1": "2026-05-29",
+        "follow_up_2": "2026-06-22",
+        "follow_up_3": "2026-07-20",
+        "out_date": "2026-07-21"
+      },
+      "last_outbound_by_antonio": {
+        "date": "2026-05-15",
+        "snippet": "Buonasera mi sono imbattuto in Peter Ci cercando le migliori luxury boutique multibrand del settore in Italia, a proposito, l"
+      },
+      "last_reply_from_prospect": null,
+      "next_action": "Follow-up 1",
+      "next_action_date": "2026-05-29",
+      "timeline": [
+        {
+          "date": "2026-05-15",
+          "action": "Email outbound 1A inviata da Manu"
+        }
+      ]
+    },
+    {
+      "id": "prospect_256",
+      "brand": "Modamica",
+      "contact": "Orfeo",
+      "email": "orfeo@modamica.it",
+      "domain": "modamica.it",
+      "subject_email": "[RE]: Problema su modamica.it",
+      "assigned_to": "Manu",
+      "sender": "Manu",
+      "label_id": "Label_1592668050883672428",
+      "angle": "1A",
+      "platform": "non-Shopify",
+      "thread_id": "19e2bae5622e4641",
+      "status": "contacted",
+      "first_contact": "2026-05-15",
+      "last_activity": "2026-05-15",
+      "multi_to": false,
+      "had_cc_bcc": false,
+      "redirect_to": null,
+      "stape_score": null,
+      "notes": "",
+      "followups_sent": [],
+      "scheduled_timeline": {
+        "first_email": "2026-05-15",
+        "follow_up_1": "2026-05-29",
+        "follow_up_2": "2026-06-22",
+        "follow_up_3": "2026-07-20",
+        "out_date": "2026-07-21"
+      },
+      "last_outbound_by_antonio": {
+        "date": "2026-05-15",
+        "snippet": "Buonasera Orfeo, mi sono imbattuto in Modamica cercando le migliori boutique multibrand del settore in Italia, a proposito, l"
+      },
+      "last_reply_from_prospect": null,
+      "next_action": "Follow-up 1",
+      "next_action_date": "2026-05-29",
+      "timeline": [
+        {
+          "date": "2026-05-15",
+          "action": "Email outbound 1A inviata da Manu"
+        }
+      ]
+    },
+    {
+      "id": "prospect_257",
+      "brand": "Emerson Renaldi",
+      "contact": null,
+      "email": "info@emerson-renaldi.com",
+      "domain": "emerson-renaldi.com",
+      "subject_email": "Quick note about emerson-renaldi.com sales setup",
+      "assigned_to": "Manu",
+      "sender": "Manu",
+      "label_id": "Label_1592668050883672428",
+      "angle": "1A",
+      "platform": "non-Shopify",
+      "thread_id": "19e2baa265f9242a",
+      "status": "contacted",
+      "first_contact": "2026-05-15",
+      "last_activity": "2026-05-15",
+      "multi_to": false,
+      "had_cc_bcc": false,
+      "redirect_to": null,
+      "stape_score": null,
+      "notes": "",
+      "followups_sent": [],
+      "scheduled_timeline": {
+        "first_email": "2026-05-15",
+        "follow_up_1": "2026-05-29",
+        "follow_up_2": "2026-06-22",
+        "follow_up_3": "2026-07-20",
+        "out_date": "2026-07-21"
+      },
+      "last_outbound_by_antonio": {
+        "date": "2026-05-15",
+        "snippet": "Good evening, I came across Emerson Renaldi while researching some of the best luxury multi brand boutiques in the industry. B"
+      },
+      "last_reply_from_prospect": null,
+      "next_action": "Follow-up 1",
+      "next_action_date": "2026-05-29",
+      "timeline": [
+        {
+          "date": "2026-05-15",
+          "action": "Email outbound 1A inviata da Manu"
+        }
+      ]
+    },
+    {
+      "id": "prospect_258",
+      "brand": "Dell'Oglio",
+      "contact": null,
+      "email": "market@dellogliostore.com",
+      "domain": "dellogliostore.com",
+      "subject_email": "Problema su delloglio.it",
+      "assigned_to": "Manu",
+      "sender": "Manu",
+      "label_id": "Label_1592668050883672428",
+      "angle": "1A",
+      "platform": "non-Shopify",
+      "thread_id": "19e2ba16b17b3764",
+      "status": "contacted",
+      "first_contact": "2026-05-15",
+      "last_activity": "2026-05-15",
+      "multi_to": false,
+      "had_cc_bcc": false,
+      "redirect_to": null,
+      "stape_score": null,
+      "notes": "",
+      "followups_sent": [],
+      "scheduled_timeline": {
+        "first_email": "2026-05-15",
+        "follow_up_1": "2026-05-29",
+        "follow_up_2": "2026-06-22",
+        "follow_up_3": "2026-07-20",
+        "out_date": "2026-07-21"
+      },
+      "last_outbound_by_antonio": {
+        "date": "2026-05-15",
+        "snippet": "Buonasera, mi sono imbattuto in Dell'Oglio cercando le migliori luxury boutique multibrand del settore in Italia, a proposito"
+      },
+      "last_reply_from_prospect": null,
+      "next_action": "Follow-up 1",
+      "next_action_date": "2026-05-29",
+      "timeline": [
+        {
+          "date": "2026-05-15",
+          "action": "Email outbound 1A inviata da Manu"
+        }
+      ]
+    },
+    {
+      "id": "prospect_259",
+      "brand": "Shoppinlove",
+      "contact": "Viviana",
+      "email": "info@shoppinlove.com",
+      "domain": "shoppinlove.com",
+      "subject_email": "Problema su shoppinlove.com",
+      "assigned_to": "Dami",
+      "sender": "Dami",
+      "label_id": "Label_8658624016447790536",
+      "angle": "2B",
+      "platform": "Shopify",
+      "thread_id": "19e2b95f088d8b02",
+      "status": "contacted",
+      "first_contact": "2026-05-15",
+      "last_activity": "2026-05-15",
+      "multi_to": false,
+      "had_cc_bcc": false,
+      "redirect_to": null,
+      "stape_score": null,
+      "notes": "",
+      "followups_sent": [],
+      "scheduled_timeline": {
+        "first_email": "2026-05-15",
+        "follow_up_1": "2026-05-29",
+        "follow_up_2": "2026-06-22",
+        "follow_up_3": "2026-07-20",
+        "out_date": "2026-07-21"
+      },
+      "last_outbound_by_antonio": {
+        "date": "2026-05-15",
+        "snippet": "Ciao Viviana, Stavo guardando Shoppinlove e ho visto che state girando campagne Meta/Google su uno store Shopify già struttur"
+      },
+      "last_reply_from_prospect": null,
+      "next_action": "Follow-up 1",
+      "next_action_date": "2026-05-29",
+      "timeline": [
+        {
+          "date": "2026-05-15",
+          "action": "Email outbound 2B inviata da Dami"
+        }
+      ]
+    },
+    {
+      "id": "prospect_260",
+      "brand": "DuepiStudio",
+      "contact": null,
+      "email": "info@duepistudio.it",
+      "domain": "duepistudio.it",
+      "subject_email": "[RE]: Report duepistudio.it",
+      "assigned_to": "Manu",
+      "sender": "Manu",
+      "label_id": "Label_1592668050883672428",
+      "angle": "1A",
+      "platform": "non-Shopify",
+      "thread_id": "19e2b9440b2d642a",
+      "status": "contacted",
+      "first_contact": "2026-05-15",
+      "last_activity": "2026-05-15",
+      "multi_to": false,
+      "had_cc_bcc": false,
+      "redirect_to": null,
+      "stape_score": null,
+      "notes": "",
+      "followups_sent": [],
+      "scheduled_timeline": {
+        "first_email": "2026-05-15",
+        "follow_up_1": "2026-05-29",
+        "follow_up_2": "2026-06-22",
+        "follow_up_3": "2026-07-20",
+        "out_date": "2026-07-21"
+      },
+      "last_outbound_by_antonio": {
+        "date": "2026-05-15",
+        "snippet": "Buonasera, mi sono imbattuto in DuepiStudio cercando le migliori boutique multibrand del settore in Italia, a proposito, la b"
+      },
+      "last_reply_from_prospect": null,
+      "next_action": "Follow-up 1",
+      "next_action_date": "2026-05-29",
+      "timeline": [
+        {
+          "date": "2026-05-15",
+          "action": "Email outbound 1A inviata da Manu"
+        }
+      ]
+    },
+    {
+      "id": "prospect_261",
+      "brand": "Maison Degand",
+      "contact": null,
+      "email": "info@maisondegand.com",
+      "domain": "maisondegand.com",
+      "subject_email": "Quick note about maisondegand.com sales setup",
+      "assigned_to": "Manu",
+      "sender": "Manu",
+      "label_id": "Label_1592668050883672428",
+      "angle": "1A",
+      "platform": "non-Shopify",
+      "thread_id": "19e2b92d1a1609b3",
+      "notes": "Email corretta (nfo@maisondegand.com era un typo, bounced)",
+      "status": "contacted",
+      "first_contact": "2026-05-15",
+      "last_activity": "2026-05-15",
+      "multi_to": false,
+      "had_cc_bcc": false,
+      "redirect_to": null,
+      "stape_score": null,
+      "followups_sent": [],
+      "scheduled_timeline": {
+        "first_email": "2026-05-15",
+        "follow_up_1": "2026-05-29",
+        "follow_up_2": "2026-06-22",
+        "follow_up_3": "2026-07-20",
+        "out_date": "2026-07-21"
+      },
+      "last_outbound_by_antonio": {
+        "date": "2026-05-15",
+        "snippet": "Good evening, I came across Maison Degand while researching some of the best luxury multibrand boutiques in the industry. By t"
+      },
+      "last_reply_from_prospect": null,
+      "next_action": "Follow-up 1",
+      "next_action_date": "2026-05-29",
+      "timeline": [
+        {
+          "date": "2026-05-15",
+          "action": "Email outbound 1A inviata da Manu"
+        }
+      ]
+    },
+    {
+      "id": "prospect_262",
+      "brand": "Espace Cannelle",
+      "contact": null,
+      "email": "espacecannellestore@gmail.com",
+      "domain": "espacecannelle.com",
+      "subject_email": "Quick note about espacecannelle.com sales setup",
+      "assigned_to": "Manu",
+      "sender": "Manu",
+      "label_id": "Label_1592668050883672428",
+      "angle": "1A",
+      "platform": "non-Shopify",
+      "thread_id": "19e2b90cb7767658",
+      "status": "contacted",
+      "first_contact": "2026-05-15",
+      "last_activity": "2026-05-15",
+      "multi_to": false,
+      "had_cc_bcc": false,
+      "redirect_to": null,
+      "stape_score": null,
+      "notes": "",
+      "followups_sent": [],
+      "scheduled_timeline": {
+        "first_email": "2026-05-15",
+        "follow_up_1": "2026-05-29",
+        "follow_up_2": "2026-06-22",
+        "follow_up_3": "2026-07-20",
+        "out_date": "2026-07-21"
+      },
+      "last_outbound_by_antonio": {
+        "date": "2026-05-15",
+        "snippet": "Good evening, I came across Espace Cannelle while researching some of the best luxury multibrand boutiques in the industry. By"
+      },
+      "last_reply_from_prospect": null,
+      "next_action": "Follow-up 1",
+      "next_action_date": "2026-05-29",
+      "timeline": [
+        {
+          "date": "2026-05-15",
+          "action": "Email outbound 1A inviata da Manu"
+        }
+      ]
+    },
+    {
+      "id": "prospect_263",
+      "brand": "Cupertino",
+      "contact": null,
+      "email": "richieste@cupertino.it",
+      "domain": "cupertino.it",
+      "subject_email": "Report cupertino.it tracciamento",
+      "assigned_to": "Manu",
+      "sender": "Manu",
+      "label_id": "Label_1592668050883672428",
+      "angle": "1A",
+      "platform": "non-Shopify",
+      "thread_id": "19e2b86161a65101",
+      "status": "contacted",
+      "first_contact": "2026-05-15",
+      "last_activity": "2026-05-15",
+      "multi_to": false,
+      "had_cc_bcc": false,
+      "redirect_to": null,
+      "stape_score": null,
+      "notes": "",
+      "followups_sent": [],
+      "scheduled_timeline": {
+        "first_email": "2026-05-15",
+        "follow_up_1": "2026-05-29",
+        "follow_up_2": "2026-06-22",
+        "follow_up_3": "2026-07-20",
+        "out_date": "2026-07-21"
+      },
+      "last_outbound_by_antonio": {
+        "date": "2026-05-15",
+        "snippet": "Buonasera, mi sono imbattuto in Cupertino cercando le migliori boutique multibrand del settore in Italia, a proposito, la bou"
+      },
+      "last_reply_from_prospect": null,
+      "next_action": "Follow-up 1",
+      "next_action_date": "2026-05-29",
+      "timeline": [
+        {
+          "date": "2026-05-15",
+          "action": "Email outbound 1A inviata da Manu"
+        }
+      ]
+    },
+    {
+      "id": "prospect_264",
+      "brand": "Fratinardi",
+      "contact": null,
+      "email": "info@fratinardi.it",
+      "domain": "fratinardi.it",
+      "subject_email": "Ho notato una cosa su fratinardi.it",
+      "assigned_to": "Manu",
+      "sender": "Manu",
+      "label_id": "Label_1592668050883672428",
+      "angle": "1A",
+      "platform": "non-Shopify",
+      "thread_id": "19e2b8401cc77c0a",
+      "status": "contacted",
+      "first_contact": "2026-05-15",
+      "last_activity": "2026-05-15",
+      "multi_to": false,
+      "had_cc_bcc": false,
+      "redirect_to": null,
+      "stape_score": null,
+      "notes": "",
+      "followups_sent": [],
+      "scheduled_timeline": {
+        "first_email": "2026-05-15",
+        "follow_up_1": "2026-05-29",
+        "follow_up_2": "2026-06-22",
+        "follow_up_3": "2026-07-20",
+        "out_date": "2026-07-21"
+      },
+      "last_outbound_by_antonio": {
+        "date": "2026-05-15",
+        "snippet": "Buonasera, mi sono imbattuto in Fratinardi cercando le migliori boutique multibrand del settore in Italia, a proposito, la bo"
+      },
+      "last_reply_from_prospect": null,
+      "next_action": "Follow-up 1",
+      "next_action_date": "2026-05-29",
+      "timeline": [
+        {
+          "date": "2026-05-15",
+          "action": "Email outbound 1A inviata da Manu"
+        }
+      ]
+    },
+    {
+      "id": "prospect_265",
+      "brand": "Giorgio Quinto",
+      "contact": null,
+      "email": "info@giorgioquinto.com",
+      "domain": "giorgioquinto.com",
+      "subject_email": "Problema su giorgioquinto.com",
+      "assigned_to": "Manu",
+      "sender": "Manu",
+      "label_id": "Label_1592668050883672428",
+      "angle": "1A",
+      "platform": "non-Shopify",
+      "thread_id": "19e2b7e3b4f7522a",
+      "status": "contacted",
+      "first_contact": "2026-05-15",
+      "last_activity": "2026-05-15",
+      "multi_to": false,
+      "had_cc_bcc": false,
+      "redirect_to": null,
+      "stape_score": null,
+      "notes": "",
+      "followups_sent": [],
+      "scheduled_timeline": {
+        "first_email": "2026-05-15",
+        "follow_up_1": "2026-05-29",
+        "follow_up_2": "2026-06-22",
+        "follow_up_3": "2026-07-20",
+        "out_date": "2026-07-21"
+      },
+      "last_outbound_by_antonio": {
+        "date": "2026-05-15",
+        "snippet": "Buonasera, mi sono imbattuto in Giorgio Quinto cercando le migliori boutique multibrand del settore in Italia, a proposito, l"
+      },
+      "last_reply_from_prospect": null,
+      "next_action": "Follow-up 1",
+      "next_action_date": "2026-05-29",
+      "timeline": [
+        {
+          "date": "2026-05-15",
+          "action": "Email outbound 1A inviata da Manu"
+        }
+      ]
+    },
+    {
+      "id": "prospect_266",
+      "brand": "Ghelfi Boutique",
+      "contact": null,
+      "email": "info@ghelfiboutique.com",
+      "domain": "ghelfiboutique.com",
+      "subject_email": "[RE]: Report ghelfiboutique.com",
+      "assigned_to": "Manu",
+      "sender": "Manu",
+      "label_id": "Label_1592668050883672428",
+      "angle": "1A",
+      "platform": "non-Shopify",
+      "thread_id": "19e2b7c30579764a",
+      "status": "contacted",
+      "first_contact": "2026-05-15",
+      "last_activity": "2026-05-15",
+      "multi_to": false,
+      "had_cc_bcc": false,
+      "redirect_to": null,
+      "stape_score": null,
+      "notes": "",
+      "followups_sent": [],
+      "scheduled_timeline": {
+        "first_email": "2026-05-15",
+        "follow_up_1": "2026-05-29",
+        "follow_up_2": "2026-06-22",
+        "follow_up_3": "2026-07-20",
+        "out_date": "2026-07-21"
+      },
+      "last_outbound_by_antonio": {
+        "date": "2026-05-15",
+        "snippet": "Buonasera, mi sono imbattuto in Ghelfi Boutique cercando le migliori luxury boutique multibrand del settore in Italia, a prop"
+      },
+      "last_reply_from_prospect": null,
+      "next_action": "Follow-up 1",
+      "next_action_date": "2026-05-29",
+      "timeline": [
+        {
+          "date": "2026-05-15",
+          "action": "Email outbound 1A inviata da Manu"
+        }
+      ]
     }
   ],
   "bounced": [
@@ -10451,6 +12329,110 @@
       "next_followup_due": null,
       "multi_to": false,
       "had_cc_bcc": false
+    },
+    {
+      "id": "bounce_024",
+      "brand": "Royal Row",
+      "email": "web@royalrow.it",
+      "domain": "royalrow.it",
+      "subject_email": "Royal Row, qualcosa non funziona",
+      "assigned_to": "Dami",
+      "angle": "1A",
+      "bounce_date": "2026-05-15",
+      "notes": "Bounce immediato (MAILER-DAEMON Aruba). Sito non funzionante.",
+      "thread_id": "19e2c48c0f79ac89",
+      "skip": false
+    },
+    {
+      "id": "bounce_025",
+      "brand": "Primrose Park",
+      "email": "r@primroseparkmpls.com",
+      "domain": "primroseparkmpls.com",
+      "subject_email": "Primrose Park, the numbers aren't adding up",
+      "assigned_to": "Dami",
+      "angle": "1A",
+      "bounce_date": "2026-05-15",
+      "notes": "Bounce Google — indirizzo inesistente. Altre email inviate: jennifer@ (valida), rosetravis@ (bounce).",
+      "thread_id": "19e2c24a8b529e15",
+      "skip": false
+    },
+    {
+      "id": "bounce_026",
+      "brand": "Primrose Park",
+      "email": "rosetravis@primroseparkmpls.com",
+      "domain": "primroseparkmpls.com",
+      "subject_email": "Primrose Park, the numbers aren't adding up",
+      "assigned_to": "Dami",
+      "angle": "1A",
+      "bounce_date": "2026-05-15",
+      "notes": "Bounce Google — indirizzo inesistente. Email valida trovata: jennifer@primroseparkmpls.com (prospect_233).",
+      "thread_id": "19e2c218593039b1",
+      "skip": false
+    },
+    {
+      "id": "bounce_027",
+      "brand": "Baker Ross",
+      "email": "Josh@bakerross.co.uk",
+      "domain": "bakerross.co.uk",
+      "subject_email": "bakerross.co.uk - I noticed something",
+      "assigned_to": "Dami",
+      "angle": "1A",
+      "bounce_date": "2026-05-15",
+      "notes": "Bounce postmaster Office 365 — recipient unknown. Entrambi i contatti Josh@ e p-baker@ non trovati.",
+      "thread_id": "19e2bc27096a5626",
+      "skip": false
+    },
+    {
+      "id": "bounce_028",
+      "brand": "Baker Ross",
+      "email": "p-baker@bakerross.co.uk",
+      "domain": "bakerross.co.uk",
+      "subject_email": "bakerross.co.uk - I noticed something",
+      "assigned_to": "Dami",
+      "angle": "1A",
+      "bounce_date": "2026-05-15",
+      "notes": "Bounce postmaster Office 365 — recipient unknown. Entrambi i contatti Josh@ e p-baker@ non trovati.",
+      "thread_id": "19e2bbf09748d0d4",
+      "skip": false
+    },
+    {
+      "id": "bounce_029",
+      "brand": "Elegantia Calzature",
+      "email": "servizio.clienti@elegantiacalzature.it",
+      "domain": "elegantiacalzature.it",
+      "subject_email": "[RE]: Report elegantiacalzature.it",
+      "assigned_to": "Manu",
+      "angle": "1A",
+      "bounce_date": "2026-05-15",
+      "notes": "Bounce Mailer-Daemon permanente (grotteria.arturu.it).",
+      "thread_id": "19e2b9cfa1d01f53",
+      "skip": false
+    },
+    {
+      "id": "bounce_030",
+      "brand": "Shoppinlove",
+      "email": "viviana.vitolo@klaviyo.com",
+      "domain": "shoppinlove.com",
+      "subject_email": "Problema su shoppinlove.com",
+      "assigned_to": "Dami",
+      "angle": "2B",
+      "bounce_date": "2026-05-15",
+      "notes": "Bounce Google — indirizzo klaviyo.com non trovato. Email inviata per errore a dipendente Klaviyo invece che al brand. Email corretta: info@shoppinlove.com (prospect_259).",
+      "thread_id": "19e2b927a6df3671",
+      "skip": false
+    },
+    {
+      "id": "bounce_031",
+      "brand": "Maison Degand",
+      "email": "nfo@maisondegand.com",
+      "domain": "maisondegand.com",
+      "subject_email": "Quick note about your online sales setup -maisondegand.com",
+      "assigned_to": "Manu",
+      "angle": "1A",
+      "bounce_date": "2026-05-15",
+      "notes": "Bounce Google — typo nell'indirizzo (nfo@ invece di info@). Email corretta inviata: info@maisondegand.com (prospect_261).",
+      "thread_id": "19e2b88e3285ee77",
+      "skip": false
     }
   ]
 }
