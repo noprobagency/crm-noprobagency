@@ -92,19 +92,48 @@ function resolveNextAction(p) {
 }
 
 function getActionBadge(p, fallbackLabel) {
-  const action = (p.next_action || '').toLowerCase();
-  if (p.redirect_to || /prima email|inviare|redirect/.test(action)) {
+  // 1. redirect_to è il segnale più affidabile
+  if (p.redirect_to) {
     return { label: 'REDIRECT', bg: '#fff3e0', color: '#c45c00' };
   }
-  if (/rientro|ooo|al rientro/.test(action)) {
+
+  const action = (p.next_action || '').toLowerCase();
+  const notes = (p.notes || '').toLowerCase();
+
+  // 2. Action text esplicito (override per qualsiasi status)
+  if (/redirect|inviare a |prima email a/.test(action)) {
+    return { label: 'REDIRECT', bg: '#fff3e0', color: '#c45c00' };
+  }
+  if (/rientro|al rientro|ooo/.test(action)) {
     return { label: 'OOO', bg: '#fff3e0', color: '#8a4a00' };
   }
   if (/manualmente|classificare|verifica/.test(action)) {
     return { label: '⚠ DA VERIFICARE', bg: '#fde8e8', color: '#8a1f1f' };
   }
-  if (/cs|ticket|attendere/.test(action)) {
+
+  // 3. Status autoresponse → guarda notes per sub-classification
+  if (p.status === 'autoresponse') {
+    if (/ooo|rientro|fuori ufficio|out of office|\bback\b/.test(notes)) {
+      return { label: 'OOO', bg: '#fff3e0', color: '#8a4a00' };
+    }
+    if (/no-reply|noreply|contatto diretto/.test(notes)) {
+      return { label: 'NO-REPLY', bg: '#f0f0f0', color: '#555' };
+    }
+    if (/cs |ticket|customer service|zendesk/.test(notes)) {
+      return { label: 'CS', bg: '#f0f0f0', color: '#555' };
+    }
+    if (/non lavor|no longer|please contact|si prega di contattare/.test(notes)) {
+      return { label: 'REDIRECT', bg: '#fff3e0', color: '#c45c00' };
+    }
+    return { label: 'AUTO', bg: '#f0f0f0', color: '#555' };
+  }
+
+  // 4. CS/attendere generic
+  if (/cs |ticket|attendere/.test(action)) {
     return { label: 'CS', bg: '#f0f0f0', color: '#555' };
   }
+
+  // 5. Fallback Follow-up standard
   if (fallbackLabel === 'FU 1') return { label: 'FU 1', bg: '#e6eef8', color: '#1e4080' };
   if (fallbackLabel === 'FU 2') return { label: 'FU 2', bg: '#e6eef8', color: '#1e4080' };
   if (fallbackLabel === 'FU 3') return { label: 'FU 3', bg: '#e6eef8', color: '#1e4080' };

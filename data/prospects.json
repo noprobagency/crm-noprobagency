@@ -1,6 +1,6 @@
 {
   "meta": {
-    "last_updated": "2026-05-15T15:00:00+02:00",
+    "last_updated": "2026-05-15T16:00:00+02:00",
     "total_contacted": 202,
     "total_replied": 3,
     "total_bounced": 23,
@@ -6874,7 +6874,7 @@
       "status": "autoresponse",
       "first_contact": "2026-05-01",
       "last_activity": "2026-05-06",
-      "next_action": "Follow-up 1",
+      "next_action": "Follow-up al rientro (OOO fino 11/05)",
       "next_action_date": "2026-05-15",
       "stape_score": null,
       "notes": "OoO fino 11/05. Backup: customercare@gaudenziboutique.com",
@@ -6925,7 +6925,7 @@
       "status": "autoresponse",
       "first_contact": "2026-05-01",
       "last_activity": "2026-05-06",
-      "next_action": "Follow-up 1",
+      "next_action": "Cercare contatto diretto (no-reply)",
       "next_action_date": "2026-05-15",
       "stape_score": null,
       "notes": "Risposta da indirizzo no-reply",
@@ -6976,7 +6976,7 @@
       "status": "autoresponse",
       "first_contact": "2026-05-01",
       "last_activity": "2026-05-06",
-      "next_action": "Follow-up 1",
+      "next_action": "Inviare prima email a sales@toogood.com",
       "next_action_date": "2026-05-15",
       "stape_score": null,
       "notes": "MW non più dipendente. Backup: sales@toogood.com",
@@ -7013,7 +7013,8 @@
         "follow_up_3": "2026-07-06",
         "out_date": "2026-07-07"
       },
-      "subject_email": ""
+      "subject_email": "",
+      "redirect_to": "sales@toogood.com"
     },
     {
       "id": "prospect_163",
