@@ -103,11 +103,14 @@ function renderStats() {
   const inConv = active.filter(p =>
     p.status === 'in_conversation' || p.status === 'call_booked' || p.status === 'closed'
   ).length;
-  const totalContacted = rangeActive()
-    ? (active.length + noReply.length)
-    : (m.total_contacted ?? (active.length + noReply.length));
+  // BUG #6 fix: calcolo SEMPRE live dagli array, mai meta.total_contacted
+  // come fonte primaria (può andare desync se Routine sbaglia).
+  const totalContacted = active.length + noReply.length;
 
+  // BUG #2 fix: escludi in_conversation/call_booked dal contatore "Programmato"
+  // — sono gestiti manualmente da Antonio, non sono "follow-up programmati".
   const dueSoon = [...active, ...noReply].filter(p => {
+    if (['in_conversation', 'call_booked'].includes(p.status)) return false;
     const due = p.next_action_date;
     if (!due) return false;
     const d = daysUntil(due);
@@ -191,8 +194,8 @@ function renderWeekBar() {
     const totalSum = Object.values(totalCounts).reduce((a,b)=>a+b,0);
 
     // Highlight l'ultima card a destra (ieri o estremo range).
-    // 'today' CSS class significa "card evidenziata", non letteralmente oggi.
-    const isToday = iso === endIso;
+    // CSS class 'today' = "card evidenziata", non letteralmente oggi.
+    const isLastCard = iso === endIso;
     const isEmpty = totalSum === 0;
 
     const dotsHtml = (counts) => ['Manu','Dami','Claude','Antonio']
@@ -201,7 +204,7 @@ function renderWeekBar() {
 
     const fuSum = Object.values(fuCounts).reduce((a,b)=>a+b,0);
     wrap.insertAdjacentHTML('beforeend', `
-      <div class="day-card ${isToday ? 'today' : ''} ${isEmpty ? 'empty' : ''}">
+      <div class="day-card ${isLastCard ? 'today' : ''} ${isEmpty ? 'empty' : ''}">
         <div class="day-date">${dayCardLabel(iso)}</div>
         <div class="day-row"><span class="row-label">Prime</span><span class="row-num primary">${onDayFirst.length}</span></div>
         <div class="day-dots-row">${dotsHtml(firstCounts) || '<span style="color:var(--muted);font-size:10px;">—</span>'}</div>

@@ -44,22 +44,28 @@ function getSender(labelIds = []) {
 }
 
 // ============ Date utils — Europa/Roma ============
-function todayRome() {
-  const now = new Date();
-  // 'en-CA' produce ISO yyyy-mm-dd
-  const romeStr = now.toLocaleDateString('en-CA', { timeZone: TZ });
-  return new Date(romeStr + 'T00:00:00');
-}
-
+// FONTE DI VERITÀ per "oggi" = todayRomeIso() (string YYYY-MM-DD).
+// todayRome() è un wrapper Date object utile solo per setDate() e
+// confronti aritmetici. Ancorato a T12:00:00 per coerenza con
+// _parseDate() — evita il bug Math.round(0.5)=1 quando offsets
+// differiscono di 12h tra Date di mezzogiorno e Date di mezzanotte.
 function todayRomeIso() {
   return new Date().toLocaleDateString('en-CA', { timeZone: TZ });
 }
 
+function todayRome() {
+  return new Date(todayRomeIso() + 'T12:00:00');
+}
+
 // Anchora a mezzogiorno locale per evitare shift DST (±1h) che
 // possono spostare la data al giorno precedente con toISOString().
+// Robusto a input ISO timestamp completo: prende solo i primi 10 char
+// (YYYY-MM-DD). Ritorna null se il prefisso non è una data valida.
 function _parseDate(s) {
   if (!s) return null;
-  const d = new Date(s + 'T12:00:00');
+  const clean = String(s).substring(0, 10);
+  if (!/^\d{4}-\d{2}-\d{2}$/.test(clean)) return null;
+  const d = new Date(clean + 'T12:00:00');
   return isNaN(d) ? null : d;
 }
 
@@ -71,18 +77,27 @@ function _toRomeIso(d) {
   return d.toLocaleDateString('en-CA', { timeZone: TZ });
 }
 
+// Fonte di verità per "oggi" = todayRomeIso() (string YYYY-MM-DD).
+// Confronto string-equal per "oggi" elimina ogni ambiguità da
+// Math.round(0.5) = 1 quando le 2 Date hanno offset di 12h.
 function daysSince(dateStr) {
   if (!dateStr) return 0;
-  const today = todayRome();
-  const d = _parseDate(dateStr);
+  const todayStr = todayRomeIso();
+  const cleanStr = String(dateStr).substring(0, 10);
+  if (cleanStr === todayStr) return 0;
+  const today = new Date(todayStr + 'T12:00:00');
+  const d = _parseDate(cleanStr);
   if (!d) return 0;
   return Math.round((today - d) / 86400000);
 }
 
 function daysUntil(dateStr) {
   if (!dateStr) return null;
-  const today = todayRome();
-  const d = _parseDate(dateStr);
+  const todayStr = todayRomeIso();
+  const cleanStr = String(dateStr).substring(0, 10);
+  if (cleanStr === todayStr) return 0;
+  const today = new Date(todayStr + 'T12:00:00');
+  const d = _parseDate(cleanStr);
   if (!d) return null;
   return Math.round((d - today) / 86400000);
 }
