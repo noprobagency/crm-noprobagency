@@ -61,6 +61,25 @@ function getSenderFromLabels(labelIds = []) {
   return null;
 }
 
+// Pattern outreach per riconoscere thread Antonio senza label
+const OUTREACH_PATTERNS = [
+  /mi sono imbattuto/i,
+  /I was looking into/i,
+  /I came across/i,
+  /Accorgimento rapido/i,
+  /bumping this up/i,
+  /rimando su nel caso/i,
+  /Stavo guardando/i,
+  /ho visto la piattaforma/i,
+  /frenano le conversioni/i,
+  /tracking.*campagne|campagne.*tracking/i,
+];
+
+function looksLikeOutreach(snippet, subject) {
+  const text = `${subject || ''} ${snippet || ''}`;
+  return OUTREACH_PATTERNS.some(re => re.test(text));
+}
+
 // ============ Italian holidays + working days ============
 function isItalianHoliday(date) {
   const wd = date.getDay();
@@ -82,7 +101,7 @@ function addWorkingDays(dateStr, n) {
     if (!isItalianHoliday(d)) added++;
   }
   while (isItalianHoliday(d)) d.setDate(d.getDate() + 1);
-  return d.toISOString().split('T')[0];
+  return d.toLocaleDateString('en-CA', { timeZone: TZ });  // Rome TZ, no UTC shift
 }
 function calculateTimeline(firstContact) {
   if (!firstContact) return null;
@@ -105,6 +124,17 @@ function extractEmail(toHeader) {
   const m = toHeader.match(/<(.+?)>/) || toHeader.match(/(\S+@\S+)/);
   return (m ? m[1] : toHeader).trim().toLowerCase().replace(/[<>]/g, '');
 }
+
+// Estrae TUTTI gli indirizzi da una stringa header (To/Cc/Bcc).
+// Ritorna array di email lowercase. Gestisce 'undisclosed-recipients'.
+function extractAllEmails(headerValue) {
+  if (!headerValue) return [];
+  const trimmed = headerValue.trim().toLowerCase();
+  if (trimmed.includes('undisclosed-recipients')) return ['undisclosed'];
+  // Split su virgola fuori da quotes
+  const parts = headerValue.split(/,(?![^<]*>)/).map(s => s.trim()).filter(Boolean);
+  return parts.map(extractEmail).filter(Boolean);
+}
 function dateIso(internalDate) {
   return new Date(parseInt(internalDate)).toLocaleDateString('en-CA', { timeZone: TZ });
 }
@@ -118,6 +148,7 @@ async function fetchAllOutboundThreads() {
     console.log(`📧 Fetching page ${pageNum}...`);
     const res = await gmail.users.threads.list({
       userId: 'me',
+      // Filtro corretto: TUTTI i thread outbound dal 15/04 (escluso) in poi
       q: 'from:antonio@noprob.agency after:2026/04/15 -in:draft',
       maxResults: 100,
       ...(pageToken && { pageToken })
@@ -281,8 +312,19 @@ function classifyThread(thread) {
   if (outbound.length === 0) return null;
 
   const firstMsg = outbound[0];
-  const sender = getSenderFromLabels(firstMsg.labelIds || []);
-  if (!sender) return null;  // Non è outreach NoProb
+  let sender = getSenderFromLabels(firstMsg.labelIds || []);
+
+  // Fallback: thread senza label NoProb. Se snippet/subject matcha
+  // pattern outreach → assegna ad Antonio. Altrimenti scarta.
+  if (!sender) {
+    const subj = getHeader(firstMsg, 'Subject') || '';
+    const snippet = firstMsg.snippet || '';
+    if (looksLikeOutreach(snippet, subj)) {
+      sender = 'Antonio';
+    } else {
+      return null;  // non è outreach NoProb
+    }
+  }
 
   const inbound = messages.filter(m => {
     const from = (getHeader(m, 'From') || '').toLowerCase();
@@ -356,16 +398,21 @@ function classifyThread(thread) {
     }
   }
 
-  // Subject e dati prima email
+  // Subject + multi-recipient detection
   const toHeader = getHeader(firstMsg, 'To') || '';
+  const ccHeader = getHeader(firstMsg, 'Cc') || '';
+  const bccHeader = getHeader(firstMsg, 'Bcc') || '';
   const subject  = getHeader(firstMsg, 'Subject') || '';
-  const email    = extractEmail(toHeader);
-  const domain   = email.split('@')[1] || '';
+  const allTo  = extractAllEmails(toHeader);
+  const allCc  = extractAllEmails(ccHeader);
+  const allBcc = extractAllEmails(bccHeader);
+  const multiTo = allTo.length > 1;
+  const hadCcBcc = allCc.length > 0 || allBcc.length > 0;
+
   const firstDate = dateIso(firstMsg.internalDate);
   const angle    = detectAngle(subject, firstMsg.snippet, sender);
   const platform = detectPlatform(subject, firstMsg.snippet, sender);
   const contact  = extractContactName(firstMsg.snippet || '');
-  const brand    = extractBrand(firstMsg.snippet || '', domain);
 
   // Follow-up: tutti gli outbound dopo il primo
   const followups_sent = outbound.slice(1).map((m, i) => ({
@@ -420,7 +467,9 @@ function classifyThread(thread) {
     else if (sentTypes.has('follow_up_1') && status === 'contacted') status = 'follow_up_1_sent';
   }
 
-  return {
+  // Multi-TO: ritorna ARRAY di prospect (uno per email destinataria)
+  const recipients = allTo.length > 0 ? allTo : ['undisclosed'];
+  const sharedFields = {
     thread_id: thread.id,
     sender,
     angle,
@@ -430,11 +479,11 @@ function classifyThread(thread) {
     redirect_to: redirectTo,
     is_bounce: isBounce || (status === 'bounced'),
     has_human_reply: status === 'in_conversation',
-
-    brand,
-    contact,
-    email,
-    domain,
+    multi_to: multiTo,
+    had_cc_bcc: hadCcBcc,
+    other_recipients: multiTo ? allTo : [],
+    cc_recipients: allCc,
+    bcc_recipients: allBcc,
     subject_email: subject,
 
     first_contact: firstDate,
@@ -454,11 +503,60 @@ function classifyThread(thread) {
       snippet: (lastHumanReply.snippet || '').slice(0, 120),
     } : null,
   };
+
+  // Espande in N prospect (uno per destinatario in TO se multi)
+  const prospects = recipients.map(email => {
+    const domain = email && email !== 'undisclosed' ? (email.split('@')[1] || '') : '';
+    const brand = extractBrand(firstMsg.snippet || '', domain);
+    let notes = notesOverride;
+    if (multiTo) {
+      const others = recipients.filter(e => e !== email).join(', ');
+      notes = (notes ? notes + ' · ' : '') + `Inviata in multi-TO con: ${others}`;
+    }
+    if (hadCcBcc) {
+      notes = (notes ? notes + ' · ' : '') + 'Email con CC/BCC — potenziale impatto deliverability';
+    }
+    if (email === 'undisclosed') {
+      notes = (notes ? notes + ' · ' : '') + 'Destinatari nascosti in BCC — non tracciabile';
+    }
+    return {
+      ...sharedFields,
+      brand,
+      contact: extractContactName(firstMsg.snippet || ''),
+      email,
+      domain,
+      notes,
+    };
+  });
+  return prospects;
+}
+
+// Costruisce indici di lookup dal JSON precedente per preservare
+// campi manuali (notes, stape_score, redirect_to, status conversazione).
+function loadPreviousJson() {
+  if (!fs.existsSync(JSON_PATH)) return { byKey: new Map(), conversations: new Set() };
+  const prev = JSON.parse(fs.readFileSync(JSON_PATH, 'utf8'));
+  const byKey = new Map();
+  const conversations = new Set();
+  for (const p of [...(prev.active || []), ...(prev.no_reply || []), ...(prev.bounced || [])]) {
+    const key = `${p.thread_id || ''}|${(p.email || '').toLowerCase()}`;
+    byKey.set(key, {
+      notes: p.notes || '',
+      stape_score: p.stape_score ?? null,
+      redirect_to: p.redirect_to || null,
+      status: p.status,
+    });
+    if (p.status === 'in_conversation' || p.status === 'call_booked') {
+      conversations.add(key);
+    }
+  }
+  return { byKey, conversations };
 }
 
 // ============ Main ============
 async function runAudit() {
   console.log('🔍 Inizio audit Gmail...\n');
+  const { byKey: prevByKey, conversations: prevConversations } = loadPreviousJson();
   const threads = await fetchAllOutboundThreads();
   console.log(`📧 Thread totali fetch-ati: ${threads.length}\n`);
 
@@ -471,13 +569,49 @@ async function runAudit() {
   let pid = 1, bid = 1;
 
   for (const thread of threads) {
-    const c = classifyThread(thread);
-    if (!c) { skipped++; continue; }
+    const cs = classifyThread(thread);
+    if (!cs || cs.length === 0) { skipped++; continue; }
 
-    if (c.is_bounce) {
-      bounced.push({
-        id: `bounce_${String(bid++).padStart(3, '0')}`,
+    for (const c of cs) {
+      const prevKey = `${c.thread_id || ''}|${(c.email || '').toLowerCase()}`;
+      const prev = prevByKey.get(prevKey) || {};
+
+      if (c.is_bounce) {
+        bounced.push({
+          id: `bounce_${String(bid++).padStart(3, '0')}`,
+          brand: c.brand,
+          email: c.email,
+          domain: c.domain,
+          subject_email: c.subject_email,
+          assigned_to: c.sender,
+          sender: c.sender,
+          label_id: LABELS[c.sender.toUpperCase()] || LABELS.MANU,
+          angle: c.angle,
+          bounce_date: c.first_contact,
+          first_contact: c.first_contact,
+          last_activity: c.first_contact,
+          status: 'bounced',
+          notes: c.notes || prev.notes || 'Email non consegnata',
+          multi_to: c.multi_to,
+          had_cc_bcc: c.had_cc_bcc,
+          thread_id: c.thread_id,
+          suggested_action: 'Cerca contatto alternativo',
+          alt_contact_found: false,
+          is_first_email: false,
+          followups_sent: [],
+        });
+        continue;
+      }
+
+      // Preserva status in_conversation se era così nel vecchio JSON.
+      // Non sovrascrivere mai questi due status.
+      let finalStatus = c.status;
+      if (prevConversations.has(prevKey)) finalStatus = prev.status;
+
+      const prospect = {
+        id: `prospect_${String(pid++).padStart(3, '0')}`,
         brand: c.brand,
+        contact: c.contact,
         email: c.email,
         domain: c.domain,
         subject_email: c.subject_email,
@@ -485,54 +619,40 @@ async function runAudit() {
         sender: c.sender,
         label_id: LABELS[c.sender.toUpperCase()] || LABELS.MANU,
         angle: c.angle,
-        bounce_date: c.first_contact,
+        platform: c.platform,
+        status: finalStatus,
         first_contact: c.first_contact,
-        last_activity: c.first_contact,
-        status: 'bounced',
-        notes: 'Email non consegnata',
+        last_activity: c.last_activity,
+        is_first_email: true,
+        multi_to: c.multi_to,
+        had_cc_bcc: c.had_cc_bcc,
+        other_recipients: c.other_recipients,
+        first_email_snippet: c.last_outbound_by_antonio.snippet,
+        next_action: c.next_action,
+        next_action_date: c.next_action_date,
+        next_followup_due: c.next_action_date,
+        followups_sent: c.followups_sent,
+        scheduled_timeline: c.scheduled_timeline,
+        last_outbound_by_antonio: c.last_outbound_by_antonio,
+        last_reply_from_prospect: c.last_reply_from_prospect,
         thread_id: c.thread_id,
-        suggested_action: 'Cerca contatto alternativo',
-        alt_contact_found: false,
-        is_first_email: false,
-        followups_sent: [],
-      });
-      continue;
-    }
+        // Preserva campi manuali dal precedente JSON
+        notes: prev.notes && prev.notes.length > (c.notes || '').length ? prev.notes : (c.notes || ''),
+        stape_score: prev.stape_score ?? null,
+        redirect_to: c.redirect_to || prev.redirect_to || null,
+      };
 
-    const prospect = {
-      id: `prospect_${String(pid++).padStart(3, '0')}`,
-      brand: c.brand,
-      contact: c.contact,
-      email: c.email,
-      domain: c.domain,
-      subject_email: c.subject_email,
-      assigned_to: c.sender,
-      sender: c.sender,
-      label_id: LABELS[c.sender.toUpperCase()] || LABELS.MANU,
-      angle: c.angle,
-      platform: c.platform,
-      status: c.status,
-      first_contact: c.first_contact,
-      last_activity: c.last_activity,
-      is_first_email: true,
-      first_email_snippet: c.last_outbound_by_antonio.snippet,
-      next_action: c.next_action,
-      next_action_date: c.next_action_date,
-      next_followup_due: c.next_action_date,
-      followups_sent: c.followups_sent,
-      scheduled_timeline: c.scheduled_timeline,
-      last_outbound_by_antonio: c.last_outbound_by_antonio,
-      last_reply_from_prospect: c.last_reply_from_prospect,
-      thread_id: c.thread_id,
-      notes: c.notes || '',
-      stape_score: null,
-      ...(c.redirect_to ? { redirect_to: c.redirect_to } : {}),
-    };
+      if (finalStatus === 'in_conversation' || finalStatus === 'call_booked') {
+        active.push(prospect);
+      } else {
+        no_reply.push(prospect);
+      }
 
-    if (c.status === 'in_conversation' || c.status === 'call_booked') {
-      active.push(prospect);
-    } else {
-      no_reply.push(prospect);
+      // Traccia anomalie per il report
+      if (c.multi_to) anomalies.push(`Multi-TO: ${c.brand} (${c.email}) con ${c.other_recipients.filter(e => e !== c.email).join(', ')}`);
+      if (c.had_cc_bcc) anomalies.push(`CC/BCC: ${c.brand} (${c.email})`);
+      if (c.email === 'undisclosed') anomalies.push(`BCC nascosti: ${c.brand} (thread ${c.thread_id})`);
+      if (c.autoresponseClassification?.kind === 'unknown') anomalies.push(`Da classificare manualmente: ${c.brand} (${c.email})`);
     }
   }
 
@@ -544,7 +664,9 @@ async function runAudit() {
   const data = {
     meta: {
       last_updated: new Date().toISOString(),
-      schema_version: 'v3.2',
+      schema_version: 'v3.3',
+      audit_version: 'full_backfill_v1',
+      last_audit: new Date().toISOString(),
       audit_date: todayIsoRome(),
       earliest_contact: '2026-04-16',
       total_contacted: active.length + no_reply.length,
@@ -557,8 +679,33 @@ async function runAudit() {
     bounced,
   };
 
-  fs.writeFileSync(JSON_PATH, JSON.stringify(data, null, 2));
+  // STAMPA REPORT PRIMA del salvataggio
   printReport(data, skipped, anomalies);
+
+  // CONFIRM prompt — non scrive nulla senza "y"
+  if (!process.env.SKIP_CONFIRM) {
+    const readline = await import('readline');
+    const rl = readline.createInterface({ input: process.stdin, output: process.stdout });
+    const answer = await new Promise(resolve => {
+      rl.question('\nProcedo con il salvataggio e push su main? (y/n) ', resolve);
+    });
+    rl.close();
+    if (answer.trim().toLowerCase() !== 'y') {
+      console.log('❌ Salvataggio annullato. JSON NON modificato.');
+      return;
+    }
+  }
+
+  // Verifica JSON valido prima di scrivere
+  try {
+    JSON.parse(JSON.stringify(data));
+  } catch (e) {
+    console.error('❌ JSON invalido, non salvato:', e.message);
+    process.exit(1);
+  }
+
+  fs.writeFileSync(JSON_PATH, JSON.stringify(data, null, 2));
+  console.log(`✅ Salvato ${JSON_PATH}`);
 }
 
 function printReport(data, skipped, anomalies) {

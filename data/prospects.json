@@ -1,16 +1,18 @@
 {
   "meta": {
-    "last_updated": "2026-05-15T01:03:35+02:00",
-    "total_contacted": 223,
+    "last_updated": "2026-05-15T15:00:00+02:00",
+    "total_contacted": 202,
     "total_replied": 3,
-    "total_bounced": 22,
+    "total_bounced": 23,
     "total_autoresponse": 11,
     "first_run": false,
     "coverage_note": "First run — copre outbound visibili negli ultimi ~9 giorni (2026-05-06 → 2026-05-13). Le runs giornaliere successive aggiungeranno nuovi thread incrementalmente.",
     "schema_version": "v3.3",
     "earliest_contact": "2026-04-16",
     "audit_date": "2026-05-13",
-    "audit_note": "Audit deep eseguito il 2026-05-13: 217 thread Gmail validi vs 159 nel JSON. Identificate 124 prime email mancanti (il JSON contiene i thread_id dei bump del 7/05 invece delle prime email originali del 22-30 aprile). Per ricostruzione canonica: node scripts/audit-gmail.js. Vedi AUDIT_REPORT.md per dettagli."
+    "audit_note": "Audit deep eseguito il 2026-05-13: 217 thread Gmail validi vs 159 nel JSON. Identificate 124 prime email mancanti (il JSON contiene i thread_id dei bump del 7/05 invece delle prime email originali del 22-30 aprile). Per ricostruzione canonica: node scripts/audit-gmail.js. Vedi AUDIT_REPORT.md per dettagli.",
+    "last_audit": "2026-05-15T15:00:00+02:00",
+    "audit_version": "full_backfill_v1"
   },
   "active": [
     {
@@ -652,7 +654,7 @@
       "next_action": "Follow-up 1",
       "next_action_date": "2026-05-27",
       "stape_score": null,
-      "notes": "E-commerce settore medico",
+      "notes": "E-commerce settore medico · Inviata in multi-TO con: giuseppe_abbasciano@medicoshop.it (rilevato audit MCP 2026-05-15)",
       "thread_id": "19e1d5f3c7110350",
       "timeline": [
         {
@@ -679,7 +681,13 @@
         "follow_up_3": "2026-07-16",
         "out_date": "2026-07-17"
       },
-      "subject_email": "Re: Report MedicoShop"
+      "subject_email": "Re: Report MedicoShop",
+      "multi_to": true,
+      "had_cc_bcc": false,
+      "other_recipients": [
+        "giuseppeabbasciano@medicoshop.it",
+        "giuseppe_abbasciano@medicoshop.it"
+      ]
     },
     {
       "id": "prospect_023",
@@ -9507,7 +9515,7 @@
       "next_action": "Follow-up 1",
       "next_action_date": "2026-05-28",
       "stape_score": null,
-      "notes": "⚠️ Destinatario BCC/undisclosed — email non visibile. Dominio: ciarrocchiboutique.it. Da verificare manualmente.",
+      "notes": "⚠️ Destinatario BCC/undisclosed — email non visibile. Dominio: ciarrocchiboutique.it. Da verificare manualmente. · Destinatari nascosti in BCC (undisclosed-recipients) — non tracciabile (rilevato audit MCP 2026-05-15)",
       "thread_id": "19e26568492de7cd",
       "timeline": [
         {
@@ -9534,7 +9542,9 @@
         "follow_up_3": "2026-07-17",
         "out_date": "2026-07-20"
       },
-      "subject_email": "Problema su ciarrocchiboutique.it"
+      "subject_email": "Problema su ciarrocchiboutique.it",
+      "multi_to": true,
+      "had_cc_bcc": true
     },
     {
       "id": "prospect_217",
@@ -9799,6 +9809,45 @@
         "out_date": "2026-07-20"
       },
       "subject_email": "[RE]: Report peeperstore.it"
+    },
+    {
+      "id": "prospect_223",
+      "brand": "Alberta Boutique",
+      "contact": null,
+      "email": "info@albertaboutique.it",
+      "domain": "albertaboutique.it",
+      "subject_email": "[RE]: Report albertaboutique.it",
+      "assigned_to": "Antonio",
+      "sender": "Antonio",
+      "label_id": "Label_1523762719426921570",
+      "angle": "1A",
+      "platform": "non-Shopify",
+      "status": "contacted",
+      "first_contact": "2026-05-13",
+      "last_activity": "2026-05-13",
+      "is_first_email": true,
+      "first_email_snippet": "Buonasera. mi sono imbattuto in Alberta Boutique cercando le migliori boutique multibrand del settore in Italia, a proposito, la boutique a San Miniato Basso è stupenda.",
+      "next_action": "Follow-up 1",
+      "next_action_date": "2026-05-27",
+      "next_followup_due": "2026-05-27",
+      "followups_sent": [],
+      "scheduled_timeline": {
+        "first_email": "2026-05-13",
+        "follow_up_1": "2026-05-27",
+        "follow_up_2": "2026-06-18",
+        "follow_up_3": "2026-07-16",
+        "out_date": "2026-07-17"
+      },
+      "last_outbound_by_antonio": {
+        "date": "2026-05-13",
+        "snippet": "Buonasera. mi sono imbattuto in Alberta Boutique cercando le migliori boutique multibrand del settore in Italia."
+      },
+      "last_reply_from_prospect": null,
+      "thread_id": "19e21674535af45f",
+      "notes": "Aggiunto via audit MCP 2026-05-15. Thread senza label NoProb in Gmail — sender assegnato ad Antonio via fallback pattern outreach.",
+      "stape_score": null,
+      "multi_to": false,
+      "had_cc_bcc": false
     }
   ],
   "bounced": [
@@ -10373,6 +10422,34 @@
       "next_action": null,
       "next_action_date": null,
       "next_followup_due": null
+    },
+    {
+      "id": "bounce_023",
+      "brand": "Peeper",
+      "email": "nfo@peeperstore.it",
+      "domain": "peeperstore.it",
+      "subject_email": "[RE]: Report peeperstore.it",
+      "assigned_to": "Antonio",
+      "sender": "Antonio",
+      "label_id": "Label_1523762719426921570",
+      "angle": "1A",
+      "bounce_date": "2026-05-13",
+      "first_contact": "2026-05-13",
+      "last_activity": "2026-05-13",
+      "status": "bounced",
+      "notes": "Bounce — typo nell'indirizzo (manca la 'i' iniziale, doveva essere info@peeperstore.it). Mailer-daemon Netsons. Thread senza label NoProb (Antonio fallback).",
+      "thread_id": "19e212c46cf6b841",
+      "suggested_action": "Riprovare con info@peeperstore.it (l'altra email corretta è già stata inviata il 14/05 — verificare prospect_166 o successivi)",
+      "alt_contact_found": true,
+      "is_first_email": false,
+      "followups_sent": [],
+      "platform": "non-Shopify",
+      "contact": null,
+      "next_action": null,
+      "next_action_date": null,
+      "next_followup_due": null,
+      "multi_to": false,
+      "had_cc_bcc": false
     }
   ]
 }
