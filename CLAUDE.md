@@ -176,9 +176,16 @@ Campi bounced[]:
   "angle": "1A | 2A | 3A | 3B | 2B",
   "bounce_date": "YYYY-MM-DD",
   "notes": "Motivo bounce",
-  "thread_id": "Gmail thread ID"
+  "thread_id": "Gmail thread ID",
+  "skip": false
 }
 ```
+
+Campo `skip` (presente anche in no_reply[] e bounced[]):
+true = prospect escluso da ogni elaborazione automatica.
+La Routine non lo aggiorna, Cowork non lo contatta. Visibile
+nella UI con badge SKIP rosso e riga in opacità 0.5. Usato
+per blacklist manuale di brand/domini da non più contattare.
 
 ---
 

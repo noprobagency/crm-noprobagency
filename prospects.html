@@ -201,16 +201,20 @@ function renderContactView(filtered) {
     const u = urgency(due);
     const dueClass = u === 'urgent' ? 'due-urgent' : (u === 'soon' ? 'due-soon' : '');
 
-    const brandHtml = p.domain
+    const isSkip = p.skip === true;
+    const brandLink = p.domain
       ? `<a href="https://${p.domain}" target="_blank" rel="noopener" onclick="event.stopPropagation()">${escapeHtml(p.brand || p.domain)}</a>`
       : escapeHtml(p.brand || '—');
+    const skipBadge = isSkip
+      ? ` <span class="badge" style="background:#fde8e8;color:#8a1f1f;font-weight:700;margin-left:6px;">SKIP</span>`
+      : '';
 
     const subj = p.subject_email || '';
     const subjShort = subj.length > 40 ? subj.slice(0, 40) + '…' : subj;
 
     html += `
-      <tr class="${sender}" data-pid="${p.id}">
-        <td class="brand-cell">${brandHtml}</td>
+      <tr class="${sender}" data-pid="${p.id}" ${isSkip ? 'style="opacity:0.5;"' : ''}>
+        <td class="brand-cell">${brandLink}${skipBadge}</td>
         <td>${escapeHtml(p.contact || p.email || '—')}</td>
         <td class="subject-cell" title="${escapeHtml(subj)}">${escapeHtml(subjShort) || '<span style="color:var(--muted);">—</span>'}</td>
         <td>${senderBadge(p.sender || p.assigned_to)}</td>
@@ -218,7 +222,7 @@ function renderContactView(filtered) {
         <td class="mono">${formatDateFull(p.first_contact)}</td>
         <td><span class="days-pill ${daysClass}">${days}g</span></td>
         <td>${statusBadge(p.status)}</td>
-        <td>${escapeHtml(p.next_action || '—')}</td>
+        <td>${isSkip ? '<span style="color:var(--muted);font-family:var(--font-mono);font-size:11px;text-transform:uppercase;letter-spacing:0.5px;">Escluso</span>' : escapeHtml(p.next_action || '—')}</td>
         <td class="mono ${dueClass}">${due ? `${dueLabel(due)} · ${formatDate(due)}` : '—'}</td>
       </tr>
     `;

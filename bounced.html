@@ -121,20 +121,26 @@ function renderBounces() {
   `;
   for (const b of state.items) {
     const sender = (b.sender || b.assigned_to || 'Manu').toLowerCase();
-    const altPill = b.alt_contact_found
-      ? `<span class="badge" style="background:#edf7da;color:#2a5a20">Trovato</span>`
-      : `<span class="badge" style="background:#fde8e8;color:#8a1f1f">Da cercare</span>`;
-    const brandHtml = b.domain
+    const isSkip = b.skip === true;
+    const altCol = isSkip
+      ? `<span style="color:var(--muted);font-family:var(--font-mono);font-size:11px;text-transform:uppercase;letter-spacing:0.5px;">Escluso</span>`
+      : (b.alt_contact_found
+          ? `<span class="badge" style="background:#edf7da;color:#2a5a20">Trovato</span>`
+          : `<span class="badge" style="background:#fde8e8;color:#8a1f1f">Da cercare</span>`);
+    const skipBadge = isSkip
+      ? ` <span class="badge" style="background:#fde8e8;color:#8a1f1f;font-weight:700;margin-left:6px;">SKIP</span>`
+      : '';
+    const brandLink = b.domain
       ? `<a href="https://${b.domain}" target="_blank" rel="noopener">${escapeHtml(b.brand || b.domain)}</a>`
       : escapeHtml(b.brand || '—');
     html += `
-      <tr class="${sender}">
-        <td class="brand-cell">${brandHtml}</td>
+      <tr class="${sender}" ${isSkip ? 'style="opacity:0.5;"' : ''}>
+        <td class="brand-cell">${brandLink}${skipBadge}</td>
         <td class="mono">${escapeHtml(b.email || '—')}</td>
         <td>${senderBadge(b.sender || b.assigned_to)}</td>
         <td>${angleBadge(b.angle)}</td>
         <td class="mono">${formatDateFull(b.bounce_date)}</td>
-        <td>${altPill}</td>
+        <td>${altCol}</td>
         <td style="font-size:12px;color:var(--muted);">${escapeHtml(b.notes || '—')}</td>
       </tr>
     `;

@@ -345,6 +345,7 @@ function statusBadge(status) {
     autoresponse:       { bg: '#fff3e0', color: '#8a4a00', label: 'Autoresponse' },
     archived:           { bg: '#e8e8e8', color: '#444',    label: 'Archiviato' },
     bounced:            { bg: '#fde8e8', color: '#8a1f1f', label: 'Bounce' },
+    skip:               { bg: '#fde8e8', color: '#8a1f1f', label: 'SKIP' },
   };
   const s = map[status] || { bg: '#f0f0f0', color: '#555', label: status || '—' };
   return `<span class="badge" style="background:${s.bg};color:${s.color}">${s.label}</span>`;
