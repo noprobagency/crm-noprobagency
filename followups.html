@@ -68,17 +68,67 @@ const STATE = {
   sent: { kind: 'all', sender: 'all', from: null, to: null, page: 1 },
 };
 
-// ---------- Compute todos ----------
-// I prospect 'in_conversation' / 'call_booked' / 'closed' sono esclusi
-// dalle sezioni Scaduti/Oggi/Prossimi 7 giorni: hanno la loro pagina
-// in dashboard come "In conversazione" e la gestione è manuale.
+// ---------- Resolve next action ----------
+// Priorità: 1) prospect.next_action_date diretto dal JSON (Routine OOO/redirect/CS),
+//           2) fallback su getNextAction(p) che usa scheduled_timeline.
+// I prospect 'in_conversation' / 'call_booked' / 'closed' / 'archived' / 'bounced'
+// sono SEMPRE esclusi: hanno gestione separata.
+const HARD_EXCLUDED = ['in_conversation', 'call_booked', 'closed', 'archived', 'bounced'];
+
+function resolveNextAction(p) {
+  // Custom override dal JSON (autoresponse/OOO/redirect/CS)
+  if (p.next_action_date) {
+    const todayIso = todayRomeIso();
+    return {
+      action: p.next_action || '—',
+      date: p.next_action_date,
+      label: null,
+      overdue: p.next_action_date < todayIso,
+      isCustom: true,
+    };
+  }
+  // Sequenza SOP standard
+  return getNextAction(p);
+}
+
+function getActionBadge(p, fallbackLabel) {
+  const action = (p.next_action || '').toLowerCase();
+  if (p.redirect_to || /prima email|inviare|redirect/.test(action)) {
+    return { label: 'REDIRECT', bg: '#fff3e0', color: '#c45c00' };
+  }
+  if (/rientro|ooo|al rientro/.test(action)) {
+    return { label: 'OOO', bg: '#fff3e0', color: '#8a4a00' };
+  }
+  if (/manualmente|classificare|verifica/.test(action)) {
+    return { label: '⚠ DA VERIFICARE', bg: '#fde8e8', color: '#8a1f1f' };
+  }
+  if (/cs|ticket|attendere/.test(action)) {
+    return { label: 'CS', bg: '#f0f0f0', color: '#555' };
+  }
+  if (fallbackLabel === 'FU 1') return { label: 'FU 1', bg: '#e6eef8', color: '#1e4080' };
+  if (fallbackLabel === 'FU 2') return { label: 'FU 2', bg: '#e6eef8', color: '#1e4080' };
+  if (fallbackLabel === 'FU 3') return { label: 'FU 3', bg: '#e6eef8', color: '#1e4080' };
+  if (fallbackLabel === 'OUT') return { label: 'OUT', bg: '#fde8e8', color: '#8a1f1f' };
+  return { label: 'AZIONE', bg: '#f0f0f0', color: '#555' };
+}
+
+// Priority: REDIRECT(1) > OOO(2) > overdue(3) > FU(4) > CS(5) > altro(6)
+function actionPriority(p, t) {
+  if (p.redirect_to) return 1;
+  const action = (p.next_action || '').toLowerCase();
+  if (/rientro|ooo/.test(action)) return 2;
+  if (t.overdue) return 3;
+  if (/fu /i.test(t.label || '')) return 4;
+  if (/cs|ticket|attendere/.test(action)) return 5;
+  return 6;
+}
+
 function computeAllTodos() {
   const all = [...(STATE.data.active || []), ...(STATE.data.no_reply || [])];
-  const EXCLUDED = ['archived', 'closed', 'autoresponse', 'in_conversation', 'call_booked'];
   const todos = [];
   for (const p of all) {
-    if (EXCLUDED.includes(p.status)) continue;
-    const next = getNextAction(p);
+    if (HARD_EXCLUDED.includes(p.status)) continue;
+    const next = resolveNextAction(p);
     if (!next.date) continue;
     todos.push({
       prospect: p,
@@ -86,7 +136,7 @@ function computeAllTodos() {
       date: next.date,
       label: next.label,
       overdue: next.overdue,
-      auto: next.auto,
+      isCustom: next.isCustom || false,
     });
   }
   return todos;
@@ -98,6 +148,7 @@ function todoCard(t, opts = {}) {
   const u = urgency(t.date);
   const days = daysSince(p.first_contact);
   const overdueDays = t.overdue ? Math.abs(daysUntil(t.date)) : 0;
+  const badge = getActionBadge(p, t.label);
 
   const card = document.createElement('div');
   card.className = `fu-card ${sender}${opts.scaduto ? ' scaduto-tag' : ''}`;
@@ -107,12 +158,20 @@ function todoCard(t, opts = {}) {
         ${senderBadge(p.sender || p.assigned_to)}
         <span class="fu-brand">${escapeHtml(p.brand)}</span>
         ${angleBadge(p.angle)}
-        ${t.label ? `<span class="badge" style="background:#1A1A1A;color:#fff">${t.label}</span>` : ''}
+        <span class="badge" style="background:${badge.bg};color:${badge.color};font-weight:700">${badge.label}</span>
         ${opts.scaduto ? `<span class="scaduto-pill">SCADUTO ${overdueDays}g</span>` : ''}
       </div>
       <div class="fu-meta">
         ${escapeHtml(p.contact || p.email || '—')} · primo contatto ${formatDate(p.first_contact)} (${dayOfWeek(p.first_contact)}) · ${days}g dall'inizio
       </div>
+      <div class="fu-action-text" style="margin-top:6px;font-size:13px;color:var(--black);">
+        → ${escapeHtml(t.action)}
+      </div>
+      ${p.redirect_to ? `
+        <div class="fu-redirect" style="margin-top:4px;font-size:12px;color:#c45c00;font-family:var(--font-mono);">
+          → <a href="mailto:${escapeHtml(p.redirect_to)}" onclick="event.stopPropagation()">${escapeHtml(p.redirect_to)}</a>
+        </div>
+      ` : ''}
     </div>
     <div class="fu-right">
       <span class="fu-due ${u}">${dueLabel(t.date)}</span>
@@ -127,7 +186,7 @@ function renderScaduti() {
   const wrap = document.getElementById('scaduti-list');
   wrap.innerHTML = '';
   const todos = computeAllTodos();
-  const list = todos.filter(t => t.overdue && !['in_conversation','call_booked'].includes(t.prospect.status));
+  const list = todos.filter(t => t.overdue);
   document.getElementById('scaduti-count').textContent = list.length;
 
   if (!list.length) {
@@ -135,8 +194,13 @@ function renderScaduti() {
     return;
   }
   document.getElementById('scaduti-section').style.display = 'block';
-  // Ordina per più vecchio scaduto prima
-  list.sort((a, b) => a.date.localeCompare(b.date));
+  // Ordina per priorità + data più vecchia
+  list.sort((a, b) => {
+    const pa = actionPriority(a.prospect, a);
+    const pb = actionPriority(b.prospect, b);
+    if (pa !== pb) return pa - pb;
+    return a.date.localeCompare(b.date);
+  });
   for (const t of list) wrap.appendChild(todoCard(t, { scaduto: true }));
 }
 
@@ -151,6 +215,8 @@ function renderTodaySection() {
     wrap.innerHTML = '<div class="empty success">Nessun follow-up in scadenza oggi ✓</div>';
     return;
   }
+  // Ordina per priorità (REDIRECT > OOO > overdue > FU > CS > altro)
+  list.sort((a, b) => actionPriority(a.prospect, a) - actionPriority(b.prospect, b));
   for (const t of list) wrap.appendChild(todoCard(t));
 }
 
@@ -180,6 +246,8 @@ function renderNext7Section() {
     const g = document.createElement('div');
     g.className = 'fu-group';
     g.innerHTML = `<h3>${dayLabel} · ${dayOfWeek(date)} ${formatDateFull(date)} <span class="count">${groups[date].length}</span></h3>`;
+    // Ordina per priorità all'interno della stessa data
+    groups[date].sort((a, b) => actionPriority(a.prospect, a) - actionPriority(b.prospect, b));
     for (const t of groups[date]) g.appendChild(todoCard(t));
     wrap.appendChild(g);
   }
