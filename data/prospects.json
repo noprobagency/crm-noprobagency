@@ -1,7 +1,7 @@
 {
   "meta": {
-    "last_updated": "2026-05-19T10:35:00+02:00",
-    "total_contacted": 306,
+    "last_updated": "2026-05-19T20:41:42+02:00",
+    "total_contacted": 309,
     "total_replied": 7,
     "total_bounced": 39,
     "total_autoresponse": 17,
@@ -10712,7 +10712,7 @@
       "had_cc_bcc": false,
       "redirect_to": "AmandaFullalove@needleandthread.com",
       "stape_score": null,
-      "notes": "OOO da Alice Hollidge (19/05) - redirect a Amanda Fullalove (amanda.fullalove@needleandthread.com)",
+      "notes": "OOO da Alice Hollidge (19/05) - redirect a Amanda Fullalove (amanda.fullalove@needleandthread.com) | Email inviata a AmandaFullalove@needleandthread.com il 2026-05-19 da Claude. Prospect_332 creato.",
       "followups_sent": [],
       "scheduled_timeline": {
         "first_email": "2026-05-15",
@@ -10736,6 +10736,10 @@
         {
           "date": "2026-05-19",
           "action": "OOO da Alice Hollidge - redirect a AmandaFullalove@needleandthread.com"
+        },
+        {
+          "date": "2026-05-19",
+          "action": "Email outbound 2B inviata da Claude (Cowork) a AmandaFullalove@needleandthread.com — prospect_332 creato"
         }
       ]
     },
@@ -13038,7 +13042,7 @@
       "had_cc_bcc": false,
       "redirect_to": "skollhof.ext@retori.com",
       "stape_score": null,
-      "notes": "OOO permanente — Sara Pio in maternità. Contatti: skollhof.ext@retori.com (Sara Phedra Kollhof), lfacchetti@retori.com (Laura Facchetti), cmaccagno@retori.com (Carola Maccagno). | Redirect: email inviata a skollhof.ext@retori.com (Sara Phedra Kollhof) il 2026-05-19 | Draft preparati per lfacchetti@retori.com e cmaccagno@retori.com - da inviare manualmente",
+      "notes": "OOO permanente — Sara Pio in maternità. Contatti: skollhof.ext@retori.com (Sara Phedra Kollhof), lfacchetti@retori.com (Laura Facchetti), cmaccagno@retori.com (Carola Maccagno). | Redirect: email inviata a skollhof.ext@retori.com (Sara Phedra Kollhof) il 2026-05-19 | Email inviate a lfacchetti@retori.com (Laura Facchetti) e cmaccagno@retori.com (Carola Maccagno) il 2026-05-19 da Claude (Cowork). Prospect_330 e prospect_331 creati.",
       "followups_sent": [],
       "scheduled_timeline": {
         "first_email": "2026-05-18",
@@ -13069,7 +13073,7 @@
         },
         {
           "date": "2026-05-19",
-          "action": "Bozze preparate per Laura Facchetti (lfacchetti@retori.com) e Carola Maccagno (cmaccagno@retori.com) - invio manuale richiesto"
+          "action": "Email outbound 2B inviate da Claude (Cowork) a lfacchetti@retori.com e cmaccagno@retori.com — prospect_330 e prospect_331 creati"
         }
       ],
       "skip": false
@@ -14486,6 +14490,129 @@
         {
           "date": "2026-05-18",
           "action": "Email outbound 2B inviata da Dami"
+        }
+      ],
+      "skip": false
+    },
+    {
+      "id": "prospect_330",
+      "brand": "Retori",
+      "contact": "Laura Facchetti",
+      "email": "lfacchetti@retori.com",
+      "domain": "retori.com",
+      "subject_email": "Retori, una cosa sulle ads",
+      "assigned_to": "Dami",
+      "sender": "Claude",
+      "label_id": "Label_9196661710752787047",
+      "angle": "2B",
+      "platform": "Shopify",
+      "thread_id": "19e406e492fa936d",
+      "status": "contacted",
+      "first_contact": "2026-05-19",
+      "last_activity": "2026-05-19",
+      "multi_to": false,
+      "had_cc_bcc": false,
+      "redirect_to": null,
+      "stape_score": null,
+      "notes": "Contatto alternativo Retori — Sara Pio (spio@retori.com) in maternità permanente. Email inviata il 2026-05-19.",
+      "followups_sent": [],
+      "scheduled_timeline": {
+        "first_email": "2026-05-19",
+        "follow_up_1": "2026-06-03",
+        "follow_up_2": "2026-06-24",
+        "follow_up_3": "2026-07-22",
+        "out_date": "2026-07-23"
+      },
+      "last_outbound_by_antonio": null,
+      "last_reply_from_prospect": null,
+      "next_action": "Follow-up 1",
+      "next_action_date": "2026-06-03",
+      "timeline": [
+        {
+          "date": "2026-05-19",
+          "action": "Email outbound 2B inviata da Claude (Cowork) — redirect da spio@retori.com"
+        }
+      ],
+      "skip": false
+    },
+    {
+      "id": "prospect_331",
+      "brand": "Retori",
+      "contact": "Carola Maccagno",
+      "email": "cmaccagno@retori.com",
+      "domain": "retori.com",
+      "subject_email": "Retori, una cosa sulle ads",
+      "assigned_to": "Dami",
+      "sender": "Claude",
+      "label_id": "Label_9196661710752787047",
+      "angle": "2B",
+      "platform": "Shopify",
+      "thread_id": "19e4071e2a61167b",
+      "status": "contacted",
+      "first_contact": "2026-05-19",
+      "last_activity": "2026-05-19",
+      "multi_to": false,
+      "had_cc_bcc": false,
+      "redirect_to": null,
+      "stape_score": null,
+      "notes": "Contatto alternativo Retori — Sara Pio (spio@retori.com) in maternità permanente. Email inviata il 2026-05-19.",
+      "followups_sent": [],
+      "scheduled_timeline": {
+        "first_email": "2026-05-19",
+        "follow_up_1": "2026-06-03",
+        "follow_up_2": "2026-06-24",
+        "follow_up_3": "2026-07-22",
+        "out_date": "2026-07-23"
+      },
+      "last_outbound_by_antonio": null,
+      "last_reply_from_prospect": null,
+      "next_action": "Follow-up 1",
+      "next_action_date": "2026-06-03",
+      "timeline": [
+        {
+          "date": "2026-05-19",
+          "action": "Email outbound 2B inviata da Claude (Cowork) — redirect da spio@retori.com"
+        }
+      ],
+      "skip": false
+    },
+    {
+      "id": "prospect_332",
+      "brand": "Needle & Thread",
+      "contact": "Amanda Fullalove",
+      "email": "AmandaFullalove@needleandthread.com",
+      "domain": "needleandthread.com",
+      "subject_email": "Needle & Thread, the numbers aren't adding up",
+      "assigned_to": "Dami",
+      "sender": "Claude",
+      "label_id": "Label_9196661710752787047",
+      "angle": "2B",
+      "platform": "Shopify",
+      "thread_id": "19e40722d7f8dc95",
+      "status": "contacted",
+      "first_contact": "2026-05-19",
+      "last_activity": "2026-05-19",
+      "multi_to": false,
+      "had_cc_bcc": false,
+      "redirect_to": null,
+      "stape_score": null,
+      "notes": "Contatto alternativo Needle & Thread — Alice Hollidge (alice@needleandthread.com) OOO. Email inviata il 2026-05-19 in inglese.",
+      "followups_sent": [],
+      "scheduled_timeline": {
+        "first_email": "2026-05-19",
+        "follow_up_1": "2026-06-03",
+        "follow_up_2": "2026-06-24",
+        "follow_up_3": "2026-07-22",
+        "out_date": "2026-07-23"
+      },
+      "last_outbound_by_antonio": null,
+      "last_reply_from_prospect": null,
+      "next_action": "Follow-up 1",
+      "next_action_date": "2026-06-03",
+      "timeline": [
+        {
+          "date": "2026-05-19",
+          "action": "Email outbound 2B inviata da Claude (Cowork) in inglese — redirect da alice@needleandthread.com"
         }
       ],
       "skip": false
