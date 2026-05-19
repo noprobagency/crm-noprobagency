@@ -1,18 +1,19 @@
 {
   "meta": {
-    "last_updated": "2026-05-19T07:53:13+02:00",
+    "last_updated": "2026-05-19T08:00:03+02:00",
     "total_contacted": 306,
     "total_replied": 7,
     "total_bounced": 39,
     "total_autoresponse": 17,
     "first_run": false,
     "coverage_note": "First run — copre outbound visibili negli ultimi ~9 giorni (2026-05-06 → 2026-05-13). Le runs giornaliere successive aggiungeranno nuovi thread incrementalmente.",
-    "schema_version": "v3.4",
+    "schema_version": "v3.5",
     "earliest_contact": "2026-04-16",
     "audit_date": "2026-05-13",
     "audit_note": "Audit deep eseguito il 2026-05-13: 217 thread Gmail validi vs 159 nel JSON. Identificate 124 prime email mancanti (il JSON contiene i thread_id dei bump del 7/05 invece delle prime email originali del 22-30 aprile). Per ricostruzione canonica: node scripts/audit-gmail.js. Vedi AUDIT_REPORT.md per dettagli.",
     "last_audit": "2026-05-15T15:00:00+02:00",
-    "audit_version": "full_backfill_v1"
+    "audit_version": "full_backfill_v1",
+    "version_notes": "v3.5 (2026-05-19): bounce skip/alt_email processing, redirect tracking, followups_sent gestito per no-reply e redirect"
   },
   "active": [
     {
@@ -7144,11 +7145,11 @@
       "assigned_to": "Manu",
       "angle": "1A",
       "platform": "non-Shopify",
-      "status": "autoresponse",
+      "status": "follow_up_1_sent",
       "first_contact": "2026-05-01",
       "last_activity": "2026-05-06",
-      "next_action": "Nessun contatto diretto trovato - solo CS generica disponibile",
-      "next_action_date": null,
+      "next_action": "Nessun contatto diretto — in attesa che emerga un contatto valido per FU2",
+      "next_action_date": "2026-06-08",
       "stape_score": null,
       "notes": "Risposta da indirizzo no-reply | Ricerca contatto diretto: solo customerservices@monsoon.co.uk (CS generica) trovata - non adatta per cold outreach",
       "thread_id": "19dfdf24cd55976b",
@@ -7165,7 +7166,14 @@
       "label_id": "Label_1592668050883672428",
       "sender": "Manu",
       "is_first_email": true,
-      "followups_sent": [],
+      "followups_sent": [
+        {
+          "date": "2026-05-19",
+          "type": "follow_up_1",
+          "sender": "Claude",
+          "snippet": "FU1 non inviato — indirizzo originale no-reply, nessun contatto diretto trovato. Prospect sospeso."
+        }
+      ],
       "last_outbound_by_antonio": {
         "date": "2026-05-01",
         "snippet": "Ciao Jessica, mi sono imbattuto in Monsoon London cercando le migliori realtà fashion del settore. Ho visto la piattaforma che state usando per le vendite online, la conosco molto bene."
@@ -7195,10 +7203,10 @@
       "assigned_to": "Dami",
       "angle": "2B",
       "platform": "Shopify",
-      "status": "autoresponse",
+      "status": "follow_up_1_sent",
       "first_contact": "2026-05-01",
       "last_activity": "2026-05-19",
-      "next_action": "Attendi risposta da customer_relations@t-o-o-g-o-o-d.com",
+      "next_action": "Attendi risposta da customer_relations@t-o-o-g-o-o-d.com (redirect 19/05)",
       "next_action_date": null,
       "stape_score": null,
       "notes": "MW non più dipendente. sales@toogood.com bounced (dominio errato: toogood.com ≠ t-o-o-g-o-o-d.com). Email inviata a customer_relations@t-o-o-g-o-o-d.com il 2026-05-19",
@@ -7220,7 +7228,14 @@
       "label_id": "Label_8658624016447790536",
       "sender": "Dami",
       "is_first_email": true,
-      "followups_sent": [],
+      "followups_sent": [
+        {
+          "date": "2026-05-19",
+          "type": "follow_up_1",
+          "sender": "Claude",
+          "snippet": "Non FU1 classico — redirect: nuova prima email inviata a customer_relations@t-o-o-g-o-o-d.com (MW non più dipendente, sales@toogood.com dominio errato)"
+        }
+      ],
       "last_outbound_by_antonio": {
         "date": "2026-05-01",
         "snippet": "Hi, I was looking into Toogood and noticed you're running Meta/Google campaigns on a Shopify store. Quick check on tracking found an issue you're likely unaware of."
