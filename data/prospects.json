@@ -1,6 +1,6 @@
 {
   "meta": {
-    "last_updated": "2026-05-19T08:00:03+02:00",
+    "last_updated": "2026-05-19T10:35:00+02:00",
     "total_contacted": 306,
     "total_replied": 7,
     "total_bounced": 39,
@@ -10705,14 +10705,14 @@
       "angle": "2B",
       "platform": "Shopify",
       "thread_id": "19e2bd8650978839",
-      "status": "contacted",
+      "status": "autoresponse",
       "first_contact": "2026-05-15",
-      "last_activity": "2026-05-15",
+      "last_activity": "2026-05-19",
       "multi_to": false,
       "had_cc_bcc": false,
-      "redirect_to": null,
+      "redirect_to": "AmandaFullalove@needleandthread.com",
       "stape_score": null,
-      "notes": "",
+      "notes": "OOO da Alice Hollidge (19/05) - redirect a Amanda Fullalove (amanda.fullalove@needleandthread.com)",
       "followups_sent": [],
       "scheduled_timeline": {
         "first_email": "2026-05-15",
@@ -10726,12 +10726,16 @@
         "snippet": "Hi Alice, I was looking into Needle & Thread website and noticed you're running Meta/Google campaigns on an already well-str"
       },
       "last_reply_from_prospect": null,
-      "next_action": "Follow-up 1",
-      "next_action_date": "2026-05-29",
+      "next_action": "Redirect: invia a AmandaFullalove@needleandthread.com",
+      "next_action_date": "2026-05-19",
       "timeline": [
         {
           "date": "2026-05-15",
           "action": "Email outbound 2B inviata da Dami"
+        },
+        {
+          "date": "2026-05-19",
+          "action": "OOO da Alice Hollidge - redirect a AmandaFullalove@needleandthread.com"
         }
       ]
     },
@@ -13034,7 +13038,7 @@
       "had_cc_bcc": false,
       "redirect_to": "skollhof.ext@retori.com",
       "stape_score": null,
-      "notes": "OOO permanente — Sara Pio in maternità. Contatti: skollhof.ext@retori.com (Sara Phedra Kollhof), lfacchetti@retori.com (Laura Facchetti), cmaccagno@retori.com (Carola Maccagno). | Redirect: email inviata a skollhof.ext@retori.com (Sara Phedra Kollhof) il 2026-05-19",
+      "notes": "OOO permanente — Sara Pio in maternità. Contatti: skollhof.ext@retori.com (Sara Phedra Kollhof), lfacchetti@retori.com (Laura Facchetti), cmaccagno@retori.com (Carola Maccagno). | Redirect: email inviata a skollhof.ext@retori.com (Sara Phedra Kollhof) il 2026-05-19 | Draft preparati per lfacchetti@retori.com e cmaccagno@retori.com - da inviare manualmente",
       "followups_sent": [],
       "scheduled_timeline": {
         "first_email": "2026-05-18",
@@ -13062,6 +13066,10 @@
         {
           "date": "2026-05-19",
           "action": "Nuova prima email (redirect) inviata a skollhof.ext@retori.com (Sara Phedra Kollhof) - angolo 2B"
+        },
+        {
+          "date": "2026-05-19",
+          "action": "Bozze preparate per Laura Facchetti (lfacchetti@retori.com) e Carola Maccagno (cmaccagno@retori.com) - invio manuale richiesto"
         }
       ],
       "skip": false
