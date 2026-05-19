@@ -1,8 +1,8 @@
 {
   "meta": {
-    "last_updated": "2026-05-19T01:21:54+02:00",
+    "last_updated": "2026-05-19T07:53:13+02:00",
     "total_contacted": 306,
-    "total_replied": 6,
+    "total_replied": 7,
     "total_bounced": 39,
     "total_autoresponse": 17,
     "first_run": false,
@@ -170,7 +170,7 @@
       "platform": "non-Shopify",
       "status": "in_conversation",
       "first_contact": "2026-05-01",
-      "last_activity": "2026-05-13",
+      "last_activity": "2026-05-19",
       "next_action": "Valutare follow-up",
       "next_action_date": "2026-05-18",
       "stape_score": null,
@@ -226,8 +226,8 @@
         "snippet": "Ciao Nicolò, volevo solo verificare che il video fosse arrivato, hai avuto modo di vederlo?"
       },
       "last_reply_from_prospect": {
-        "date": "2026-05-13",
-        "snippet": "Ciao Antonio, Visto adesso il video, molto insightful! La newsletter ce l'abbiamo e funziona anche bene, però hai ragione è poco trovabile. In questi giorni stiamo entrando in un progetto pre-loved (rivendita borse vintage), quindi siamo molto presi, però sicuramente mi farò risentire."
+        "date": "2026-05-19",
+        "snippet": "Ti allego il mio CV, ho piu che altro esperienze nel mondo del calcio/sport però ho un background molto europeo avendo vissuto e lavorato in 4 paesi diversi"
       },
       "next_followup_due": "2026-05-18",
       "days_since_last_activity": 0,
@@ -393,6 +393,57 @@
         {
           "date": "2026-05-18",
           "action": "Risposta positiva da Andrea: 'manda pure grazie'"
+        }
+      ],
+      "skip": false
+    },
+    {
+      "id": "prospect_326",
+      "brand": "Filippo Marchesani",
+      "contact": null,
+      "email": "customerservice@filippomarchesani.com",
+      "domain": "filippomarchesani.com",
+      "subject_email": "Filippo Marchesani, una cosa sulle ads",
+      "assigned_to": "Dami",
+      "sender": "Dami",
+      "label_id": "Label_8658624016447790536",
+      "angle": "2B",
+      "platform": "Shopify",
+      "thread_id": "19e3b3c1d747516d",
+      "status": "in_conversation",
+      "first_contact": "2026-05-18",
+      "last_activity": "2026-05-19",
+      "multi_to": false,
+      "had_cc_bcc": false,
+      "redirect_to": null,
+      "stape_score": null,
+      "notes": "",
+      "followups_sent": [],
+      "scheduled_timeline": {
+        "first_email": "2026-05-18",
+        "follow_up_1": "2026-06-01",
+        "follow_up_2": "2026-06-23",
+        "follow_up_3": "2026-07-21",
+        "out_date": "2026-07-22"
+      },
+      "last_outbound_by_antonio": {
+        "date": "2026-05-18",
+        "snippet": ""
+      },
+      "last_reply_from_prospect": {
+        "date": "2026-05-19",
+        "snippet": "Grazie per il messaggio. sono a conoscenza del problema di tracking e verrà risolto oggi in giornata. Buon lavoro. E-commerce Manager"
+      },
+      "next_action": "Risposta ricevuta: tracking sarà risolto oggi. Follow up con report Stape completo",
+      "next_action_date": "2026-05-22",
+      "timeline": [
+        {
+          "date": "2026-05-18",
+          "action": "Email outbound 2B inviata da Dami"
+        },
+        {
+          "date": "2026-05-19",
+          "action": "Risposta da ecommerce@filippomarchesani.com: \"sono a conoscenza del problema di tracking e verrà risolto oggi in giornata\""
         }
       ],
       "skip": false
@@ -7096,10 +7147,10 @@
       "status": "autoresponse",
       "first_contact": "2026-05-01",
       "last_activity": "2026-05-06",
-      "next_action": "Cercare contatto diretto (no-reply)",
-      "next_action_date": "2026-05-15",
+      "next_action": "Nessun contatto diretto trovato - solo CS generica disponibile",
+      "next_action_date": null,
       "stape_score": null,
-      "notes": "Risposta da indirizzo no-reply",
+      "notes": "Risposta da indirizzo no-reply | Ricerca contatto diretto: solo customerservices@monsoon.co.uk (CS generica) trovata - non adatta per cold outreach",
       "thread_id": "19dfdf24cd55976b",
       "timeline": [
         {
@@ -7146,11 +7197,11 @@
       "platform": "Shopify",
       "status": "autoresponse",
       "first_contact": "2026-05-01",
-      "last_activity": "2026-05-06",
-      "next_action": "Inviare prima email a sales@toogood.com",
-      "next_action_date": "2026-05-15",
+      "last_activity": "2026-05-19",
+      "next_action": "Attendi risposta da customer_relations@t-o-o-g-o-o-d.com",
+      "next_action_date": null,
       "stape_score": null,
-      "notes": "MW non più dipendente. Backup: sales@toogood.com",
+      "notes": "MW non più dipendente. sales@toogood.com bounced (dominio errato: toogood.com ≠ t-o-o-g-o-o-d.com). Email inviata a customer_relations@t-o-o-g-o-o-d.com il 2026-05-19",
       "thread_id": "19dfdd895ef4b85d",
       "timeline": [
         {
@@ -7160,6 +7211,10 @@
         {
           "date": "2026-05-06",
           "action": "Autoresponse: MW non più dipendente"
+        },
+        {
+          "date": "2026-05-19",
+          "action": "Nuova prima email inviata a customer_relations@t-o-o-g-o-o-d.com (redirect da MW)"
         }
       ],
       "label_id": "Label_8658624016447790536",
@@ -7185,7 +7240,7 @@
         "out_date": "2026-07-07"
       },
       "subject_email": "",
-      "redirect_to": "sales@toogood.com"
+      "redirect_to": null
     },
     {
       "id": "prospect_163",
@@ -12959,12 +13014,12 @@
       "thread_id": "19e3078b70d1d2a4",
       "status": "autoresponse",
       "first_contact": "2026-05-18",
-      "last_activity": "2026-05-18",
+      "last_activity": "2026-05-19",
       "multi_to": false,
       "had_cc_bcc": false,
       "redirect_to": "skollhof.ext@retori.com",
       "stape_score": null,
-      "notes": "OOO permanente — Sara Pio in maternità. Contatti: skollhof.ext@retori.com (Sara Phedra Kollhof), lfacchetti@retori.com (Laura Facchetti), cmaccagno@retori.com (Carola Maccagno).",
+      "notes": "OOO permanente — Sara Pio in maternità. Contatti: skollhof.ext@retori.com (Sara Phedra Kollhof), lfacchetti@retori.com (Laura Facchetti), cmaccagno@retori.com (Carola Maccagno). | Redirect: email inviata a skollhof.ext@retori.com (Sara Phedra Kollhof) il 2026-05-19",
       "followups_sent": [],
       "scheduled_timeline": {
         "first_email": "2026-05-18",
@@ -12978,8 +13033,8 @@
         "snippet": ""
       },
       "last_reply_from_prospect": null,
-      "next_action": "Inviare prima email a skollhof.ext@retori.com",
-      "next_action_date": "2026-05-19",
+      "next_action": "Attendi risposta da skollhof.ext@retori.com",
+      "next_action_date": null,
       "timeline": [
         {
           "date": "2026-05-18",
@@ -12988,6 +13043,10 @@
         {
           "date": "2026-05-18",
           "action": "Autoresponse: Sara Pio in maternità — redirect a skollhof.ext@retori.com"
+        },
+        {
+          "date": "2026-05-19",
+          "action": "Nuova prima email (redirect) inviata a skollhof.ext@retori.com (Sara Phedra Kollhof) - angolo 2B"
         }
       ],
       "skip": false
@@ -14066,9 +14125,9 @@
       "last_activity": "2026-05-18",
       "multi_to": false,
       "had_cc_bcc": false,
-      "redirect_to": "andrea@strikestore.eu",
+      "redirect_to": null,
       "stape_score": null,
-      "notes": "Redirect: 'Questa casella non esiste più, il mio nuovo indirizzo è andrea@strikestore.eu'.",
+      "notes": "Redirect: ceo@strikestore.eu non più attivo. andrea@strikestore.eu già in CRM come prospect_318 (email inviata 18/05)",
       "followups_sent": [],
       "scheduled_timeline": {
         "first_email": "2026-05-18",
@@ -14082,8 +14141,8 @@
         "snippet": ""
       },
       "last_reply_from_prospect": null,
-      "next_action": "Inviare prima email a andrea@strikestore.eu",
-      "next_action_date": "2026-05-19",
+      "next_action": "Redirect già gestito via prospect_318 (andrea@strikestore.eu)",
+      "next_action_date": null,
       "timeline": [
         {
           "date": "2026-05-18",
@@ -14333,50 +14392,6 @@
       "angle": "2B",
       "platform": "Shopify",
       "thread_id": "19e3b3d944e14019",
-      "status": "contacted",
-      "first_contact": "2026-05-18",
-      "last_activity": "2026-05-18",
-      "multi_to": false,
-      "had_cc_bcc": false,
-      "redirect_to": null,
-      "stape_score": null,
-      "notes": "",
-      "followups_sent": [],
-      "scheduled_timeline": {
-        "first_email": "2026-05-18",
-        "follow_up_1": "2026-06-01",
-        "follow_up_2": "2026-06-23",
-        "follow_up_3": "2026-07-21",
-        "out_date": "2026-07-22"
-      },
-      "last_outbound_by_antonio": {
-        "date": "2026-05-18",
-        "snippet": ""
-      },
-      "last_reply_from_prospect": null,
-      "next_action": "Follow-up 1",
-      "next_action_date": "2026-06-01",
-      "timeline": [
-        {
-          "date": "2026-05-18",
-          "action": "Email outbound 2B inviata da Dami"
-        }
-      ],
-      "skip": false
-    },
-    {
-      "id": "prospect_326",
-      "brand": "Filippo Marchesani",
-      "contact": null,
-      "email": "customerservice@filippomarchesani.com",
-      "domain": "filippomarchesani.com",
-      "subject_email": "Filippo Marchesani, una cosa sulle ads",
-      "assigned_to": "Dami",
-      "sender": "Dami",
-      "label_id": "Label_8658624016447790536",
-      "angle": "2B",
-      "platform": "Shopify",
-      "thread_id": "19e3b3c1d747516d",
       "status": "contacted",
       "first_contact": "2026-05-18",
       "last_activity": "2026-05-18",
@@ -15105,9 +15120,9 @@
       "assigned_to": "Dami",
       "angle": "1A",
       "bounce_date": "2026-05-15",
-      "notes": "Bounce immediato (MAILER-DAEMON Aruba). Sito non funzionante.",
+      "notes": "Nessuna email alternativa trovata (solo web@royalrow.it disponibile, già bounced)",
       "thread_id": "19e2c48c0f79ac89",
-      "skip": false
+      "skip": true
     },
     {
       "id": "bounce_025",
@@ -15118,9 +15133,9 @@
       "assigned_to": "Dami",
       "angle": "1A",
       "bounce_date": "2026-05-15",
-      "notes": "Bounce Google — indirizzo inesistente. Altre email inviate: jennifer@ (valida), rosetravis@ (bounce).",
+      "notes": "Email incompleta (r@primroseparkmpls.com), non recuperabile",
       "thread_id": "19e2c24a8b529e15",
-      "skip": false
+      "skip": true
     },
     {
       "id": "bounce_026",
@@ -15131,9 +15146,9 @@
       "assigned_to": "Dami",
       "angle": "1A",
       "bounce_date": "2026-05-15",
-      "notes": "Bounce Google — indirizzo inesistente. Email valida trovata: jennifer@primroseparkmpls.com (prospect_233).",
+      "notes": "Secondo bounce stesso brand (Primrose Park), irrecuperabile",
       "thread_id": "19e2c218593039b1",
-      "skip": false
+      "skip": true
     },
     {
       "id": "bounce_027",
@@ -15146,7 +15161,8 @@
       "bounce_date": "2026-05-15",
       "notes": "Bounce postmaster Office 365 — recipient unknown. Entrambi i contatti Josh@ e p-baker@ non trovati.",
       "thread_id": "19e2bc27096a5626",
-      "skip": false
+      "skip": false,
+      "alt_email": "enquiry@bakerross.co.uk"
     },
     {
       "id": "bounce_028",
@@ -15157,9 +15173,9 @@
       "assigned_to": "Dami",
       "angle": "1A",
       "bounce_date": "2026-05-15",
-      "notes": "Bounce postmaster Office 365 — recipient unknown. Entrambi i contatti Josh@ e p-baker@ non trovati.",
+      "notes": "Stesso brand di bounce_027 (Baker Ross), alt annotata in bounce_027: enquiry@bakerross.co.uk",
       "thread_id": "19e2bbf09748d0d4",
-      "skip": false
+      "skip": true
     },
     {
       "id": "bounce_029",
@@ -15172,7 +15188,8 @@
       "bounce_date": "2026-05-15",
       "notes": "Bounce Mailer-Daemon permanente (grotteria.arturu.it).",
       "thread_id": "19e2b9cfa1d01f53",
-      "skip": false
+      "skip": false,
+      "alt_email": "elegantiacalzature@gmail.com"
     },
     {
       "id": "bounce_030",
@@ -15183,9 +15200,9 @@
       "assigned_to": "Dami",
       "angle": "2B",
       "bounce_date": "2026-05-15",
-      "notes": "Bounce Google — indirizzo klaviyo.com non trovato. Email inviata per errore a dipendente Klaviyo invece che al brand. Email corretta: info@shoppinlove.com (prospect_259).",
+      "notes": "Email Klaviyo (viviana.vitolo@klaviyo.com), non appartiene al brand Shoppinlove",
       "thread_id": "19e2b927a6df3671",
-      "skip": false
+      "skip": true
     },
     {
       "id": "bounce_031",
@@ -15196,9 +15213,10 @@
       "assigned_to": "Manu",
       "angle": "1A",
       "bounce_date": "2026-05-15",
-      "notes": "Bounce Google — typo nell'indirizzo (nfo@ invece di info@). Email corretta inviata: info@maisondegand.com (prospect_261).",
+      "notes": "Typo in indirizzo originale (nfo@ invece di info@). Alt: info@maisondegand.com",
       "thread_id": "19e2b88e3285ee77",
-      "skip": false
+      "skip": false,
+      "alt_email": "info@maisondegand.com"
     },
     {
       "id": "bounce_032",
@@ -15211,9 +15229,9 @@
       "label_id": "Label_1592668050883672428",
       "angle": "1A",
       "bounce_date": "2026-05-18",
-      "notes": "Bounce Google definitivo 18/05. Tentativi: 15/05, 16/05, 17/05 (delay), 18/05 (failure 550). Dominio dellogliostore.com.",
+      "notes": "Stesso brand di bounce_005 (Dell'Oglio), alt customercare@delloglio.it già annotata in bounce_005",
       "thread_id": "19e2ba16b17b3764",
-      "skip": false
+      "skip": true
     },
     {
       "id": "bounce_033",
@@ -15226,9 +15244,9 @@
       "label_id": null,
       "angle": "1A",
       "bounce_date": "2026-05-15",
-      "notes": "Bounce Aruba permanente. Tentato 15/05 e 16/05 stessa email.",
+      "notes": "shop@dolcitrame.store era già l'alt di bounce_007 ed è bounced anche lei - brand irrecuperabile",
       "thread_id": "19e2c1e37a747da2",
-      "skip": false
+      "skip": true
     },
     {
       "id": "bounce_034",
@@ -15241,9 +15259,9 @@
       "label_id": null,
       "angle": "2B",
       "bounce_date": "2026-05-15",
-      "notes": "Bounce Google — sales@ inesistente.",
+      "notes": "Dominio errato: toogood.com ≠ t-o-o-g-o-o-d.com. Email inviata a customer_relations@t-o-o-g-o-o-d.com il 2026-05-19",
       "thread_id": "19e2c19f5df7a87f",
-      "skip": false
+      "skip": true
     },
     {
       "id": "bounce_035",
@@ -15256,9 +15274,9 @@
       "label_id": null,
       "angle": "1A",
       "bounce_date": "2026-05-16",
-      "notes": "Bounce Aruba permanente.",
+      "notes": "info@spaziobra.it era già l'alt di bounce_021 ed è bounced anche lei - brand irrecuperabile",
       "thread_id": "19e2f7a9c782fa08",
-      "skip": false
+      "skip": true
     },
     {
       "id": "bounce_036",
@@ -15273,7 +15291,8 @@
       "bounce_date": "2026-05-18",
       "notes": "Bounce Google — indirizzo inesistente (550 5.1.1).",
       "thread_id": "19e3c00d8875af4a",
-      "skip": false
+      "skip": false,
+      "alt_email": "shop@quattrostagioniabbigliamento.it"
     },
     {
       "id": "bounce_037",
