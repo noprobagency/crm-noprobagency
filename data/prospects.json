@@ -1,10 +1,10 @@
 {
   "meta": {
-    "last_updated": "2026-05-19T20:41:42+02:00",
-    "total_contacted": 309,
-    "total_replied": 7,
-    "total_bounced": 39,
-    "total_autoresponse": 17,
+    "last_updated": "2026-05-19T23:30:00+02:00",
+    "total_contacted": 316,
+    "total_replied": 8,
+    "total_bounced": 46,
+    "total_autoresponse": 16,
     "first_run": false,
     "coverage_note": "First run — copre outbound visibili negli ultimi ~9 giorni (2026-05-06 → 2026-05-13). Le runs giornaliere successive aggiungeranno nuovi thread incrementalmente.",
     "schema_version": "v3.5",
@@ -29,7 +29,7 @@
       "first_contact": "2026-04-30",
       "last_activity": "2026-05-13",
       "next_action": "Valutare follow-up",
-      "next_action_date": "2026-05-18",
+      "next_action_date": null,
       "stape_score": 39,
       "notes": "Founder & CEO. Ha chiesto il report dopo bump del 12/05. Inviato report Stape completo il 13/05 (Ads 44/100).",
       "thread_id": "19ddac7248b1a78a",
@@ -95,7 +95,7 @@
       "first_contact": "2026-05-01",
       "last_activity": "2026-05-12",
       "next_action": "Follow-up urgente",
-      "next_action_date": "2026-05-19",
+      "next_action_date": "2026-05-20",
       "stape_score": null,
       "notes": "Risposta positiva il 07/05. Inviato video di analisi (10 min) l'08/05. Bump il 12/05 senza risposta ancora.",
       "thread_id": "19e026540b01048b",
@@ -172,8 +172,8 @@
       "status": "in_conversation",
       "first_contact": "2026-05-01",
       "last_activity": "2026-05-19",
-      "next_action": "Valutare follow-up",
-      "next_action_date": "2026-05-18",
+      "next_action": "In attesa risposta / Valutare risposta CV (off-topic)",
+      "next_action_date": null,
       "stape_score": null,
       "notes": "Email personale (nicodeka03@gmail.com). Risposta positiva il 07/05 ('Manda pure'). Video inviato l'08/05. Bump il 12/05.",
       "thread_id": "19e02604b5efa2cb",
@@ -197,6 +197,10 @@
         {
           "date": "2026-05-13",
           "action": "Risposta da Nicolò: 'Visto adesso il video, molto insightful! ...mi faccio risentire settimana prossima se decidiamo di investire nel online'"
+        },
+        {
+          "date": "2026-05-19",
+          "action": "Risposta off-topic da Nicolò: 'Ti allego il mio CV' — risposta probabilmente errata o non correlata all'offerta"
         }
       ],
       "label_id": "Label_1592668050883672428",
@@ -254,7 +258,7 @@
       "status": "in_conversation",
       "first_contact": "2026-05-13",
       "last_activity": "2026-05-15",
-      "next_action": "In attesa risposta",
+      "next_action": "Valutare follow-up",
       "next_action_date": null,
       "stape_score": null,
       "notes": "Luxury boutique Casale Monferrato",
@@ -335,7 +339,7 @@
         "snippet": "Ciao Antonio, Thank you for your email. I would be happy to have a look at your report, why not ;) Best, Caterina Zorzan E-commerce Manager"
       },
       "next_action": "Inviare report Stape a Caterina Zorzan",
-      "next_action_date": "2026-05-18",
+      "next_action_date": "2026-05-20",
       "timeline": [
         {
           "date": "2026-05-15",
@@ -428,8 +432,8 @@
         "out_date": "2026-07-22"
       },
       "last_outbound_by_antonio": {
-        "date": "2026-05-18",
-        "snippet": ""
+        "date": "2026-05-19",
+        "snippet": "Ciao Nino, grazie per la risposta. Ottimo che ci stiate lavorando. Nel frattempo vi mando comunque il report del tracking, può essere utile come riferimento per capire dove intervenire."
       },
       "last_reply_from_prospect": {
         "date": "2026-05-19",
@@ -445,6 +449,61 @@
         {
           "date": "2026-05-19",
           "action": "Risposta da ecommerce@filippomarchesani.com: \"sono a conoscenza del problema di tracking e verrà risolto oggi in giornata\""
+        },
+        {
+          "date": "2026-05-19",
+          "action": "Antonio invia report Stape (multi-TO: ecommerce@ + pieromarchesani@ — quest'ultimo bounced)"
+        }
+      ],
+      "skip": false
+    },
+    {
+      "id": "prospect_308",
+      "brand": "Oger",
+      "contact": "Bjorn (bjorn@oger.nl)",
+      "email": "martijn.lusink@oger.nl",
+      "domain": "oger.nl",
+      "subject_email": "Quick note about oger.nl sales setup",
+      "assigned_to": "Manu",
+      "sender": "Manu",
+      "label_id": "Label_1592668050883672428",
+      "angle": "1A",
+      "platform": "non-Shopify",
+      "thread_id": "19e3ba59a8eec5cd",
+      "status": "in_conversation",
+      "first_contact": "2026-05-18",
+      "last_activity": "2026-05-19",
+      "multi_to": false,
+      "had_cc_bcc": false,
+      "redirect_to": null,
+      "stape_score": null,
+      "notes": "",
+      "followups_sent": [],
+      "scheduled_timeline": {
+        "first_email": "2026-05-18",
+        "follow_up_1": "2026-06-01",
+        "follow_up_2": "2026-06-23",
+        "follow_up_3": "2026-07-21",
+        "out_date": "2026-07-22"
+      },
+      "last_outbound_by_antonio": {
+        "date": "2026-05-18",
+        "snippet": ""
+      },
+      "last_reply_from_prospect": {
+        "date": "2026-05-19",
+        "snippet": "Hi Antonio, Thank you for reaching out. Before considering a call, could you please share the case study and the full Stape audit you refer to, including the exact URL tested, scan date, detected"
+      },
+      "next_action": "Inviare case study Cumini e report Stape completo a Bjorn",
+      "next_action_date": "2026-05-20",
+      "timeline": [
+        {
+          "date": "2026-05-18",
+          "action": "Email outbound 1A inviata da Manu"
+        },
+        {
+          "date": "2026-05-19",
+          "action": "Risposta da bjorn@oger.nl (cc: martijn@oger.nl): richiesta case study Cumini e Stape audit completo"
         }
       ],
       "skip": false
@@ -3514,12 +3573,16 @@
       "next_action": "Follow-up 1",
       "next_action_date": "2026-05-22",
       "stape_score": null,
-      "notes": "Luxury boutique Forte dei Marmi",
+      "notes": "Luxury boutique Forte dei Marmi | ATTENZIONE: seconda email inviata al 2026-05-19 su thread diverso.",
       "thread_id": "19e079e7a8507191",
       "timeline": [
         {
           "date": "2026-05-08",
           "action": "Email outbound 1A inviata"
+        },
+        {
+          "date": "2026-05-19",
+          "action": "Anomalia: seconda email inviata a info@cuccuini.it (thread 19e40a5be94603d7) — stessa email già contattata il 2026-05-08"
         }
       ],
       "label_id": "Label_1592668050883672428",
@@ -13450,7 +13513,7 @@
       "had_cc_bcc": false,
       "redirect_to": null,
       "stape_score": null,
-      "notes": "",
+      "notes": "SKIP automatico — duplicato di prospect_014 (stessa email info@niba1976.com, primo invio 2026-05-13). Thread 19e3bb8b6fe1107d è un secondo invio anomalo.",
       "followups_sent": [],
       "scheduled_timeline": {
         "first_email": "2026-05-18",
@@ -13472,7 +13535,7 @@
           "action": "Email outbound 1A inviata da Manu"
         }
       ],
-      "skip": false
+      "skip": true
     },
     {
       "id": "prospect_304",
@@ -13619,50 +13682,6 @@
       "angle": "1A",
       "platform": "non-Shopify",
       "thread_id": "19e3ba9dbe1b2fc2",
-      "status": "contacted",
-      "first_contact": "2026-05-18",
-      "last_activity": "2026-05-18",
-      "multi_to": false,
-      "had_cc_bcc": false,
-      "redirect_to": null,
-      "stape_score": null,
-      "notes": "",
-      "followups_sent": [],
-      "scheduled_timeline": {
-        "first_email": "2026-05-18",
-        "follow_up_1": "2026-06-01",
-        "follow_up_2": "2026-06-23",
-        "follow_up_3": "2026-07-21",
-        "out_date": "2026-07-22"
-      },
-      "last_outbound_by_antonio": {
-        "date": "2026-05-18",
-        "snippet": ""
-      },
-      "last_reply_from_prospect": null,
-      "next_action": "Follow-up 1",
-      "next_action_date": "2026-06-01",
-      "timeline": [
-        {
-          "date": "2026-05-18",
-          "action": "Email outbound 1A inviata da Manu"
-        }
-      ],
-      "skip": false
-    },
-    {
-      "id": "prospect_308",
-      "brand": "Oger",
-      "contact": "Martijn",
-      "email": "martijn.lusink@oger.nl",
-      "domain": "oger.nl",
-      "subject_email": "Quick note about oger.nl sales setup",
-      "assigned_to": "Manu",
-      "sender": "Manu",
-      "label_id": "Label_1592668050883672428",
-      "angle": "1A",
-      "platform": "non-Shopify",
-      "thread_id": "19e3ba59a8eec5cd",
       "status": "contacted",
       "first_contact": "2026-05-18",
       "last_activity": "2026-05-18",
@@ -14616,6 +14635,314 @@
         }
       ],
       "skip": false
+    },
+    {
+      "id": "prospect_333",
+      "brand": "The Double F",
+      "contact": null,
+      "email": "help@thedoublef.com",
+      "domain": "thedoublef.com",
+      "subject_email": "The Double F: 2-3 cose che ho visto",
+      "assigned_to": "Dami",
+      "sender": "Dami",
+      "label_id": "Label_8658624016447790536",
+      "angle": "1A",
+      "platform": "non-Shopify",
+      "status": "contacted",
+      "first_contact": "2026-05-18",
+      "last_activity": "2026-05-18",
+      "multi_to": false,
+      "had_cc_bcc": false,
+      "redirect_to": null,
+      "stape_score": null,
+      "notes": "Luxury multi-brand boutique. Prima email 2026-05-18.",
+      "thread_id": "19e304c564989083",
+      "followups_sent": [],
+      "scheduled_timeline": {
+        "first_email": "2026-05-18",
+        "follow_up_1": "2026-06-01",
+        "follow_up_2": "2026-06-23",
+        "follow_up_3": "2026-07-21",
+        "out_date": "2026-07-22"
+      },
+      "last_outbound_by_antonio": {
+        "date": "2026-05-18",
+        "snippet": "Buongiorno, Stavo analizzando i competitors nell'industria Fashion su Instagram (ho molti clienti in questo settore, com"
+      },
+      "last_reply_from_prospect": null,
+      "next_action": "Follow-up 1",
+      "next_action_date": "2026-06-01",
+      "timeline": [
+        {
+          "date": "2026-05-18",
+          "action": "Email outbound 1A inviata da Dami"
+        }
+      ],
+      "skip": false
+    },
+    {
+      "id": "prospect_334",
+      "brand": "Gente Roma",
+      "contact": null,
+      "email": "Marketing@genteroma.com",
+      "domain": "genteroma.com",
+      "subject_email": "Gente Roma, una cosa che ho notato",
+      "assigned_to": "Dami",
+      "sender": "Dami",
+      "label_id": "Label_8658624016447790536",
+      "angle": "1A",
+      "platform": "non-Shopify",
+      "status": "contacted",
+      "first_contact": "2026-05-19",
+      "last_activity": "2026-05-19",
+      "multi_to": false,
+      "had_cc_bcc": false,
+      "redirect_to": null,
+      "stape_score": null,
+      "notes": "Secondo contatto dominio genteroma.com (vedi prospect_081 d.addadi@). 3 altri indirizzi genteroma.com bounced (bounce_043-045).",
+      "thread_id": "19e4094776da288f",
+      "followups_sent": [],
+      "scheduled_timeline": {
+        "first_email": "2026-05-19",
+        "follow_up_1": "2026-06-03",
+        "follow_up_2": "2026-06-24",
+        "follow_up_3": "2026-07-22",
+        "out_date": "2026-07-23"
+      },
+      "last_outbound_by_antonio": {
+        "date": "2026-05-19",
+        "snippet": "Buonasera, Stavo analizzando i competitors nell'industria fashion su Instagram (ho molti clienti in questo settore, come"
+      },
+      "last_reply_from_prospect": null,
+      "next_action": "Follow-up 1",
+      "next_action_date": "2026-06-03",
+      "timeline": [
+        {
+          "date": "2026-05-19",
+          "action": "Email outbound 1A inviata da Dami"
+        }
+      ],
+      "skip": false
+    },
+    {
+      "id": "prospect_335",
+      "brand": "Tiziana Fausti",
+      "contact": "Francesca Birolini",
+      "email": "francesca.birolini@tizianafausti.com",
+      "domain": "tizianafausti.com",
+      "subject_email": "Tiziana Fausti, un problema sulle ads",
+      "assigned_to": "Dami",
+      "sender": "Dami",
+      "label_id": "Label_8658624016447790536",
+      "angle": "2B",
+      "platform": "Shopify",
+      "status": "contacted",
+      "first_contact": "2026-05-19",
+      "last_activity": "2026-05-19",
+      "multi_to": false,
+      "had_cc_bcc": false,
+      "redirect_to": null,
+      "stape_score": null,
+      "notes": "Secondo contatto dominio tizianafausti.com (vedi prospect_082 tiziana.fausti@). ceo@ bounced (bounce_046).",
+      "thread_id": "19e4089ecffc7ca2",
+      "followups_sent": [],
+      "scheduled_timeline": {
+        "first_email": "2026-05-19",
+        "follow_up_1": "2026-06-03",
+        "follow_up_2": "2026-06-24",
+        "follow_up_3": "2026-07-22",
+        "out_date": "2026-07-23"
+      },
+      "last_outbound_by_antonio": {
+        "date": "2026-05-19",
+        "snippet": "Ciao Francesca, Stavo guardando Tiziana Fausti e ho visto che state girando campagne Meta/Google su uno store Shopify gi"
+      },
+      "last_reply_from_prospect": null,
+      "next_action": "Follow-up 1",
+      "next_action_date": "2026-06-03",
+      "timeline": [
+        {
+          "date": "2026-05-19",
+          "action": "Email outbound 2B inviata da Dami"
+        }
+      ],
+      "skip": false
+    },
+    {
+      "id": "prospect_336",
+      "brand": "Tessabit",
+      "contact": "Sabrina Martinelli",
+      "email": "sabrina.martinelli@tessabit.com",
+      "domain": "tessabit.com",
+      "subject_email": "[RE]: Tessabit, una cosa che ho notato",
+      "assigned_to": "Dami",
+      "sender": "Dami",
+      "label_id": "Label_8658624016447790536",
+      "angle": "1A",
+      "platform": "non-Shopify",
+      "status": "contacted",
+      "first_contact": "2026-05-19",
+      "last_activity": "2026-05-19",
+      "multi_to": false,
+      "had_cc_bcc": false,
+      "redirect_to": null,
+      "stape_score": null,
+      "notes": "Terzo contatto dominio tessabit.com (vedi prospect_083 filippo.baldovino@, prospect_254 andrea.molteni@).",
+      "thread_id": "19e40846ae430e01",
+      "followups_sent": [],
+      "scheduled_timeline": {
+        "first_email": "2026-05-19",
+        "follow_up_1": "2026-06-03",
+        "follow_up_2": "2026-06-24",
+        "follow_up_3": "2026-07-22",
+        "out_date": "2026-07-23"
+      },
+      "last_outbound_by_antonio": {
+        "date": "2026-05-19",
+        "snippet": "Ciao Sabrina, Stavo analizzando i competitors nell'industria fashion su Instagram (ho molti clienti in questo settore, c"
+      },
+      "last_reply_from_prospect": null,
+      "next_action": "Follow-up 1",
+      "next_action_date": "2026-06-03",
+      "timeline": [
+        {
+          "date": "2026-05-19",
+          "action": "Email outbound 1A inviata da Dami"
+        }
+      ],
+      "skip": false
+    },
+    {
+      "id": "prospect_337",
+      "brand": "Sugar",
+      "contact": "Ludovica Torelli",
+      "email": "ludovica.torelli@sugar.it",
+      "domain": "sugar.it",
+      "subject_email": "Re: Sugar, una cosa che ho notato",
+      "assigned_to": "Dami",
+      "sender": "Dami",
+      "label_id": "Label_8658624016447790536",
+      "angle": "1A",
+      "platform": "non-Shopify",
+      "status": "contacted",
+      "first_contact": "2026-05-19",
+      "last_activity": "2026-05-19",
+      "multi_to": false,
+      "had_cc_bcc": false,
+      "redirect_to": null,
+      "stape_score": null,
+      "notes": "Secondo contatto dominio sugar.it (vedi prospect_084 ludovica@sugar.it — possibilmente stessa persona, email diversa).",
+      "thread_id": "19e407f3424d64d8",
+      "followups_sent": [],
+      "scheduled_timeline": {
+        "first_email": "2026-05-19",
+        "follow_up_1": "2026-06-03",
+        "follow_up_2": "2026-06-24",
+        "follow_up_3": "2026-07-22",
+        "out_date": "2026-07-23"
+      },
+      "last_outbound_by_antonio": {
+        "date": "2026-05-19",
+        "snippet": "Ciao Ludovica, Stavo analizzando i competitors nell'industria fashion su Instagram (ho molti clienti in questo settore, "
+      },
+      "last_reply_from_prospect": null,
+      "next_action": "Follow-up 1",
+      "next_action_date": "2026-06-03",
+      "timeline": [
+        {
+          "date": "2026-05-19",
+          "action": "Email outbound 1A inviata da Dami"
+        }
+      ],
+      "skip": false
+    },
+    {
+      "id": "prospect_338",
+      "brand": "Retori",
+      "contact": "Sara Phedra Kollhof",
+      "email": "skollhof.ext@retori.com",
+      "domain": "retori.com",
+      "subject_email": "Retori, una cosa sulle ads",
+      "assigned_to": "Claude",
+      "sender": "Claude",
+      "label_id": "Label_9196661710752787047",
+      "angle": "2B",
+      "platform": "Shopify",
+      "status": "contacted",
+      "first_contact": "2026-05-19",
+      "last_activity": "2026-05-19",
+      "multi_to": false,
+      "had_cc_bcc": false,
+      "redirect_to": null,
+      "stape_score": null,
+      "notes": "Contatto suggerito dall'OOO di spio@retori.com (prospect_294, maternity leave). Claude ha inviato prima email. Vedi anche prospect_330 (lfacchetti@) e prospect_331 (cmaccagno@).",
+      "thread_id": "19e3f2be9d024767",
+      "followups_sent": [],
+      "scheduled_timeline": {
+        "first_email": "2026-05-19",
+        "follow_up_1": "2026-06-03",
+        "follow_up_2": "2026-06-24",
+        "follow_up_3": "2026-07-22",
+        "out_date": "2026-07-23"
+      },
+      "last_outbound_by_antonio": {
+        "date": "2026-05-19",
+        "snippet": "Ciao Sara Phedra, Stavo guardando Retori e ho visto che state girando campagne Meta/Google su uno store Shopify già stru"
+      },
+      "last_reply_from_prospect": null,
+      "next_action": "Follow-up 1",
+      "next_action_date": "2026-06-03",
+      "timeline": [
+        {
+          "date": "2026-05-19",
+          "action": "Email outbound 2B inviata da Claude"
+        }
+      ],
+      "skip": false
+    },
+    {
+      "id": "prospect_339",
+      "brand": "Toogood",
+      "contact": null,
+      "email": "customer_relations@t-o-o-g-o-o-d.com",
+      "domain": "t-o-o-g-o-o-d.com",
+      "subject_email": "Toogood, one thing about your ads",
+      "assigned_to": "Claude",
+      "sender": "Claude",
+      "label_id": "Label_9196661710752787047",
+      "angle": "2B",
+      "platform": "Shopify",
+      "status": "contacted",
+      "first_contact": "2026-05-19",
+      "last_activity": "2026-05-19",
+      "multi_to": false,
+      "had_cc_bcc": false,
+      "redirect_to": null,
+      "stape_score": null,
+      "notes": "Secondo contatto dominio t-o-o-g-o-o-d.com (vedi prospect_162 mw@ status follow_up_1_sent). Claude ha inviato questa prima email a nuovo indirizzo.",
+      "thread_id": "19e3f33bf2b44f17",
+      "followups_sent": [],
+      "scheduled_timeline": {
+        "first_email": "2026-05-19",
+        "follow_up_1": "2026-06-03",
+        "follow_up_2": "2026-06-24",
+        "follow_up_3": "2026-07-22",
+        "out_date": "2026-07-23"
+      },
+      "last_outbound_by_antonio": {
+        "date": "2026-05-19",
+        "snippet": "Hi, I was looking at Toogood and noticed you're running Meta/Google campaigns on a Shopify store. Quick check on the tra"
+      },
+      "last_reply_from_prospect": null,
+      "next_action": "Follow-up 1",
+      "next_action_date": "2026-06-03",
+      "timeline": [
+        {
+          "date": "2026-05-19",
+          "action": "Email outbound 2B inviata da Claude"
+        }
+      ],
+      "skip": false
     }
   ],
   "bounced": [
@@ -15487,6 +15814,97 @@
       "bounce_date": "2026-05-18",
       "notes": "Bounce postmaster Office 365 — daria@ non trovata. info@lattuadaboutique.it presente in CRM.",
       "thread_id": "19e3b2ee0a034082",
+      "skip": true
+    },
+    {
+      "id": "bounce_040",
+      "brand": "Gianni Cuccuini",
+      "email": "gino.cuccuini@cuccuini.it",
+      "domain": "cuccuini.it",
+      "subject_email": "Cuccuini: 2-3 cose che ho visto",
+      "assigned_to": "Dami",
+      "angle": "1A",
+      "bounce_date": "2026-05-19",
+      "notes": "Bounce Office 365 — gino.cuccuini not found at cuccuini.it. SKIP automatico — dominio già in no_reply (prospect_080 info@cuccuini.it).",
+      "thread_id": "19e40a3131acbdaa",
+      "skip": true
+    },
+    {
+      "id": "bounce_041",
+      "brand": "Gianni Cuccuini",
+      "email": "alessia.nigiotti@cuccuini.it",
+      "domain": "cuccuini.it",
+      "subject_email": "Cuccuini: 2-3 cose che ho visto",
+      "assigned_to": "Dami",
+      "angle": "1A",
+      "bounce_date": "2026-05-19",
+      "notes": "Bounce Office 365 — alessia.nigiotti not found at cuccuini.it. SKIP automatico — dominio già in no_reply (prospect_080 info@cuccuini.it).",
+      "thread_id": "19e40a1ad746769e",
+      "skip": true
+    },
+    {
+      "id": "bounce_042",
+      "brand": "Gianni Cuccuini",
+      "email": "giacomo.genova@cuccuini.it",
+      "domain": "cuccuini.it",
+      "subject_email": "Cuccuini: 2-3 cose che ho visto",
+      "assigned_to": "Dami",
+      "angle": "1A",
+      "bounce_date": "2026-05-19",
+      "notes": "Bounce Office 365 — giacomo.genova not found at cuccuini.it. SKIP automatico — dominio già in no_reply (prospect_080 info@cuccuini.it).",
+      "thread_id": "19e409f4a04030de",
+      "skip": true
+    },
+    {
+      "id": "bounce_043",
+      "brand": "Gente Roma",
+      "email": "s.bartoccini@genteroma.com",
+      "domain": "genteroma.com",
+      "subject_email": "Re: Gente Roma, una cosa che ho notato",
+      "assigned_to": "Dami",
+      "angle": "1A",
+      "bounce_date": "2026-05-19",
+      "notes": "Bounce Google — indirizzo inesistente. SKIP automatico — dominio già in no_reply (prospect_081 d.addadi@genteroma.com).",
+      "thread_id": "19e4093f496ff361",
+      "skip": true
+    },
+    {
+      "id": "bounce_044",
+      "brand": "Gente Roma",
+      "email": "s.arasi@genteroma.com",
+      "domain": "genteroma.com",
+      "subject_email": "Re: Gente Roma, una cosa che ho notato",
+      "assigned_to": "Dami",
+      "angle": "1A",
+      "bounce_date": "2026-05-19",
+      "notes": "Bounce Google — indirizzo inesistente. SKIP automatico — dominio già in no_reply (prospect_081 d.addadi@genteroma.com).",
+      "thread_id": "19e4093be429be6d",
+      "skip": true
+    },
+    {
+      "id": "bounce_045",
+      "brand": "Gente Roma",
+      "email": "e.manfredonia@genteroma.com",
+      "domain": "genteroma.com",
+      "subject_email": "Gente Roma, una cosa che ho notato",
+      "assigned_to": "Dami",
+      "angle": "1A",
+      "bounce_date": "2026-05-19",
+      "notes": "Bounce Google — indirizzo inesistente. SKIP automatico — dominio già in no_reply (prospect_081 d.addadi@genteroma.com).",
+      "thread_id": "19e40941b9d78692",
+      "skip": true
+    },
+    {
+      "id": "bounce_046",
+      "brand": "Tiziana Fausti",
+      "email": "ceo@tizianafausti.com",
+      "domain": "tizianafausti.com",
+      "subject_email": "Re: Tiziana Fausti, un problema sulle ads",
+      "assigned_to": "Dami",
+      "angle": "2B",
+      "bounce_date": "2026-05-19",
+      "notes": "Bounce Google — indirizzo inesistente. SKIP automatico — dominio già in no_reply (prospect_082 tiziana.fausti@ e prospect_335 francesca.birolini@).",
+      "thread_id": "19e408b173139195",
       "skip": true
     }
   ]
