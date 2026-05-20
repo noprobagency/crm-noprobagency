@@ -88,6 +88,39 @@ ACTIVE_OVERRIDES = {
              "snippet": "Ciao Nicolò, volevo solo verificare che il video fosse arrivato."},
         ],
     },
+    "prospect_224": {  # Salt — Caterina Zorzan
+        "last_outbound_by_antonio": {
+            "date": "2026-05-20",
+            "snippet": "Buon pomeriggio Caterina! Scusami il ritardo, volevo registrare un video completo dettagliato cosi da darti piu informazioni e non trovavo mai il tempo! Qui trovi il video!"
+        },
+        "last_reply_from_prospect": {
+            "date": "2026-05-15",
+            "snippet": "Ciao Antonio, Thank you for your email. I would be happy to have a look at your report, why not ;) Best, Caterina Zorzan E-commerce Manager"
+        },
+        "followups_sent": [],
+    },
+    "prospect_308": {  # Oger — Bjorn / Martijn
+        "last_outbound_by_antonio": {
+            "date": "2026-05-20",
+            "snippet": "Good morning, thank you for your reply. I'll go in order and answer directly through a complete email with case study and full Stape analysis."
+        },
+        "last_reply_from_prospect": {
+            "date": "2026-05-19",
+            "snippet": "Hi Antonio, Thank you for reaching out. Before considering a call, could you please share the case study and the full Stape audit you refer to, including the exact URL tested, scan date, detected issues."
+        },
+        "followups_sent": [],
+    },
+    "prospect_329": {  # Camden23 — Andrea
+        "last_outbound_by_antonio": {
+            "date": "2026-05-20",
+            "snippet": "Ciao Andrea! Intanto grazie mille per la tua risposta. Ho registrato un video completo in cui ti parlo e analizzo questo collo di bottiglia."
+        },
+        "last_reply_from_prospect": {
+            "date": "2026-05-18",
+            "snippet": "Ciao Antonio, manda pure grazie, Andrea"
+        },
+        "followups_sent": [],
+    },
 }
 
 AUTORESPONSE_SNIPPETS = {
