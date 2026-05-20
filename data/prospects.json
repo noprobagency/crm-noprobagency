@@ -1,12 +1,12 @@
 {
   "meta": {
-    "last_updated": "2026-05-20T21:10:00Z",
+    "last_updated": "2026-05-20T21:15:00Z",
     "total_contacted": 316,
     "total_replied": 8,
     "total_bounced": 46,
     "total_autoresponse": 16,
     "first_run": false,
-    "coverage_note": "First run â copre outbound visibili negli ultimi ~9 giorni (2026-05-06 â 2026-05-13). Le runs giornaliere successive aggiungeranno nuovi thread incrementalmente.",
+    "coverage_note": "First run Ã¢ÂÂ copre outbound visibili negli ultimi ~9 giorni (2026-05-06 Ã¢ÂÂ 2026-05-13). Le runs giornaliere successive aggiungeranno nuovi thread incrementalmente.",
     "schema_version": "v3.5",
     "earliest_contact": "2026-04-16",
     "audit_date": "2026-05-13",
@@ -125,7 +125,7 @@
           "date": "2026-05-07",
           "type": "follow_up_1",
           "sender": "Antonio",
-          "snippet": "Ciao, rimando su nel caso non l'avessi vista. Per Il Sellaio il caso studio Ã¨ pronto quando vuoi."
+          "snippet": "Ciao, rimando su nel caso non l'avessi vista. Per Il Sellaio il caso studio ÃÂ¨ pronto quando vuoi."
         },
         {
           "date": "2026-05-08",
@@ -163,7 +163,7 @@
     {
       "id": "prospect_003",
       "brand": "Marandino",
-      "contact": "NicolÃ²",
+      "contact": "NicolÃÂ²",
       "email": "nicodeka03@gmail.com",
       "domain": null,
       "assigned_to": "Manu",
@@ -196,11 +196,11 @@
         },
         {
           "date": "2026-05-13",
-          "action": "Risposta da NicolÃ²: 'Visto adesso il video, molto insightful! ...mi faccio risentire settimana prossima se decidiamo di investire nel online'"
+          "action": "Risposta da NicolÃÂ²: 'Visto adesso il video, molto insightful! ...mi faccio risentire settimana prossima se decidiamo di investire nel online'"
         },
         {
           "date": "2026-05-19",
-          "action": "Risposta off-topic da NicolÃ²: 'Ti allego il mio CV' â risposta probabilmente errata o non correlata all'offerta"
+          "action": "Risposta off-topic da NicolÃÂ²: 'Ti allego il mio CV' Ã¢ÂÂ risposta probabilmente errata o non correlata all'offerta"
         }
       ],
       "label_id": "Label_1592668050883672428",
@@ -211,32 +211,32 @@
           "date": "2026-05-07",
           "type": "follow_up_1",
           "sender": "Antonio",
-          "snippet": "Ciao NicolÃ², rimando su nel caso non l'avessi vista. Per Marandino il caso studio Ã¨ pronto."
+          "snippet": "Ciao NicolÃÂ², rimando su nel caso non l'avessi vista. Per Marandino il caso studio ÃÂ¨ pronto."
         },
         {
           "date": "2026-05-08",
           "type": "manual",
           "sender": "Antonio",
-          "snippet": "Buongiorno NicolÃ²! ho preparato un video di 10 minuti in cui analizzo il vostro store e vi mostro i punti su cui agirei subito."
+          "snippet": "Buongiorno NicolÃÂ²! ho preparato un video di 10 minuti in cui analizzo il vostro store e vi mostro i punti su cui agirei subito."
         },
         {
           "date": "2026-05-12",
           "type": "manual",
           "sender": "Antonio",
-          "snippet": "Ciao NicolÃ², volevo solo verificare che il video fosse arrivato."
+          "snippet": "Ciao NicolÃÂ², volevo solo verificare che il video fosse arrivato."
         }
       ],
       "last_outbound_by_antonio": {
         "date": "2026-05-12",
-        "snippet": "Ciao NicolÃ², volevo solo verificare che il video fosse arrivato, hai avuto modo di vederlo?"
+        "snippet": "Ciao NicolÃÂ², volevo solo verificare che il video fosse arrivato, hai avuto modo di vederlo?"
       },
       "last_reply_from_prospect": {
         "date": "2026-05-19",
-        "snippet": "Ti allego il mio CV, ho piu che altro esperienze nel mondo del calcio/sport perÃ² ho un background molto europeo avendo vissuto e lavorato in 4 paesi diversi"
+        "snippet": "Ti allego il mio CV, ho piu che altro esperienze nel mondo del calcio/sport perÃÂ² ho un background molto europeo avendo vissuto e lavorato in 4 paesi diversi"
       },
       "next_followup_due": "2026-05-18",
       "days_since_last_activity": 0,
-      "first_email_snippet": "Ciao NicolÃ², mi sono imbattuto in Marandino guardando i competitor del settore. Ho 2-3 accorgimenti rapidi sullo store che vorrei segnalarti.",
+      "first_email_snippet": "Ciao NicolÃÂ², mi sono imbattuto in Marandino guardando i competitor del settore. Ho 2-3 accorgimenti rapidi sullo store che vorrei segnalarti.",
       "scheduled_timeline": {
         "first_email": "2026-05-01",
         "follow_up_1": "2026-05-15",
@@ -274,7 +274,7 @@
         },
         {
           "date": "2026-05-15",
-          "action": "Email di risposta inviata da Antonio: 'Grazie mille Sara ð'"
+          "action": "Email di risposta inviata da Antonio: 'Grazie mille Sara Ã°ÂÂÂ'"
         }
       ],
       "label_id": "Label_1592668050883672428",
@@ -283,7 +283,7 @@
       "followups_sent": [],
       "last_outbound_by_antonio": {
         "date": "2026-05-15",
-        "snippet": "Grazie mille Sara ð"
+        "snippet": "Grazie mille Sara Ã°ÂÂÂ"
       },
       "last_reply_from_prospect": {
         "date": "2026-05-15",
@@ -375,7 +375,7 @@
       "had_cc_bcc": false,
       "redirect_to": null,
       "stape_score": null,
-      "notes": "Contattato via contact form Shopify store. Andrea ha risposto 'manda pure grazie' â interesse positivo.",
+      "notes": "Contattato via contact form Shopify store. Andrea ha risposto 'manda pure grazie' Ã¢ÂÂ interesse positivo.",
       "followups_sent": [],
       "scheduled_timeline": {
         "first_email": "2026-05-18",
@@ -441,13 +441,13 @@
       },
       "last_outbound_by_antonio": {
         "date": "2026-05-19",
-        "snippet": "Ciao Nino, grazie per la risposta. Ottimo che ci stiate lavorando. Nel frattempo vi mando comunque il report del tracking, puÃ² essere utile come riferimento per capire dove intervenire."
+        "snippet": "Ciao Nino, grazie per la risposta. Ottimo che ci stiate lavorando. Nel frattempo vi mando comunque il report del tracking, puÃÂ² essere utile come riferimento per capire dove intervenire."
       },
       "last_reply_from_prospect": {
         "date": "2026-05-19",
-        "snippet": "Grazie per il messaggio. sono a conoscenza del problema di tracking e verrÃ  risolto oggi in giornata. Buon lavoro. E-commerce Manager"
+        "snippet": "Grazie per il messaggio. sono a conoscenza del problema di tracking e verrÃÂ  risolto oggi in giornata. Buon lavoro. E-commerce Manager"
       },
-      "next_action": "Risposta ricevuta: tracking sarÃ  risolto oggi. Follow up con report Stape completo",
+      "next_action": "Risposta ricevuta: tracking sarÃÂ  risolto oggi. Follow up con report Stape completo",
       "next_action_date": "2026-05-22",
       "timeline": [
         {
@@ -456,11 +456,11 @@
         },
         {
           "date": "2026-05-19",
-          "action": "Risposta da ecommerce@filippomarchesani.com: \"sono a conoscenza del problema di tracking e verrÃ  risolto oggi in giornata\""
+          "action": "Risposta da ecommerce@filippomarchesani.com: \"sono a conoscenza del problema di tracking e verrÃÂ  risolto oggi in giornata\""
         },
         {
           "date": "2026-05-19",
-          "action": "Antonio invia report Stape (multi-TO: ecommerce@ + pieromarchesani@ â quest'ultimo bounced)"
+          "action": "Antonio invia report Stape (multi-TO: ecommerce@ + pieromarchesani@ Ã¢ÂÂ quest'ultimo bounced)"
         }
       ],
       "skip": false
@@ -551,12 +551,12 @@
       "followups_sent": [],
       "last_outbound_by_antonio": {
         "date": "2026-05-13",
-        "snippet": "Ciao, mi sono imbattuto in Laura Urbinati cercando le migliori realtÃ  fashion del settore. Ho visto la piattaforma che state usando per le vendite online, la conosco molto bene."
+        "snippet": "Ciao, mi sono imbattuto in Laura Urbinati cercando le migliori realtÃÂ  fashion del settore. Ho visto la piattaforma che state usando per le vendite online, la conosco molto bene."
       },
       "last_reply_from_prospect": null,
       "next_followup_due": "2026-05-27",
       "days_since_last_activity": 0,
-      "first_email_snippet": "Ciao, mi sono imbattuto in Laura Urbinati cercando le migliori realtÃ  fashion del settore. Ho visto la piattaforma che state usando per le vendite online, la conosco molto bene.",
+      "first_email_snippet": "Ciao, mi sono imbattuto in Laura Urbinati cercando le migliori realtÃÂ  fashion del settore. Ho visto la piattaforma che state usando per le vendite online, la conosco molto bene.",
       "scheduled_timeline": {
         "first_email": "2026-05-13",
         "follow_up_1": "2026-05-27",
@@ -595,12 +595,12 @@
       "followups_sent": [],
       "last_outbound_by_antonio": {
         "date": "2026-05-13",
-        "snippet": "Ciao Jessica, mi sono imbattuto in Motivi (Miroglio) cercando le migliori realtÃ  fashion del settore. Ho visto la piattaforma che state usando per le vendite online, la conosco molto bene."
+        "snippet": "Ciao Jessica, mi sono imbattuto in Motivi (Miroglio) cercando le migliori realtÃÂ  fashion del settore. Ho visto la piattaforma che state usando per le vendite online, la conosco molto bene."
       },
       "last_reply_from_prospect": null,
       "next_followup_due": "2026-05-27",
       "days_since_last_activity": 0,
-      "first_email_snippet": "Ciao Jessica, mi sono imbattuto in Motivi (Miroglio) cercando le migliori realtÃ  fashion del settore. Ho visto la piattaforma che state usando per le vendite online, la conosco molto bene.",
+      "first_email_snippet": "Ciao Jessica, mi sono imbattuto in Motivi (Miroglio) cercando le migliori realtÃÂ  fashion del settore. Ho visto la piattaforma che state usando per le vendite online, la conosco molto bene.",
       "scheduled_timeline": {
         "first_email": "2026-05-13",
         "follow_up_1": "2026-05-27",
@@ -639,12 +639,12 @@
       "followups_sent": [],
       "last_outbound_by_antonio": {
         "date": "2026-05-13",
-        "snippet": "Ciao Manolo, mi sono imbattuto in 13metriquadri (TMQ Store) cercando le migliori realtÃ  fashion del settore. Ho visto la piattaforma che state usando per le vendite online, la conosco molto bene."
+        "snippet": "Ciao Manolo, mi sono imbattuto in 13metriquadri (TMQ Store) cercando le migliori realtÃÂ  fashion del settore. Ho visto la piattaforma che state usando per le vendite online, la conosco molto bene."
       },
       "last_reply_from_prospect": null,
       "next_followup_due": "2026-05-27",
       "days_since_last_activity": 0,
-      "first_email_snippet": "Ciao Manolo, mi sono imbattuto in 13metriquadri (TMQ Store) cercando le migliori realtÃ  fashion del settore. Ho visto la piattaforma che state usando per le vendite online, la conosco molto bene.",
+      "first_email_snippet": "Ciao Manolo, mi sono imbattuto in 13metriquadri (TMQ Store) cercando le migliori realtÃÂ  fashion del settore. Ho visto la piattaforma che state usando per le vendite online, la conosco molto bene.",
       "scheduled_timeline": {
         "first_email": "2026-05-13",
         "follow_up_1": "2026-05-27",
@@ -683,12 +683,12 @@
       "followups_sent": [],
       "last_outbound_by_antonio": {
         "date": "2026-05-13",
-        "snippet": "Ciao, mi sono imbattuto in Niba 1976 cercando le migliori realtÃ  fashion del settore. Ho visto la piattaforma che state usando per le vendite online, la conosco molto bene."
+        "snippet": "Ciao, mi sono imbattuto in Niba 1976 cercando le migliori realtÃÂ  fashion del settore. Ho visto la piattaforma che state usando per le vendite online, la conosco molto bene."
       },
       "last_reply_from_prospect": null,
       "next_followup_due": "2026-05-27",
       "days_since_last_activity": 0,
-      "first_email_snippet": "Ciao, mi sono imbattuto in Niba 1976 cercando le migliori realtÃ  fashion del settore. Ho visto la piattaforma che state usando per le vendite online, la conosco molto bene.",
+      "first_email_snippet": "Ciao, mi sono imbattuto in Niba 1976 cercando le migliori realtÃÂ  fashion del settore. Ho visto la piattaforma che state usando per le vendite online, la conosco molto bene.",
       "scheduled_timeline": {
         "first_email": "2026-05-13",
         "follow_up_1": "2026-05-27",
@@ -727,12 +727,12 @@
       "followups_sent": [],
       "last_outbound_by_antonio": {
         "date": "2026-05-13",
-        "snippet": "Ciao, mi sono imbattuto in Dante 5 cercando le migliori realtÃ  fashion del settore. Ho visto la piattaforma che state usando per le vendite online, la conosco molto bene."
+        "snippet": "Ciao, mi sono imbattuto in Dante 5 cercando le migliori realtÃÂ  fashion del settore. Ho visto la piattaforma che state usando per le vendite online, la conosco molto bene."
       },
       "last_reply_from_prospect": null,
       "next_followup_due": "2026-05-27",
       "days_since_last_activity": 0,
-      "first_email_snippet": "Ciao, mi sono imbattuto in Dante 5 cercando le migliori realtÃ  fashion del settore. Ho visto la piattaforma che state usando per le vendite online, la conosco molto bene.",
+      "first_email_snippet": "Ciao, mi sono imbattuto in Dante 5 cercando le migliori realtÃÂ  fashion del settore. Ho visto la piattaforma che state usando per le vendite online, la conosco molto bene.",
       "scheduled_timeline": {
         "first_email": "2026-05-13",
         "follow_up_1": "2026-05-27",
@@ -771,12 +771,12 @@
       "followups_sent": [],
       "last_outbound_by_antonio": {
         "date": "2026-05-13",
-        "snippet": "Ciao Elisa, mi sono imbattuto in Colognese cercando le migliori realtÃ  fashion del settore. Ho visto la piattaforma che state usando per le vendite online, la conosco molto bene."
+        "snippet": "Ciao Elisa, mi sono imbattuto in Colognese cercando le migliori realtÃÂ  fashion del settore. Ho visto la piattaforma che state usando per le vendite online, la conosco molto bene."
       },
       "last_reply_from_prospect": null,
       "next_followup_due": "2026-05-27",
       "days_since_last_activity": 0,
-      "first_email_snippet": "Ciao Elisa, mi sono imbattuto in Colognese cercando le migliori realtÃ  fashion del settore. Ho visto la piattaforma che state usando per le vendite online, la conosco molto bene.",
+      "first_email_snippet": "Ciao Elisa, mi sono imbattuto in Colognese cercando le migliori realtÃÂ  fashion del settore. Ho visto la piattaforma che state usando per le vendite online, la conosco molto bene.",
       "scheduled_timeline": {
         "first_email": "2026-05-13",
         "follow_up_1": "2026-05-27",
@@ -815,12 +815,12 @@
       "followups_sent": [],
       "last_outbound_by_antonio": {
         "date": "2026-05-13",
-        "snippet": "Ciao Ginevra, mi sono imbattuto in Bernardelli Stores cercando le migliori realtÃ  fashion del settore. Ho visto la piattaforma che state usando per le vendite online, la conosco molto bene."
+        "snippet": "Ciao Ginevra, mi sono imbattuto in Bernardelli Stores cercando le migliori realtÃÂ  fashion del settore. Ho visto la piattaforma che state usando per le vendite online, la conosco molto bene."
       },
       "last_reply_from_prospect": null,
       "next_followup_due": "2026-05-27",
       "days_since_last_activity": 0,
-      "first_email_snippet": "Ciao Ginevra, mi sono imbattuto in Bernardelli Stores cercando le migliori realtÃ  fashion del settore. Ho visto la piattaforma che state usando per le vendite online, la conosco molto bene.",
+      "first_email_snippet": "Ciao Ginevra, mi sono imbattuto in Bernardelli Stores cercando le migliori realtÃÂ  fashion del settore. Ho visto la piattaforma che state usando per le vendite online, la conosco molto bene.",
       "scheduled_timeline": {
         "first_email": "2026-05-13",
         "follow_up_1": "2026-05-27",
@@ -933,7 +933,7 @@
       "next_action": "Follow-up 1",
       "next_action_date": "2026-05-27",
       "stape_score": null,
-      "notes": "E-commerce settore medico Â· Inviata in multi-TO con: giuseppe_abbasciano@medicoshop.it (rilevato audit MCP 2026-05-15)",
+      "notes": "E-commerce settore medico ÃÂ· Inviata in multi-TO con: giuseppe_abbasciano@medicoshop.it (rilevato audit MCP 2026-05-15)",
       "thread_id": "19e1d5f3c7110350",
       "timeline": [
         {
@@ -997,12 +997,12 @@
       "followups_sent": [],
       "last_outbound_by_antonio": {
         "date": "2026-05-13",
-        "snippet": "Ciao, mi sono imbattuto in Galassia Roma cercando le migliori realtÃ  fashion del settore. Ho visto la piattaforma che state usando per le vendite online, la conosco molto bene."
+        "snippet": "Ciao, mi sono imbattuto in Galassia Roma cercando le migliori realtÃÂ  fashion del settore. Ho visto la piattaforma che state usando per le vendite online, la conosco molto bene."
       },
       "last_reply_from_prospect": null,
       "next_followup_due": "2026-05-27",
       "days_since_last_activity": 0,
-      "first_email_snippet": "Ciao, mi sono imbattuto in Galassia Roma cercando le migliori realtÃ  fashion del settore. Ho visto la piattaforma che state usando per le vendite online, la conosco molto bene.",
+      "first_email_snippet": "Ciao, mi sono imbattuto in Galassia Roma cercando le migliori realtÃÂ  fashion del settore. Ho visto la piattaforma che state usando per le vendite online, la conosco molto bene.",
       "scheduled_timeline": {
         "first_email": "2026-05-13",
         "follow_up_1": "2026-05-27",
@@ -1115,7 +1115,7 @@
       "next_action": "Follow-up 1",
       "next_action_date": "2026-05-27",
       "stape_score": null,
-      "notes": "E-commerce scarpe. Contatto reindirizzato da L. Gioventu (in maternitÃ ).",
+      "notes": "E-commerce scarpe. Contatto reindirizzato da L. Gioventu (in maternitÃÂ ).",
       "thread_id": "19e1f1f2a7d3cd16",
       "timeline": [
         {
@@ -1129,12 +1129,12 @@
       "followups_sent": [],
       "last_outbound_by_antonio": {
         "date": "2026-05-13",
-        "snippet": "Ciao Eleonora, mi sono imbattuto in AGL Shoes cercando le migliori realtÃ  fashion del settore. Ho visto la piattaforma che state usando per le vendite online, la conosco molto bene."
+        "snippet": "Ciao Eleonora, mi sono imbattuto in AGL Shoes cercando le migliori realtÃÂ  fashion del settore. Ho visto la piattaforma che state usando per le vendite online, la conosco molto bene."
       },
       "last_reply_from_prospect": null,
       "next_followup_due": "2026-05-27",
       "days_since_last_activity": 0,
-      "first_email_snippet": "Ciao Eleonora, mi sono imbattuto in AGL Shoes cercando le migliori realtÃ  fashion del settore. Ho visto la piattaforma che state usando per le vendite online, la conosco molto bene.",
+      "first_email_snippet": "Ciao Eleonora, mi sono imbattuto in AGL Shoes cercando le migliori realtÃÂ  fashion del settore. Ho visto la piattaforma che state usando per le vendite online, la conosco molto bene.",
       "scheduled_timeline": {
         "first_email": "2026-05-13",
         "follow_up_1": "2026-05-27",
@@ -1159,7 +1159,7 @@
       "next_action": "Follow-up 1",
       "next_action_date": "2026-05-27",
       "stape_score": null,
-      "notes": "Boutique Milano Marittima â uno di 3 contatti su Julian",
+      "notes": "Boutique Milano Marittima Ã¢ÂÂ uno di 3 contatti su Julian",
       "thread_id": "19e1f13127a825e1",
       "timeline": [
         {
@@ -1173,12 +1173,12 @@
       "followups_sent": [],
       "last_outbound_by_antonio": {
         "date": "2026-05-13",
-        "snippet": "Ciao Giulia, mi sono imbattuto in Julian Fashion cercando le migliori realtÃ  fashion del settore. Ho visto la piattaforma che state usando per le vendite online, la conosco molto bene."
+        "snippet": "Ciao Giulia, mi sono imbattuto in Julian Fashion cercando le migliori realtÃÂ  fashion del settore. Ho visto la piattaforma che state usando per le vendite online, la conosco molto bene."
       },
       "last_reply_from_prospect": null,
       "next_followup_due": "2026-05-27",
       "days_since_last_activity": 0,
-      "first_email_snippet": "Ciao Giulia, mi sono imbattuto in Julian Fashion cercando le migliori realtÃ  fashion del settore. Ho visto la piattaforma che state usando per le vendite online, la conosco molto bene.",
+      "first_email_snippet": "Ciao Giulia, mi sono imbattuto in Julian Fashion cercando le migliori realtÃÂ  fashion del settore. Ho visto la piattaforma che state usando per le vendite online, la conosco molto bene.",
       "scheduled_timeline": {
         "first_email": "2026-05-13",
         "follow_up_1": "2026-05-27",
@@ -1583,12 +1583,12 @@
       "followups_sent": [],
       "last_outbound_by_antonio": {
         "date": "2026-05-12",
-        "snippet": "Ciao, mi sono imbattuto in D'Aniello cercando le migliori realtÃ  fashion del settore. Ho visto la piattaforma che state usando per le vendite online, la conosco molto bene."
+        "snippet": "Ciao, mi sono imbattuto in D'Aniello cercando le migliori realtÃÂ  fashion del settore. Ho visto la piattaforma che state usando per le vendite online, la conosco molto bene."
       },
       "last_reply_from_prospect": null,
       "next_followup_due": "2026-05-26",
       "days_since_last_activity": 1,
-      "first_email_snippet": "Ciao, mi sono imbattuto in D'Aniello cercando le migliori realtÃ  fashion del settore. Ho visto la piattaforma che state usando per le vendite online, la conosco molto bene.",
+      "first_email_snippet": "Ciao, mi sono imbattuto in D'Aniello cercando le migliori realtÃÂ  fashion del settore. Ho visto la piattaforma che state usando per le vendite online, la conosco molto bene.",
       "scheduled_timeline": {
         "first_email": "2026-05-12",
         "follow_up_1": "2026-05-26",
@@ -1657,7 +1657,7 @@
       "next_action": "Follow-up 1",
       "next_action_date": "2026-05-26",
       "stape_score": null,
-      "notes": "2Â° contatto Julian (Cecilia)",
+      "notes": "2ÃÂ° contatto Julian (Cecilia)",
       "thread_id": "19e1cdc5abbffa75",
       "timeline": [
         {
@@ -1671,12 +1671,12 @@
       "followups_sent": [],
       "last_outbound_by_antonio": {
         "date": "2026-05-12",
-        "snippet": "Ciao Cecilia, mi sono imbattuto in Julian Fashion cercando le migliori realtÃ  fashion del settore. Ho visto la piattaforma che state usando per le vendite online, la conosco molto bene."
+        "snippet": "Ciao Cecilia, mi sono imbattuto in Julian Fashion cercando le migliori realtÃÂ  fashion del settore. Ho visto la piattaforma che state usando per le vendite online, la conosco molto bene."
       },
       "last_reply_from_prospect": null,
       "next_followup_due": "2026-05-26",
       "days_since_last_activity": 1,
-      "first_email_snippet": "Ciao Cecilia, mi sono imbattuto in Julian Fashion cercando le migliori realtÃ  fashion del settore. Ho visto la piattaforma che state usando per le vendite online, la conosco molto bene.",
+      "first_email_snippet": "Ciao Cecilia, mi sono imbattuto in Julian Fashion cercando le migliori realtÃÂ  fashion del settore. Ho visto la piattaforma che state usando per le vendite online, la conosco molto bene.",
       "scheduled_timeline": {
         "first_email": "2026-05-12",
         "follow_up_1": "2026-05-26",
@@ -1759,12 +1759,12 @@
       "followups_sent": [],
       "last_outbound_by_antonio": {
         "date": "2026-05-12",
-        "snippet": "Ciao Pierpaolo, mi sono imbattuto in Cenere cercando le migliori realtÃ  fashion del settore. Ho visto la piattaforma che state usando per le vendite online, la conosco molto bene."
+        "snippet": "Ciao Pierpaolo, mi sono imbattuto in Cenere cercando le migliori realtÃÂ  fashion del settore. Ho visto la piattaforma che state usando per le vendite online, la conosco molto bene."
       },
       "last_reply_from_prospect": null,
       "next_followup_due": "2026-05-26",
       "days_since_last_activity": 1,
-      "first_email_snippet": "Ciao Pierpaolo, mi sono imbattuto in Cenere cercando le migliori realtÃ  fashion del settore. Ho visto la piattaforma che state usando per le vendite online, la conosco molto bene.",
+      "first_email_snippet": "Ciao Pierpaolo, mi sono imbattuto in Cenere cercando le migliori realtÃÂ  fashion del settore. Ho visto la piattaforma che state usando per le vendite online, la conosco molto bene.",
       "scheduled_timeline": {
         "first_email": "2026-05-12",
         "follow_up_1": "2026-05-26",
@@ -1803,12 +1803,12 @@
       "followups_sent": [],
       "last_outbound_by_antonio": {
         "date": "2026-05-12",
-        "snippet": "Ciao, mi sono imbattuto in Cammalleri cercando le migliori realtÃ  fashion del settore. Ho visto la piattaforma che state usando per le vendite online, la conosco molto bene."
+        "snippet": "Ciao, mi sono imbattuto in Cammalleri cercando le migliori realtÃÂ  fashion del settore. Ho visto la piattaforma che state usando per le vendite online, la conosco molto bene."
       },
       "last_reply_from_prospect": null,
       "next_followup_due": "2026-05-26",
       "days_since_last_activity": 1,
-      "first_email_snippet": "Ciao, mi sono imbattuto in Cammalleri cercando le migliori realtÃ  fashion del settore. Ho visto la piattaforma che state usando per le vendite online, la conosco molto bene.",
+      "first_email_snippet": "Ciao, mi sono imbattuto in Cammalleri cercando le migliori realtÃÂ  fashion del settore. Ho visto la piattaforma che state usando per le vendite online, la conosco molto bene.",
       "scheduled_timeline": {
         "first_email": "2026-05-12",
         "follow_up_1": "2026-05-26",
@@ -1891,12 +1891,12 @@
       "followups_sent": [],
       "last_outbound_by_antonio": {
         "date": "2026-05-12",
-        "snippet": "Ciao, mi sono imbattuto in Boutique Antonia cercando le migliori realtÃ  fashion del settore. Ho visto la piattaforma che state usando per le vendite online, la conosco molto bene."
+        "snippet": "Ciao, mi sono imbattuto in Boutique Antonia cercando le migliori realtÃÂ  fashion del settore. Ho visto la piattaforma che state usando per le vendite online, la conosco molto bene."
       },
       "last_reply_from_prospect": null,
       "next_followup_due": "2026-05-26",
       "days_since_last_activity": 1,
-      "first_email_snippet": "Ciao, mi sono imbattuto in Boutique Antonia cercando le migliori realtÃ  fashion del settore. Ho visto la piattaforma che state usando per le vendite online, la conosco molto bene.",
+      "first_email_snippet": "Ciao, mi sono imbattuto in Boutique Antonia cercando le migliori realtÃÂ  fashion del settore. Ho visto la piattaforma che state usando per le vendite online, la conosco molto bene.",
       "scheduled_timeline": {
         "first_email": "2026-05-12",
         "follow_up_1": "2026-05-26",
@@ -1935,12 +1935,12 @@
       "followups_sent": [],
       "last_outbound_by_antonio": {
         "date": "2026-05-12",
-        "snippet": "Ciao Alessandra, mi sono imbattuto in Al Duca d'Aosta cercando le migliori realtÃ  fashion del settore. Ho visto la piattaforma che state usando per le vendite online, la conosco molto bene."
+        "snippet": "Ciao Alessandra, mi sono imbattuto in Al Duca d'Aosta cercando le migliori realtÃÂ  fashion del settore. Ho visto la piattaforma che state usando per le vendite online, la conosco molto bene."
       },
       "last_reply_from_prospect": null,
       "next_followup_due": "2026-05-26",
       "days_since_last_activity": 1,
-      "first_email_snippet": "Ciao Alessandra, mi sono imbattuto in Al Duca d'Aosta cercando le migliori realtÃ  fashion del settore. Ho visto la piattaforma che state usando per le vendite online, la conosco molto bene.",
+      "first_email_snippet": "Ciao Alessandra, mi sono imbattuto in Al Duca d'Aosta cercando le migliori realtÃÂ  fashion del settore. Ho visto la piattaforma che state usando per le vendite online, la conosco molto bene.",
       "scheduled_timeline": {
         "first_email": "2026-05-12",
         "follow_up_1": "2026-05-26",
@@ -1979,12 +1979,12 @@
       "followups_sent": [],
       "last_outbound_by_antonio": {
         "date": "2026-05-12",
-        "snippet": "Ciao, mi sono imbattuto in Nida cercando le migliori realtÃ  fashion del settore. Ho visto la piattaforma che state usando per le vendite online, la conosco molto bene."
+        "snippet": "Ciao, mi sono imbattuto in Nida cercando le migliori realtÃÂ  fashion del settore. Ho visto la piattaforma che state usando per le vendite online, la conosco molto bene."
       },
       "last_reply_from_prospect": null,
       "next_followup_due": "2026-05-26",
       "days_since_last_activity": 1,
-      "first_email_snippet": "Ciao, mi sono imbattuto in Nida cercando le migliori realtÃ  fashion del settore. Ho visto la piattaforma che state usando per le vendite online, la conosco molto bene.",
+      "first_email_snippet": "Ciao, mi sono imbattuto in Nida cercando le migliori realtÃÂ  fashion del settore. Ho visto la piattaforma che state usando per le vendite online, la conosco molto bene.",
       "scheduled_timeline": {
         "first_email": "2026-05-12",
         "follow_up_1": "2026-05-26",
@@ -2023,12 +2023,12 @@
       "followups_sent": [],
       "last_outbound_by_antonio": {
         "date": "2026-05-12",
-        "snippet": "Ciao, mi sono imbattuto in Mantovani Shop cercando le migliori realtÃ  fashion del settore. Ho visto la piattaforma che state usando per le vendite online, la conosco molto bene."
+        "snippet": "Ciao, mi sono imbattuto in Mantovani Shop cercando le migliori realtÃÂ  fashion del settore. Ho visto la piattaforma che state usando per le vendite online, la conosco molto bene."
       },
       "last_reply_from_prospect": null,
       "next_followup_due": "2026-05-26",
       "days_since_last_activity": 1,
-      "first_email_snippet": "Ciao, mi sono imbattuto in Mantovani Shop cercando le migliori realtÃ  fashion del settore. Ho visto la piattaforma che state usando per le vendite online, la conosco molto bene.",
+      "first_email_snippet": "Ciao, mi sono imbattuto in Mantovani Shop cercando le migliori realtÃÂ  fashion del settore. Ho visto la piattaforma che state usando per le vendite online, la conosco molto bene.",
       "scheduled_timeline": {
         "first_email": "2026-05-12",
         "follow_up_1": "2026-05-26",
@@ -2067,12 +2067,12 @@
       "followups_sent": [],
       "last_outbound_by_antonio": {
         "date": "2026-05-12",
-        "snippet": "Ciao Alice, mi sono imbattuto in Stilmoda cercando le migliori realtÃ  fashion del settore. Ho visto la piattaforma che state usando per le vendite online, la conosco molto bene."
+        "snippet": "Ciao Alice, mi sono imbattuto in Stilmoda cercando le migliori realtÃÂ  fashion del settore. Ho visto la piattaforma che state usando per le vendite online, la conosco molto bene."
       },
       "last_reply_from_prospect": null,
       "next_followup_due": "2026-05-26",
       "days_since_last_activity": 1,
-      "first_email_snippet": "Ciao Alice, mi sono imbattuto in Stilmoda cercando le migliori realtÃ  fashion del settore. Ho visto la piattaforma che state usando per le vendite online, la conosco molto bene.",
+      "first_email_snippet": "Ciao Alice, mi sono imbattuto in Stilmoda cercando le migliori realtÃÂ  fashion del settore. Ho visto la piattaforma che state usando per le vendite online, la conosco molto bene.",
       "scheduled_timeline": {
         "first_email": "2026-05-12",
         "follow_up_1": "2026-05-26",
@@ -2111,12 +2111,12 @@
       "followups_sent": [],
       "last_outbound_by_antonio": {
         "date": "2026-05-12",
-        "snippet": "Ciao Maria, mi sono imbattuto in Pellizzari cercando le migliori realtÃ  fashion del settore. Ho visto la piattaforma che state usando per le vendite online, la conosco molto bene."
+        "snippet": "Ciao Maria, mi sono imbattuto in Pellizzari cercando le migliori realtÃÂ  fashion del settore. Ho visto la piattaforma che state usando per le vendite online, la conosco molto bene."
       },
       "last_reply_from_prospect": null,
       "next_followup_due": "2026-05-26",
       "days_since_last_activity": 1,
-      "first_email_snippet": "Ciao Maria, mi sono imbattuto in Pellizzari cercando le migliori realtÃ  fashion del settore. Ho visto la piattaforma che state usando per le vendite online, la conosco molto bene.",
+      "first_email_snippet": "Ciao Maria, mi sono imbattuto in Pellizzari cercando le migliori realtÃÂ  fashion del settore. Ho visto la piattaforma che state usando per le vendite online, la conosco molto bene.",
       "scheduled_timeline": {
         "first_email": "2026-05-12",
         "follow_up_1": "2026-05-26",
@@ -2155,12 +2155,12 @@
       "followups_sent": [],
       "last_outbound_by_antonio": {
         "date": "2026-05-12",
-        "snippet": "Ciao Mattia, mi sono imbattuto in Penelope Store cercando le migliori realtÃ  fashion del settore. Ho visto la piattaforma che state usando per le vendite online, la conosco molto bene."
+        "snippet": "Ciao Mattia, mi sono imbattuto in Penelope Store cercando le migliori realtÃÂ  fashion del settore. Ho visto la piattaforma che state usando per le vendite online, la conosco molto bene."
       },
       "last_reply_from_prospect": null,
       "next_followup_due": "2026-05-26",
       "days_since_last_activity": 1,
-      "first_email_snippet": "Ciao Mattia, mi sono imbattuto in Penelope Store cercando le migliori realtÃ  fashion del settore. Ho visto la piattaforma che state usando per le vendite online, la conosco molto bene.",
+      "first_email_snippet": "Ciao Mattia, mi sono imbattuto in Penelope Store cercando le migliori realtÃÂ  fashion del settore. Ho visto la piattaforma che state usando per le vendite online, la conosco molto bene.",
       "scheduled_timeline": {
         "first_email": "2026-05-12",
         "follow_up_1": "2026-05-26",
@@ -2199,12 +2199,12 @@
       "followups_sent": [],
       "last_outbound_by_antonio": {
         "date": "2026-05-12",
-        "snippet": "Ciao, mi sono imbattuto in Vela Shop (Flashion) cercando le migliori realtÃ  fashion del settore. Ho visto la piattaforma che state usando per le vendite online, la conosco molto bene."
+        "snippet": "Ciao, mi sono imbattuto in Vela Shop (Flashion) cercando le migliori realtÃÂ  fashion del settore. Ho visto la piattaforma che state usando per le vendite online, la conosco molto bene."
       },
       "last_reply_from_prospect": null,
       "next_followup_due": "2026-05-26",
       "days_since_last_activity": 1,
-      "first_email_snippet": "Ciao, mi sono imbattuto in Vela Shop (Flashion) cercando le migliori realtÃ  fashion del settore. Ho visto la piattaforma che state usando per le vendite online, la conosco molto bene.",
+      "first_email_snippet": "Ciao, mi sono imbattuto in Vela Shop (Flashion) cercando le migliori realtÃÂ  fashion del settore. Ho visto la piattaforma che state usando per le vendite online, la conosco molto bene.",
       "scheduled_timeline": {
         "first_email": "2026-05-12",
         "follow_up_1": "2026-05-26",
@@ -2243,12 +2243,12 @@
       "followups_sent": [],
       "last_outbound_by_antonio": {
         "date": "2026-05-11",
-        "snippet": "Ciao, mi sono imbattuto in Rabaini cercando le migliori realtÃ  fashion del settore. Ho visto la piattaforma che state usando per le vendite online, la conosco molto bene."
+        "snippet": "Ciao, mi sono imbattuto in Rabaini cercando le migliori realtÃÂ  fashion del settore. Ho visto la piattaforma che state usando per le vendite online, la conosco molto bene."
       },
       "last_reply_from_prospect": null,
       "next_followup_due": "2026-05-25",
       "days_since_last_activity": 2,
-      "first_email_snippet": "Ciao, mi sono imbattuto in Rabaini cercando le migliori realtÃ  fashion del settore. Ho visto la piattaforma che state usando per le vendite online, la conosco molto bene.",
+      "first_email_snippet": "Ciao, mi sono imbattuto in Rabaini cercando le migliori realtÃÂ  fashion del settore. Ho visto la piattaforma che state usando per le vendite online, la conosco molto bene.",
       "scheduled_timeline": {
         "first_email": "2026-05-11",
         "follow_up_1": "2026-05-25",
@@ -2287,12 +2287,12 @@
       "followups_sent": [],
       "last_outbound_by_antonio": {
         "date": "2026-05-11",
-        "snippet": "Ciao, mi sono imbattuto in Silvia Bini cercando le migliori realtÃ  fashion del settore. Ho visto la piattaforma che state usando per le vendite online, la conosco molto bene."
+        "snippet": "Ciao, mi sono imbattuto in Silvia Bini cercando le migliori realtÃÂ  fashion del settore. Ho visto la piattaforma che state usando per le vendite online, la conosco molto bene."
       },
       "last_reply_from_prospect": null,
       "next_followup_due": "2026-05-25",
       "days_since_last_activity": 2,
-      "first_email_snippet": "Ciao, mi sono imbattuto in Silvia Bini cercando le migliori realtÃ  fashion del settore. Ho visto la piattaforma che state usando per le vendite online, la conosco molto bene.",
+      "first_email_snippet": "Ciao, mi sono imbattuto in Silvia Bini cercando le migliori realtÃÂ  fashion del settore. Ho visto la piattaforma che state usando per le vendite online, la conosco molto bene.",
       "scheduled_timeline": {
         "first_email": "2026-05-11",
         "follow_up_1": "2026-05-25",
@@ -2331,12 +2331,12 @@
       "followups_sent": [],
       "last_outbound_by_antonio": {
         "date": "2026-05-11",
-        "snippet": "Ciao, mi sono imbattuto in Valico Store cercando le migliori realtÃ  fashion del settore. Ho visto la piattaforma che state usando per le vendite online, la conosco molto bene."
+        "snippet": "Ciao, mi sono imbattuto in Valico Store cercando le migliori realtÃÂ  fashion del settore. Ho visto la piattaforma che state usando per le vendite online, la conosco molto bene."
       },
       "last_reply_from_prospect": null,
       "next_followup_due": "2026-05-25",
       "days_since_last_activity": 2,
-      "first_email_snippet": "Ciao, mi sono imbattuto in Valico Store cercando le migliori realtÃ  fashion del settore. Ho visto la piattaforma che state usando per le vendite online, la conosco molto bene.",
+      "first_email_snippet": "Ciao, mi sono imbattuto in Valico Store cercando le migliori realtÃÂ  fashion del settore. Ho visto la piattaforma che state usando per le vendite online, la conosco molto bene.",
       "scheduled_timeline": {
         "first_email": "2026-05-11",
         "follow_up_1": "2026-05-25",
@@ -2375,12 +2375,12 @@
       "followups_sent": [],
       "last_outbound_by_antonio": {
         "date": "2026-05-11",
-        "snippet": "Ciao, mi sono imbattuto in Boutique Adani cercando le migliori realtÃ  fashion del settore. Ho visto la piattaforma che state usando per le vendite online, la conosco molto bene."
+        "snippet": "Ciao, mi sono imbattuto in Boutique Adani cercando le migliori realtÃÂ  fashion del settore. Ho visto la piattaforma che state usando per le vendite online, la conosco molto bene."
       },
       "last_reply_from_prospect": null,
       "next_followup_due": "2026-05-25",
       "days_since_last_activity": 2,
-      "first_email_snippet": "Ciao, mi sono imbattuto in Boutique Adani cercando le migliori realtÃ  fashion del settore. Ho visto la piattaforma che state usando per le vendite online, la conosco molto bene.",
+      "first_email_snippet": "Ciao, mi sono imbattuto in Boutique Adani cercando le migliori realtÃÂ  fashion del settore. Ho visto la piattaforma che state usando per le vendite online, la conosco molto bene.",
       "scheduled_timeline": {
         "first_email": "2026-05-11",
         "follow_up_1": "2026-05-25",
@@ -2419,12 +2419,12 @@
       "followups_sent": [],
       "last_outbound_by_antonio": {
         "date": "2026-05-11",
-        "snippet": "Ciao, mi sono imbattuto in Manzoni24 cercando le migliori realtÃ  fashion del settore. Ho visto la piattaforma che state usando per le vendite online, la conosco molto bene."
+        "snippet": "Ciao, mi sono imbattuto in Manzoni24 cercando le migliori realtÃÂ  fashion del settore. Ho visto la piattaforma che state usando per le vendite online, la conosco molto bene."
       },
       "last_reply_from_prospect": null,
       "next_followup_due": "2026-05-25",
       "days_since_last_activity": 2,
-      "first_email_snippet": "Ciao, mi sono imbattuto in Manzoni24 cercando le migliori realtÃ  fashion del settore. Ho visto la piattaforma che state usando per le vendite online, la conosco molto bene.",
+      "first_email_snippet": "Ciao, mi sono imbattuto in Manzoni24 cercando le migliori realtÃÂ  fashion del settore. Ho visto la piattaforma che state usando per le vendite online, la conosco molto bene.",
       "scheduled_timeline": {
         "first_email": "2026-05-11",
         "follow_up_1": "2026-05-25",
@@ -2581,7 +2581,7 @@
       "next_action": "Follow-up 1",
       "next_action_date": "2026-05-25",
       "stape_score": null,
-      "notes": "Geri ha lasciato. Autoresponse rimanda all'Online Team â serve trovare un nuovo riferimento.",
+      "notes": "Geri ha lasciato. Autoresponse rimanda all'Online Team Ã¢ÂÂ serve trovare un nuovo riferimento.",
       "thread_id": "19e16d6058404c6e",
       "timeline": [
         {
@@ -2590,7 +2590,7 @@
         },
         {
           "date": "2026-05-11",
-          "action": "Autoresponse: Geri non piÃ¹ dipendente"
+          "action": "Autoresponse: Geri non piÃÂ¹ dipendente"
         },
         {
           "date": "2026-05-16",
@@ -2680,7 +2680,7 @@
       "next_action": "Follow-up 1",
       "next_action_date": "2026-05-25",
       "stape_score": null,
-      "notes": "UK shoes â competitor analysis Instagram",
+      "notes": "UK shoes Ã¢ÂÂ competitor analysis Instagram",
       "thread_id": "19e16bf318c6f7aa",
       "timeline": [
         {
@@ -2768,7 +2768,7 @@
       "next_action": "Follow-up 1",
       "next_action_date": "2026-05-25",
       "stape_score": null,
-      "notes": "UK shoes â competitor analysis Instagram",
+      "notes": "UK shoes Ã¢ÂÂ competitor analysis Instagram",
       "thread_id": "19e16a7cf2075f89",
       "timeline": [
         {
@@ -2880,12 +2880,12 @@
           "date": "2026-05-11",
           "type": "follow_up_1",
           "sender": "Dami",
-          "snippet": "Bump â caso studio pronto"
+          "snippet": "Bump Ã¢ÂÂ caso studio pronto"
         }
       ],
       "last_outbound_by_antonio": {
         "date": "2026-05-11",
-        "snippet": "Bump â caso studio pronto"
+        "snippet": "Bump Ã¢ÂÂ caso studio pronto"
       },
       "last_reply_from_prospect": {
         "date": "2026-05-11",
@@ -2938,12 +2938,12 @@
           "date": "2026-05-11",
           "type": "follow_up_1",
           "sender": "Dami",
-          "snippet": "Bump â caso studio pronto"
+          "snippet": "Bump Ã¢ÂÂ caso studio pronto"
         }
       ],
       "last_outbound_by_antonio": {
         "date": "2026-05-11",
-        "snippet": "Bump â caso studio pronto"
+        "snippet": "Bump Ã¢ÂÂ caso studio pronto"
       },
       "last_reply_from_prospect": null,
       "next_followup_due": "2026-06-08",
@@ -2993,12 +2993,12 @@
           "date": "2026-05-11",
           "type": "follow_up_1",
           "sender": "Dami",
-          "snippet": "Bump â caso studio pronto"
+          "snippet": "Bump Ã¢ÂÂ caso studio pronto"
         }
       ],
       "last_outbound_by_antonio": {
         "date": "2026-05-11",
-        "snippet": "Bump â caso studio pronto"
+        "snippet": "Bump Ã¢ÂÂ caso studio pronto"
       },
       "last_reply_from_prospect": null,
       "next_followup_due": "2026-06-08",
@@ -3028,7 +3028,7 @@
       "next_action": "Follow-up 2",
       "next_action_date": "2026-06-08",
       "stape_score": null,
-      "notes": "Autoresponse 'Sample Sale' â risposta intermittente. Bumped 11/05.",
+      "notes": "Autoresponse 'Sample Sale' Ã¢ÂÂ risposta intermittente. Bumped 11/05.",
       "thread_id": "19e1508047c20c29",
       "timeline": [
         {
@@ -3052,12 +3052,12 @@
           "date": "2026-05-11",
           "type": "follow_up_1",
           "sender": "Dami",
-          "snippet": "Bump â caso studio pronto"
+          "snippet": "Bump Ã¢ÂÂ caso studio pronto"
         }
       ],
       "last_outbound_by_antonio": {
         "date": "2026-05-11",
-        "snippet": "Bump â caso studio pronto"
+        "snippet": "Bump Ã¢ÂÂ caso studio pronto"
       },
       "last_reply_from_prospect": {
         "date": "2026-05-11",
@@ -3110,12 +3110,12 @@
           "date": "2026-05-11",
           "type": "follow_up_1",
           "sender": "Manu",
-          "snippet": "Bump â caso studio pronto"
+          "snippet": "Bump Ã¢ÂÂ caso studio pronto"
         }
       ],
       "last_outbound_by_antonio": {
         "date": "2026-05-11",
-        "snippet": "Bump â caso studio pronto"
+        "snippet": "Bump Ã¢ÂÂ caso studio pronto"
       },
       "last_reply_from_prospect": null,
       "next_followup_due": "2026-06-08",
@@ -3159,12 +3159,12 @@
       "followups_sent": [],
       "last_outbound_by_antonio": {
         "date": "2026-05-08",
-        "snippet": "Ciao, mi sono imbattuto in Le Noir Boutique cercando le migliori realtÃ  fashion del settore. Ho visto la piattaforma che state usando per le vendite online, la conosco molto bene."
+        "snippet": "Ciao, mi sono imbattuto in Le Noir Boutique cercando le migliori realtÃÂ  fashion del settore. Ho visto la piattaforma che state usando per le vendite online, la conosco molto bene."
       },
       "last_reply_from_prospect": null,
       "next_followup_due": "2026-05-22",
       "days_since_last_activity": 5,
-      "first_email_snippet": "Ciao, mi sono imbattuto in Le Noir Boutique cercando le migliori realtÃ  fashion del settore. Ho visto la piattaforma che state usando per le vendite online, la conosco molto bene.",
+      "first_email_snippet": "Ciao, mi sono imbattuto in Le Noir Boutique cercando le migliori realtÃÂ  fashion del settore. Ho visto la piattaforma che state usando per le vendite online, la conosco molto bene.",
       "scheduled_timeline": {
         "first_email": "2026-05-08",
         "follow_up_1": "2026-05-22",
@@ -3203,12 +3203,12 @@
       "followups_sent": [],
       "last_outbound_by_antonio": {
         "date": "2026-05-08",
-        "snippet": "Ciao, mi sono imbattuto in Folli Follie cercando le migliori realtÃ  fashion del settore. Ho visto la piattaforma che state usando per le vendite online, la conosco molto bene."
+        "snippet": "Ciao, mi sono imbattuto in Folli Follie cercando le migliori realtÃÂ  fashion del settore. Ho visto la piattaforma che state usando per le vendite online, la conosco molto bene."
       },
       "last_reply_from_prospect": null,
       "next_followup_due": "2026-05-22",
       "days_since_last_activity": 5,
-      "first_email_snippet": "Ciao, mi sono imbattuto in Folli Follie cercando le migliori realtÃ  fashion del settore. Ho visto la piattaforma che state usando per le vendite online, la conosco molto bene.",
+      "first_email_snippet": "Ciao, mi sono imbattuto in Folli Follie cercando le migliori realtÃÂ  fashion del settore. Ho visto la piattaforma che state usando per le vendite online, la conosco molto bene.",
       "scheduled_timeline": {
         "first_email": "2026-05-08",
         "follow_up_1": "2026-05-22",
@@ -3247,12 +3247,12 @@
       "followups_sent": [],
       "last_outbound_by_antonio": {
         "date": "2026-05-08",
-        "snippet": "Ciao, mi sono imbattuto in G&B Negozi Online cercando le migliori realtÃ  fashion del settore. Ho visto la piattaforma che state usando per le vendite online, la conosco molto bene."
+        "snippet": "Ciao, mi sono imbattuto in G&B Negozi Online cercando le migliori realtÃÂ  fashion del settore. Ho visto la piattaforma che state usando per le vendite online, la conosco molto bene."
       },
       "last_reply_from_prospect": null,
       "next_followup_due": "2026-05-22",
       "days_since_last_activity": 5,
-      "first_email_snippet": "Ciao, mi sono imbattuto in G&B Negozi Online cercando le migliori realtÃ  fashion del settore. Ho visto la piattaforma che state usando per le vendite online, la conosco molto bene.",
+      "first_email_snippet": "Ciao, mi sono imbattuto in G&B Negozi Online cercando le migliori realtÃÂ  fashion del settore. Ho visto la piattaforma che state usando per le vendite online, la conosco molto bene.",
       "scheduled_timeline": {
         "first_email": "2026-05-08",
         "follow_up_1": "2026-05-22",
@@ -3291,12 +3291,12 @@
       "followups_sent": [],
       "last_outbound_by_antonio": {
         "date": "2026-05-08",
-        "snippet": "Ciao, mi sono imbattuto in Davide Cenci cercando le migliori realtÃ  fashion del settore. Ho visto la piattaforma che state usando per le vendite online, la conosco molto bene."
+        "snippet": "Ciao, mi sono imbattuto in Davide Cenci cercando le migliori realtÃÂ  fashion del settore. Ho visto la piattaforma che state usando per le vendite online, la conosco molto bene."
       },
       "last_reply_from_prospect": null,
       "next_followup_due": "2026-05-22",
       "days_since_last_activity": 5,
-      "first_email_snippet": "Ciao, mi sono imbattuto in Davide Cenci cercando le migliori realtÃ  fashion del settore. Ho visto la piattaforma che state usando per le vendite online, la conosco molto bene.",
+      "first_email_snippet": "Ciao, mi sono imbattuto in Davide Cenci cercando le migliori realtÃÂ  fashion del settore. Ho visto la piattaforma che state usando per le vendite online, la conosco molto bene.",
       "scheduled_timeline": {
         "first_email": "2026-05-08",
         "follow_up_1": "2026-05-22",
@@ -3335,12 +3335,12 @@
       "followups_sent": [],
       "last_outbound_by_antonio": {
         "date": "2026-05-08",
-        "snippet": "Ciao Gianluca, mi sono imbattuto in 10 Corso Como cercando le migliori realtÃ  fashion del settore. Ho visto la piattaforma che state usando per le vendite online, la conosco molto bene."
+        "snippet": "Ciao Gianluca, mi sono imbattuto in 10 Corso Como cercando le migliori realtÃÂ  fashion del settore. Ho visto la piattaforma che state usando per le vendite online, la conosco molto bene."
       },
       "last_reply_from_prospect": null,
       "next_followup_due": "2026-05-22",
       "days_since_last_activity": 5,
-      "first_email_snippet": "Ciao Gianluca, mi sono imbattuto in 10 Corso Como cercando le migliori realtÃ  fashion del settore. Ho visto la piattaforma che state usando per le vendite online, la conosco molto bene.",
+      "first_email_snippet": "Ciao Gianluca, mi sono imbattuto in 10 Corso Como cercando le migliori realtÃÂ  fashion del settore. Ho visto la piattaforma che state usando per le vendite online, la conosco molto bene.",
       "scheduled_timeline": {
         "first_email": "2026-05-08",
         "follow_up_1": "2026-05-22",
@@ -3379,12 +3379,12 @@
       "followups_sent": [],
       "last_outbound_by_antonio": {
         "date": "2026-05-08",
-        "snippet": "Ciao Marco, mi sono imbattuto in Luisaviaroma cercando le migliori realtÃ  fashion del settore. Ho visto la piattaforma che state usando per le vendite online, la conosco molto bene."
+        "snippet": "Ciao Marco, mi sono imbattuto in Luisaviaroma cercando le migliori realtÃÂ  fashion del settore. Ho visto la piattaforma che state usando per le vendite online, la conosco molto bene."
       },
       "last_reply_from_prospect": null,
       "next_followup_due": "2026-05-22",
       "days_since_last_activity": 5,
-      "first_email_snippet": "Ciao Marco, mi sono imbattuto in Luisaviaroma cercando le migliori realtÃ  fashion del settore. Ho visto la piattaforma che state usando per le vendite online, la conosco molto bene.",
+      "first_email_snippet": "Ciao Marco, mi sono imbattuto in Luisaviaroma cercando le migliori realtÃÂ  fashion del settore. Ho visto la piattaforma che state usando per le vendite online, la conosco molto bene.",
       "scheduled_timeline": {
         "first_email": "2026-05-08",
         "follow_up_1": "2026-05-22",
@@ -3423,12 +3423,12 @@
       "followups_sent": [],
       "last_outbound_by_antonio": {
         "date": "2026-05-08",
-        "snippet": "Ciao Giuseppe, mi sono imbattuto in Giglio cercando le migliori realtÃ  fashion del settore. Ho visto la piattaforma che state usando per le vendite online, la conosco molto bene."
+        "snippet": "Ciao Giuseppe, mi sono imbattuto in Giglio cercando le migliori realtÃÂ  fashion del settore. Ho visto la piattaforma che state usando per le vendite online, la conosco molto bene."
       },
       "last_reply_from_prospect": null,
       "next_followup_due": "2026-05-22",
       "days_since_last_activity": 5,
-      "first_email_snippet": "Ciao Giuseppe, mi sono imbattuto in Giglio cercando le migliori realtÃ  fashion del settore. Ho visto la piattaforma che state usando per le vendite online, la conosco molto bene.",
+      "first_email_snippet": "Ciao Giuseppe, mi sono imbattuto in Giglio cercando le migliori realtÃÂ  fashion del settore. Ho visto la piattaforma che state usando per le vendite online, la conosco molto bene.",
       "scheduled_timeline": {
         "first_email": "2026-05-08",
         "follow_up_1": "2026-05-22",
@@ -3467,12 +3467,12 @@
       "followups_sent": [],
       "last_outbound_by_antonio": {
         "date": "2026-05-08",
-        "snippet": "Ciao, mi sono imbattuto in Divo Boutique cercando le migliori realtÃ  fashion del settore. Ho visto la piattaforma che state usando per le vendite online, la conosco molto bene."
+        "snippet": "Ciao, mi sono imbattuto in Divo Boutique cercando le migliori realtÃÂ  fashion del settore. Ho visto la piattaforma che state usando per le vendite online, la conosco molto bene."
       },
       "last_reply_from_prospect": null,
       "next_followup_due": "2026-05-22",
       "days_since_last_activity": 5,
-      "first_email_snippet": "Ciao, mi sono imbattuto in Divo Boutique cercando le migliori realtÃ  fashion del settore. Ho visto la piattaforma che state usando per le vendite online, la conosco molto bene.",
+      "first_email_snippet": "Ciao, mi sono imbattuto in Divo Boutique cercando le migliori realtÃÂ  fashion del settore. Ho visto la piattaforma che state usando per le vendite online, la conosco molto bene.",
       "scheduled_timeline": {
         "first_email": "2026-05-08",
         "follow_up_1": "2026-05-22",
@@ -3511,12 +3511,12 @@
       "followups_sent": [],
       "last_outbound_by_antonio": {
         "date": "2026-05-08",
-        "snippet": "Ciao, mi sono imbattuto in Cortecci Siena 1935 cercando le migliori realtÃ  fashion del settore. Ho visto la piattaforma che state usando per le vendite online, la conosco molto bene."
+        "snippet": "Ciao, mi sono imbattuto in Cortecci Siena 1935 cercando le migliori realtÃÂ  fashion del settore. Ho visto la piattaforma che state usando per le vendite online, la conosco molto bene."
       },
       "last_reply_from_prospect": null,
       "next_followup_due": "2026-05-22",
       "days_since_last_activity": 5,
-      "first_email_snippet": "Ciao, mi sono imbattuto in Cortecci Siena 1935 cercando le migliori realtÃ  fashion del settore. Ho visto la piattaforma che state usando per le vendite online, la conosco molto bene.",
+      "first_email_snippet": "Ciao, mi sono imbattuto in Cortecci Siena 1935 cercando le migliori realtÃÂ  fashion del settore. Ho visto la piattaforma che state usando per le vendite online, la conosco molto bene.",
       "scheduled_timeline": {
         "first_email": "2026-05-08",
         "follow_up_1": "2026-05-22",
@@ -3555,12 +3555,12 @@
       "followups_sent": [],
       "last_outbound_by_antonio": {
         "date": "2026-05-08",
-        "snippet": "Ciao, mi sono imbattuto in Oberrauch Zitt cercando le migliori realtÃ  fashion del settore. Ho visto la piattaforma che state usando per le vendite online, la conosco molto bene."
+        "snippet": "Ciao, mi sono imbattuto in Oberrauch Zitt cercando le migliori realtÃÂ  fashion del settore. Ho visto la piattaforma che state usando per le vendite online, la conosco molto bene."
       },
       "last_reply_from_prospect": null,
       "next_followup_due": "2026-05-22",
       "days_since_last_activity": 5,
-      "first_email_snippet": "Ciao, mi sono imbattuto in Oberrauch Zitt cercando le migliori realtÃ  fashion del settore. Ho visto la piattaforma che state usando per le vendite online, la conosco molto bene.",
+      "first_email_snippet": "Ciao, mi sono imbattuto in Oberrauch Zitt cercando le migliori realtÃÂ  fashion del settore. Ho visto la piattaforma che state usando per le vendite online, la conosco molto bene.",
       "scheduled_timeline": {
         "first_email": "2026-05-08",
         "follow_up_1": "2026-05-22",
@@ -3594,7 +3594,7 @@
         },
         {
           "date": "2026-05-19",
-          "action": "Anomalia: seconda email inviata a info@cuccuini.it (thread 19e40a5be94603d7) â stessa email giÃ  contattata il 2026-05-08"
+          "action": "Anomalia: seconda email inviata a info@cuccuini.it (thread 19e40a5be94603d7) Ã¢ÂÂ stessa email giÃÂ  contattata il 2026-05-08"
         }
       ],
       "label_id": "Label_1592668050883672428",
@@ -3603,12 +3603,12 @@
       "followups_sent": [],
       "last_outbound_by_antonio": {
         "date": "2026-05-08",
-        "snippet": "Ciao, mi sono imbattuto in Gianni Cuccuini cercando le migliori realtÃ  fashion del settore. Ho visto la piattaforma che state usando per le vendite online, la conosco molto bene."
+        "snippet": "Ciao, mi sono imbattuto in Gianni Cuccuini cercando le migliori realtÃÂ  fashion del settore. Ho visto la piattaforma che state usando per le vendite online, la conosco molto bene."
       },
       "last_reply_from_prospect": null,
       "next_followup_due": "2026-05-22",
       "days_since_last_activity": 5,
-      "first_email_snippet": "Ciao, mi sono imbattuto in Gianni Cuccuini cercando le migliori realtÃ  fashion del settore. Ho visto la piattaforma che state usando per le vendite online, la conosco molto bene.",
+      "first_email_snippet": "Ciao, mi sono imbattuto in Gianni Cuccuini cercando le migliori realtÃÂ  fashion del settore. Ho visto la piattaforma che state usando per le vendite online, la conosco molto bene.",
       "scheduled_timeline": {
         "first_email": "2026-05-08",
         "follow_up_1": "2026-05-22",
@@ -3647,12 +3647,12 @@
       "followups_sent": [],
       "last_outbound_by_antonio": {
         "date": "2026-05-08",
-        "snippet": "Ciao Daniel, mi sono imbattuto in Gente Roma cercando le migliori realtÃ  fashion del settore. Ho visto la piattaforma che state usando per le vendite online, la conosco molto bene."
+        "snippet": "Ciao Daniel, mi sono imbattuto in Gente Roma cercando le migliori realtÃÂ  fashion del settore. Ho visto la piattaforma che state usando per le vendite online, la conosco molto bene."
       },
       "last_reply_from_prospect": null,
       "next_followup_due": "2026-05-22",
       "days_since_last_activity": 5,
-      "first_email_snippet": "Ciao Daniel, mi sono imbattuto in Gente Roma cercando le migliori realtÃ  fashion del settore. Ho visto la piattaforma che state usando per le vendite online, la conosco molto bene.",
+      "first_email_snippet": "Ciao Daniel, mi sono imbattuto in Gente Roma cercando le migliori realtÃÂ  fashion del settore. Ho visto la piattaforma che state usando per le vendite online, la conosco molto bene.",
       "scheduled_timeline": {
         "first_email": "2026-05-08",
         "follow_up_1": "2026-05-22",
@@ -3691,12 +3691,12 @@
       "followups_sent": [],
       "last_outbound_by_antonio": {
         "date": "2026-05-08",
-        "snippet": "Ciao Tiziana, mi sono imbattuto in Tiziana Fausti cercando le migliori realtÃ  fashion del settore. Ho visto la piattaforma che state usando per le vendite online, la conosco molto bene."
+        "snippet": "Ciao Tiziana, mi sono imbattuto in Tiziana Fausti cercando le migliori realtÃÂ  fashion del settore. Ho visto la piattaforma che state usando per le vendite online, la conosco molto bene."
       },
       "last_reply_from_prospect": null,
       "next_followup_due": "2026-05-22",
       "days_since_last_activity": 5,
-      "first_email_snippet": "Ciao Tiziana, mi sono imbattuto in Tiziana Fausti cercando le migliori realtÃ  fashion del settore. Ho visto la piattaforma che state usando per le vendite online, la conosco molto bene.",
+      "first_email_snippet": "Ciao Tiziana, mi sono imbattuto in Tiziana Fausti cercando le migliori realtÃÂ  fashion del settore. Ho visto la piattaforma che state usando per le vendite online, la conosco molto bene.",
       "scheduled_timeline": {
         "first_email": "2026-05-08",
         "follow_up_1": "2026-05-22",
@@ -3735,12 +3735,12 @@
       "followups_sent": [],
       "last_outbound_by_antonio": {
         "date": "2026-05-08",
-        "snippet": "Ciao Filippo, mi sono imbattuto in Tessabit cercando le migliori realtÃ  fashion del settore. Ho visto la piattaforma che state usando per le vendite online, la conosco molto bene."
+        "snippet": "Ciao Filippo, mi sono imbattuto in Tessabit cercando le migliori realtÃÂ  fashion del settore. Ho visto la piattaforma che state usando per le vendite online, la conosco molto bene."
       },
       "last_reply_from_prospect": null,
       "next_followup_due": "2026-05-22",
       "days_since_last_activity": 5,
-      "first_email_snippet": "Ciao Filippo, mi sono imbattuto in Tessabit cercando le migliori realtÃ  fashion del settore. Ho visto la piattaforma che state usando per le vendite online, la conosco molto bene.",
+      "first_email_snippet": "Ciao Filippo, mi sono imbattuto in Tessabit cercando le migliori realtÃÂ  fashion del settore. Ho visto la piattaforma che state usando per le vendite online, la conosco molto bene.",
       "scheduled_timeline": {
         "first_email": "2026-05-08",
         "follow_up_1": "2026-05-22",
@@ -3779,12 +3779,12 @@
       "followups_sent": [],
       "last_outbound_by_antonio": {
         "date": "2026-05-08",
-        "snippet": "Ciao Ludovica, mi sono imbattuto in Sugar cercando le migliori realtÃ  fashion del settore. Ho visto la piattaforma che state usando per le vendite online, la conosco molto bene."
+        "snippet": "Ciao Ludovica, mi sono imbattuto in Sugar cercando le migliori realtÃÂ  fashion del settore. Ho visto la piattaforma che state usando per le vendite online, la conosco molto bene."
       },
       "last_reply_from_prospect": null,
       "next_followup_due": "2026-05-22",
       "days_since_last_activity": 5,
-      "first_email_snippet": "Ciao Ludovica, mi sono imbattuto in Sugar cercando le migliori realtÃ  fashion del settore. Ho visto la piattaforma che state usando per le vendite online, la conosco molto bene.",
+      "first_email_snippet": "Ciao Ludovica, mi sono imbattuto in Sugar cercando le migliori realtÃÂ  fashion del settore. Ho visto la piattaforma che state usando per le vendite online, la conosco molto bene.",
       "scheduled_timeline": {
         "first_email": "2026-05-08",
         "follow_up_1": "2026-05-22",
@@ -3823,12 +3823,12 @@
       "followups_sent": [],
       "last_outbound_by_antonio": {
         "date": "2026-05-07",
-        "snippet": "Ciao, mi sono imbattuto in Monti Boutique cercando le migliori realtÃ  fashion del settore. Ho visto la piattaforma che state usando per le vendite online, la conosco molto bene."
+        "snippet": "Ciao, mi sono imbattuto in Monti Boutique cercando le migliori realtÃÂ  fashion del settore. Ho visto la piattaforma che state usando per le vendite online, la conosco molto bene."
       },
       "last_reply_from_prospect": null,
       "next_followup_due": "2026-05-21",
       "days_since_last_activity": 6,
-      "first_email_snippet": "Ciao, mi sono imbattuto in Monti Boutique cercando le migliori realtÃ  fashion del settore. Ho visto la piattaforma che state usando per le vendite online, la conosco molto bene.",
+      "first_email_snippet": "Ciao, mi sono imbattuto in Monti Boutique cercando le migliori realtÃÂ  fashion del settore. Ho visto la piattaforma che state usando per le vendite online, la conosco molto bene.",
       "scheduled_timeline": {
         "first_email": "2026-05-07",
         "follow_up_1": "2026-05-21",
@@ -3867,12 +3867,12 @@
       "followups_sent": [],
       "last_outbound_by_antonio": {
         "date": "2026-05-07",
-        "snippet": "Ciao, mi sono imbattuto in Mario D'Anna cercando le migliori realtÃ  fashion del settore. Ho visto la piattaforma che state usando per le vendite online, la conosco molto bene."
+        "snippet": "Ciao, mi sono imbattuto in Mario D'Anna cercando le migliori realtÃÂ  fashion del settore. Ho visto la piattaforma che state usando per le vendite online, la conosco molto bene."
       },
       "last_reply_from_prospect": null,
       "next_followup_due": "2026-05-21",
       "days_since_last_activity": 6,
-      "first_email_snippet": "Ciao, mi sono imbattuto in Mario D'Anna cercando le migliori realtÃ  fashion del settore. Ho visto la piattaforma che state usando per le vendite online, la conosco molto bene.",
+      "first_email_snippet": "Ciao, mi sono imbattuto in Mario D'Anna cercando le migliori realtÃÂ  fashion del settore. Ho visto la piattaforma che state usando per le vendite online, la conosco molto bene.",
       "scheduled_timeline": {
         "first_email": "2026-05-07",
         "follow_up_1": "2026-05-21",
@@ -3897,7 +3897,7 @@
       "next_action": "Follow-up 1",
       "next_action_date": "2026-05-21",
       "stape_score": null,
-      "notes": "Luxury boutique MondovÃ¬",
+      "notes": "Luxury boutique MondovÃÂ¬",
       "thread_id": "19e02b8928ea8361",
       "timeline": [
         {
@@ -3911,12 +3911,12 @@
       "followups_sent": [],
       "last_outbound_by_antonio": {
         "date": "2026-05-07",
-        "snippet": "Ciao, mi sono imbattuto in Marcos cercando le migliori realtÃ  fashion del settore. Ho visto la piattaforma che state usando per le vendite online, la conosco molto bene."
+        "snippet": "Ciao, mi sono imbattuto in Marcos cercando le migliori realtÃÂ  fashion del settore. Ho visto la piattaforma che state usando per le vendite online, la conosco molto bene."
       },
       "last_reply_from_prospect": null,
       "next_followup_due": "2026-05-21",
       "days_since_last_activity": 6,
-      "first_email_snippet": "Ciao, mi sono imbattuto in Marcos cercando le migliori realtÃ  fashion del settore. Ho visto la piattaforma che state usando per le vendite online, la conosco molto bene.",
+      "first_email_snippet": "Ciao, mi sono imbattuto in Marcos cercando le migliori realtÃÂ  fashion del settore. Ho visto la piattaforma che state usando per le vendite online, la conosco molto bene.",
       "scheduled_timeline": {
         "first_email": "2026-05-07",
         "follow_up_1": "2026-05-21",
@@ -3941,7 +3941,7 @@
       "next_action": "Follow-up 1",
       "next_action_date": "2026-05-21",
       "stape_score": null,
-      "notes": "Boutique multibrand â 2Â° tentativo (vedi prospect_046)",
+      "notes": "Boutique multibrand Ã¢ÂÂ 2ÃÂ° tentativo (vedi prospect_046)",
       "thread_id": "19e02b4b20e41a06",
       "timeline": [
         {
@@ -3955,12 +3955,12 @@
       "followups_sent": [],
       "last_outbound_by_antonio": {
         "date": "2026-05-07",
-        "snippet": "Ciao, mi sono imbattuto in Mantovani Shop (B) cercando le migliori realtÃ  fashion del settore. Ho visto la piattaforma che state usando per le vendite online, la conosco molto bene."
+        "snippet": "Ciao, mi sono imbattuto in Mantovani Shop (B) cercando le migliori realtÃÂ  fashion del settore. Ho visto la piattaforma che state usando per le vendite online, la conosco molto bene."
       },
       "last_reply_from_prospect": null,
       "next_followup_due": "2026-05-21",
       "days_since_last_activity": 6,
-      "first_email_snippet": "Ciao, mi sono imbattuto in Mantovani Shop (B) cercando le migliori realtÃ  fashion del settore. Ho visto la piattaforma che state usando per le vendite online, la conosco molto bene.",
+      "first_email_snippet": "Ciao, mi sono imbattuto in Mantovani Shop (B) cercando le migliori realtÃÂ  fashion del settore. Ho visto la piattaforma che state usando per le vendite online, la conosco molto bene.",
       "scheduled_timeline": {
         "first_email": "2026-05-07",
         "follow_up_1": "2026-05-21",
@@ -3999,12 +3999,12 @@
       "followups_sent": [],
       "last_outbound_by_antonio": {
         "date": "2026-05-07",
-        "snippet": "Ciao, mi sono imbattuto in Luciana Boutique cercando le migliori realtÃ  fashion del settore. Ho visto la piattaforma che state usando per le vendite online, la conosco molto bene."
+        "snippet": "Ciao, mi sono imbattuto in Luciana Boutique cercando le migliori realtÃÂ  fashion del settore. Ho visto la piattaforma che state usando per le vendite online, la conosco molto bene."
       },
       "last_reply_from_prospect": null,
       "next_followup_due": "2026-05-21",
       "days_since_last_activity": 6,
-      "first_email_snippet": "Ciao, mi sono imbattuto in Luciana Boutique cercando le migliori realtÃ  fashion del settore. Ho visto la piattaforma che state usando per le vendite online, la conosco molto bene.",
+      "first_email_snippet": "Ciao, mi sono imbattuto in Luciana Boutique cercando le migliori realtÃÂ  fashion del settore. Ho visto la piattaforma che state usando per le vendite online, la conosco molto bene.",
       "scheduled_timeline": {
         "first_email": "2026-05-07",
         "follow_up_1": "2026-05-21",
@@ -4043,12 +4043,12 @@
       "followups_sent": [],
       "last_outbound_by_antonio": {
         "date": "2026-05-07",
-        "snippet": "Ciao, mi sono imbattuto in Lorenzetti Luxury cercando le migliori realtÃ  fashion del settore. Ho visto la piattaforma che state usando per le vendite online, la conosco molto bene."
+        "snippet": "Ciao, mi sono imbattuto in Lorenzetti Luxury cercando le migliori realtÃÂ  fashion del settore. Ho visto la piattaforma che state usando per le vendite online, la conosco molto bene."
       },
       "last_reply_from_prospect": null,
       "next_followup_due": "2026-05-21",
       "days_since_last_activity": 6,
-      "first_email_snippet": "Ciao, mi sono imbattuto in Lorenzetti Luxury cercando le migliori realtÃ  fashion del settore. Ho visto la piattaforma che state usando per le vendite online, la conosco molto bene.",
+      "first_email_snippet": "Ciao, mi sono imbattuto in Lorenzetti Luxury cercando le migliori realtÃÂ  fashion del settore. Ho visto la piattaforma che state usando per le vendite online, la conosco molto bene.",
       "scheduled_timeline": {
         "first_email": "2026-05-07",
         "follow_up_1": "2026-05-21",
@@ -4087,12 +4087,12 @@
       "followups_sent": [],
       "last_outbound_by_antonio": {
         "date": "2026-05-07",
-        "snippet": "Ciao Vittorio, mi sono imbattuto in Leam cercando le migliori realtÃ  fashion del settore. Ho visto la piattaforma che state usando per le vendite online, la conosco molto bene."
+        "snippet": "Ciao Vittorio, mi sono imbattuto in Leam cercando le migliori realtÃÂ  fashion del settore. Ho visto la piattaforma che state usando per le vendite online, la conosco molto bene."
       },
       "last_reply_from_prospect": null,
       "next_followup_due": "2026-05-21",
       "days_since_last_activity": 6,
-      "first_email_snippet": "Ciao Vittorio, mi sono imbattuto in Leam cercando le migliori realtÃ  fashion del settore. Ho visto la piattaforma che state usando per le vendite online, la conosco molto bene.",
+      "first_email_snippet": "Ciao Vittorio, mi sono imbattuto in Leam cercando le migliori realtÃÂ  fashion del settore. Ho visto la piattaforma che state usando per le vendite online, la conosco molto bene.",
       "scheduled_timeline": {
         "first_email": "2026-05-07",
         "follow_up_1": "2026-05-21",
@@ -4131,12 +4131,12 @@
       "followups_sent": [],
       "last_outbound_by_antonio": {
         "date": "2026-05-07",
-        "snippet": "Ciao, mi sono imbattuto in Lattuada cercando le migliori realtÃ  fashion del settore. Ho visto la piattaforma che state usando per le vendite online, la conosco molto bene."
+        "snippet": "Ciao, mi sono imbattuto in Lattuada cercando le migliori realtÃÂ  fashion del settore. Ho visto la piattaforma che state usando per le vendite online, la conosco molto bene."
       },
       "last_reply_from_prospect": null,
       "next_followup_due": "2026-05-21",
       "days_since_last_activity": 6,
-      "first_email_snippet": "Ciao, mi sono imbattuto in Lattuada cercando le migliori realtÃ  fashion del settore. Ho visto la piattaforma che state usando per le vendite online, la conosco molto bene.",
+      "first_email_snippet": "Ciao, mi sono imbattuto in Lattuada cercando le migliori realtÃÂ  fashion del settore. Ho visto la piattaforma che state usando per le vendite online, la conosco molto bene.",
       "scheduled_timeline": {
         "first_email": "2026-05-07",
         "follow_up_1": "2026-05-21",
@@ -4161,7 +4161,7 @@
       "next_action": "Follow-up 1",
       "next_action_date": "2026-05-21",
       "stape_score": null,
-      "notes": "3Â° contatto Julian (Sabina, boutique Rimini)",
+      "notes": "3ÃÂ° contatto Julian (Sabina, boutique Rimini)",
       "thread_id": "19e02644a834f247",
       "timeline": [
         {
@@ -4175,12 +4175,12 @@
       "followups_sent": [],
       "last_outbound_by_antonio": {
         "date": "2026-05-07",
-        "snippet": "Ciao Sabina, mi sono imbattuto in Julian Fashion cercando le migliori realtÃ  fashion del settore. Ho visto la piattaforma che state usando per le vendite online, la conosco molto bene."
+        "snippet": "Ciao Sabina, mi sono imbattuto in Julian Fashion cercando le migliori realtÃÂ  fashion del settore. Ho visto la piattaforma che state usando per le vendite online, la conosco molto bene."
       },
       "last_reply_from_prospect": null,
       "next_followup_due": "2026-05-21",
       "days_since_last_activity": 6,
-      "first_email_snippet": "Ciao Sabina, mi sono imbattuto in Julian Fashion cercando le migliori realtÃ  fashion del settore. Ho visto la piattaforma che state usando per le vendite online, la conosco molto bene.",
+      "first_email_snippet": "Ciao Sabina, mi sono imbattuto in Julian Fashion cercando le migliori realtÃÂ  fashion del settore. Ho visto la piattaforma che state usando per le vendite online, la conosco molto bene.",
       "scheduled_timeline": {
         "first_email": "2026-05-07",
         "follow_up_1": "2026-05-21",
@@ -4235,7 +4235,7 @@
       "last_reply_from_prospect": null,
       "next_followup_due": "2026-06-11",
       "days_since_last_activity": 7,
-      "first_email_snippet": "Ciao, mi sono imbattuto in Italiani Pescara cercando le migliori realtÃ  fashion del settore. Ho visto la piattaforma che state usando per le vendite online, la conosco molto bene.",
+      "first_email_snippet": "Ciao, mi sono imbattuto in Italiani Pescara cercando le migliori realtÃÂ  fashion del settore. Ho visto la piattaforma che state usando per le vendite online, la conosco molto bene.",
       "scheduled_timeline": {
         "first_email": "2026-05-06",
         "follow_up_1": "2026-05-20",
@@ -4280,12 +4280,12 @@
           "date": "2026-05-07",
           "type": "follow_up_1",
           "sender": "Manu",
-          "snippet": "Bump â caso studio pronto"
+          "snippet": "Bump Ã¢ÂÂ caso studio pronto"
         }
       ],
       "last_outbound_by_antonio": {
         "date": "2026-05-07",
-        "snippet": "Bump â caso studio pronto"
+        "snippet": "Bump Ã¢ÂÂ caso studio pronto"
       },
       "last_reply_from_prospect": null,
       "next_followup_due": "2026-06-08",
@@ -4335,12 +4335,12 @@
           "date": "2026-05-07",
           "type": "follow_up_1",
           "sender": "Manu",
-          "snippet": "Bump â caso studio pronto"
+          "snippet": "Bump Ã¢ÂÂ caso studio pronto"
         }
       ],
       "last_outbound_by_antonio": {
         "date": "2026-05-07",
-        "snippet": "Bump â caso studio pronto"
+        "snippet": "Bump Ã¢ÂÂ caso studio pronto"
       },
       "last_reply_from_prospect": null,
       "next_followup_due": "2026-06-08",
@@ -4390,12 +4390,12 @@
           "date": "2026-05-07",
           "type": "follow_up_1",
           "sender": "Manu",
-          "snippet": "Bump â caso studio pronto"
+          "snippet": "Bump Ã¢ÂÂ caso studio pronto"
         }
       ],
       "last_outbound_by_antonio": {
         "date": "2026-05-07",
-        "snippet": "Bump â caso studio pronto"
+        "snippet": "Bump Ã¢ÂÂ caso studio pronto"
       },
       "last_reply_from_prospect": null,
       "next_followup_due": "2026-06-08",
@@ -4445,12 +4445,12 @@
           "date": "2026-05-07",
           "type": "follow_up_1",
           "sender": "Manu",
-          "snippet": "Bump â caso studio pronto"
+          "snippet": "Bump Ã¢ÂÂ caso studio pronto"
         }
       ],
       "last_outbound_by_antonio": {
         "date": "2026-05-07",
-        "snippet": "Bump â caso studio pronto"
+        "snippet": "Bump Ã¢ÂÂ caso studio pronto"
       },
       "last_reply_from_prospect": null,
       "next_followup_due": "2026-06-08",
@@ -4500,12 +4500,12 @@
           "date": "2026-05-07",
           "type": "follow_up_1",
           "sender": "Manu",
-          "snippet": "Bump â caso studio pronto"
+          "snippet": "Bump Ã¢ÂÂ caso studio pronto"
         }
       ],
       "last_outbound_by_antonio": {
         "date": "2026-05-07",
-        "snippet": "Bump â caso studio pronto"
+        "snippet": "Bump Ã¢ÂÂ caso studio pronto"
       },
       "last_reply_from_prospect": null,
       "next_followup_due": "2026-06-08",
@@ -4535,7 +4535,7 @@
       "next_action": "Follow-up 2",
       "next_action_date": "2026-06-08",
       "stape_score": null,
-      "notes": "Secondo angolo (2B/Shopify) verso 10 Corso Como â vedi anche prospect_074",
+      "notes": "Secondo angolo (2B/Shopify) verso 10 Corso Como Ã¢ÂÂ vedi anche prospect_074",
       "thread_id": "19e02832d982bf52",
       "timeline": [
         {
@@ -4555,12 +4555,12 @@
           "date": "2026-05-07",
           "type": "follow_up_1",
           "sender": "Dami",
-          "snippet": "Bump â caso studio pronto"
+          "snippet": "Bump Ã¢ÂÂ caso studio pronto"
         }
       ],
       "last_outbound_by_antonio": {
         "date": "2026-05-07",
-        "snippet": "Bump â caso studio pronto"
+        "snippet": "Bump Ã¢ÂÂ caso studio pronto"
       },
       "last_reply_from_prospect": null,
       "next_followup_due": "2026-06-08",
@@ -4610,12 +4610,12 @@
           "date": "2026-05-07",
           "type": "follow_up_1",
           "sender": "Dami",
-          "snippet": "Bump â caso studio pronto"
+          "snippet": "Bump Ã¢ÂÂ caso studio pronto"
         }
       ],
       "last_outbound_by_antonio": {
         "date": "2026-05-07",
-        "snippet": "Bump â caso studio pronto"
+        "snippet": "Bump Ã¢ÂÂ caso studio pronto"
       },
       "last_reply_from_prospect": null,
       "next_followup_due": "2026-06-08",
@@ -4645,7 +4645,7 @@
       "next_action": "Follow-up 2",
       "next_action_date": "2026-06-08",
       "stape_score": null,
-      "notes": "2Â° contatto Biffi",
+      "notes": "2ÃÂ° contatto Biffi",
       "thread_id": "19e0282cf6bcb7db",
       "timeline": [
         {
@@ -4665,12 +4665,12 @@
           "date": "2026-05-07",
           "type": "follow_up_1",
           "sender": "Dami",
-          "snippet": "Bump â caso studio pronto"
+          "snippet": "Bump Ã¢ÂÂ caso studio pronto"
         }
       ],
       "last_outbound_by_antonio": {
         "date": "2026-05-07",
-        "snippet": "Bump â caso studio pronto"
+        "snippet": "Bump Ã¢ÂÂ caso studio pronto"
       },
       "last_reply_from_prospect": null,
       "next_followup_due": "2026-06-08",
@@ -4720,12 +4720,12 @@
           "date": "2026-05-07",
           "type": "follow_up_1",
           "sender": "Dami",
-          "snippet": "Bump â caso studio pronto"
+          "snippet": "Bump Ã¢ÂÂ caso studio pronto"
         }
       ],
       "last_outbound_by_antonio": {
         "date": "2026-05-07",
-        "snippet": "Bump â caso studio pronto"
+        "snippet": "Bump Ã¢ÂÂ caso studio pronto"
       },
       "last_reply_from_prospect": null,
       "next_followup_due": "2026-06-08",
@@ -4775,12 +4775,12 @@
           "date": "2026-05-07",
           "type": "follow_up_1",
           "sender": "Dami",
-          "snippet": "Bump â caso studio pronto"
+          "snippet": "Bump Ã¢ÂÂ caso studio pronto"
         }
       ],
       "last_outbound_by_antonio": {
         "date": "2026-05-07",
-        "snippet": "Bump â caso studio pronto"
+        "snippet": "Bump Ã¢ÂÂ caso studio pronto"
       },
       "last_reply_from_prospect": null,
       "next_followup_due": "2026-06-01",
@@ -4830,12 +4830,12 @@
           "date": "2026-05-07",
           "type": "follow_up_1",
           "sender": "Dami",
-          "snippet": "Bump â caso studio pronto"
+          "snippet": "Bump Ã¢ÂÂ caso studio pronto"
         }
       ],
       "last_outbound_by_antonio": {
         "date": "2026-05-07",
-        "snippet": "Bump â caso studio pronto"
+        "snippet": "Bump Ã¢ÂÂ caso studio pronto"
       },
       "last_reply_from_prospect": null,
       "next_followup_due": "2026-06-08",
@@ -4885,12 +4885,12 @@
           "date": "2026-05-07",
           "type": "follow_up_1",
           "sender": "Dami",
-          "snippet": "Bump â caso studio pronto"
+          "snippet": "Bump Ã¢ÂÂ caso studio pronto"
         }
       ],
       "last_outbound_by_antonio": {
         "date": "2026-05-07",
-        "snippet": "Bump â caso studio pronto"
+        "snippet": "Bump Ã¢ÂÂ caso studio pronto"
       },
       "last_reply_from_prospect": null,
       "next_followup_due": "2026-06-08",
@@ -4940,12 +4940,12 @@
           "date": "2026-05-07",
           "type": "follow_up_1",
           "sender": "Dami",
-          "snippet": "Bump â caso studio pronto"
+          "snippet": "Bump Ã¢ÂÂ caso studio pronto"
         }
       ],
       "last_outbound_by_antonio": {
         "date": "2026-05-07",
-        "snippet": "Bump â caso studio pronto"
+        "snippet": "Bump Ã¢ÂÂ caso studio pronto"
       },
       "last_reply_from_prospect": null,
       "next_followup_due": "2026-06-08",
@@ -4995,12 +4995,12 @@
           "date": "2026-05-07",
           "type": "follow_up_1",
           "sender": "Dami",
-          "snippet": "Bump â caso studio pronto"
+          "snippet": "Bump Ã¢ÂÂ caso studio pronto"
         }
       ],
       "last_outbound_by_antonio": {
         "date": "2026-05-07",
-        "snippet": "Bump â caso studio pronto"
+        "snippet": "Bump Ã¢ÂÂ caso studio pronto"
       },
       "last_reply_from_prospect": null,
       "next_followup_due": "2026-06-08",
@@ -5050,12 +5050,12 @@
           "date": "2026-05-07",
           "type": "follow_up_1",
           "sender": "Dami",
-          "snippet": "Bump â caso studio pronto"
+          "snippet": "Bump Ã¢ÂÂ caso studio pronto"
         }
       ],
       "last_outbound_by_antonio": {
         "date": "2026-05-07",
-        "snippet": "Bump â caso studio pronto"
+        "snippet": "Bump Ã¢ÂÂ caso studio pronto"
       },
       "last_reply_from_prospect": null,
       "next_followup_due": "2026-06-08",
@@ -5105,12 +5105,12 @@
           "date": "2026-05-07",
           "type": "follow_up_1",
           "sender": "Dami",
-          "snippet": "Bump â caso studio pronto"
+          "snippet": "Bump Ã¢ÂÂ caso studio pronto"
         }
       ],
       "last_outbound_by_antonio": {
         "date": "2026-05-07",
-        "snippet": "Bump â caso studio pronto"
+        "snippet": "Bump Ã¢ÂÂ caso studio pronto"
       },
       "last_reply_from_prospect": null,
       "next_followup_due": "2026-06-08",
@@ -5160,12 +5160,12 @@
           "date": "2026-05-07",
           "type": "follow_up_1",
           "sender": "Dami",
-          "snippet": "Bump â caso studio pronto"
+          "snippet": "Bump Ã¢ÂÂ caso studio pronto"
         }
       ],
       "last_outbound_by_antonio": {
         "date": "2026-05-07",
-        "snippet": "Bump â caso studio pronto"
+        "snippet": "Bump Ã¢ÂÂ caso studio pronto"
       },
       "last_reply_from_prospect": null,
       "next_followup_due": "2026-06-08",
@@ -5215,12 +5215,12 @@
           "date": "2026-05-07",
           "type": "follow_up_1",
           "sender": "Dami",
-          "snippet": "Bump â caso studio pronto"
+          "snippet": "Bump Ã¢ÂÂ caso studio pronto"
         }
       ],
       "last_outbound_by_antonio": {
         "date": "2026-05-07",
-        "snippet": "Bump â caso studio pronto"
+        "snippet": "Bump Ã¢ÂÂ caso studio pronto"
       },
       "last_reply_from_prospect": null,
       "next_followup_due": "2026-06-08",
@@ -5270,12 +5270,12 @@
           "date": "2026-05-07",
           "type": "follow_up_1",
           "sender": "Dami",
-          "snippet": "Bump â caso studio pronto"
+          "snippet": "Bump Ã¢ÂÂ caso studio pronto"
         }
       ],
       "last_outbound_by_antonio": {
         "date": "2026-05-07",
-        "snippet": "Bump â caso studio pronto"
+        "snippet": "Bump Ã¢ÂÂ caso studio pronto"
       },
       "last_reply_from_prospect": null,
       "next_followup_due": "2026-06-08",
@@ -5325,12 +5325,12 @@
           "date": "2026-05-07",
           "type": "follow_up_1",
           "sender": "Dami",
-          "snippet": "Bump â caso studio pronto"
+          "snippet": "Bump Ã¢ÂÂ caso studio pronto"
         }
       ],
       "last_outbound_by_antonio": {
         "date": "2026-05-07",
-        "snippet": "Bump â caso studio pronto"
+        "snippet": "Bump Ã¢ÂÂ caso studio pronto"
       },
       "last_reply_from_prospect": null,
       "next_followup_due": "2026-06-08",
@@ -5380,12 +5380,12 @@
           "date": "2026-05-07",
           "type": "follow_up_1",
           "sender": "Manu",
-          "snippet": "Bump â caso studio pronto"
+          "snippet": "Bump Ã¢ÂÂ caso studio pronto"
         }
       ],
       "last_outbound_by_antonio": {
         "date": "2026-05-07",
-        "snippet": "Bump â caso studio pronto"
+        "snippet": "Bump Ã¢ÂÂ caso studio pronto"
       },
       "last_reply_from_prospect": null,
       "next_followup_due": "2026-06-08",
@@ -5435,12 +5435,12 @@
           "date": "2026-05-07",
           "type": "follow_up_1",
           "sender": "Manu",
-          "snippet": "Bump â caso studio pronto"
+          "snippet": "Bump Ã¢ÂÂ caso studio pronto"
         }
       ],
       "last_outbound_by_antonio": {
         "date": "2026-05-07",
-        "snippet": "Bump â caso studio pronto"
+        "snippet": "Bump Ã¢ÂÂ caso studio pronto"
       },
       "last_reply_from_prospect": null,
       "next_followup_due": "2026-06-08",
@@ -5490,12 +5490,12 @@
           "date": "2026-05-07",
           "type": "follow_up_1",
           "sender": "Manu",
-          "snippet": "Bump â caso studio pronto"
+          "snippet": "Bump Ã¢ÂÂ caso studio pronto"
         }
       ],
       "last_outbound_by_antonio": {
         "date": "2026-05-07",
-        "snippet": "Bump â caso studio pronto"
+        "snippet": "Bump Ã¢ÂÂ caso studio pronto"
       },
       "last_reply_from_prospect": null,
       "next_followup_due": "2026-06-08",
@@ -5545,12 +5545,12 @@
           "date": "2026-05-07",
           "type": "follow_up_1",
           "sender": "Manu",
-          "snippet": "Bump â caso studio pronto"
+          "snippet": "Bump Ã¢ÂÂ caso studio pronto"
         }
       ],
       "last_outbound_by_antonio": {
         "date": "2026-05-07",
-        "snippet": "Bump â caso studio pronto"
+        "snippet": "Bump Ã¢ÂÂ caso studio pronto"
       },
       "last_reply_from_prospect": null,
       "next_followup_due": "2026-06-08",
@@ -5600,12 +5600,12 @@
           "date": "2026-05-07",
           "type": "follow_up_1",
           "sender": "Manu",
-          "snippet": "Bump â caso studio pronto"
+          "snippet": "Bump Ã¢ÂÂ caso studio pronto"
         }
       ],
       "last_outbound_by_antonio": {
         "date": "2026-05-07",
-        "snippet": "Bump â caso studio pronto"
+        "snippet": "Bump Ã¢ÂÂ caso studio pronto"
       },
       "last_reply_from_prospect": null,
       "next_followup_due": "2026-06-08",
@@ -5655,12 +5655,12 @@
           "date": "2026-05-07",
           "type": "follow_up_1",
           "sender": "Manu",
-          "snippet": "Bump â caso studio pronto"
+          "snippet": "Bump Ã¢ÂÂ caso studio pronto"
         }
       ],
       "last_outbound_by_antonio": {
         "date": "2026-05-07",
-        "snippet": "Bump â caso studio pronto"
+        "snippet": "Bump Ã¢ÂÂ caso studio pronto"
       },
       "last_reply_from_prospect": null,
       "next_followup_due": "2026-06-08",
@@ -5710,12 +5710,12 @@
           "date": "2026-05-07",
           "type": "follow_up_1",
           "sender": "Manu",
-          "snippet": "Bump â caso studio pronto"
+          "snippet": "Bump Ã¢ÂÂ caso studio pronto"
         }
       ],
       "last_outbound_by_antonio": {
         "date": "2026-05-07",
-        "snippet": "Bump â caso studio pronto"
+        "snippet": "Bump Ã¢ÂÂ caso studio pronto"
       },
       "last_reply_from_prospect": null,
       "next_followup_due": "2026-06-08",
@@ -5765,12 +5765,12 @@
           "date": "2026-05-07",
           "type": "follow_up_1",
           "sender": "Manu",
-          "snippet": "Bump â caso studio pronto"
+          "snippet": "Bump Ã¢ÂÂ caso studio pronto"
         }
       ],
       "last_outbound_by_antonio": {
         "date": "2026-05-07",
-        "snippet": "Bump â caso studio pronto"
+        "snippet": "Bump Ã¢ÂÂ caso studio pronto"
       },
       "last_reply_from_prospect": null,
       "next_followup_due": "2026-06-08",
@@ -5820,12 +5820,12 @@
           "date": "2026-05-07",
           "type": "follow_up_1",
           "sender": "Manu",
-          "snippet": "Bump â caso studio pronto"
+          "snippet": "Bump Ã¢ÂÂ caso studio pronto"
         }
       ],
       "last_outbound_by_antonio": {
         "date": "2026-05-07",
-        "snippet": "Bump â caso studio pronto"
+        "snippet": "Bump Ã¢ÂÂ caso studio pronto"
       },
       "last_reply_from_prospect": null,
       "next_followup_due": "2026-06-08",
@@ -5875,12 +5875,12 @@
           "date": "2026-05-07",
           "type": "follow_up_1",
           "sender": "Manu",
-          "snippet": "Bump â caso studio pronto"
+          "snippet": "Bump Ã¢ÂÂ caso studio pronto"
         }
       ],
       "last_outbound_by_antonio": {
         "date": "2026-05-07",
-        "snippet": "Bump â caso studio pronto"
+        "snippet": "Bump Ã¢ÂÂ caso studio pronto"
       },
       "last_reply_from_prospect": null,
       "next_followup_due": "2026-06-08",
@@ -5930,12 +5930,12 @@
           "date": "2026-05-07",
           "type": "follow_up_1",
           "sender": "Manu",
-          "snippet": "Bump â caso studio pronto"
+          "snippet": "Bump Ã¢ÂÂ caso studio pronto"
         }
       ],
       "last_outbound_by_antonio": {
         "date": "2026-05-07",
-        "snippet": "Bump â caso studio pronto"
+        "snippet": "Bump Ã¢ÂÂ caso studio pronto"
       },
       "last_reply_from_prospect": null,
       "next_followup_due": "2026-06-08",
@@ -5985,12 +5985,12 @@
           "date": "2026-05-07",
           "type": "follow_up_1",
           "sender": "Manu",
-          "snippet": "Bump â caso studio pronto"
+          "snippet": "Bump Ã¢ÂÂ caso studio pronto"
         }
       ],
       "last_outbound_by_antonio": {
         "date": "2026-05-07",
-        "snippet": "Bump â caso studio pronto"
+        "snippet": "Bump Ã¢ÂÂ caso studio pronto"
       },
       "last_reply_from_prospect": null,
       "next_followup_due": "2026-06-08",
@@ -6040,12 +6040,12 @@
           "date": "2026-05-07",
           "type": "follow_up_1",
           "sender": "Manu",
-          "snippet": "Bump â caso studio pronto"
+          "snippet": "Bump Ã¢ÂÂ caso studio pronto"
         }
       ],
       "last_outbound_by_antonio": {
         "date": "2026-05-07",
-        "snippet": "Bump â caso studio pronto"
+        "snippet": "Bump Ã¢ÂÂ caso studio pronto"
       },
       "last_reply_from_prospect": null,
       "next_followup_due": "2026-06-08",
@@ -6095,12 +6095,12 @@
           "date": "2026-05-07",
           "type": "follow_up_1",
           "sender": "Manu",
-          "snippet": "Bump â caso studio pronto"
+          "snippet": "Bump Ã¢ÂÂ caso studio pronto"
         }
       ],
       "last_outbound_by_antonio": {
         "date": "2026-05-07",
-        "snippet": "Bump â caso studio pronto"
+        "snippet": "Bump Ã¢ÂÂ caso studio pronto"
       },
       "last_reply_from_prospect": null,
       "next_followup_due": "2026-06-08",
@@ -6150,12 +6150,12 @@
           "date": "2026-05-07",
           "type": "follow_up_1",
           "sender": "Manu",
-          "snippet": "Bump â caso studio pronto"
+          "snippet": "Bump Ã¢ÂÂ caso studio pronto"
         }
       ],
       "last_outbound_by_antonio": {
         "date": "2026-05-07",
-        "snippet": "Bump â caso studio pronto"
+        "snippet": "Bump Ã¢ÂÂ caso studio pronto"
       },
       "last_reply_from_prospect": null,
       "next_followup_due": "2026-06-08",
@@ -6205,12 +6205,12 @@
           "date": "2026-05-07",
           "type": "follow_up_1",
           "sender": "Manu",
-          "snippet": "Bump â caso studio pronto"
+          "snippet": "Bump Ã¢ÂÂ caso studio pronto"
         }
       ],
       "last_outbound_by_antonio": {
         "date": "2026-05-07",
-        "snippet": "Bump â caso studio pronto"
+        "snippet": "Bump Ã¢ÂÂ caso studio pronto"
       },
       "last_reply_from_prospect": null,
       "next_followup_due": "2026-06-08",
@@ -6260,12 +6260,12 @@
           "date": "2026-05-07",
           "type": "follow_up_1",
           "sender": "Manu",
-          "snippet": "Bump â caso studio pronto"
+          "snippet": "Bump Ã¢ÂÂ caso studio pronto"
         }
       ],
       "last_outbound_by_antonio": {
         "date": "2026-05-07",
-        "snippet": "Bump â caso studio pronto"
+        "snippet": "Bump Ã¢ÂÂ caso studio pronto"
       },
       "last_reply_from_prospect": null,
       "next_followup_due": "2026-06-08",
@@ -6315,12 +6315,12 @@
           "date": "2026-05-07",
           "type": "follow_up_1",
           "sender": "Manu",
-          "snippet": "Bump â caso studio pronto"
+          "snippet": "Bump Ã¢ÂÂ caso studio pronto"
         }
       ],
       "last_outbound_by_antonio": {
         "date": "2026-05-07",
-        "snippet": "Bump â caso studio pronto"
+        "snippet": "Bump Ã¢ÂÂ caso studio pronto"
       },
       "last_reply_from_prospect": null,
       "next_followup_due": "2026-06-08",
@@ -6370,12 +6370,12 @@
           "date": "2026-05-07",
           "type": "follow_up_1",
           "sender": "Manu",
-          "snippet": "Bump â caso studio pronto"
+          "snippet": "Bump Ã¢ÂÂ caso studio pronto"
         }
       ],
       "last_outbound_by_antonio": {
         "date": "2026-05-07",
-        "snippet": "Bump â caso studio pronto"
+        "snippet": "Bump Ã¢ÂÂ caso studio pronto"
       },
       "last_reply_from_prospect": null,
       "next_followup_due": "2026-06-08",
@@ -6425,12 +6425,12 @@
           "date": "2026-05-07",
           "type": "follow_up_1",
           "sender": "Manu",
-          "snippet": "Bump â caso studio pronto"
+          "snippet": "Bump Ã¢ÂÂ caso studio pronto"
         }
       ],
       "last_outbound_by_antonio": {
         "date": "2026-05-07",
-        "snippet": "Bump â caso studio pronto"
+        "snippet": "Bump Ã¢ÂÂ caso studio pronto"
       },
       "last_reply_from_prospect": null,
       "next_followup_due": "2026-06-08",
@@ -6460,7 +6460,7 @@
       "next_action": "Follow-up 2",
       "next_action_date": "2026-06-08",
       "stape_score": null,
-      "notes": "2Â° contatto Nugnes (Giuseppe)",
+      "notes": "2ÃÂ° contatto Nugnes (Giuseppe)",
       "thread_id": "19e025ffc6d0a773",
       "timeline": [
         {
@@ -6480,12 +6480,12 @@
           "date": "2026-05-07",
           "type": "follow_up_1",
           "sender": "Manu",
-          "snippet": "Bump â caso studio pronto"
+          "snippet": "Bump Ã¢ÂÂ caso studio pronto"
         }
       ],
       "last_outbound_by_antonio": {
         "date": "2026-05-07",
-        "snippet": "Bump â caso studio pronto"
+        "snippet": "Bump Ã¢ÂÂ caso studio pronto"
       },
       "last_reply_from_prospect": null,
       "next_followup_due": "2026-06-08",
@@ -6535,12 +6535,12 @@
           "date": "2026-05-07",
           "type": "follow_up_1",
           "sender": "Manu",
-          "snippet": "Bump â caso studio pronto"
+          "snippet": "Bump Ã¢ÂÂ caso studio pronto"
         }
       ],
       "last_outbound_by_antonio": {
         "date": "2026-05-07",
-        "snippet": "Bump â caso studio pronto"
+        "snippet": "Bump Ã¢ÂÂ caso studio pronto"
       },
       "last_reply_from_prospect": null,
       "next_followup_due": "2026-06-08",
@@ -6590,12 +6590,12 @@
           "date": "2026-05-07",
           "type": "follow_up_1",
           "sender": "Manu",
-          "snippet": "Bump â caso studio pronto"
+          "snippet": "Bump Ã¢ÂÂ caso studio pronto"
         }
       ],
       "last_outbound_by_antonio": {
         "date": "2026-05-07",
-        "snippet": "Bump â caso studio pronto"
+        "snippet": "Bump Ã¢ÂÂ caso studio pronto"
       },
       "last_reply_from_prospect": null,
       "next_followup_due": "2026-06-08",
@@ -6625,7 +6625,7 @@
       "next_action": "Follow-up 2",
       "next_action_date": "2026-06-08",
       "stape_score": null,
-      "notes": "2Â° co-founder Velasca",
+      "notes": "2ÃÂ° co-founder Velasca",
       "thread_id": "19e02554dc5ad82b",
       "timeline": [
         {
@@ -6645,12 +6645,12 @@
           "date": "2026-05-07",
           "type": "follow_up_1",
           "sender": "Manu",
-          "snippet": "Bump â caso studio pronto"
+          "snippet": "Bump Ã¢ÂÂ caso studio pronto"
         }
       ],
       "last_outbound_by_antonio": {
         "date": "2026-05-07",
-        "snippet": "Bump â caso studio pronto"
+        "snippet": "Bump Ã¢ÂÂ caso studio pronto"
       },
       "last_reply_from_prospect": null,
       "next_followup_due": "2026-06-08",
@@ -6700,12 +6700,12 @@
           "date": "2026-05-07",
           "type": "follow_up_1",
           "sender": "Manu",
-          "snippet": "Bump â caso studio pronto"
+          "snippet": "Bump Ã¢ÂÂ caso studio pronto"
         }
       ],
       "last_outbound_by_antonio": {
         "date": "2026-05-07",
-        "snippet": "Bump â caso studio pronto"
+        "snippet": "Bump Ã¢ÂÂ caso studio pronto"
       },
       "last_reply_from_prospect": null,
       "next_followup_due": "2026-06-08",
@@ -6755,12 +6755,12 @@
           "date": "2026-05-07",
           "type": "follow_up_1",
           "sender": "Manu",
-          "snippet": "Bump â caso studio pronto"
+          "snippet": "Bump Ã¢ÂÂ caso studio pronto"
         }
       ],
       "last_outbound_by_antonio": {
         "date": "2026-05-07",
-        "snippet": "Bump â caso studio pronto"
+        "snippet": "Bump Ã¢ÂÂ caso studio pronto"
       },
       "last_reply_from_prospect": null,
       "next_followup_due": "2026-06-08",
@@ -6810,12 +6810,12 @@
           "date": "2026-05-07",
           "type": "follow_up_1",
           "sender": "Manu",
-          "snippet": "Bump â caso studio pronto"
+          "snippet": "Bump Ã¢ÂÂ caso studio pronto"
         }
       ],
       "last_outbound_by_antonio": {
         "date": "2026-05-07",
-        "snippet": "Bump â caso studio pronto"
+        "snippet": "Bump Ã¢ÂÂ caso studio pronto"
       },
       "last_reply_from_prospect": null,
       "next_followup_due": "2026-06-08",
@@ -6865,12 +6865,12 @@
           "date": "2026-05-07",
           "type": "follow_up_1",
           "sender": "Manu",
-          "snippet": "Bump â caso studio pronto"
+          "snippet": "Bump Ã¢ÂÂ caso studio pronto"
         }
       ],
       "last_outbound_by_antonio": {
         "date": "2026-05-07",
-        "snippet": "Bump â caso studio pronto"
+        "snippet": "Bump Ã¢ÂÂ caso studio pronto"
       },
       "last_reply_from_prospect": null,
       "next_followup_due": "2026-06-08",
@@ -6920,12 +6920,12 @@
           "date": "2026-05-07",
           "type": "follow_up_1",
           "sender": "Manu",
-          "snippet": "Bump â caso studio pronto"
+          "snippet": "Bump Ã¢ÂÂ caso studio pronto"
         }
       ],
       "last_outbound_by_antonio": {
         "date": "2026-05-07",
-        "snippet": "Bump â caso studio pronto"
+        "snippet": "Bump Ã¢ÂÂ caso studio pronto"
       },
       "last_reply_from_prospect": null,
       "next_followup_due": "2026-06-08",
@@ -6975,12 +6975,12 @@
           "date": "2026-05-07",
           "type": "follow_up_1",
           "sender": "Manu",
-          "snippet": "Bump â caso studio pronto"
+          "snippet": "Bump Ã¢ÂÂ caso studio pronto"
         }
       ],
       "last_outbound_by_antonio": {
         "date": "2026-05-07",
-        "snippet": "Bump â caso studio pronto"
+        "snippet": "Bump Ã¢ÂÂ caso studio pronto"
       },
       "last_reply_from_prospect": null,
       "next_followup_due": "2026-06-08",
@@ -7030,12 +7030,12 @@
           "date": "2026-05-07",
           "type": "follow_up_1",
           "sender": "Manu",
-          "snippet": "Bump â caso studio pronto"
+          "snippet": "Bump Ã¢ÂÂ caso studio pronto"
         }
       ],
       "last_outbound_by_antonio": {
         "date": "2026-05-07",
-        "snippet": "Bump â caso studio pronto"
+        "snippet": "Bump Ã¢ÂÂ caso studio pronto"
       },
       "last_reply_from_prospect": null,
       "next_followup_due": "2026-06-08",
@@ -7085,12 +7085,12 @@
           "date": "2026-05-07",
           "type": "follow_up_1",
           "sender": "Manu",
-          "snippet": "Bump â caso studio pronto"
+          "snippet": "Bump Ã¢ÂÂ caso studio pronto"
         }
       ],
       "last_outbound_by_antonio": {
         "date": "2026-05-07",
-        "snippet": "Bump â caso studio pronto"
+        "snippet": "Bump Ã¢ÂÂ caso studio pronto"
       },
       "last_reply_from_prospect": null,
       "next_followup_due": "2026-06-08",
@@ -7140,12 +7140,12 @@
           "date": "2026-05-07",
           "type": "follow_up_1",
           "sender": "Manu",
-          "snippet": "Bump â caso studio pronto"
+          "snippet": "Bump Ã¢ÂÂ caso studio pronto"
         }
       ],
       "last_outbound_by_antonio": {
         "date": "2026-05-07",
-        "snippet": "Bump â caso studio pronto"
+        "snippet": "Bump Ã¢ÂÂ caso studio pronto"
       },
       "last_reply_from_prospect": null,
       "next_followup_due": "2026-06-08",
@@ -7199,20 +7199,20 @@
           "date": "2026-05-15",
           "type": "follow_up_1",
           "sender": "Antonio",
-          "snippet": "Ciao Martina, ti rimando su â ti avevo scritto un mese fa e avevi il fuori ufficio attivo. Nel frattempo ho rivisto lo store: c'Ã¨ qualcosa che mi piacerebbe mostrarti sull'esperienza online di..."
+          "snippet": "Ciao Martina, ti rimando su Ã¢ÂÂ ti avevo scritto un mese fa e avevi il fuori ufficio attivo. Nel frattempo ho rivisto lo store: c'ÃÂ¨ qualcosa che mi piacerebbe mostrarti sull'esperienza online di..."
         }
       ],
       "last_outbound_by_antonio": {
         "date": "2026-05-15",
-        "snippet": "Ciao Martina, ti rimando su â ti avevo scritto un mese fa e avevi il fuori ufficio attivo. Nel frattempo ho rivisto lo store:"
+        "snippet": "Ciao Martina, ti rimando su Ã¢ÂÂ ti avevo scritto un mese fa e avevi il fuori ufficio attivo. Nel frattempo ho rivisto lo store:"
       },
       "last_reply_from_prospect": {
         "date": "2026-05-06",
-        "snippet": "SarÃ² fuori ufficio fino a lunedÃ¬ 11 maggio. Per urgenze contattare customercare@gaudenziboutique.com."
+        "snippet": "SarÃÂ² fuori ufficio fino a lunedÃÂ¬ 11 maggio. Per urgenze contattare customercare@gaudenziboutique.com."
       },
       "next_followup_due": "2026-05-15",
       "days_since_last_activity": 7,
-      "first_email_snippet": "Ciao Martina, mi sono imbattuto in Gaudenzi Boutique cercando le migliori realtÃ  fashion del settore. Ho visto la piattaforma che state usando per le vendite online, la conosco molto bene.",
+      "first_email_snippet": "Ciao Martina, mi sono imbattuto in Gaudenzi Boutique cercando le migliori realtÃÂ  fashion del settore. Ho visto la piattaforma che state usando per le vendite online, la conosco molto bene.",
       "scheduled_timeline": {
         "first_email": "2026-05-01",
         "follow_up_1": "2026-05-15",
@@ -7234,7 +7234,7 @@
       "status": "follow_up_1_sent",
       "first_contact": "2026-05-01",
       "last_activity": "2026-05-06",
-      "next_action": "Nessun contatto diretto â in attesa che emerga un contatto valido per FU2",
+      "next_action": "Nessun contatto diretto Ã¢ÂÂ in attesa che emerga un contatto valido per FU2",
       "next_action_date": "2026-06-08",
       "stape_score": null,
       "notes": "Risposta da indirizzo no-reply | Ricerca contatto diretto: solo customerservices@monsoon.co.uk (CS generica) trovata - non adatta per cold outreach",
@@ -7257,12 +7257,12 @@
           "date": "2026-05-19",
           "type": "follow_up_1",
           "sender": "Claude",
-          "snippet": "FU1 non inviato â indirizzo originale no-reply, nessun contatto diretto trovato. Prospect sospeso."
+          "snippet": "FU1 non inviato Ã¢ÂÂ indirizzo originale no-reply, nessun contatto diretto trovato. Prospect sospeso."
         }
       ],
       "last_outbound_by_antonio": {
         "date": "2026-05-01",
-        "snippet": "Ciao Jessica, mi sono imbattuto in Monsoon London cercando le migliori realtÃ  fashion del settore. Ho visto la piattaforma che state usando per le vendite online, la conosco molto bene."
+        "snippet": "Ciao Jessica, mi sono imbattuto in Monsoon London cercando le migliori realtÃÂ  fashion del settore. Ho visto la piattaforma che state usando per le vendite online, la conosco molto bene."
       },
       "last_reply_from_prospect": {
         "date": "2026-05-06",
@@ -7270,7 +7270,7 @@
       },
       "next_followup_due": "2026-05-15",
       "days_since_last_activity": 7,
-      "first_email_snippet": "Ciao Jessica, mi sono imbattuto in Monsoon London cercando le migliori realtÃ  fashion del settore. Ho visto la piattaforma che state usando per le vendite online, la conosco molto bene.",
+      "first_email_snippet": "Ciao Jessica, mi sono imbattuto in Monsoon London cercando le migliori realtÃÂ  fashion del settore. Ho visto la piattaforma che state usando per le vendite online, la conosco molto bene.",
       "scheduled_timeline": {
         "first_email": "2026-05-01",
         "follow_up_1": "2026-05-15",
@@ -7295,7 +7295,7 @@
       "next_action": "Attendi risposta da customer_relations@t-o-o-g-o-o-d.com (redirect 19/05)",
       "next_action_date": null,
       "stape_score": null,
-      "notes": "MW non piÃ¹ dipendente. sales@toogood.com bounced (dominio errato: toogood.com â  t-o-o-g-o-o-d.com). Email inviata a customer_relations@t-o-o-g-o-o-d.com il 2026-05-19",
+      "notes": "MW non piÃÂ¹ dipendente. sales@toogood.com bounced (dominio errato: toogood.com Ã¢ÂÂ  t-o-o-g-o-o-d.com). Email inviata a customer_relations@t-o-o-g-o-o-d.com il 2026-05-19",
       "thread_id": "19dfdd895ef4b85d",
       "timeline": [
         {
@@ -7304,7 +7304,7 @@
         },
         {
           "date": "2026-05-06",
-          "action": "Autoresponse: MW non piÃ¹ dipendente"
+          "action": "Autoresponse: MW non piÃÂ¹ dipendente"
         },
         {
           "date": "2026-05-19",
@@ -7319,7 +7319,7 @@
           "date": "2026-05-19",
           "type": "follow_up_1",
           "sender": "Claude",
-          "snippet": "Non FU1 classico â redirect: nuova prima email inviata a customer_relations@t-o-o-g-o-o-d.com (MW non piÃ¹ dipendente, sales@toogood.com dominio errato)"
+          "snippet": "Non FU1 classico Ã¢ÂÂ redirect: nuova prima email inviata a customer_relations@t-o-o-g-o-o-d.com (MW non piÃÂ¹ dipendente, sales@toogood.com dominio errato)"
         }
       ],
       "last_outbound_by_antonio": {
@@ -7358,7 +7358,7 @@
       "next_action": "Follow-up 1",
       "next_action_date": "2026-05-20",
       "stape_score": null,
-      "notes": "Zendesk ticket #339934 Zendesk ticket address — skip automatico.",
+      "notes": "Zendesk ticket #339934 Zendesk ticket address â skip automatico.",
       "thread_id": "19dfd713e4ae7dd4",
       "timeline": [
         {
@@ -7371,7 +7371,7 @@
         },
         {
           "date": "2026-05-20",
-          "action": "Impostato skip:true — indirizzo Zendesk ticket"
+          "action": "Impostato skip:true â indirizzo Zendesk ticket"
         }
       ],
       "label_id": "Label_8658624016447790536",
@@ -7500,12 +7500,12 @@
           "date": "2026-05-12",
           "type": "follow_up_1",
           "sender": "Dami",
-          "snippet": "Bump â caso studio pronto"
+          "snippet": "Bump Ã¢ÂÂ caso studio pronto"
         }
       ],
       "last_outbound_by_antonio": {
         "date": "2026-05-12",
-        "snippet": "Bump â caso studio pronto"
+        "snippet": "Bump Ã¢ÂÂ caso studio pronto"
       },
       "last_reply_from_prospect": {
         "date": "2026-05-12",
@@ -7558,12 +7558,12 @@
           "date": "2026-05-12",
           "type": "follow_up_1",
           "sender": "Dami",
-          "snippet": "Hi James, bumping this up in case it got lost â the tracking issue I spotted on "
+          "snippet": "Hi James, bumping this up in case it got lost Ã¢ÂÂ the tracking issue I spotted on "
         }
       ],
       "last_outbound_by_antonio": {
         "date": "2026-05-12",
-        "snippet": "Hi James, bumping this up in case it got lost â the tracking issue I spotted on "
+        "snippet": "Hi James, bumping this up in case it got lost Ã¢ÂÂ the tracking issue I spotted on "
       },
       "last_reply_from_prospect": null,
       "next_followup_due": "2026-06-08",
@@ -7613,12 +7613,12 @@
           "date": "2026-05-12",
           "type": "follow_up_1",
           "sender": "Dami",
-          "snippet": "Hi Lily, bumping this up in case it got lost â the tracking issue on Mile Club's"
+          "snippet": "Hi Lily, bumping this up in case it got lost Ã¢ÂÂ the tracking issue on Mile Club's"
         }
       ],
       "last_outbound_by_antonio": {
         "date": "2026-05-12",
-        "snippet": "Hi Lily, bumping this up in case it got lost â the tracking issue on Mile Club's"
+        "snippet": "Hi Lily, bumping this up in case it got lost Ã¢ÂÂ the tracking issue on Mile Club's"
       },
       "last_reply_from_prospect": null,
       "next_followup_due": "2026-06-08",
@@ -7668,12 +7668,12 @@
           "date": "2026-05-12",
           "type": "follow_up_1",
           "sender": "Dami",
-          "snippet": "Hi Elisa, bumping this up â the tracking gap I spotted on Escentric Molecules' c"
+          "snippet": "Hi Elisa, bumping this up Ã¢ÂÂ the tracking gap I spotted on Escentric Molecules' c"
         }
       ],
       "last_outbound_by_antonio": {
         "date": "2026-05-12",
-        "snippet": "Hi Elisa, bumping this up â the tracking gap I spotted on Escentric Molecules' c"
+        "snippet": "Hi Elisa, bumping this up Ã¢ÂÂ the tracking gap I spotted on Escentric Molecules' c"
       },
       "last_reply_from_prospect": null,
       "next_followup_due": "2026-06-08",
@@ -7723,12 +7723,12 @@
           "date": "2026-05-12",
           "type": "follow_up_1",
           "sender": "Dami",
-          "snippet": "Hi Ariadna, bumping this up â the tracking issue I spotted on Cult Furniture's c"
+          "snippet": "Hi Ariadna, bumping this up Ã¢ÂÂ the tracking issue I spotted on Cult Furniture's c"
         }
       ],
       "last_outbound_by_antonio": {
         "date": "2026-05-12",
-        "snippet": "Hi Ariadna, bumping this up â the tracking issue I spotted on Cult Furniture's c"
+        "snippet": "Hi Ariadna, bumping this up Ã¢ÂÂ the tracking issue I spotted on Cult Furniture's c"
       },
       "last_reply_from_prospect": null,
       "next_followup_due": "2026-06-08",
@@ -7778,12 +7778,12 @@
           "date": "2026-05-12",
           "type": "follow_up_1",
           "sender": "Dami",
-          "snippet": "Hi Pepa, bumping this up â the tracking gap on Pepa London's campaigns is still "
+          "snippet": "Hi Pepa, bumping this up Ã¢ÂÂ the tracking gap on Pepa London's campaigns is still "
         }
       ],
       "last_outbound_by_antonio": {
         "date": "2026-05-12",
-        "snippet": "Hi Pepa, bumping this up â the tracking gap on Pepa London's campaigns is still "
+        "snippet": "Hi Pepa, bumping this up Ã¢ÂÂ the tracking gap on Pepa London's campaigns is still "
       },
       "last_reply_from_prospect": null,
       "next_followup_due": "2026-06-08",
@@ -7833,12 +7833,12 @@
           "date": "2026-05-12",
           "type": "follow_up_1",
           "sender": "Dami",
-          "snippet": "Ciao Martina, rimando su in caso non l'avessi vista â il problema al tracking ch"
+          "snippet": "Ciao Martina, rimando su in caso non l'avessi vista Ã¢ÂÂ il problema al tracking ch"
         }
       ],
       "last_outbound_by_antonio": {
         "date": "2026-05-12",
-        "snippet": "Ciao Martina, rimando su in caso non l'avessi vista â il problema al tracking ch"
+        "snippet": "Ciao Martina, rimando su in caso non l'avessi vista Ã¢ÂÂ il problema al tracking ch"
       },
       "last_reply_from_prospect": null,
       "next_followup_due": "2026-06-08",
@@ -7888,12 +7888,12 @@
           "date": "2026-05-12",
           "type": "follow_up_1",
           "sender": "Dami",
-          "snippet": "Hi Antonia, bumping this up â the tracking issue I spotted on Crockett & Jones' "
+          "snippet": "Hi Antonia, bumping this up Ã¢ÂÂ the tracking issue I spotted on Crockett & Jones' "
         }
       ],
       "last_outbound_by_antonio": {
         "date": "2026-05-12",
-        "snippet": "Hi Antonia, bumping this up â the tracking issue I spotted on Crockett & Jones' "
+        "snippet": "Hi Antonia, bumping this up Ã¢ÂÂ the tracking issue I spotted on Crockett & Jones' "
       },
       "last_reply_from_prospect": null,
       "next_followup_due": "2026-06-08",
@@ -7943,12 +7943,12 @@
           "date": "2026-05-12",
           "type": "follow_up_1",
           "sender": "Dami",
-          "snippet": "Hi Marina, bumping this up â the tracking gap on Le Col's campaigns is still the"
+          "snippet": "Hi Marina, bumping this up Ã¢ÂÂ the tracking gap on Le Col's campaigns is still the"
         }
       ],
       "last_outbound_by_antonio": {
         "date": "2026-05-12",
-        "snippet": "Hi Marina, bumping this up â the tracking gap on Le Col's campaigns is still the"
+        "snippet": "Hi Marina, bumping this up Ã¢ÂÂ the tracking gap on Le Col's campaigns is still the"
       },
       "last_reply_from_prospect": null,
       "next_followup_due": "2026-06-08",
@@ -7998,12 +7998,12 @@
           "date": "2026-05-12",
           "type": "follow_up_1",
           "sender": "Dami",
-          "snippet": "Hi Dom, bumping this up â the tracking issue I spotted on Pepa London's campaign"
+          "snippet": "Hi Dom, bumping this up Ã¢ÂÂ the tracking issue I spotted on Pepa London's campaign"
         }
       ],
       "last_outbound_by_antonio": {
         "date": "2026-05-12",
-        "snippet": "Hi Dom, bumping this up â the tracking issue I spotted on Pepa London's campaign"
+        "snippet": "Hi Dom, bumping this up Ã¢ÂÂ the tracking issue I spotted on Pepa London's campaign"
       },
       "last_reply_from_prospect": null,
       "next_followup_due": "2026-06-08",
@@ -8053,12 +8053,12 @@
           "date": "2026-05-12",
           "type": "follow_up_1",
           "sender": "Dami",
-          "snippet": "Hi Talitha, bumping this up â the tracking gap I spotted on The Go-To's campaign"
+          "snippet": "Hi Talitha, bumping this up Ã¢ÂÂ the tracking gap I spotted on The Go-To's campaign"
         }
       ],
       "last_outbound_by_antonio": {
         "date": "2026-05-12",
-        "snippet": "Hi Talitha, bumping this up â the tracking gap I spotted on The Go-To's campaign"
+        "snippet": "Hi Talitha, bumping this up Ã¢ÂÂ the tracking gap I spotted on The Go-To's campaign"
       },
       "last_reply_from_prospect": null,
       "next_followup_due": "2026-06-08",
@@ -8108,12 +8108,12 @@
           "date": "2026-05-12",
           "type": "follow_up_1",
           "sender": "Dami",
-          "snippet": "Hi Guy, bumping this up â the tracking gap on Kiss the Hippo's campaigns is stil"
+          "snippet": "Hi Guy, bumping this up Ã¢ÂÂ the tracking gap on Kiss the Hippo's campaigns is stil"
         }
       ],
       "last_outbound_by_antonio": {
         "date": "2026-05-12",
-        "snippet": "Hi Guy, bumping this up â the tracking gap on Kiss the Hippo's campaigns is stil"
+        "snippet": "Hi Guy, bumping this up Ã¢ÂÂ the tracking gap on Kiss the Hippo's campaigns is stil"
       },
       "last_reply_from_prospect": null,
       "next_followup_due": "2026-06-05",
@@ -8143,7 +8143,7 @@
       "next_action": "Follow-up 1",
       "next_action_date": "2026-05-27",
       "stape_score": null,
-      "notes": "Email warm â case study condiviso. Non cold outreach standard.",
+      "notes": "Email warm Ã¢ÂÂ case study condiviso. Non cold outreach standard.",
       "thread_id": "19e1f64180a23758",
       "timeline": [
         {
@@ -8245,12 +8245,12 @@
       "followups_sent": [],
       "last_outbound_by_antonio": {
         "date": "2026-05-13",
-        "snippet": "Buonasera, mi sono imbattuto in Cotton Club cercando le migliori luxury boutique multibrand del settore in Italia, la boutique a Monza Ã¨ stupenda."
+        "snippet": "Buonasera, mi sono imbattuto in Cotton Club cercando le migliori luxury boutique multibrand del settore in Italia, la boutique a Monza ÃÂ¨ stupenda."
       },
       "last_reply_from_prospect": null,
       "next_followup_due": "2026-05-27",
       "days_since_last_activity": 1,
-      "first_email_snippet": "Buonasera, mi sono imbattuto in Cotton Club cercando le migliori luxury boutique multibrand del settore in Italia, la boutique a Monza Ã¨ stupenda.",
+      "first_email_snippet": "Buonasera, mi sono imbattuto in Cotton Club cercando le migliori luxury boutique multibrand del settore in Italia, la boutique a Monza ÃÂ¨ stupenda.",
       "scheduled_timeline": {
         "first_email": "2026-05-13",
         "follow_up_1": "2026-05-27",
@@ -8289,12 +8289,12 @@
       "followups_sent": [],
       "last_outbound_by_antonio": {
         "date": "2026-05-13",
-        "snippet": "Buonasera, mi sono imbattuto in Ivo Milan Radical Fashion cercando le migliori luxury boutique multibrand del settore in Italia, la boutique a Padova Ã¨ stupenda."
+        "snippet": "Buonasera, mi sono imbattuto in Ivo Milan Radical Fashion cercando le migliori luxury boutique multibrand del settore in Italia, la boutique a Padova ÃÂ¨ stupenda."
       },
       "last_reply_from_prospect": null,
       "next_followup_due": "2026-05-27",
       "days_since_last_activity": 1,
-      "first_email_snippet": "Buonasera, mi sono imbattuto in Ivo Milan Radical Fashion cercando le migliori luxury boutique multibrand del settore in Italia, la boutique a Padova Ã¨ stupenda.",
+      "first_email_snippet": "Buonasera, mi sono imbattuto in Ivo Milan Radical Fashion cercando le migliori luxury boutique multibrand del settore in Italia, la boutique a Padova ÃÂ¨ stupenda.",
       "scheduled_timeline": {
         "first_email": "2026-05-13",
         "follow_up_1": "2026-05-27",
@@ -8333,12 +8333,12 @@
       "followups_sent": [],
       "last_outbound_by_antonio": {
         "date": "2026-05-13",
-        "snippet": "Buonasera, mi sono imbattuto in Singolare cercando le migliori boutique multibrand del settore in Italia, la boutique a Napoli Ã¨ stupenda."
+        "snippet": "Buonasera, mi sono imbattuto in Singolare cercando le migliori boutique multibrand del settore in Italia, la boutique a Napoli ÃÂ¨ stupenda."
       },
       "last_reply_from_prospect": null,
       "next_followup_due": "2026-05-27",
       "days_since_last_activity": 1,
-      "first_email_snippet": "Buonasera, mi sono imbattuto in Singolare cercando le migliori boutique multibrand del settore in Italia, la boutique a Napoli Ã¨ stupenda.",
+      "first_email_snippet": "Buonasera, mi sono imbattuto in Singolare cercando le migliori boutique multibrand del settore in Italia, la boutique a Napoli ÃÂ¨ stupenda.",
       "scheduled_timeline": {
         "first_email": "2026-05-13",
         "follow_up_1": "2026-05-27",
@@ -8377,12 +8377,12 @@
       "followups_sent": [],
       "last_outbound_by_antonio": {
         "date": "2026-05-13",
-        "snippet": "Buonasera, mi sono imbattuto in Il Faro cercando le migliori boutique multibrand del settore in Italia, la boutique ad Avellino Ã¨ stupenda."
+        "snippet": "Buonasera, mi sono imbattuto in Il Faro cercando le migliori boutique multibrand del settore in Italia, la boutique ad Avellino ÃÂ¨ stupenda."
       },
       "last_reply_from_prospect": null,
       "next_followup_due": "2026-05-27",
       "days_since_last_activity": 1,
-      "first_email_snippet": "Buonasera, mi sono imbattuto in Il Faro cercando le migliori boutique multibrand del settore in Italia, la boutique ad Avellino Ã¨ stupenda.",
+      "first_email_snippet": "Buonasera, mi sono imbattuto in Il Faro cercando le migliori boutique multibrand del settore in Italia, la boutique ad Avellino ÃÂ¨ stupenda.",
       "scheduled_timeline": {
         "first_email": "2026-05-13",
         "follow_up_1": "2026-05-27",
@@ -8407,7 +8407,7 @@
       "next_action": "Follow-up 1",
       "next_action_date": "2026-05-27",
       "stape_score": null,
-      "notes": "Luxury boutique Napoli (piÃ¹ sedi)",
+      "notes": "Luxury boutique Napoli (piÃÂ¹ sedi)",
       "thread_id": "19e20c5a82f04c5f",
       "timeline": [
         {
@@ -8509,12 +8509,12 @@
       "followups_sent": [],
       "last_outbound_by_antonio": {
         "date": "2026-05-13",
-        "snippet": "Buonasera, mi sono imbattuto in Paolo Fiorillo cercando le migliori boutique multibrand del settore in Italia, la boutique a Napoli Ã¨ stupenda."
+        "snippet": "Buonasera, mi sono imbattuto in Paolo Fiorillo cercando le migliori boutique multibrand del settore in Italia, la boutique a Napoli ÃÂ¨ stupenda."
       },
       "last_reply_from_prospect": null,
       "next_followup_due": "2026-05-27",
       "days_since_last_activity": 1,
-      "first_email_snippet": "Buonasera, mi sono imbattuto in Paolo Fiorillo cercando le migliori boutique multibrand del settore in Italia, la boutique a Napoli Ã¨ stupenda.",
+      "first_email_snippet": "Buonasera, mi sono imbattuto in Paolo Fiorillo cercando le migliori boutique multibrand del settore in Italia, la boutique a Napoli ÃÂ¨ stupenda.",
       "scheduled_timeline": {
         "first_email": "2026-05-13",
         "follow_up_1": "2026-05-27",
@@ -8553,12 +8553,12 @@
       "followups_sent": [],
       "last_outbound_by_antonio": {
         "date": "2026-05-13",
-        "snippet": "Buonasera, mi sono imbattuto in Montorsi Modena 1964 cercando le migliori luxury boutique multibrand del settore in Italia, la boutique a Modena Ã¨ stupenda."
+        "snippet": "Buonasera, mi sono imbattuto in Montorsi Modena 1964 cercando le migliori luxury boutique multibrand del settore in Italia, la boutique a Modena ÃÂ¨ stupenda."
       },
       "last_reply_from_prospect": null,
       "next_followup_due": "2026-05-27",
       "days_since_last_activity": 1,
-      "first_email_snippet": "Buonasera, mi sono imbattuto in Montorsi Modena 1964 cercando le migliori luxury boutique multibrand del settore in Italia, la boutique a Modena Ã¨ stupenda.",
+      "first_email_snippet": "Buonasera, mi sono imbattuto in Montorsi Modena 1964 cercando le migliori luxury boutique multibrand del settore in Italia, la boutique a Modena ÃÂ¨ stupenda.",
       "scheduled_timeline": {
         "first_email": "2026-05-13",
         "follow_up_1": "2026-05-27",
@@ -8597,12 +8597,12 @@
       "followups_sent": [],
       "last_outbound_by_antonio": {
         "date": "2026-05-13",
-        "snippet": "Buongiorno, mi sono imbattuto in The Chill Pepper cercando le migliori boutique multibrand del settore in Italia, la boutique a Reggio Calabria Ã¨ molto bella."
+        "snippet": "Buongiorno, mi sono imbattuto in The Chill Pepper cercando le migliori boutique multibrand del settore in Italia, la boutique a Reggio Calabria ÃÂ¨ molto bella."
       },
       "last_reply_from_prospect": null,
       "next_followup_due": "2026-05-27",
       "days_since_last_activity": 1,
-      "first_email_snippet": "Buongiorno, mi sono imbattuto in The Chill Pepper cercando le migliori boutique multibrand del settore in Italia, la boutique a Reggio Calabria Ã¨ molto bella.",
+      "first_email_snippet": "Buongiorno, mi sono imbattuto in The Chill Pepper cercando le migliori boutique multibrand del settore in Italia, la boutique a Reggio Calabria ÃÂ¨ molto bella.",
       "scheduled_timeline": {
         "first_email": "2026-05-13",
         "follow_up_1": "2026-05-27",
@@ -8641,12 +8641,12 @@
       "followups_sent": [],
       "last_outbound_by_antonio": {
         "date": "2026-05-13",
-        "snippet": "Buongiorno, mi sono imbattuto in Foti cercando le migliori luxury boutique multibrand del settore in Italia, la boutique a Reggio Calabria Ã¨ stupenda."
+        "snippet": "Buongiorno, mi sono imbattuto in Foti cercando le migliori luxury boutique multibrand del settore in Italia, la boutique a Reggio Calabria ÃÂ¨ stupenda."
       },
       "last_reply_from_prospect": null,
       "next_followup_due": "2026-05-27",
       "days_since_last_activity": 1,
-      "first_email_snippet": "Buongiorno, mi sono imbattuto in Foti cercando le migliori luxury boutique multibrand del settore in Italia, la boutique a Reggio Calabria Ã¨ stupenda.",
+      "first_email_snippet": "Buongiorno, mi sono imbattuto in Foti cercando le migliori luxury boutique multibrand del settore in Italia, la boutique a Reggio Calabria ÃÂ¨ stupenda.",
       "scheduled_timeline": {
         "first_email": "2026-05-13",
         "follow_up_1": "2026-05-27",
@@ -8685,12 +8685,12 @@
       "followups_sent": [],
       "last_outbound_by_antonio": {
         "date": "2026-05-13",
-        "snippet": "Buongiorno, mi sono imbattuto in Insight cercando le migliori luxury boutique multibrand del settore in Italia, la boutique a Roma Ã¨ stupenda."
+        "snippet": "Buongiorno, mi sono imbattuto in Insight cercando le migliori luxury boutique multibrand del settore in Italia, la boutique a Roma ÃÂ¨ stupenda."
       },
       "last_reply_from_prospect": null,
       "next_followup_due": "2026-05-27",
       "days_since_last_activity": 1,
-      "first_email_snippet": "Buongiorno, mi sono imbattuto in Insight cercando le migliori luxury boutique multibrand del settore in Italia, la boutique a Roma Ã¨ stupenda.",
+      "first_email_snippet": "Buongiorno, mi sono imbattuto in Insight cercando le migliori luxury boutique multibrand del settore in Italia, la boutique a Roma ÃÂ¨ stupenda.",
       "scheduled_timeline": {
         "first_email": "2026-05-13",
         "follow_up_1": "2026-05-27",
@@ -8729,12 +8729,12 @@
       "followups_sent": [],
       "last_outbound_by_antonio": {
         "date": "2026-05-14",
-        "snippet": "Buongiorno Silvia, mi sono imbattuto in Bellettini cercando le migliori luxury boutique multibrand del settore in Italia, la boutique a Vetralla Ã¨ stupenda."
+        "snippet": "Buongiorno Silvia, mi sono imbattuto in Bellettini cercando le migliori luxury boutique multibrand del settore in Italia, la boutique a Vetralla ÃÂ¨ stupenda."
       },
       "last_reply_from_prospect": null,
       "next_followup_due": "2026-05-28",
       "days_since_last_activity": 0,
-      "first_email_snippet": "Buongiorno Silvia, mi sono imbattuto in Bellettini cercando le migliori luxury boutique multibrand del settore in Italia, la boutique a Vetralla Ã¨ stupenda.",
+      "first_email_snippet": "Buongiorno Silvia, mi sono imbattuto in Bellettini cercando le migliori luxury boutique multibrand del settore in Italia, la boutique a Vetralla ÃÂ¨ stupenda.",
       "scheduled_timeline": {
         "first_email": "2026-05-14",
         "follow_up_1": "2026-05-28",
@@ -8773,12 +8773,12 @@
       "followups_sent": [],
       "last_outbound_by_antonio": {
         "date": "2026-05-15",
-        "snippet": "Stavo guardando Rokit e ho visto che state girando campagne Meta/Google su uno store Shopify giÃ  strutturato. Ho control"
+        "snippet": "Stavo guardando Rokit e ho visto che state girando campagne Meta/Google su uno store Shopify giÃÂ  strutturato. Ho control"
       },
       "last_reply_from_prospect": null,
       "next_followup_due": "2026-05-29",
       "days_since_last_activity": 0,
-      "first_email_snippet": "Stavo guardando Rokit e ho visto che state girando campagne Meta/Google su uno store Shopify giÃ  strutturato. Ho controllato velocemente il tracking, c'Ã¨ un problema che probabilmente",
+      "first_email_snippet": "Stavo guardando Rokit e ho visto che state girando campagne Meta/Google su uno store Shopify giÃÂ  strutturato. Ho controllato velocemente il tracking, c'ÃÂ¨ un problema che probabilmente",
       "scheduled_timeline": {
         "first_email": "2026-05-15",
         "follow_up_1": "2026-05-29",
@@ -9042,7 +9042,7 @@
       "last_reply_from_prospect": null,
       "next_followup_due": "2026-05-29",
       "days_since_last_activity": 0,
-      "first_email_snippet": "Ciao Luca, Mi sono imbattuto in Corner94 cercando le migliori boutique multibrand del settore in Italia, a proposito, la boutique a Maranello Ã¨ molto carina. Ho visto la piattaforma che state usando.",
+      "first_email_snippet": "Ciao Luca, Mi sono imbattuto in Corner94 cercando le migliori boutique multibrand del settore in Italia, a proposito, la boutique a Maranello ÃÂ¨ molto carina. Ho visto la piattaforma che state usando.",
       "scheduled_timeline": {
         "first_email": "2026-05-15",
         "follow_up_1": "2026-05-29",
@@ -9125,12 +9125,12 @@
       "followups_sent": [],
       "last_outbound_by_antonio": {
         "date": "2026-05-15",
-        "snippet": "Ciao Francesco, Stavo guardando MiaMily e ho visto che state girando campagne Meta/Google su uno store Shopify giÃ  strut"
+        "snippet": "Ciao Francesco, Stavo guardando MiaMily e ho visto che state girando campagne Meta/Google su uno store Shopify giÃÂ  strut"
       },
       "last_reply_from_prospect": null,
       "next_followup_due": "2026-05-29",
       "days_since_last_activity": 0,
-      "first_email_snippet": "Ciao Francesco, Stavo guardando MiaMily e ho visto che state girando campagne Meta/Google su uno store Shopify giÃ  strutturato. Ho controllato velocemente il tracking, c'Ã¨ un problema.",
+      "first_email_snippet": "Ciao Francesco, Stavo guardando MiaMily e ho visto che state girando campagne Meta/Google su uno store Shopify giÃÂ  strutturato. Ho controllato velocemente il tracking, c'ÃÂ¨ un problema.",
       "scheduled_timeline": {
         "first_email": "2026-05-15",
         "follow_up_1": "2026-05-29",
@@ -9169,12 +9169,12 @@
       "followups_sent": [],
       "last_outbound_by_antonio": {
         "date": "2026-05-15",
-        "snippet": "Ciao Giulia, Stavo guardando Sellier e ho visto che state girando campagne Meta/Google su uno store Shopify giÃ  struttur"
+        "snippet": "Ciao Giulia, Stavo guardando Sellier e ho visto che state girando campagne Meta/Google su uno store Shopify giÃÂ  struttur"
       },
       "last_reply_from_prospect": null,
       "next_followup_due": "2026-05-29",
       "days_since_last_activity": 0,
-      "first_email_snippet": "Ciao Giulia, Stavo guardando Sellier e ho visto che state girando campagne Meta/Google su uno store Shopify giÃ  strutturato. Ho controllato velocemente il tracking.",
+      "first_email_snippet": "Ciao Giulia, Stavo guardando Sellier e ho visto che state girando campagne Meta/Google su uno store Shopify giÃÂ  strutturato. Ho controllato velocemente il tracking.",
       "scheduled_timeline": {
         "first_email": "2026-05-15",
         "follow_up_1": "2026-05-29",
@@ -9262,7 +9262,7 @@
       "last_reply_from_prospect": null,
       "next_followup_due": "2026-05-28",
       "days_since_last_activity": 0,
-      "first_email_snippet": "Buonasera mi sono imbattuto in Freeport cercando le migliori luxury boutique multibrand del settore in Italia, a proposito, la boutique a Clusone Ã¨ stupenda.",
+      "first_email_snippet": "Buonasera mi sono imbattuto in Freeport cercando le migliori luxury boutique multibrand del settore in Italia, a proposito, la boutique a Clusone ÃÂ¨ stupenda.",
       "scheduled_timeline": {
         "first_email": "2026-05-14",
         "follow_up_1": "2026-05-28",
@@ -9306,7 +9306,7 @@
       "last_reply_from_prospect": null,
       "next_followup_due": "2026-05-28",
       "days_since_last_activity": 0,
-      "first_email_snippet": "Buonasera, mi sono imbattuto in Ghiglino cercando le migliori boutique multibrand del settore in Italia, a proposito, la boutique a Genova Ã¨ stupenda.",
+      "first_email_snippet": "Buonasera, mi sono imbattuto in Ghiglino cercando le migliori boutique multibrand del settore in Italia, a proposito, la boutique a Genova ÃÂ¨ stupenda.",
       "scheduled_timeline": {
         "first_email": "2026-05-14",
         "follow_up_1": "2026-05-28",
@@ -9350,7 +9350,7 @@
       "last_reply_from_prospect": null,
       "next_followup_due": "2026-05-28",
       "days_since_last_activity": 0,
-      "first_email_snippet": "Buonasera, mi sono imbattuto in Bernardelli cercando le migliori luxury boutique multibrand del settore in Italia, a proposito, la boutique a Mantova Ã¨ stupenda.",
+      "first_email_snippet": "Buonasera, mi sono imbattuto in Bernardelli cercando le migliori luxury boutique multibrand del settore in Italia, a proposito, la boutique a Mantova ÃÂ¨ stupenda.",
       "scheduled_timeline": {
         "first_email": "2026-05-14",
         "follow_up_1": "2026-05-28",
@@ -9394,7 +9394,7 @@
       "last_reply_from_prospect": null,
       "next_followup_due": "2026-05-28",
       "days_since_last_activity": 0,
-      "first_email_snippet": "Buonasera, mi sono imbattuto in Cread cercando le migliori luxury boutique multibrand del settore in Italia, a proposito, la boutique a Torino Ã¨ stupenda.",
+      "first_email_snippet": "Buonasera, mi sono imbattuto in Cread cercando le migliori luxury boutique multibrand del settore in Italia, a proposito, la boutique a Torino ÃÂ¨ stupenda.",
       "scheduled_timeline": {
         "first_email": "2026-05-14",
         "follow_up_1": "2026-05-28",
@@ -9438,7 +9438,7 @@
       "last_reply_from_prospect": null,
       "next_followup_due": "2026-05-28",
       "days_since_last_activity": 0,
-      "first_email_snippet": "Buonasera, mi sono imbattuto in Andriani cercando le migliori boutique multibrand del settore in Italia, a proposito, la boutique a Taranto Ã¨ stupenda.",
+      "first_email_snippet": "Buonasera, mi sono imbattuto in Andriani cercando le migliori boutique multibrand del settore in Italia, a proposito, la boutique a Taranto ÃÂ¨ stupenda.",
       "scheduled_timeline": {
         "first_email": "2026-05-14",
         "follow_up_1": "2026-05-28",
@@ -9482,7 +9482,7 @@
       "last_reply_from_prospect": null,
       "next_followup_due": "2026-05-28",
       "days_since_last_activity": 0,
-      "first_email_snippet": "Buonasera, mi sono imbattuto in Avant-Garde cercando le migliori luxury boutique multibrand del settore in Italia, a proposito, la boutique ad Andria Ã¨ stupenda.",
+      "first_email_snippet": "Buonasera, mi sono imbattuto in Avant-Garde cercando le migliori luxury boutique multibrand del settore in Italia, a proposito, la boutique ad Andria ÃÂ¨ stupenda.",
       "scheduled_timeline": {
         "first_email": "2026-05-14",
         "follow_up_1": "2026-05-28",
@@ -9526,7 +9526,7 @@
       "last_reply_from_prospect": null,
       "next_followup_due": "2026-05-28",
       "days_since_last_activity": 0,
-      "first_email_snippet": "Buonasera Cinzia, mi sono imbattuto in Csei cercando le migliori boutique multibrand del settore in Italia, a proposito, la boutique a Soave Ã¨ stupenda.",
+      "first_email_snippet": "Buonasera Cinzia, mi sono imbattuto in Csei cercando le migliori boutique multibrand del settore in Italia, a proposito, la boutique a Soave ÃÂ¨ stupenda.",
       "scheduled_timeline": {
         "first_email": "2026-05-14",
         "follow_up_1": "2026-05-28",
@@ -9570,7 +9570,7 @@
       "last_reply_from_prospect": null,
       "next_followup_due": "2026-05-28",
       "days_since_last_activity": 0,
-      "first_email_snippet": "Buonasera, mi sono imbattuto in Silvia Bini cercando le migliori luxury boutique multibrand del settore in Italia, a proposito, la boutique a Viareggio Ã¨ stupenda.",
+      "first_email_snippet": "Buonasera, mi sono imbattuto in Silvia Bini cercando le migliori luxury boutique multibrand del settore in Italia, a proposito, la boutique a Viareggio ÃÂ¨ stupenda.",
       "scheduled_timeline": {
         "first_email": "2026-05-14",
         "follow_up_1": "2026-05-28",
@@ -9614,7 +9614,7 @@
       "last_reply_from_prospect": null,
       "next_followup_due": "2026-05-28",
       "days_since_last_activity": 0,
-      "first_email_snippet": "Ciao Andrea, mi sono imbattuto in Agnetti Boutique cercando le migliori boutique multibrand del settore in Italia, a proposito, la boutique a Villa Potenza Ã¨ stupenda.",
+      "first_email_snippet": "Ciao Andrea, mi sono imbattuto in Agnetti Boutique cercando le migliori boutique multibrand del settore in Italia, a proposito, la boutique a Villa Potenza ÃÂ¨ stupenda.",
       "scheduled_timeline": {
         "first_email": "2026-05-14",
         "follow_up_1": "2026-05-28",
@@ -9658,7 +9658,7 @@
       "last_reply_from_prospect": null,
       "next_followup_due": "2026-05-28",
       "days_since_last_activity": 0,
-      "first_email_snippet": "Buonasera, mi sono imbattuto in Anmapet cercando le migliori boutique multibrand del settore in Italia, a proposito, lo store a Melendugno Ã¨ stupendo.",
+      "first_email_snippet": "Buonasera, mi sono imbattuto in Anmapet cercando le migliori boutique multibrand del settore in Italia, a proposito, lo store a Melendugno ÃÂ¨ stupendo.",
       "scheduled_timeline": {
         "first_email": "2026-05-14",
         "follow_up_1": "2026-05-28",
@@ -9702,7 +9702,7 @@
       "last_reply_from_prospect": null,
       "next_followup_due": "2026-05-28",
       "days_since_last_activity": 0,
-      "first_email_snippet": "Buonasera, mi sono imbattuto in Five cercando le migliori boutique multibrand del settore in Italia, a proposito, la boutique a Brescia Ã¨ stupenda.",
+      "first_email_snippet": "Buonasera, mi sono imbattuto in Five cercando le migliori boutique multibrand del settore in Italia, a proposito, la boutique a Brescia ÃÂ¨ stupenda.",
       "scheduled_timeline": {
         "first_email": "2026-05-14",
         "follow_up_1": "2026-05-28",
@@ -9746,7 +9746,7 @@
       "last_reply_from_prospect": null,
       "next_followup_due": "2026-05-28",
       "days_since_last_activity": 0,
-      "first_email_snippet": "Buonasera, mi sono imbattuto in Calabro Moda cercando le migliori boutique multibrand del settore in Italia, a proposito, la boutique ad Agrigento Ã¨ stupenda.",
+      "first_email_snippet": "Buonasera, mi sono imbattuto in Calabro Moda cercando le migliori boutique multibrand del settore in Italia, a proposito, la boutique ad Agrigento ÃÂ¨ stupenda.",
       "scheduled_timeline": {
         "first_email": "2026-05-14",
         "follow_up_1": "2026-05-28",
@@ -9771,7 +9771,7 @@
       "next_action": "Follow-up 1",
       "next_action_date": "2026-05-28",
       "stape_score": null,
-      "notes": "Boutique Courmayeur â email Gmail",
+      "notes": "Boutique Courmayeur Ã¢ÂÂ email Gmail",
       "thread_id": "19e2665bd61a1f87",
       "timeline": [
         {
@@ -9790,7 +9790,7 @@
       "last_reply_from_prospect": null,
       "next_followup_due": "2026-05-28",
       "days_since_last_activity": 0,
-      "first_email_snippet": "Buonasera, mi sono imbattuto in Farcoz Couture cercando le migliori boutique multibrand del settore in Italia, a proposito, la boutique a Courmayeur Ã¨ stupenda.",
+      "first_email_snippet": "Buonasera, mi sono imbattuto in Farcoz Couture cercando le migliori boutique multibrand del settore in Italia, a proposito, la boutique a Courmayeur ÃÂ¨ stupenda.",
       "scheduled_timeline": {
         "first_email": "2026-05-14",
         "follow_up_1": "2026-05-28",
@@ -9815,7 +9815,7 @@
       "next_action": "Follow-up 1",
       "next_action_date": "2026-05-28",
       "stape_score": null,
-      "notes": "â ï¸ Destinatario BCC/undisclosed â email non visibile. Dominio: ciarrocchiboutique.it. Da verificare manualmente. Â· Destinatari nascosti in BCC (undisclosed-recipients) â non tracciabile (rilevato audit MCP 2026-05-15)",
+      "notes": "Ã¢ÂÂ Ã¯Â¸Â Destinatario BCC/undisclosed Ã¢ÂÂ email non visibile. Dominio: ciarrocchiboutique.it. Da verificare manualmente. ÃÂ· Destinatari nascosti in BCC (undisclosed-recipients) Ã¢ÂÂ non tracciabile (rilevato audit MCP 2026-05-15)",
       "thread_id": "19e26568492de7cd",
       "timeline": [
         {
@@ -9834,7 +9834,7 @@
       "last_reply_from_prospect": null,
       "next_followup_due": "2026-05-28",
       "days_since_last_activity": 0,
-      "first_email_snippet": "Buonasera , mi sono imbattuto in Eredi Chiarini cercando le migliori boutique multibrand del settore in Italia, a proposito, la boutique a Teramo Ã¨ stupenda.",
+      "first_email_snippet": "Buonasera , mi sono imbattuto in Eredi Chiarini cercando le migliori boutique multibrand del settore in Italia, a proposito, la boutique a Teramo ÃÂ¨ stupenda.",
       "scheduled_timeline": {
         "first_email": "2026-05-14",
         "follow_up_1": "2026-05-28",
@@ -9880,7 +9880,7 @@
       "last_reply_from_prospect": null,
       "next_followup_due": "2026-05-28",
       "days_since_last_activity": 0,
-      "first_email_snippet": "Ciao, mi sono imbattuto in Brancaccio cercando le migliori boutique multibrand del settore in Italia, a proposito, la boutique a Salerno Ã¨ stupenda.",
+      "first_email_snippet": "Ciao, mi sono imbattuto in Brancaccio cercando le migliori boutique multibrand del settore in Italia, a proposito, la boutique a Salerno ÃÂ¨ stupenda.",
       "scheduled_timeline": {
         "first_email": "2026-05-14",
         "follow_up_1": "2026-05-28",
@@ -9924,7 +9924,7 @@
       "last_reply_from_prospect": null,
       "next_followup_due": "2026-05-28",
       "days_since_last_activity": 0,
-      "first_email_snippet": "Ciao, mi sono imbattuto in Boysloft cercando le migliori boutique multibrand del settore in Italia, a proposito, la boutique a Brescia Ã¨ stupenda.",
+      "first_email_snippet": "Ciao, mi sono imbattuto in Boysloft cercando le migliori boutique multibrand del settore in Italia, a proposito, la boutique a Brescia ÃÂ¨ stupenda.",
       "scheduled_timeline": {
         "first_email": "2026-05-14",
         "follow_up_1": "2026-05-28",
@@ -9968,7 +9968,7 @@
       "last_reply_from_prospect": null,
       "next_followup_due": "2026-05-28",
       "days_since_last_activity": 0,
-      "first_email_snippet": "Ciao, mi sono imbattuto in Capuzzi Moda cercando le migliori boutique multibrand del settore in Italia, a proposito, la boutique a Casoli Ã¨ stupenda.",
+      "first_email_snippet": "Ciao, mi sono imbattuto in Capuzzi Moda cercando le migliori boutique multibrand del settore in Italia, a proposito, la boutique a Casoli ÃÂ¨ stupenda.",
       "scheduled_timeline": {
         "first_email": "2026-05-14",
         "follow_up_1": "2026-05-28",
@@ -10012,7 +10012,7 @@
       "last_reply_from_prospect": null,
       "next_followup_due": "2026-05-28",
       "days_since_last_activity": 0,
-      "first_email_snippet": "Ciao Alice e Stefania, mi sono imbattuto in Caneppele cercando le migliori boutique multibrand del settore in Italia, a proposito, la boutique a Trento Ã¨ stupenda.",
+      "first_email_snippet": "Ciao Alice e Stefania, mi sono imbattuto in Caneppele cercando le migliori boutique multibrand del settore in Italia, a proposito, la boutique a Trento ÃÂ¨ stupenda.",
       "scheduled_timeline": {
         "first_email": "2026-05-14",
         "follow_up_1": "2026-05-28",
@@ -10056,7 +10056,7 @@
       "last_reply_from_prospect": null,
       "next_followup_due": "2026-05-28",
       "days_since_last_activity": 0,
-      "first_email_snippet": "Ciao, mi sono imbattuto in Bordoni 1926 cercando le migliori boutique multibrand del settore in Italia, a proposito, la boutique a Morbegno Ã¨ stupenda.",
+      "first_email_snippet": "Ciao, mi sono imbattuto in Bordoni 1926 cercando le migliori boutique multibrand del settore in Italia, a proposito, la boutique a Morbegno ÃÂ¨ stupenda.",
       "scheduled_timeline": {
         "first_email": "2026-05-14",
         "follow_up_1": "2026-05-28",
@@ -10100,7 +10100,7 @@
       "last_reply_from_prospect": null,
       "next_followup_due": "2026-05-28",
       "days_since_last_activity": 0,
-      "first_email_snippet": "Ciao, mi sono imbattuto in Peeper cercando le migliori boutique multibrand del settore in Italia, a proposito, la boutique ad Andria Ã¨ stupenda.",
+      "first_email_snippet": "Ciao, mi sono imbattuto in Peeper cercando le migliori boutique multibrand del settore in Italia, a proposito, la boutique ad Andria ÃÂ¨ stupenda.",
       "scheduled_timeline": {
         "first_email": "2026-05-14",
         "follow_up_1": "2026-05-28",
@@ -10126,7 +10126,7 @@
       "first_contact": "2026-05-13",
       "last_activity": "2026-05-13",
       "is_first_email": true,
-      "first_email_snippet": "Buonasera. mi sono imbattuto in Alberta Boutique cercando le migliori boutique multibrand del settore in Italia, a proposito, la boutique a San Miniato Basso Ã¨ stupenda.",
+      "first_email_snippet": "Buonasera. mi sono imbattuto in Alberta Boutique cercando le migliori boutique multibrand del settore in Italia, a proposito, la boutique a San Miniato Basso ÃÂ¨ stupenda.",
       "next_action": "Follow-up 1",
       "next_action_date": "2026-05-27",
       "next_followup_due": "2026-05-27",
@@ -10144,18 +10144,18 @@
       },
       "last_reply_from_prospect": null,
       "thread_id": "19e21674535af45f",
-      "notes": "Aggiunto via audit MCP 2026-05-15. Thread senza label NoProb in Gmail â sender assegnato ad Antonio via fallback pattern outreach.",
+      "notes": "Aggiunto via audit MCP 2026-05-15. Thread senza label NoProb in Gmail Ã¢ÂÂ sender assegnato ad Antonio via fallback pattern outreach.",
       "stape_score": null,
       "multi_to": false,
       "had_cc_bcc": false
     },
     {
       "id": "prospect_225",
-      "brand": "PlÃ¼mo",
+      "brand": "PlÃÂ¼mo",
       "contact": "Lucy",
       "email": "lucy@plumo.com",
       "domain": "plumo.com",
-      "subject_email": "PlÃ¼mo, the numbers aren't adding up",
+      "subject_email": "PlÃÂ¼mo, the numbers aren't adding up",
       "assigned_to": "Dami",
       "sender": "Dami",
       "label_id": "Label_8658624016447790536",
@@ -10180,7 +10180,7 @@
       },
       "last_outbound_by_antonio": {
         "date": "2026-05-15",
-        "snippet": "Hi Lucy, I came across PlÃ¼mo website, and I noticed the platform you're currently using for your online sales, and I know it"
+        "snippet": "Hi Lucy, I came across PlÃÂ¼mo website, and I noticed the platform you're currently using for your online sales, and I know it"
       },
       "last_reply_from_prospect": null,
       "next_action": "Follow-up 1",
@@ -10194,11 +10194,11 @@
     },
     {
       "id": "prospect_226",
-      "brand": "PlÃ¼mo",
+      "brand": "PlÃÂ¼mo",
       "contact": "Esther",
       "email": "esther@plumo.com",
       "domain": "plumo.com",
-      "subject_email": "Re: PlÃ¼mo, the numbers aren't adding up",
+      "subject_email": "Re: PlÃÂ¼mo, the numbers aren't adding up",
       "assigned_to": "Dami",
       "sender": "Dami",
       "label_id": "Label_8658624016447790536",
@@ -10223,7 +10223,7 @@
       },
       "last_outbound_by_antonio": {
         "date": "2026-05-15",
-        "snippet": "Hi Esther, I came across PlÃ¼mo website, and I noticed the platform you're currently using for your online sales, and I know"
+        "snippet": "Hi Esther, I came across PlÃÂ¼mo website, and I noticed the platform you're currently using for your online sales, and I know"
       },
       "last_reply_from_prospect": null,
       "next_action": "Follow-up 1",
@@ -10841,7 +10841,7 @@
         },
         {
           "date": "2026-05-19",
-          "action": "Email outbound 2B inviata da Claude (Cowork) a AmandaFullalove@needleandthread.com â prospect_332 creato"
+          "action": "Email outbound 2B inviata da Claude (Cowork) a AmandaFullalove@needleandthread.com Ã¢ÂÂ prospect_332 creato"
         }
       ]
     },
@@ -10988,7 +10988,7 @@
       "platform": "Shopify",
       "thread_id": "19e2bb1e61a11d5c",
       "status": "autoresponse",
-      "notes": "CS autoresponse da Aurum & Grey Zendesk â 'Dear Valued Customer, we aim to get back to you within 24-48 hours'. CS ticket ricevuto da support@aurumandgrey.zendesk.com",
+      "notes": "CS autoresponse da Aurum & Grey Zendesk Ã¢ÂÂ 'Dear Valued Customer, we aim to get back to you within 24-48 hours'. CS ticket ricevuto da support@aurumandgrey.zendesk.com",
       "next_action": "Attendere risposta CS",
       "next_action_date": "2026-05-21",
       "first_contact": "2026-05-15",
@@ -11062,7 +11062,7 @@
     },
     {
       "id": "prospect_246",
-      "brand": "AurÃ©lien",
+      "brand": "AurÃÂ©lien",
       "contact": "Roza Francken",
       "email": "r.francken@aurelien-online.com",
       "domain": "aurelien-online.com",
@@ -11091,7 +11091,7 @@
       },
       "last_outbound_by_antonio": {
         "date": "2026-05-15",
-        "snippet": "Hi Roza, I was looking into AurÃ©lien and noticed you're running Meta/Google campaigns on an already well-structured Shopify s"
+        "snippet": "Hi Roza, I was looking into AurÃÂ©lien and noticed you're running Meta/Google campaigns on an already well-structured Shopify s"
       },
       "last_reply_from_prospect": null,
       "next_action": "Follow-up 1",
@@ -11607,7 +11607,7 @@
       },
       "last_outbound_by_antonio": {
         "date": "2026-05-15",
-        "snippet": "Ciao Viviana, Stavo guardando Shoppinlove e ho visto che state girando campagne Meta/Google su uno store Shopify giÃ  struttur"
+        "snippet": "Ciao Viviana, Stavo guardando Shoppinlove e ho visto che state girando campagne Meta/Google su uno store Shopify giÃÂ  struttur"
       },
       "last_reply_from_prospect": null,
       "next_action": "Follow-up 1",
@@ -12010,7 +12010,7 @@
     },
     {
       "id": "prospect_269",
-      "brand": "SatÃ¹",
+      "brand": "SatÃÂ¹",
       "contact": null,
       "email": "info@satu.it",
       "domain": "satu.it",
@@ -12238,7 +12238,7 @@
       "contact": null,
       "email": "hello@peachyden.co.uk",
       "domain": "peachyden.co.uk",
-      "subject_email": "Peachy Den â I noticed something",
+      "subject_email": "Peachy Den Ã¢ÂÂ I noticed something",
       "assigned_to": "Antonio",
       "sender": "Antonio",
       "label_id": "Label_1523762719426921570",
@@ -12906,11 +12906,11 @@
     },
     {
       "id": "prospect_289",
-      "brand": "Penelope PÃ ",
+      "brand": "Penelope PÃÂ ",
       "contact": null,
       "email": "penelopepaboutique@gmail.com",
       "domain": "penelopepaboutique.com",
-      "subject_email": "Penelope PÃ , 2-3 cose che ho visto",
+      "subject_email": "Penelope PÃÂ , 2-3 cose che ho visto",
       "assigned_to": "Dami",
       "sender": "Dami",
       "label_id": "Label_8658624016447790536",
@@ -13144,7 +13144,7 @@
       "had_cc_bcc": false,
       "redirect_to": "skollhof.ext@retori.com",
       "stape_score": null,
-      "notes": "OOO permanente â Sara Pio in maternitÃ . Contatti: skollhof.ext@retori.com (Sara Phedra Kollhof), lfacchetti@retori.com (Laura Facchetti), cmaccagno@retori.com (Carola Maccagno). | Redirect: email inviata a skollhof.ext@retori.com (Sara Phedra Kollhof) il 2026-05-19 | Email inviate a lfacchetti@retori.com (Laura Facchetti) e cmaccagno@retori.com (Carola Maccagno) il 2026-05-19 da Claude (Cowork). Prospect_330 e prospect_331 creati.",
+      "notes": "OOO permanente Ã¢ÂÂ Sara Pio in maternitÃÂ . Contatti: skollhof.ext@retori.com (Sara Phedra Kollhof), lfacchetti@retori.com (Laura Facchetti), cmaccagno@retori.com (Carola Maccagno). | Redirect: email inviata a skollhof.ext@retori.com (Sara Phedra Kollhof) il 2026-05-19 | Email inviate a lfacchetti@retori.com (Laura Facchetti) e cmaccagno@retori.com (Carola Maccagno) il 2026-05-19 da Claude (Cowork). Prospect_330 e prospect_331 creati.",
       "followups_sent": [],
       "scheduled_timeline": {
         "first_email": "2026-05-18",
@@ -13167,7 +13167,7 @@
         },
         {
           "date": "2026-05-18",
-          "action": "Autoresponse: Sara Pio in maternitÃ  â redirect a skollhof.ext@retori.com"
+          "action": "Autoresponse: Sara Pio in maternitÃÂ  Ã¢ÂÂ redirect a skollhof.ext@retori.com"
         },
         {
           "date": "2026-05-19",
@@ -13175,7 +13175,7 @@
         },
         {
           "date": "2026-05-19",
-          "action": "Email outbound 2B inviate da Claude (Cowork) a lfacchetti@retori.com e cmaccagno@retori.com â prospect_330 e prospect_331 creati"
+          "action": "Email outbound 2B inviate da Claude (Cowork) a lfacchetti@retori.com e cmaccagno@retori.com Ã¢ÂÂ prospect_330 e prospect_331 creati"
         }
       ],
       "skip": false
@@ -13552,7 +13552,7 @@
       "had_cc_bcc": false,
       "redirect_to": null,
       "stape_score": null,
-      "notes": "SKIP automatico â duplicato di prospect_014 (stessa email info@niba1976.com, primo invio 2026-05-13). Thread 19e3bb8b6fe1107d Ã¨ un secondo invio anomalo.",
+      "notes": "SKIP automatico Ã¢ÂÂ duplicato di prospect_014 (stessa email info@niba1976.com, primo invio 2026-05-13). Thread 19e3bb8b6fe1107d ÃÂ¨ un secondo invio anomalo.",
       "followups_sent": [],
       "scheduled_timeline": {
         "first_email": "2026-05-18",
@@ -14212,7 +14212,7 @@
       "had_cc_bcc": false,
       "redirect_to": null,
       "stape_score": null,
-      "notes": "Redirect: ceo@strikestore.eu non piÃ¹ attivo. andrea@strikestore.eu giÃ  in CRM come prospect_318 (email inviata 18/05)",
+      "notes": "Redirect: ceo@strikestore.eu non piÃÂ¹ attivo. andrea@strikestore.eu giÃÂ  in CRM come prospect_318 (email inviata 18/05)",
       "followups_sent": [],
       "scheduled_timeline": {
         "first_email": "2026-05-18",
@@ -14226,7 +14226,7 @@
         "snippet": ""
       },
       "last_reply_from_prospect": null,
-      "next_action": "Redirect giÃ  gestito via prospect_318 (andrea@strikestore.eu)",
+      "next_action": "Redirect giÃÂ  gestito via prospect_318 (andrea@strikestore.eu)",
       "next_action_date": null,
       "timeline": [
         {
@@ -14348,7 +14348,7 @@
       "had_cc_bcc": false,
       "redirect_to": null,
       "stape_score": null,
-      "notes": "CS autoresponse: \"Il nostro team prenderÃ  in carico la sua richiesta.\"",
+      "notes": "CS autoresponse: \"Il nostro team prenderÃÂ  in carico la sua richiesta.\"",
       "followups_sent": [],
       "scheduled_timeline": {
         "first_email": "2026-05-18",
@@ -14572,7 +14572,7 @@
       "had_cc_bcc": false,
       "redirect_to": null,
       "stape_score": null,
-      "notes": "Contatto alternativo Retori â Sara Pio (spio@retori.com) in maternitÃ  permanente. Email inviata il 2026-05-19.",
+      "notes": "Contatto alternativo Retori Ã¢ÂÂ Sara Pio (spio@retori.com) in maternitÃÂ  permanente. Email inviata il 2026-05-19.",
       "followups_sent": [],
       "scheduled_timeline": {
         "first_email": "2026-05-19",
@@ -14588,7 +14588,7 @@
       "timeline": [
         {
           "date": "2026-05-19",
-          "action": "Email outbound 2B inviata da Claude (Cowork) â redirect da spio@retori.com"
+          "action": "Email outbound 2B inviata da Claude (Cowork) Ã¢ÂÂ redirect da spio@retori.com"
         }
       ],
       "skip": false
@@ -14613,7 +14613,7 @@
       "had_cc_bcc": false,
       "redirect_to": null,
       "stape_score": null,
-      "notes": "Contatto alternativo Retori â Sara Pio (spio@retori.com) in maternitÃ  permanente. Email inviata il 2026-05-19.",
+      "notes": "Contatto alternativo Retori Ã¢ÂÂ Sara Pio (spio@retori.com) in maternitÃÂ  permanente. Email inviata il 2026-05-19.",
       "followups_sent": [],
       "scheduled_timeline": {
         "first_email": "2026-05-19",
@@ -14629,7 +14629,7 @@
       "timeline": [
         {
           "date": "2026-05-19",
-          "action": "Email outbound 2B inviata da Claude (Cowork) â redirect da spio@retori.com"
+          "action": "Email outbound 2B inviata da Claude (Cowork) Ã¢ÂÂ redirect da spio@retori.com"
         }
       ],
       "skip": false
@@ -14654,7 +14654,7 @@
       "had_cc_bcc": false,
       "redirect_to": null,
       "stape_score": null,
-      "notes": "Contatto alternativo Needle & Thread â Alice Hollidge (alice@needleandthread.com) OOO. Email inviata il 2026-05-19 in inglese.",
+      "notes": "Contatto alternativo Needle & Thread Ã¢ÂÂ Alice Hollidge (alice@needleandthread.com) OOO. Email inviata il 2026-05-19 in inglese.",
       "followups_sent": [],
       "scheduled_timeline": {
         "first_email": "2026-05-19",
@@ -14670,7 +14670,7 @@
       "timeline": [
         {
           "date": "2026-05-19",
-          "action": "Email outbound 2B inviata da Claude (Cowork) in inglese â redirect da alice@needleandthread.com"
+          "action": "Email outbound 2B inviata da Claude (Cowork) in inglese Ã¢ÂÂ redirect da alice@needleandthread.com"
         }
       ],
       "skip": false
@@ -14870,7 +14870,7 @@
       "had_cc_bcc": false,
       "redirect_to": null,
       "stape_score": null,
-      "notes": "Secondo contatto dominio sugar.it (vedi prospect_084 ludovica@sugar.it â possibilmente stessa persona, email diversa).",
+      "notes": "Secondo contatto dominio sugar.it (vedi prospect_084 ludovica@sugar.it Ã¢ÂÂ possibilmente stessa persona, email diversa).",
       "thread_id": "19e407f3424d64d8",
       "followups_sent": [],
       "scheduled_timeline": {
@@ -14926,7 +14926,7 @@
       },
       "last_outbound_by_antonio": {
         "date": "2026-05-19",
-        "snippet": "Ciao Sara Phedra, Stavo guardando Retori e ho visto che state girando campagne Meta/Google su uno store Shopify giÃ  stru"
+        "snippet": "Ciao Sara Phedra, Stavo guardando Retori e ho visto che state girando campagne Meta/Google su uno store Shopify giÃÂ  stru"
       },
       "last_reply_from_prospect": null,
       "next_action": "Follow-up 1",
@@ -14993,7 +14993,7 @@
       "assigned_to": "Dami",
       "angle": "2B",
       "bounce_date": "2026-05-12",
-      "notes": "SKIP â info@bonsoiroflondon.com inesistente. Alt trovata: customerservices@bonsoirbypost.com â email da inviare.",
+      "notes": "SKIP Ã¢ÂÂ info@bonsoiroflondon.com inesistente. Alt trovata: customerservices@bonsoirbypost.com Ã¢ÂÂ email da inviare.",
       "thread_id": "19e1d40f75462495",
       "label_id": "Label_8658624016447790536",
       "sender": "Dami",
@@ -15021,7 +15021,7 @@
       "assigned_to": "Dami",
       "angle": "2B",
       "bounce_date": "2026-05-12",
-      "notes": "SKIP â alexander.g@ non trovato. Alt trovata: info@wearclubseven.com â email da inviare.",
+      "notes": "SKIP Ã¢ÂÂ alexander.g@ non trovato. Alt trovata: info@wearclubseven.com Ã¢ÂÂ email da inviare.",
       "thread_id": "19e1d2c898ca576c",
       "label_id": "Label_8658624016447790536",
       "sender": "Dami",
@@ -15049,7 +15049,7 @@
       "assigned_to": "Dami",
       "angle": "3A",
       "bounce_date": "2026-05-12",
-      "notes": "SKIP â jade_mulhall@ non trovata. Alt trovata: hello@peachyden.co.uk â email da inviare.",
+      "notes": "SKIP Ã¢ÂÂ jade_mulhall@ non trovata. Alt trovata: hello@peachyden.co.uk Ã¢ÂÂ email da inviare.",
       "thread_id": "19e1d0f1d2e8d6fc",
       "label_id": "Label_8658624016447790536",
       "sender": "Dami",
@@ -15071,13 +15071,13 @@
     },
     {
       "id": "bounce_004",
-      "brand": "SatÃ¹",
+      "brand": "SatÃÂ¹",
       "email": "info@satu.it",
       "domain": "satu.it",
       "assigned_to": "Manu",
       "angle": "1A",
       "bounce_date": "2026-05-12",
-      "notes": "SKIP â Bounce su fo@satu.it (typo). Indirizzo corretto info@satu.it giÃ  identificato come alternativo.",
+      "notes": "SKIP Ã¢ÂÂ Bounce su fo@satu.it (typo). Indirizzo corretto info@satu.it giÃÂ  identificato come alternativo.",
       "thread_id": "19e1bd730ca8f4e5",
       "label_id": "Label_1592668050883672428",
       "sender": "Manu",
@@ -15104,7 +15104,7 @@
       "assigned_to": "Dami",
       "angle": "2B",
       "bounce_date": "2026-05-07",
-      "notes": "SKIP â storeonline@ non consegnato. Alt trovata: customercare@delloglio.it â email da inviare.",
+      "notes": "SKIP Ã¢ÂÂ storeonline@ non consegnato. Alt trovata: customercare@delloglio.it Ã¢ÂÂ email da inviare.",
       "thread_id": "19e026763f269fef",
       "label_id": "Label_8658624016447790536",
       "sender": "Dami",
@@ -15132,7 +15132,7 @@
       "assigned_to": "Dami",
       "angle": "2B",
       "bounce_date": "2026-05-07",
-      "notes": "SKIP â gaia.martinelli@ non trovata. Alt trovata: info@franzkraler.com â email da inviare.",
+      "notes": "SKIP Ã¢ÂÂ gaia.martinelli@ non trovata. Alt trovata: info@franzkraler.com Ã¢ÂÂ email da inviare.",
       "thread_id": "19e0265ecd8ec21f",
       "label_id": "Label_8658624016447790536",
       "sender": "Dami",
@@ -15160,7 +15160,7 @@
       "assigned_to": "Manu",
       "angle": "1A",
       "bounce_date": "2026-05-06",
-      "notes": "SKIP â info.dolcitrame@gmail.com inesistente (gmail sbagliato). Alt trovata: shop@dolcitrame.store â email da inviare.",
+      "notes": "SKIP Ã¢ÂÂ info.dolcitrame@gmail.com inesistente (gmail sbagliato). Alt trovata: shop@dolcitrame.store Ã¢ÂÂ email da inviare.",
       "thread_id": "19dfe5af6c16fa3a",
       "label_id": "Label_1592668050883672428",
       "sender": "Manu",
@@ -15188,7 +15188,7 @@
       "assigned_to": "Dami",
       "angle": "1A",
       "bounce_date": "2026-05-06",
-      "notes": "SKIP â mailer-daemon@electric.net permanent error. Contatto alternativo giÃ  trovato (alt_contact_found: true).",
+      "notes": "SKIP Ã¢ÂÂ mailer-daemon@electric.net permanent error. Contatto alternativo giÃÂ  trovato (alt_contact_found: true).",
       "thread_id": "19dfe1a178fd9b9e",
       "label_id": "Label_8658624016447790536",
       "sender": "Dami",
@@ -15215,7 +15215,7 @@
       "assigned_to": "Dami",
       "angle": "2B",
       "bounce_date": "2026-05-06",
-      "notes": "SKIP â chloe.robinson@ non trovata. Alt trovata: orders@oddmuse.co.uk â email da inviare.",
+      "notes": "SKIP Ã¢ÂÂ chloe.robinson@ non trovata. Alt trovata: orders@oddmuse.co.uk Ã¢ÂÂ email da inviare.",
       "thread_id": "19dfdf715003bda2",
       "label_id": "Label_8658624016447790536",
       "sender": "Dami",
@@ -15237,13 +15237,13 @@
     },
     {
       "id": "bounce_010",
-      "brand": "HelmÃ¨",
+      "brand": "HelmÃÂ¨",
       "email": "info@helmestore.com",
       "domain": "helmestore.com",
       "assigned_to": "Manu",
       "angle": "1A",
       "bounce_date": "2026-05-06",
-      "notes": "SKIP â Forward a info@helmecatania.it: casella piena. Alternativo info@helmecatania.it giÃ  identificato.",
+      "notes": "SKIP Ã¢ÂÂ Forward a info@helmecatania.it: casella piena. Alternativo info@helmecatania.it giÃÂ  identificato.",
       "thread_id": "19dfe8baf55a523a",
       "label_id": "Label_1592668050883672428",
       "sender": "Manu",
@@ -15270,7 +15270,7 @@
       "assigned_to": "Dami",
       "angle": "3A",
       "bounce_date": "2026-05-11",
-      "notes": "SKIP â luke@ non trovato. Alt trovata: info@finniestonclothing.com â email da inviare.",
+      "notes": "SKIP Ã¢ÂÂ luke@ non trovato. Alt trovata: info@finniestonclothing.com Ã¢ÂÂ email da inviare.",
       "thread_id": "19e16b289db71ee6",
       "label_id": "Label_8658624016447790536",
       "sender": "Dami",
@@ -15298,7 +15298,7 @@
       "assigned_to": "Manu",
       "angle": "3A",
       "bounce_date": "2026-04-22",
-      "notes": "SKIP â mirko.pantaleoni@ non trovato. Alt trovata: info@uynsports.com â email da inviare.",
+      "notes": "SKIP Ã¢ÂÂ mirko.pantaleoni@ non trovato. Alt trovata: info@uynsports.com Ã¢ÂÂ email da inviare.",
       "thread_id": "19db3fe24d6aebd9",
       "label_id": "Label_1592668050883672428",
       "sender": "Manu",
@@ -15332,7 +15332,7 @@
       "first_contact": "2026-05-13",
       "last_activity": "2026-05-13",
       "status": "bounced",
-      "notes": "SKIP â michela.viola@ rifiutata da vadesecure. Alt trovata: contatti@brunarosso.com â email da inviare.",
+      "notes": "SKIP Ã¢ÂÂ michela.viola@ rifiutata da vadesecure. Alt trovata: contatti@brunarosso.com Ã¢ÂÂ email da inviare.",
       "thread_id": "19e1cbe3611be12a",
       "suggested_action": "Cerca contatto alternativo",
       "alt_contact_found": false,
@@ -15360,7 +15360,7 @@
       "first_contact": "2026-05-01",
       "last_activity": "2026-05-01",
       "status": "bounced",
-      "notes": "SKIP â jessica@ inesistente. Alt trovata: contact@toa.st â email da inviare (copre anche bounce_015 bea@).",
+      "notes": "SKIP Ã¢ÂÂ jessica@ inesistente. Alt trovata: contact@toa.st Ã¢ÂÂ email da inviare (copre anche bounce_015 bea@).",
       "thread_id": "19ddf7e4afd66b9b",
       "suggested_action": "Cerca contatto alternativo",
       "alt_contact_found": false,
@@ -15388,7 +15388,7 @@
       "first_contact": "2026-05-01",
       "last_activity": "2026-05-01",
       "status": "bounced",
-      "notes": "SKIP â bea@ inesistente. Alt: contact@toa.st â email inviata tramite bounce_014.",
+      "notes": "SKIP Ã¢ÂÂ bea@ inesistente. Alt: contact@toa.st Ã¢ÂÂ email inviata tramite bounce_014.",
       "thread_id": "19ddf7f4ac5d77e0",
       "suggested_action": "Cerca contatto alternativo",
       "alt_contact_found": false,
@@ -15416,7 +15416,7 @@
       "first_contact": "2026-05-01",
       "last_activity": "2026-05-01",
       "status": "bounced",
-      "notes": "SKIP â marcela@ non trovata. Alt trovata: customerservice@mzskin.com â email da inviare.",
+      "notes": "SKIP Ã¢ÂÂ marcela@ non trovata. Alt trovata: customerservice@mzskin.com Ã¢ÂÂ email da inviare.",
       "thread_id": "19ddfb13cce73a32",
       "suggested_action": "Cerca contatto alternativo",
       "alt_contact_found": false,
@@ -15444,7 +15444,7 @@
       "first_contact": "2026-05-13",
       "last_activity": "2026-05-13",
       "status": "bounced",
-      "notes": "SKIP â info@ e shop@ entrambi falliti. Alt trovata: customercare@giordanocosenza.com â email da inviare.",
+      "notes": "SKIP Ã¢ÂÂ info@ e shop@ entrambi falliti. Alt trovata: customercare@giordanocosenza.com Ã¢ÂÂ email da inviare.",
       "thread_id": "19e1d236574a95ea",
       "suggested_action": "Cerca contatto alternativo",
       "alt_contact_found": false,
@@ -15472,7 +15472,7 @@
       "first_contact": "2026-05-13",
       "last_activity": "2026-05-13",
       "status": "bounced",
-      "notes": "SKIP â eshop@ e shop@ su angelo.it falliti. Alt trovata: angelo@angelo.it â email da inviare.",
+      "notes": "SKIP Ã¢ÂÂ eshop@ e shop@ su angelo.it falliti. Alt trovata: angelo@angelo.it Ã¢ÂÂ email da inviare.",
       "thread_id": "19e1d068b43b13f3",
       "suggested_action": "Cerca contatto alternativo",
       "alt_contact_found": false,
@@ -15500,7 +15500,7 @@
       "first_contact": "2026-05-13",
       "last_activity": "2026-05-13",
       "status": "bounced",
-      "notes": "SKIP â a.salvaggiulo@ inesistente. Alt trovata: assistenza@anteprimaextra.com â email da inviare.",
+      "notes": "SKIP Ã¢ÂÂ a.salvaggiulo@ inesistente. Alt trovata: assistenza@anteprimaextra.com Ã¢ÂÂ email da inviare.",
       "thread_id": "19e21404ba48e7aa",
       "suggested_action": "Cerca contatto alternativo",
       "alt_contact_found": false,
@@ -15528,7 +15528,7 @@
       "first_contact": "2026-05-13",
       "last_activity": "2026-05-13",
       "status": "bounced",
-      "notes": "SKIP â forward a viani@ fallito. Re-try su stessa info@ (forward era il problema) â email da inviare.",
+      "notes": "SKIP Ã¢ÂÂ forward a viani@ fallito. Re-try su stessa info@ (forward era il problema) Ã¢ÂÂ email da inviare.",
       "thread_id": "19e210ebe5dc0c8d",
       "suggested_action": "Cerca contatto alternativo",
       "alt_contact_found": false,
@@ -15556,7 +15556,7 @@
       "first_contact": "2026-05-13",
       "last_activity": "2026-05-13",
       "status": "bounced",
-      "notes": "SKIP â contact@spaziobra.com Recipient Unknown. Alt trovata: info@spaziobra.it â email da inviare.",
+      "notes": "SKIP Ã¢ÂÂ contact@spaziobra.com Recipient Unknown. Alt trovata: info@spaziobra.it Ã¢ÂÂ email da inviare.",
       "thread_id": "19e21341bb786918",
       "suggested_action": "Cerca contatto alternativo",
       "alt_contact_found": false,
@@ -15584,7 +15584,7 @@
       "first_contact": "2026-05-13",
       "last_activity": "2026-05-13",
       "status": "bounced",
-      "notes": "SKIP â info@frboutique.it inesistente (dominio sbagliato). Alt trovata: help@thedoublef.com â email da inviare.",
+      "notes": "SKIP Ã¢ÂÂ info@frboutique.it inesistente (dominio sbagliato). Alt trovata: help@thedoublef.com Ã¢ÂÂ email da inviare.",
       "thread_id": "19e210395aad3e1e",
       "suggested_action": "Cerca contatto alternativo",
       "alt_contact_found": false,
@@ -15612,9 +15612,9 @@
       "first_contact": "2026-05-13",
       "last_activity": "2026-05-13",
       "status": "bounced",
-      "notes": "SKIP â Typo nell'indirizzo (nfo@ invece di info@). Email corretta info@peeperstore.it giÃ  inviata il 14/05 (vedi prospect corrispondente).",
+      "notes": "SKIP Ã¢ÂÂ Typo nell'indirizzo (nfo@ invece di info@). Email corretta info@peeperstore.it giÃÂ  inviata il 14/05 (vedi prospect corrispondente).",
       "thread_id": "19e212c46cf6b841",
-      "suggested_action": "Riprovare con info@peeperstore.it (l'altra email corretta Ã¨ giÃ  stata inviata il 14/05 â verificare prospect_166 o successivi)",
+      "suggested_action": "Riprovare con info@peeperstore.it (l'altra email corretta ÃÂ¨ giÃÂ  stata inviata il 14/05 Ã¢ÂÂ verificare prospect_166 o successivi)",
       "alt_contact_found": true,
       "is_first_email": false,
       "followups_sent": [],
@@ -15636,7 +15636,7 @@
       "assigned_to": "Dami",
       "angle": "1A",
       "bounce_date": "2026-05-15",
-      "notes": "Nessuna email alternativa trovata (solo web@royalrow.it disponibile, giÃ  bounced)",
+      "notes": "Nessuna email alternativa trovata (solo web@royalrow.it disponibile, giÃÂ  bounced)",
       "thread_id": "19e2c48c0f79ac89",
       "skip": true
     },
@@ -15675,7 +15675,7 @@
       "assigned_to": "Dami",
       "angle": "1A",
       "bounce_date": "2026-05-15",
-      "notes": "Bounce postmaster Office 365 â recipient unknown. Entrambi i contatti Josh@ e p-baker@ non trovati.",
+      "notes": "Bounce postmaster Office 365 Ã¢ÂÂ recipient unknown. Entrambi i contatti Josh@ e p-baker@ non trovati.",
       "thread_id": "19e2bc27096a5626",
       "skip": false,
       "alt_email": "enquiry@bakerross.co.uk"
@@ -15745,7 +15745,7 @@
       "label_id": "Label_1592668050883672428",
       "angle": "1A",
       "bounce_date": "2026-05-18",
-      "notes": "Stesso brand di bounce_005 (Dell'Oglio), alt customercare@delloglio.it giÃ  annotata in bounce_005",
+      "notes": "Stesso brand di bounce_005 (Dell'Oglio), alt customercare@delloglio.it giÃÂ  annotata in bounce_005",
       "thread_id": "19e2ba16b17b3764",
       "skip": true
     },
@@ -15760,7 +15760,7 @@
       "label_id": null,
       "angle": "1A",
       "bounce_date": "2026-05-15",
-      "notes": "shop@dolcitrame.store era giÃ  l'alt di bounce_007 ed Ã¨ bounced anche lei - brand irrecuperabile",
+      "notes": "shop@dolcitrame.store era giÃÂ  l'alt di bounce_007 ed ÃÂ¨ bounced anche lei - brand irrecuperabile",
       "thread_id": "19e2c1e37a747da2",
       "skip": true
     },
@@ -15775,7 +15775,7 @@
       "label_id": null,
       "angle": "2B",
       "bounce_date": "2026-05-15",
-      "notes": "Dominio errato: toogood.com â  t-o-o-g-o-o-d.com. Email inviata a customer_relations@t-o-o-g-o-o-d.com il 2026-05-19",
+      "notes": "Dominio errato: toogood.com Ã¢ÂÂ  t-o-o-g-o-o-d.com. Email inviata a customer_relations@t-o-o-g-o-o-d.com il 2026-05-19",
       "thread_id": "19e2c19f5df7a87f",
       "skip": true
     },
@@ -15790,7 +15790,7 @@
       "label_id": null,
       "angle": "1A",
       "bounce_date": "2026-05-16",
-      "notes": "info@spaziobra.it era giÃ  l'alt di bounce_021 ed Ã¨ bounced anche lei - brand irrecuperabile",
+      "notes": "info@spaziobra.it era giÃÂ  l'alt di bounce_021 ed ÃÂ¨ bounced anche lei - brand irrecuperabile",
       "thread_id": "19e2f7a9c782fa08",
       "skip": true
     },
@@ -15805,7 +15805,7 @@
       "label_id": "Label_8658624016447790536",
       "angle": "3B",
       "bounce_date": "2026-05-18",
-      "notes": "Bounce Google â indirizzo inesistente (550 5.1.1).",
+      "notes": "Bounce Google Ã¢ÂÂ indirizzo inesistente (550 5.1.1).",
       "thread_id": "19e3c00d8875af4a",
       "skip": false,
       "alt_email": "shop@quattrostagioniabbigliamento.it"
@@ -15821,7 +15821,7 @@
       "label_id": "Label_8658624016447790536",
       "angle": "2B",
       "bounce_date": "2026-05-18",
-      "notes": "Bounce Google â indirizzo inesistente. Altri contatti stesso dominio presenti in CRM.",
+      "notes": "Bounce Google Ã¢ÂÂ indirizzo inesistente. Altri contatti stesso dominio presenti in CRM.",
       "thread_id": "19e3b3dc68e3bdb7",
       "skip": true
     },
@@ -15836,7 +15836,7 @@
       "label_id": "Label_8658624016447790536",
       "angle": "2B",
       "bounce_date": "2026-05-18",
-      "notes": "Bounce Google â indirizzo inesistente. Altri contatti stesso dominio presenti in CRM.",
+      "notes": "Bounce Google Ã¢ÂÂ indirizzo inesistente. Altri contatti stesso dominio presenti in CRM.",
       "thread_id": "19e3b3df8bfe8924",
       "skip": true
     },
@@ -15851,7 +15851,7 @@
       "label_id": "Label_8658624016447790536",
       "angle": "2B",
       "bounce_date": "2026-05-18",
-      "notes": "Bounce postmaster Office 365 â daria@ non trovata. info@lattuadaboutique.it presente in CRM.",
+      "notes": "Bounce postmaster Office 365 Ã¢ÂÂ daria@ non trovata. info@lattuadaboutique.it presente in CRM.",
       "thread_id": "19e3b2ee0a034082",
       "skip": true
     },
@@ -15864,7 +15864,7 @@
       "assigned_to": "Dami",
       "angle": "1A",
       "bounce_date": "2026-05-19",
-      "notes": "Bounce Office 365 â gino.cuccuini not found at cuccuini.it. SKIP automatico â dominio giÃ  in no_reply (prospect_080 info@cuccuini.it).",
+      "notes": "Bounce Office 365 Ã¢ÂÂ gino.cuccuini not found at cuccuini.it. SKIP automatico Ã¢ÂÂ dominio giÃÂ  in no_reply (prospect_080 info@cuccuini.it).",
       "thread_id": "19e40a3131acbdaa",
       "skip": true
     },
@@ -15877,7 +15877,7 @@
       "assigned_to": "Dami",
       "angle": "1A",
       "bounce_date": "2026-05-19",
-      "notes": "Bounce Office 365 â alessia.nigiotti not found at cuccuini.it. SKIP automatico â dominio giÃ  in no_reply (prospect_080 info@cuccuini.it).",
+      "notes": "Bounce Office 365 Ã¢ÂÂ alessia.nigiotti not found at cuccuini.it. SKIP automatico Ã¢ÂÂ dominio giÃÂ  in no_reply (prospect_080 info@cuccuini.it).",
       "thread_id": "19e40a1ad746769e",
       "skip": true
     },
@@ -15890,7 +15890,7 @@
       "assigned_to": "Dami",
       "angle": "1A",
       "bounce_date": "2026-05-19",
-      "notes": "Bounce Office 365 â giacomo.genova not found at cuccuini.it. SKIP automatico â dominio giÃ  in no_reply (prospect_080 info@cuccuini.it).",
+      "notes": "Bounce Office 365 Ã¢ÂÂ giacomo.genova not found at cuccuini.it. SKIP automatico Ã¢ÂÂ dominio giÃÂ  in no_reply (prospect_080 info@cuccuini.it).",
       "thread_id": "19e409f4a04030de",
       "skip": true
     },
@@ -15903,7 +15903,7 @@
       "assigned_to": "Dami",
       "angle": "1A",
       "bounce_date": "2026-05-19",
-      "notes": "Bounce Google â indirizzo inesistente. SKIP automatico â dominio giÃ  in no_reply (prospect_081 d.addadi@genteroma.com).",
+      "notes": "Bounce Google Ã¢ÂÂ indirizzo inesistente. SKIP automatico Ã¢ÂÂ dominio giÃÂ  in no_reply (prospect_081 d.addadi@genteroma.com).",
       "thread_id": "19e4093f496ff361",
       "skip": true
     },
@@ -15916,7 +15916,7 @@
       "assigned_to": "Dami",
       "angle": "1A",
       "bounce_date": "2026-05-19",
-      "notes": "Bounce Google â indirizzo inesistente. SKIP automatico â dominio giÃ  in no_reply (prospect_081 d.addadi@genteroma.com).",
+      "notes": "Bounce Google Ã¢ÂÂ indirizzo inesistente. SKIP automatico Ã¢ÂÂ dominio giÃÂ  in no_reply (prospect_081 d.addadi@genteroma.com).",
       "thread_id": "19e4093be429be6d",
       "skip": true
     },
@@ -15929,7 +15929,7 @@
       "assigned_to": "Dami",
       "angle": "1A",
       "bounce_date": "2026-05-19",
-      "notes": "Bounce Google â indirizzo inesistente. SKIP automatico â dominio giÃ  in no_reply (prospect_081 d.addadi@genteroma.com).",
+      "notes": "Bounce Google Ã¢ÂÂ indirizzo inesistente. SKIP automatico Ã¢ÂÂ dominio giÃÂ  in no_reply (prospect_081 d.addadi@genteroma.com).",
       "thread_id": "19e40941b9d78692",
       "skip": true
     },
@@ -15942,7 +15942,7 @@
       "assigned_to": "Dami",
       "angle": "2B",
       "bounce_date": "2026-05-19",
-      "notes": "Bounce Google â indirizzo inesistente. SKIP automatico â dominio giÃ  in no_reply (prospect_082 tiziana.fausti@ e prospect_335 francesca.birolini@).",
+      "notes": "Bounce Google Ã¢ÂÂ indirizzo inesistente. SKIP automatico Ã¢ÂÂ dominio giÃÂ  in no_reply (prospect_082 tiziana.fausti@ e prospect_335 francesca.birolini@).",
       "thread_id": "19e408b173139195",
       "skip": true
     }
