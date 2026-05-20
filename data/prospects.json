@@ -1,6 +1,6 @@
 {
   "meta": {
-    "last_updated": "2026-05-20T21:40:00+02:00",
+    "last_updated": "2026-05-20T22:00:00+02:00",
     "total_contacted": 316,
     "total_replied": 8,
     "total_bounced": 46,
@@ -334,7 +334,7 @@
       "had_cc_bcc": false,
       "redirect_to": null,
       "stape_score": null,
-      "notes": "E-commerce Manager. Ha risposto positivamente dopo 16 minuti: 'I would be happy to have a look at your report'",
+      "notes": "E-commerce Manager. Ha risposto positivamente dopo 16 min: 'I would be happy to have a look at your report, why not ;)'. Antonio invia video Loom completo il 20/05 con analisi tracking + CRO.",
       "thread_id": "19e2be2290b50c3b",
       "followups_sent": [],
       "scheduled_timeline": {
@@ -372,7 +372,7 @@
     {
       "id": "prospect_329",
       "brand": "Camden",
-      "contact": "Andrea",
+      "contact": "Andrea Serafini",
       "email": "info@camden23.com",
       "domain": "camden23.com",
       "subject_email": "Contatto via form Shopify",
@@ -389,7 +389,7 @@
       "had_cc_bcc": false,
       "redirect_to": null,
       "stape_score": null,
-      "notes": "Contattato via contact form Shopify store. Andrea ha risposto 'manda pure grazie' Ã¢ÂÂ interesse positivo.",
+      "notes": "Contattato via form Shopify store (18/05). Andrea Serafini risponde stessa sera: 'manda pure grazie'. Antonio invia video Loom il 20/05: analisi collo di bottiglia tracking + potenziale game changer.",
       "followups_sent": [],
       "scheduled_timeline": {
         "first_email": "2026-05-18",
@@ -506,7 +506,7 @@
       "had_cc_bcc": false,
       "redirect_to": null,
       "stape_score": null,
-      "notes": " Risposta da bjorn@oger.nl (CC martijn@oger.nl).",
+      "notes": "Luxury multi-brand boutique Amsterdam. Risposta da Bjorn (bjorn@oger.nl, CC martijn@oger.nl) il 19/05: chiede case study + full Stape audit. Antonio risponde il 20/05 con email completa (case study Cumini + analisi Stape oger.nl).",
       "followups_sent": [],
       "scheduled_timeline": {
         "first_email": "2026-05-18",
@@ -517,14 +517,14 @@
       },
       "last_outbound_by_antonio": {
         "date": "2026-05-20",
-        "snippet": "Good morning, thank you for your reply. I'll go in order and answer directly through a complete email with case study and full Stape analysis."
+        "snippet": "Good morning, thank you for your reply. I'll go in order and answer through a complete email — case study + full Stape analysis on oger.nl."
       },
       "last_reply_from_prospect": {
         "date": "2026-05-19",
-        "snippet": "Hi Antonio, Thank you for reaching out. Before considering a call, could you please share the case study and the full Stape audit you refer to, including the exact URL tested, scan date, detected"
+        "snippet": "Before considering a call, could you share the case study and the full Stape audit (URL tested, scan date, detected issues, recommended fixes)?"
       },
-      "next_action": "Attendere risposta Bjorn/Martijn su case study e report Stape",
-      "next_action_date": "2026-05-25",
+      "next_action": "CASE STUDY + STAPE INVIATO — attesa risposta Bjorn/Martijn",
+      "next_action_date": "2026-05-26",
       "timeline": [
         {
           "date": "2026-05-18",
@@ -7376,8 +7376,8 @@
       "status": "autoresponse",
       "first_contact": "2026-05-06",
       "last_activity": "2026-05-06",
-      "next_action": "Follow-up 1",
-      "next_action_date": "2026-05-20",
+      "next_action": "SKIP — indirizzo Zendesk, non contattare",
+      "next_action_date": null,
       "stape_score": null,
       "notes": "Zendesk ticket #339934 Zendesk ticket address â skip automatico.",
       "thread_id": "19dfd713e4ae7dd4",
@@ -7407,7 +7407,7 @@
         "date": "2026-05-06",
         "snippet": "Customer Services Team (Zendesk #339934). Follow up within 1 business day."
       },
-      "next_followup_due": "2026-05-20",
+      "next_followup_due": null,
       "days_since_last_activity": 7,
       "first_email_snippet": "Hi, I was looking into KFBeauty and noticed you're running Meta/Google campaigns on a Shopify store. Quick check on tracking found an issue you're likely unaware of.",
       "scheduled_timeline": {
