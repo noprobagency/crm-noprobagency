@@ -1,6 +1,6 @@
 {
   "meta": {
-    "last_updated": "2026-05-20T22:00:00+02:00",
+    "last_updated": "2026-05-20T22:30:00+02:00",
     "total_contacted": 316,
     "total_replied": 8,
     "total_bounced": 46,
@@ -60,6 +60,12 @@
           "type": "follow_up_1",
           "sender": "Antonio",
           "snippet": "Hi Victoire, bumping this up. The tracking issue I spotted on The Go-To's campaigns is still there. Case study ready whenever you want to take a look."
+        },
+        {
+          "date": "2026-05-13",
+          "type": "manual",
+          "sender": "Antonio",
+          "snippet": "Hi Victoire, thanks for getting back to me! Here's the full Stape report for The Go-To (score 39/100, Ads 44/100)."
         }
       ],
       "last_outbound_by_antonio": {
@@ -238,6 +244,12 @@
           "type": "manual",
           "sender": "Antonio",
           "snippet": "Ciao NicolÃÂ², volevo solo verificare che il video fosse arrivato."
+        },
+        {
+          "date": "2026-05-19",
+          "type": "manual",
+          "sender": "Antonio",
+          "snippet": "Ciao Nicolò! Grande, molto interessante. Oltre a lavorare nel growth eCommerce, soprattutto per fashion boutique e DTC italiani..."
         }
       ],
       "last_outbound_by_antonio": {
@@ -294,7 +306,14 @@
       "label_id": "Label_1592668050883672428",
       "sender": "Manu",
       "is_first_email": true,
-      "followups_sent": [],
+      "followups_sent": [
+        {
+          "date": "2026-05-15",
+          "type": "manual",
+          "sender": "Antonio",
+          "snippet": "Grazie mille Sara 😊 Attendo notizie da chi di competenza."
+        }
+      ],
       "last_outbound_by_antonio": {
         "date": "2026-05-15",
         "snippet": "Grazie mille Sara 😊"
@@ -336,7 +355,14 @@
       "stape_score": null,
       "notes": "E-commerce Manager. Ha risposto positivamente dopo 16 min: 'I would be happy to have a look at your report, why not ;)'. Antonio invia video Loom completo il 20/05 con analisi tracking + CRO.",
       "thread_id": "19e2be2290b50c3b",
-      "followups_sent": [],
+      "followups_sent": [
+        {
+          "date": "2026-05-20",
+          "type": "manual",
+          "sender": "Antonio",
+          "snippet": "Buon pomeriggio Caterina! Scusami il ritardo, volevo registrare un video completo dettagliato — qui trovi il video con l'analisi completa!"
+        }
+      ],
       "scheduled_timeline": {
         "first_email": "2026-05-15",
         "follow_up_1": "2026-05-29",
@@ -390,7 +416,14 @@
       "redirect_to": null,
       "stape_score": null,
       "notes": "Contattato via form Shopify store (18/05). Andrea Serafini risponde stessa sera: 'manda pure grazie'. Antonio invia video Loom il 20/05: analisi collo di bottiglia tracking + potenziale game changer.",
-      "followups_sent": [],
+      "followups_sent": [
+        {
+          "date": "2026-05-20",
+          "type": "manual",
+          "sender": "Antonio",
+          "snippet": "Ciao Andrea! Intanto grazie mille per la tua risposta 😊 Ho registrato un video completo in cui analizzo questo collo di bottiglia — potrebbe diventare un vero game changer!"
+        }
+      ],
       "scheduled_timeline": {
         "first_email": "2026-05-18",
         "follow_up_1": "2026-06-01",
@@ -422,7 +455,8 @@
           "action": "Antonio inviato video Loom ad Andrea (Camden23)"
         }
       ],
-      "skip": false
+      "skip": false,
+      "first_email_snippet": "Buonasera, stavo guardando Camden Rimini shop e ho visto che state girando campagne Meta/Google su uno store Shopify già strutturato. Ho controllato velocemente il tracking, c'è un problema che vi sta costando segnali sulle campagne."
     },
     {
       "id": "prospect_326",
@@ -507,7 +541,14 @@
       "redirect_to": null,
       "stape_score": null,
       "notes": "Luxury multi-brand boutique Amsterdam. Risposta da Bjorn (bjorn@oger.nl, CC martijn@oger.nl) il 19/05: chiede case study + full Stape audit. Antonio risponde il 20/05 con email completa (case study Cumini + analisi Stape oger.nl).",
-      "followups_sent": [],
+      "followups_sent": [
+        {
+          "date": "2026-05-20",
+          "type": "manual",
+          "sender": "Antonio",
+          "snippet": "Good morning, thank you for your reply. I'll go in order — complete email with case study (Cumini, 4 years) + full Stape analysis on oger.nl."
+        }
+      ],
       "scheduled_timeline": {
         "first_email": "2026-05-18",
         "follow_up_1": "2026-06-01",
