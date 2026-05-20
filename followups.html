@@ -157,6 +157,7 @@ function computeAllTodos() {
   const todos = [];
   for (const p of all) {
     if (HARD_EXCLUDED.includes(p.status)) continue;
+    if (p.skip) continue;
     const next = resolveNextAction(p);
     if (!next.date) continue;
     todos.push({
