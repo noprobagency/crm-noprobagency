@@ -1,6 +1,6 @@
 {
   "meta": {
-    "last_updated": "2026-05-20T21:15:00Z",
+    "last_updated": "2026-05-20T21:40:00+02:00",
     "total_contacted": 316,
     "total_replied": 8,
     "total_bounced": 46,
@@ -28,8 +28,8 @@
       "status": "in_conversation",
       "first_contact": "2026-04-30",
       "last_activity": "2026-05-13",
-      "next_action": "Valutare follow-up",
-      "next_action_date": null,
+      "next_action": "REPORT INVIATO — attesa risposta Victoire (report Stape inviato 13/05)",
+      "next_action_date": "2026-05-22",
       "stape_score": 39,
       "notes": "Founder & CEO. Ha chiesto il report dopo bump del 12/05. Inviato report Stape completo il 13/05 (Ads 44/100).",
       "thread_id": "19ddac7248b1a78a",
@@ -93,11 +93,11 @@
       "platform": "Shopify",
       "status": "in_conversation",
       "first_contact": "2026-05-01",
-      "last_activity": "2026-05-12",
-      "next_action": "Follow-up urgente",
-      "next_action_date": "2026-05-20",
+      "last_activity": "2026-05-20",
+      "next_action": "FU inviato — attesa risposta video",
+      "next_action_date": null,
       "stape_score": null,
-      "notes": "Risposta positiva il 07/05. Inviato video di analisi (10 min) l'08/05. Bump il 12/05 senza risposta ancora.",
+      "notes": "Risposta positiva il 07/05. Inviato video di analisi (10 min) l'08/05. Bump il 12/05. FU inviato il 20/05: ha avuto modo di vedere il video?",
       "thread_id": "19e026540b01048b",
       "timeline": [
         {
@@ -115,6 +115,10 @@
         {
           "date": "2026-05-12",
           "action": "Bump check video"
+        },
+        {
+          "date": "2026-05-20",
+          "action": "FU inviato (Claude/Cowork): ha avuto modo di vedere il video?"
         }
       ],
       "label_id": "Label_8658624016447790536",
@@ -138,17 +142,23 @@
           "type": "manual",
           "sender": "Antonio",
           "snippet": "Ciao Valeria, volevo solo verificare che il video fosse arrivato, ha avuto modo di vederlo?"
+        },
+        {
+          "date": "2026-05-20",
+          "type": "manual",
+          "sender": "Claude",
+          "snippet": "Ciao Valeria, ha avuto modo di vedere il video? Fammi sapere se c'è qualcosa da chiarire."
         }
       ],
       "last_outbound_by_antonio": {
-        "date": "2026-05-12",
-        "snippet": "Ciao Valeria, volevo solo verificare che il video fosse arrivato, ha avuto modo di vederlo?"
+        "date": "2026-05-20",
+        "snippet": "Ciao Valeria, ha avuto modo di vedere il video? Fammi sapere se c'è qualcosa da chiarire."
       },
       "last_reply_from_prospect": {
         "date": "2026-05-07",
         "snippet": "Va bene Antonio, me lo mandi pure. Grazie, Valeria Gerosa (IL SELLAIO, F.lli Cazzaniga Srl)"
       },
-      "next_followup_due": "2026-05-18",
+      "next_followup_due": null,
       "days_since_last_activity": 1,
       "first_email_snippet": "Ciao Valeria, mi sono imbattuto in Il Sellaio guardando i migliori store Shopify del settore. Ho notato 2-3 cose sulle ads che vale la pena vedere.",
       "scheduled_timeline": {
@@ -175,7 +185,7 @@
       "next_action": "In attesa risposta / Valutare risposta CV (off-topic)",
       "next_action_date": null,
       "stape_score": null,
-      "notes": "Email personale (nicodeka03@gmail.com). Risposta positiva il 07/05 ('Manda pure'). Video inviato l'08/05. Bump il 12/05.",
+      "notes": "Email personale (nicodeka03@gmail.com). Risposta positiva il 07/05. Video inviato l'08/05. Risposta 13/05: molto insightful. Il 18/05: allega CV (off-topic). Antonio risponde il 19/05.",
       "thread_id": "19e02604b5efa2cb",
       "timeline": [
         {
@@ -199,8 +209,12 @@
           "action": "Risposta da NicolÃÂ²: 'Visto adesso il video, molto insightful! ...mi faccio risentire settimana prossima se decidiamo di investire nel online'"
         },
         {
+          "date": "2026-05-18",
+          "action": "Risposta off-topic da Nicolò: allega CV — probabilmente risposta errata o confusa"
+        },
+        {
           "date": "2026-05-19",
-          "action": "Risposta off-topic da NicolÃÂ²: 'Ti allego il mio CV' Ã¢ÂÂ risposta probabilmente errata o non correlata all'offerta"
+          "action": "Antonio risponde al CV: 'Grande, molto interessante. Oltre a lavorare nel growth eCommerce...'"
         }
       ],
       "label_id": "Label_1592668050883672428",
@@ -227,12 +241,12 @@
         }
       ],
       "last_outbound_by_antonio": {
-        "date": "2026-05-12",
-        "snippet": "Ciao NicolÃÂ², volevo solo verificare che il video fosse arrivato, hai avuto modo di vederlo?"
+        "date": "2026-05-19",
+        "snippet": "Ciao Nicolò! Grande, molto interessante. Oltre a lavorare nel growth eCommerce, soprattutto per fashion boutique..."
       },
       "last_reply_from_prospect": {
-        "date": "2026-05-19",
-        "snippet": "Ti allego il mio CV, ho piu che altro esperienze nel mondo del calcio/sport perÃÂ² ho un background molto europeo avendo vissuto e lavorato in 4 paesi diversi"
+        "date": "2026-05-18",
+        "snippet": "Ti allego il mio CV, ho più che altro esperienze nel mondo del calcio/sport però ho un background molto europeo..."
       },
       "next_followup_due": "2026-05-18",
       "days_since_last_activity": 0,
@@ -258,7 +272,7 @@
       "status": "in_conversation",
       "first_contact": "2026-05-13",
       "last_activity": "2026-05-15",
-      "next_action": "Valutare follow-up",
+      "next_action": "Attendere risposta da chi di competenza",
       "next_action_date": null,
       "stape_score": null,
       "notes": "Luxury boutique Casale Monferrato",
@@ -283,11 +297,11 @@
       "followups_sent": [],
       "last_outbound_by_antonio": {
         "date": "2026-05-15",
-        "snippet": "Grazie mille Sara Ã°ÂÂÂ"
+        "snippet": "Grazie mille Sara 😊"
       },
       "last_reply_from_prospect": {
         "date": "2026-05-15",
-        "snippet": "Buongiorno Antonio, ho girato la sua mail a chi di competenza. Cordiali saluti, Sara Agnelli MINETTI ANGELO SRL"
+        "snippet": "ho girato la sua mail a chi di competenza"
       },
       "next_followup_due": "2026-05-27",
       "days_since_last_activity": 1,
@@ -430,8 +444,15 @@
       "had_cc_bcc": false,
       "redirect_to": null,
       "stape_score": null,
-      "notes": "",
-      "followups_sent": [],
+      "notes": "Risposta da ecommerce@ il 19/05: tracking già noto, risolto oggi. Report Stape inviato il 19/05. pieromarchesani@ bounced.",
+      "followups_sent": [
+        {
+          "date": "2026-05-19",
+          "type": "manual",
+          "sender": "Antonio",
+          "snippet": "grazie per la risposta. Ottimo che ci stiate lavorando. Nel frattempo vi mando il report del tracking..."
+        }
+      ],
       "scheduled_timeline": {
         "first_email": "2026-05-18",
         "follow_up_1": "2026-06-01",
@@ -441,13 +462,13 @@
       },
       "last_outbound_by_antonio": {
         "date": "2026-05-19",
-        "snippet": "Ciao Nino, grazie per la risposta. Ottimo che ci stiate lavorando. Nel frattempo vi mando comunque il report del tracking, puÃÂ² essere utile come riferimento per capire dove intervenire."
+        "snippet": "grazie per la risposta. Ottimo che ci stiate lavorando. Nel frattempo vi mando il report del tracking..."
       },
       "last_reply_from_prospect": {
         "date": "2026-05-19",
-        "snippet": "Grazie per il messaggio. sono a conoscenza del problema di tracking e verrÃÂ  risolto oggi in giornata. Buon lavoro. E-commerce Manager"
+        "snippet": "sono a conoscenza del problema di tracking e verrà risolto oggi in giornata"
       },
-      "next_action": "Risposta ricevuta: tracking sarÃÂ  risolto oggi. Follow up con report Stape completo",
+      "next_action": "REPORT INVIATO — attesa risposta dopo fix tracking",
       "next_action_date": "2026-05-22",
       "timeline": [
         {
@@ -10812,7 +10833,7 @@
       "last_activity": "2026-05-19",
       "multi_to": false,
       "had_cc_bcc": false,
-      "redirect_to": "AmandaFullalove@needleandthread.com",
+      "redirect_to": null,
       "stape_score": null,
       "notes": "OOO da Alice Hollidge (19/05) - redirect a Amanda Fullalove (amanda.fullalove@needleandthread.com) | Email inviata a AmandaFullalove@needleandthread.com il 2026-05-19 da Claude. Prospect_332 creato.",
       "followups_sent": [],
@@ -10828,8 +10849,8 @@
         "snippet": "Hi Alice, I was looking into Needle & Thread website and noticed you're running Meta/Google campaigns on an already well-str"
       },
       "last_reply_from_prospect": null,
-      "next_action": "Redirect: invia a AmandaFullalove@needleandthread.com",
-      "next_action_date": "2026-05-19",
+      "next_action": "Redirect completato — Amanda Fullalove contattata il 2026-05-19",
+      "next_action_date": null,
       "timeline": [
         {
           "date": "2026-05-15",
@@ -10843,7 +10864,8 @@
           "date": "2026-05-19",
           "action": "Email outbound 2B inviata da Claude (Cowork) a AmandaFullalove@needleandthread.com Ã¢ÂÂ prospect_332 creato"
         }
-      ]
+      ],
+      "next_followup_due": null
     },
     {
       "id": "prospect_241",
