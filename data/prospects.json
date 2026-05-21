@@ -1,10 +1,10 @@
 {
   "meta": {
-    "last_updated": "2026-05-20T22:30:00+02:00",
-    "total_contacted": 316,
+    "last_updated": "2026-05-22T01:15:00+02:00",
+    "total_contacted": 327,
     "total_replied": 8,
-    "total_bounced": 46,
-    "total_autoresponse": 16,
+    "total_bounced": 47,
+    "total_autoresponse": 15,
     "first_run": false,
     "coverage_note": "First run Ã¢ÂÂ copre outbound visibili negli ultimi ~9 giorni (2026-05-06 Ã¢ÂÂ 2026-05-13). Le runs giornaliere successive aggiungeranno nuovi thread incrementalmente.",
     "schema_version": "v3.5",
@@ -28,7 +28,7 @@
       "status": "in_conversation",
       "first_contact": "2026-04-30",
       "last_activity": "2026-05-13",
-      "next_action": "REPORT INVIATO — attesa risposta Victoire (report Stape inviato 13/05)",
+      "next_action": "Follow-up urgente — Victoire non ha risposto al report Stape (9 gg da ultimo outbound)",
       "next_action_date": "2026-05-22",
       "stape_score": 39,
       "notes": "Founder & CEO. Ha chiesto il report dopo bump del 12/05. Inviato report Stape completo il 13/05 (Ads 44/100).",
@@ -100,8 +100,8 @@
       "status": "in_conversation",
       "first_contact": "2026-05-01",
       "last_activity": "2026-05-20",
-      "next_action": "FU inviato — attesa risposta video",
-      "next_action_date": null,
+      "next_action": "Attesa risposta video — follow-up inviato 20/05",
+      "next_action_date": "2026-05-27",
       "stape_score": null,
       "notes": "Risposta positiva il 07/05. Inviato video di analisi (10 min) l'08/05. Bump il 12/05. FU inviato il 20/05: ha avuto modo di vedere il video?",
       "thread_id": "19e026540b01048b",
@@ -188,8 +188,8 @@
       "status": "in_conversation",
       "first_contact": "2026-05-01",
       "last_activity": "2026-05-19",
-      "next_action": "In attesa risposta / Valutare risposta CV (off-topic)",
-      "next_action_date": null,
+      "next_action": "In attesa risposta — Antonio ha risposto alla mail con CV (off-topic) il 19/05",
+      "next_action_date": "2026-05-26",
       "stape_score": null,
       "notes": "Email personale (nicodeka03@gmail.com). Risposta positiva il 07/05. Video inviato l'08/05. Risposta 13/05: molto insightful. Il 18/05: allega CV (off-topic). Antonio risponde il 19/05.",
       "thread_id": "19e02604b5efa2cb",
@@ -284,8 +284,8 @@
       "status": "in_conversation",
       "first_contact": "2026-05-13",
       "last_activity": "2026-05-15",
-      "next_action": "Attendere risposta da chi di competenza",
-      "next_action_date": null,
+      "next_action": "Valutare follow-up — Sara ha girato a chi di competenza il 15/05, nessuna risposta",
+      "next_action_date": "2026-05-22",
       "stape_score": null,
       "notes": "Luxury boutique Casale Monferrato",
       "thread_id": "19e213be13545c0d",
@@ -502,8 +502,8 @@
         "date": "2026-05-19",
         "snippet": "sono a conoscenza del problema di tracking e verrà risolto oggi in giornata"
       },
-      "next_action": "REPORT INVIATO — attesa risposta dopo fix tracking",
-      "next_action_date": "2026-05-22",
+      "next_action": "In attesa risposta — report Stape inviato 19/05 dopo fix tracking annunciato",
+      "next_action_date": "2026-05-25",
       "timeline": [
         {
           "date": "2026-05-18",
@@ -2375,16 +2375,20 @@
       "platform": "non-Shopify",
       "status": "contacted",
       "first_contact": "2026-05-11",
-      "last_activity": "2026-05-11",
+      "last_activity": "2026-05-22",
       "next_action": "Follow-up 1",
       "next_action_date": "2026-05-25",
       "stape_score": null,
-      "notes": "Boutique Livigno",
-      "thread_id": "19e17ac4d6a43ea2",
+      "notes": "Boutique Livigno | Anomalia: Dami ha inviato nuova prima email il 22/05 (thread diverso). Contatto originale Manu 11/05.",
+      "thread_id": "19e4bcef1a495d40",
       "timeline": [
         {
           "date": "2026-05-11",
           "action": "Email outbound 1A inviata"
+        },
+        {
+          "date": "2026-05-22",
+          "action": "Nuova prima email inviata da Dami (thread 19e4bcef1a495d40). Anomalia doppio contatto."
         }
       ],
       "label_id": "Label_1592668050883672428",
@@ -2419,16 +2423,20 @@
       "platform": "non-Shopify",
       "status": "contacted",
       "first_contact": "2026-05-11",
-      "last_activity": "2026-05-11",
+      "last_activity": "2026-05-22",
       "next_action": "Follow-up 1",
       "next_action_date": "2026-05-25",
       "stape_score": null,
-      "notes": "Boutique Modena",
-      "thread_id": "19e17a8a068dcef8",
+      "notes": "Boutique Modena | Anomalia: Dami ha inviato nuova prima email il 22/05 (thread diverso). Contatto originale Manu 11/05.",
+      "thread_id": "19e4bbd17f7d7f0d",
       "timeline": [
         {
           "date": "2026-05-11",
           "action": "Email outbound 1A inviata"
+        },
+        {
+          "date": "2026-05-22",
+          "action": "Nuova prima email inviata da Dami (thread 19e4bbd17f7d7f0d). Anomalia doppio contatto."
         }
       ],
       "label_id": "Label_1592668050883672428",
@@ -3467,16 +3475,20 @@
       "platform": "non-Shopify",
       "status": "contacted",
       "first_contact": "2026-05-08",
-      "last_activity": "2026-05-08",
+      "last_activity": "2026-05-21",
       "next_action": "Follow-up 1",
       "next_action_date": "2026-05-22",
       "stape_score": null,
-      "notes": "Boutique Palermo",
-      "thread_id": "19e07c110e51efb7",
+      "notes": "Boutique Palermo | Anomalia: Dami ha inviato nuova prima email il 21/05 (thread diverso). Contatto originale Manu 08/05.",
+      "thread_id": "19e4aefc48c9fcc0",
       "timeline": [
         {
           "date": "2026-05-08",
           "action": "Email outbound 1A inviata"
+        },
+        {
+          "date": "2026-05-21",
+          "action": "Nuova prima email inviata da Dami (thread 19e4aefc48c9fcc0). Anomalia doppio contatto."
         }
       ],
       "label_id": "Label_1592668050883672428",
@@ -3511,16 +3523,20 @@
       "platform": "non-Shopify",
       "status": "contacted",
       "first_contact": "2026-05-08",
-      "last_activity": "2026-05-08",
+      "last_activity": "2026-05-21",
       "next_action": "Follow-up 1",
       "next_action_date": "2026-05-22",
       "stape_score": null,
-      "notes": "Luxury boutique Santa Maria a Monte",
-      "thread_id": "19e07bbfdd4bbe62",
+      "notes": "Luxury boutique Santa Maria a Monte | Anomalia: Dami ha inviato nuova prima email il 21/05 (thread diverso). Contatto originale Manu 08/05.",
+      "thread_id": "19e4ae6cba43b15b",
       "timeline": [
         {
           "date": "2026-05-08",
           "action": "Email outbound 1A inviata"
+        },
+        {
+          "date": "2026-05-21",
+          "action": "Nuova prima email inviata da Dami (thread 19e4ae6cba43b15b). Anomalia doppio contatto."
         }
       ],
       "label_id": "Label_1592668050883672428",
@@ -15045,6 +15061,490 @@
         }
       ],
       "skip": false
+    },
+    {
+      "id": "prospect_340",
+      "brand": "Birba's Details",
+      "contact": null,
+      "email": "info@birbasdetails.com",
+      "domain": "birbasdetails.com",
+      "assigned_to": "Dami",
+      "sender": "Dami",
+      "label_id": "Label_8658624016447790536",
+      "angle": "1A",
+      "platform": "non-Shopify",
+      "status": "contacted",
+      "first_contact": "2026-05-22",
+      "last_activity": "2026-05-22",
+      "multi_to": false,
+      "had_cc_bcc": false,
+      "redirect_to": null,
+      "stape_score": null,
+      "notes": "Fashion boutique Chieti. Non hanno e-commerce avviato.",
+      "thread_id": "19e4bc9d999e8dc7",
+      "subject_email": "Birba's Details, una cosa che ho notato",
+      "followups_sent": [],
+      "scheduled_timeline": {
+        "first_email": "2026-05-22",
+        "follow_up_1": "2026-06-08",
+        "follow_up_2": "2026-06-29",
+        "follow_up_3": "2026-07-27",
+        "out_date": "2026-07-28"
+      },
+      "last_outbound_by_antonio": {
+        "date": "2026-05-22",
+        "snippet": "Mi sono imbattuto in Birba's Details cercando tra le migliori fashion boutique in Italia. Ho visto però che non avete un e-commerce avviato, il che è strano."
+      },
+      "last_reply_from_prospect": null,
+      "next_action": "Follow-up 1",
+      "next_action_date": "2026-06-08",
+      "skip": false,
+      "timeline": [
+        {
+          "date": "2026-05-22",
+          "action": "Email outbound 1A inviata (Dami)"
+        }
+      ]
+    },
+    {
+      "id": "prospect_341",
+      "brand": "Le Noir Boutique",
+      "contact": null,
+      "email": "shop@lenoirboutique.com",
+      "domain": "lenoirboutique.com",
+      "assigned_to": "Dami",
+      "sender": "Dami",
+      "label_id": "Label_8658624016447790536",
+      "angle": "1A",
+      "platform": "non-Shopify",
+      "status": "contacted",
+      "first_contact": "2026-05-22",
+      "last_activity": "2026-05-22",
+      "multi_to": false,
+      "had_cc_bcc": false,
+      "redirect_to": null,
+      "stape_score": null,
+      "notes": "Luxury boutique Treviso. Stesso domain di prospect_070 (info@). Nuovo contatto shop@.",
+      "thread_id": "19e4bac76b96d585",
+      "subject_email": "Lenoir, una cosa che ho notato",
+      "followups_sent": [],
+      "scheduled_timeline": {
+        "first_email": "2026-05-22",
+        "follow_up_1": "2026-06-08",
+        "follow_up_2": "2026-06-29",
+        "follow_up_3": "2026-07-27",
+        "out_date": "2026-07-28"
+      },
+      "last_outbound_by_antonio": {
+        "date": "2026-05-22",
+        "snippet": "Mi sono imbattuto in Lenoir Boutique cercando tra le migliori fashion boutique in Italia. Ho visto la piattaforma che state usando per le vendite online, la conosco molto bene."
+      },
+      "last_reply_from_prospect": null,
+      "next_action": "Follow-up 1",
+      "next_action_date": "2026-06-08",
+      "skip": false,
+      "timeline": [
+        {
+          "date": "2026-05-22",
+          "action": "Email outbound 1A inviata (Dami) — stesso domain di prospect_070"
+        }
+      ]
+    },
+    {
+      "id": "prospect_342",
+      "brand": "Le Noir Boutique",
+      "contact": "Karen Migotto",
+      "email": "karen_migotto@lenoirboutique.com",
+      "domain": "lenoirboutique.com",
+      "assigned_to": "Dami",
+      "sender": "Dami",
+      "label_id": "Label_8658624016447790536",
+      "angle": "1A",
+      "platform": "non-Shopify",
+      "status": "contacted",
+      "first_contact": "2026-05-22",
+      "last_activity": "2026-05-22",
+      "multi_to": false,
+      "had_cc_bcc": false,
+      "redirect_to": null,
+      "stape_score": null,
+      "notes": "Luxury boutique Treviso. Stesso domain di prospect_070 (info@) e prospect_341 (shop@). Contatto nominale: Karen Migotto.",
+      "thread_id": "19e4bac58979b851",
+      "subject_email": "Lenoir, una cosa che ho notato",
+      "followups_sent": [],
+      "scheduled_timeline": {
+        "first_email": "2026-05-22",
+        "follow_up_1": "2026-06-08",
+        "follow_up_2": "2026-06-29",
+        "follow_up_3": "2026-07-27",
+        "out_date": "2026-07-28"
+      },
+      "last_outbound_by_antonio": {
+        "date": "2026-05-22",
+        "snippet": "Mi sono imbattuto in Lenoir Boutique cercando tra le migliori fashion boutique in Italia. Ho visto la piattaforma che state usando per le vendite online, la conosco molto bene."
+      },
+      "last_reply_from_prospect": null,
+      "next_action": "Follow-up 1",
+      "next_action_date": "2026-06-08",
+      "skip": false,
+      "timeline": [
+        {
+          "date": "2026-05-22",
+          "action": "Email outbound 1A inviata a Karen Migotto (Dami) — stesso domain di prospect_070"
+        }
+      ]
+    },
+    {
+      "id": "prospect_343",
+      "brand": "G&B Negozi Online",
+      "contact": null,
+      "email": "customercare@gebnegozionline.com",
+      "domain": "gebnegozionline.com",
+      "assigned_to": "Dami",
+      "sender": "Dami",
+      "label_id": "Label_8658624016447790536",
+      "angle": "1A",
+      "platform": "non-Shopify",
+      "status": "contacted",
+      "first_contact": "2026-05-21",
+      "last_activity": "2026-05-21",
+      "multi_to": false,
+      "had_cc_bcc": false,
+      "redirect_to": null,
+      "stape_score": null,
+      "notes": "Luxury boutique Flero (BS). Stesso domain di prospect_072 (info@). Nuovo contatto customercare@.",
+      "thread_id": "19e4ba62f9751395",
+      "subject_email": "G&B, i dati non tornano",
+      "followups_sent": [],
+      "scheduled_timeline": {
+        "first_email": "2026-05-21",
+        "follow_up_1": "2026-06-05",
+        "follow_up_2": "2026-06-26",
+        "follow_up_3": "2026-07-24",
+        "out_date": "2026-07-27"
+      },
+      "last_outbound_by_antonio": {
+        "date": "2026-05-21",
+        "snippet": "Mi sono imbattuto in G&B negozio online cercando tra le migliori fashion boutique in Italia. Ho visto la piattaforma che state usando per le vendite online, la conosco molto bene."
+      },
+      "last_reply_from_prospect": null,
+      "next_action": "Follow-up 1",
+      "next_action_date": "2026-06-05",
+      "skip": false,
+      "timeline": [
+        {
+          "date": "2026-05-21",
+          "action": "Email outbound 1A inviata (Dami) — stesso domain di prospect_072"
+        }
+      ]
+    },
+    {
+      "id": "prospect_344",
+      "brand": "Davide Cenci",
+      "contact": null,
+      "email": "customer-service-eu@davidecenci.com",
+      "domain": "davidecenci.com",
+      "assigned_to": "Dami",
+      "sender": "Dami",
+      "label_id": "Label_8658624016447790536",
+      "angle": "1A",
+      "platform": "non-Shopify",
+      "status": "contacted",
+      "first_contact": "2026-05-21",
+      "last_activity": "2026-05-21",
+      "multi_to": false,
+      "had_cc_bcc": false,
+      "redirect_to": null,
+      "stape_score": null,
+      "notes": "Luxury boutique Roma. Stesso domain di prospect_073 (info@). Nuovo contatto customer-service-eu@.",
+      "thread_id": "19e4b0cff9e5d661",
+      "subject_email": "Davide Cenci, i dati non tornano",
+      "followups_sent": [],
+      "scheduled_timeline": {
+        "first_email": "2026-05-21",
+        "follow_up_1": "2026-06-05",
+        "follow_up_2": "2026-06-26",
+        "follow_up_3": "2026-07-24",
+        "out_date": "2026-07-27"
+      },
+      "last_outbound_by_antonio": {
+        "date": "2026-05-21",
+        "snippet": "Mi sono imbattuto in Davide Cenci cercando le migliori fashion boutique in Italia. Ho visto la piattaforma che state usando per le vendite online, la conosco molto bene."
+      },
+      "last_reply_from_prospect": null,
+      "next_action": "Follow-up 1",
+      "next_action_date": "2026-06-05",
+      "skip": false,
+      "timeline": [
+        {
+          "date": "2026-05-21",
+          "action": "Email outbound 1A inviata (Dami) — stesso domain di prospect_073"
+        }
+      ]
+    },
+    {
+      "id": "prospect_345",
+      "brand": "Luisaviaroma",
+      "contact": "Iryna Papkovich",
+      "email": "i.papkovich@luisaviaroma.com",
+      "domain": "luisaviaroma.com",
+      "assigned_to": "Dami",
+      "sender": "Dami",
+      "label_id": "Label_8658624016447790536",
+      "angle": "1A",
+      "platform": "non-Shopify",
+      "status": "contacted",
+      "first_contact": "2026-05-21",
+      "last_activity": "2026-05-21",
+      "multi_to": false,
+      "had_cc_bcc": false,
+      "redirect_to": null,
+      "stape_score": null,
+      "notes": "Luxury Firenze. Stesso domain di prospect_075 (m.ritratti@) e bounce_047 (m.pacini@). Contatto Iryna Papkovich.",
+      "thread_id": "19e4aff3fe6ef671",
+      "subject_email": "Luisa Via Roma, i dati non tornano",
+      "followups_sent": [],
+      "scheduled_timeline": {
+        "first_email": "2026-05-21",
+        "follow_up_1": "2026-06-05",
+        "follow_up_2": "2026-06-26",
+        "follow_up_3": "2026-07-24",
+        "out_date": "2026-07-27"
+      },
+      "last_outbound_by_antonio": {
+        "date": "2026-05-21",
+        "snippet": "Mi sono imbattuto in Luisa Via Roma cercando le migliori fashion boutique in Italia. Ho visto la piattaforma che state usando per le vendite online, la conosco molto bene."
+      },
+      "last_reply_from_prospect": null,
+      "next_action": "Follow-up 1",
+      "next_action_date": "2026-06-05",
+      "skip": false,
+      "timeline": [
+        {
+          "date": "2026-05-21",
+          "action": "Email outbound 1A inviata a Iryna Papkovich (Dami) — stesso domain di prospect_075"
+        }
+      ]
+    },
+    {
+      "id": "prospect_346",
+      "brand": "Giglio",
+      "contact": "Federico Giglio",
+      "email": "federico.giglio@giglio.com",
+      "domain": "giglio.com",
+      "assigned_to": "Dami",
+      "sender": "Dami",
+      "label_id": "Label_8658624016447790536",
+      "angle": "1A",
+      "platform": "non-Shopify",
+      "status": "contacted",
+      "first_contact": "2026-05-21",
+      "last_activity": "2026-05-21",
+      "multi_to": false,
+      "had_cc_bcc": false,
+      "redirect_to": null,
+      "stape_score": null,
+      "notes": "Boutique Palermo. Stesso domain di prospect_076 (giuseppe@) e prospect_347 (fabio@). Contatto Federico Giglio.",
+      "thread_id": "19e4aefa37a84e60",
+      "subject_email": "Giglio, i dati non tornano",
+      "followups_sent": [],
+      "scheduled_timeline": {
+        "first_email": "2026-05-21",
+        "follow_up_1": "2026-06-05",
+        "follow_up_2": "2026-06-26",
+        "follow_up_3": "2026-07-24",
+        "out_date": "2026-07-27"
+      },
+      "last_outbound_by_antonio": {
+        "date": "2026-05-21",
+        "snippet": "Mi sono imbattuto in Giglio cercando le migliori fashion boutique in Italia, lo store a piazza Mordini è stupendo. Ho visto la piattaforma che state usando per le vendite online."
+      },
+      "last_reply_from_prospect": null,
+      "next_action": "Follow-up 1",
+      "next_action_date": "2026-06-05",
+      "skip": false,
+      "timeline": [
+        {
+          "date": "2026-05-21",
+          "action": "Email outbound 1A inviata a Federico Giglio (Dami) — stesso domain di prospect_076"
+        }
+      ]
+    },
+    {
+      "id": "prospect_347",
+      "brand": "Giglio",
+      "contact": "Fabio Ginestra",
+      "email": "fabio.ginestra@giglio.com",
+      "domain": "giglio.com",
+      "assigned_to": "Dami",
+      "sender": "Dami",
+      "label_id": "Label_8658624016447790536",
+      "angle": "1A",
+      "platform": "non-Shopify",
+      "status": "contacted",
+      "first_contact": "2026-05-21",
+      "last_activity": "2026-05-21",
+      "multi_to": false,
+      "had_cc_bcc": false,
+      "redirect_to": null,
+      "stape_score": null,
+      "notes": "Boutique Palermo. Stesso domain di prospect_076 (giuseppe@) e prospect_346 (federico@). Contatto Fabio Ginestra.",
+      "thread_id": "19e4aef82e0d4265",
+      "subject_email": "Giglio, i dati non tornano",
+      "followups_sent": [],
+      "scheduled_timeline": {
+        "first_email": "2026-05-21",
+        "follow_up_1": "2026-06-05",
+        "follow_up_2": "2026-06-26",
+        "follow_up_3": "2026-07-24",
+        "out_date": "2026-07-27"
+      },
+      "last_outbound_by_antonio": {
+        "date": "2026-05-21",
+        "snippet": "Mi sono imbattuto in Giglio cercando le migliori fashion boutique in Italia, lo store a piazza Mordini è stupendo. Ho visto la piattaforma che state usando per le vendite online."
+      },
+      "last_reply_from_prospect": null,
+      "next_action": "Follow-up 1",
+      "next_action_date": "2026-06-05",
+      "skip": false,
+      "timeline": [
+        {
+          "date": "2026-05-21",
+          "action": "Email outbound 1A inviata a Fabio Ginestra (Dami) — stesso domain di prospect_076"
+        }
+      ]
+    },
+    {
+      "id": "prospect_348",
+      "brand": "Cortecci Siena 1935",
+      "contact": null,
+      "email": "shop@corteccisiena.it",
+      "domain": "corteccisiena.it",
+      "assigned_to": "Dami",
+      "sender": "Dami",
+      "label_id": "Label_8658624016447790536",
+      "angle": "1A",
+      "platform": "non-Shopify",
+      "status": "contacted",
+      "first_contact": "2026-05-21",
+      "last_activity": "2026-05-21",
+      "multi_to": false,
+      "had_cc_bcc": false,
+      "redirect_to": null,
+      "stape_score": null,
+      "notes": "Luxury boutique Siena. Stesso domain di prospect_078 (info@). Nuovo contatto shop@.",
+      "thread_id": "19e4add97e76d699",
+      "subject_email": "Cortecci, i dati non tornano",
+      "followups_sent": [],
+      "scheduled_timeline": {
+        "first_email": "2026-05-21",
+        "follow_up_1": "2026-06-05",
+        "follow_up_2": "2026-06-26",
+        "follow_up_3": "2026-07-24",
+        "out_date": "2026-07-27"
+      },
+      "last_outbound_by_antonio": {
+        "date": "2026-05-21",
+        "snippet": "Mi sono imbattuto in Cortecci Siena 1935 cercando le migliori fashion boutique del settore in Italia. Ho visto la piattaforma che state usando per le vendite online."
+      },
+      "last_reply_from_prospect": null,
+      "next_action": "Follow-up 1",
+      "next_action_date": "2026-06-05",
+      "skip": false,
+      "timeline": [
+        {
+          "date": "2026-05-21",
+          "action": "Email outbound 1A inviata (Dami) — stesso domain di prospect_078"
+        }
+      ]
+    },
+    {
+      "id": "prospect_349",
+      "brand": "Oberrauch Zitt",
+      "contact": null,
+      "email": "shop@oberrauch-zitt.com",
+      "domain": "oberrauch-zitt.com",
+      "assigned_to": "Dami",
+      "sender": "Dami",
+      "label_id": "Label_8658624016447790536",
+      "angle": "2B",
+      "platform": "Shopify",
+      "status": "contacted",
+      "first_contact": "2026-05-21",
+      "last_activity": "2026-05-21",
+      "multi_to": false,
+      "had_cc_bcc": false,
+      "redirect_to": null,
+      "stape_score": null,
+      "notes": "Luxury boutique Bolzano. Stesso domain di prospect_079 (info@) e prospect_350 (thomas@). Contatto shop@.",
+      "thread_id": "19e4ad96cec0100a",
+      "subject_email": "Oberrauch Zitt, one quick thing about your website",
+      "followups_sent": [],
+      "scheduled_timeline": {
+        "first_email": "2026-05-21",
+        "follow_up_1": "2026-06-05",
+        "follow_up_2": "2026-06-26",
+        "follow_up_3": "2026-07-24",
+        "out_date": "2026-07-27"
+      },
+      "last_outbound_by_antonio": {
+        "date": "2026-05-21",
+        "snippet": "Hi Thomas, I was analyzing competitors in the fashion industry and came across Oberrauch Zitt. I did a quick check on your tracking and found an issue."
+      },
+      "last_reply_from_prospect": null,
+      "next_action": "Follow-up 1",
+      "next_action_date": "2026-06-05",
+      "skip": false,
+      "timeline": [
+        {
+          "date": "2026-05-21",
+          "action": "Email outbound 2B inviata (Dami) — stesso domain di prospect_079"
+        }
+      ]
+    },
+    {
+      "id": "prospect_350",
+      "brand": "Oberrauch Zitt",
+      "contact": "Thomas D.",
+      "email": "thomas.d@oberrauch-zitt.com",
+      "domain": "oberrauch-zitt.com",
+      "assigned_to": "Dami",
+      "sender": "Dami",
+      "label_id": "Label_8658624016447790536",
+      "angle": "2B",
+      "platform": "Shopify",
+      "status": "contacted",
+      "first_contact": "2026-05-21",
+      "last_activity": "2026-05-21",
+      "multi_to": false,
+      "had_cc_bcc": false,
+      "redirect_to": null,
+      "stape_score": null,
+      "notes": "Luxury boutique Bolzano. Stesso domain di prospect_079 (info@) e prospect_349 (shop@). Contatto nominale Thomas D.",
+      "thread_id": "19e4ad958dd61760",
+      "subject_email": "Oberrauch Zitt, one quick thing about your website",
+      "followups_sent": [],
+      "scheduled_timeline": {
+        "first_email": "2026-05-21",
+        "follow_up_1": "2026-06-05",
+        "follow_up_2": "2026-06-26",
+        "follow_up_3": "2026-07-24",
+        "out_date": "2026-07-27"
+      },
+      "last_outbound_by_antonio": {
+        "date": "2026-05-21",
+        "snippet": "Hi Thomas, I was analyzing competitors in the fashion industry and came across Oberrauch Zitt. I did a quick check on your tracking and found an issue."
+      },
+      "last_reply_from_prospect": null,
+      "next_action": "Follow-up 1",
+      "next_action_date": "2026-06-05",
+      "skip": false,
+      "timeline": [
+        {
+          "date": "2026-05-21",
+          "action": "Email outbound 2B inviata a Thomas D. (Dami) — stesso domain di prospect_079"
+        }
+      ]
     }
   ],
   "bounced": [
@@ -16007,6 +16507,19 @@
       "bounce_date": "2026-05-19",
       "notes": "Bounce Google Ã¢ÂÂ indirizzo inesistente. SKIP automatico Ã¢ÂÂ dominio giÃÂ  in no_reply (prospect_082 tiziana.fausti@ e prospect_335 francesca.birolini@).",
       "thread_id": "19e408b173139195",
+      "skip": true
+    },
+    {
+      "id": "bounce_047",
+      "brand": "Luisaviaroma",
+      "email": "m.pacini@luisaviaroma.com",
+      "domain": "luisaviaroma.com",
+      "subject_email": "Luisa Via Roma, i dati non tornano",
+      "assigned_to": "Dami",
+      "angle": "1A",
+      "bounce_date": "2026-05-21",
+      "notes": "Indirizzo non trovato (mailer-daemon). Stesso domain di prospect_075 (m.ritratti@) e prospect_345 (i.papkovich@). Skip: già contattato via i.papkovich@.",
+      "thread_id": "19e4afd55fd7d93e",
       "skip": true
     }
   ]
