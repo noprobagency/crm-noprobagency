@@ -1,9 +1,9 @@
 {
   "meta": {
-    "last_updated": "2026-05-22T01:15:00+02:00",
-    "total_contacted": 327,
+    "last_updated": "2026-05-22T10:15:00+02:00",
+    "total_contacted": 326,
     "total_replied": 8,
-    "total_bounced": 47,
+    "total_bounced": 48,
     "total_autoresponse": 15,
     "first_run": false,
     "coverage_note": "First run Ã¢ÂÂ copre outbound visibili negli ultimi ~9 giorni (2026-05-06 Ã¢ÂÂ 2026-05-13). Le runs giornaliere successive aggiungeranno nuovi thread incrementalmente.",
@@ -28,8 +28,8 @@
       "status": "in_conversation",
       "first_contact": "2026-04-30",
       "last_activity": "2026-05-13",
-      "next_action": "Follow-up urgente — Victoire non ha risposto al report Stape (9 gg da ultimo outbound)",
-      "next_action_date": "2026-05-22",
+      "next_action": "Follow-up urgente — 10 giorni senza risposta da Victoire (12/05)",
+      "next_action_date": "2026-05-23",
       "stape_score": 39,
       "notes": "Founder & CEO. Ha chiesto il report dopo bump del 12/05. Inviato report Stape completo il 13/05 (Ads 44/100).",
       "thread_id": "19ddac7248b1a78a",
@@ -100,8 +100,8 @@
       "status": "in_conversation",
       "first_contact": "2026-05-01",
       "last_activity": "2026-05-20",
-      "next_action": "Attesa risposta video — follow-up inviato 20/05",
-      "next_action_date": "2026-05-27",
+      "next_action": "Follow-up urgente — 15 giorni senza risposta da Valeria (07/05)",
+      "next_action_date": "2026-05-23",
       "stape_score": null,
       "notes": "Risposta positiva il 07/05. Inviato video di analisi (10 min) l'08/05. Bump il 12/05. FU inviato il 20/05: ha avuto modo di vedere il video?",
       "thread_id": "19e026540b01048b",
@@ -188,8 +188,8 @@
       "status": "in_conversation",
       "first_contact": "2026-05-01",
       "last_activity": "2026-05-19",
-      "next_action": "In attesa risposta — Antonio ha risposto alla mail con CV (off-topic) il 19/05",
-      "next_action_date": "2026-05-26",
+      "next_action": "Valutare follow-up — 4 giorni dall'ultima risposta (Nicolò 18/05)",
+      "next_action_date": null,
       "stape_score": null,
       "notes": "Email personale (nicodeka03@gmail.com). Risposta positiva il 07/05. Video inviato l'08/05. Risposta 13/05: molto insightful. Il 18/05: allega CV (off-topic). Antonio risponde il 19/05.",
       "thread_id": "19e02604b5efa2cb",
@@ -213,6 +213,10 @@
         {
           "date": "2026-05-13",
           "action": "Risposta da NicolÃÂ²: 'Visto adesso il video, molto insightful! ...mi faccio risentire settimana prossima se decidiamo di investire nel online'"
+        },
+        {
+          "date": "2026-05-15",
+          "action": "Antonio risponde a Nicolò: 'Contento che il video sia stato utile, curioso del progetto nuovo'"
         },
         {
           "date": "2026-05-18",
@@ -285,7 +289,7 @@
       "first_contact": "2026-05-13",
       "last_activity": "2026-05-15",
       "next_action": "Valutare follow-up — Sara ha girato a chi di competenza il 15/05, nessuna risposta",
-      "next_action_date": "2026-05-22",
+      "next_action_date": null,
       "stape_score": null,
       "notes": "Luxury boutique Casale Monferrato",
       "thread_id": "19e213be13545c0d",
@@ -378,8 +382,8 @@
         "date": "2026-05-15",
         "snippet": "Ciao Antonio, Thank you for your email. I would be happy to have a look at your report, why not ;) Best, Caterina Zorzan E-commerce Manager"
       },
-      "next_action": "Attendere risposta Caterina su video Loom",
-      "next_action_date": "2026-05-25",
+      "next_action": "Valutare follow-up — 7 giorni senza risposta da Caterina (15/05)",
+      "next_action_date": null,
       "timeline": [
         {
           "date": "2026-05-15",
@@ -439,8 +443,8 @@
         "date": "2026-05-18",
         "snippet": "Ciao Antonio, manda pure grazie, Andrea"
       },
-      "next_action": "Attendere risposta Andrea su video",
-      "next_action_date": "2026-05-25",
+      "next_action": "Valutare follow-up — 4 giorni dall'ultima risposta (Andrea 18/05)",
+      "next_action_date": null,
       "timeline": [
         {
           "date": "2026-05-18",
@@ -502,8 +506,8 @@
         "date": "2026-05-19",
         "snippet": "sono a conoscenza del problema di tracking e verrà risolto oggi in giornata"
       },
-      "next_action": "In attesa risposta — report Stape inviato 19/05 dopo fix tracking annunciato",
-      "next_action_date": "2026-05-25",
+      "next_action": "In attesa risposta — report Stape inviato 19/05, 3 giorni dall'ultima risposta",
+      "next_action_date": null,
       "timeline": [
         {
           "date": "2026-05-18",
@@ -564,8 +568,8 @@
         "date": "2026-05-19",
         "snippet": "Before considering a call, could you share the case study and the full Stape audit (URL tested, scan date, detected issues, recommended fixes)?"
       },
-      "next_action": "CASE STUDY + STAPE INVIATO — attesa risposta Bjorn/Martijn",
-      "next_action_date": "2026-05-26",
+      "next_action": "In attesa risposta — case study + Stape inviato 20/05, 3 giorni dall'ultima risposta",
+      "next_action_date": null,
       "timeline": [
         {
           "date": "2026-05-18",
@@ -15151,50 +15155,6 @@
       ]
     },
     {
-      "id": "prospect_342",
-      "brand": "Le Noir Boutique",
-      "contact": "Karen Migotto",
-      "email": "karen_migotto@lenoirboutique.com",
-      "domain": "lenoirboutique.com",
-      "assigned_to": "Dami",
-      "sender": "Dami",
-      "label_id": "Label_8658624016447790536",
-      "angle": "1A",
-      "platform": "non-Shopify",
-      "status": "contacted",
-      "first_contact": "2026-05-22",
-      "last_activity": "2026-05-22",
-      "multi_to": false,
-      "had_cc_bcc": false,
-      "redirect_to": null,
-      "stape_score": null,
-      "notes": "Luxury boutique Treviso. Stesso domain di prospect_070 (info@) e prospect_341 (shop@). Contatto nominale: Karen Migotto.",
-      "thread_id": "19e4bac58979b851",
-      "subject_email": "Lenoir, una cosa che ho notato",
-      "followups_sent": [],
-      "scheduled_timeline": {
-        "first_email": "2026-05-22",
-        "follow_up_1": "2026-06-08",
-        "follow_up_2": "2026-06-29",
-        "follow_up_3": "2026-07-27",
-        "out_date": "2026-07-28"
-      },
-      "last_outbound_by_antonio": {
-        "date": "2026-05-22",
-        "snippet": "Mi sono imbattuto in Lenoir Boutique cercando tra le migliori fashion boutique in Italia. Ho visto la piattaforma che state usando per le vendite online, la conosco molto bene."
-      },
-      "last_reply_from_prospect": null,
-      "next_action": "Follow-up 1",
-      "next_action_date": "2026-06-08",
-      "skip": false,
-      "timeline": [
-        {
-          "date": "2026-05-22",
-          "action": "Email outbound 1A inviata a Karen Migotto (Dami) — stesso domain di prospect_070"
-        }
-      ]
-    },
-    {
       "id": "prospect_343",
       "brand": "G&B Negozi Online",
       "contact": null,
@@ -16520,6 +16480,19 @@
       "bounce_date": "2026-05-21",
       "notes": "Indirizzo non trovato (mailer-daemon). Stesso domain di prospect_075 (m.ritratti@) e prospect_345 (i.papkovich@). Skip: già contattato via i.papkovich@.",
       "thread_id": "19e4afd55fd7d93e",
+      "skip": true
+    },
+    {
+      "id": "bounce_048",
+      "brand": "Le Noir Boutique",
+      "email": "karen_migotto@lenoirboutique.com",
+      "domain": "lenoirboutique.com",
+      "subject_email": "Lenoir, una cosa che ho notato",
+      "assigned_to": "Dami",
+      "angle": "1A",
+      "bounce_date": "2026-05-22",
+      "notes": "Recipient Unknown (postmaster). SKIP automatico — dominio già in no_reply (prospect_341 shop@ e prospect_070 info@).",
+      "thread_id": "19e4bac58979b851",
       "skip": true
     }
   ]
