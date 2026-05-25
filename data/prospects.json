@@ -1,6 +1,6 @@
 {
   "meta": {
-    "last_updated": "2026-05-22T10:15:00+02:00",
+    "last_updated": "2026-05-25T06:15:00+02:00",
     "total_contacted": 326,
     "total_replied": 8,
     "total_bounced": 48,
@@ -28,8 +28,8 @@
       "status": "in_conversation",
       "first_contact": "2026-04-30",
       "last_activity": "2026-05-13",
-      "next_action": "Follow-up urgente — 10 giorni senza risposta da Victoire (12/05)",
-      "next_action_date": "2026-05-23",
+      "next_action": "Follow-up urgente — 13 giorni senza risposta da Victoire (12/05)",
+      "next_action_date": "2026-05-26",
       "stape_score": 39,
       "notes": "Founder & CEO. Ha chiesto il report dopo bump del 12/05. Inviato report Stape completo il 13/05 (Ads 44/100).",
       "thread_id": "19ddac7248b1a78a",
@@ -100,8 +100,8 @@
       "status": "in_conversation",
       "first_contact": "2026-05-01",
       "last_activity": "2026-05-20",
-      "next_action": "Follow-up urgente — 15 giorni senza risposta da Valeria (07/05)",
-      "next_action_date": "2026-05-23",
+      "next_action": "Follow-up urgente — 18 giorni senza risposta da Valeria (07/05)",
+      "next_action_date": "2026-05-26",
       "stape_score": null,
       "notes": "Risposta positiva il 07/05. Inviato video di analisi (10 min) l'08/05. Bump il 12/05. FU inviato il 20/05: ha avuto modo di vedere il video?",
       "thread_id": "19e026540b01048b",
@@ -188,7 +188,7 @@
       "status": "in_conversation",
       "first_contact": "2026-05-01",
       "last_activity": "2026-05-19",
-      "next_action": "Valutare follow-up — 4 giorni dall'ultima risposta (Nicolò 18/05)",
+      "next_action": "Valutare follow-up — 7 giorni dall'ultima risposta (Nicolò 18/05)",
       "next_action_date": null,
       "stape_score": null,
       "notes": "Email personale (nicodeka03@gmail.com). Risposta positiva il 07/05. Video inviato l'08/05. Risposta 13/05: molto insightful. Il 18/05: allega CV (off-topic). Antonio risponde il 19/05.",
@@ -288,8 +288,8 @@
       "status": "in_conversation",
       "first_contact": "2026-05-13",
       "last_activity": "2026-05-15",
-      "next_action": "Valutare follow-up — Sara ha girato a chi di competenza il 15/05, nessuna risposta",
-      "next_action_date": null,
+      "next_action": "Follow-up urgente — 10 giorni senza risposta da Sara (15/05)",
+      "next_action_date": "2026-05-26",
       "stape_score": null,
       "notes": "Luxury boutique Casale Monferrato",
       "thread_id": "19e213be13545c0d",
@@ -382,8 +382,8 @@
         "date": "2026-05-15",
         "snippet": "Ciao Antonio, Thank you for your email. I would be happy to have a look at your report, why not ;) Best, Caterina Zorzan E-commerce Manager"
       },
-      "next_action": "Valutare follow-up — 7 giorni senza risposta da Caterina (15/05)",
-      "next_action_date": null,
+      "next_action": "Follow-up urgente — 10 giorni senza risposta da Caterina (15/05)",
+      "next_action_date": "2026-05-26",
       "timeline": [
         {
           "date": "2026-05-15",
@@ -443,7 +443,7 @@
         "date": "2026-05-18",
         "snippet": "Ciao Antonio, manda pure grazie, Andrea"
       },
-      "next_action": "Valutare follow-up — 4 giorni dall'ultima risposta (Andrea 18/05)",
+      "next_action": "Valutare follow-up — 7 giorni dall'ultima risposta (Andrea 18/05)",
       "next_action_date": null,
       "timeline": [
         {
@@ -506,7 +506,7 @@
         "date": "2026-05-19",
         "snippet": "sono a conoscenza del problema di tracking e verrà risolto oggi in giornata"
       },
-      "next_action": "In attesa risposta — report Stape inviato 19/05, 3 giorni dall'ultima risposta",
+      "next_action": "Valutare follow-up — 6 giorni dall'ultima risposta (ecommerce@filippomarchesani.com 19/05)",
       "next_action_date": null,
       "timeline": [
         {
@@ -568,7 +568,7 @@
         "date": "2026-05-19",
         "snippet": "Before considering a call, could you share the case study and the full Stape audit (URL tested, scan date, detected issues, recommended fixes)?"
       },
-      "next_action": "In attesa risposta — case study + Stape inviato 20/05, 3 giorni dall'ultima risposta",
+      "next_action": "Valutare follow-up — 6 giorni dall'ultima risposta (Bjorn/Oger 19/05)",
       "next_action_date": null,
       "timeline": [
         {
@@ -13259,6 +13259,10 @@
         {
           "date": "2026-05-19",
           "action": "Email outbound 2B inviate da Claude (Cowork) a lfacchetti@retori.com e cmaccagno@retori.com Ã¢ÂÂ prospect_330 e prospect_331 creati"
+        },
+        {
+          "date": "2026-05-18",
+          "action": "Secondo OOO da spio@retori.com (maternity leave, stessi sostituti già contattati)"
         }
       ],
       "skip": false
@@ -14455,6 +14459,10 @@
         {
           "date": "2026-05-18",
           "action": "CS autoresponse ricevuto da ViaMonte Shop"
+        },
+        {
+          "date": "2026-05-18",
+          "action": "Secondo ticket CS ricevuto (thread 19e3b4aac49e1d2c) — stesso CS system, stato invariato"
         }
       ],
       "skip": false
