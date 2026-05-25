@@ -1,10 +1,10 @@
 {
   "meta": {
-    "last_updated": "2026-05-25T06:15:00+02:00",
-    "total_contacted": 326,
-    "total_replied": 8,
+    "last_updated": "2026-05-25T13:13:52+02:00",
+    "total_contacted": 324,
+    "total_replied": 9,
     "total_bounced": 48,
-    "total_autoresponse": 15,
+    "total_autoresponse": 14,
     "first_run": false,
     "coverage_note": "First run Ã¢ÂÂ copre outbound visibili negli ultimi ~9 giorni (2026-05-06 Ã¢ÂÂ 2026-05-13). Le runs giornaliere successive aggiungeranno nuovi thread incrementalmente.",
     "schema_version": "v3.5",
@@ -27,9 +27,9 @@
       "platform": "Shopify",
       "status": "in_conversation",
       "first_contact": "2026-04-30",
-      "last_activity": "2026-05-13",
-      "next_action": "Follow-up urgente — 13 giorni senza risposta da Victoire (12/05)",
-      "next_action_date": "2026-05-26",
+      "last_activity": "2026-05-25",
+      "next_action": "In attesa risposta — FU inviato 25/05",
+      "next_action_date": null,
       "stape_score": 39,
       "notes": "Founder & CEO. Ha chiesto il report dopo bump del 12/05. Inviato report Stape completo il 13/05 (Ads 44/100).",
       "thread_id": "19ddac7248b1a78a",
@@ -49,6 +49,10 @@
         {
           "date": "2026-05-13",
           "action": "Inviato report Stape (39/100, Ads 44/100)"
+        },
+        {
+          "date": "2026-05-25",
+          "action": "FU inviato da Antonio: check-in report Stape (12 giorni senza risposta)"
         }
       ],
       "label_id": "Label_8658624016447790536",
@@ -66,11 +70,17 @@
           "type": "manual",
           "sender": "Antonio",
           "snippet": "Hi Victoire, thanks for getting back to me! Here's the full Stape report for The Go-To (score 39/100, Ads 44/100)."
+        },
+        {
+          "date": "2026-05-25",
+          "type": "manual",
+          "sender": "Antonio",
+          "snippet": "Hi Victoire, just checking in on the report I sent on the 13th. Did you get a chance to look at it? Let me know if it would make sense to jump on a quick call."
         }
       ],
       "last_outbound_by_antonio": {
-        "date": "2026-05-13",
-        "snippet": "Hi Victoire, thanks for getting back to me! Here's the full report: stape.io/website-tracking-checker/019e1f11..."
+        "date": "2026-05-25",
+        "snippet": "Hi Victoire, just checking in on the report I sent on the 13th. Did you get a chance to look at it? Let me know if it would make sense to jump on a quick call."
       },
       "last_reply_from_prospect": {
         "date": "2026-05-12",
@@ -352,7 +362,7 @@
       "platform": "Shopify",
       "status": "in_conversation",
       "first_contact": "2026-05-15",
-      "last_activity": "2026-05-20",
+      "last_activity": "2026-05-25",
       "multi_to": false,
       "had_cc_bcc": false,
       "redirect_to": null,
@@ -365,6 +375,12 @@
           "type": "manual",
           "sender": "Antonio",
           "snippet": "Buon pomeriggio Caterina! Scusami il ritardo, volevo registrare un video completo dettagliato — qui trovi il video con l'analisi completa!"
+        },
+        {
+          "date": "2026-05-25",
+          "type": "manual",
+          "sender": "Antonio",
+          "snippet": "Ciao Caterina, hai avuto modo di vedere il video? Fammi sapere se ha senso sentirci."
         }
       ],
       "scheduled_timeline": {
@@ -375,15 +391,15 @@
         "out_date": "2026-07-21"
       },
       "last_outbound_by_antonio": {
-        "date": "2026-05-20",
-        "snippet": "Buon pomeriggio Caterina! Scusami il ritardo, volevo registrare un video completo dettagliato cosi da darti piu informazioni e non trovavo mai il tempo! Qui trovi il video!"
+        "date": "2026-05-25",
+        "snippet": "Ciao Caterina, hai avuto modo di vedere il video? Fammi sapere se ha senso sentirci."
       },
       "last_reply_from_prospect": {
         "date": "2026-05-15",
         "snippet": "Ciao Antonio, Thank you for your email. I would be happy to have a look at your report, why not ;) Best, Caterina Zorzan E-commerce Manager"
       },
-      "next_action": "Follow-up urgente — 10 giorni senza risposta da Caterina (15/05)",
-      "next_action_date": "2026-05-26",
+      "next_action": "In attesa risposta — FU video inviato 25/05",
+      "next_action_date": null,
       "timeline": [
         {
           "date": "2026-05-15",
@@ -396,6 +412,10 @@
         {
           "date": "2026-05-20",
           "action": "Antonio inviato video Loom a Caterina (Salt)"
+        },
+        {
+          "date": "2026-05-25",
+          "action": "FU inviato da Antonio: ha avuto modo di vedere il video?"
         }
       ]
     },
@@ -414,7 +434,7 @@
       "thread_id": "19e3c256514923a0",
       "status": "in_conversation",
       "first_contact": "2026-05-18",
-      "last_activity": "2026-05-20",
+      "last_activity": "2026-05-25",
       "multi_to": false,
       "had_cc_bcc": false,
       "redirect_to": null,
@@ -426,6 +446,12 @@
           "type": "manual",
           "sender": "Antonio",
           "snippet": "Ciao Andrea! Intanto grazie mille per la tua risposta 😊 Ho registrato un video completo in cui analizzo questo collo di bottiglia — potrebbe diventare un vero game changer!"
+        },
+        {
+          "date": "2026-05-25",
+          "type": "manual",
+          "sender": "Antonio",
+          "snippet": "Ciao Andrea, hai avuto modo di vedere il video? Fammi sapere cosa ne pensi."
         }
       ],
       "scheduled_timeline": {
@@ -436,14 +462,14 @@
         "out_date": "2026-07-22"
       },
       "last_outbound_by_antonio": {
-        "date": "2026-05-20",
-        "snippet": "Ciao Andrea! Intanto grazie mille per la tua risposta. Ho registrato un video completo in cui ti parlo e analizzo questo collo di bottiglia."
+        "date": "2026-05-25",
+        "snippet": "Ciao Andrea, hai avuto modo di vedere il video? Fammi sapere cosa ne pensi."
       },
       "last_reply_from_prospect": {
         "date": "2026-05-18",
         "snippet": "Ciao Antonio, manda pure grazie, Andrea"
       },
-      "next_action": "Valutare follow-up — 7 giorni dall'ultima risposta (Andrea 18/05)",
+      "next_action": "In attesa risposta — FU video inviato 25/05",
       "next_action_date": null,
       "timeline": [
         {
@@ -457,6 +483,10 @@
         {
           "date": "2026-05-20",
           "action": "Antonio inviato video Loom ad Andrea (Camden23)"
+        },
+        {
+          "date": "2026-05-25",
+          "action": "FU inviato da Antonio: ha avuto modo di vedere il video?"
         }
       ],
       "skip": false,
@@ -477,7 +507,7 @@
       "thread_id": "19e3b3c1d747516d",
       "status": "in_conversation",
       "first_contact": "2026-05-18",
-      "last_activity": "2026-05-19",
+      "last_activity": "2026-05-25",
       "multi_to": false,
       "had_cc_bcc": false,
       "redirect_to": null,
@@ -489,6 +519,12 @@
           "type": "manual",
           "sender": "Antonio",
           "snippet": "grazie per la risposta. Ottimo che ci stiate lavorando. Nel frattempo vi mando il report del tracking..."
+        },
+        {
+          "date": "2026-05-25",
+          "type": "manual",
+          "sender": "Antonio",
+          "snippet": "Ciao Nino, volevo sapere se avete risolto il problema di tracking. Se vi può essere utile il report come riferimento, sono qui."
         }
       ],
       "scheduled_timeline": {
@@ -499,14 +535,14 @@
         "out_date": "2026-07-22"
       },
       "last_outbound_by_antonio": {
-        "date": "2026-05-19",
-        "snippet": "grazie per la risposta. Ottimo che ci stiate lavorando. Nel frattempo vi mando il report del tracking..."
+        "date": "2026-05-25",
+        "snippet": "Ciao Nino, volevo sapere se avete risolto il problema di tracking. Se vi può essere utile il report come riferimento, sono qui."
       },
       "last_reply_from_prospect": {
         "date": "2026-05-19",
         "snippet": "sono a conoscenza del problema di tracking e verrà risolto oggi in giornata"
       },
-      "next_action": "Valutare follow-up — 6 giorni dall'ultima risposta (ecommerce@filippomarchesani.com 19/05)",
+      "next_action": "In attesa risposta — check-up tracking inviato 25/05",
       "next_action_date": null,
       "timeline": [
         {
@@ -520,6 +556,10 @@
         {
           "date": "2026-05-19",
           "action": "Antonio invia report Stape (multi-TO: ecommerce@ + pieromarchesani@ Ã¢ÂÂ quest'ultimo bounced)"
+        },
+        {
+          "date": "2026-05-25",
+          "action": "FU inviato da Antonio: check-up problema tracking"
         }
       ],
       "skip": false
@@ -585,6 +625,68 @@
         }
       ],
       "skip": false
+    },
+    {
+      "id": "prospect_093",
+      "brand": "Julian Fashion",
+      "contact": "Sabina Zabberoni",
+      "email": "sabina@julian-fashion.com",
+      "domain": "julian-fashion.com",
+      "assigned_to": "Manu",
+      "angle": "1A",
+      "platform": "non-Shopify",
+      "status": "in_conversation",
+      "first_contact": "2026-05-07",
+      "last_activity": "2026-05-25",
+      "next_action": "Gestione manuale Antonio — migrazione Shopify settembre",
+      "next_action_date": null,
+      "stape_score": null,
+      "notes": "3ÃÂ° contatto Julian (Sabina, boutique Rimini) | FU1 25/05: risposta Sabina Zabberoni. Passano a Shopify da settembre. Lead migrazione.",
+      "thread_id": "19e02644a834f247",
+      "timeline": [
+        {
+          "date": "2026-05-07",
+          "action": "Email outbound 1A inviata"
+        },
+        {
+          "date": "2026-05-25",
+          "action": "Follow-up 1 inviato (4 giorni in ritardo)"
+        },
+        {
+          "date": "2026-05-25",
+          "action": "Risposta umana da Sabina Zabberoni: \"Da settembre passeremo su Shopify con il nostro ecom e tutto ciò che ruota attorno. Per ora siamo concentrati su questo passaggio.\""
+        }
+      ],
+      "label_id": "Label_1592668050883672428",
+      "sender": "Manu",
+      "is_first_email": true,
+      "followups_sent": [
+        {
+          "date": "2026-05-25",
+          "type": "follow_up_1",
+          "sender": "Antonio",
+          "snippet": "Rimando su nel caso, fammi sapere se ha senso parlarne."
+        }
+      ],
+      "last_outbound_by_antonio": {
+        "date": "2026-05-25",
+        "snippet": "Rimando su nel caso, fammi sapere se ha senso parlarne."
+      },
+      "last_reply_from_prospect": {
+        "date": "2026-05-25",
+        "snippet": "Grazie mille per averci contattato. In merito alla nostra piattaforma La informo che da settembre passeremo su Shopify con il nostro ecom e tutto ciò che ruota attorno. Per ora siamo concentrati su questo passaggio"
+      },
+      "next_followup_due": "2026-05-21",
+      "days_since_last_activity": 6,
+      "first_email_snippet": "Ciao Sabina, mi sono imbattuto in Julian Fashion cercando le migliori realtÃÂ  fashion del settore. Ho visto la piattaforma che state usando per le vendite online, la conosco molto bene.",
+      "scheduled_timeline": {
+        "first_email": "2026-05-07",
+        "follow_up_1": "2026-05-21",
+        "follow_up_2": "2026-06-12",
+        "follow_up_3": "2026-07-10",
+        "out_date": "2026-07-13"
+      },
+      "subject_email": "[RE]: Report julian-fashion.com"
     }
   ],
   "no_reply": [
@@ -2289,11 +2391,11 @@
       "assigned_to": "Manu",
       "angle": "1A",
       "platform": "non-Shopify",
-      "status": "contacted",
+      "status": "follow_up_1_sent",
       "first_contact": "2026-05-11",
-      "last_activity": "2026-05-11",
-      "next_action": "Follow-up 1",
-      "next_action_date": "2026-05-25",
+      "last_activity": "2026-05-25",
+      "next_action": "In attesa FU 2",
+      "next_action_date": "2026-06-16",
       "stape_score": null,
       "notes": "Luxury boutique Borgomanero",
       "thread_id": "19e1826076a6f00e",
@@ -2301,15 +2403,26 @@
         {
           "date": "2026-05-11",
           "action": "Email outbound 1A inviata"
+        },
+        {
+          "date": "2026-05-25",
+          "action": "Follow-up 1 inviato"
         }
       ],
       "label_id": "Label_1592668050883672428",
       "sender": "Manu",
       "is_first_email": true,
-      "followups_sent": [],
+      "followups_sent": [
+        {
+          "date": "2026-05-25",
+          "type": "follow_up_1",
+          "sender": "Antonio",
+          "snippet": "Rimando su nel caso, fammi sapere se ha senso parlarne."
+        }
+      ],
       "last_outbound_by_antonio": {
-        "date": "2026-05-11",
-        "snippet": "Ciao, mi sono imbattuto in Rabaini cercando le migliori realtÃÂ  fashion del settore. Ho visto la piattaforma che state usando per le vendite online, la conosco molto bene."
+        "date": "2026-05-25",
+        "snippet": "Rimando su nel caso, fammi sapere se ha senso parlarne."
       },
       "last_reply_from_prospect": null,
       "next_followup_due": "2026-05-25",
@@ -2333,11 +2446,11 @@
       "assigned_to": "Manu",
       "angle": "1A",
       "platform": "non-Shopify",
-      "status": "contacted",
+      "status": "follow_up_1_sent",
       "first_contact": "2026-05-11",
-      "last_activity": "2026-05-11",
-      "next_action": "Follow-up 1",
-      "next_action_date": "2026-05-25",
+      "last_activity": "2026-05-25",
+      "next_action": "In attesa FU 2",
+      "next_action_date": "2026-06-16",
       "stape_score": null,
       "notes": "Luxury boutique Viareggio",
       "thread_id": "19e17bbd05d75b0b",
@@ -2345,15 +2458,26 @@
         {
           "date": "2026-05-11",
           "action": "Email outbound 1A inviata"
+        },
+        {
+          "date": "2026-05-25",
+          "action": "Follow-up 1 inviato"
         }
       ],
       "label_id": "Label_1592668050883672428",
       "sender": "Manu",
       "is_first_email": true,
-      "followups_sent": [],
+      "followups_sent": [
+        {
+          "date": "2026-05-25",
+          "type": "follow_up_1",
+          "sender": "Antonio",
+          "snippet": "Rimando su nel caso, fammi sapere se ha senso parlarne."
+        }
+      ],
       "last_outbound_by_antonio": {
-        "date": "2026-05-11",
-        "snippet": "Ciao, mi sono imbattuto in Silvia Bini cercando le migliori realtÃÂ  fashion del settore. Ho visto la piattaforma che state usando per le vendite online, la conosco molto bene."
+        "date": "2026-05-25",
+        "snippet": "Rimando su nel caso, fammi sapere se ha senso parlarne."
       },
       "last_reply_from_prospect": null,
       "next_followup_due": "2026-05-25",
@@ -2377,13 +2501,13 @@
       "assigned_to": "Manu",
       "angle": "1A",
       "platform": "non-Shopify",
-      "status": "contacted",
+      "status": "follow_up_1_sent",
       "first_contact": "2026-05-11",
-      "last_activity": "2026-05-22",
-      "next_action": "Follow-up 1",
-      "next_action_date": "2026-05-25",
+      "last_activity": "2026-05-25",
+      "next_action": "In attesa FU 2",
+      "next_action_date": "2026-06-16",
       "stape_score": null,
-      "notes": "Boutique Livigno | Anomalia: Dami ha inviato nuova prima email il 22/05 (thread diverso). Contatto originale Manu 11/05.",
+      "notes": "Boutique Livigno | Anomalia: Dami ha inviato nuova prima email il 22/05 (thread diverso). Contatto originale Manu 11/05. | FU1 inviato su thread originale Manu (19e17ac4d6a43ea2).",
       "thread_id": "19e4bcef1a495d40",
       "timeline": [
         {
@@ -2393,15 +2517,26 @@
         {
           "date": "2026-05-22",
           "action": "Nuova prima email inviata da Dami (thread 19e4bcef1a495d40). Anomalia doppio contatto."
+        },
+        {
+          "date": "2026-05-25",
+          "action": "Follow-up 1 inviato"
         }
       ],
       "label_id": "Label_1592668050883672428",
       "sender": "Manu",
       "is_first_email": true,
-      "followups_sent": [],
+      "followups_sent": [
+        {
+          "date": "2026-05-25",
+          "type": "follow_up_1",
+          "sender": "Antonio",
+          "snippet": "Rimando su nel caso, fammi sapere se ha senso parlarne."
+        }
+      ],
       "last_outbound_by_antonio": {
-        "date": "2026-05-11",
-        "snippet": "Ciao, mi sono imbattuto in Valico Store cercando le migliori realtÃÂ  fashion del settore. Ho visto la piattaforma che state usando per le vendite online, la conosco molto bene."
+        "date": "2026-05-25",
+        "snippet": "Rimando su nel caso, fammi sapere se ha senso parlarne."
       },
       "last_reply_from_prospect": null,
       "next_followup_due": "2026-05-25",
@@ -2425,13 +2560,13 @@
       "assigned_to": "Manu",
       "angle": "1A",
       "platform": "non-Shopify",
-      "status": "contacted",
+      "status": "follow_up_1_sent",
       "first_contact": "2026-05-11",
-      "last_activity": "2026-05-22",
-      "next_action": "Follow-up 1",
-      "next_action_date": "2026-05-25",
+      "last_activity": "2026-05-25",
+      "next_action": "In attesa FU 2",
+      "next_action_date": "2026-06-16",
       "stape_score": null,
-      "notes": "Boutique Modena | Anomalia: Dami ha inviato nuova prima email il 22/05 (thread diverso). Contatto originale Manu 11/05.",
+      "notes": "Boutique Modena | Anomalia: Dami ha inviato nuova prima email il 22/05 (thread diverso). Contatto originale Manu 11/05. | FU1 inviato su thread originale Manu (19e17a8a068dcef8).",
       "thread_id": "19e4bbd17f7d7f0d",
       "timeline": [
         {
@@ -2441,15 +2576,26 @@
         {
           "date": "2026-05-22",
           "action": "Nuova prima email inviata da Dami (thread 19e4bbd17f7d7f0d). Anomalia doppio contatto."
+        },
+        {
+          "date": "2026-05-25",
+          "action": "Follow-up 1 inviato"
         }
       ],
       "label_id": "Label_1592668050883672428",
       "sender": "Manu",
       "is_first_email": true,
-      "followups_sent": [],
+      "followups_sent": [
+        {
+          "date": "2026-05-25",
+          "type": "follow_up_1",
+          "sender": "Antonio",
+          "snippet": "Rimando su nel caso, fammi sapere se ha senso parlarne."
+        }
+      ],
       "last_outbound_by_antonio": {
-        "date": "2026-05-11",
-        "snippet": "Ciao, mi sono imbattuto in Boutique Adani cercando le migliori realtÃÂ  fashion del settore. Ho visto la piattaforma che state usando per le vendite online, la conosco molto bene."
+        "date": "2026-05-25",
+        "snippet": "Rimando su nel caso, fammi sapere se ha senso parlarne."
       },
       "last_reply_from_prospect": null,
       "next_followup_due": "2026-05-25",
@@ -2473,11 +2619,11 @@
       "assigned_to": "Manu",
       "angle": "1A",
       "platform": "non-Shopify",
-      "status": "contacted",
+      "status": "follow_up_1_sent",
       "first_contact": "2026-05-11",
-      "last_activity": "2026-05-11",
-      "next_action": "Follow-up 1",
-      "next_action_date": "2026-05-25",
+      "last_activity": "2026-05-25",
+      "next_action": "In attesa FU 2",
+      "next_action_date": "2026-06-16",
       "stape_score": null,
       "notes": "Fashion Milano",
       "thread_id": "19e17a17001c6af1",
@@ -2485,15 +2631,26 @@
         {
           "date": "2026-05-11",
           "action": "Email outbound 1A inviata"
+        },
+        {
+          "date": "2026-05-25",
+          "action": "Follow-up 1 inviato"
         }
       ],
       "label_id": "Label_1592668050883672428",
       "sender": "Manu",
       "is_first_email": true,
-      "followups_sent": [],
+      "followups_sent": [
+        {
+          "date": "2026-05-25",
+          "type": "follow_up_1",
+          "sender": "Antonio",
+          "snippet": "Rimando su nel caso, fammi sapere se ha senso parlarne."
+        }
+      ],
       "last_outbound_by_antonio": {
-        "date": "2026-05-11",
-        "snippet": "Ciao, mi sono imbattuto in Manzoni24 cercando le migliori realtÃÂ  fashion del settore. Ho visto la piattaforma che state usando per le vendite online, la conosco molto bene."
+        "date": "2026-05-25",
+        "snippet": "Rimando su nel caso, fammi sapere se ha senso parlarne."
       },
       "last_reply_from_prospect": null,
       "next_followup_due": "2026-05-25",
@@ -2517,11 +2674,11 @@
       "assigned_to": "Dami",
       "angle": "2B",
       "platform": "Shopify",
-      "status": "contacted",
+      "status": "follow_up_1_sent",
       "first_contact": "2026-05-11",
-      "last_activity": "2026-05-11",
-      "next_action": "Follow-up 1",
-      "next_action_date": "2026-05-25",
+      "last_activity": "2026-05-25",
+      "next_action": "In attesa FU 2",
+      "next_action_date": "2026-06-16",
       "stape_score": null,
       "notes": "UK fashion Shopify",
       "thread_id": "19e16f9b3608f5e4",
@@ -2529,15 +2686,26 @@
         {
           "date": "2026-05-11",
           "action": "Email outbound 2B inviata"
+        },
+        {
+          "date": "2026-05-25",
+          "action": "Follow-up 1 inviato"
         }
       ],
       "label_id": "Label_8658624016447790536",
       "sender": "Dami",
       "is_first_email": true,
-      "followups_sent": [],
+      "followups_sent": [
+        {
+          "date": "2026-05-25",
+          "type": "follow_up_1",
+          "sender": "Antonio",
+          "snippet": "Just bumping this up in case you missed it. Let me know if it makes sense to talk."
+        }
+      ],
       "last_outbound_by_antonio": {
-        "date": "2026-05-11",
-        "snippet": "Hi, I was looking into YMC (You Must Create) and noticed you're running Meta/Google campaigns on a Shopify store. Quick check on tracking found an issue you're likely unaware of."
+        "date": "2026-05-25",
+        "snippet": "Just bumping this up in case you missed it. Let me know if it makes sense to talk."
       },
       "last_reply_from_prospect": null,
       "next_followup_due": "2026-05-25",
@@ -2561,11 +2729,11 @@
       "assigned_to": "Dami",
       "angle": "2B",
       "platform": "Shopify",
-      "status": "contacted",
+      "status": "follow_up_1_sent",
       "first_contact": "2026-05-11",
-      "last_activity": "2026-05-11",
-      "next_action": "Follow-up 1",
-      "next_action_date": "2026-05-25",
+      "last_activity": "2026-05-25",
+      "next_action": "In attesa FU 2",
+      "next_action_date": "2026-06-16",
       "stape_score": null,
       "notes": "UK menswear Shopify",
       "thread_id": "19e16f13b9a11a2b",
@@ -2573,15 +2741,26 @@
         {
           "date": "2026-05-11",
           "action": "Email outbound 2B inviata"
+        },
+        {
+          "date": "2026-05-25",
+          "action": "Follow-up 1 inviato"
         }
       ],
       "label_id": "Label_8658624016447790536",
       "sender": "Dami",
       "is_first_email": true,
-      "followups_sent": [],
+      "followups_sent": [
+        {
+          "date": "2026-05-25",
+          "type": "follow_up_1",
+          "sender": "Antonio",
+          "snippet": "Just bumping this up in case you missed it. Let me know if it makes sense to talk."
+        }
+      ],
       "last_outbound_by_antonio": {
-        "date": "2026-05-11",
-        "snippet": "Hi, I was looking into Woven Gentlemen's Outfitters and noticed you're running Meta/Google campaigns on a Shopify store. Quick check on tracking found an issue you're likely unaware of."
+        "date": "2026-05-25",
+        "snippet": "Just bumping this up in case you missed it. Let me know if it makes sense to talk."
       },
       "last_reply_from_prospect": null,
       "next_followup_due": "2026-05-25",
@@ -2605,11 +2784,11 @@
       "assigned_to": "Dami",
       "angle": "2B",
       "platform": "Shopify",
-      "status": "contacted",
+      "status": "follow_up_1_sent",
       "first_contact": "2026-05-11",
-      "last_activity": "2026-05-11",
-      "next_action": "Follow-up 1",
-      "next_action_date": "2026-05-25",
+      "last_activity": "2026-05-25",
+      "next_action": "In attesa FU 2",
+      "next_action_date": "2026-06-16",
       "stape_score": null,
       "notes": "Cosmetica IT, Shopify, tracking",
       "thread_id": "19e16dda8c8728c3",
@@ -2617,15 +2796,26 @@
         {
           "date": "2026-05-11",
           "action": "Email outbound 2B inviata"
+        },
+        {
+          "date": "2026-05-25",
+          "action": "Follow-up 1 inviato"
         }
       ],
       "label_id": "Label_8658624016447790536",
       "sender": "Dami",
       "is_first_email": true,
-      "followups_sent": [],
+      "followups_sent": [
+        {
+          "date": "2026-05-25",
+          "type": "follow_up_1",
+          "sender": "Antonio",
+          "snippet": "Rimando su nel caso, fammi sapere se ha senso parlarne."
+        }
+      ],
       "last_outbound_by_antonio": {
-        "date": "2026-05-11",
-        "snippet": "Hi, I was looking into Skin First Cosmetics and noticed you're running Meta/Google campaigns on a Shopify store. Quick check on tracking found an issue you're likely unaware of."
+        "date": "2026-05-25",
+        "snippet": "Rimando su nel caso, fammi sapere se ha senso parlarne."
       },
       "last_reply_from_prospect": null,
       "next_followup_due": "2026-05-25",
@@ -2704,11 +2894,11 @@
       "assigned_to": "Dami",
       "angle": "2B",
       "platform": "Shopify",
-      "status": "contacted",
+      "status": "follow_up_1_sent",
       "first_contact": "2026-05-11",
-      "last_activity": "2026-05-11",
-      "next_action": "Follow-up 1",
-      "next_action_date": "2026-05-25",
+      "last_activity": "2026-05-25",
+      "next_action": "In attesa FU 2",
+      "next_action_date": "2026-06-16",
       "stape_score": null,
       "notes": "UK cosmetics Shopify",
       "thread_id": "19e16c58be4d5c08",
@@ -2716,15 +2906,26 @@
         {
           "date": "2026-05-11",
           "action": "Email outbound 2B inviata"
+        },
+        {
+          "date": "2026-05-25",
+          "action": "Follow-up 1 inviato"
         }
       ],
       "label_id": "Label_8658624016447790536",
       "sender": "Dami",
       "is_first_email": true,
-      "followups_sent": [],
+      "followups_sent": [
+        {
+          "date": "2026-05-25",
+          "type": "follow_up_1",
+          "sender": "Antonio",
+          "snippet": "Just bumping this up in case you missed it. Let me know if it makes sense to talk."
+        }
+      ],
       "last_outbound_by_antonio": {
-        "date": "2026-05-11",
-        "snippet": "Hi, I was looking into Give Me Cosmetics and noticed you're running Meta/Google campaigns on a Shopify store. Quick check on tracking found an issue you're likely unaware of."
+        "date": "2026-05-25",
+        "snippet": "Just bumping this up in case you missed it. Let me know if it makes sense to talk."
       },
       "last_reply_from_prospect": null,
       "next_followup_due": "2026-05-25",
@@ -2748,11 +2949,11 @@
       "assigned_to": "Dami",
       "angle": "3A",
       "platform": "non-Shopify",
-      "status": "contacted",
+      "status": "follow_up_1_sent",
       "first_contact": "2026-05-11",
-      "last_activity": "2026-05-11",
-      "next_action": "Follow-up 1",
-      "next_action_date": "2026-05-25",
+      "last_activity": "2026-05-25",
+      "next_action": "In attesa FU 2",
+      "next_action_date": "2026-06-16",
       "stape_score": null,
       "notes": "UK shoes Ã¢ÂÂ competitor analysis Instagram",
       "thread_id": "19e16bf318c6f7aa",
@@ -2760,15 +2961,26 @@
         {
           "date": "2026-05-11",
           "action": "Email outbound 3A inviata"
+        },
+        {
+          "date": "2026-05-25",
+          "action": "Follow-up 1 inviato"
         }
       ],
       "label_id": "Label_8658624016447790536",
       "sender": "Dami",
       "is_first_email": true,
-      "followups_sent": [],
+      "followups_sent": [
+        {
+          "date": "2026-05-25",
+          "type": "follow_up_1",
+          "sender": "Antonio",
+          "snippet": "Just bumping this up in case you missed it. Let me know if it makes sense to talk."
+        }
+      ],
       "last_outbound_by_antonio": {
-        "date": "2026-05-11",
-        "snippet": "Ciao Rosie, stavo analizzando i competitor del settore e mi sono imbattuto in GRS Footwear. Ho notato 2-3 cose sul vostro online store che vale la pena guardare."
+        "date": "2026-05-25",
+        "snippet": "Just bumping this up in case you missed it. Let me know if it makes sense to talk."
       },
       "last_reply_from_prospect": null,
       "next_followup_due": "2026-05-25",
@@ -2792,11 +3004,11 @@
       "assigned_to": "Dami",
       "angle": "2B",
       "platform": "Shopify",
-      "status": "contacted",
+      "status": "follow_up_1_sent",
       "first_contact": "2026-05-11",
-      "last_activity": "2026-05-11",
-      "next_action": "Follow-up 1",
-      "next_action_date": "2026-05-25",
+      "last_activity": "2026-05-25",
+      "next_action": "In attesa FU 2",
+      "next_action_date": "2026-06-16",
       "stape_score": null,
       "notes": "UK luggage Shopify",
       "thread_id": "19e16b9e7b2c344e",
@@ -2804,15 +3016,26 @@
         {
           "date": "2026-05-11",
           "action": "Email outbound 2B inviata"
+        },
+        {
+          "date": "2026-05-25",
+          "action": "Follow-up 1 inviato"
         }
       ],
       "label_id": "Label_8658624016447790536",
       "sender": "Dami",
       "is_first_email": true,
-      "followups_sent": [],
+      "followups_sent": [
+        {
+          "date": "2026-05-25",
+          "type": "follow_up_1",
+          "sender": "Antonio",
+          "snippet": "Just bumping this up in case you missed it. Let me know if it makes sense to talk."
+        }
+      ],
       "last_outbound_by_antonio": {
-        "date": "2026-05-11",
-        "snippet": "Hi, I was looking into Case Luggage and noticed you're running Meta/Google campaigns on a Shopify store. Quick check on tracking found an issue you're likely unaware of."
+        "date": "2026-05-25",
+        "snippet": "Just bumping this up in case you missed it. Let me know if it makes sense to talk."
       },
       "last_reply_from_prospect": null,
       "next_followup_due": "2026-05-25",
@@ -2836,11 +3059,11 @@
       "assigned_to": "Dami",
       "angle": "3A",
       "platform": "non-Shopify",
-      "status": "contacted",
+      "status": "follow_up_1_sent",
       "first_contact": "2026-05-11",
-      "last_activity": "2026-05-11",
-      "next_action": "Follow-up 1",
-      "next_action_date": "2026-05-25",
+      "last_activity": "2026-05-25",
+      "next_action": "In attesa FU 2",
+      "next_action_date": "2026-06-16",
       "stape_score": null,
       "notes": "UK shoes Ã¢ÂÂ competitor analysis Instagram",
       "thread_id": "19e16a7cf2075f89",
@@ -2848,15 +3071,26 @@
         {
           "date": "2026-05-11",
           "action": "Email outbound 3A inviata"
+        },
+        {
+          "date": "2026-05-25",
+          "action": "Follow-up 1 inviato"
         }
       ],
       "label_id": "Label_8658624016447790536",
       "sender": "Dami",
       "is_first_email": true,
-      "followups_sent": [],
+      "followups_sent": [
+        {
+          "date": "2026-05-25",
+          "type": "follow_up_1",
+          "sender": "Antonio",
+          "snippet": "Just bumping this up in case you missed it. Let me know if it makes sense to talk."
+        }
+      ],
       "last_outbound_by_antonio": {
-        "date": "2026-05-11",
-        "snippet": "Ciao Carl, stavo analizzando i competitor del settore e mi sono imbattuto in Ice Gripper. Ho notato 2-3 cose sul vostro online store che vale la pena guardare."
+        "date": "2026-05-25",
+        "snippet": "Just bumping this up in case you missed it. Let me know if it makes sense to talk."
       },
       "last_reply_from_prospect": null,
       "next_followup_due": "2026-05-25",
@@ -2880,11 +3114,11 @@
       "assigned_to": "Dami",
       "angle": "2B",
       "platform": "Shopify",
-      "status": "contacted",
+      "status": "follow_up_1_sent",
       "first_contact": "2026-05-11",
-      "last_activity": "2026-05-11",
-      "next_action": "Follow-up 1",
-      "next_action_date": "2026-05-25",
+      "last_activity": "2026-05-25",
+      "next_action": "In attesa FU 2",
+      "next_action_date": "2026-06-16",
       "stape_score": null,
       "notes": "UK beauty Shopify",
       "thread_id": "19e16a4711839c57",
@@ -2892,15 +3126,26 @@
         {
           "date": "2026-05-11",
           "action": "Email outbound 2B inviata"
+        },
+        {
+          "date": "2026-05-25",
+          "action": "Follow-up 1 inviato"
         }
       ],
       "label_id": "Label_8658624016447790536",
       "sender": "Dami",
       "is_first_email": true,
-      "followups_sent": [],
+      "followups_sent": [
+        {
+          "date": "2026-05-25",
+          "type": "follow_up_1",
+          "sender": "Antonio",
+          "snippet": "Just bumping this up in case you missed it. Let me know if it makes sense to talk."
+        }
+      ],
       "last_outbound_by_antonio": {
-        "date": "2026-05-11",
-        "snippet": "Hi, I was looking into Uklash and noticed you're running Meta/Google campaigns on a Shopify store. Quick check on tracking found an issue you're likely unaware of."
+        "date": "2026-05-25",
+        "snippet": "Just bumping this up in case you missed it. Let me know if it makes sense to talk."
       },
       "last_reply_from_prospect": null,
       "next_followup_due": "2026-05-25",
@@ -3213,11 +3458,11 @@
       "assigned_to": "Manu",
       "angle": "1A",
       "platform": "non-Shopify",
-      "status": "contacted",
+      "status": "follow_up_1_sent",
       "first_contact": "2026-05-08",
-      "last_activity": "2026-05-08",
-      "next_action": "Follow-up 1",
-      "next_action_date": "2026-05-22",
+      "last_activity": "2026-05-25",
+      "next_action": "In attesa FU 2",
+      "next_action_date": "2026-06-15",
       "stape_score": null,
       "notes": "Luxury boutique Treviso",
       "thread_id": "19e080b60889856e",
@@ -3225,15 +3470,26 @@
         {
           "date": "2026-05-08",
           "action": "Email outbound 1A inviata"
+        },
+        {
+          "date": "2026-05-25",
+          "action": "Follow-up 1 inviato"
         }
       ],
       "label_id": "Label_1592668050883672428",
       "sender": "Manu",
       "is_first_email": true,
-      "followups_sent": [],
+      "followups_sent": [
+        {
+          "date": "2026-05-25",
+          "type": "follow_up_1",
+          "sender": "Antonio",
+          "snippet": "Rimando su nel caso, fammi sapere se ha senso parlarne."
+        }
+      ],
       "last_outbound_by_antonio": {
-        "date": "2026-05-08",
-        "snippet": "Ciao, mi sono imbattuto in Le Noir Boutique cercando le migliori realtÃÂ  fashion del settore. Ho visto la piattaforma che state usando per le vendite online, la conosco molto bene."
+        "date": "2026-05-25",
+        "snippet": "Rimando su nel caso, fammi sapere se ha senso parlarne."
       },
       "last_reply_from_prospect": null,
       "next_followup_due": "2026-05-22",
@@ -3257,11 +3513,11 @@
       "assigned_to": "Manu",
       "angle": "1A",
       "platform": "non-Shopify",
-      "status": "contacted",
+      "status": "follow_up_1_sent",
       "first_contact": "2026-05-08",
-      "last_activity": "2026-05-08",
-      "next_action": "Follow-up 1",
-      "next_action_date": "2026-05-22",
+      "last_activity": "2026-05-25",
+      "next_action": "In attesa FU 2",
+      "next_action_date": "2026-06-15",
       "stape_score": null,
       "notes": "Boutique multibrand",
       "thread_id": "19e07ff56b7c8b5a",
@@ -3269,15 +3525,26 @@
         {
           "date": "2026-05-08",
           "action": "Email outbound 1A inviata"
+        },
+        {
+          "date": "2026-05-25",
+          "action": "Follow-up 1 inviato"
         }
       ],
       "label_id": "Label_1592668050883672428",
       "sender": "Manu",
       "is_first_email": true,
-      "followups_sent": [],
+      "followups_sent": [
+        {
+          "date": "2026-05-25",
+          "type": "follow_up_1",
+          "sender": "Antonio",
+          "snippet": "Rimando su nel caso, fammi sapere se ha senso parlarne."
+        }
+      ],
       "last_outbound_by_antonio": {
-        "date": "2026-05-08",
-        "snippet": "Ciao, mi sono imbattuto in Folli Follie cercando le migliori realtÃÂ  fashion del settore. Ho visto la piattaforma che state usando per le vendite online, la conosco molto bene."
+        "date": "2026-05-25",
+        "snippet": "Rimando su nel caso, fammi sapere se ha senso parlarne."
       },
       "last_reply_from_prospect": null,
       "next_followup_due": "2026-05-22",
@@ -3301,11 +3568,11 @@
       "assigned_to": "Manu",
       "angle": "1A",
       "platform": "non-Shopify",
-      "status": "contacted",
+      "status": "follow_up_1_sent",
       "first_contact": "2026-05-08",
-      "last_activity": "2026-05-08",
-      "next_action": "Follow-up 1",
-      "next_action_date": "2026-05-22",
+      "last_activity": "2026-05-25",
+      "next_action": "In attesa FU 2",
+      "next_action_date": "2026-06-15",
       "stape_score": null,
       "notes": "Luxury boutique Flero",
       "thread_id": "19e07f590ea28b67",
@@ -3313,15 +3580,26 @@
         {
           "date": "2026-05-08",
           "action": "Email outbound 1A inviata"
+        },
+        {
+          "date": "2026-05-25",
+          "action": "Follow-up 1 inviato"
         }
       ],
       "label_id": "Label_1592668050883672428",
       "sender": "Manu",
       "is_first_email": true,
-      "followups_sent": [],
+      "followups_sent": [
+        {
+          "date": "2026-05-25",
+          "type": "follow_up_1",
+          "sender": "Antonio",
+          "snippet": "Rimando su nel caso, fammi sapere se ha senso parlarne."
+        }
+      ],
       "last_outbound_by_antonio": {
-        "date": "2026-05-08",
-        "snippet": "Ciao, mi sono imbattuto in G&B Negozi Online cercando le migliori realtÃÂ  fashion del settore. Ho visto la piattaforma che state usando per le vendite online, la conosco molto bene."
+        "date": "2026-05-25",
+        "snippet": "Rimando su nel caso, fammi sapere se ha senso parlarne."
       },
       "last_reply_from_prospect": null,
       "next_followup_due": "2026-05-22",
@@ -3345,11 +3623,11 @@
       "assigned_to": "Manu",
       "angle": "1A",
       "platform": "non-Shopify",
-      "status": "contacted",
+      "status": "follow_up_1_sent",
       "first_contact": "2026-05-08",
-      "last_activity": "2026-05-08",
-      "next_action": "Follow-up 1",
-      "next_action_date": "2026-05-22",
+      "last_activity": "2026-05-25",
+      "next_action": "In attesa FU 2",
+      "next_action_date": "2026-06-15",
       "stape_score": null,
       "notes": "Luxury boutique Roma",
       "thread_id": "19e07e00193671d6",
@@ -3357,15 +3635,26 @@
         {
           "date": "2026-05-08",
           "action": "Email outbound 1A inviata"
+        },
+        {
+          "date": "2026-05-25",
+          "action": "Follow-up 1 inviato"
         }
       ],
       "label_id": "Label_1592668050883672428",
       "sender": "Manu",
       "is_first_email": true,
-      "followups_sent": [],
+      "followups_sent": [
+        {
+          "date": "2026-05-25",
+          "type": "follow_up_1",
+          "sender": "Antonio",
+          "snippet": "Rimando su nel caso, fammi sapere se ha senso parlarne."
+        }
+      ],
       "last_outbound_by_antonio": {
-        "date": "2026-05-08",
-        "snippet": "Ciao, mi sono imbattuto in Davide Cenci cercando le migliori realtÃÂ  fashion del settore. Ho visto la piattaforma che state usando per le vendite online, la conosco molto bene."
+        "date": "2026-05-25",
+        "snippet": "Rimando su nel caso, fammi sapere se ha senso parlarne."
       },
       "last_reply_from_prospect": null,
       "next_followup_due": "2026-05-22",
@@ -3389,11 +3678,11 @@
       "assigned_to": "Manu",
       "angle": "1A",
       "platform": "non-Shopify",
-      "status": "contacted",
+      "status": "follow_up_1_sent",
       "first_contact": "2026-05-08",
-      "last_activity": "2026-05-08",
-      "next_action": "Follow-up 1",
-      "next_action_date": "2026-05-22",
+      "last_activity": "2026-05-25",
+      "next_action": "In attesa FU 2",
+      "next_action_date": "2026-06-15",
       "stape_score": null,
       "notes": "Iconic concept store Milano",
       "thread_id": "19e07dba1ea51730",
@@ -3401,15 +3690,26 @@
         {
           "date": "2026-05-08",
           "action": "Email outbound 1A inviata"
+        },
+        {
+          "date": "2026-05-25",
+          "action": "Follow-up 1 inviato"
         }
       ],
       "label_id": "Label_1592668050883672428",
       "sender": "Manu",
       "is_first_email": true,
-      "followups_sent": [],
+      "followups_sent": [
+        {
+          "date": "2026-05-25",
+          "type": "follow_up_1",
+          "sender": "Antonio",
+          "snippet": "Rimando su nel caso, fammi sapere se ha senso parlarne."
+        }
+      ],
       "last_outbound_by_antonio": {
-        "date": "2026-05-08",
-        "snippet": "Ciao Gianluca, mi sono imbattuto in 10 Corso Como cercando le migliori realtÃÂ  fashion del settore. Ho visto la piattaforma che state usando per le vendite online, la conosco molto bene."
+        "date": "2026-05-25",
+        "snippet": "Rimando su nel caso, fammi sapere se ha senso parlarne."
       },
       "last_reply_from_prospect": null,
       "next_followup_due": "2026-05-22",
@@ -3433,11 +3733,11 @@
       "assigned_to": "Manu",
       "angle": "1A",
       "platform": "non-Shopify",
-      "status": "contacted",
+      "status": "follow_up_1_sent",
       "first_contact": "2026-05-08",
-      "last_activity": "2026-05-08",
-      "next_action": "Follow-up 1",
-      "next_action_date": "2026-05-22",
+      "last_activity": "2026-05-25",
+      "next_action": "In attesa FU 2",
+      "next_action_date": "2026-06-15",
       "stape_score": null,
       "notes": "Luxury Firenze, online retailer",
       "thread_id": "19e07c9a68e73cfc",
@@ -3445,15 +3745,26 @@
         {
           "date": "2026-05-08",
           "action": "Email outbound 1A inviata"
+        },
+        {
+          "date": "2026-05-25",
+          "action": "Follow-up 1 inviato"
         }
       ],
       "label_id": "Label_1592668050883672428",
       "sender": "Manu",
       "is_first_email": true,
-      "followups_sent": [],
+      "followups_sent": [
+        {
+          "date": "2026-05-25",
+          "type": "follow_up_1",
+          "sender": "Antonio",
+          "snippet": "Rimando su nel caso, fammi sapere se ha senso parlarne."
+        }
+      ],
       "last_outbound_by_antonio": {
-        "date": "2026-05-08",
-        "snippet": "Ciao Marco, mi sono imbattuto in Luisaviaroma cercando le migliori realtÃÂ  fashion del settore. Ho visto la piattaforma che state usando per le vendite online, la conosco molto bene."
+        "date": "2026-05-25",
+        "snippet": "Rimando su nel caso, fammi sapere se ha senso parlarne."
       },
       "last_reply_from_prospect": null,
       "next_followup_due": "2026-05-22",
@@ -3477,13 +3788,13 @@
       "assigned_to": "Manu",
       "angle": "1A",
       "platform": "non-Shopify",
-      "status": "contacted",
+      "status": "follow_up_1_sent",
       "first_contact": "2026-05-08",
-      "last_activity": "2026-05-21",
-      "next_action": "Follow-up 1",
-      "next_action_date": "2026-05-22",
+      "last_activity": "2026-05-25",
+      "next_action": "In attesa FU 2",
+      "next_action_date": "2026-06-15",
       "stape_score": null,
-      "notes": "Boutique Palermo | Anomalia: Dami ha inviato nuova prima email il 21/05 (thread diverso). Contatto originale Manu 08/05.",
+      "notes": "Boutique Palermo | Anomalia: Dami ha inviato nuova prima email il 21/05 (thread diverso). Contatto originale Manu 08/05. | FU1 inviato su thread originale Manu (19e07c110e51efb7).",
       "thread_id": "19e4aefc48c9fcc0",
       "timeline": [
         {
@@ -3493,15 +3804,26 @@
         {
           "date": "2026-05-21",
           "action": "Nuova prima email inviata da Dami (thread 19e4aefc48c9fcc0). Anomalia doppio contatto."
+        },
+        {
+          "date": "2026-05-25",
+          "action": "Follow-up 1 inviato"
         }
       ],
       "label_id": "Label_1592668050883672428",
       "sender": "Manu",
       "is_first_email": true,
-      "followups_sent": [],
+      "followups_sent": [
+        {
+          "date": "2026-05-25",
+          "type": "follow_up_1",
+          "sender": "Antonio",
+          "snippet": "Rimando su nel caso, fammi sapere se ha senso parlarne."
+        }
+      ],
       "last_outbound_by_antonio": {
-        "date": "2026-05-08",
-        "snippet": "Ciao Giuseppe, mi sono imbattuto in Giglio cercando le migliori realtÃÂ  fashion del settore. Ho visto la piattaforma che state usando per le vendite online, la conosco molto bene."
+        "date": "2026-05-25",
+        "snippet": "Rimando su nel caso, fammi sapere se ha senso parlarne."
       },
       "last_reply_from_prospect": null,
       "next_followup_due": "2026-05-22",
@@ -3525,13 +3847,13 @@
       "assigned_to": "Manu",
       "angle": "1A",
       "platform": "non-Shopify",
-      "status": "contacted",
+      "status": "follow_up_1_sent",
       "first_contact": "2026-05-08",
-      "last_activity": "2026-05-21",
-      "next_action": "Follow-up 1",
-      "next_action_date": "2026-05-22",
+      "last_activity": "2026-05-25",
+      "next_action": "In attesa FU 2",
+      "next_action_date": "2026-06-15",
       "stape_score": null,
-      "notes": "Luxury boutique Santa Maria a Monte | Anomalia: Dami ha inviato nuova prima email il 21/05 (thread diverso). Contatto originale Manu 08/05.",
+      "notes": "Luxury boutique Santa Maria a Monte | Anomalia: Dami ha inviato nuova prima email il 21/05 (thread diverso). Contatto originale Manu 08/05. | FU1 inviato su thread originale Manu (19e07bbfdd4bbe62).",
       "thread_id": "19e4ae6cba43b15b",
       "timeline": [
         {
@@ -3541,15 +3863,26 @@
         {
           "date": "2026-05-21",
           "action": "Nuova prima email inviata da Dami (thread 19e4ae6cba43b15b). Anomalia doppio contatto."
+        },
+        {
+          "date": "2026-05-25",
+          "action": "Follow-up 1 inviato"
         }
       ],
       "label_id": "Label_1592668050883672428",
       "sender": "Manu",
       "is_first_email": true,
-      "followups_sent": [],
+      "followups_sent": [
+        {
+          "date": "2026-05-25",
+          "type": "follow_up_1",
+          "sender": "Antonio",
+          "snippet": "Rimando su nel caso, fammi sapere se ha senso parlarne."
+        }
+      ],
       "last_outbound_by_antonio": {
-        "date": "2026-05-08",
-        "snippet": "Ciao, mi sono imbattuto in Divo Boutique cercando le migliori realtÃÂ  fashion del settore. Ho visto la piattaforma che state usando per le vendite online, la conosco molto bene."
+        "date": "2026-05-25",
+        "snippet": "Rimando su nel caso, fammi sapere se ha senso parlarne."
       },
       "last_reply_from_prospect": null,
       "next_followup_due": "2026-05-22",
@@ -3573,11 +3906,11 @@
       "assigned_to": "Manu",
       "angle": "1A",
       "platform": "non-Shopify",
-      "status": "contacted",
+      "status": "follow_up_1_sent",
       "first_contact": "2026-05-08",
-      "last_activity": "2026-05-08",
-      "next_action": "Follow-up 1",
-      "next_action_date": "2026-05-22",
+      "last_activity": "2026-05-25",
+      "next_action": "In attesa FU 2",
+      "next_action_date": "2026-06-15",
       "stape_score": null,
       "notes": "Luxury boutique Siena",
       "thread_id": "19e07b3d9f891b8f",
@@ -3585,15 +3918,26 @@
         {
           "date": "2026-05-08",
           "action": "Email outbound 1A inviata"
+        },
+        {
+          "date": "2026-05-25",
+          "action": "Follow-up 1 inviato"
         }
       ],
       "label_id": "Label_1592668050883672428",
       "sender": "Manu",
       "is_first_email": true,
-      "followups_sent": [],
+      "followups_sent": [
+        {
+          "date": "2026-05-25",
+          "type": "follow_up_1",
+          "sender": "Antonio",
+          "snippet": "Rimando su nel caso, fammi sapere se ha senso parlarne."
+        }
+      ],
       "last_outbound_by_antonio": {
-        "date": "2026-05-08",
-        "snippet": "Ciao, mi sono imbattuto in Cortecci Siena 1935 cercando le migliori realtÃÂ  fashion del settore. Ho visto la piattaforma che state usando per le vendite online, la conosco molto bene."
+        "date": "2026-05-25",
+        "snippet": "Rimando su nel caso, fammi sapere se ha senso parlarne."
       },
       "last_reply_from_prospect": null,
       "next_followup_due": "2026-05-22",
@@ -3617,11 +3961,11 @@
       "assigned_to": "Manu",
       "angle": "1A",
       "platform": "non-Shopify",
-      "status": "contacted",
+      "status": "follow_up_1_sent",
       "first_contact": "2026-05-08",
-      "last_activity": "2026-05-08",
-      "next_action": "Follow-up 1",
-      "next_action_date": "2026-05-22",
+      "last_activity": "2026-05-25",
+      "next_action": "In attesa FU 2",
+      "next_action_date": "2026-06-15",
       "stape_score": null,
       "notes": "Luxury boutique Bolzano",
       "thread_id": "19e07a7ec8f71d9e",
@@ -3629,15 +3973,26 @@
         {
           "date": "2026-05-08",
           "action": "Email outbound 1A inviata"
+        },
+        {
+          "date": "2026-05-25",
+          "action": "Follow-up 1 inviato"
         }
       ],
       "label_id": "Label_1592668050883672428",
       "sender": "Manu",
       "is_first_email": true,
-      "followups_sent": [],
+      "followups_sent": [
+        {
+          "date": "2026-05-25",
+          "type": "follow_up_1",
+          "sender": "Antonio",
+          "snippet": "Rimando su nel caso, fammi sapere se ha senso parlarne."
+        }
+      ],
       "last_outbound_by_antonio": {
-        "date": "2026-05-08",
-        "snippet": "Ciao, mi sono imbattuto in Oberrauch Zitt cercando le migliori realtÃÂ  fashion del settore. Ho visto la piattaforma che state usando per le vendite online, la conosco molto bene."
+        "date": "2026-05-25",
+        "snippet": "Rimando su nel caso, fammi sapere se ha senso parlarne."
       },
       "last_reply_from_prospect": null,
       "next_followup_due": "2026-05-22",
@@ -3661,11 +4016,11 @@
       "assigned_to": "Manu",
       "angle": "1A",
       "platform": "non-Shopify",
-      "status": "contacted",
+      "status": "follow_up_1_sent",
       "first_contact": "2026-05-08",
-      "last_activity": "2026-05-08",
-      "next_action": "Follow-up 1",
-      "next_action_date": "2026-05-22",
+      "last_activity": "2026-05-25",
+      "next_action": "In attesa FU 2",
+      "next_action_date": "2026-06-15",
       "stape_score": null,
       "notes": "Luxury boutique Forte dei Marmi | ATTENZIONE: seconda email inviata al 2026-05-19 su thread diverso.",
       "thread_id": "19e079e7a8507191",
@@ -3677,15 +4032,26 @@
         {
           "date": "2026-05-19",
           "action": "Anomalia: seconda email inviata a info@cuccuini.it (thread 19e40a5be94603d7) Ã¢ÂÂ stessa email giÃÂ  contattata il 2026-05-08"
+        },
+        {
+          "date": "2026-05-25",
+          "action": "Follow-up 1 inviato"
         }
       ],
       "label_id": "Label_1592668050883672428",
       "sender": "Manu",
       "is_first_email": true,
-      "followups_sent": [],
+      "followups_sent": [
+        {
+          "date": "2026-05-25",
+          "type": "follow_up_1",
+          "sender": "Antonio",
+          "snippet": "Rimando su nel caso, fammi sapere se ha senso parlarne."
+        }
+      ],
       "last_outbound_by_antonio": {
-        "date": "2026-05-08",
-        "snippet": "Ciao, mi sono imbattuto in Gianni Cuccuini cercando le migliori realtÃÂ  fashion del settore. Ho visto la piattaforma che state usando per le vendite online, la conosco molto bene."
+        "date": "2026-05-25",
+        "snippet": "Rimando su nel caso, fammi sapere se ha senso parlarne."
       },
       "last_reply_from_prospect": null,
       "next_followup_due": "2026-05-22",
@@ -3709,11 +4075,11 @@
       "assigned_to": "Manu",
       "angle": "1A",
       "platform": "non-Shopify",
-      "status": "contacted",
+      "status": "follow_up_1_sent",
       "first_contact": "2026-05-08",
-      "last_activity": "2026-05-08",
-      "next_action": "Follow-up 1",
-      "next_action_date": "2026-05-22",
+      "last_activity": "2026-05-25",
+      "next_action": "In attesa FU 2",
+      "next_action_date": "2026-06-15",
       "stape_score": null,
       "notes": "Luxury boutique Roma (Via Frattina)",
       "thread_id": "19e0798919a3c431",
@@ -3721,15 +4087,26 @@
         {
           "date": "2026-05-08",
           "action": "Email outbound 1A inviata"
+        },
+        {
+          "date": "2026-05-25",
+          "action": "Follow-up 1 inviato"
         }
       ],
       "label_id": "Label_1592668050883672428",
       "sender": "Manu",
       "is_first_email": true,
-      "followups_sent": [],
+      "followups_sent": [
+        {
+          "date": "2026-05-25",
+          "type": "follow_up_1",
+          "sender": "Antonio",
+          "snippet": "Rimando su nel caso, fammi sapere se ha senso parlarne."
+        }
+      ],
       "last_outbound_by_antonio": {
-        "date": "2026-05-08",
-        "snippet": "Ciao Daniel, mi sono imbattuto in Gente Roma cercando le migliori realtÃÂ  fashion del settore. Ho visto la piattaforma che state usando per le vendite online, la conosco molto bene."
+        "date": "2026-05-25",
+        "snippet": "Rimando su nel caso, fammi sapere se ha senso parlarne."
       },
       "last_reply_from_prospect": null,
       "next_followup_due": "2026-05-22",
@@ -3753,11 +4130,11 @@
       "assigned_to": "Manu",
       "angle": "1A",
       "platform": "non-Shopify",
-      "status": "contacted",
+      "status": "follow_up_1_sent",
       "first_contact": "2026-05-08",
-      "last_activity": "2026-05-08",
-      "next_action": "Follow-up 1",
-      "next_action_date": "2026-05-22",
+      "last_activity": "2026-05-25",
+      "next_action": "In attesa FU 2",
+      "next_action_date": "2026-06-15",
       "stape_score": null,
       "notes": "Luxury boutique Bergamo",
       "thread_id": "19e078e8f954fd03",
@@ -3765,15 +4142,26 @@
         {
           "date": "2026-05-08",
           "action": "Email outbound 1A inviata"
+        },
+        {
+          "date": "2026-05-25",
+          "action": "Follow-up 1 inviato"
         }
       ],
       "label_id": "Label_1592668050883672428",
       "sender": "Manu",
       "is_first_email": true,
-      "followups_sent": [],
+      "followups_sent": [
+        {
+          "date": "2026-05-25",
+          "type": "follow_up_1",
+          "sender": "Antonio",
+          "snippet": "Rimando su nel caso, fammi sapere se ha senso parlarne."
+        }
+      ],
       "last_outbound_by_antonio": {
-        "date": "2026-05-08",
-        "snippet": "Ciao Tiziana, mi sono imbattuto in Tiziana Fausti cercando le migliori realtÃÂ  fashion del settore. Ho visto la piattaforma che state usando per le vendite online, la conosco molto bene."
+        "date": "2026-05-25",
+        "snippet": "Rimando su nel caso, fammi sapere se ha senso parlarne."
       },
       "last_reply_from_prospect": null,
       "next_followup_due": "2026-05-22",
@@ -3797,11 +4185,11 @@
       "assigned_to": "Manu",
       "angle": "1A",
       "platform": "non-Shopify",
-      "status": "contacted",
+      "status": "follow_up_1_sent",
       "first_contact": "2026-05-08",
-      "last_activity": "2026-05-08",
-      "next_action": "Follow-up 1",
-      "next_action_date": "2026-05-22",
+      "last_activity": "2026-05-25",
+      "next_action": "In attesa FU 2",
+      "next_action_date": "2026-06-15",
       "stape_score": null,
       "notes": "Luxury boutique Bellagio",
       "thread_id": "19e0784e65085792",
@@ -3809,15 +4197,26 @@
         {
           "date": "2026-05-08",
           "action": "Email outbound 1A inviata"
+        },
+        {
+          "date": "2026-05-25",
+          "action": "Follow-up 1 inviato"
         }
       ],
       "label_id": "Label_1592668050883672428",
       "sender": "Manu",
       "is_first_email": true,
-      "followups_sent": [],
+      "followups_sent": [
+        {
+          "date": "2026-05-25",
+          "type": "follow_up_1",
+          "sender": "Antonio",
+          "snippet": "Rimando su nel caso, fammi sapere se ha senso parlarne."
+        }
+      ],
       "last_outbound_by_antonio": {
-        "date": "2026-05-08",
-        "snippet": "Ciao Filippo, mi sono imbattuto in Tessabit cercando le migliori realtÃÂ  fashion del settore. Ho visto la piattaforma che state usando per le vendite online, la conosco molto bene."
+        "date": "2026-05-25",
+        "snippet": "Rimando su nel caso, fammi sapere se ha senso parlarne."
       },
       "last_reply_from_prospect": null,
       "next_followup_due": "2026-05-22",
@@ -3841,11 +4240,11 @@
       "assigned_to": "Manu",
       "angle": "1A",
       "platform": "non-Shopify",
-      "status": "contacted",
+      "status": "follow_up_1_sent",
       "first_contact": "2026-05-08",
-      "last_activity": "2026-05-08",
-      "next_action": "Follow-up 1",
-      "next_action_date": "2026-05-22",
+      "last_activity": "2026-05-25",
+      "next_action": "In attesa FU 2",
+      "next_action_date": "2026-06-15",
       "stape_score": null,
       "notes": "Boutique Arezzo",
       "thread_id": "19e078052a8dfa7d",
@@ -3853,15 +4252,26 @@
         {
           "date": "2026-05-08",
           "action": "Email outbound 1A inviata"
+        },
+        {
+          "date": "2026-05-25",
+          "action": "Follow-up 1 inviato"
         }
       ],
       "label_id": "Label_1592668050883672428",
       "sender": "Manu",
       "is_first_email": true,
-      "followups_sent": [],
+      "followups_sent": [
+        {
+          "date": "2026-05-25",
+          "type": "follow_up_1",
+          "sender": "Antonio",
+          "snippet": "Rimando su nel caso, fammi sapere se ha senso parlarne."
+        }
+      ],
       "last_outbound_by_antonio": {
-        "date": "2026-05-08",
-        "snippet": "Ciao Ludovica, mi sono imbattuto in Sugar cercando le migliori realtÃÂ  fashion del settore. Ho visto la piattaforma che state usando per le vendite online, la conosco molto bene."
+        "date": "2026-05-25",
+        "snippet": "Rimando su nel caso, fammi sapere se ha senso parlarne."
       },
       "last_reply_from_prospect": null,
       "next_followup_due": "2026-05-22",
@@ -3885,11 +4295,11 @@
       "assigned_to": "Manu",
       "angle": "1A",
       "platform": "non-Shopify",
-      "status": "contacted",
+      "status": "follow_up_1_sent",
       "first_contact": "2026-05-07",
-      "last_activity": "2026-05-07",
-      "next_action": "Follow-up 1",
-      "next_action_date": "2026-05-21",
+      "last_activity": "2026-05-25",
+      "next_action": "In attesa FU 2",
+      "next_action_date": "2026-06-12",
       "stape_score": null,
       "notes": "Luxury boutique Cesena",
       "thread_id": "19e02d1055d68c1f",
@@ -3897,15 +4307,26 @@
         {
           "date": "2026-05-07",
           "action": "Email outbound 1A inviata"
+        },
+        {
+          "date": "2026-05-25",
+          "action": "Follow-up 1 inviato"
         }
       ],
       "label_id": "Label_1592668050883672428",
       "sender": "Manu",
       "is_first_email": true,
-      "followups_sent": [],
+      "followups_sent": [
+        {
+          "date": "2026-05-25",
+          "type": "follow_up_1",
+          "sender": "Antonio",
+          "snippet": "Rimando su nel caso, fammi sapere se ha senso parlarne."
+        }
+      ],
       "last_outbound_by_antonio": {
-        "date": "2026-05-07",
-        "snippet": "Ciao, mi sono imbattuto in Monti Boutique cercando le migliori realtÃÂ  fashion del settore. Ho visto la piattaforma che state usando per le vendite online, la conosco molto bene."
+        "date": "2026-05-25",
+        "snippet": "Rimando su nel caso, fammi sapere se ha senso parlarne."
       },
       "last_reply_from_prospect": null,
       "next_followup_due": "2026-05-21",
@@ -3929,11 +4350,11 @@
       "assigned_to": "Manu",
       "angle": "1A",
       "platform": "non-Shopify",
-      "status": "contacted",
+      "status": "follow_up_1_sent",
       "first_contact": "2026-05-07",
-      "last_activity": "2026-05-07",
-      "next_action": "Follow-up 1",
-      "next_action_date": "2026-05-21",
+      "last_activity": "2026-05-25",
+      "next_action": "In attesa FU 2",
+      "next_action_date": "2026-06-12",
       "stape_score": null,
       "notes": "Luxury boutique Caserta",
       "thread_id": "19e02c15b76af405",
@@ -3941,15 +4362,26 @@
         {
           "date": "2026-05-07",
           "action": "Email outbound 1A inviata"
+        },
+        {
+          "date": "2026-05-25",
+          "action": "Follow-up 1 inviato"
         }
       ],
       "label_id": "Label_1592668050883672428",
       "sender": "Manu",
       "is_first_email": true,
-      "followups_sent": [],
+      "followups_sent": [
+        {
+          "date": "2026-05-25",
+          "type": "follow_up_1",
+          "sender": "Antonio",
+          "snippet": "Rimando su nel caso, fammi sapere se ha senso parlarne."
+        }
+      ],
       "last_outbound_by_antonio": {
-        "date": "2026-05-07",
-        "snippet": "Ciao, mi sono imbattuto in Mario D'Anna cercando le migliori realtÃÂ  fashion del settore. Ho visto la piattaforma che state usando per le vendite online, la conosco molto bene."
+        "date": "2026-05-25",
+        "snippet": "Rimando su nel caso, fammi sapere se ha senso parlarne."
       },
       "last_reply_from_prospect": null,
       "next_followup_due": "2026-05-21",
@@ -3973,11 +4405,11 @@
       "assigned_to": "Manu",
       "angle": "1A",
       "platform": "non-Shopify",
-      "status": "contacted",
+      "status": "follow_up_1_sent",
       "first_contact": "2026-05-07",
-      "last_activity": "2026-05-07",
-      "next_action": "Follow-up 1",
-      "next_action_date": "2026-05-21",
+      "last_activity": "2026-05-25",
+      "next_action": "In attesa FU 2",
+      "next_action_date": "2026-06-12",
       "stape_score": null,
       "notes": "Luxury boutique MondovÃÂ¬",
       "thread_id": "19e02b8928ea8361",
@@ -3985,15 +4417,26 @@
         {
           "date": "2026-05-07",
           "action": "Email outbound 1A inviata"
+        },
+        {
+          "date": "2026-05-25",
+          "action": "Follow-up 1 inviato"
         }
       ],
       "label_id": "Label_1592668050883672428",
       "sender": "Manu",
       "is_first_email": true,
-      "followups_sent": [],
+      "followups_sent": [
+        {
+          "date": "2026-05-25",
+          "type": "follow_up_1",
+          "sender": "Antonio",
+          "snippet": "Rimando su nel caso, fammi sapere se ha senso parlarne."
+        }
+      ],
       "last_outbound_by_antonio": {
-        "date": "2026-05-07",
-        "snippet": "Ciao, mi sono imbattuto in Marcos cercando le migliori realtÃÂ  fashion del settore. Ho visto la piattaforma che state usando per le vendite online, la conosco molto bene."
+        "date": "2026-05-25",
+        "snippet": "Rimando su nel caso, fammi sapere se ha senso parlarne."
       },
       "last_reply_from_prospect": null,
       "next_followup_due": "2026-05-21",
@@ -4017,11 +4460,11 @@
       "assigned_to": "Manu",
       "angle": "1A",
       "platform": "non-Shopify",
-      "status": "contacted",
+      "status": "follow_up_1_sent",
       "first_contact": "2026-05-07",
-      "last_activity": "2026-05-07",
-      "next_action": "Follow-up 1",
-      "next_action_date": "2026-05-21",
+      "last_activity": "2026-05-25",
+      "next_action": "In attesa FU 2",
+      "next_action_date": "2026-06-12",
       "stape_score": null,
       "notes": "Boutique multibrand Ã¢ÂÂ 2ÃÂ° tentativo (vedi prospect_046)",
       "thread_id": "19e02b4b20e41a06",
@@ -4029,15 +4472,26 @@
         {
           "date": "2026-05-07",
           "action": "Email outbound 1A inviata"
+        },
+        {
+          "date": "2026-05-25",
+          "action": "Follow-up 1 inviato"
         }
       ],
       "label_id": "Label_1592668050883672428",
       "sender": "Manu",
       "is_first_email": true,
-      "followups_sent": [],
+      "followups_sent": [
+        {
+          "date": "2026-05-25",
+          "type": "follow_up_1",
+          "sender": "Antonio",
+          "snippet": "Rimando su nel caso, fammi sapere se ha senso parlarne."
+        }
+      ],
       "last_outbound_by_antonio": {
-        "date": "2026-05-07",
-        "snippet": "Ciao, mi sono imbattuto in Mantovani Shop (B) cercando le migliori realtÃÂ  fashion del settore. Ho visto la piattaforma che state usando per le vendite online, la conosco molto bene."
+        "date": "2026-05-25",
+        "snippet": "Rimando su nel caso, fammi sapere se ha senso parlarne."
       },
       "last_reply_from_prospect": null,
       "next_followup_due": "2026-05-21",
@@ -4061,11 +4515,11 @@
       "assigned_to": "Manu",
       "angle": "1A",
       "platform": "non-Shopify",
-      "status": "contacted",
+      "status": "follow_up_1_sent",
       "first_contact": "2026-05-07",
-      "last_activity": "2026-05-07",
-      "next_action": "Follow-up 1",
-      "next_action_date": "2026-05-21",
+      "last_activity": "2026-05-25",
+      "next_action": "In attesa FU 2",
+      "next_action_date": "2026-06-12",
       "stape_score": null,
       "notes": "Luxury boutique Bari",
       "thread_id": "19e027d32f45ec43",
@@ -4073,15 +4527,26 @@
         {
           "date": "2026-05-07",
           "action": "Email outbound 1A inviata"
+        },
+        {
+          "date": "2026-05-25",
+          "action": "Follow-up 1 inviato"
         }
       ],
       "label_id": "Label_1592668050883672428",
       "sender": "Manu",
       "is_first_email": true,
-      "followups_sent": [],
+      "followups_sent": [
+        {
+          "date": "2026-05-25",
+          "type": "follow_up_1",
+          "sender": "Antonio",
+          "snippet": "Rimando su nel caso, fammi sapere se ha senso parlarne."
+        }
+      ],
       "last_outbound_by_antonio": {
-        "date": "2026-05-07",
-        "snippet": "Ciao, mi sono imbattuto in Luciana Boutique cercando le migliori realtÃÂ  fashion del settore. Ho visto la piattaforma che state usando per le vendite online, la conosco molto bene."
+        "date": "2026-05-25",
+        "snippet": "Rimando su nel caso, fammi sapere se ha senso parlarne."
       },
       "last_reply_from_prospect": null,
       "next_followup_due": "2026-05-21",
@@ -4105,11 +4570,11 @@
       "assigned_to": "Manu",
       "angle": "1A",
       "platform": "non-Shopify",
-      "status": "contacted",
+      "status": "follow_up_1_sent",
       "first_contact": "2026-05-07",
-      "last_activity": "2026-05-07",
-      "next_action": "Follow-up 1",
-      "next_action_date": "2026-05-21",
+      "last_activity": "2026-05-25",
+      "next_action": "In attesa FU 2",
+      "next_action_date": "2026-06-12",
       "stape_score": null,
       "notes": "Luxury boutique Madonna di Campiglio",
       "thread_id": "19e027999e538b9b",
@@ -4117,15 +4582,26 @@
         {
           "date": "2026-05-07",
           "action": "Email outbound 1A inviata"
+        },
+        {
+          "date": "2026-05-25",
+          "action": "Follow-up 1 inviato"
         }
       ],
       "label_id": "Label_1592668050883672428",
       "sender": "Manu",
       "is_first_email": true,
-      "followups_sent": [],
+      "followups_sent": [
+        {
+          "date": "2026-05-25",
+          "type": "follow_up_1",
+          "sender": "Antonio",
+          "snippet": "Rimando su nel caso, fammi sapere se ha senso parlarne."
+        }
+      ],
       "last_outbound_by_antonio": {
-        "date": "2026-05-07",
-        "snippet": "Ciao, mi sono imbattuto in Lorenzetti Luxury cercando le migliori realtÃÂ  fashion del settore. Ho visto la piattaforma che state usando per le vendite online, la conosco molto bene."
+        "date": "2026-05-25",
+        "snippet": "Rimando su nel caso, fammi sapere se ha senso parlarne."
       },
       "last_reply_from_prospect": null,
       "next_followup_due": "2026-05-21",
@@ -4149,11 +4625,11 @@
       "assigned_to": "Manu",
       "angle": "1A",
       "platform": "non-Shopify",
-      "status": "contacted",
+      "status": "follow_up_1_sent",
       "first_contact": "2026-05-07",
-      "last_activity": "2026-05-07",
-      "next_action": "Follow-up 1",
-      "next_action_date": "2026-05-21",
+      "last_activity": "2026-05-25",
+      "next_action": "In attesa FU 2",
+      "next_action_date": "2026-06-12",
       "stape_score": null,
       "notes": "Luxury boutique Roma",
       "thread_id": "19e027130d69d3f9",
@@ -4161,15 +4637,26 @@
         {
           "date": "2026-05-07",
           "action": "Email outbound 1A inviata"
+        },
+        {
+          "date": "2026-05-25",
+          "action": "Follow-up 1 inviato"
         }
       ],
       "label_id": "Label_1592668050883672428",
       "sender": "Manu",
       "is_first_email": true,
-      "followups_sent": [],
+      "followups_sent": [
+        {
+          "date": "2026-05-25",
+          "type": "follow_up_1",
+          "sender": "Antonio",
+          "snippet": "Rimando su nel caso, fammi sapere se ha senso parlarne."
+        }
+      ],
       "last_outbound_by_antonio": {
-        "date": "2026-05-07",
-        "snippet": "Ciao Vittorio, mi sono imbattuto in Leam cercando le migliori realtÃÂ  fashion del settore. Ho visto la piattaforma che state usando per le vendite online, la conosco molto bene."
+        "date": "2026-05-25",
+        "snippet": "Rimando su nel caso, fammi sapere se ha senso parlarne."
       },
       "last_reply_from_prospect": null,
       "next_followup_due": "2026-05-21",
@@ -4193,11 +4680,11 @@
       "assigned_to": "Manu",
       "angle": "1A",
       "platform": "non-Shopify",
-      "status": "contacted",
+      "status": "follow_up_1_sent",
       "first_contact": "2026-05-07",
-      "last_activity": "2026-05-07",
-      "next_action": "Follow-up 1",
-      "next_action_date": "2026-05-21",
+      "last_activity": "2026-05-25",
+      "next_action": "In attesa FU 2",
+      "next_action_date": "2026-06-12",
       "stape_score": null,
       "notes": "Luxury boutique San Vittore Olona",
       "thread_id": "19e026c168a716b8",
@@ -4205,15 +4692,26 @@
         {
           "date": "2026-05-07",
           "action": "Email outbound 1A inviata"
+        },
+        {
+          "date": "2026-05-25",
+          "action": "Follow-up 1 inviato"
         }
       ],
       "label_id": "Label_1592668050883672428",
       "sender": "Manu",
       "is_first_email": true,
-      "followups_sent": [],
+      "followups_sent": [
+        {
+          "date": "2026-05-25",
+          "type": "follow_up_1",
+          "sender": "Antonio",
+          "snippet": "Rimando su nel caso, fammi sapere se ha senso parlarne."
+        }
+      ],
       "last_outbound_by_antonio": {
-        "date": "2026-05-07",
-        "snippet": "Ciao, mi sono imbattuto in Lattuada cercando le migliori realtÃÂ  fashion del settore. Ho visto la piattaforma che state usando per le vendite online, la conosco molto bene."
+        "date": "2026-05-25",
+        "snippet": "Rimando su nel caso, fammi sapere se ha senso parlarne."
       },
       "last_reply_from_prospect": null,
       "next_followup_due": "2026-05-21",
@@ -4227,50 +4725,6 @@
         "out_date": "2026-07-13"
       },
       "subject_email": "Problema su lattuadaboutique.it"
-    },
-    {
-      "id": "prospect_093",
-      "brand": "Julian Fashion",
-      "contact": "Sabina",
-      "email": "sabina@julian-fashion.com",
-      "domain": "julian-fashion.com",
-      "assigned_to": "Manu",
-      "angle": "1A",
-      "platform": "non-Shopify",
-      "status": "contacted",
-      "first_contact": "2026-05-07",
-      "last_activity": "2026-05-07",
-      "next_action": "Follow-up 1",
-      "next_action_date": "2026-05-21",
-      "stape_score": null,
-      "notes": "3ÃÂ° contatto Julian (Sabina, boutique Rimini)",
-      "thread_id": "19e02644a834f247",
-      "timeline": [
-        {
-          "date": "2026-05-07",
-          "action": "Email outbound 1A inviata"
-        }
-      ],
-      "label_id": "Label_1592668050883672428",
-      "sender": "Manu",
-      "is_first_email": true,
-      "followups_sent": [],
-      "last_outbound_by_antonio": {
-        "date": "2026-05-07",
-        "snippet": "Ciao Sabina, mi sono imbattuto in Julian Fashion cercando le migliori realtÃÂ  fashion del settore. Ho visto la piattaforma che state usando per le vendite online, la conosco molto bene."
-      },
-      "last_reply_from_prospect": null,
-      "next_followup_due": "2026-05-21",
-      "days_since_last_activity": 6,
-      "first_email_snippet": "Ciao Sabina, mi sono imbattuto in Julian Fashion cercando le migliori realtÃÂ  fashion del settore. Ho visto la piattaforma che state usando per le vendite online, la conosco molto bene.",
-      "scheduled_timeline": {
-        "first_email": "2026-05-07",
-        "follow_up_1": "2026-05-21",
-        "follow_up_2": "2026-06-12",
-        "follow_up_3": "2026-07-10",
-        "out_date": "2026-07-13"
-      },
-      "subject_email": "[RE]: Report julian-fashion.com"
     },
     {
       "id": "prospect_094",
