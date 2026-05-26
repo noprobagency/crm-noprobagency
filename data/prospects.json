@@ -1,9 +1,9 @@
 {
   "meta": {
-    "last_updated": "2026-05-26T14:14:13Z",
-    "total_contacted": 347,
-    "total_replied": 10,
-    "total_bounced": 49,
+    "last_updated": "2026-05-27T01:02:00+02:00",
+    "total_contacted": 367,
+    "total_replied": 11,
+    "total_bounced": 50,
     "total_autoresponse": 15,
     "first_run": false,
     "coverage_note": "First run Ã¢ÂÂ copre outbound visibili negli ultimi ~9 giorni (2026-05-06 Ã¢ÂÂ 2026-05-13). Le runs giornaliere successive aggiungeranno nuovi thread incrementalmente.",
@@ -110,7 +110,7 @@
       "status": "in_conversation",
       "first_contact": "2026-05-01",
       "last_activity": "2026-05-20",
-      "next_action": "Follow-up urgente — 19 giorni senza risposta da Valeria (07/05)",
+      "next_action": "Follow-up urgente — 20 giorni senza risposta da Valeria (07/05). Video Loom già inviato.",
       "next_action_date": "2026-05-27",
       "stape_score": null,
       "notes": "Risposta positiva il 07/05. Inviato video di analisi (10 min) l'08/05. Bump il 12/05. FU inviato il 20/05: ha avuto modo di vedere il video?",
@@ -198,7 +198,7 @@
       "status": "in_conversation",
       "first_contact": "2026-05-01",
       "last_activity": "2026-05-19",
-      "next_action": "Follow-up urgente — 8 giorni senza risposta da Nicolò (18/05)",
+      "next_action": "Follow-up urgente — 9 giorni senza risposta da Nicolò (18/05). Risposta insolita (CV allegato).",
       "next_action_date": "2026-05-27",
       "stape_score": null,
       "notes": "Email personale (nicodeka03@gmail.com). Risposta positiva il 07/05. Video inviato l'08/05. Risposta 13/05: molto insightful. Il 18/05: allega CV (off-topic). Antonio risponde il 19/05.",
@@ -298,7 +298,7 @@
       "status": "in_conversation",
       "first_contact": "2026-05-13",
       "last_activity": "2026-05-15",
-      "next_action": "Follow-up urgente — 11 giorni senza risposta da Sara (15/05)",
+      "next_action": "Follow-up urgente — 12 giorni senza risposta da Sara (15/05). 'Ho girato la mail a chi di competenza'.",
       "next_action_date": "2026-05-27",
       "stape_score": null,
       "notes": "Luxury boutique Casale Monferrato",
@@ -645,7 +645,7 @@
       "next_action": "In attesa risposta — migrazione Shopify settembre. Risposta Antonio inviata 25/05.",
       "next_action_date": null,
       "stape_score": null,
-      "notes": "3ÃÂ° contatto Julian (Sabina, boutique Rimini) | FU1 25/05: risposta Sabina Zabberoni. Passano a Shopify da settembre. Lead migrazione.",
+      "notes": "Sabina Zabberoni conferma migrazione Shopify settembre. Interesse reale. Nota: Antonio ha inviato 2 email quasi identiche dopo la risposta (11:08 e 11:09 del 25/05).",
       "thread_id": "19e02644a834f247",
       "timeline": [
         {
@@ -659,6 +659,10 @@
         {
           "date": "2026-05-25",
           "action": "Risposta umana da Sabina Zabberoni: \"Da settembre passeremo su Shopify con il nostro ecom e tutto ciò che ruota attorno. Per ora siamo concentrati su questo passaggio.\""
+        },
+        {
+          "date": "2026-05-25",
+          "action": "Antonio risponde a Sabina: 'Siamo Shopify Partner specializzati in migrazioni Fashion Boutique' (2 email quasi identiche inviate a 1 min di distanza)"
         }
       ],
       "label_id": "Label_1592668050883672428",
@@ -674,7 +678,7 @@
       ],
       "last_outbound_by_antonio": {
         "date": "2026-05-25",
-        "snippet": "Rimando su nel caso, fammi sapere se ha senso parlarne."
+        "snippet": "Buongiorno! Lo immaginavo, c'è davvero un potenziale enorme! Nel caso possa essere utile, siamo Shopify Partner specializzati proprio nelle migrazioni per Fashion Boutique"
       },
       "last_reply_from_prospect": {
         "date": "2026-05-25",
@@ -711,7 +715,7 @@
       "had_cc_bcc": false,
       "redirect_to": null,
       "stape_score": 47,
-      "notes": "Prima email a customerservice@societeanonyme.it. Ginevra Giannelli (Digital Art Director) ha risposto direttamente da ginevra@societeanonyme.it chiedendo call. Propone giovedi 15:30. Antonio ha bozza incompleta in Gmail.",
+      "notes": "Prima email a customerservice@societeanonyme.it. Ginevra Giannelli (Digital Art Director, +39 3385425272) ha risposto da ginevra@societeanonyme.it. Call confermata giovedì 28/05 ore 15:00.",
       "thread_id": "19e636f0db2e3be7",
       "followups_sent": [],
       "scheduled_timeline": {
@@ -723,14 +727,14 @@
       },
       "last_outbound_by_antonio": {
         "date": "2026-05-26",
-        "snippet": "Buon pomeriggio Ginevra! Si certamente, va benissimo! Può andare domani mattina verso le 10 oppure giovedi 10/11/12?"
+        "snippet": "Fissato! A giovedi, buona giornata! 🙂"
       },
       "last_reply_from_prospect": {
         "date": "2026-05-26",
-        "snippet": "Ti andrebbe bene Giovedì nel pomeriggio tipo le 15.30? Fammi sapere! Ginevra"
+        "snippet": "Andata per le 15! Grazie, Ginevra"
       },
-      "next_action": "⚠️ RISPOSTA URGENTE — Ginevra chiede call giovedì 15:30. Bozza incompleta in Gmail (da completare prima di inviare).",
-      "next_action_date": "2026-05-27",
+      "next_action": "Call confermata giovedì 28/05 ore 15:00 con Ginevra Giannelli",
+      "next_action_date": "2026-05-28",
       "timeline": [
         {
           "date": "2026-05-26",
@@ -742,21 +746,80 @@
         },
         {
           "date": "2026-05-26",
-          "action": "Risposta umana da Ginevra Giannelli (Digital Art Director): chiede call"
+          "action": "Risposta umana da customerservice@societeanonyme.it (Ginevra Giannelli): ringrazia e chiede call"
         },
         {
           "date": "2026-05-26",
-          "action": "Antonio risponde: propone domani mattina ore 10 o giovedì 10/11/12"
+          "action": "Antonio propone: domani mattina ore 10 o giovedì 10/11/12"
         },
         {
           "date": "2026-05-26",
-          "action": "Ginevra risponde: propone giovedì pomeriggio 15:30"
+          "action": "Ginevra: propone giovedì pomeriggio 15:30"
         },
         {
           "date": "2026-05-26",
-          "action": "⚠️ Bozza risposta di Antonio incompleta in Gmail — DA COMPLETARE E INVIARE"
+          "action": "Antonio: disponibile, chiede eventualmente 14/15"
+        },
+        {
+          "date": "2026-05-26",
+          "action": "Ginevra conferma: 'Andata per le 15!'"
+        },
+        {
+          "date": "2026-05-26",
+          "action": "Antonio: 'Fissato! A giovedì, buona giornata!'"
         }
       ]
+    },
+    {
+      "id": "prospect_372",
+      "brand": "Gigole",
+      "contact": "Luca",
+      "email": "info@gigole-store.com",
+      "domain": "gigole-store.com",
+      "subject_email": "Report gigole-store.com tracciamento",
+      "assigned_to": "Manu",
+      "sender": "Manu",
+      "label_id": "Label_1592668050883672428",
+      "angle": "1A",
+      "platform": "non-Shopify",
+      "status": "in_conversation",
+      "first_contact": "2026-05-26",
+      "last_activity": "2026-05-26",
+      "multi_to": false,
+      "had_cc_bcc": false,
+      "redirect_to": null,
+      "stape_score": null,
+      "notes": "Risposta umana stessa giornata da Luca. Tel: 3381572496. Pronto per chiamata.",
+      "thread_id": "19e637b60efdcc51",
+      "followups_sent": [],
+      "scheduled_timeline": {
+        "first_email": "2026-05-26",
+        "follow_up_1": "2026-06-10",
+        "follow_up_2": "2026-07-01",
+        "follow_up_3": "2026-07-29",
+        "out_date": "2026-07-30"
+      },
+      "last_outbound_by_antonio": {
+        "date": "2026-05-26",
+        "snippet": "Buongiorno, mi sono imbattuto in Gigole cercando le migliori boutique multibrand del settore in Italia, a proposito, lo store a Chiaravalle è incredibile."
+      },
+      "last_reply_from_prospect": {
+        "date": "2026-05-26",
+        "snippet": "Ciao Antonio, certo, parliamone al telefono. Puoi contattarmi al 3381572496 Saluti, Luca"
+      },
+      "next_action": "Gestione manuale Antonio — risposta immediata ricevuta. Luca disponibile per call: 3381572496",
+      "next_action_date": null,
+      "timeline": [
+        {
+          "date": "2026-05-26",
+          "action": "Prima email inviata da Manu (1A — piattaforma boutique multibrand)"
+        },
+        {
+          "date": "2026-05-26",
+          "action": "Risposta umana da Luca: disponibile per chiamata telefonica (3381572496)"
+        }
+      ],
+      "skip": false
     }
   ],
   "no_reply": [
@@ -16997,6 +17060,785 @@
       "had_cc_bcc": false,
       "redirect_to": null,
       "skip": false
+    },
+    {
+      "id": "prospect_373",
+      "brand": "Passaro Uomo",
+      "contact": null,
+      "email": "eshop@passarouomo.it",
+      "domain": "passarouomo.it",
+      "subject_email": "[RE]: Report passarouomo.it",
+      "assigned_to": "Manu",
+      "sender": "Manu",
+      "label_id": "Label_1592668050883672428",
+      "angle": "1A",
+      "platform": "non-Shopify",
+      "status": "contacted",
+      "first_contact": "2026-05-26",
+      "last_activity": "2026-05-26",
+      "multi_to": false,
+      "had_cc_bcc": false,
+      "redirect_to": null,
+      "stape_score": null,
+      "notes": "",
+      "thread_id": "19e637e3d472a193",
+      "followups_sent": [],
+      "scheduled_timeline": {
+        "first_email": "2026-05-26",
+        "follow_up_1": "2026-06-10",
+        "follow_up_2": "2026-07-01",
+        "follow_up_3": "2026-07-29",
+        "out_date": "2026-07-30"
+      },
+      "last_outbound_by_antonio": null,
+      "last_reply_from_prospect": null,
+      "next_action": "Follow-up 1",
+      "next_action_date": "2026-06-10",
+      "timeline": [
+        {
+          "date": "2026-05-26",
+          "action": "Prima email inviata da Manu (1A — piattaforma boutique multibrand)"
+        }
+      ],
+      "skip": false
+    },
+    {
+      "id": "prospect_374",
+      "brand": "Wok Store",
+      "contact": "Stefano",
+      "email": "stefano@wok-store.com",
+      "domain": "wok-store.com",
+      "subject_email": "Problema su wok-store.com",
+      "assigned_to": "Manu",
+      "sender": "Manu",
+      "label_id": "Label_1592668050883672428",
+      "angle": "1A",
+      "platform": "non-Shopify",
+      "status": "contacted",
+      "first_contact": "2026-05-26",
+      "last_activity": "2026-05-26",
+      "multi_to": false,
+      "had_cc_bcc": false,
+      "redirect_to": null,
+      "stape_score": null,
+      "notes": "",
+      "thread_id": "19e63824a34d8206",
+      "followups_sent": [],
+      "scheduled_timeline": {
+        "first_email": "2026-05-26",
+        "follow_up_1": "2026-06-10",
+        "follow_up_2": "2026-07-01",
+        "follow_up_3": "2026-07-29",
+        "out_date": "2026-07-30"
+      },
+      "last_outbound_by_antonio": null,
+      "last_reply_from_prospect": null,
+      "next_action": "Follow-up 1",
+      "next_action_date": "2026-06-10",
+      "timeline": [
+        {
+          "date": "2026-05-26",
+          "action": "Prima email inviata da Manu (1A — piattaforma boutique multibrand)"
+        }
+      ],
+      "skip": false
+    },
+    {
+      "id": "prospect_375",
+      "brand": "Pozzilei",
+      "contact": "Marco Avanzi",
+      "email": "marcoavanzi@pozzilei.it",
+      "domain": "pozzilei.it",
+      "subject_email": "Problema su pozzilei.it",
+      "assigned_to": "Manu",
+      "sender": "Manu",
+      "label_id": "Label_1592668050883672428",
+      "angle": "1A",
+      "platform": "non-Shopify",
+      "status": "contacted",
+      "first_contact": "2026-05-26",
+      "last_activity": "2026-05-26",
+      "multi_to": false,
+      "had_cc_bcc": false,
+      "redirect_to": null,
+      "stape_score": null,
+      "notes": "",
+      "thread_id": "19e638791eb7df8e",
+      "followups_sent": [],
+      "scheduled_timeline": {
+        "first_email": "2026-05-26",
+        "follow_up_1": "2026-06-10",
+        "follow_up_2": "2026-07-01",
+        "follow_up_3": "2026-07-29",
+        "out_date": "2026-07-30"
+      },
+      "last_outbound_by_antonio": null,
+      "last_reply_from_prospect": null,
+      "next_action": "Follow-up 1",
+      "next_action_date": "2026-06-10",
+      "timeline": [
+        {
+          "date": "2026-05-26",
+          "action": "Prima email inviata da Manu (1A — piattaforma boutique multibrand)"
+        }
+      ],
+      "skip": false
+    },
+    {
+      "id": "prospect_376",
+      "brand": "Zoe Fashion",
+      "contact": null,
+      "email": "info@zoefashion.eu",
+      "domain": "zoefashion.eu",
+      "subject_email": "Quick note about zoefashion.eu sales setup",
+      "assigned_to": "Manu",
+      "sender": "Manu",
+      "label_id": "Label_1592668050883672428",
+      "angle": "1A",
+      "platform": "non-Shopify",
+      "status": "contacted",
+      "first_contact": "2026-05-26",
+      "last_activity": "2026-05-26",
+      "multi_to": false,
+      "had_cc_bcc": false,
+      "redirect_to": null,
+      "stape_score": null,
+      "notes": "",
+      "thread_id": "19e638a13072d2af",
+      "followups_sent": [],
+      "scheduled_timeline": {
+        "first_email": "2026-05-26",
+        "follow_up_1": "2026-06-10",
+        "follow_up_2": "2026-07-01",
+        "follow_up_3": "2026-07-29",
+        "out_date": "2026-07-30"
+      },
+      "last_outbound_by_antonio": null,
+      "last_reply_from_prospect": null,
+      "next_action": "Follow-up 1",
+      "next_action_date": "2026-06-10",
+      "timeline": [
+        {
+          "date": "2026-05-26",
+          "action": "Prima email inviata da Manu (1A — piattaforma boutique multibrand)"
+        }
+      ],
+      "skip": false
+    },
+    {
+      "id": "prospect_377",
+      "brand": "Regina",
+      "contact": null,
+      "email": "info@registyle.com",
+      "domain": "registyle.com",
+      "subject_email": "Problema su registyle.com",
+      "assigned_to": "Manu",
+      "sender": "Manu",
+      "label_id": "Label_1592668050883672428",
+      "angle": "1A",
+      "platform": "non-Shopify",
+      "status": "contacted",
+      "first_contact": "2026-05-26",
+      "last_activity": "2026-05-26",
+      "multi_to": false,
+      "had_cc_bcc": false,
+      "redirect_to": null,
+      "stape_score": null,
+      "notes": "",
+      "thread_id": "19e638e7ef37d880",
+      "followups_sent": [],
+      "scheduled_timeline": {
+        "first_email": "2026-05-26",
+        "follow_up_1": "2026-06-10",
+        "follow_up_2": "2026-07-01",
+        "follow_up_3": "2026-07-29",
+        "out_date": "2026-07-30"
+      },
+      "last_outbound_by_antonio": null,
+      "last_reply_from_prospect": null,
+      "next_action": "Follow-up 1",
+      "next_action_date": "2026-06-10",
+      "timeline": [
+        {
+          "date": "2026-05-26",
+          "action": "Prima email inviata da Manu (1A — piattaforma boutique multibrand)"
+        }
+      ],
+      "skip": false
+    },
+    {
+      "id": "prospect_378",
+      "brand": "Wendela Van Dijk",
+      "contact": null,
+      "email": "info@wendelavandijk.com",
+      "domain": "wendelavandijk.com",
+      "subject_email": "Quick note about wendelavandijk.com sales setup",
+      "assigned_to": "Manu",
+      "sender": "Manu",
+      "label_id": "Label_1592668050883672428",
+      "angle": "1A",
+      "platform": "non-Shopify",
+      "status": "contacted",
+      "first_contact": "2026-05-26",
+      "last_activity": "2026-05-26",
+      "multi_to": false,
+      "had_cc_bcc": false,
+      "redirect_to": null,
+      "stape_score": null,
+      "notes": "",
+      "thread_id": "19e6371f93a2bbd6",
+      "followups_sent": [],
+      "scheduled_timeline": {
+        "first_email": "2026-05-26",
+        "follow_up_1": "2026-06-10",
+        "follow_up_2": "2026-07-01",
+        "follow_up_3": "2026-07-29",
+        "out_date": "2026-07-30"
+      },
+      "last_outbound_by_antonio": null,
+      "last_reply_from_prospect": null,
+      "next_action": "Follow-up 1",
+      "next_action_date": "2026-06-10",
+      "timeline": [
+        {
+          "date": "2026-05-26",
+          "action": "Prima email inviata da Manu (1A — piattaforma boutique multibrand)"
+        }
+      ],
+      "skip": false
+    },
+    {
+      "id": "prospect_379",
+      "brand": "Sara Clausin",
+      "contact": null,
+      "email": "online@saraclausin.com",
+      "domain": "saraclausin.com",
+      "subject_email": "Quick note about Sara Clausin sales setup",
+      "assigned_to": "Manu",
+      "sender": "Manu",
+      "label_id": "Label_1592668050883672428",
+      "angle": "1A",
+      "platform": "non-Shopify",
+      "status": "contacted",
+      "first_contact": "2026-05-26",
+      "last_activity": "2026-05-26",
+      "multi_to": false,
+      "had_cc_bcc": false,
+      "redirect_to": null,
+      "stape_score": null,
+      "notes": "",
+      "thread_id": "19e636cfbf95604b",
+      "followups_sent": [],
+      "scheduled_timeline": {
+        "first_email": "2026-05-26",
+        "follow_up_1": "2026-06-10",
+        "follow_up_2": "2026-07-01",
+        "follow_up_3": "2026-07-29",
+        "out_date": "2026-07-30"
+      },
+      "last_outbound_by_antonio": null,
+      "last_reply_from_prospect": null,
+      "next_action": "Follow-up 1",
+      "next_action_date": "2026-06-10",
+      "timeline": [
+        {
+          "date": "2026-05-26",
+          "action": "Prima email inviata da Manu (1A — piattaforma boutique multibrand)"
+        }
+      ],
+      "skip": false
+    },
+    {
+      "id": "prospect_380",
+      "brand": "Paleari dal 1938",
+      "contact": null,
+      "email": "info@paleariabbigliamento.it",
+      "domain": "palearionline.com",
+      "subject_email": "Ho notato un problema su palearionline.com",
+      "assigned_to": "Manu",
+      "sender": "Manu",
+      "label_id": "Label_1592668050883672428",
+      "angle": "1A",
+      "platform": "non-Shopify",
+      "status": "contacted",
+      "first_contact": "2026-05-26",
+      "last_activity": "2026-05-26",
+      "multi_to": false,
+      "had_cc_bcc": false,
+      "redirect_to": null,
+      "stape_score": null,
+      "notes": "",
+      "thread_id": "19e63682256e74af",
+      "followups_sent": [],
+      "scheduled_timeline": {
+        "first_email": "2026-05-26",
+        "follow_up_1": "2026-06-10",
+        "follow_up_2": "2026-07-01",
+        "follow_up_3": "2026-07-29",
+        "out_date": "2026-07-30"
+      },
+      "last_outbound_by_antonio": null,
+      "last_reply_from_prospect": null,
+      "next_action": "Follow-up 1",
+      "next_action_date": "2026-06-10",
+      "timeline": [
+        {
+          "date": "2026-05-26",
+          "action": "Prima email inviata da Manu (1A — piattaforma boutique multibrand)"
+        }
+      ],
+      "skip": false
+    },
+    {
+      "id": "prospect_381",
+      "brand": "Peeper",
+      "contact": null,
+      "email": "info@peeperstore.it",
+      "domain": "peeperstore.it",
+      "subject_email": "Problema su peeperstore.it",
+      "assigned_to": "Manu",
+      "sender": "Manu",
+      "label_id": "Label_1592668050883672428",
+      "angle": "1A",
+      "platform": "non-Shopify",
+      "status": "contacted",
+      "first_contact": "2026-05-26",
+      "last_activity": "2026-05-26",
+      "multi_to": false,
+      "had_cc_bcc": false,
+      "redirect_to": null,
+      "stape_score": null,
+      "notes": "",
+      "thread_id": "19e63752eb386955",
+      "followups_sent": [],
+      "scheduled_timeline": {
+        "first_email": "2026-05-26",
+        "follow_up_1": "2026-06-10",
+        "follow_up_2": "2026-07-01",
+        "follow_up_3": "2026-07-29",
+        "out_date": "2026-07-30"
+      },
+      "last_outbound_by_antonio": null,
+      "last_reply_from_prospect": null,
+      "next_action": "Follow-up 1",
+      "next_action_date": "2026-06-10",
+      "timeline": [
+        {
+          "date": "2026-05-26",
+          "action": "Prima email inviata da Manu (1A — piattaforma boutique multibrand)"
+        }
+      ],
+      "skip": false
+    },
+    {
+      "id": "prospect_382",
+      "brand": "Palazzo Belli",
+      "contact": null,
+      "email": "customercare@palazzobelli.com",
+      "domain": "palazzobelli.it",
+      "subject_email": "Problema su palazzobelli.it",
+      "assigned_to": "Manu",
+      "sender": "Manu",
+      "label_id": "Label_1592668050883672428",
+      "angle": "1A",
+      "platform": "non-Shopify",
+      "status": "contacted",
+      "first_contact": "2026-05-26",
+      "last_activity": "2026-05-26",
+      "multi_to": false,
+      "had_cc_bcc": false,
+      "redirect_to": null,
+      "stape_score": null,
+      "notes": "",
+      "thread_id": "19e637832c9b7df8",
+      "followups_sent": [],
+      "scheduled_timeline": {
+        "first_email": "2026-05-26",
+        "follow_up_1": "2026-06-10",
+        "follow_up_2": "2026-07-01",
+        "follow_up_3": "2026-07-29",
+        "out_date": "2026-07-30"
+      },
+      "last_outbound_by_antonio": null,
+      "last_reply_from_prospect": null,
+      "next_action": "Follow-up 1",
+      "next_action_date": "2026-06-10",
+      "timeline": [
+        {
+          "date": "2026-05-26",
+          "action": "Prima email inviata da Manu (1A — piattaforma boutique multibrand)"
+        }
+      ],
+      "skip": false
+    },
+    {
+      "id": "prospect_383",
+      "brand": "Jasper Boutique",
+      "contact": null,
+      "email": "jasperboutique@libero.it",
+      "domain": "jasperboutique.com",
+      "subject_email": "[RE]: Report jasperboutique.com",
+      "assigned_to": "Manu",
+      "sender": "Manu",
+      "label_id": "Label_1592668050883672428",
+      "angle": "1A",
+      "platform": "non-Shopify",
+      "status": "contacted",
+      "first_contact": "2026-05-26",
+      "last_activity": "2026-05-26",
+      "multi_to": false,
+      "had_cc_bcc": false,
+      "redirect_to": null,
+      "stape_score": null,
+      "notes": "",
+      "thread_id": "19e636508bec8978",
+      "followups_sent": [],
+      "scheduled_timeline": {
+        "first_email": "2026-05-26",
+        "follow_up_1": "2026-06-10",
+        "follow_up_2": "2026-07-01",
+        "follow_up_3": "2026-07-29",
+        "out_date": "2026-07-30"
+      },
+      "last_outbound_by_antonio": null,
+      "last_reply_from_prospect": null,
+      "next_action": "Follow-up 1",
+      "next_action_date": "2026-06-10",
+      "timeline": [
+        {
+          "date": "2026-05-26",
+          "action": "Prima email inviata da Manu (1A — piattaforma boutique multibrand)"
+        }
+      ],
+      "skip": false
+    },
+    {
+      "id": "prospect_384",
+      "brand": "One Block Down",
+      "contact": null,
+      "email": "contact@oneblockdown.it",
+      "domain": "oneblockdown.it",
+      "subject_email": "Problema su oneblockdown.it",
+      "assigned_to": "Manu",
+      "sender": "Manu",
+      "label_id": "Label_1592668050883672428",
+      "angle": "1A",
+      "platform": "non-Shopify",
+      "status": "contacted",
+      "first_contact": "2026-05-26",
+      "last_activity": "2026-05-26",
+      "multi_to": false,
+      "had_cc_bcc": false,
+      "redirect_to": null,
+      "stape_score": null,
+      "notes": "",
+      "thread_id": "19e6342c526f066f",
+      "followups_sent": [],
+      "scheduled_timeline": {
+        "first_email": "2026-05-26",
+        "follow_up_1": "2026-06-10",
+        "follow_up_2": "2026-07-01",
+        "follow_up_3": "2026-07-29",
+        "out_date": "2026-07-30"
+      },
+      "last_outbound_by_antonio": null,
+      "last_reply_from_prospect": null,
+      "next_action": "Follow-up 1",
+      "next_action_date": "2026-06-10",
+      "timeline": [
+        {
+          "date": "2026-05-26",
+          "action": "Prima email inviata da Manu (1A — piattaforma boutique multibrand)"
+        }
+      ],
+      "skip": false
+    },
+    {
+      "id": "prospect_385",
+      "brand": "Gabucci",
+      "contact": "Bob",
+      "email": "Bob@gabuccistore.com",
+      "domain": "gabuccistore.com",
+      "subject_email": "Quick note about gabuccistore.com sales setup",
+      "assigned_to": "Manu",
+      "sender": "Manu",
+      "label_id": "Label_1592668050883672428",
+      "angle": "1A",
+      "platform": "non-Shopify",
+      "status": "contacted",
+      "first_contact": "2026-05-26",
+      "last_activity": "2026-05-26",
+      "multi_to": false,
+      "had_cc_bcc": false,
+      "redirect_to": null,
+      "stape_score": null,
+      "notes": "Attenzione: 2 email inviate alla stessa azienda (gabuccistore.com) quasi contemporaneamente (Bob e Olof). Stessa azienda, contatti diversi.",
+      "thread_id": "19e63470c810ca91",
+      "followups_sent": [],
+      "scheduled_timeline": {
+        "first_email": "2026-05-26",
+        "follow_up_1": "2026-06-10",
+        "follow_up_2": "2026-07-01",
+        "follow_up_3": "2026-07-29",
+        "out_date": "2026-07-30"
+      },
+      "last_outbound_by_antonio": null,
+      "last_reply_from_prospect": null,
+      "next_action": "Follow-up 1",
+      "next_action_date": "2026-06-10",
+      "timeline": [
+        {
+          "date": "2026-05-26",
+          "action": "Prima email inviata da Manu (1A — piattaforma boutique multibrand)"
+        }
+      ],
+      "skip": false
+    },
+    {
+      "id": "prospect_386",
+      "brand": "Gabucci",
+      "contact": "Olof",
+      "email": "olof@gabuccistore.com",
+      "domain": "gabuccistore.com",
+      "subject_email": "Quick note about gabuccistore.com sales setup",
+      "assigned_to": "Manu",
+      "sender": "Manu",
+      "label_id": "Label_1592668050883672428",
+      "angle": "1A",
+      "platform": "non-Shopify",
+      "status": "contacted",
+      "first_contact": "2026-05-26",
+      "last_activity": "2026-05-26",
+      "multi_to": false,
+      "had_cc_bcc": false,
+      "redirect_to": null,
+      "stape_score": null,
+      "notes": "Attenzione: 2 email inviate alla stessa azienda (gabuccistore.com) quasi contemporaneamente (Bob e Olof). Stessa azienda, contatti diversi.",
+      "thread_id": "19e6348d299369fc",
+      "followups_sent": [],
+      "scheduled_timeline": {
+        "first_email": "2026-05-26",
+        "follow_up_1": "2026-06-10",
+        "follow_up_2": "2026-07-01",
+        "follow_up_3": "2026-07-29",
+        "out_date": "2026-07-30"
+      },
+      "last_outbound_by_antonio": null,
+      "last_reply_from_prospect": null,
+      "next_action": "Follow-up 1",
+      "next_action_date": "2026-06-10",
+      "timeline": [
+        {
+          "date": "2026-05-26",
+          "action": "Prima email inviata da Manu (1A — piattaforma boutique multibrand)"
+        }
+      ],
+      "skip": false
+    },
+    {
+      "id": "prospect_387",
+      "brand": "Maria Store",
+      "contact": null,
+      "email": "info@mariastore.hr",
+      "domain": "mariastore.hr",
+      "subject_email": "Quick note about mariastore.hr sales setup",
+      "assigned_to": "Manu",
+      "sender": "Manu",
+      "label_id": "Label_1592668050883672428",
+      "angle": "1A",
+      "platform": "non-Shopify",
+      "status": "contacted",
+      "first_contact": "2026-05-26",
+      "last_activity": "2026-05-26",
+      "multi_to": false,
+      "had_cc_bcc": false,
+      "redirect_to": null,
+      "stape_score": null,
+      "notes": "",
+      "thread_id": "19e633becf833c40",
+      "followups_sent": [],
+      "scheduled_timeline": {
+        "first_email": "2026-05-26",
+        "follow_up_1": "2026-06-10",
+        "follow_up_2": "2026-07-01",
+        "follow_up_3": "2026-07-29",
+        "out_date": "2026-07-30"
+      },
+      "last_outbound_by_antonio": null,
+      "last_reply_from_prospect": null,
+      "next_action": "Follow-up 1",
+      "next_action_date": "2026-06-10",
+      "timeline": [
+        {
+          "date": "2026-05-26",
+          "action": "Prima email inviata da Manu (1A — piattaforma boutique multibrand)"
+        }
+      ],
+      "skip": false
+    },
+    {
+      "id": "prospect_388",
+      "brand": "Mario D'Anna",
+      "contact": null,
+      "email": "shoponline@mariodanna.it",
+      "domain": "mariodannashop.it",
+      "subject_email": "Problema su mariodannashop.it",
+      "assigned_to": "Manu",
+      "sender": "Manu",
+      "label_id": "Label_1592668050883672428",
+      "angle": "1A",
+      "platform": "non-Shopify",
+      "status": "contacted",
+      "first_contact": "2026-05-26",
+      "last_activity": "2026-05-26",
+      "multi_to": false,
+      "had_cc_bcc": false,
+      "redirect_to": null,
+      "stape_score": null,
+      "notes": "",
+      "thread_id": "19e633858e544be3",
+      "followups_sent": [],
+      "scheduled_timeline": {
+        "first_email": "2026-05-26",
+        "follow_up_1": "2026-06-10",
+        "follow_up_2": "2026-07-01",
+        "follow_up_3": "2026-07-29",
+        "out_date": "2026-07-30"
+      },
+      "last_outbound_by_antonio": null,
+      "last_reply_from_prospect": null,
+      "next_action": "Follow-up 1",
+      "next_action_date": "2026-06-10",
+      "timeline": [
+        {
+          "date": "2026-05-26",
+          "action": "Prima email inviata da Manu (1A — piattaforma boutique multibrand)"
+        }
+      ],
+      "skip": false
+    },
+    {
+      "id": "prospect_389",
+      "brand": "Mohawk General Store",
+      "contact": "Sandy",
+      "email": "sandy@mohawkgeneralstore.com",
+      "domain": "mohawkgeneralstore.com",
+      "subject_email": "Quick note about mohawkgeneralstore.com sales setup",
+      "assigned_to": "Manu",
+      "sender": "Manu",
+      "label_id": "Label_1592668050883672428",
+      "angle": "1A",
+      "platform": "non-Shopify",
+      "status": "contacted",
+      "first_contact": "2026-05-26",
+      "last_activity": "2026-05-26",
+      "multi_to": false,
+      "had_cc_bcc": false,
+      "redirect_to": null,
+      "stape_score": null,
+      "notes": "",
+      "thread_id": "19e634bed5702504",
+      "followups_sent": [],
+      "scheduled_timeline": {
+        "first_email": "2026-05-26",
+        "follow_up_1": "2026-06-10",
+        "follow_up_2": "2026-07-01",
+        "follow_up_3": "2026-07-29",
+        "out_date": "2026-07-30"
+      },
+      "last_outbound_by_antonio": null,
+      "last_reply_from_prospect": null,
+      "next_action": "Follow-up 1",
+      "next_action_date": "2026-06-10",
+      "timeline": [
+        {
+          "date": "2026-05-26",
+          "action": "Prima email inviata da Manu (1A — piattaforma boutique multibrand)"
+        }
+      ],
+      "skip": false
+    },
+    {
+      "id": "prospect_390",
+      "brand": "Grace",
+      "contact": null,
+      "email": "contact@gracemelbourne.com",
+      "domain": "gracemelbourne.com.au",
+      "subject_email": "Quick note about gracemelbourne.com.au sales setup",
+      "assigned_to": "Manu",
+      "sender": "Manu",
+      "label_id": "Label_1592668050883672428",
+      "angle": "1A",
+      "platform": "non-Shopify",
+      "status": "contacted",
+      "first_contact": "2026-05-27",
+      "last_activity": "2026-05-27",
+      "multi_to": false,
+      "had_cc_bcc": false,
+      "redirect_to": null,
+      "stape_score": null,
+      "notes": "",
+      "thread_id": "19e635f0e9bd7f49",
+      "followups_sent": [],
+      "scheduled_timeline": {
+        "first_email": "2026-05-27",
+        "follow_up_1": "2026-06-11",
+        "follow_up_2": "2026-07-02",
+        "follow_up_3": "2026-07-30",
+        "out_date": "2026-07-31"
+      },
+      "last_outbound_by_antonio": null,
+      "last_reply_from_prospect": null,
+      "next_action": "Follow-up 1",
+      "next_action_date": "2026-06-11",
+      "timeline": [
+        {
+          "date": "2026-05-27",
+          "action": "Prima email inviata da Manu (1A — piattaforma boutique multibrand)"
+        }
+      ],
+      "skip": false
+    },
+    {
+      "id": "prospect_391",
+      "brand": "Restir",
+      "contact": null,
+      "email": "business@restir.com",
+      "domain": "restir.com",
+      "subject_email": "Quick note about restir.com sales setup",
+      "assigned_to": "Manu",
+      "sender": "Manu",
+      "label_id": "Label_1592668050883672428",
+      "angle": "1A",
+      "platform": "non-Shopify",
+      "status": "contacted",
+      "first_contact": "2026-05-27",
+      "last_activity": "2026-05-27",
+      "multi_to": false,
+      "had_cc_bcc": false,
+      "redirect_to": null,
+      "stape_score": null,
+      "notes": "",
+      "thread_id": "19e639332d935ad6",
+      "followups_sent": [],
+      "scheduled_timeline": {
+        "first_email": "2026-05-27",
+        "follow_up_1": "2026-06-11",
+        "follow_up_2": "2026-07-02",
+        "follow_up_3": "2026-07-30",
+        "out_date": "2026-07-31"
+      },
+      "last_outbound_by_antonio": null,
+      "last_reply_from_prospect": null,
+      "next_action": "Follow-up 1",
+      "next_action_date": "2026-06-11",
+      "timeline": [
+        {
+          "date": "2026-05-27",
+          "action": "Prima email inviata da Manu (1A — piattaforma boutique multibrand)"
+        }
+      ],
+      "skip": false
     }
   ],
   "bounced": [
@@ -17998,6 +18840,19 @@
       "bounce_date": "2026-05-25",
       "notes": "Indirizzo non trovato (550 5.1.1). Alternativa support@caposerio.com tentata stesso giorno (prospect_351). SKIP — dominio già raggiunto via support@.",
       "thread_id": "19e5fe07c4002bcf",
+      "skip": true
+    },
+    {
+      "id": "bounce_050",
+      "brand": "Jasper Boutique",
+      "email": "info@jasperboutique.it",
+      "domain": "jasperboutique.com",
+      "subject_email": "[RE]: Report jasperboutique.com",
+      "assigned_to": "Manu",
+      "angle": "1A",
+      "bounce_date": "2026-05-26",
+      "notes": "Dominio jasperboutique.it inesistente (Delivery Status Notification). SKIP automatico — stesso dominio jasperboutique.com contattato via jasperboutique@libero.it (prospect_383).",
+      "thread_id": "19e635013276c270",
       "skip": true
     }
   ]
