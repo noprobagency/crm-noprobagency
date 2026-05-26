@@ -1,8 +1,8 @@
 {
   "meta": {
-    "last_updated": "2026-05-26T09:45:00+02:00",
-    "total_contacted": 346,
-    "total_replied": 9,
+    "last_updated": "2026-05-26T14:14:13Z",
+    "total_contacted": 347,
+    "total_replied": 10,
     "total_bounced": 49,
     "total_autoresponse": 15,
     "first_run": false,
@@ -691,6 +691,72 @@
         "out_date": "2026-07-13"
       },
       "subject_email": "[RE]: Report julian-fashion.com"
+    },
+    {
+      "id": "prospect_371",
+      "brand": "Société Anonyme",
+      "contact": "Ginevra Giannelli",
+      "email": "ginevra@societeanonyme.it",
+      "domain": "societeanonyme.it",
+      "subject_email": "Report societeanonyme.it tracciamento",
+      "assigned_to": "Manu",
+      "sender": "Antonio",
+      "label_id": "Label_1592668050883672428",
+      "angle": "1A",
+      "platform": "non-Shopify",
+      "status": "in_conversation",
+      "first_contact": "2026-05-26",
+      "last_activity": "2026-05-26",
+      "multi_to": false,
+      "had_cc_bcc": false,
+      "redirect_to": null,
+      "stape_score": 47,
+      "notes": "Prima email a customerservice@societeanonyme.it. Ginevra Giannelli (Digital Art Director) ha risposto direttamente da ginevra@societeanonyme.it chiedendo call. Propone giovedi 15:30. Antonio ha bozza incompleta in Gmail.",
+      "thread_id": "19e636f0db2e3be7",
+      "followups_sent": [],
+      "scheduled_timeline": {
+        "first_email": "2026-05-26",
+        "follow_up_1": "2026-06-10",
+        "follow_up_2": "2026-07-01",
+        "follow_up_3": "2026-07-29",
+        "out_date": "2026-07-30"
+      },
+      "last_outbound_by_antonio": {
+        "date": "2026-05-26",
+        "snippet": "Buon pomeriggio Ginevra! Si certamente, va benissimo! Può andare domani mattina verso le 10 oppure giovedi 10/11/12?"
+      },
+      "last_reply_from_prospect": {
+        "date": "2026-05-26",
+        "snippet": "Ti andrebbe bene Giovedì nel pomeriggio tipo le 15.30? Fammi sapere! Ginevra"
+      },
+      "next_action": "⚠️ RISPOSTA URGENTE — Ginevra chiede call giovedì 15:30. Bozza incompleta in Gmail (da completare prima di inviare).",
+      "next_action_date": "2026-05-27",
+      "timeline": [
+        {
+          "date": "2026-05-26",
+          "action": "Prima email inviata da Antonio a customerservice@societeanonyme.it"
+        },
+        {
+          "date": "2026-05-26",
+          "action": "Auto-risposta CS ricevuta"
+        },
+        {
+          "date": "2026-05-26",
+          "action": "Risposta umana da Ginevra Giannelli (Digital Art Director): chiede call"
+        },
+        {
+          "date": "2026-05-26",
+          "action": "Antonio risponde: propone domani mattina ore 10 o giovedì 10/11/12"
+        },
+        {
+          "date": "2026-05-26",
+          "action": "Ginevra risponde: propone giovedì pomeriggio 15:30"
+        },
+        {
+          "date": "2026-05-26",
+          "action": "⚠️ Bozza risposta di Antonio incompleta in Gmail — DA COMPLETARE E INVIARE"
+        }
+      ]
     }
   ],
   "no_reply": [
