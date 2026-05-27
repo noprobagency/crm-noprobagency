@@ -1,10 +1,10 @@
 {
   "meta": {
-    "last_updated": "2026-05-27T12:16:07Z",
-    "total_contacted": 367,
-    "total_replied": 11,
+    "last_updated": "2026-05-27T16:30:00+02:00",
+    "total_contacted": 373,
+    "total_replied": 13,
     "total_bounced": 50,
-    "total_autoresponse": 15,
+    "total_autoresponse": 13,
     "first_run": false,
     "coverage_note": "First run Ã¢ÂÂ copre outbound visibili negli ultimi ~9 giorni (2026-05-06 Ã¢ÂÂ 2026-05-13). Le runs giornaliere successive aggiungeranno nuovi thread incrementalmente.",
     "schema_version": "v3.5",
@@ -310,8 +310,8 @@
       "status": "in_conversation",
       "first_contact": "2026-05-13",
       "last_activity": "2026-05-27",
-      "next_action": "Follow-up urgente — 12 giorni senza risposta da Sara (15/05). 'Ho girato la mail a chi di competenza'.",
-      "next_action_date": "2026-05-27",
+      "next_action": "In attesa risposta — FU inviato 27/05 a Sara Agnelli",
+      "next_action_date": null,
       "stape_score": null,
       "notes": "Luxury boutique Casale Monferrato",
       "thread_id": "19e213be13545c0d",
@@ -327,6 +327,10 @@
         {
           "date": "2026-05-15",
           "action": "Email di risposta inviata da Antonio: 'Grazie mille Sara Ã°ÂÂÂ'"
+        },
+        {
+          "date": "2026-05-27",
+          "action": "FU inviato da Antonio: verifica se chi di competenza ha visto la mail"
         }
       ],
       "label_id": "Label_1592668050883672428",
@@ -343,12 +347,12 @@
           "date": "2026-05-27",
           "type": "follow_up_1",
           "sender": "Antonio",
-          "snippet": "Rimando su nel caso, fammi sapere se ha senso parlarne."
+          "snippet": "Ciao Sara, volevo solo verificare se chi di competenza ha avuto modo di vedere la mail. Se preferisce, mi dia un"
         }
       ],
       "last_outbound_by_antonio": {
-        "date": "2026-05-15",
-        "snippet": "Grazie mille Sara 😊"
+        "date": "2026-05-27",
+        "snippet": "Ciao Sara, volevo solo verificare se chi di competenza ha avuto modo di vedere la mail. Se preferisce, mi dia un contatto d"
       },
       "last_reply_from_prospect": {
         "date": "2026-05-15",
@@ -452,7 +456,7 @@
       "thread_id": "19e3c256514923a0",
       "status": "in_conversation",
       "first_contact": "2026-05-18",
-      "last_activity": "2026-05-25",
+      "last_activity": "2026-05-27",
       "multi_to": false,
       "had_cc_bcc": false,
       "redirect_to": null,
@@ -484,11 +488,11 @@
         "snippet": "Ciao Andrea, hai avuto modo di vedere il video? Fammi sapere cosa ne pensi."
       },
       "last_reply_from_prospect": {
-        "date": "2026-05-18",
-        "snippet": "Ciao Antonio, manda pure grazie, Andrea"
+        "date": "2026-05-27",
+        "snippet": "Ciao Antonio, manda pure il report, grazie mille, Andrea"
       },
-      "next_action": "In attesa risposta — FU video inviato 25/05",
-      "next_action_date": null,
+      "next_action": "Inviare report a Andrea — ha richiesto il report",
+      "next_action_date": "2026-05-27",
       "timeline": [
         {
           "date": "2026-05-18",
@@ -505,6 +509,10 @@
         {
           "date": "2026-05-25",
           "action": "FU inviato da Antonio: ha avuto modo di vedere il video?"
+        },
+        {
+          "date": "2026-05-27",
+          "action": "Risposta da Andrea: 'manda pure il report, grazie mille'"
         }
       ],
       "skip": false,
@@ -838,6 +846,122 @@
         }
       ],
       "skip": false
+    },
+    {
+      "id": "prospect_018",
+      "brand": "Bernardelli Stores",
+      "contact": "Ginevra",
+      "email": "ginevra@bernardellistores.it",
+      "domain": "bernardellistores.com",
+      "assigned_to": "Manu",
+      "angle": "1A",
+      "platform": "non-Shopify",
+      "status": "in_conversation",
+      "first_contact": "2026-05-13",
+      "last_activity": "2026-05-27",
+      "next_action": "Gestione manuale Antonio — richiesta rimozione email",
+      "next_action_date": null,
+      "stape_score": null,
+      "notes": "Boutique multibrand Mantova",
+      "thread_id": "19e1cb67d38a4596",
+      "timeline": [
+        {
+          "date": "2026-05-13",
+          "action": "Email outbound 1A inviata"
+        },
+        {
+          "date": "2026-05-27",
+          "action": "Risposta umana: richiesta rimozione email ('Cancelli la mia e-mail m')"
+        }
+      ],
+      "label_id": "Label_1592668050883672428",
+      "sender": "Manu",
+      "is_first_email": true,
+      "followups_sent": [
+        {
+          "date": "2026-05-27",
+          "type": "follow_up_1",
+          "sender": "Antonio",
+          "snippet": "Rimando su nel caso, fammi sapere se ha senso parlarne."
+        }
+      ],
+      "last_outbound_by_antonio": {
+        "date": "2026-05-13",
+        "snippet": "Ciao Ginevra, mi sono imbattuto in Bernardelli Stores cercando le migliori realtÃÂ  fashion del settore. Ho visto la piattaforma che state usando per le vendite online, la conosco molto bene."
+      },
+      "last_reply_from_prospect": {
+        "date": "2026-05-27",
+        "snippet": "Cancelli la mia e-mail m"
+      },
+      "next_followup_due": "2026-05-27",
+      "days_since_last_activity": 0,
+      "first_email_snippet": "Ciao Ginevra, mi sono imbattuto in Bernardelli Stores cercando le migliori realtÃÂ  fashion del settore. Ho visto la piattaforma che state usando per le vendite online, la conosco molto bene.",
+      "scheduled_timeline": {
+        "first_email": "2026-05-13",
+        "follow_up_1": "2026-05-27",
+        "follow_up_2": "2026-06-18",
+        "follow_up_3": "2026-07-16",
+        "out_date": "2026-07-17"
+      },
+      "subject_email": "Report - bernardellistores.com - tracciamento"
+    },
+    {
+      "id": "prospect_019",
+      "brand": "Tailfin",
+      "contact": "Nick",
+      "email": "nick@tailfin.cc",
+      "domain": "tailfin.cc",
+      "assigned_to": "Dami",
+      "angle": "2A",
+      "platform": "non-Shopify",
+      "status": "in_conversation",
+      "first_contact": "2026-05-13",
+      "last_activity": "2026-05-27",
+      "next_action": "Gestione manuale Antonio — richiesta unsubscribe",
+      "next_action_date": null,
+      "stape_score": null,
+      "notes": "UK bikepacking equipment",
+      "thread_id": "19e1d59e7f3dcff3",
+      "timeline": [
+        {
+          "date": "2026-05-13",
+          "action": "Email outbound 2A inviata"
+        },
+        {
+          "date": "2026-05-27",
+          "action": "Risposta: richiesta unsubscribe da Nick"
+        }
+      ],
+      "label_id": "Label_8658624016447790536",
+      "sender": "Dami",
+      "is_first_email": true,
+      "followups_sent": [
+        {
+          "date": "2026-05-27",
+          "type": "follow_up_1",
+          "sender": "Antonio",
+          "snippet": "Just bumping this up in case you missed it. Let me know if it makes sense to talk."
+        }
+      ],
+      "last_outbound_by_antonio": {
+        "date": "2026-05-13",
+        "snippet": "Ciao Nick, mi sono imbattuto in Tailfin cercando i migliori e-commerce del settore. Ho visto la piattaforma che state usando per le vendite online."
+      },
+      "last_reply_from_prospect": {
+        "date": "2026-05-27",
+        "snippet": "Unsubscribe pls"
+      },
+      "next_followup_due": "2026-05-27",
+      "days_since_last_activity": 0,
+      "first_email_snippet": "Ciao Nick, mi sono imbattuto in Tailfin cercando i migliori e-commerce del settore. Ho visto la piattaforma che state usando per le vendite online.",
+      "scheduled_timeline": {
+        "first_email": "2026-05-13",
+        "follow_up_1": "2026-05-27",
+        "follow_up_2": "2026-06-18",
+        "follow_up_3": "2026-07-16",
+        "out_date": "2026-07-17"
+      },
+      "subject_email": "Re: Issue with tailfin.cc"
     }
   ],
   "no_reply": [
@@ -1139,108 +1263,6 @@
         "out_date": "2026-07-17"
       },
       "subject_email": "Problema su colognese.com"
-    },
-    {
-      "id": "prospect_018",
-      "brand": "Bernardelli Stores",
-      "contact": "Ginevra",
-      "email": "ginevra@bernardellistores.it",
-      "domain": "bernardellistores.com",
-      "assigned_to": "Manu",
-      "angle": "1A",
-      "platform": "non-Shopify",
-      "status": "follow_up_1_sent",
-      "first_contact": "2026-05-13",
-      "last_activity": "2026-05-27",
-      "next_action": "Follow-up 1",
-      "next_action_date": "2026-05-27",
-      "stape_score": null,
-      "notes": "Boutique multibrand Mantova",
-      "thread_id": "19e1cb67d38a4596",
-      "timeline": [
-        {
-          "date": "2026-05-13",
-          "action": "Email outbound 1A inviata"
-        }
-      ],
-      "label_id": "Label_1592668050883672428",
-      "sender": "Manu",
-      "is_first_email": true,
-      "followups_sent": [
-        {
-          "date": "2026-05-27",
-          "type": "follow_up_1",
-          "sender": "Antonio",
-          "snippet": "Rimando su nel caso, fammi sapere se ha senso parlarne."
-        }
-      ],
-      "last_outbound_by_antonio": {
-        "date": "2026-05-13",
-        "snippet": "Ciao Ginevra, mi sono imbattuto in Bernardelli Stores cercando le migliori realtÃÂ  fashion del settore. Ho visto la piattaforma che state usando per le vendite online, la conosco molto bene."
-      },
-      "last_reply_from_prospect": null,
-      "next_followup_due": "2026-05-27",
-      "days_since_last_activity": 0,
-      "first_email_snippet": "Ciao Ginevra, mi sono imbattuto in Bernardelli Stores cercando le migliori realtÃÂ  fashion del settore. Ho visto la piattaforma che state usando per le vendite online, la conosco molto bene.",
-      "scheduled_timeline": {
-        "first_email": "2026-05-13",
-        "follow_up_1": "2026-05-27",
-        "follow_up_2": "2026-06-18",
-        "follow_up_3": "2026-07-16",
-        "out_date": "2026-07-17"
-      },
-      "subject_email": "Report - bernardellistores.com - tracciamento"
-    },
-    {
-      "id": "prospect_019",
-      "brand": "Tailfin",
-      "contact": "Nick",
-      "email": "nick@tailfin.cc",
-      "domain": "tailfin.cc",
-      "assigned_to": "Dami",
-      "angle": "2A",
-      "platform": "non-Shopify",
-      "status": "follow_up_1_sent",
-      "first_contact": "2026-05-13",
-      "last_activity": "2026-05-27",
-      "next_action": "Follow-up 1",
-      "next_action_date": "2026-05-27",
-      "stape_score": null,
-      "notes": "UK bikepacking equipment",
-      "thread_id": "19e1d59e7f3dcff3",
-      "timeline": [
-        {
-          "date": "2026-05-13",
-          "action": "Email outbound 2A inviata"
-        }
-      ],
-      "label_id": "Label_8658624016447790536",
-      "sender": "Dami",
-      "is_first_email": true,
-      "followups_sent": [
-        {
-          "date": "2026-05-27",
-          "type": "follow_up_1",
-          "sender": "Antonio",
-          "snippet": "Just bumping this up in case you missed it. Let me know if it makes sense to talk."
-        }
-      ],
-      "last_outbound_by_antonio": {
-        "date": "2026-05-13",
-        "snippet": "Ciao Nick, mi sono imbattuto in Tailfin cercando i migliori e-commerce del settore. Ho visto la piattaforma che state usando per le vendite online."
-      },
-      "last_reply_from_prospect": null,
-      "next_followup_due": "2026-05-27",
-      "days_since_last_activity": 0,
-      "first_email_snippet": "Ciao Nick, mi sono imbattuto in Tailfin cercando i migliori e-commerce del settore. Ho visto la piattaforma che state usando per le vendite online.",
-      "scheduled_timeline": {
-        "first_email": "2026-05-13",
-        "follow_up_1": "2026-05-27",
-        "follow_up_2": "2026-06-18",
-        "follow_up_3": "2026-07-16",
-        "out_date": "2026-07-17"
-      },
-      "subject_email": "Re: Issue with tailfin.cc"
     },
     {
       "id": "prospect_021",
@@ -2330,16 +2352,20 @@
       "platform": "Shopify",
       "status": "follow_up_1_sent",
       "first_contact": "2026-05-12",
-      "last_activity": "2026-05-26",
-      "next_action": "Follow-up 1",
-      "next_action_date": "2026-05-26",
+      "last_activity": "2026-05-27",
+      "next_action": "Follow-up al rientro — OOO fino al 3 giugno",
+      "next_action_date": "2026-06-04",
       "stape_score": null,
-      "notes": "Italian fashion Shopify, tracking",
+      "notes": "Italian fashion Shopify, tracking | OOO ricevuto 27/05: fuori ufficio fino al 3 giugno 2026.",
       "thread_id": "19e1cd0201742c08",
       "timeline": [
         {
           "date": "2026-05-12",
           "action": "Email outbound 2B inviata"
+        },
+        {
+          "date": "2026-05-27",
+          "action": "OOO ricevuto da Rosanna Curcio: fuori ufficio fino al 3 giugno 2026"
         }
       ],
       "label_id": "Label_8658624016447790536",
@@ -18211,6 +18237,256 @@
         {
           "date": "2026-05-27",
           "action": "Prima email inviata da Manu (1A — piattaforma boutique multibrand)"
+        }
+      ],
+      "skip": false
+    },
+    {
+      "id": "prospect_392",
+      "brand": "Tufano Moda",
+      "contact": "Davide",
+      "email": "davide@tufanomoda.com",
+      "domain": "tufanomoda.com",
+      "subject_email": "Problema su tufanomoda.com",
+      "assigned_to": "Manu",
+      "sender": "Manu",
+      "label_id": "Label_1592668050883672428",
+      "angle": "1A",
+      "platform": "non-Shopify",
+      "status": "contacted",
+      "first_contact": "2026-05-27",
+      "last_activity": "2026-05-27",
+      "multi_to": false,
+      "had_cc_bcc": false,
+      "redirect_to": null,
+      "stape_score": null,
+      "notes": "Boutique multibrand Pompei",
+      "thread_id": "19e69359d6a6f820",
+      "followups_sent": [],
+      "scheduled_timeline": {
+        "first_email": "2026-05-27",
+        "follow_up_1": "2026-06-11",
+        "follow_up_2": "2026-07-02",
+        "follow_up_3": "2026-07-30",
+        "out_date": "2026-07-31"
+      },
+      "last_outbound_by_antonio": null,
+      "last_reply_from_prospect": null,
+      "next_action": "Follow-up 1",
+      "next_action_date": "2026-06-11",
+      "timeline": [
+        {
+          "date": "2026-05-27",
+          "action": "Prima email outbound 1A inviata da Manu"
+        }
+      ],
+      "skip": false
+    },
+    {
+      "id": "prospect_393",
+      "brand": "Trend Adrano",
+      "contact": null,
+      "email": "assistenzaclienti@trendadrano.it",
+      "domain": "trendadrano.it",
+      "subject_email": "Problema su trendadrano.it",
+      "assigned_to": "Manu",
+      "sender": "Manu",
+      "label_id": "Label_1592668050883672428",
+      "angle": "1A",
+      "platform": "non-Shopify",
+      "status": "autoresponse",
+      "first_contact": "2026-05-27",
+      "last_activity": "2026-05-27",
+      "multi_to": false,
+      "had_cc_bcc": false,
+      "redirect_to": null,
+      "stape_score": null,
+      "notes": "Boutique Adrano. CS autoresponse ricevuto immediatamente (ticket generato automaticamente).",
+      "thread_id": "19e692fd913db245",
+      "followups_sent": [],
+      "scheduled_timeline": {
+        "first_email": "2026-05-27",
+        "follow_up_1": "2026-06-11",
+        "follow_up_2": "2026-07-02",
+        "follow_up_3": "2026-07-30",
+        "out_date": "2026-07-31"
+      },
+      "last_outbound_by_antonio": null,
+      "last_reply_from_prospect": null,
+      "next_action": "Attendere risposta CS",
+      "next_action_date": "2026-06-03",
+      "timeline": [
+        {
+          "date": "2026-05-27",
+          "action": "Prima email outbound 1A inviata da Manu"
+        },
+        {
+          "date": "2026-05-27",
+          "action": "Autoresponse CS ricevuto: ticket generato"
+        }
+      ],
+      "skip": false
+    },
+    {
+      "id": "prospect_394",
+      "brand": "Torregrossa 5",
+      "contact": null,
+      "email": "customer@torregrossa5.com",
+      "domain": "torregrossa5.com",
+      "subject_email": "Problema su torregrossa5.com",
+      "assigned_to": "Manu",
+      "sender": "Manu",
+      "label_id": "Label_1592668050883672428",
+      "angle": "1A",
+      "platform": "non-Shopify",
+      "status": "contacted",
+      "first_contact": "2026-05-27",
+      "last_activity": "2026-05-27",
+      "multi_to": false,
+      "had_cc_bcc": false,
+      "redirect_to": null,
+      "stape_score": null,
+      "notes": "Luxury boutique Palermo",
+      "thread_id": "19e692a6802c2981",
+      "followups_sent": [],
+      "scheduled_timeline": {
+        "first_email": "2026-05-27",
+        "follow_up_1": "2026-06-11",
+        "follow_up_2": "2026-07-02",
+        "follow_up_3": "2026-07-30",
+        "out_date": "2026-07-31"
+      },
+      "last_outbound_by_antonio": null,
+      "last_reply_from_prospect": null,
+      "next_action": "Follow-up 1",
+      "next_action_date": "2026-06-11",
+      "timeline": [
+        {
+          "date": "2026-05-27",
+          "action": "Prima email outbound 1A inviata da Manu"
+        }
+      ],
+      "skip": false
+    },
+    {
+      "id": "prospect_395",
+      "brand": "The Next Door",
+      "contact": "Nicolas Ivars",
+      "email": "nicolas.ivars@thenextdoor.fr",
+      "domain": "thenextdoor.fr",
+      "subject_email": "Quick note about thenextdoor.fr sales setup",
+      "assigned_to": "Manu",
+      "sender": "Manu",
+      "label_id": "Label_1592668050883672428",
+      "angle": "1A",
+      "platform": "non-Shopify",
+      "status": "contacted",
+      "first_contact": "2026-05-27",
+      "last_activity": "2026-05-27",
+      "multi_to": false,
+      "had_cc_bcc": false,
+      "redirect_to": null,
+      "stape_score": null,
+      "notes": "Boutique multibrand Parigi (FR). Email in inglese.",
+      "thread_id": "19e6925ecf3d68f4",
+      "followups_sent": [],
+      "scheduled_timeline": {
+        "first_email": "2026-05-27",
+        "follow_up_1": "2026-06-11",
+        "follow_up_2": "2026-07-02",
+        "follow_up_3": "2026-07-30",
+        "out_date": "2026-07-31"
+      },
+      "last_outbound_by_antonio": null,
+      "last_reply_from_prospect": null,
+      "next_action": "Follow-up 1",
+      "next_action_date": "2026-06-11",
+      "timeline": [
+        {
+          "date": "2026-05-27",
+          "action": "Prima email outbound 1A inviata da Manu (EN)"
+        }
+      ],
+      "skip": false
+    },
+    {
+      "id": "prospect_396",
+      "brand": "Rose & Born",
+      "contact": "Jakob",
+      "email": "jakob@roseborn.com",
+      "domain": "roseborn.com",
+      "subject_email": "Quick note about roseborn.com sales setup",
+      "assigned_to": "Manu",
+      "sender": "Manu",
+      "label_id": "Label_1592668050883672428",
+      "angle": "1A",
+      "platform": "non-Shopify",
+      "status": "contacted",
+      "first_contact": "2026-05-27",
+      "last_activity": "2026-05-27",
+      "multi_to": false,
+      "had_cc_bcc": false,
+      "redirect_to": null,
+      "stape_score": null,
+      "notes": "Boutique multibrand Stoccolma (SE). Email in inglese. Stesso dominio di prospect_397 (Joakim).",
+      "thread_id": "19e68f65b196ed0d",
+      "followups_sent": [],
+      "scheduled_timeline": {
+        "first_email": "2026-05-27",
+        "follow_up_1": "2026-06-11",
+        "follow_up_2": "2026-07-02",
+        "follow_up_3": "2026-07-30",
+        "out_date": "2026-07-31"
+      },
+      "last_outbound_by_antonio": null,
+      "last_reply_from_prospect": null,
+      "next_action": "Follow-up 1",
+      "next_action_date": "2026-06-11",
+      "timeline": [
+        {
+          "date": "2026-05-27",
+          "action": "Prima email outbound 1A inviata da Manu (EN) a Jakob"
+        }
+      ],
+      "skip": false
+    },
+    {
+      "id": "prospect_397",
+      "brand": "Rose & Born",
+      "contact": "Joakim",
+      "email": "joakim@roseborn.com",
+      "domain": "roseborn.com",
+      "subject_email": "Quick note about roseborn.com sales setup",
+      "assigned_to": "Manu",
+      "sender": "Manu",
+      "label_id": "Label_1592668050883672428",
+      "angle": "1A",
+      "platform": "non-Shopify",
+      "status": "contacted",
+      "first_contact": "2026-05-27",
+      "last_activity": "2026-05-27",
+      "multi_to": false,
+      "had_cc_bcc": false,
+      "redirect_to": null,
+      "stape_score": null,
+      "notes": "Boutique multibrand Stoccolma (SE). Email in inglese. Stesso dominio di prospect_396 (Jakob).",
+      "thread_id": "19e68f5e37513794",
+      "followups_sent": [],
+      "scheduled_timeline": {
+        "first_email": "2026-05-27",
+        "follow_up_1": "2026-06-11",
+        "follow_up_2": "2026-07-02",
+        "follow_up_3": "2026-07-30",
+        "out_date": "2026-07-31"
+      },
+      "last_outbound_by_antonio": null,
+      "last_reply_from_prospect": null,
+      "next_action": "Follow-up 1",
+      "next_action_date": "2026-06-11",
+      "timeline": [
+        {
+          "date": "2026-05-27",
+          "action": "Prima email outbound 1A inviata da Manu (EN) a Joakim"
         }
       ],
       "skip": false
