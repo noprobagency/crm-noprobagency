@@ -1,6 +1,6 @@
 {
   "meta": {
-    "last_updated": "2026-05-27T01:02:00+02:00",
+    "last_updated": "2026-05-27T12:16:07Z",
     "total_contacted": 367,
     "total_replied": 11,
     "total_bounced": 50,
@@ -109,7 +109,7 @@
       "platform": "Shopify",
       "status": "in_conversation",
       "first_contact": "2026-05-01",
-      "last_activity": "2026-05-20",
+      "last_activity": "2026-05-27",
       "next_action": "Follow-up urgente — 20 giorni senza risposta da Valeria (07/05). Video Loom già inviato.",
       "next_action_date": "2026-05-27",
       "stape_score": null,
@@ -164,6 +164,12 @@
           "type": "manual",
           "sender": "Claude",
           "snippet": "Ciao Valeria, ha avuto modo di vedere il video? Fammi sapere se c'è qualcosa da chiarire."
+        },
+        {
+          "date": "2026-05-27",
+          "type": "manual",
+          "sender": "Antonio",
+          "snippet": "Rimando su nel caso, fammi sapere se ha senso parlarne."
         }
       ],
       "last_outbound_by_antonio": {
@@ -197,7 +203,7 @@
       "platform": "non-Shopify",
       "status": "in_conversation",
       "first_contact": "2026-05-01",
-      "last_activity": "2026-05-19",
+      "last_activity": "2026-05-27",
       "next_action": "Follow-up urgente — 9 giorni senza risposta da Nicolò (18/05). Risposta insolita (CV allegato).",
       "next_action_date": "2026-05-27",
       "stape_score": null,
@@ -264,6 +270,12 @@
           "type": "manual",
           "sender": "Antonio",
           "snippet": "Ciao Nicolò! Grande, molto interessante. Oltre a lavorare nel growth eCommerce, soprattutto per fashion boutique e DTC italiani..."
+        },
+        {
+          "date": "2026-05-27",
+          "type": "manual",
+          "sender": "Antonio",
+          "snippet": "Rimando su nel caso, fammi sapere se ha senso parlarne."
         }
       ],
       "last_outbound_by_antonio": {
@@ -297,7 +309,7 @@
       "platform": "non-Shopify",
       "status": "in_conversation",
       "first_contact": "2026-05-13",
-      "last_activity": "2026-05-15",
+      "last_activity": "2026-05-27",
       "next_action": "Follow-up urgente — 12 giorni senza risposta da Sara (15/05). 'Ho girato la mail a chi di competenza'.",
       "next_action_date": "2026-05-27",
       "stape_score": null,
@@ -326,6 +338,12 @@
           "type": "manual",
           "sender": "Antonio",
           "snippet": "Grazie mille Sara 😊 Attendo notizie da chi di competenza."
+        },
+        {
+          "date": "2026-05-27",
+          "type": "follow_up_1",
+          "sender": "Antonio",
+          "snippet": "Rimando su nel caso, fammi sapere se ha senso parlarne."
         }
       ],
       "last_outbound_by_antonio": {
@@ -832,9 +850,9 @@
       "assigned_to": "Manu",
       "angle": "1A",
       "platform": "non-Shopify",
-      "status": "contacted",
+      "status": "follow_up_1_sent",
       "first_contact": "2026-05-13",
-      "last_activity": "2026-05-13",
+      "last_activity": "2026-05-27",
       "next_action": "Follow-up 1",
       "next_action_date": "2026-05-27",
       "stape_score": null,
@@ -849,7 +867,14 @@
       "label_id": "Label_1592668050883672428",
       "sender": "Manu",
       "is_first_email": true,
-      "followups_sent": [],
+      "followups_sent": [
+        {
+          "date": "2026-05-27",
+          "type": "follow_up_1",
+          "sender": "Antonio",
+          "snippet": "Rimando su nel caso, fammi sapere se ha senso parlarne."
+        }
+      ],
       "last_outbound_by_antonio": {
         "date": "2026-05-13",
         "snippet": "Ciao, mi sono imbattuto in Laura Urbinati cercando le migliori realtÃÂ  fashion del settore. Ho visto la piattaforma che state usando per le vendite online, la conosco molto bene."
@@ -876,9 +901,9 @@
       "assigned_to": "Manu",
       "angle": "1A",
       "platform": "non-Shopify",
-      "status": "contacted",
+      "status": "follow_up_1_sent",
       "first_contact": "2026-05-13",
-      "last_activity": "2026-05-13",
+      "last_activity": "2026-05-27",
       "next_action": "Follow-up 1",
       "next_action_date": "2026-05-27",
       "stape_score": null,
@@ -893,7 +918,14 @@
       "label_id": "Label_1592668050883672428",
       "sender": "Manu",
       "is_first_email": true,
-      "followups_sent": [],
+      "followups_sent": [
+        {
+          "date": "2026-05-27",
+          "type": "follow_up_1",
+          "sender": "Antonio",
+          "snippet": "Rimando su nel caso, fammi sapere se ha senso parlarne."
+        }
+      ],
       "last_outbound_by_antonio": {
         "date": "2026-05-13",
         "snippet": "Ciao Jessica, mi sono imbattuto in Motivi (Miroglio) cercando le migliori realtÃÂ  fashion del settore. Ho visto la piattaforma che state usando per le vendite online, la conosco molto bene."
@@ -920,9 +952,9 @@
       "assigned_to": "Manu",
       "angle": "1A",
       "platform": "non-Shopify",
-      "status": "contacted",
+      "status": "follow_up_1_sent",
       "first_contact": "2026-05-13",
-      "last_activity": "2026-05-13",
+      "last_activity": "2026-05-27",
       "next_action": "Follow-up 1",
       "next_action_date": "2026-05-27",
       "stape_score": null,
@@ -937,7 +969,14 @@
       "label_id": "Label_1592668050883672428",
       "sender": "Manu",
       "is_first_email": true,
-      "followups_sent": [],
+      "followups_sent": [
+        {
+          "date": "2026-05-27",
+          "type": "follow_up_1",
+          "sender": "Antonio",
+          "snippet": "Rimando su nel caso, fammi sapere se ha senso parlarne."
+        }
+      ],
       "last_outbound_by_antonio": {
         "date": "2026-05-13",
         "snippet": "Ciao Manolo, mi sono imbattuto in 13metriquadri (TMQ Store) cercando le migliori realtÃÂ  fashion del settore. Ho visto la piattaforma che state usando per le vendite online, la conosco molto bene."
@@ -1008,9 +1047,9 @@
       "assigned_to": "Manu",
       "angle": "1A",
       "platform": "non-Shopify",
-      "status": "contacted",
+      "status": "follow_up_1_sent",
       "first_contact": "2026-05-13",
-      "last_activity": "2026-05-13",
+      "last_activity": "2026-05-27",
       "next_action": "Follow-up 1",
       "next_action_date": "2026-05-27",
       "stape_score": null,
@@ -1025,7 +1064,14 @@
       "label_id": "Label_1592668050883672428",
       "sender": "Manu",
       "is_first_email": true,
-      "followups_sent": [],
+      "followups_sent": [
+        {
+          "date": "2026-05-27",
+          "type": "follow_up_1",
+          "sender": "Antonio",
+          "snippet": "Rimando su nel caso, fammi sapere se ha senso parlarne."
+        }
+      ],
       "last_outbound_by_antonio": {
         "date": "2026-05-13",
         "snippet": "Ciao, mi sono imbattuto in Dante 5 cercando le migliori realtÃÂ  fashion del settore. Ho visto la piattaforma che state usando per le vendite online, la conosco molto bene."
@@ -1052,9 +1098,9 @@
       "assigned_to": "Manu",
       "angle": "1A",
       "platform": "non-Shopify",
-      "status": "contacted",
+      "status": "follow_up_1_sent",
       "first_contact": "2026-05-13",
-      "last_activity": "2026-05-13",
+      "last_activity": "2026-05-27",
       "next_action": "Follow-up 1",
       "next_action_date": "2026-05-27",
       "stape_score": null,
@@ -1069,7 +1115,14 @@
       "label_id": "Label_1592668050883672428",
       "sender": "Manu",
       "is_first_email": true,
-      "followups_sent": [],
+      "followups_sent": [
+        {
+          "date": "2026-05-27",
+          "type": "follow_up_1",
+          "sender": "Antonio",
+          "snippet": "Rimando su nel caso, fammi sapere se ha senso parlarne."
+        }
+      ],
       "last_outbound_by_antonio": {
         "date": "2026-05-13",
         "snippet": "Ciao Elisa, mi sono imbattuto in Colognese cercando le migliori realtÃÂ  fashion del settore. Ho visto la piattaforma che state usando per le vendite online, la conosco molto bene."
@@ -1096,9 +1149,9 @@
       "assigned_to": "Manu",
       "angle": "1A",
       "platform": "non-Shopify",
-      "status": "contacted",
+      "status": "follow_up_1_sent",
       "first_contact": "2026-05-13",
-      "last_activity": "2026-05-13",
+      "last_activity": "2026-05-27",
       "next_action": "Follow-up 1",
       "next_action_date": "2026-05-27",
       "stape_score": null,
@@ -1113,7 +1166,14 @@
       "label_id": "Label_1592668050883672428",
       "sender": "Manu",
       "is_first_email": true,
-      "followups_sent": [],
+      "followups_sent": [
+        {
+          "date": "2026-05-27",
+          "type": "follow_up_1",
+          "sender": "Antonio",
+          "snippet": "Rimando su nel caso, fammi sapere se ha senso parlarne."
+        }
+      ],
       "last_outbound_by_antonio": {
         "date": "2026-05-13",
         "snippet": "Ciao Ginevra, mi sono imbattuto in Bernardelli Stores cercando le migliori realtÃÂ  fashion del settore. Ho visto la piattaforma che state usando per le vendite online, la conosco molto bene."
@@ -1140,9 +1200,9 @@
       "assigned_to": "Dami",
       "angle": "2A",
       "platform": "non-Shopify",
-      "status": "contacted",
+      "status": "follow_up_1_sent",
       "first_contact": "2026-05-13",
-      "last_activity": "2026-05-13",
+      "last_activity": "2026-05-27",
       "next_action": "Follow-up 1",
       "next_action_date": "2026-05-27",
       "stape_score": null,
@@ -1157,7 +1217,14 @@
       "label_id": "Label_8658624016447790536",
       "sender": "Dami",
       "is_first_email": true,
-      "followups_sent": [],
+      "followups_sent": [
+        {
+          "date": "2026-05-27",
+          "type": "follow_up_1",
+          "sender": "Antonio",
+          "snippet": "Just bumping this up in case you missed it. Let me know if it makes sense to talk."
+        }
+      ],
       "last_outbound_by_antonio": {
         "date": "2026-05-13",
         "snippet": "Ciao Nick, mi sono imbattuto in Tailfin cercando i migliori e-commerce del settore. Ho visto la piattaforma che state usando per le vendite online."
@@ -1184,9 +1251,9 @@
       "assigned_to": "Dami",
       "angle": "3B",
       "platform": "Shopify",
-      "status": "contacted",
+      "status": "follow_up_1_sent",
       "first_contact": "2026-05-13",
-      "last_activity": "2026-05-13",
+      "last_activity": "2026-05-27",
       "next_action": "Follow-up 1",
       "next_action_date": "2026-05-27",
       "stape_score": null,
@@ -1201,7 +1268,14 @@
       "label_id": "Label_8658624016447790536",
       "sender": "Dami",
       "is_first_email": true,
-      "followups_sent": [],
+      "followups_sent": [
+        {
+          "date": "2026-05-27",
+          "type": "follow_up_1",
+          "sender": "Antonio",
+          "snippet": "Rimando su nel caso, fammi sapere se ha senso parlarne."
+        }
+      ],
       "last_outbound_by_antonio": {
         "date": "2026-05-13",
         "snippet": "Ciao Mauro, stavo guardando i migliori store Shopify del settore e mi sono imbattuto in Eglooh, brand forte. Ho visto 2-3 cose che frenano le conversioni."
@@ -1228,9 +1302,9 @@
       "assigned_to": "Dami",
       "angle": "2A",
       "platform": "non-Shopify",
-      "status": "contacted",
+      "status": "follow_up_1_sent",
       "first_contact": "2026-05-13",
-      "last_activity": "2026-05-13",
+      "last_activity": "2026-05-27",
       "next_action": "Follow-up 1",
       "next_action_date": "2026-05-27",
       "stape_score": null,
@@ -1245,7 +1319,14 @@
       "label_id": "Label_8658624016447790536",
       "sender": "Dami",
       "is_first_email": true,
-      "followups_sent": [],
+      "followups_sent": [
+        {
+          "date": "2026-05-27",
+          "type": "follow_up_1",
+          "sender": "Antonio",
+          "snippet": "Rimando su nel caso, fammi sapere se ha senso parlarne."
+        }
+      ],
       "last_outbound_by_antonio": {
         "date": "2026-05-13",
         "snippet": "Ciao Giuseppe, mi sono imbattuto in MedicoShop cercando i migliori e-commerce del settore. Ho visto la piattaforma che state usando per le vendite online."
@@ -1278,9 +1359,9 @@
       "assigned_to": "Manu",
       "angle": "1A",
       "platform": "non-Shopify",
-      "status": "contacted",
+      "status": "follow_up_1_sent",
       "first_contact": "2026-05-13",
-      "last_activity": "2026-05-13",
+      "last_activity": "2026-05-27",
       "next_action": "Follow-up 1",
       "next_action_date": "2026-05-27",
       "stape_score": null,
@@ -1295,7 +1376,14 @@
       "label_id": "Label_1592668050883672428",
       "sender": "Manu",
       "is_first_email": true,
-      "followups_sent": [],
+      "followups_sent": [
+        {
+          "date": "2026-05-27",
+          "type": "follow_up_1",
+          "sender": "Antonio",
+          "snippet": "Rimando su nel caso, fammi sapere se ha senso parlarne."
+        }
+      ],
       "last_outbound_by_antonio": {
         "date": "2026-05-13",
         "snippet": "Ciao, mi sono imbattuto in Galassia Roma cercando le migliori realtÃÂ  fashion del settore. Ho visto la piattaforma che state usando per le vendite online, la conosco molto bene."
@@ -1322,9 +1410,9 @@
       "assigned_to": "Dami",
       "angle": "2B",
       "platform": "Shopify",
-      "status": "contacted",
+      "status": "follow_up_1_sent",
       "first_contact": "2026-05-13",
-      "last_activity": "2026-05-13",
+      "last_activity": "2026-05-27",
       "next_action": "Follow-up 1",
       "next_action_date": "2026-05-27",
       "stape_score": null,
@@ -1339,7 +1427,14 @@
       "label_id": "Label_8658624016447790536",
       "sender": "Dami",
       "is_first_email": true,
-      "followups_sent": [],
+      "followups_sent": [
+        {
+          "date": "2026-05-27",
+          "type": "follow_up_1",
+          "sender": "Antonio",
+          "snippet": "Just bumping this up in case you missed it. Let me know if it makes sense to talk."
+        }
+      ],
       "last_outbound_by_antonio": {
         "date": "2026-05-13",
         "snippet": "Hi, I was looking into Disturbia and noticed you're running Meta/Google campaigns on a Shopify store. Quick check on tracking found an issue you're likely unaware of."
@@ -1366,9 +1461,9 @@
       "assigned_to": "Dami",
       "angle": "2B",
       "platform": "Shopify",
-      "status": "contacted",
+      "status": "follow_up_1_sent",
       "first_contact": "2026-05-13",
-      "last_activity": "2026-05-13",
+      "last_activity": "2026-05-27",
       "next_action": "Follow-up 1",
       "next_action_date": "2026-05-27",
       "stape_score": null,
@@ -1383,7 +1478,14 @@
       "label_id": "Label_8658624016447790536",
       "sender": "Dami",
       "is_first_email": true,
-      "followups_sent": [],
+      "followups_sent": [
+        {
+          "date": "2026-05-27",
+          "type": "follow_up_1",
+          "sender": "Antonio",
+          "snippet": "Just bumping this up in case you missed it. Let me know if it makes sense to talk."
+        }
+      ],
       "last_outbound_by_antonio": {
         "date": "2026-05-13",
         "snippet": "Hi, I was looking into Glow For It and noticed you're running Meta/Google campaigns on a Shopify store. Quick check on tracking found an issue you're likely unaware of."
@@ -1410,9 +1512,9 @@
       "assigned_to": "Claude",
       "angle": "1A",
       "platform": "non-Shopify",
-      "status": "contacted",
+      "status": "follow_up_1_sent",
       "first_contact": "2026-05-13",
-      "last_activity": "2026-05-13",
+      "last_activity": "2026-05-27",
       "next_action": "Follow-up 1",
       "next_action_date": "2026-05-27",
       "stape_score": null,
@@ -1427,7 +1529,14 @@
       "label_id": "Label_9196661710752787047",
       "sender": "Claude",
       "is_first_email": true,
-      "followups_sent": [],
+      "followups_sent": [
+        {
+          "date": "2026-05-27",
+          "type": "follow_up_1",
+          "sender": "Antonio",
+          "snippet": "Rimando su nel caso, fammi sapere se ha senso parlarne."
+        }
+      ],
       "last_outbound_by_antonio": {
         "date": "2026-05-13",
         "snippet": "Ciao Eleonora, mi sono imbattuto in AGL Shoes cercando le migliori realtÃÂ  fashion del settore. Ho visto la piattaforma che state usando per le vendite online, la conosco molto bene."
@@ -1498,9 +1607,9 @@
       "assigned_to": "Dami",
       "angle": "2A",
       "platform": "non-Shopify",
-      "status": "autoresponse",
+      "status": "follow_up_1_sent",
       "first_contact": "2026-05-12",
-      "last_activity": "2026-05-12",
+      "last_activity": "2026-05-26",
       "next_action": "Follow-up 1",
       "next_action_date": "2026-05-26",
       "stape_score": null,
@@ -1519,7 +1628,14 @@
       "label_id": "Label_8658624016447790536",
       "sender": "Dami",
       "is_first_email": true,
-      "followups_sent": [],
+      "followups_sent": [
+        {
+          "date": "2026-05-26",
+          "type": "follow_up_1",
+          "sender": "Antonio",
+          "snippet": "Just bumping this up in case you missed it. Let me know if it makes sense to talk."
+        }
+      ],
       "last_outbound_by_antonio": {
         "date": "2026-05-12",
         "snippet": "Ciao Ashleigh, mi sono imbattuto in Sass & Belle cercando i migliori e-commerce del settore. Ho visto la piattaforma che state usando per le vendite online."
@@ -1549,9 +1665,9 @@
       "assigned_to": "Dami",
       "angle": "2B",
       "platform": "Shopify",
-      "status": "contacted",
+      "status": "follow_up_1_sent",
       "first_contact": "2026-05-12",
-      "last_activity": "2026-05-12",
+      "last_activity": "2026-05-26",
       "next_action": "Follow-up 1",
       "next_action_date": "2026-05-26",
       "stape_score": null,
@@ -1566,7 +1682,14 @@
       "label_id": "Label_8658624016447790536",
       "sender": "Dami",
       "is_first_email": true,
-      "followups_sent": [],
+      "followups_sent": [
+        {
+          "date": "2026-05-26",
+          "type": "follow_up_1",
+          "sender": "Antonio",
+          "snippet": "Just bumping this up in case you missed it. Let me know if it makes sense to talk."
+        }
+      ],
       "last_outbound_by_antonio": {
         "date": "2026-05-12",
         "snippet": "Hi, I was looking into Montane and noticed you're running Meta/Google campaigns on a Shopify store. Quick check on tracking found an issue you're likely unaware of."
@@ -1593,9 +1716,9 @@
       "assigned_to": "Dami",
       "angle": "2B",
       "platform": "Shopify",
-      "status": "contacted",
+      "status": "follow_up_1_sent",
       "first_contact": "2026-05-12",
-      "last_activity": "2026-05-12",
+      "last_activity": "2026-05-26",
       "next_action": "Follow-up 1",
       "next_action_date": "2026-05-26",
       "stape_score": null,
@@ -1610,7 +1733,14 @@
       "label_id": "Label_8658624016447790536",
       "sender": "Dami",
       "is_first_email": true,
-      "followups_sent": [],
+      "followups_sent": [
+        {
+          "date": "2026-05-26",
+          "type": "follow_up_1",
+          "sender": "Antonio",
+          "snippet": "Just bumping this up in case you missed it. Let me know if it makes sense to talk."
+        }
+      ],
       "last_outbound_by_antonio": {
         "date": "2026-05-12",
         "snippet": "Hi, I was looking into New English Teas and noticed you're running Meta/Google campaigns on a Shopify store. Quick check on tracking found an issue you're likely unaware of."
@@ -1637,9 +1767,9 @@
       "assigned_to": "Dami",
       "angle": "2B",
       "platform": "Shopify",
-      "status": "contacted",
+      "status": "follow_up_1_sent",
       "first_contact": "2026-05-12",
-      "last_activity": "2026-05-12",
+      "last_activity": "2026-05-26",
       "next_action": "Follow-up 1",
       "next_action_date": "2026-05-26",
       "stape_score": null,
@@ -1654,7 +1784,14 @@
       "label_id": "Label_8658624016447790536",
       "sender": "Dami",
       "is_first_email": true,
-      "followups_sent": [],
+      "followups_sent": [
+        {
+          "date": "2026-05-26",
+          "type": "follow_up_1",
+          "sender": "Antonio",
+          "snippet": "Just bumping this up in case you missed it. Let me know if it makes sense to talk."
+        }
+      ],
       "last_outbound_by_antonio": {
         "date": "2026-05-12",
         "snippet": "Hi, I was looking into Threadbare and noticed you're running Meta/Google campaigns on a Shopify store. Quick check on tracking found an issue you're likely unaware of."
@@ -1681,9 +1818,9 @@
       "assigned_to": "Dami",
       "angle": "2B",
       "platform": "Shopify",
-      "status": "contacted",
+      "status": "follow_up_1_sent",
       "first_contact": "2026-05-12",
-      "last_activity": "2026-05-12",
+      "last_activity": "2026-05-26",
       "next_action": "Follow-up 1",
       "next_action_date": "2026-05-26",
       "stape_score": null,
@@ -1698,7 +1835,14 @@
       "label_id": "Label_8658624016447790536",
       "sender": "Dami",
       "is_first_email": true,
-      "followups_sent": [],
+      "followups_sent": [
+        {
+          "date": "2026-05-26",
+          "type": "follow_up_1",
+          "sender": "Antonio",
+          "snippet": "Just bumping this up in case you missed it. Let me know if it makes sense to talk."
+        }
+      ],
       "last_outbound_by_antonio": {
         "date": "2026-05-12",
         "snippet": "Hi, I was looking into Jo Loves and noticed you're running Meta/Google campaigns on a Shopify store. Quick check on tracking found an issue you're likely unaware of."
@@ -1725,9 +1869,9 @@
       "assigned_to": "Dami",
       "angle": "2B",
       "platform": "Shopify",
-      "status": "contacted",
+      "status": "follow_up_1_sent",
       "first_contact": "2026-05-12",
-      "last_activity": "2026-05-12",
+      "last_activity": "2026-05-26",
       "next_action": "Follow-up 1",
       "next_action_date": "2026-05-26",
       "stape_score": null,
@@ -1742,7 +1886,14 @@
       "label_id": "Label_8658624016447790536",
       "sender": "Dami",
       "is_first_email": true,
-      "followups_sent": [],
+      "followups_sent": [
+        {
+          "date": "2026-05-26",
+          "type": "follow_up_1",
+          "sender": "Antonio",
+          "snippet": "Just bumping this up in case you missed it. Let me know if it makes sense to talk."
+        }
+      ],
       "last_outbound_by_antonio": {
         "date": "2026-05-12",
         "snippet": "Hi, I was looking into Rixo London and noticed you're running Meta/Google campaigns on a Shopify store. Quick check on tracking found an issue you're likely unaware of."
@@ -1769,9 +1920,9 @@
       "assigned_to": "Dami",
       "angle": "2B",
       "platform": "Shopify",
-      "status": "autoresponse",
+      "status": "follow_up_1_sent",
       "first_contact": "2026-05-12",
-      "last_activity": "2026-05-12",
+      "last_activity": "2026-05-26",
       "next_action": "Follow-up 1",
       "next_action_date": "2026-05-26",
       "stape_score": null,
@@ -1790,7 +1941,14 @@
       "label_id": "Label_8658624016447790536",
       "sender": "Dami",
       "is_first_email": true,
-      "followups_sent": [],
+      "followups_sent": [
+        {
+          "date": "2026-05-26",
+          "type": "follow_up_1",
+          "sender": "Antonio",
+          "snippet": "Just bumping this up in case you missed it. Let me know if it makes sense to talk."
+        }
+      ],
       "last_outbound_by_antonio": {
         "date": "2026-05-12",
         "snippet": "Hi, I was looking into Grace & Co Jewellery and noticed you're running Meta/Google campaigns on a Shopify store. Quick check on tracking found an issue you're likely unaware of."
@@ -1820,9 +1978,9 @@
       "assigned_to": "Dami",
       "angle": "2B",
       "platform": "Shopify",
-      "status": "contacted",
+      "status": "follow_up_1_sent",
       "first_contact": "2026-05-12",
-      "last_activity": "2026-05-12",
+      "last_activity": "2026-05-26",
       "next_action": "Follow-up 1",
       "next_action_date": "2026-05-26",
       "stape_score": null,
@@ -1837,7 +1995,14 @@
       "label_id": "Label_8658624016447790536",
       "sender": "Dami",
       "is_first_email": true,
-      "followups_sent": [],
+      "followups_sent": [
+        {
+          "date": "2026-05-26",
+          "type": "follow_up_1",
+          "sender": "Antonio",
+          "snippet": "Just bumping this up in case you missed it. Let me know if it makes sense to talk."
+        }
+      ],
       "last_outbound_by_antonio": {
         "date": "2026-05-12",
         "snippet": "Hi, I was looking into Malone Souliers and noticed you're running Meta/Google campaigns on a Shopify store. Quick check on tracking found an issue you're likely unaware of."
@@ -1864,9 +2029,9 @@
       "assigned_to": "Manu",
       "angle": "1A",
       "platform": "non-Shopify",
-      "status": "contacted",
+      "status": "follow_up_1_sent",
       "first_contact": "2026-05-12",
-      "last_activity": "2026-05-12",
+      "last_activity": "2026-05-26",
       "next_action": "Follow-up 1",
       "next_action_date": "2026-05-26",
       "stape_score": null,
@@ -1881,7 +2046,14 @@
       "label_id": "Label_1592668050883672428",
       "sender": "Manu",
       "is_first_email": true,
-      "followups_sent": [],
+      "followups_sent": [
+        {
+          "date": "2026-05-26",
+          "type": "follow_up_1",
+          "sender": "Antonio",
+          "snippet": "Rimando su nel caso, fammi sapere se ha senso parlarne."
+        }
+      ],
       "last_outbound_by_antonio": {
         "date": "2026-05-12",
         "snippet": "Ciao, mi sono imbattuto in D'Aniello cercando le migliori realtÃÂ  fashion del settore. Ho visto la piattaforma che state usando per le vendite online, la conosco molto bene."
@@ -1908,9 +2080,9 @@
       "assigned_to": "Dami",
       "angle": "3B",
       "platform": "Shopify",
-      "status": "contacted",
+      "status": "follow_up_1_sent",
       "first_contact": "2026-05-12",
-      "last_activity": "2026-05-12",
+      "last_activity": "2026-05-26",
       "next_action": "Follow-up 1",
       "next_action_date": "2026-05-26",
       "stape_score": null,
@@ -1925,7 +2097,14 @@
       "label_id": "Label_8658624016447790536",
       "sender": "Dami",
       "is_first_email": true,
-      "followups_sent": [],
+      "followups_sent": [
+        {
+          "date": "2026-05-26",
+          "type": "follow_up_1",
+          "sender": "Antonio",
+          "snippet": "Rimando su nel caso, fammi sapere se ha senso parlarne."
+        }
+      ],
       "last_outbound_by_antonio": {
         "date": "2026-05-12",
         "snippet": "Ciao Maria, stavo guardando i migliori store Shopify del settore e mi sono imbattuto in Profumerie Galeazzi, brand forte. Ho visto 2-3 cose che frenano le conversioni."
@@ -1996,9 +2175,9 @@
       "assigned_to": "Dami",
       "angle": "2B",
       "platform": "Shopify",
-      "status": "contacted",
+      "status": "follow_up_1_sent",
       "first_contact": "2026-05-12",
-      "last_activity": "2026-05-12",
+      "last_activity": "2026-05-26",
       "next_action": "Follow-up 1",
       "next_action_date": "2026-05-26",
       "stape_score": null,
@@ -2013,7 +2192,14 @@
       "label_id": "Label_8658624016447790536",
       "sender": "Dami",
       "is_first_email": true,
-      "followups_sent": [],
+      "followups_sent": [
+        {
+          "date": "2026-05-26",
+          "type": "follow_up_1",
+          "sender": "Antonio",
+          "snippet": "Just bumping this up in case you missed it. Let me know if it makes sense to talk."
+        }
+      ],
       "last_outbound_by_antonio": {
         "date": "2026-05-12",
         "snippet": "Hi, I was looking into Rachel Riley and noticed you're running Meta/Google campaigns on a Shopify store. Quick check on tracking found an issue you're likely unaware of."
@@ -2040,9 +2226,9 @@
       "assigned_to": "Manu",
       "angle": "1A",
       "platform": "non-Shopify",
-      "status": "contacted",
+      "status": "follow_up_1_sent",
       "first_contact": "2026-05-12",
-      "last_activity": "2026-05-12",
+      "last_activity": "2026-05-26",
       "next_action": "Follow-up 1",
       "next_action_date": "2026-05-26",
       "stape_score": null,
@@ -2057,7 +2243,14 @@
       "label_id": "Label_1592668050883672428",
       "sender": "Manu",
       "is_first_email": true,
-      "followups_sent": [],
+      "followups_sent": [
+        {
+          "date": "2026-05-26",
+          "type": "follow_up_1",
+          "sender": "Antonio",
+          "snippet": "Rimando su nel caso, fammi sapere se ha senso parlarne."
+        }
+      ],
       "last_outbound_by_antonio": {
         "date": "2026-05-12",
         "snippet": "Ciao Pierpaolo, mi sono imbattuto in Cenere cercando le migliori realtÃÂ  fashion del settore. Ho visto la piattaforma che state usando per le vendite online, la conosco molto bene."
@@ -2084,9 +2277,9 @@
       "assigned_to": "Manu",
       "angle": "1A",
       "platform": "non-Shopify",
-      "status": "contacted",
+      "status": "follow_up_1_sent",
       "first_contact": "2026-05-12",
-      "last_activity": "2026-05-12",
+      "last_activity": "2026-05-26",
       "next_action": "Follow-up 1",
       "next_action_date": "2026-05-26",
       "stape_score": null,
@@ -2101,7 +2294,14 @@
       "label_id": "Label_1592668050883672428",
       "sender": "Manu",
       "is_first_email": true,
-      "followups_sent": [],
+      "followups_sent": [
+        {
+          "date": "2026-05-26",
+          "type": "follow_up_1",
+          "sender": "Antonio",
+          "snippet": "Rimando su nel caso, fammi sapere se ha senso parlarne."
+        }
+      ],
       "last_outbound_by_antonio": {
         "date": "2026-05-12",
         "snippet": "Ciao, mi sono imbattuto in Cammalleri cercando le migliori realtÃÂ  fashion del settore. Ho visto la piattaforma che state usando per le vendite online, la conosco molto bene."
@@ -2128,9 +2328,9 @@
       "assigned_to": "Dami",
       "angle": "2B",
       "platform": "Shopify",
-      "status": "contacted",
+      "status": "follow_up_1_sent",
       "first_contact": "2026-05-12",
-      "last_activity": "2026-05-12",
+      "last_activity": "2026-05-26",
       "next_action": "Follow-up 1",
       "next_action_date": "2026-05-26",
       "stape_score": null,
@@ -2145,7 +2345,14 @@
       "label_id": "Label_8658624016447790536",
       "sender": "Dami",
       "is_first_email": true,
-      "followups_sent": [],
+      "followups_sent": [
+        {
+          "date": "2026-05-26",
+          "type": "follow_up_1",
+          "sender": "Antonio",
+          "snippet": "Rimando su nel caso, fammi sapere se ha senso parlarne."
+        }
+      ],
       "last_outbound_by_antonio": {
         "date": "2026-05-12",
         "snippet": "Hi, I was looking into Boglioli and noticed you're running Meta/Google campaigns on a Shopify store. Quick check on tracking found an issue you're likely unaware of."
@@ -2172,9 +2379,9 @@
       "assigned_to": "Manu",
       "angle": "1A",
       "platform": "non-Shopify",
-      "status": "contacted",
+      "status": "follow_up_1_sent",
       "first_contact": "2026-05-12",
-      "last_activity": "2026-05-12",
+      "last_activity": "2026-05-26",
       "next_action": "Follow-up 1",
       "next_action_date": "2026-05-26",
       "stape_score": null,
@@ -2189,7 +2396,14 @@
       "label_id": "Label_1592668050883672428",
       "sender": "Manu",
       "is_first_email": true,
-      "followups_sent": [],
+      "followups_sent": [
+        {
+          "date": "2026-05-26",
+          "type": "follow_up_1",
+          "sender": "Antonio",
+          "snippet": "Rimando su nel caso, fammi sapere se ha senso parlarne."
+        }
+      ],
       "last_outbound_by_antonio": {
         "date": "2026-05-12",
         "snippet": "Ciao, mi sono imbattuto in Boutique Antonia cercando le migliori realtÃÂ  fashion del settore. Ho visto la piattaforma che state usando per le vendite online, la conosco molto bene."
@@ -2216,9 +2430,9 @@
       "assigned_to": "Manu",
       "angle": "1A",
       "platform": "non-Shopify",
-      "status": "contacted",
+      "status": "follow_up_1_sent",
       "first_contact": "2026-05-12",
-      "last_activity": "2026-05-12",
+      "last_activity": "2026-05-26",
       "next_action": "Follow-up 1",
       "next_action_date": "2026-05-26",
       "stape_score": null,
@@ -2233,7 +2447,14 @@
       "label_id": "Label_1592668050883672428",
       "sender": "Manu",
       "is_first_email": true,
-      "followups_sent": [],
+      "followups_sent": [
+        {
+          "date": "2026-05-26",
+          "type": "follow_up_1",
+          "sender": "Antonio",
+          "snippet": "Rimando su nel caso, fammi sapere se ha senso parlarne."
+        }
+      ],
       "last_outbound_by_antonio": {
         "date": "2026-05-12",
         "snippet": "Ciao Alessandra, mi sono imbattuto in Al Duca d'Aosta cercando le migliori realtÃÂ  fashion del settore. Ho visto la piattaforma che state usando per le vendite online, la conosco molto bene."
@@ -2260,9 +2481,9 @@
       "assigned_to": "Manu",
       "angle": "1A",
       "platform": "non-Shopify",
-      "status": "contacted",
+      "status": "follow_up_1_sent",
       "first_contact": "2026-05-12",
-      "last_activity": "2026-05-12",
+      "last_activity": "2026-05-26",
       "next_action": "Follow-up 1",
       "next_action_date": "2026-05-26",
       "stape_score": null,
@@ -2277,7 +2498,14 @@
       "label_id": "Label_1592668050883672428",
       "sender": "Manu",
       "is_first_email": true,
-      "followups_sent": [],
+      "followups_sent": [
+        {
+          "date": "2026-05-26",
+          "type": "follow_up_1",
+          "sender": "Antonio",
+          "snippet": "Rimando su nel caso, fammi sapere se ha senso parlarne."
+        }
+      ],
       "last_outbound_by_antonio": {
         "date": "2026-05-12",
         "snippet": "Ciao, mi sono imbattuto in Nida cercando le migliori realtÃÂ  fashion del settore. Ho visto la piattaforma che state usando per le vendite online, la conosco molto bene."
@@ -2304,9 +2532,9 @@
       "assigned_to": "Manu",
       "angle": "1A",
       "platform": "non-Shopify",
-      "status": "contacted",
+      "status": "follow_up_1_sent",
       "first_contact": "2026-05-12",
-      "last_activity": "2026-05-12",
+      "last_activity": "2026-05-26",
       "next_action": "Follow-up 1",
       "next_action_date": "2026-05-26",
       "stape_score": null,
@@ -2321,7 +2549,14 @@
       "label_id": "Label_1592668050883672428",
       "sender": "Manu",
       "is_first_email": true,
-      "followups_sent": [],
+      "followups_sent": [
+        {
+          "date": "2026-05-26",
+          "type": "follow_up_1",
+          "sender": "Antonio",
+          "snippet": "Rimando su nel caso, fammi sapere se ha senso parlarne."
+        }
+      ],
       "last_outbound_by_antonio": {
         "date": "2026-05-12",
         "snippet": "Ciao, mi sono imbattuto in Mantovani Shop cercando le migliori realtÃÂ  fashion del settore. Ho visto la piattaforma che state usando per le vendite online, la conosco molto bene."
@@ -2348,9 +2583,9 @@
       "assigned_to": "Manu",
       "angle": "1A",
       "platform": "non-Shopify",
-      "status": "contacted",
+      "status": "follow_up_1_sent",
       "first_contact": "2026-05-12",
-      "last_activity": "2026-05-12",
+      "last_activity": "2026-05-26",
       "next_action": "Follow-up 1",
       "next_action_date": "2026-05-26",
       "stape_score": null,
@@ -2365,7 +2600,14 @@
       "label_id": "Label_1592668050883672428",
       "sender": "Manu",
       "is_first_email": true,
-      "followups_sent": [],
+      "followups_sent": [
+        {
+          "date": "2026-05-26",
+          "type": "follow_up_1",
+          "sender": "Antonio",
+          "snippet": "Rimando su nel caso, fammi sapere se ha senso parlarne."
+        }
+      ],
       "last_outbound_by_antonio": {
         "date": "2026-05-12",
         "snippet": "Ciao Alice, mi sono imbattuto in Stilmoda cercando le migliori realtÃÂ  fashion del settore. Ho visto la piattaforma che state usando per le vendite online, la conosco molto bene."
@@ -2392,9 +2634,9 @@
       "assigned_to": "Manu",
       "angle": "1A",
       "platform": "non-Shopify",
-      "status": "contacted",
+      "status": "follow_up_1_sent",
       "first_contact": "2026-05-12",
-      "last_activity": "2026-05-12",
+      "last_activity": "2026-05-26",
       "next_action": "Follow-up 1",
       "next_action_date": "2026-05-26",
       "stape_score": null,
@@ -2409,7 +2651,14 @@
       "label_id": "Label_1592668050883672428",
       "sender": "Manu",
       "is_first_email": true,
-      "followups_sent": [],
+      "followups_sent": [
+        {
+          "date": "2026-05-26",
+          "type": "follow_up_1",
+          "sender": "Antonio",
+          "snippet": "Rimando su nel caso, fammi sapere se ha senso parlarne."
+        }
+      ],
       "last_outbound_by_antonio": {
         "date": "2026-05-12",
         "snippet": "Ciao Maria, mi sono imbattuto in Pellizzari cercando le migliori realtÃÂ  fashion del settore. Ho visto la piattaforma che state usando per le vendite online, la conosco molto bene."
@@ -2436,9 +2685,9 @@
       "assigned_to": "Manu",
       "angle": "1A",
       "platform": "non-Shopify",
-      "status": "contacted",
+      "status": "follow_up_1_sent",
       "first_contact": "2026-05-12",
-      "last_activity": "2026-05-12",
+      "last_activity": "2026-05-26",
       "next_action": "Follow-up 1",
       "next_action_date": "2026-05-26",
       "stape_score": null,
@@ -2453,7 +2702,14 @@
       "label_id": "Label_1592668050883672428",
       "sender": "Manu",
       "is_first_email": true,
-      "followups_sent": [],
+      "followups_sent": [
+        {
+          "date": "2026-05-26",
+          "type": "follow_up_1",
+          "sender": "Antonio",
+          "snippet": "Rimando su nel caso, fammi sapere se ha senso parlarne."
+        }
+      ],
       "last_outbound_by_antonio": {
         "date": "2026-05-12",
         "snippet": "Ciao Mattia, mi sono imbattuto in Penelope Store cercando le migliori realtÃÂ  fashion del settore. Ho visto la piattaforma che state usando per le vendite online, la conosco molto bene."
@@ -2480,9 +2736,9 @@
       "assigned_to": "Manu",
       "angle": "1A",
       "platform": "non-Shopify",
-      "status": "contacted",
+      "status": "follow_up_1_sent",
       "first_contact": "2026-05-12",
-      "last_activity": "2026-05-12",
+      "last_activity": "2026-05-26",
       "next_action": "Follow-up 1",
       "next_action_date": "2026-05-26",
       "stape_score": null,
@@ -2497,7 +2753,14 @@
       "label_id": "Label_1592668050883672428",
       "sender": "Manu",
       "is_first_email": true,
-      "followups_sent": [],
+      "followups_sent": [
+        {
+          "date": "2026-05-26",
+          "type": "follow_up_1",
+          "sender": "Antonio",
+          "snippet": "Rimando su nel caso, fammi sapere se ha senso parlarne."
+        }
+      ],
       "last_outbound_by_antonio": {
         "date": "2026-05-12",
         "snippet": "Ciao, mi sono imbattuto in Vela Shop (Flashion) cercando le migliori realtÃÂ  fashion del settore. Ho visto la piattaforma che state usando per le vendite online, la conosco molto bene."
@@ -2972,9 +3235,9 @@
       "assigned_to": "Dami",
       "angle": "2B",
       "platform": "Shopify",
-      "status": "autoresponse",
+      "status": "follow_up_1_sent",
       "first_contact": "2026-05-11",
-      "last_activity": "2026-05-16",
+      "last_activity": "2026-05-27",
       "next_action": "Follow-up 1",
       "next_action_date": "2026-05-25",
       "stape_score": null,
@@ -2997,7 +3260,14 @@
       "label_id": "Label_8658624016447790536",
       "sender": "Dami",
       "is_first_email": true,
-      "followups_sent": [],
+      "followups_sent": [
+        {
+          "date": "2026-05-27",
+          "type": "follow_up_1",
+          "sender": "Antonio",
+          "snippet": "Just bumping this up in case you missed it. Let me know if it makes sense to talk."
+        }
+      ],
       "last_outbound_by_antonio": {
         "date": "2026-05-16",
         "snippet": "Hi Geri, Thank you! Do you have a direct email address so I can send the requested report?"
@@ -8806,9 +9076,9 @@
       "assigned_to": "Antonio",
       "angle": "warm",
       "platform": "Shopify",
-      "status": "contacted",
+      "status": "follow_up_1_sent",
       "first_contact": "2026-05-13",
-      "last_activity": "2026-05-13",
+      "last_activity": "2026-05-27",
       "next_action": "Follow-up 1",
       "next_action_date": "2026-05-27",
       "stape_score": null,
@@ -8823,7 +9093,14 @@
       "label_id": "Label_1523762719426921570",
       "sender": "Antonio",
       "is_first_email": true,
-      "followups_sent": [],
+      "followups_sent": [
+        {
+          "date": "2026-05-27",
+          "type": "follow_up_1",
+          "sender": "Antonio",
+          "snippet": "Just bumping this up in case you missed it. Let me know if it makes sense to talk."
+        }
+      ],
       "last_outbound_by_antonio": {
         "date": "2026-05-13",
         "snippet": "Hey Guillaume, how are you? After a while, I finally put together something I've"
@@ -8850,9 +9127,9 @@
       "assigned_to": "Manu",
       "angle": "1A",
       "platform": "non-Shopify",
-      "status": "contacted",
+      "status": "follow_up_1_sent",
       "first_contact": "2026-05-13",
-      "last_activity": "2026-05-13",
+      "last_activity": "2026-05-27",
       "next_action": "Follow-up 1",
       "next_action_date": "2026-05-27",
       "stape_score": null,
@@ -8867,7 +9144,14 @@
       "label_id": "Label_1592668050883672428",
       "sender": "Manu",
       "is_first_email": true,
-      "followups_sent": [],
+      "followups_sent": [
+        {
+          "date": "2026-05-27",
+          "type": "follow_up_1",
+          "sender": "Antonio",
+          "snippet": "Rimando su nel caso, fammi sapere se ha senso parlarne."
+        }
+      ],
       "last_outbound_by_antonio": {
         "date": "2026-05-13",
         "snippet": "Buonasera Leonardo, mi sono imbattuto in Amedeo D. cercando le migliori boutique multibrand del settore in Italia"
@@ -8894,9 +9178,9 @@
       "assigned_to": "Manu",
       "angle": "1A",
       "platform": "non-Shopify",
-      "status": "contacted",
+      "status": "follow_up_1_sent",
       "first_contact": "2026-05-13",
-      "last_activity": "2026-05-13",
+      "last_activity": "2026-05-27",
       "next_action": "Follow-up 1",
       "next_action_date": "2026-05-27",
       "stape_score": null,
@@ -8911,7 +9195,14 @@
       "label_id": "Label_1592668050883672428",
       "sender": "Manu",
       "is_first_email": true,
-      "followups_sent": [],
+      "followups_sent": [
+        {
+          "date": "2026-05-27",
+          "type": "follow_up_1",
+          "sender": "Antonio",
+          "snippet": "Rimando su nel caso, fammi sapere se ha senso parlarne."
+        }
+      ],
       "last_outbound_by_antonio": {
         "date": "2026-05-13",
         "snippet": "Buonasera, mi sono imbattuto in Cotton Club cercando le migliori luxury boutique multibrand del settore in Italia, la boutique a Monza ÃÂ¨ stupenda."
@@ -8938,9 +9229,9 @@
       "assigned_to": "Manu",
       "angle": "1A",
       "platform": "non-Shopify",
-      "status": "contacted",
+      "status": "follow_up_1_sent",
       "first_contact": "2026-05-13",
-      "last_activity": "2026-05-13",
+      "last_activity": "2026-05-27",
       "next_action": "Follow-up 1",
       "next_action_date": "2026-05-27",
       "stape_score": null,
@@ -8955,7 +9246,14 @@
       "label_id": "Label_1592668050883672428",
       "sender": "Manu",
       "is_first_email": true,
-      "followups_sent": [],
+      "followups_sent": [
+        {
+          "date": "2026-05-27",
+          "type": "follow_up_1",
+          "sender": "Antonio",
+          "snippet": "Rimando su nel caso, fammi sapere se ha senso parlarne."
+        }
+      ],
       "last_outbound_by_antonio": {
         "date": "2026-05-13",
         "snippet": "Buonasera, mi sono imbattuto in Ivo Milan Radical Fashion cercando le migliori luxury boutique multibrand del settore in Italia, la boutique a Padova ÃÂ¨ stupenda."
@@ -8982,9 +9280,9 @@
       "assigned_to": "Manu",
       "angle": "1A",
       "platform": "non-Shopify",
-      "status": "contacted",
+      "status": "follow_up_1_sent",
       "first_contact": "2026-05-13",
-      "last_activity": "2026-05-13",
+      "last_activity": "2026-05-27",
       "next_action": "Follow-up 1",
       "next_action_date": "2026-05-27",
       "stape_score": null,
@@ -8999,7 +9297,14 @@
       "label_id": "Label_1592668050883672428",
       "sender": "Manu",
       "is_first_email": true,
-      "followups_sent": [],
+      "followups_sent": [
+        {
+          "date": "2026-05-27",
+          "type": "follow_up_1",
+          "sender": "Antonio",
+          "snippet": "Rimando su nel caso, fammi sapere se ha senso parlarne."
+        }
+      ],
       "last_outbound_by_antonio": {
         "date": "2026-05-13",
         "snippet": "Buonasera, mi sono imbattuto in Singolare cercando le migliori boutique multibrand del settore in Italia, la boutique a Napoli ÃÂ¨ stupenda."
@@ -9026,9 +9331,9 @@
       "assigned_to": "Manu",
       "angle": "1A",
       "platform": "non-Shopify",
-      "status": "contacted",
+      "status": "follow_up_1_sent",
       "first_contact": "2026-05-13",
-      "last_activity": "2026-05-13",
+      "last_activity": "2026-05-27",
       "next_action": "Follow-up 1",
       "next_action_date": "2026-05-27",
       "stape_score": null,
@@ -9043,7 +9348,14 @@
       "label_id": "Label_1592668050883672428",
       "sender": "Manu",
       "is_first_email": true,
-      "followups_sent": [],
+      "followups_sent": [
+        {
+          "date": "2026-05-27",
+          "type": "follow_up_1",
+          "sender": "Antonio",
+          "snippet": "Rimando su nel caso, fammi sapere se ha senso parlarne."
+        }
+      ],
       "last_outbound_by_antonio": {
         "date": "2026-05-13",
         "snippet": "Buonasera, mi sono imbattuto in Il Faro cercando le migliori boutique multibrand del settore in Italia, la boutique ad Avellino ÃÂ¨ stupenda."
@@ -9070,9 +9382,9 @@
       "assigned_to": "Manu",
       "angle": "1A",
       "platform": "non-Shopify",
-      "status": "contacted",
+      "status": "follow_up_1_sent",
       "first_contact": "2026-05-13",
-      "last_activity": "2026-05-13",
+      "last_activity": "2026-05-27",
       "next_action": "Follow-up 1",
       "next_action_date": "2026-05-27",
       "stape_score": null,
@@ -9087,7 +9399,14 @@
       "label_id": "Label_1592668050883672428",
       "sender": "Manu",
       "is_first_email": true,
-      "followups_sent": [],
+      "followups_sent": [
+        {
+          "date": "2026-05-27",
+          "type": "follow_up_1",
+          "sender": "Antonio",
+          "snippet": "Rimando su nel caso, fammi sapere se ha senso parlarne."
+        }
+      ],
       "last_outbound_by_antonio": {
         "date": "2026-05-13",
         "snippet": "Ciao Panos, mi sono imbattuto in Deliberti cercando le migliori luxury boutique multibrand del settore in Italia, le boutique a Napoli sono stupende."
@@ -9114,9 +9433,9 @@
       "assigned_to": "Manu",
       "angle": "1A",
       "platform": "non-Shopify",
-      "status": "contacted",
+      "status": "follow_up_1_sent",
       "first_contact": "2026-05-13",
-      "last_activity": "2026-05-13",
+      "last_activity": "2026-05-27",
       "next_action": "Follow-up 1",
       "next_action_date": "2026-05-27",
       "stape_score": null,
@@ -9131,7 +9450,14 @@
       "label_id": "Label_1592668050883672428",
       "sender": "Manu",
       "is_first_email": true,
-      "followups_sent": [],
+      "followups_sent": [
+        {
+          "date": "2026-05-27",
+          "type": "follow_up_1",
+          "sender": "Antonio",
+          "snippet": "Rimando su nel caso, fammi sapere se ha senso parlarne."
+        }
+      ],
       "last_outbound_by_antonio": {
         "date": "2026-05-13",
         "snippet": "Ciao, mi sono imbattuto in Petit Pasha cercando le migliori boutique multibrand del settore in Italia, bella la selezione che avete in questo periodo."
@@ -9158,9 +9484,9 @@
       "assigned_to": "Manu",
       "angle": "1A",
       "platform": "non-Shopify",
-      "status": "contacted",
+      "status": "follow_up_1_sent",
       "first_contact": "2026-05-13",
-      "last_activity": "2026-05-13",
+      "last_activity": "2026-05-27",
       "next_action": "Follow-up 1",
       "next_action_date": "2026-05-27",
       "stape_score": null,
@@ -9175,7 +9501,14 @@
       "label_id": "Label_1592668050883672428",
       "sender": "Manu",
       "is_first_email": true,
-      "followups_sent": [],
+      "followups_sent": [
+        {
+          "date": "2026-05-27",
+          "type": "follow_up_1",
+          "sender": "Antonio",
+          "snippet": "Rimando su nel caso, fammi sapere se ha senso parlarne."
+        }
+      ],
       "last_outbound_by_antonio": {
         "date": "2026-05-13",
         "snippet": "Buonasera, mi sono imbattuto in Paolo Fiorillo cercando le migliori boutique multibrand del settore in Italia, la boutique a Napoli ÃÂ¨ stupenda."
@@ -9202,9 +9535,9 @@
       "assigned_to": "Manu",
       "angle": "1A",
       "platform": "non-Shopify",
-      "status": "contacted",
+      "status": "follow_up_1_sent",
       "first_contact": "2026-05-13",
-      "last_activity": "2026-05-13",
+      "last_activity": "2026-05-27",
       "next_action": "Follow-up 1",
       "next_action_date": "2026-05-27",
       "stape_score": null,
@@ -9219,7 +9552,14 @@
       "label_id": "Label_1592668050883672428",
       "sender": "Manu",
       "is_first_email": true,
-      "followups_sent": [],
+      "followups_sent": [
+        {
+          "date": "2026-05-27",
+          "type": "follow_up_1",
+          "sender": "Antonio",
+          "snippet": "Rimando su nel caso, fammi sapere se ha senso parlarne."
+        }
+      ],
       "last_outbound_by_antonio": {
         "date": "2026-05-13",
         "snippet": "Buonasera, mi sono imbattuto in Montorsi Modena 1964 cercando le migliori luxury boutique multibrand del settore in Italia, la boutique a Modena ÃÂ¨ stupenda."
@@ -9246,9 +9586,9 @@
       "assigned_to": "Manu",
       "angle": "1A",
       "platform": "non-Shopify",
-      "status": "contacted",
+      "status": "follow_up_1_sent",
       "first_contact": "2026-05-13",
-      "last_activity": "2026-05-13",
+      "last_activity": "2026-05-27",
       "next_action": "Follow-up 1",
       "next_action_date": "2026-05-27",
       "stape_score": null,
@@ -9263,7 +9603,14 @@
       "label_id": "Label_1592668050883672428",
       "sender": "Manu",
       "is_first_email": true,
-      "followups_sent": [],
+      "followups_sent": [
+        {
+          "date": "2026-05-27",
+          "type": "follow_up_1",
+          "sender": "Antonio",
+          "snippet": "Rimando su nel caso, fammi sapere se ha senso parlarne."
+        }
+      ],
       "last_outbound_by_antonio": {
         "date": "2026-05-13",
         "snippet": "Buongiorno, mi sono imbattuto in The Chill Pepper cercando le migliori boutique multibrand del settore in Italia, la boutique a Reggio Calabria ÃÂ¨ molto bella."
@@ -9290,9 +9637,9 @@
       "assigned_to": "Manu",
       "angle": "1A",
       "platform": "non-Shopify",
-      "status": "contacted",
+      "status": "follow_up_1_sent",
       "first_contact": "2026-05-13",
-      "last_activity": "2026-05-13",
+      "last_activity": "2026-05-27",
       "next_action": "Follow-up 1",
       "next_action_date": "2026-05-27",
       "stape_score": null,
@@ -9307,7 +9654,14 @@
       "label_id": "Label_1592668050883672428",
       "sender": "Manu",
       "is_first_email": true,
-      "followups_sent": [],
+      "followups_sent": [
+        {
+          "date": "2026-05-27",
+          "type": "follow_up_1",
+          "sender": "Antonio",
+          "snippet": "Rimando su nel caso, fammi sapere se ha senso parlarne."
+        }
+      ],
       "last_outbound_by_antonio": {
         "date": "2026-05-13",
         "snippet": "Buongiorno, mi sono imbattuto in Foti cercando le migliori luxury boutique multibrand del settore in Italia, la boutique a Reggio Calabria ÃÂ¨ stupenda."
@@ -9334,9 +9688,9 @@
       "assigned_to": "Manu",
       "angle": "1A",
       "platform": "non-Shopify",
-      "status": "contacted",
+      "status": "follow_up_1_sent",
       "first_contact": "2026-05-13",
-      "last_activity": "2026-05-13",
+      "last_activity": "2026-05-27",
       "next_action": "Follow-up 1",
       "next_action_date": "2026-05-27",
       "stape_score": null,
@@ -9351,7 +9705,14 @@
       "label_id": "Label_1592668050883672428",
       "sender": "Manu",
       "is_first_email": true,
-      "followups_sent": [],
+      "followups_sent": [
+        {
+          "date": "2026-05-27",
+          "type": "follow_up_1",
+          "sender": "Antonio",
+          "snippet": "Rimando su nel caso, fammi sapere se ha senso parlarne."
+        }
+      ],
       "last_outbound_by_antonio": {
         "date": "2026-05-13",
         "snippet": "Buongiorno, mi sono imbattuto in Insight cercando le migliori luxury boutique multibrand del settore in Italia, la boutique a Roma ÃÂ¨ stupenda."
@@ -10791,15 +11152,22 @@
       "label_id": "Label_1523762719426921570",
       "angle": "1A",
       "platform": "non-Shopify",
-      "status": "contacted",
+      "status": "follow_up_1_sent",
       "first_contact": "2026-05-13",
-      "last_activity": "2026-05-13",
+      "last_activity": "2026-05-27",
       "is_first_email": true,
       "first_email_snippet": "Buonasera. mi sono imbattuto in Alberta Boutique cercando le migliori boutique multibrand del settore in Italia, a proposito, la boutique a San Miniato Basso ÃÂ¨ stupenda.",
       "next_action": "Follow-up 1",
       "next_action_date": "2026-05-27",
       "next_followup_due": "2026-05-27",
-      "followups_sent": [],
+      "followups_sent": [
+        {
+          "date": "2026-05-27",
+          "type": "follow_up_1",
+          "sender": "Antonio",
+          "snippet": "Rimando su nel caso, fammi sapere se ha senso parlarne."
+        }
+      ],
       "scheduled_timeline": {
         "first_email": "2026-05-13",
         "follow_up_1": "2026-05-27",
@@ -14219,15 +14587,22 @@
       "angle": "1A",
       "platform": "non-Shopify",
       "thread_id": "19e3bb8b6fe1107d",
-      "status": "contacted",
+      "status": "follow_up_1_sent",
       "first_contact": "2026-05-18",
-      "last_activity": "2026-05-18",
+      "last_activity": "2026-05-27",
       "multi_to": false,
       "had_cc_bcc": false,
       "redirect_to": null,
       "stape_score": null,
       "notes": "SKIP automatico Ã¢ÂÂ duplicato di prospect_014 (stessa email info@niba1976.com, primo invio 2026-05-13). Thread 19e3bb8b6fe1107d ÃÂ¨ un secondo invio anomalo.",
-      "followups_sent": [],
+      "followups_sent": [
+        {
+          "date": "2026-05-27",
+          "type": "follow_up_1",
+          "sender": "Antonio",
+          "snippet": "Rimando su nel caso, fammi sapere se ha senso parlarne."
+        }
+      ],
       "scheduled_timeline": {
         "first_email": "2026-05-18",
         "follow_up_1": "2026-06-01",
