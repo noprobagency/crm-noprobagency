@@ -1,7 +1,7 @@
 {
   "meta": {
-    "last_updated": "2026-05-27T16:30:00+02:00",
-    "total_contacted": 373,
+    "last_updated": "2026-05-28T08:00:00+02:00",
+    "total_contacted": 378,
     "total_replied": 13,
     "total_bounced": 50,
     "total_autoresponse": 13,
@@ -28,8 +28,8 @@
       "status": "in_conversation",
       "first_contact": "2026-04-30",
       "last_activity": "2026-05-25",
-      "next_action": "In attesa risposta — FU inviato 25/05",
-      "next_action_date": null,
+      "next_action": "Follow-up urgente — 16 giorni da ultima risposta (2026-05-12). Victoire — FU inviato 25/05.",
+      "next_action_date": "2026-05-29",
       "stape_score": 39,
       "notes": "Founder & CEO. Ha chiesto il report dopo bump del 12/05. Inviato report Stape completo il 13/05 (Ads 44/100).",
       "thread_id": "19ddac7248b1a78a",
@@ -110,8 +110,8 @@
       "status": "in_conversation",
       "first_contact": "2026-05-01",
       "last_activity": "2026-05-27",
-      "next_action": "Follow-up urgente — 20 giorni senza risposta da Valeria (07/05). Video Loom già inviato.",
-      "next_action_date": "2026-05-27",
+      "next_action": "Follow-up urgente — 21 giorni da ultima risposta (2026-05-07). Valeria — Video Loom già inviato.",
+      "next_action_date": "2026-05-29",
       "stape_score": null,
       "notes": "Risposta positiva il 07/05. Inviato video di analisi (10 min) l'08/05. Bump il 12/05. FU inviato il 20/05: ha avuto modo di vedere il video?",
       "thread_id": "19e026540b01048b",
@@ -204,8 +204,8 @@
       "status": "in_conversation",
       "first_contact": "2026-05-01",
       "last_activity": "2026-05-27",
-      "next_action": "Follow-up urgente — 9 giorni senza risposta da Nicolò (18/05). Risposta insolita (CV allegato).",
-      "next_action_date": "2026-05-27",
+      "next_action": "Follow-up urgente — 10 giorni da ultima risposta (2026-05-18). Nicolò — risposta con CV allegato.",
+      "next_action_date": "2026-05-29",
       "stape_score": null,
       "notes": "Email personale (nicodeka03@gmail.com). Risposta positiva il 07/05. Video inviato l'08/05. Risposta 13/05: molto insightful. Il 18/05: allega CV (off-topic). Antonio risponde il 19/05.",
       "thread_id": "19e02604b5efa2cb",
@@ -310,8 +310,8 @@
       "status": "in_conversation",
       "first_contact": "2026-05-13",
       "last_activity": "2026-05-27",
-      "next_action": "In attesa risposta — FU inviato 27/05 a Sara Agnelli",
-      "next_action_date": null,
+      "next_action": "Follow-up urgente — 13 giorni da ultima risposta (2026-05-15). Sara Agnelli — FU inviato 27/05.",
+      "next_action_date": "2026-05-29",
       "stape_score": null,
       "notes": "Luxury boutique Casale Monferrato",
       "thread_id": "19e213be13545c0d",
@@ -420,8 +420,8 @@
         "date": "2026-05-15",
         "snippet": "Ciao Antonio, Thank you for your email. I would be happy to have a look at your report, why not ;) Best, Caterina Zorzan E-commerce Manager"
       },
-      "next_action": "In attesa risposta — FU video inviato 25/05",
-      "next_action_date": null,
+      "next_action": "Follow-up urgente — 13 giorni da ultima risposta (2026-05-15). Caterina — FU video inviato 25/05.",
+      "next_action_date": "2026-05-29",
       "timeline": [
         {
           "date": "2026-05-15",
@@ -456,7 +456,7 @@
       "thread_id": "19e3c256514923a0",
       "status": "in_conversation",
       "first_contact": "2026-05-18",
-      "last_activity": "2026-05-27",
+      "last_activity": "2026-05-28",
       "multi_to": false,
       "had_cc_bcc": false,
       "redirect_to": null,
@@ -484,15 +484,15 @@
         "out_date": "2026-07-22"
       },
       "last_outbound_by_antonio": {
-        "date": "2026-05-25",
-        "snippet": "Ciao Andrea, hai avuto modo di vedere il video? Fammi sapere cosa ne pensi."
+        "date": "2026-05-28",
+        "snippet": "Ciao Andrea! 🙂 Ti avevo inviato un video, hai avuto modo di vederlo? https://www.loom.com/share/a23f6434a..."
       },
       "last_reply_from_prospect": {
         "date": "2026-05-27",
         "snippet": "Ciao Antonio, manda pure il report, grazie mille, Andrea"
       },
-      "next_action": "Inviare report a Andrea — ha richiesto il report",
-      "next_action_date": "2026-05-27",
+      "next_action": "In attesa risposta — video Loom condiviso 28/05",
+      "next_action_date": null,
       "timeline": [
         {
           "date": "2026-05-18",
@@ -513,6 +513,10 @@
         {
           "date": "2026-05-27",
           "action": "Risposta da Andrea: 'manda pure il report, grazie mille'"
+        },
+        {
+          "date": "2026-05-28",
+          "action": "Antonio ha inviato di nuovo il link Loom ad Andrea (risposta alla richiesta report)"
         }
       ],
       "skip": false,
@@ -568,8 +572,8 @@
         "date": "2026-05-19",
         "snippet": "sono a conoscenza del problema di tracking e verrà risolto oggi in giornata"
       },
-      "next_action": "In attesa risposta — check-up tracking inviato 25/05",
-      "next_action_date": null,
+      "next_action": "Follow-up urgente — 9 giorni da ultima risposta (2026-05-19). Filippo Marchesani / Nino.",
+      "next_action_date": "2026-05-29",
       "timeline": [
         {
           "date": "2026-05-18",
@@ -634,8 +638,8 @@
         "date": "2026-05-19",
         "snippet": "Before considering a call, could you share the case study and the full Stape audit (URL tested, scan date, detected issues, recommended fixes)?"
       },
-      "next_action": "In attesa risposta — FU inviato 25/05",
-      "next_action_date": null,
+      "next_action": "Follow-up urgente — 9 giorni da ultima risposta (2026-05-19). Björn (Oger) — case study richiesto.",
+      "next_action_date": "2026-05-29",
       "timeline": [
         {
           "date": "2026-05-18",
@@ -668,7 +672,7 @@
       "status": "in_conversation",
       "first_contact": "2026-05-07",
       "last_activity": "2026-05-25",
-      "next_action": "In attesa risposta — migrazione Shopify settembre. Risposta Antonio inviata 25/05.",
+      "next_action": "In attesa risposta — migrazione Shopify prevista settembre",
       "next_action_date": null,
       "stape_score": null,
       "notes": "Sabina Zabberoni conferma migrazione Shopify settembre. Interesse reale. Nota: Antonio ha inviato 2 email quasi identiche dopo la risposta (11:08 e 11:09 del 25/05).",
@@ -759,7 +763,7 @@
         "date": "2026-05-26",
         "snippet": "Andata per le 15! Grazie, Ginevra"
       },
-      "next_action": "Call confermata giovedì 28/05 ore 15:00 con Ginevra Giannelli",
+      "next_action": "Call confermata oggi 28/05 ore 15:00 con Ginevra Giannelli",
       "next_action_date": "2026-05-28",
       "timeline": [
         {
@@ -1127,11 +1131,11 @@
       "assigned_to": "Manu",
       "angle": "1A",
       "platform": "non-Shopify",
-      "status": "contacted",
+      "status": "follow_up_1_sent",
       "first_contact": "2026-05-13",
-      "last_activity": "2026-05-13",
-      "next_action": "Follow-up 1",
-      "next_action_date": "2026-05-27",
+      "last_activity": "2026-05-27",
+      "next_action": "Follow-up 2",
+      "next_action_date": "2026-06-18",
       "stape_score": null,
       "notes": "Boutique multibrand La Spezia",
       "thread_id": "19e1d12de4a2b954",
@@ -1139,12 +1143,23 @@
         {
           "date": "2026-05-13",
           "action": "Email outbound 1A inviata"
+        },
+        {
+          "date": "2026-05-27",
+          "action": "Follow-up 1 inviato da Manu"
         }
       ],
       "label_id": "Label_1592668050883672428",
       "sender": "Manu",
       "is_first_email": true,
-      "followups_sent": [],
+      "followups_sent": [
+        {
+          "date": "2026-05-27",
+          "type": "follow_up_1",
+          "sender": "Manu",
+          "snippet": "Rimando su nel caso, fammi sapere se ha senso parlarne."
+        }
+      ],
       "last_outbound_by_antonio": {
         "date": "2026-05-13",
         "snippet": "Ciao, mi sono imbattuto in Niba 1976 cercando le migliori realtÃÂ  fashion del settore. Ho visto la piattaforma che state usando per le vendite online, la conosco molto bene."
@@ -18487,6 +18502,211 @@
         {
           "date": "2026-05-27",
           "action": "Prima email outbound 1A inviata da Manu (EN) a Joakim"
+        }
+      ],
+      "skip": false
+    },
+    {
+      "id": "prospect_398",
+      "brand": "Stijl",
+      "contact": "Sonja",
+      "email": "sonja@stijl.be",
+      "domain": "stijl.be",
+      "subject_email": "Quick note about stijl.be sales setup",
+      "assigned_to": "Manu",
+      "sender": "Manu",
+      "label_id": "Label_1592668050883672428",
+      "angle": "1A",
+      "platform": "non-Shopify",
+      "status": "contacted",
+      "first_contact": "2026-05-27",
+      "last_activity": "2026-05-27",
+      "multi_to": false,
+      "had_cc_bcc": false,
+      "redirect_to": null,
+      "stape_score": null,
+      "notes": "Boutique multibrand Bruxelles",
+      "thread_id": "19e6900b670e1580",
+      "followups_sent": [],
+      "scheduled_timeline": {
+        "first_email": "2026-05-27",
+        "follow_up_1": "2026-06-11",
+        "follow_up_2": "2026-07-02",
+        "follow_up_3": "2026-07-30",
+        "out_date": "2026-07-31"
+      },
+      "last_outbound_by_antonio": null,
+      "last_reply_from_prospect": null,
+      "next_action": "Follow-up 1",
+      "next_action_date": "2026-06-11",
+      "timeline": [
+        {
+          "date": "2026-05-27",
+          "action": "Prima email outbound 1A inviata da Manu"
+        }
+      ],
+      "skip": false
+    },
+    {
+      "id": "prospect_399",
+      "brand": "Vestibule",
+      "contact": null,
+      "email": "info@vestibule.ch",
+      "domain": "vestibule.ch",
+      "subject_email": "Quick note about vestibule.ch sales setup",
+      "assigned_to": "Manu",
+      "sender": "Manu",
+      "label_id": "Label_1592668050883672428",
+      "angle": "1A",
+      "platform": "non-Shopify",
+      "status": "contacted",
+      "first_contact": "2026-05-27",
+      "last_activity": "2026-05-27",
+      "multi_to": false,
+      "had_cc_bcc": false,
+      "redirect_to": null,
+      "stape_score": null,
+      "notes": "Boutique multibrand Zurigo",
+      "thread_id": "19e68fc00448803b",
+      "followups_sent": [],
+      "scheduled_timeline": {
+        "first_email": "2026-05-27",
+        "follow_up_1": "2026-06-11",
+        "follow_up_2": "2026-07-02",
+        "follow_up_3": "2026-07-30",
+        "out_date": "2026-07-31"
+      },
+      "last_outbound_by_antonio": null,
+      "last_reply_from_prospect": null,
+      "next_action": "Follow-up 1",
+      "next_action_date": "2026-06-11",
+      "timeline": [
+        {
+          "date": "2026-05-27",
+          "action": "Prima email outbound 1A inviata da Manu"
+        }
+      ],
+      "skip": false
+    },
+    {
+      "id": "prospect_400",
+      "brand": "Susi Hub",
+      "contact": null,
+      "email": "a.pistilli@susi.it",
+      "domain": "susi.it",
+      "subject_email": "Problema su susi.it",
+      "assigned_to": "Manu",
+      "sender": "Manu",
+      "label_id": "Label_1592668050883672428",
+      "angle": "1A",
+      "platform": "non-Shopify",
+      "status": "contacted",
+      "first_contact": "2026-05-27",
+      "last_activity": "2026-05-27",
+      "multi_to": false,
+      "had_cc_bcc": false,
+      "redirect_to": null,
+      "stape_score": null,
+      "notes": "Boutique multibrand Latina",
+      "thread_id": "19e68f19724df6bc",
+      "followups_sent": [],
+      "scheduled_timeline": {
+        "first_email": "2026-05-27",
+        "follow_up_1": "2026-06-11",
+        "follow_up_2": "2026-07-02",
+        "follow_up_3": "2026-07-30",
+        "out_date": "2026-07-31"
+      },
+      "last_outbound_by_antonio": null,
+      "last_reply_from_prospect": null,
+      "next_action": "Follow-up 1",
+      "next_action_date": "2026-06-11",
+      "timeline": [
+        {
+          "date": "2026-05-27",
+          "action": "Prima email outbound 1A inviata da Manu"
+        }
+      ],
+      "skip": false
+    },
+    {
+      "id": "prospect_401",
+      "brand": "Ratti Boutique",
+      "contact": null,
+      "email": "customerservice@rboutique.com",
+      "domain": "rboutique.com",
+      "subject_email": "Problema su rboutique.com",
+      "assigned_to": "Manu",
+      "sender": "Manu",
+      "label_id": "Label_1592668050883672428",
+      "angle": "1A",
+      "platform": "non-Shopify",
+      "status": "contacted",
+      "first_contact": "2026-05-27",
+      "last_activity": "2026-05-27",
+      "multi_to": false,
+      "had_cc_bcc": false,
+      "redirect_to": null,
+      "stape_score": null,
+      "notes": "Boutique donna luxury Pesaro",
+      "thread_id": "19e68ec205f34431",
+      "followups_sent": [],
+      "scheduled_timeline": {
+        "first_email": "2026-05-27",
+        "follow_up_1": "2026-06-11",
+        "follow_up_2": "2026-07-02",
+        "follow_up_3": "2026-07-30",
+        "out_date": "2026-07-31"
+      },
+      "last_outbound_by_antonio": null,
+      "last_reply_from_prospect": null,
+      "next_action": "Follow-up 1",
+      "next_action_date": "2026-06-11",
+      "timeline": [
+        {
+          "date": "2026-05-27",
+          "action": "Prima email outbound 1A inviata da Manu"
+        }
+      ],
+      "skip": false
+    },
+    {
+      "id": "prospect_402",
+      "brand": "Qua Qua",
+      "contact": null,
+      "email": "quaqua.maria@gmx.com",
+      "domain": "qua-qua.it",
+      "subject_email": "Problema su qua-qua.it",
+      "assigned_to": "Manu",
+      "sender": "Manu",
+      "label_id": "Label_1592668050883672428",
+      "angle": "1A",
+      "platform": "non-Shopify",
+      "status": "contacted",
+      "first_contact": "2026-05-27",
+      "last_activity": "2026-05-27",
+      "multi_to": false,
+      "had_cc_bcc": false,
+      "redirect_to": null,
+      "stape_score": null,
+      "notes": "Boutique multibrand Monza",
+      "thread_id": "19e68e6ece088197",
+      "followups_sent": [],
+      "scheduled_timeline": {
+        "first_email": "2026-05-27",
+        "follow_up_1": "2026-06-11",
+        "follow_up_2": "2026-07-02",
+        "follow_up_3": "2026-07-30",
+        "out_date": "2026-07-31"
+      },
+      "last_outbound_by_antonio": null,
+      "last_reply_from_prospect": null,
+      "next_action": "Follow-up 1",
+      "next_action_date": "2026-06-11",
+      "timeline": [
+        {
+          "date": "2026-05-27",
+          "action": "Prima email outbound 1A inviata da Manu"
         }
       ],
       "skip": false
