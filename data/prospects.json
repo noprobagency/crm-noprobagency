@@ -1,6 +1,6 @@
 {
   "meta": {
-    "last_updated": "2026-05-28T08:00:00+02:00",
+    "last_updated": "2026-05-29T08:00:00+02:00",
     "total_contacted": 378,
     "total_replied": 13,
     "total_bounced": 50,
@@ -763,8 +763,8 @@
         "date": "2026-05-26",
         "snippet": "Andata per le 15! Grazie, Ginevra"
       },
-      "next_action": "Call confermata oggi 28/05 ore 15:00 con Ginevra Giannelli",
-      "next_action_date": "2026-05-28",
+      "next_action": "Call avvenuta ieri 28/05 ore 15:00 con Ginevra — Antonio: aggiornare esito",
+      "next_action_date": "2026-05-29",
       "timeline": [
         {
           "date": "2026-05-26",
@@ -797,6 +797,10 @@
         {
           "date": "2026-05-26",
           "action": "Antonio: 'Fissato! A giovedì, buona giornata!'"
+        },
+        {
+          "date": "2026-05-28",
+          "action": "Call con Ginevra Giannelli ore 15:00 (prenotata 26/05)"
         }
       ]
     },
@@ -981,8 +985,8 @@
       "status": "follow_up_1_sent",
       "first_contact": "2026-05-13",
       "last_activity": "2026-05-27",
-      "next_action": "Follow-up 1",
-      "next_action_date": "2026-05-27",
+      "next_action": "Follow-up 2",
+      "next_action_date": "2026-06-18",
       "stape_score": null,
       "notes": "Boutique Roma, fashion italiano",
       "thread_id": "19e1d2798cfa0e77",
@@ -990,6 +994,10 @@
         {
           "date": "2026-05-13",
           "action": "Email outbound 1A inviata"
+        },
+        {
+          "date": "2026-05-27",
+          "action": "Follow-up 1 inviato"
         }
       ],
       "label_id": "Label_1592668050883672428",
@@ -1032,8 +1040,8 @@
       "status": "follow_up_1_sent",
       "first_contact": "2026-05-13",
       "last_activity": "2026-05-27",
-      "next_action": "Follow-up 1",
-      "next_action_date": "2026-05-27",
+      "next_action": "Follow-up 2",
+      "next_action_date": "2026-06-18",
       "stape_score": null,
       "notes": "Fashion italiano, gruppo Miroglio",
       "thread_id": "19e1d0d782cee143",
@@ -1041,6 +1049,10 @@
         {
           "date": "2026-05-13",
           "action": "Email outbound 1A inviata"
+        },
+        {
+          "date": "2026-05-27",
+          "action": "Follow-up 1 inviato"
         }
       ],
       "label_id": "Label_1592668050883672428",
@@ -1083,8 +1095,8 @@
       "status": "follow_up_1_sent",
       "first_contact": "2026-05-13",
       "last_activity": "2026-05-27",
-      "next_action": "Follow-up 1",
-      "next_action_date": "2026-05-27",
+      "next_action": "Follow-up 2",
+      "next_action_date": "2026-06-18",
       "stape_score": null,
       "notes": "Luxury boutique multibrand Bellaria",
       "thread_id": "19e1d1de7220fe0f",
@@ -1092,6 +1104,10 @@
         {
           "date": "2026-05-13",
           "action": "Email outbound 1A inviata"
+        },
+        {
+          "date": "2026-05-27",
+          "action": "Follow-up 1 inviato"
         }
       ],
       "label_id": "Label_1592668050883672428",
@@ -1189,8 +1205,8 @@
       "status": "follow_up_1_sent",
       "first_contact": "2026-05-13",
       "last_activity": "2026-05-27",
-      "next_action": "Follow-up 1",
-      "next_action_date": "2026-05-27",
+      "next_action": "Follow-up 2",
+      "next_action_date": "2026-06-18",
       "stape_score": null,
       "notes": "Boutique multibrand",
       "thread_id": "19e1cdfc558ddcf2",
@@ -1198,6 +1214,10 @@
         {
           "date": "2026-05-13",
           "action": "Email outbound 1A inviata"
+        },
+        {
+          "date": "2026-05-27",
+          "action": "Follow-up 1 inviato"
         }
       ],
       "label_id": "Label_1592668050883672428",
@@ -1240,8 +1260,8 @@
       "status": "follow_up_1_sent",
       "first_contact": "2026-05-13",
       "last_activity": "2026-05-27",
-      "next_action": "Follow-up 1",
-      "next_action_date": "2026-05-27",
+      "next_action": "Follow-up 2",
+      "next_action_date": "2026-06-18",
       "stape_score": null,
       "notes": "Luxury boutique Montebelluna",
       "thread_id": "19e1cdb23170b2fc",
@@ -1249,6 +1269,10 @@
         {
           "date": "2026-05-13",
           "action": "Email outbound 1A inviata"
+        },
+        {
+          "date": "2026-05-27",
+          "action": "Follow-up 1 inviato"
         }
       ],
       "label_id": "Label_1592668050883672428",
@@ -1291,8 +1315,8 @@
       "status": "follow_up_1_sent",
       "first_contact": "2026-05-13",
       "last_activity": "2026-05-27",
-      "next_action": "Follow-up 1",
-      "next_action_date": "2026-05-27",
+      "next_action": "Follow-up 2",
+      "next_action_date": "2026-06-18",
       "stape_score": null,
       "notes": "Shopify, frenano le conversioni",
       "thread_id": "19e1d4956c82b2ae",
@@ -1300,6 +1324,10 @@
         {
           "date": "2026-05-13",
           "action": "Email outbound 3B inviata"
+        },
+        {
+          "date": "2026-05-27",
+          "action": "Follow-up 1 inviato"
         }
       ],
       "label_id": "Label_8658624016447790536",
@@ -1342,8 +1370,8 @@
       "status": "follow_up_1_sent",
       "first_contact": "2026-05-13",
       "last_activity": "2026-05-27",
-      "next_action": "Follow-up 1",
-      "next_action_date": "2026-05-27",
+      "next_action": "Follow-up 2",
+      "next_action_date": "2026-06-18",
       "stape_score": null,
       "notes": "E-commerce settore medico ÃÂ· Inviata in multi-TO con: giuseppe_abbasciano@medicoshop.it (rilevato audit MCP 2026-05-15)",
       "thread_id": "19e1d5f3c7110350",
@@ -1351,6 +1379,10 @@
         {
           "date": "2026-05-13",
           "action": "Email outbound 2A inviata"
+        },
+        {
+          "date": "2026-05-27",
+          "action": "Follow-up 1 inviato"
         }
       ],
       "label_id": "Label_8658624016447790536",
@@ -1399,8 +1431,8 @@
       "status": "follow_up_1_sent",
       "first_contact": "2026-05-13",
       "last_activity": "2026-05-27",
-      "next_action": "Follow-up 1",
-      "next_action_date": "2026-05-27",
+      "next_action": "Follow-up 2",
+      "next_action_date": "2026-06-18",
       "stape_score": null,
       "notes": "Luxury boutique Roma",
       "thread_id": "19e1d19427d1cd60",
@@ -1408,6 +1440,10 @@
         {
           "date": "2026-05-13",
           "action": "Email outbound 1A inviata"
+        },
+        {
+          "date": "2026-05-27",
+          "action": "Follow-up 1 inviato"
         }
       ],
       "label_id": "Label_1592668050883672428",
@@ -1450,8 +1486,8 @@
       "status": "follow_up_1_sent",
       "first_contact": "2026-05-13",
       "last_activity": "2026-05-27",
-      "next_action": "Follow-up 1",
-      "next_action_date": "2026-05-27",
+      "next_action": "Follow-up 2",
+      "next_action_date": "2026-06-18",
       "stape_score": null,
       "notes": "UK Shopify, tracking + Meta",
       "thread_id": "19e1d68d41685938",
@@ -1459,6 +1495,10 @@
         {
           "date": "2026-05-13",
           "action": "Email outbound 2B inviata"
+        },
+        {
+          "date": "2026-05-27",
+          "action": "Follow-up 1 inviato"
         }
       ],
       "label_id": "Label_8658624016447790536",
@@ -1501,8 +1541,8 @@
       "status": "follow_up_1_sent",
       "first_contact": "2026-05-13",
       "last_activity": "2026-05-27",
-      "next_action": "Follow-up 1",
-      "next_action_date": "2026-05-27",
+      "next_action": "Follow-up 2",
+      "next_action_date": "2026-06-18",
       "stape_score": null,
       "notes": "Shopify, tracking",
       "thread_id": "19e1d52de6ee6901",
@@ -1510,6 +1550,10 @@
         {
           "date": "2026-05-13",
           "action": "Email outbound 2B inviata"
+        },
+        {
+          "date": "2026-05-27",
+          "action": "Follow-up 1 inviato"
         }
       ],
       "label_id": "Label_8658624016447790536",
@@ -1552,8 +1596,8 @@
       "status": "follow_up_1_sent",
       "first_contact": "2026-05-13",
       "last_activity": "2026-05-27",
-      "next_action": "Follow-up 1",
-      "next_action_date": "2026-05-27",
+      "next_action": "Follow-up 2",
+      "next_action_date": "2026-06-18",
       "stape_score": null,
       "notes": "E-commerce scarpe. Contatto reindirizzato da L. Gioventu (in maternitÃÂ ).",
       "thread_id": "19e1f1f2a7d3cd16",
@@ -1561,6 +1605,10 @@
         {
           "date": "2026-05-13",
           "action": "Email outbound 1A inviata a contatto reindirizzato"
+        },
+        {
+          "date": "2026-05-27",
+          "action": "Follow-up 1 inviato"
         }
       ],
       "label_id": "Label_9196661710752787047",
@@ -1603,8 +1651,8 @@
       "status": "contacted",
       "first_contact": "2026-05-13",
       "last_activity": "2026-05-13",
-      "next_action": "Follow-up 1",
-      "next_action_date": "2026-05-27",
+      "next_action": "Follow-up 1 SCADUTO (27/05 — non inviato da Cowork). Da inviare oggi.",
+      "next_action_date": "2026-05-29",
       "stape_score": null,
       "notes": "Boutique Milano Marittima Ã¢ÂÂ uno di 3 contatti su Julian",
       "thread_id": "19e1f13127a825e1",
@@ -1647,8 +1695,8 @@
       "status": "follow_up_1_sent",
       "first_contact": "2026-05-12",
       "last_activity": "2026-05-26",
-      "next_action": "Follow-up 1",
-      "next_action_date": "2026-05-26",
+      "next_action": "Follow-up 2",
+      "next_action_date": "2026-06-17",
       "stape_score": null,
       "notes": "UK gift e-commerce. Autoresponse: customer service ticket #178627, reply entro 72h.",
       "thread_id": "19e1d328c7d122a4",
@@ -1660,6 +1708,10 @@
         {
           "date": "2026-05-12",
           "action": "Autoresponse customer service"
+        },
+        {
+          "date": "2026-05-26",
+          "action": "Follow-up 1 inviato"
         }
       ],
       "label_id": "Label_8658624016447790536",
@@ -1705,8 +1757,8 @@
       "status": "follow_up_1_sent",
       "first_contact": "2026-05-12",
       "last_activity": "2026-05-26",
-      "next_action": "Follow-up 1",
-      "next_action_date": "2026-05-26",
+      "next_action": "Follow-up 2",
+      "next_action_date": "2026-06-17",
       "stape_score": null,
       "notes": "UK Shopify, tracking",
       "thread_id": "19e1d262c59e178a",
@@ -1714,6 +1766,10 @@
         {
           "date": "2026-05-12",
           "action": "Email outbound 2B inviata"
+        },
+        {
+          "date": "2026-05-26",
+          "action": "Follow-up 1 inviato"
         }
       ],
       "label_id": "Label_8658624016447790536",
@@ -1756,8 +1812,8 @@
       "status": "follow_up_1_sent",
       "first_contact": "2026-05-12",
       "last_activity": "2026-05-26",
-      "next_action": "Follow-up 1",
-      "next_action_date": "2026-05-26",
+      "next_action": "Follow-up 2",
+      "next_action_date": "2026-06-17",
       "stape_score": null,
       "notes": "Shopify tea brand UK",
       "thread_id": "19e1d1e6bee211c5",
@@ -1765,6 +1821,10 @@
         {
           "date": "2026-05-12",
           "action": "Email outbound 2B inviata"
+        },
+        {
+          "date": "2026-05-26",
+          "action": "Follow-up 1 inviato"
         }
       ],
       "label_id": "Label_8658624016447790536",
@@ -1807,8 +1867,8 @@
       "status": "follow_up_1_sent",
       "first_contact": "2026-05-12",
       "last_activity": "2026-05-26",
-      "next_action": "Follow-up 1",
-      "next_action_date": "2026-05-26",
+      "next_action": "Follow-up 2",
+      "next_action_date": "2026-06-17",
       "stape_score": null,
       "notes": "UK fashion Shopify",
       "thread_id": "19e1d1a756c1f287",
@@ -1816,6 +1876,10 @@
         {
           "date": "2026-05-12",
           "action": "Email outbound 2B inviata"
+        },
+        {
+          "date": "2026-05-26",
+          "action": "Follow-up 1 inviato"
         }
       ],
       "label_id": "Label_8658624016447790536",
@@ -1858,8 +1922,8 @@
       "status": "follow_up_1_sent",
       "first_contact": "2026-05-12",
       "last_activity": "2026-05-26",
-      "next_action": "Follow-up 1",
-      "next_action_date": "2026-05-26",
+      "next_action": "Follow-up 2",
+      "next_action_date": "2026-06-17",
       "stape_score": null,
       "notes": "UK fragrance Shopify",
       "thread_id": "19e1d150d2181a49",
@@ -1867,6 +1931,10 @@
         {
           "date": "2026-05-12",
           "action": "Email outbound 2B inviata"
+        },
+        {
+          "date": "2026-05-26",
+          "action": "Follow-up 1 inviato"
         }
       ],
       "label_id": "Label_8658624016447790536",
@@ -1909,8 +1977,8 @@
       "status": "follow_up_1_sent",
       "first_contact": "2026-05-12",
       "last_activity": "2026-05-26",
-      "next_action": "Follow-up 1",
-      "next_action_date": "2026-05-26",
+      "next_action": "Follow-up 2",
+      "next_action_date": "2026-06-17",
       "stape_score": null,
       "notes": "UK fashion Shopify",
       "thread_id": "19e1d09c6daf4b59",
@@ -1918,6 +1986,10 @@
         {
           "date": "2026-05-12",
           "action": "Email outbound 2B inviata"
+        },
+        {
+          "date": "2026-05-26",
+          "action": "Follow-up 1 inviato"
         }
       ],
       "label_id": "Label_8658624016447790536",
@@ -1960,8 +2032,8 @@
       "status": "follow_up_1_sent",
       "first_contact": "2026-05-12",
       "last_activity": "2026-05-26",
-      "next_action": "Follow-up 1",
-      "next_action_date": "2026-05-26",
+      "next_action": "Follow-up 2",
+      "next_action_date": "2026-06-17",
       "stape_score": null,
       "notes": "Autoresponse: customer service Lun-Ven 10-16, reply entro 48h business",
       "thread_id": "19e1d027e7065518",
@@ -1973,6 +2045,10 @@
         {
           "date": "2026-05-12",
           "action": "Autoresponse customer service"
+        },
+        {
+          "date": "2026-05-26",
+          "action": "Follow-up 1 inviato"
         }
       ],
       "label_id": "Label_8658624016447790536",
@@ -2018,8 +2094,8 @@
       "status": "follow_up_1_sent",
       "first_contact": "2026-05-12",
       "last_activity": "2026-05-26",
-      "next_action": "Follow-up 1",
-      "next_action_date": "2026-05-26",
+      "next_action": "Follow-up 2",
+      "next_action_date": "2026-06-17",
       "stape_score": null,
       "notes": "Luxury shoes Shopify",
       "thread_id": "19e1cfcadefc4736",
@@ -2027,6 +2103,10 @@
         {
           "date": "2026-05-12",
           "action": "Email outbound 2B inviata"
+        },
+        {
+          "date": "2026-05-26",
+          "action": "Follow-up 1 inviato"
         }
       ],
       "label_id": "Label_8658624016447790536",
@@ -2069,8 +2149,8 @@
       "status": "follow_up_1_sent",
       "first_contact": "2026-05-12",
       "last_activity": "2026-05-26",
-      "next_action": "Follow-up 1",
-      "next_action_date": "2026-05-26",
+      "next_action": "Follow-up 2",
+      "next_action_date": "2026-06-17",
       "stape_score": null,
       "notes": "Luxury boutique Villaricca",
       "thread_id": "19e1cecff37faf85",
@@ -2078,6 +2158,10 @@
         {
           "date": "2026-05-12",
           "action": "Email outbound 1A inviata"
+        },
+        {
+          "date": "2026-05-26",
+          "action": "Follow-up 1 inviato"
         }
       ],
       "label_id": "Label_1592668050883672428",
@@ -2120,8 +2204,8 @@
       "status": "follow_up_1_sent",
       "first_contact": "2026-05-12",
       "last_activity": "2026-05-26",
-      "next_action": "Follow-up 1",
-      "next_action_date": "2026-05-26",
+      "next_action": "Follow-up 2",
+      "next_action_date": "2026-06-17",
       "stape_score": null,
       "notes": "Boutique Ancona, profumeria, Shopify",
       "thread_id": "19e1ce4f96fe37bc",
@@ -2129,6 +2213,10 @@
         {
           "date": "2026-05-12",
           "action": "Email outbound 3B inviata"
+        },
+        {
+          "date": "2026-05-26",
+          "action": "Follow-up 1 inviato"
         }
       ],
       "label_id": "Label_8658624016447790536",
@@ -2215,8 +2303,8 @@
       "status": "follow_up_1_sent",
       "first_contact": "2026-05-12",
       "last_activity": "2026-05-26",
-      "next_action": "Follow-up 1",
-      "next_action_date": "2026-05-26",
+      "next_action": "Follow-up 2",
+      "next_action_date": "2026-06-17",
       "stape_score": null,
       "notes": "UK childrenswear Shopify",
       "thread_id": "19e1cd7bdec3d456",
@@ -2224,6 +2312,10 @@
         {
           "date": "2026-05-12",
           "action": "Email outbound 2B inviata"
+        },
+        {
+          "date": "2026-05-26",
+          "action": "Follow-up 1 inviato"
         }
       ],
       "label_id": "Label_8658624016447790536",
@@ -2266,8 +2358,8 @@
       "status": "follow_up_1_sent",
       "first_contact": "2026-05-12",
       "last_activity": "2026-05-26",
-      "next_action": "Follow-up 1",
-      "next_action_date": "2026-05-26",
+      "next_action": "Follow-up 2",
+      "next_action_date": "2026-06-17",
       "stape_score": null,
       "notes": "Luxury boutique Bassano del Grappa",
       "thread_id": "19e1cd5a3bdeda7d",
@@ -2275,6 +2367,10 @@
         {
           "date": "2026-05-12",
           "action": "Email outbound 1A inviata"
+        },
+        {
+          "date": "2026-05-26",
+          "action": "Follow-up 1 inviato"
         }
       ],
       "label_id": "Label_1592668050883672428",
@@ -2317,8 +2413,8 @@
       "status": "follow_up_1_sent",
       "first_contact": "2026-05-12",
       "last_activity": "2026-05-26",
-      "next_action": "Follow-up 1",
-      "next_action_date": "2026-05-26",
+      "next_action": "Follow-up 2",
+      "next_action_date": "2026-06-17",
       "stape_score": null,
       "notes": "Luxury boutique Caltanissetta",
       "thread_id": "19e1cc2bae004ae2",
@@ -2326,6 +2422,10 @@
         {
           "date": "2026-05-12",
           "action": "Email outbound 1A inviata"
+        },
+        {
+          "date": "2026-05-26",
+          "action": "Follow-up 1 inviato"
         }
       ],
       "label_id": "Label_1592668050883672428",
@@ -2423,8 +2523,8 @@
       "status": "follow_up_1_sent",
       "first_contact": "2026-05-12",
       "last_activity": "2026-05-26",
-      "next_action": "Follow-up 1",
-      "next_action_date": "2026-05-26",
+      "next_action": "Follow-up 2",
+      "next_action_date": "2026-06-17",
       "stape_score": null,
       "notes": "Boutique multibrand",
       "thread_id": "19e1caed2b24dbe4",
@@ -2432,6 +2532,10 @@
         {
           "date": "2026-05-12",
           "action": "Email outbound 1A inviata"
+        },
+        {
+          "date": "2026-05-26",
+          "action": "Follow-up 1 inviato"
         }
       ],
       "label_id": "Label_1592668050883672428",
@@ -2474,8 +2578,8 @@
       "status": "follow_up_1_sent",
       "first_contact": "2026-05-12",
       "last_activity": "2026-05-26",
-      "next_action": "Follow-up 1",
-      "next_action_date": "2026-05-26",
+      "next_action": "Follow-up 2",
+      "next_action_date": "2026-06-17",
       "stape_score": null,
       "notes": "Luxury boutique Padova",
       "thread_id": "19e1cab12b8c4939",
@@ -2483,6 +2587,10 @@
         {
           "date": "2026-05-12",
           "action": "Email outbound 1A inviata"
+        },
+        {
+          "date": "2026-05-26",
+          "action": "Follow-up 1 inviato"
         }
       ],
       "label_id": "Label_1592668050883672428",
@@ -2525,8 +2633,8 @@
       "status": "follow_up_1_sent",
       "first_contact": "2026-05-12",
       "last_activity": "2026-05-26",
-      "next_action": "Follow-up 1",
-      "next_action_date": "2026-05-26",
+      "next_action": "Follow-up 2",
+      "next_action_date": "2026-06-17",
       "stape_score": null,
       "notes": "Luxury boutique Caserta",
       "thread_id": "19e1ca1bdce3a8e3",
@@ -2534,6 +2642,10 @@
         {
           "date": "2026-05-12",
           "action": "Email outbound 1A inviata"
+        },
+        {
+          "date": "2026-05-26",
+          "action": "Follow-up 1 inviato"
         }
       ],
       "label_id": "Label_1592668050883672428",
@@ -2576,8 +2688,8 @@
       "status": "follow_up_1_sent",
       "first_contact": "2026-05-12",
       "last_activity": "2026-05-26",
-      "next_action": "Follow-up 1",
-      "next_action_date": "2026-05-26",
+      "next_action": "Follow-up 2",
+      "next_action_date": "2026-06-17",
       "stape_score": null,
       "notes": "Luxury boutique San Giovanni Valdarno",
       "thread_id": "19e1bf08ecf18639",
@@ -2585,6 +2697,10 @@
         {
           "date": "2026-05-12",
           "action": "Email outbound 1A inviata"
+        },
+        {
+          "date": "2026-05-26",
+          "action": "Follow-up 1 inviato"
         }
       ],
       "label_id": "Label_1592668050883672428",
@@ -2627,8 +2743,8 @@
       "status": "follow_up_1_sent",
       "first_contact": "2026-05-12",
       "last_activity": "2026-05-26",
-      "next_action": "Follow-up 1",
-      "next_action_date": "2026-05-26",
+      "next_action": "Follow-up 2",
+      "next_action_date": "2026-06-17",
       "stape_score": null,
       "notes": "Luxury boutique Lignano Sabbiadoro",
       "thread_id": "19e1be9d47516187",
@@ -2636,6 +2752,10 @@
         {
           "date": "2026-05-12",
           "action": "Email outbound 1A inviata"
+        },
+        {
+          "date": "2026-05-26",
+          "action": "Follow-up 1 inviato"
         }
       ],
       "label_id": "Label_1592668050883672428",
@@ -2678,8 +2798,8 @@
       "status": "follow_up_1_sent",
       "first_contact": "2026-05-12",
       "last_activity": "2026-05-26",
-      "next_action": "Follow-up 1",
-      "next_action_date": "2026-05-26",
+      "next_action": "Follow-up 2",
+      "next_action_date": "2026-06-17",
       "stape_score": null,
       "notes": "Boutique multibrand Vedelago",
       "thread_id": "19e183a6bc4fb385",
@@ -2687,6 +2807,10 @@
         {
           "date": "2026-05-12",
           "action": "Email outbound 1A inviata"
+        },
+        {
+          "date": "2026-05-26",
+          "action": "Follow-up 1 inviato"
         }
       ],
       "label_id": "Label_1592668050883672428",
@@ -2729,8 +2853,8 @@
       "status": "follow_up_1_sent",
       "first_contact": "2026-05-12",
       "last_activity": "2026-05-26",
-      "next_action": "Follow-up 1",
-      "next_action_date": "2026-05-26",
+      "next_action": "Follow-up 2",
+      "next_action_date": "2026-06-17",
       "stape_score": null,
       "notes": "Luxury boutique Brescia",
       "thread_id": "19e1832d23ed9339",
@@ -2738,6 +2862,10 @@
         {
           "date": "2026-05-12",
           "action": "Email outbound 1A inviata"
+        },
+        {
+          "date": "2026-05-26",
+          "action": "Follow-up 1 inviato"
         }
       ],
       "label_id": "Label_1592668050883672428",
@@ -2780,8 +2908,8 @@
       "status": "follow_up_1_sent",
       "first_contact": "2026-05-12",
       "last_activity": "2026-05-26",
-      "next_action": "Follow-up 1",
-      "next_action_date": "2026-05-26",
+      "next_action": "Follow-up 2",
+      "next_action_date": "2026-06-17",
       "stape_score": null,
       "notes": "Luxury boutique Cagliari",
       "thread_id": "19e1820555f34c78",
@@ -2789,6 +2917,10 @@
         {
           "date": "2026-05-12",
           "action": "Email outbound 1A inviata"
+        },
+        {
+          "date": "2026-05-26",
+          "action": "Follow-up 1 inviato"
         }
       ],
       "label_id": "Label_1592668050883672428",
@@ -3279,8 +3411,8 @@
       "status": "follow_up_1_sent",
       "first_contact": "2026-05-11",
       "last_activity": "2026-05-27",
-      "next_action": "Follow-up 1",
-      "next_action_date": "2026-05-25",
+      "next_action": "Follow-up 2",
+      "next_action_date": "2026-06-16",
       "stape_score": null,
       "notes": "Geri ha lasciato. Autoresponse rimanda all'Online Team Ã¢ÂÂ serve trovare un nuovo riferimento.",
       "thread_id": "19e16d6058404c6e",
@@ -3296,6 +3428,10 @@
         {
           "date": "2026-05-16",
           "action": "Follow-up inviato ad Antonio chiedendo email diretta Online Team"
+        },
+        {
+          "date": "2026-05-27",
+          "action": "Follow-up 1 inviato"
         }
       ],
       "label_id": "Label_8658624016447790536",
@@ -9120,8 +9256,8 @@
       "status": "follow_up_1_sent",
       "first_contact": "2026-05-13",
       "last_activity": "2026-05-27",
-      "next_action": "Follow-up 1",
-      "next_action_date": "2026-05-27",
+      "next_action": "Follow-up 2",
+      "next_action_date": "2026-06-18",
       "stape_score": null,
       "notes": "Email warm Ã¢ÂÂ case study condiviso. Non cold outreach standard.",
       "thread_id": "19e1f64180a23758",
@@ -9129,6 +9265,10 @@
         {
           "date": "2026-05-13",
           "action": "Email warm outbound inviata (case study)"
+        },
+        {
+          "date": "2026-05-27",
+          "action": "Follow-up 1 inviato"
         }
       ],
       "label_id": "Label_1523762719426921570",
@@ -9171,8 +9311,8 @@
       "status": "follow_up_1_sent",
       "first_contact": "2026-05-13",
       "last_activity": "2026-05-27",
-      "next_action": "Follow-up 1",
-      "next_action_date": "2026-05-27",
+      "next_action": "Follow-up 2",
+      "next_action_date": "2026-06-18",
       "stape_score": null,
       "notes": "Boutique multibrand",
       "thread_id": "19e21511d5060b51",
@@ -9180,6 +9320,10 @@
         {
           "date": "2026-05-13",
           "action": "Email outbound 1A inviata"
+        },
+        {
+          "date": "2026-05-27",
+          "action": "Follow-up 1 inviato"
         }
       ],
       "label_id": "Label_1592668050883672428",
@@ -9222,8 +9366,8 @@
       "status": "follow_up_1_sent",
       "first_contact": "2026-05-13",
       "last_activity": "2026-05-27",
-      "next_action": "Follow-up 1",
-      "next_action_date": "2026-05-27",
+      "next_action": "Follow-up 2",
+      "next_action_date": "2026-06-18",
       "stape_score": null,
       "notes": "Luxury boutique multibrand Monza",
       "thread_id": "19e211f62d561292",
@@ -9231,6 +9375,10 @@
         {
           "date": "2026-05-13",
           "action": "Email outbound 1A inviata"
+        },
+        {
+          "date": "2026-05-27",
+          "action": "Follow-up 1 inviato"
         }
       ],
       "label_id": "Label_1592668050883672428",
@@ -9273,8 +9421,8 @@
       "status": "follow_up_1_sent",
       "first_contact": "2026-05-13",
       "last_activity": "2026-05-27",
-      "next_action": "Follow-up 1",
-      "next_action_date": "2026-05-27",
+      "next_action": "Follow-up 2",
+      "next_action_date": "2026-06-18",
       "stape_score": null,
       "notes": "Luxury boutique Padova",
       "thread_id": "19e212ff713c2811",
@@ -9282,6 +9430,10 @@
         {
           "date": "2026-05-13",
           "action": "Email outbound 1A inviata"
+        },
+        {
+          "date": "2026-05-27",
+          "action": "Follow-up 1 inviato"
         }
       ],
       "label_id": "Label_1592668050883672428",
@@ -9324,8 +9476,8 @@
       "status": "follow_up_1_sent",
       "first_contact": "2026-05-13",
       "last_activity": "2026-05-27",
-      "next_action": "Follow-up 1",
-      "next_action_date": "2026-05-27",
+      "next_action": "Follow-up 2",
+      "next_action_date": "2026-06-18",
       "stape_score": null,
       "notes": "Boutique multibrand Napoli",
       "thread_id": "19e20d92d3b71d4f",
@@ -9333,6 +9485,10 @@
         {
           "date": "2026-05-13",
           "action": "Email outbound 1A inviata"
+        },
+        {
+          "date": "2026-05-27",
+          "action": "Follow-up 1 inviato"
         }
       ],
       "label_id": "Label_1592668050883672428",
@@ -9375,8 +9531,8 @@
       "status": "follow_up_1_sent",
       "first_contact": "2026-05-13",
       "last_activity": "2026-05-27",
-      "next_action": "Follow-up 1",
-      "next_action_date": "2026-05-27",
+      "next_action": "Follow-up 2",
+      "next_action_date": "2026-06-18",
       "stape_score": null,
       "notes": "Boutique multibrand Avellino",
       "thread_id": "19e20d3738672f8c",
@@ -9384,6 +9540,10 @@
         {
           "date": "2026-05-13",
           "action": "Email outbound 1A inviata"
+        },
+        {
+          "date": "2026-05-27",
+          "action": "Follow-up 1 inviato"
         }
       ],
       "label_id": "Label_1592668050883672428",
@@ -9426,8 +9586,8 @@
       "status": "follow_up_1_sent",
       "first_contact": "2026-05-13",
       "last_activity": "2026-05-27",
-      "next_action": "Follow-up 1",
-      "next_action_date": "2026-05-27",
+      "next_action": "Follow-up 2",
+      "next_action_date": "2026-06-18",
       "stape_score": null,
       "notes": "Luxury boutique Napoli (piÃÂ¹ sedi)",
       "thread_id": "19e20c5a82f04c5f",
@@ -9435,6 +9595,10 @@
         {
           "date": "2026-05-13",
           "action": "Email outbound 1A inviata"
+        },
+        {
+          "date": "2026-05-27",
+          "action": "Follow-up 1 inviato"
         }
       ],
       "label_id": "Label_1592668050883672428",
@@ -9477,8 +9641,8 @@
       "status": "follow_up_1_sent",
       "first_contact": "2026-05-13",
       "last_activity": "2026-05-27",
-      "next_action": "Follow-up 1",
-      "next_action_date": "2026-05-27",
+      "next_action": "Follow-up 2",
+      "next_action_date": "2026-06-18",
       "stape_score": null,
       "notes": "Boutique multibrand",
       "thread_id": "19e214b3d3a50636",
@@ -9486,6 +9650,10 @@
         {
           "date": "2026-05-13",
           "action": "Email outbound 1A inviata"
+        },
+        {
+          "date": "2026-05-27",
+          "action": "Follow-up 1 inviato"
         }
       ],
       "label_id": "Label_1592668050883672428",
@@ -9528,8 +9696,8 @@
       "status": "follow_up_1_sent",
       "first_contact": "2026-05-13",
       "last_activity": "2026-05-27",
-      "next_action": "Follow-up 1",
-      "next_action_date": "2026-05-27",
+      "next_action": "Follow-up 2",
+      "next_action_date": "2026-06-18",
       "stape_score": null,
       "notes": "Boutique multibrand Napoli",
       "thread_id": "19e2144dfb973b5a",
@@ -9537,6 +9705,10 @@
         {
           "date": "2026-05-13",
           "action": "Email outbound 1A inviata"
+        },
+        {
+          "date": "2026-05-27",
+          "action": "Follow-up 1 inviato"
         }
       ],
       "label_id": "Label_1592668050883672428",
@@ -9579,8 +9751,8 @@
       "status": "follow_up_1_sent",
       "first_contact": "2026-05-13",
       "last_activity": "2026-05-27",
-      "next_action": "Follow-up 1",
-      "next_action_date": "2026-05-27",
+      "next_action": "Follow-up 2",
+      "next_action_date": "2026-06-18",
       "stape_score": null,
       "notes": "Luxury boutique Modena",
       "thread_id": "19e2100b5714f158",
@@ -9588,6 +9760,10 @@
         {
           "date": "2026-05-13",
           "action": "Email outbound 1A inviata"
+        },
+        {
+          "date": "2026-05-27",
+          "action": "Follow-up 1 inviato"
         }
       ],
       "label_id": "Label_1592668050883672428",
@@ -9630,8 +9806,8 @@
       "status": "follow_up_1_sent",
       "first_contact": "2026-05-13",
       "last_activity": "2026-05-27",
-      "next_action": "Follow-up 1",
-      "next_action_date": "2026-05-27",
+      "next_action": "Follow-up 2",
+      "next_action_date": "2026-06-18",
       "stape_score": null,
       "notes": "Boutique multibrand Reggio Calabria",
       "thread_id": "19e20c36a5bf78a9",
@@ -9639,6 +9815,10 @@
         {
           "date": "2026-05-13",
           "action": "Email outbound 1A inviata"
+        },
+        {
+          "date": "2026-05-27",
+          "action": "Follow-up 1 inviato"
         }
       ],
       "label_id": "Label_1592668050883672428",
@@ -9681,8 +9861,8 @@
       "status": "follow_up_1_sent",
       "first_contact": "2026-05-13",
       "last_activity": "2026-05-27",
-      "next_action": "Follow-up 1",
-      "next_action_date": "2026-05-27",
+      "next_action": "Follow-up 2",
+      "next_action_date": "2026-06-18",
       "stape_score": null,
       "notes": "Luxury boutique Reggio Calabria",
       "thread_id": "19e20be8e55b0cdd",
@@ -9690,6 +9870,10 @@
         {
           "date": "2026-05-13",
           "action": "Email outbound 1A inviata"
+        },
+        {
+          "date": "2026-05-27",
+          "action": "Follow-up 1 inviato"
         }
       ],
       "label_id": "Label_1592668050883672428",
@@ -9732,8 +9916,8 @@
       "status": "follow_up_1_sent",
       "first_contact": "2026-05-13",
       "last_activity": "2026-05-27",
-      "next_action": "Follow-up 1",
-      "next_action_date": "2026-05-27",
+      "next_action": "Follow-up 2",
+      "next_action_date": "2026-06-18",
       "stape_score": null,
       "notes": "Luxury boutique Roma",
       "thread_id": "19e20ba5587c973d",
@@ -9741,6 +9925,10 @@
         {
           "date": "2026-05-13",
           "action": "Email outbound 1A inviata"
+        },
+        {
+          "date": "2026-05-27",
+          "action": "Follow-up 1 inviato"
         }
       ],
       "label_id": "Label_1592668050883672428",
@@ -11198,8 +11386,8 @@
       "last_activity": "2026-05-27",
       "is_first_email": true,
       "first_email_snippet": "Buonasera. mi sono imbattuto in Alberta Boutique cercando le migliori boutique multibrand del settore in Italia, a proposito, la boutique a San Miniato Basso ÃÂ¨ stupenda.",
-      "next_action": "Follow-up 1",
-      "next_action_date": "2026-05-27",
+      "next_action": "Follow-up 2",
+      "next_action_date": "2026-06-18",
       "next_followup_due": "2026-05-27",
       "followups_sent": [
         {
@@ -14656,12 +14844,16 @@
         "snippet": ""
       },
       "last_reply_from_prospect": null,
-      "next_action": "Follow-up 1",
-      "next_action_date": "2026-06-01",
+      "next_action": "Follow-up 2",
+      "next_action_date": "2026-06-23",
       "timeline": [
         {
           "date": "2026-05-18",
           "action": "Email outbound 1A inviata da Manu"
+        },
+        {
+          "date": "2026-05-27",
+          "action": "Follow-up 1 inviato"
         }
       ],
       "skip": true
