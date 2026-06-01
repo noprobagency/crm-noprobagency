@@ -1,6 +1,6 @@
 {
   "meta": {
-    "last_updated": "2026-05-29T08:00:00+02:00",
+    "last_updated": "2026-06-01T06:05:00+02:00",
     "total_contacted": 378,
     "total_replied": 13,
     "total_bounced": 50,
@@ -28,8 +28,8 @@
       "status": "in_conversation",
       "first_contact": "2026-04-30",
       "last_activity": "2026-05-25",
-      "next_action": "Follow-up urgente — 16 giorni da ultima risposta (2026-05-12). Victoire — FU inviato 25/05.",
-      "next_action_date": "2026-05-29",
+      "next_action": "Follow-up urgente — 20 giorni da ultima risposta (2026-05-12). FU inviato 25/05, ancora nessuna risposta.",
+      "next_action_date": "2026-06-01",
       "stape_score": 39,
       "notes": "Founder & CEO. Ha chiesto il report dopo bump del 12/05. Inviato report Stape completo il 13/05 (Ads 44/100).",
       "thread_id": "19ddac7248b1a78a",
@@ -110,8 +110,8 @@
       "status": "in_conversation",
       "first_contact": "2026-05-01",
       "last_activity": "2026-05-27",
-      "next_action": "Follow-up urgente — 21 giorni da ultima risposta (2026-05-07). Valeria — Video Loom già inviato.",
-      "next_action_date": "2026-05-29",
+      "next_action": "Follow-up urgente — 25 giorni da ultima risposta (2026-05-07). FU inviato 27/05, ancora nessuna risposta dal video Loom.",
+      "next_action_date": "2026-06-01",
       "stape_score": null,
       "notes": "Risposta positiva il 07/05. Inviato video di analisi (10 min) l'08/05. Bump il 12/05. FU inviato il 20/05: ha avuto modo di vedere il video?",
       "thread_id": "19e026540b01048b",
@@ -173,8 +173,8 @@
         }
       ],
       "last_outbound_by_antonio": {
-        "date": "2026-05-20",
-        "snippet": "Ciao Valeria, ha avuto modo di vedere il video? Fammi sapere se c'è qualcosa da chiarire."
+        "date": "2026-05-27",
+        "snippet": "Rimando su nel caso, fammi sapere se ha senso parlarne."
       },
       "last_reply_from_prospect": {
         "date": "2026-05-07",
@@ -204,8 +204,8 @@
       "status": "in_conversation",
       "first_contact": "2026-05-01",
       "last_activity": "2026-05-27",
-      "next_action": "Follow-up urgente — 10 giorni da ultima risposta (2026-05-18). Nicolò — risposta con CV allegato.",
-      "next_action_date": "2026-05-29",
+      "next_action": "Follow-up urgente — 14 giorni da ultima risposta (2026-05-18). FU inviato 27/05.",
+      "next_action_date": "2026-06-01",
       "stape_score": null,
       "notes": "Email personale (nicodeka03@gmail.com). Risposta positiva il 07/05. Video inviato l'08/05. Risposta 13/05: molto insightful. Il 18/05: allega CV (off-topic). Antonio risponde il 19/05.",
       "thread_id": "19e02604b5efa2cb",
@@ -279,8 +279,8 @@
         }
       ],
       "last_outbound_by_antonio": {
-        "date": "2026-05-19",
-        "snippet": "Ciao Nicolò! Grande, molto interessante. Oltre a lavorare nel growth eCommerce, soprattutto per fashion boutique..."
+        "date": "2026-05-27",
+        "snippet": "Rimando su nel caso, fammi sapere se ha senso parlarne."
       },
       "last_reply_from_prospect": {
         "date": "2026-05-18",
@@ -310,8 +310,8 @@
       "status": "in_conversation",
       "first_contact": "2026-05-13",
       "last_activity": "2026-05-27",
-      "next_action": "Follow-up urgente — 13 giorni da ultima risposta (2026-05-15). Sara Agnelli — FU inviato 27/05.",
-      "next_action_date": "2026-05-29",
+      "next_action": "Follow-up urgente — 17 giorni da ultima risposta (2026-05-15). FU inviato 27/05, ancora nessuna risposta.",
+      "next_action_date": "2026-06-01",
       "stape_score": null,
       "notes": "Luxury boutique Casale Monferrato",
       "thread_id": "19e213be13545c0d",
@@ -420,8 +420,8 @@
         "date": "2026-05-15",
         "snippet": "Ciao Antonio, Thank you for your email. I would be happy to have a look at your report, why not ;) Best, Caterina Zorzan E-commerce Manager"
       },
-      "next_action": "Follow-up urgente — 13 giorni da ultima risposta (2026-05-15). Caterina — FU video inviato 25/05.",
-      "next_action_date": "2026-05-29",
+      "next_action": "Follow-up urgente — 17 giorni da ultima risposta (2026-05-15). FU video inviato 25/05.",
+      "next_action_date": "2026-06-01",
       "timeline": [
         {
           "date": "2026-05-15",
@@ -491,8 +491,8 @@
         "date": "2026-05-27",
         "snippet": "Ciao Antonio, manda pure il report, grazie mille, Andrea"
       },
-      "next_action": "In attesa risposta — video Loom condiviso 28/05",
-      "next_action_date": null,
+      "next_action": "Valutare follow-up — Andrea (Camden) ha risposto 27/05 chiedendo report, video Loom ri-inviato 28/05. 5 giorni senza risposta.",
+      "next_action_date": "2026-06-03",
       "timeline": [
         {
           "date": "2026-05-18",
@@ -572,8 +572,8 @@
         "date": "2026-05-19",
         "snippet": "sono a conoscenza del problema di tracking e verrà risolto oggi in giornata"
       },
-      "next_action": "Follow-up urgente — 9 giorni da ultima risposta (2026-05-19). Filippo Marchesani / Nino.",
-      "next_action_date": "2026-05-29",
+      "next_action": "Follow-up urgente — 13 giorni da ultima risposta (2026-05-19). Filippo Marchesani / Nino.",
+      "next_action_date": "2026-06-01",
       "timeline": [
         {
           "date": "2026-05-18",
@@ -638,8 +638,8 @@
         "date": "2026-05-19",
         "snippet": "Before considering a call, could you share the case study and the full Stape audit (URL tested, scan date, detected issues, recommended fixes)?"
       },
-      "next_action": "Follow-up urgente — 9 giorni da ultima risposta (2026-05-19). Björn (Oger) — case study richiesto.",
-      "next_action_date": "2026-05-29",
+      "next_action": "Follow-up urgente — 13 giorni da ultima risposta (2026-05-19). Björn (Oger) — case study Cumini + audit Stape inviati.",
+      "next_action_date": "2026-06-01",
       "timeline": [
         {
           "date": "2026-05-18",
@@ -672,8 +672,8 @@
       "status": "in_conversation",
       "first_contact": "2026-05-07",
       "last_activity": "2026-05-25",
-      "next_action": "In attesa risposta — migrazione Shopify prevista settembre",
-      "next_action_date": null,
+      "next_action": "Valutare follow-up — Sabina (Julian Fashion): migrazione Shopify settembre confermata. 7 giorni da ultima risposta.",
+      "next_action_date": "2026-06-02",
       "stape_score": null,
       "notes": "Sabina Zabberoni conferma migrazione Shopify settembre. Interesse reale. Nota: Antonio ha inviato 2 email quasi identiche dopo la risposta (11:08 e 11:09 del 25/05).",
       "thread_id": "19e02644a834f247",
@@ -763,8 +763,8 @@
         "date": "2026-05-26",
         "snippet": "Andata per le 15! Grazie, Ginevra"
       },
-      "next_action": "Call avvenuta ieri 28/05 ore 15:00 con Ginevra — Antonio: aggiornare esito",
-      "next_action_date": "2026-05-29",
+      "next_action": "Urgente — aggiornare esito call del 28/05 con Ginevra Giannelli (+39 3385425272). 4 giorni trascorsi.",
+      "next_action_date": "2026-06-01",
       "timeline": [
         {
           "date": "2026-05-26",
@@ -841,8 +841,8 @@
         "date": "2026-05-26",
         "snippet": "Ciao Antonio, certo, parliamone al telefono. Puoi contattarmi al 3381572496 Saluti, Luca"
       },
-      "next_action": "Gestione manuale Antonio — risposta immediata ricevuta. Luca disponibile per call: 3381572496",
-      "next_action_date": null,
+      "next_action": "Urgente — chiamare Luca (3381572496). Ha risposto 6 giorni fa chiedendo call telefonica.",
+      "next_action_date": "2026-06-01",
       "timeline": [
         {
           "date": "2026-05-26",
@@ -911,7 +911,8 @@
         "follow_up_3": "2026-07-16",
         "out_date": "2026-07-17"
       },
-      "subject_email": "Report - bernardellistores.com - tracciamento"
+      "subject_email": "Report - bernardellistores.com - tracciamento",
+      "skip": true
     },
     {
       "id": "prospect_019",
@@ -969,7 +970,8 @@
         "follow_up_3": "2026-07-16",
         "out_date": "2026-07-17"
       },
-      "subject_email": "Re: Issue with tailfin.cc"
+      "subject_email": "Re: Issue with tailfin.cc",
+      "skip": true
     }
   ],
   "no_reply": [
