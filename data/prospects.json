@@ -1,6 +1,6 @@
 {
   "meta": {
-    "last_updated": "2026-06-01T06:05:00+02:00",
+    "last_updated": "2026-06-02T06:05:00+02:00",
     "total_contacted": 378,
     "total_replied": 13,
     "total_bounced": 50,
@@ -27,9 +27,9 @@
       "platform": "Shopify",
       "status": "in_conversation",
       "first_contact": "2026-04-30",
-      "last_activity": "2026-05-25",
-      "next_action": "Follow-up urgente — 20 giorni da ultima risposta (2026-05-12). FU inviato 25/05, ancora nessuna risposta.",
-      "next_action_date": "2026-06-01",
+      "last_activity": "2026-05-30",
+      "next_action": "Follow-up urgente — 21 giorni da ultima risposta Victoire (2026-05-12). Bump '?' inviato 30/05, nessuna risposta.",
+      "next_action_date": "2026-06-03",
       "stape_score": 39,
       "notes": "Founder & CEO. Ha chiesto il report dopo bump del 12/05. Inviato report Stape completo il 13/05 (Ads 44/100).",
       "thread_id": "19ddac7248b1a78a",
@@ -53,6 +53,10 @@
         {
           "date": "2026-05-25",
           "action": "FU inviato da Antonio: check-in report Stape (12 giorni senza risposta)"
+        },
+        {
+          "date": "2026-05-30",
+          "action": "FU brevissimo inviato da Antonio: '?' (bump email)"
         }
       ],
       "label_id": "Label_8658624016447790536",
@@ -76,18 +80,24 @@
           "type": "manual",
           "sender": "Antonio",
           "snippet": "Hi Victoire, just checking in on the report I sent on the 13th. Did you get a chance to look at it? Let me know if it would make sense to jump on a quick call."
+        },
+        {
+          "date": "2026-05-30",
+          "type": "manual",
+          "sender": "Antonio",
+          "snippet": "?"
         }
       ],
       "last_outbound_by_antonio": {
-        "date": "2026-05-25",
-        "snippet": "Hi Victoire, just checking in on the report I sent on the 13th. Did you get a chance to look at it? Let me know if it would make sense to jump on a quick call."
+        "date": "2026-05-30",
+        "snippet": "?"
       },
       "last_reply_from_prospect": {
         "date": "2026-05-12",
         "snippet": "Hi Antonio, Feel free to send report. Best, Victoire (Founder & CEO)"
       },
       "next_followup_due": "2026-05-18",
-      "days_since_last_activity": 0,
+      "days_since_last_activity": 3,
       "first_email_snippet": "Hi Victoire, I was looking into The Go-To and noticed you're running Meta/Google campaigns on an already well-structured Shopify store. Quick check on tracking found an issue you're likely unaware of.",
       "scheduled_timeline": {
         "first_email": "2026-04-30",
@@ -110,8 +120,8 @@
       "status": "in_conversation",
       "first_contact": "2026-05-01",
       "last_activity": "2026-05-27",
-      "next_action": "Follow-up urgente — 25 giorni da ultima risposta (2026-05-07). FU inviato 27/05, ancora nessuna risposta dal video Loom.",
-      "next_action_date": "2026-06-01",
+      "next_action": "Follow-up urgente — 26 giorni da ultima risposta Valeria (2026-05-07). Ultimo FU 27/05: 'l'ultima volta che mi faccio vivo'.",
+      "next_action_date": "2026-06-03",
       "stape_score": null,
       "notes": "Risposta positiva il 07/05. Inviato video di analisi (10 min) l'08/05. Bump il 12/05. FU inviato il 20/05: ha avuto modo di vedere il video?",
       "thread_id": "19e026540b01048b",
@@ -169,12 +179,12 @@
           "date": "2026-05-27",
           "type": "manual",
           "sender": "Antonio",
-          "snippet": "Rimando su nel caso, fammi sapere se ha senso parlarne."
+          "snippet": "Ciao Valeria, l'ultima volta che mi faccio vivo — se il video le è piaciuto e c'è qualcosa su cui vuole muoversi, sono qui. Se invece non è il momento giusto, nessun probl"
         }
       ],
       "last_outbound_by_antonio": {
         "date": "2026-05-27",
-        "snippet": "Rimando su nel caso, fammi sapere se ha senso parlarne."
+        "snippet": "Ciao Valeria, l'ultima volta che mi faccio vivo — se il video le è piaciuto e c'è qualcosa su cui vuole muoversi, sono qui. Se invece non è il momento giusto, nessun probl"
       },
       "last_reply_from_prospect": {
         "date": "2026-05-07",
@@ -204,8 +214,8 @@
       "status": "in_conversation",
       "first_contact": "2026-05-01",
       "last_activity": "2026-05-27",
-      "next_action": "Follow-up urgente — 14 giorni da ultima risposta (2026-05-18). FU inviato 27/05.",
-      "next_action_date": "2026-06-01",
+      "next_action": "Follow-up urgente — 15 giorni da ultima risposta Nicolò (2026-05-18). Ultimo FU 27/05: check eCommerce + virtual try-on.",
+      "next_action_date": "2026-06-03",
       "stape_score": null,
       "notes": "Email personale (nicodeka03@gmail.com). Risposta positiva il 07/05. Video inviato l'08/05. Risposta 13/05: molto insightful. Il 18/05: allega CV (off-topic). Antonio risponde il 19/05.",
       "thread_id": "19e02604b5efa2cb",
@@ -275,12 +285,12 @@
           "date": "2026-05-27",
           "type": "manual",
           "sender": "Antonio",
-          "snippet": "Rimando su nel caso, fammi sapere se ha senso parlarne."
+          "snippet": "Ciao Nicolò, come va? Curioso di sapere se avete deciso qualcosa sul fronte eCommerce di Marandino — e di sentire come sta andando il vostro progetto virtual try-on."
         }
       ],
       "last_outbound_by_antonio": {
         "date": "2026-05-27",
-        "snippet": "Rimando su nel caso, fammi sapere se ha senso parlarne."
+        "snippet": "Ciao Nicolò, come va? Curioso di sapere se avete deciso qualcosa sul fronte eCommerce di Marandino — e di sentire come sta andando il vostro progetto virtual try-on."
       },
       "last_reply_from_prospect": {
         "date": "2026-05-18",
@@ -310,8 +320,8 @@
       "status": "in_conversation",
       "first_contact": "2026-05-13",
       "last_activity": "2026-05-27",
-      "next_action": "Follow-up urgente — 17 giorni da ultima risposta (2026-05-15). FU inviato 27/05, ancora nessuna risposta.",
-      "next_action_date": "2026-06-01",
+      "next_action": "Follow-up urgente — 18 giorni da ultima risposta Sara Agnelli (2026-05-15). Ultimo FU 27/05: verifica se chi di competenza ha visto la mail.",
+      "next_action_date": "2026-06-03",
       "stape_score": null,
       "notes": "Luxury boutique Casale Monferrato",
       "thread_id": "19e213be13545c0d",
@@ -420,8 +430,8 @@
         "date": "2026-05-15",
         "snippet": "Ciao Antonio, Thank you for your email. I would be happy to have a look at your report, why not ;) Best, Caterina Zorzan E-commerce Manager"
       },
-      "next_action": "Follow-up urgente — 17 giorni da ultima risposta (2026-05-15). FU video inviato 25/05.",
-      "next_action_date": "2026-06-01",
+      "next_action": "Follow-up urgente — 18 giorni da ultima risposta Caterina (2026-05-15). Ultimo FU 25/05: ha avuto modo di vedere il video?",
+      "next_action_date": "2026-06-03",
       "timeline": [
         {
           "date": "2026-05-15",
@@ -474,6 +484,12 @@
           "type": "manual",
           "sender": "Antonio",
           "snippet": "Ciao Andrea, hai avuto modo di vedere il video? Fammi sapere cosa ne pensi."
+        },
+        {
+          "date": "2026-05-28",
+          "type": "manual",
+          "sender": "Antonio",
+          "snippet": "Ciao Andrea! Guarda la settimana che viene sono un attimo preso, ci vogliamo fare una chiacchierata la settimana dopo tipo il 9 o il 10 giugno di mattina?"
         }
       ],
       "scheduled_timeline": {
@@ -485,14 +501,14 @@
       },
       "last_outbound_by_antonio": {
         "date": "2026-05-28",
-        "snippet": "Ciao Andrea! 🙂 Ti avevo inviato un video, hai avuto modo di vederlo? https://www.loom.com/share/a23f6434a..."
+        "snippet": "Ciao Andrea! Guarda la settimana che viene sono un attimo preso, ci vogliamo fare una chiacchierata la settimana dopo tipo il 9 o il 10 giugno di mattina?"
       },
       "last_reply_from_prospect": {
-        "date": "2026-05-27",
-        "snippet": "Ciao Antonio, manda pure il report, grazie mille, Andrea"
+        "date": "2026-05-28",
+        "snippet": "Ciao Antonio, grazie mille per l'analisi, mi piacerebbe saperne di più, a presto, Andrea"
       },
-      "next_action": "Valutare follow-up — Andrea (Camden) ha risposto 27/05 chiedendo report, video Loom ri-inviato 28/05. 5 giorni senza risposta.",
-      "next_action_date": "2026-06-03",
+      "next_action": "In attesa conferma call 9-10 giugno — Andrea (Camden): 'mi piacerebbe saperne di più'. Antonio ha proposto call il 9 o 10 giugno mattina.",
+      "next_action_date": "2026-06-09",
       "timeline": [
         {
           "date": "2026-05-18",
@@ -517,6 +533,14 @@
         {
           "date": "2026-05-28",
           "action": "Antonio ha inviato di nuovo il link Loom ad Andrea (risposta alla richiesta report)"
+        },
+        {
+          "date": "2026-05-28",
+          "action": "Risposta di Andrea: 'grazie mille per l'analisi, mi piacerebbe saperne di più, a presto'"
+        },
+        {
+          "date": "2026-05-28",
+          "action": "Antonio propone call 9 o 10 giugno mattina"
         }
       ],
       "skip": false,
@@ -555,6 +579,12 @@
           "type": "manual",
           "sender": "Antonio",
           "snippet": "Ciao Nino, volevo sapere se avete risolto il problema di tracking. Se vi può essere utile il report come riferimento, sono qui."
+        },
+        {
+          "date": "2026-05-25",
+          "type": "manual",
+          "sender": "Antonio",
+          "snippet": "Rimando su nel caso, fammi sapere se ha senso parlarne."
         }
       ],
       "scheduled_timeline": {
@@ -566,14 +596,14 @@
       },
       "last_outbound_by_antonio": {
         "date": "2026-05-25",
-        "snippet": "Ciao Nino, volevo sapere se avete risolto il problema di tracking. Se vi può essere utile il report come riferimento, sono qui."
+        "snippet": "Rimando su nel caso, fammi sapere se ha senso parlarne."
       },
       "last_reply_from_prospect": {
         "date": "2026-05-19",
         "snippet": "sono a conoscenza del problema di tracking e verrà risolto oggi in giornata"
       },
-      "next_action": "Follow-up urgente — 13 giorni da ultima risposta (2026-05-19). Filippo Marchesani / Nino.",
-      "next_action_date": "2026-06-01",
+      "next_action": "Follow-up urgente — 14 giorni da ultima risposta (2026-05-19). Doppio FU inviato 25/05 (09:54 e 09:57).",
+      "next_action_date": "2026-06-03",
       "timeline": [
         {
           "date": "2026-05-18",
@@ -638,8 +668,8 @@
         "date": "2026-05-19",
         "snippet": "Before considering a call, could you share the case study and the full Stape audit (URL tested, scan date, detected issues, recommended fixes)?"
       },
-      "next_action": "Follow-up urgente — 13 giorni da ultima risposta (2026-05-19). Björn (Oger) — case study Cumini + audit Stape inviati.",
-      "next_action_date": "2026-06-01",
+      "next_action": "Follow-up urgente — 14 giorni da ultima risposta Björn (2026-05-19). Ultimo FU 25/05: ha avuto modo di vedere tutto?",
+      "next_action_date": "2026-06-03",
       "timeline": [
         {
           "date": "2026-05-18",
@@ -671,11 +701,11 @@
       "platform": "non-Shopify",
       "status": "in_conversation",
       "first_contact": "2026-05-07",
-      "last_activity": "2026-05-25",
-      "next_action": "Valutare follow-up — Sabina (Julian Fashion): migrazione Shopify settembre confermata. 7 giorni da ultima risposta.",
-      "next_action_date": "2026-06-02",
+      "last_activity": "2026-05-26",
+      "next_action": "Ricontattare settembre 2026 — Julian Fashion: migrazione Shopify in corso. Sabina: 'nel caso la terrò in considerazione'. Antonio: 'Riguarderò a settembre'.",
+      "next_action_date": "2026-09-01",
       "stape_score": null,
-      "notes": "Sabina Zabberoni conferma migrazione Shopify settembre. Interesse reale. Nota: Antonio ha inviato 2 email quasi identiche dopo la risposta (11:08 e 11:09 del 25/05).",
+      "notes": "Sabina Zabberoni conferma migrazione Shopify settembre. Risposta h.13:55 del 25/05: 'Abbiamo un team ampio con consulenti, nel caso la terrò in considerazione'. Antonio 26/05: 'Riguarderò il progetto a settembre'. Nota: Antonio ha inviato 2-3 email quasi identiche dopo la risposta iniziale del 25/05.",
       "thread_id": "19e02644a834f247",
       "timeline": [
         {
@@ -693,6 +723,14 @@
         {
           "date": "2026-05-25",
           "action": "Antonio risponde a Sabina: 'Siamo Shopify Partner specializzati in migrazioni Fashion Boutique' (2 email quasi identiche inviate a 1 min di distanza)"
+        },
+        {
+          "date": "2026-05-25",
+          "action": "Risposta 2 Sabina: 'Abbiamo un team ampio con consulenti, nel caso la terrò in considerazione'"
+        },
+        {
+          "date": "2026-05-26",
+          "action": "Antonio: 'Ottimo! Riguarderò il progetto a settembre, sono curioso del risultato'"
         }
       ],
       "label_id": "Label_1592668050883672428",
@@ -704,18 +742,24 @@
           "type": "follow_up_1",
           "sender": "Antonio",
           "snippet": "Rimando su nel caso, fammi sapere se ha senso parlarne."
+        },
+        {
+          "date": "2026-05-26",
+          "type": "manual",
+          "sender": "Antonio",
+          "snippet": "Ottimo!! Riguarderò il progetto a settembre allora, sono curioso di vedere il risultato 😊 Buon lavoro!!"
         }
       ],
       "last_outbound_by_antonio": {
-        "date": "2026-05-25",
-        "snippet": "Buongiorno! Lo immaginavo, c'è davvero un potenziale enorme! Nel caso possa essere utile, siamo Shopify Partner specializzati proprio nelle migrazioni per Fashion Boutique"
+        "date": "2026-05-26",
+        "snippet": "Ottimo!! Riguarderò il progetto a settembre allora, sono curioso di vedere il risultato 😊 Buon lavoro!!"
       },
       "last_reply_from_prospect": {
         "date": "2026-05-25",
-        "snippet": "Grazie mille per averci contattato. In merito alla nostra piattaforma La informo che da settembre passeremo su Shopify con il nostro ecom e tutto ciò che ruota attorno. Per ora siamo concentrati su questo passaggio"
+        "snippet": "Grazie mille Antonio Abbiamo costruito un team molto ampio anche con consulenti …nel caso La terrò assolutamente in considerazione Un caro saluto Sabina"
       },
       "next_followup_due": "2026-05-21",
-      "days_since_last_activity": 6,
+      "days_since_last_activity": 7,
       "first_email_snippet": "Ciao Sabina, mi sono imbattuto in Julian Fashion cercando le migliori realtÃÂ  fashion del settore. Ho visto la piattaforma che state usando per le vendite online, la conosco molto bene.",
       "scheduled_timeline": {
         "first_email": "2026-05-07",
@@ -740,14 +784,27 @@
       "platform": "non-Shopify",
       "status": "in_conversation",
       "first_contact": "2026-05-26",
-      "last_activity": "2026-05-26",
+      "last_activity": "2026-05-30",
       "multi_to": false,
       "had_cc_bcc": false,
       "redirect_to": null,
       "stape_score": 47,
-      "notes": "Prima email a customerservice@societeanonyme.it. Ginevra Giannelli (Digital Art Director, +39 3385425272) ha risposto da ginevra@societeanonyme.it. Call confermata giovedì 28/05 ore 15:00.",
+      "notes": "Prima email a customerservice@societeanonyme.it. Ginevra Giannelli (Digital Art Director, +39 3385425272) ha risposto da ginevra@societeanonyme.it. Call confermata giovedì 28/05 ore 15:00 ma Ginevra l'aveva in calendario per 29/05. Antonio propone 4 o 5 giugno ore 10.",
       "thread_id": "19e636f0db2e3be7",
-      "followups_sent": [],
+      "followups_sent": [
+        {
+          "date": "2026-05-28",
+          "type": "manual",
+          "sender": "Antonio",
+          "snippet": "Buon pomeriggio! 🙂 Qui link chiamata: https://meet.google.com/uqx-owpb-hyf?authuser=0"
+        },
+        {
+          "date": "2026-05-30",
+          "type": "manual",
+          "sender": "Antonio",
+          "snippet": "Ciao Ginevra! Non ti preoccupare succede! 🙂 Che ne dici di sentirci il 4 o il 5, verso le 10 del mattino? Fammi sapere, buon weekend!"
+        }
+      ],
       "scheduled_timeline": {
         "first_email": "2026-05-26",
         "follow_up_1": "2026-06-10",
@@ -756,15 +813,15 @@
         "out_date": "2026-07-30"
       },
       "last_outbound_by_antonio": {
-        "date": "2026-05-26",
-        "snippet": "Fissato! A giovedi, buona giornata! 🙂"
+        "date": "2026-05-30",
+        "snippet": "Ciao Ginevra! Scusami se ti rispondo solo ora! Non ti preoccupare succede! 🙂 Che ne dici di sentirci il 4 o il 5, verso le 10 del mattino? Fammi sapere, buon weekend!"
       },
       "last_reply_from_prospect": {
-        "date": "2026-05-26",
-        "snippet": "Andata per le 15! Grazie, Ginevra"
+        "date": "2026-05-29",
+        "snippet": "Ciao Antonio, Spero tutto bene. Perdonami davvero se ieri non mi sono presentata alla call ma l'avevo messa in calendario ad oggi. Sei disponibile alle 15.30?"
       },
-      "next_action": "Urgente — aggiornare esito call del 28/05 con Ginevra Giannelli (+39 3385425272). 4 giorni trascorsi.",
-      "next_action_date": "2026-06-01",
+      "next_action": "Call proposta 4 o 5 giugno ore 10 — Ginevra (Société Anonyme) ha saltato call 28/05 (era in calendario per 29/05). Antonio propone 4 o 5 giugno ore 10. Attendere conferma.",
+      "next_action_date": "2026-06-04",
       "timeline": [
         {
           "date": "2026-05-26",
@@ -801,6 +858,18 @@
         {
           "date": "2026-05-28",
           "action": "Call con Ginevra Giannelli ore 15:00 (prenotata 26/05)"
+        },
+        {
+          "date": "2026-05-28",
+          "action": "Antonio invia link Google Meet per call ore 15:00"
+        },
+        {
+          "date": "2026-05-29",
+          "action": "Ginevra: 'Perdonami, avevo la call in calendario ad oggi (29/05). Sei disponibile alle 15.30?'"
+        },
+        {
+          "date": "2026-05-30",
+          "action": "Antonio propone: 'Che ne dici di sentirci il 4 o il 5, verso le 10 del mattino?'"
         }
       ]
     },
@@ -841,8 +910,8 @@
         "date": "2026-05-26",
         "snippet": "Ciao Antonio, certo, parliamone al telefono. Puoi contattarmi al 3381572496 Saluti, Luca"
       },
-      "next_action": "Urgente — chiamare Luca (3381572496). Ha risposto 6 giorni fa chiedendo call telefonica.",
-      "next_action_date": "2026-06-01",
+      "next_action": "Urgente — chiamare Luca (3381572496). Ha risposto 7 giorni fa chiedendo call telefonica. Nessun follow-up da allora.",
+      "next_action_date": "2026-06-03",
       "timeline": [
         {
           "date": "2026-05-26",
