@@ -1,6 +1,6 @@
 {
   "meta": {
-    "last_updated": "2026-06-02T06:05:00+02:00",
+    "last_updated": "2026-06-04T01:10:00+02:00",
     "total_contacted": 378,
     "total_replied": 13,
     "total_bounced": 50,
@@ -28,8 +28,8 @@
       "status": "in_conversation",
       "first_contact": "2026-04-30",
       "last_activity": "2026-05-30",
-      "next_action": "Follow-up urgente — 21 giorni da ultima risposta Victoire (2026-05-12). Bump '?' inviato 30/05, nessuna risposta.",
-      "next_action_date": "2026-06-03",
+      "next_action": "Follow-up urgente — 23 giorni da ultima risposta Victoire (2026-05-12). Ultimo bump '?' inviato 30/05, nessuna risposta.",
+      "next_action_date": "2026-06-04",
       "stape_score": 39,
       "notes": "Founder & CEO. Ha chiesto il report dopo bump del 12/05. Inviato report Stape completo il 13/05 (Ads 44/100).",
       "thread_id": "19ddac7248b1a78a",
@@ -120,8 +120,8 @@
       "status": "in_conversation",
       "first_contact": "2026-05-01",
       "last_activity": "2026-05-27",
-      "next_action": "Follow-up urgente — 26 giorni da ultima risposta Valeria (2026-05-07). Ultimo FU 27/05: 'l'ultima volta che mi faccio vivo'.",
-      "next_action_date": "2026-06-03",
+      "next_action": "Follow-up urgente — 28 giorni da ultima risposta Valeria (2026-05-07). Ultimo FU 27/05: 'l'ultima volta che mi faccio vivo'.",
+      "next_action_date": "2026-06-04",
       "stape_score": null,
       "notes": "Risposta positiva il 07/05. Inviato video di analisi (10 min) l'08/05. Bump il 12/05. FU inviato il 20/05: ha avuto modo di vedere il video?",
       "thread_id": "19e026540b01048b",
@@ -214,8 +214,8 @@
       "status": "in_conversation",
       "first_contact": "2026-05-01",
       "last_activity": "2026-05-27",
-      "next_action": "Follow-up urgente — 15 giorni da ultima risposta Nicolò (2026-05-18). Ultimo FU 27/05: check eCommerce + virtual try-on.",
-      "next_action_date": "2026-06-03",
+      "next_action": "Follow-up urgente — 17 giorni da ultima risposta Nicolò (2026-05-18). Ultimo FU 27/05: check eCommerce + virtual try-on.",
+      "next_action_date": "2026-06-04",
       "stape_score": null,
       "notes": "Email personale (nicodeka03@gmail.com). Risposta positiva il 07/05. Video inviato l'08/05. Risposta 13/05: molto insightful. Il 18/05: allega CV (off-topic). Antonio risponde il 19/05.",
       "thread_id": "19e02604b5efa2cb",
@@ -320,8 +320,8 @@
       "status": "in_conversation",
       "first_contact": "2026-05-13",
       "last_activity": "2026-05-27",
-      "next_action": "Follow-up urgente — 18 giorni da ultima risposta Sara Agnelli (2026-05-15). Ultimo FU 27/05: verifica se chi di competenza ha visto la mail.",
-      "next_action_date": "2026-06-03",
+      "next_action": "Follow-up urgente — 20 giorni da ultima risposta Sara (2026-05-15). Ultimo FU 27/05: verifica 'chi di competenza'.",
+      "next_action_date": "2026-06-04",
       "stape_score": null,
       "notes": "Luxury boutique Casale Monferrato",
       "thread_id": "19e213be13545c0d",
@@ -430,8 +430,8 @@
         "date": "2026-05-15",
         "snippet": "Ciao Antonio, Thank you for your email. I would be happy to have a look at your report, why not ;) Best, Caterina Zorzan E-commerce Manager"
       },
-      "next_action": "Follow-up urgente — 18 giorni da ultima risposta Caterina (2026-05-15). Ultimo FU 25/05: ha avuto modo di vedere il video?",
-      "next_action_date": "2026-06-03",
+      "next_action": "Follow-up urgente — 20 giorni da ultima risposta Caterina (2026-05-15). Ultimo FU 25/05: ha visto il video?",
+      "next_action_date": "2026-06-04",
       "timeline": [
         {
           "date": "2026-05-15",
@@ -507,7 +507,7 @@
         "date": "2026-05-28",
         "snippet": "Ciao Antonio, grazie mille per l'analisi, mi piacerebbe saperne di più, a presto, Andrea"
       },
-      "next_action": "In attesa conferma call 9-10 giugno — Andrea (Camden): 'mi piacerebbe saperne di più'. Antonio ha proposto call il 9 o 10 giugno mattina.",
+      "next_action": "Valutare follow-up — 7 giorni da ultima risposta Andrea (2026-05-28). Call proposta 9-10 giugno non ancora confermata.",
       "next_action_date": "2026-06-09",
       "timeline": [
         {
@@ -602,8 +602,8 @@
         "date": "2026-05-19",
         "snippet": "sono a conoscenza del problema di tracking e verrà risolto oggi in giornata"
       },
-      "next_action": "Follow-up urgente — 14 giorni da ultima risposta (2026-05-19). Doppio FU inviato 25/05 (09:54 e 09:57).",
-      "next_action_date": "2026-06-03",
+      "next_action": "Follow-up urgente — 16 giorni da ultima risposta ecommerce@ (2026-05-19). Doppio FU inviato 25/05.",
+      "next_action_date": "2026-06-04",
       "timeline": [
         {
           "date": "2026-05-18",
@@ -668,8 +668,8 @@
         "date": "2026-05-19",
         "snippet": "Before considering a call, could you share the case study and the full Stape audit (URL tested, scan date, detected issues, recommended fixes)?"
       },
-      "next_action": "Follow-up urgente — 14 giorni da ultima risposta Björn (2026-05-19). Ultimo FU 25/05: ha avuto modo di vedere tutto?",
-      "next_action_date": "2026-06-03",
+      "next_action": "Follow-up urgente — 16 giorni da ultima risposta Björn (2026-05-19). Ultimo FU 25/05: feedback e potenziale collaborazione.",
+      "next_action_date": "2026-06-04",
       "timeline": [
         {
           "date": "2026-05-18",
@@ -820,7 +820,7 @@
         "date": "2026-05-29",
         "snippet": "Ciao Antonio, Spero tutto bene. Perdonami davvero se ieri non mi sono presentata alla call ma l'avevo messa in calendario ad oggi. Sei disponibile alle 15.30?"
       },
-      "next_action": "Call proposta 4 o 5 giugno ore 10 — Ginevra (Société Anonyme) ha saltato call 28/05 (era in calendario per 29/05). Antonio propone 4 o 5 giugno ore 10. Attendere conferma.",
+      "next_action": "URGENTE — Call proposta per 4 o 5 giugno ore 10 non confermata da Ginevra. Antonio propone il 30/05, nessuna risposta ricevuta. Follow-up oggi.",
       "next_action_date": "2026-06-04",
       "timeline": [
         {
@@ -910,8 +910,8 @@
         "date": "2026-05-26",
         "snippet": "Ciao Antonio, certo, parliamone al telefono. Puoi contattarmi al 3381572496 Saluti, Luca"
       },
-      "next_action": "Urgente — chiamare Luca (3381572496). Ha risposto 7 giorni fa chiedendo call telefonica. Nessun follow-up da allora.",
-      "next_action_date": "2026-06-03",
+      "next_action": "URGENTE — chiamare Luca al 3381572496. Ha chiesto call telefonica il 26/05, nessun follow-up da 9 giorni.",
+      "next_action_date": "2026-06-04",
       "timeline": [
         {
           "date": "2026-05-26",
