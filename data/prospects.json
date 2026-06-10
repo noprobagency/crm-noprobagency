@@ -1,6 +1,6 @@
 {
   "meta": {
-    "last_updated": "2026-06-09T06:10:00+02:00",
+    "last_updated": "2026-06-10T06:10:00+02:00",
     "total_contacted": 378,
     "total_replied": 13,
     "total_bounced": 50,
@@ -28,7 +28,7 @@
       "status": "in_conversation",
       "first_contact": "2026-04-30",
       "last_activity": "2026-05-30",
-      "next_action": "Follow-up urgente — 28 giorni da ultima risposta Victoire (2026-05-12). Bump '?' inviato 30/05, nessuna risposta.",
+      "next_action": "Follow-up urgente — 29 giorni da ultima risposta Victoire (2026-05-12). Bump '?' inviato 30/05, nessuna risposta.",
       "next_action_date": "2026-06-10",
       "stape_score": 39,
       "notes": "Founder & CEO. Ha chiesto il report dopo bump del 12/05. Inviato report Stape completo il 13/05 (Ads 44/100).",
@@ -120,7 +120,7 @@
       "status": "in_conversation",
       "first_contact": "2026-05-01",
       "last_activity": "2026-05-27",
-      "next_action": "Follow-up urgente — 33 giorni da ultima risposta Valeria (2026-05-07). Ultimo FU 27/05: 'l'ultima volta che mi faccio vivo'.",
+      "next_action": "Follow-up urgente — 34 giorni da ultima risposta Valeria (2026-05-07). Ultimo FU 27/05: 'l'ultima volta che mi faccio vivo'.",
       "next_action_date": "2026-06-10",
       "stape_score": null,
       "notes": "Risposta positiva il 07/05. Inviato video di analisi (10 min) l'08/05. Bump il 12/05. FU inviato il 20/05: ha avuto modo di vedere il video?",
@@ -214,7 +214,7 @@
       "status": "in_conversation",
       "first_contact": "2026-05-01",
       "last_activity": "2026-05-27",
-      "next_action": "Follow-up urgente — 22 giorni da ultima risposta Nicolò (2026-05-18). Ultimo FU 27/05: check eCommerce + virtual try-on.",
+      "next_action": "Follow-up urgente — 23 giorni da ultima risposta Nicolò (2026-05-18). Ultimo FU 27/05: check eCommerce + virtual try-on.",
       "next_action_date": "2026-06-10",
       "stape_score": null,
       "notes": "Email personale (nicodeka03@gmail.com). Risposta positiva il 07/05. Video inviato l'08/05. Risposta 13/05: molto insightful. Il 18/05: allega CV (off-topic). Antonio risponde il 19/05.",
@@ -320,7 +320,7 @@
       "status": "in_conversation",
       "first_contact": "2026-05-13",
       "last_activity": "2026-05-27",
-      "next_action": "Follow-up urgente — 25 giorni da ultima risposta Sara (2026-05-15). Ultimo FU 27/05: verifica 'chi di competenza'.",
+      "next_action": "Follow-up urgente — 26 giorni da ultima risposta Sara (2026-05-15). Ultimo FU 27/05: verifica 'chi di competenza'.",
       "next_action_date": "2026-06-10",
       "stape_score": null,
       "notes": "Luxury boutique Casale Monferrato",
@@ -430,7 +430,7 @@
         "date": "2026-05-15",
         "snippet": "Ciao Antonio, Thank you for your email. I would be happy to have a look at your report, why not ;) Best, Caterina Zorzan E-commerce Manager"
       },
-      "next_action": "Follow-up urgente — 25 giorni da ultima risposta Caterina (2026-05-15). Ultimo FU 25/05: ha visto il video?",
+      "next_action": "Follow-up urgente — 26 giorni da ultima risposta Caterina (2026-05-15). Ultimo FU 25/05: ha visto il video?",
       "next_action_date": "2026-06-10",
       "timeline": [
         {
@@ -507,8 +507,8 @@
         "date": "2026-05-28",
         "snippet": "Ciao Antonio, grazie mille per l'analisi, mi piacerebbe saperne di più, a presto, Andrea"
       },
-      "next_action": "Call proposta 9-10 giugno non confermata da Andrea — oggi (09/06) è il giorno proposto, nessuna risposta. Follow-up urgente.",
-      "next_action_date": "2026-06-09",
+      "next_action": "Call proposta 9-10 giugno non confermata da Andrea. 10/06 = ultima data proposta, ancora nessuna risposta (13 giorni). Follow-up urgente.",
+      "next_action_date": "2026-06-10",
       "timeline": [
         {
           "date": "2026-05-18",
@@ -602,7 +602,7 @@
         "date": "2026-05-19",
         "snippet": "sono a conoscenza del problema di tracking e verrà risolto oggi in giornata"
       },
-      "next_action": "Follow-up urgente — 21 giorni da ultima risposta ecommerce@ (2026-05-19). Doppio FU inviato 25/05.",
+      "next_action": "Follow-up urgente — 22 giorni da ultima risposta ecommerce@ (2026-05-19). Doppio FU inviato 25/05.",
       "next_action_date": "2026-06-10",
       "timeline": [
         {
@@ -668,7 +668,7 @@
         "date": "2026-05-19",
         "snippet": "Before considering a call, could you share the case study and the full Stape audit (URL tested, scan date, detected issues, recommended fixes)?"
       },
-      "next_action": "Follow-up urgente — 21 giorni da ultima risposta Björn (2026-05-19). Ultimo FU 25/05: feedback e potenziale collaborazione.",
+      "next_action": "Follow-up urgente — 22 giorni da ultima risposta Björn (2026-05-19). Ultimo FU 25/05: feedback e potenziale collaborazione.",
       "next_action_date": "2026-06-10",
       "timeline": [
         {
@@ -826,7 +826,7 @@
         "date": "2026-06-04",
         "snippet": "Ciao Antonio, Spero tutto okay. Perdonami la tarda risposta, sono giornate un pochino piene. Direi di fare la settimana prossima, che dici? Dimmi tu uno slot in cui sei disponibile e vediamo di organizzarci."
       },
-      "next_action": "Call fissata con Ginevra — martedì 10 giugno ore 11:00 (Google Meet da fissare)",
+      "next_action": "CALL ORE 11:00 OGGI 10/06 — Ginevra Giannelli (Digital Art Director, +39 3385425272) via Google Meet. Confermato da Antonio il 05/06: 'Va benissimo per martedì alle 11!'",
       "next_action_date": "2026-06-10",
       "timeline": [
         {
@@ -924,7 +924,7 @@
         "date": "2026-05-26",
         "snippet": "Ciao Antonio, certo, parliamone al telefono. Puoi contattarmi al 3381572496 Saluti, Luca"
       },
-      "next_action": "URGENTE — chiamare Luca al 3381572496. Ha chiesto call telefonica il 26/05, 14 giorni senza risposta. FU-1 schedulato 10/06.",
+      "next_action": "URGENTE — chiamare Luca al 3381572496. Ha chiesto call telefonica il 26/05, 15 giorni fa. FU-1 schedulato 10/06.",
       "next_action_date": "2026-06-10",
       "timeline": [
         {
