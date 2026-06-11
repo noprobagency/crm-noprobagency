@@ -1,6 +1,6 @@
 {
   "meta": {
-    "last_updated": "2026-06-10T06:10:00+02:00",
+    "last_updated": "2026-06-11T13:00:00+02:00",
     "total_contacted": 378,
     "total_replied": 13,
     "total_bounced": 50,
@@ -28,8 +28,8 @@
       "status": "in_conversation",
       "first_contact": "2026-04-30",
       "last_activity": "2026-05-30",
-      "next_action": "Follow-up urgente — 29 giorni da ultima risposta Victoire (2026-05-12). Bump '?' inviato 30/05, nessuna risposta.",
-      "next_action_date": "2026-06-10",
+      "next_action": "Follow-up urgente — 30 giorni da ultima risposta Victoire (2026-05-12). Bump '?' inviato 30/05, nessuna risposta.",
+      "next_action_date": "2026-06-12",
       "stape_score": 39,
       "notes": "Founder & CEO. Ha chiesto il report dopo bump del 12/05. Inviato report Stape completo il 13/05 (Ads 44/100).",
       "thread_id": "19ddac7248b1a78a",
@@ -120,8 +120,8 @@
       "status": "in_conversation",
       "first_contact": "2026-05-01",
       "last_activity": "2026-05-27",
-      "next_action": "Follow-up urgente — 34 giorni da ultima risposta Valeria (2026-05-07). Ultimo FU 27/05: 'l'ultima volta che mi faccio vivo'.",
-      "next_action_date": "2026-06-10",
+      "next_action": "Follow-up urgente — 35 giorni da ultima risposta Valeria (2026-05-07). Ultimo FU 27/05: 'l ultima volta che mi faccio vivo'.",
+      "next_action_date": "2026-06-12",
       "stape_score": null,
       "notes": "Risposta positiva il 07/05. Inviato video di analisi (10 min) l'08/05. Bump il 12/05. FU inviato il 20/05: ha avuto modo di vedere il video?",
       "thread_id": "19e026540b01048b",
@@ -214,8 +214,8 @@
       "status": "in_conversation",
       "first_contact": "2026-05-01",
       "last_activity": "2026-05-27",
-      "next_action": "Follow-up urgente — 23 giorni da ultima risposta Nicolò (2026-05-18). Ultimo FU 27/05: check eCommerce + virtual try-on.",
-      "next_action_date": "2026-06-10",
+      "next_action": "Follow-up urgente — 24 giorni da ultima risposta Nicolò (2026-05-18). Ultimo FU 27/05: check eCommerce + virtual try-on.",
+      "next_action_date": "2026-06-12",
       "stape_score": null,
       "notes": "Email personale (nicodeka03@gmail.com). Risposta positiva il 07/05. Video inviato l'08/05. Risposta 13/05: molto insightful. Il 18/05: allega CV (off-topic). Antonio risponde il 19/05.",
       "thread_id": "19e02604b5efa2cb",
@@ -320,8 +320,8 @@
       "status": "in_conversation",
       "first_contact": "2026-05-13",
       "last_activity": "2026-05-27",
-      "next_action": "Follow-up urgente — 26 giorni da ultima risposta Sara (2026-05-15). Ultimo FU 27/05: verifica 'chi di competenza'.",
-      "next_action_date": "2026-06-10",
+      "next_action": "Follow-up urgente — 27 giorni da ultima risposta Sara (2026-05-15). Ultimo FU 27/05: verifica 'chi di competenza'.",
+      "next_action_date": "2026-06-12",
       "stape_score": null,
       "notes": "Luxury boutique Casale Monferrato",
       "thread_id": "19e213be13545c0d",
@@ -430,8 +430,8 @@
         "date": "2026-05-15",
         "snippet": "Ciao Antonio, Thank you for your email. I would be happy to have a look at your report, why not ;) Best, Caterina Zorzan E-commerce Manager"
       },
-      "next_action": "Follow-up urgente — 26 giorni da ultima risposta Caterina (2026-05-15). Ultimo FU 25/05: ha visto il video?",
-      "next_action_date": "2026-06-10",
+      "next_action": "Follow-up urgente — 27 giorni da ultima risposta Caterina (2026-05-15). Ultimo FU 25/05: ha visto il video?",
+      "next_action_date": "2026-06-12",
       "timeline": [
         {
           "date": "2026-05-15",
@@ -507,8 +507,8 @@
         "date": "2026-05-28",
         "snippet": "Ciao Antonio, grazie mille per l'analisi, mi piacerebbe saperne di più, a presto, Andrea"
       },
-      "next_action": "Call proposta 9-10 giugno non confermata da Andrea. 10/06 = ultima data proposta, ancora nessuna risposta (13 giorni). Follow-up urgente.",
-      "next_action_date": "2026-06-10",
+      "next_action": "Call proposta 9-10 giugno scaduta senza conferma — 14 giorni da ultima risposta Andrea (2026-05-28). FU urgente.",
+      "next_action_date": "2026-06-12",
       "timeline": [
         {
           "date": "2026-05-18",
@@ -602,8 +602,8 @@
         "date": "2026-05-19",
         "snippet": "sono a conoscenza del problema di tracking e verrà risolto oggi in giornata"
       },
-      "next_action": "Follow-up urgente — 22 giorni da ultima risposta ecommerce@ (2026-05-19). Doppio FU inviato 25/05.",
-      "next_action_date": "2026-06-10",
+      "next_action": "Follow-up urgente — 23 giorni da ultima risposta ecommerce@ (2026-05-19). Doppio FU inviato 25/05.",
+      "next_action_date": "2026-06-12",
       "timeline": [
         {
           "date": "2026-05-18",
@@ -639,7 +639,7 @@
       "thread_id": "19e3ba59a8eec5cd",
       "status": "in_conversation",
       "first_contact": "2026-05-18",
-      "last_activity": "2026-05-25",
+      "last_activity": "2026-06-11",
       "multi_to": false,
       "had_cc_bcc": false,
       "redirect_to": null,
@@ -651,6 +651,12 @@
           "type": "manual",
           "sender": "Antonio",
           "snippet": "Good morning, thank you for your reply. I'll go in order — complete email with case study (Cumini, 4 years) + full Stape analysis on oger.nl."
+        },
+        {
+          "date": "2026-06-11",
+          "type": "manual",
+          "sender": "Antonio",
+          "snippet": "?"
         }
       ],
       "scheduled_timeline": {
@@ -661,15 +667,15 @@
         "out_date": "2026-07-22"
       },
       "last_outbound_by_antonio": {
-        "date": "2026-05-25",
-        "snippet": "Good morning Björn, Have you had the chance to go through everything? I'd love to hear your feedback and understand whether you see potential for a possible collaboration."
+        "date": "2026-06-11",
+        "snippet": "?"
       },
       "last_reply_from_prospect": {
         "date": "2026-05-19",
         "snippet": "Before considering a call, could you share the case study and the full Stape audit (URL tested, scan date, detected issues, recommended fixes)?"
       },
-      "next_action": "Follow-up urgente — 22 giorni da ultima risposta Björn (2026-05-19). Ultimo FU 25/05: feedback e potenziale collaborazione.",
-      "next_action_date": "2026-06-10",
+      "next_action": "Attesa risposta post-bump '?' del 11/06 — 23 giorni da ultima risposta Björn (2026-05-19)",
+      "next_action_date": null,
       "timeline": [
         {
           "date": "2026-05-18",
@@ -686,6 +692,10 @@
         {
           "date": "2026-05-25",
           "action": "FU inviato da Antonio: check-in disponibilità collaborazione"
+        },
+        {
+          "date": "2026-06-11",
+          "action": "FU brevissimo '?' inviato da Antonio a Björn (23 giorni da ultima risposta)"
         }
       ],
       "skip": false
@@ -784,12 +794,12 @@
       "platform": "non-Shopify",
       "status": "in_conversation",
       "first_contact": "2026-05-26",
-      "last_activity": "2026-06-05",
+      "last_activity": "2026-06-11",
       "multi_to": false,
       "had_cc_bcc": false,
       "redirect_to": null,
       "stape_score": 47,
-      "notes": "Prima email a customerservice@societeanonyme.it. Ginevra Giannelli (Digital Art Director, +39 3385425272) ha risposto da ginevra@societeanonyme.it. Call confermata giovedì 28/05 ore 15:00 ma Ginevra l'aveva in calendario per 29/05. Antonio propone 4 o 5 giugno ore 10.",
+      "notes": "Prima email a customerservice@societeanonyme.it. Ginevra Giannelli (Digital Art Director, +39 3385425272) ha risposto. Call avvenuta 10/06 con Ginevra + Massimiliano. Antonio ha inviato proposta post-call 11/06: Step 1 saldi estivi (Google Ads + fix tracking), Step 2 fine saldi → FW26 DTC. stape_score: 47/100.",
       "thread_id": "19e636f0db2e3be7",
       "followups_sent": [
         {
@@ -809,6 +819,12 @@
           "type": "manual",
           "sender": "Antonio",
           "snippet": "Ciao Ginevra! Tranquilla! Va benissimo per martedi alle 11, fisso la chiamata sul calendar! Buon weekend 🙂"
+        },
+        {
+          "date": "2026-06-11",
+          "type": "manual",
+          "sender": "Antonio",
+          "snippet": "Ciao Ginevra e Massimiliano! Come va? Intanto grazie ancora per la chiacchierata dell'altro giorno, è stato utile. Ho avuto modo di fare un po' di brainstorming, sia da solo che con il team."
         }
       ],
       "scheduled_timeline": {
@@ -819,15 +835,15 @@
         "out_date": "2026-07-30"
       },
       "last_outbound_by_antonio": {
-        "date": "2026-06-05",
-        "snippet": "Ciao Ginevra! Tranquilla! Va benissimo per martedi alle 11, fisso la chiamata sul calendar! Buon weekend 🙂 Antonio"
+        "date": "2026-06-11",
+        "snippet": "Ciao Ginevra e Massimiliano! Come va? Intanto grazie ancora per la chiacchierata dell'altro giorno, è stato utile. Ho avuto modo di fare un po' di brainstorming, sia da solo che con il team."
       },
       "last_reply_from_prospect": {
         "date": "2026-06-04",
         "snippet": "Ciao Antonio, Spero tutto okay. Perdonami la tarda risposta, sono giornate un pochino piene. Direi di fare la settimana prossima, che dici? Dimmi tu uno slot in cui sei disponibile e vediamo di organizzarci."
       },
-      "next_action": "CALL ORE 11:00 OGGI 10/06 — Ginevra Giannelli (Digital Art Director, +39 3385425272) via Google Meet. Confermato da Antonio il 05/06: 'Va benissimo per martedì alle 11!'",
-      "next_action_date": "2026-06-10",
+      "next_action": "Attesa risposta proposta post-call — follow-up inviato 11/06 a Ginevra e Massimiliano",
+      "next_action_date": null,
       "timeline": [
         {
           "date": "2026-05-26",
@@ -884,6 +900,14 @@
         {
           "date": "2026-06-05",
           "action": "Antonio conferma call martedì 10 giugno ore 11:00: 'Va benissimo per martedì alle 11, fisso la chiamata sul calendar!'"
+        },
+        {
+          "date": "2026-06-10",
+          "action": "Call avvenuta con Ginevra Giannelli e Massimiliano (Société Anonyme) — ore 11:00"
+        },
+        {
+          "date": "2026-06-11",
+          "action": "Follow-up post-call inviato da Antonio: proposta saldi estivi (Google Ads + fix tracking GA4/Shopify) + Step 2 DTC FW26. Destinatari: Ginevra + Massimiliano."
         }
       ]
     },
@@ -924,8 +948,8 @@
         "date": "2026-05-26",
         "snippet": "Ciao Antonio, certo, parliamone al telefono. Puoi contattarmi al 3381572496 Saluti, Luca"
       },
-      "next_action": "URGENTE — chiamare Luca al 3381572496. Ha chiesto call telefonica il 26/05, 15 giorni fa. FU-1 schedulato 10/06.",
-      "next_action_date": "2026-06-10",
+      "next_action": "URGENTE — chiamare Luca al 3381572496. Ha chiesto call telefonica il 26/05, 16 giorni fa. FU-1 schedulato 10/06 scaduto.",
+      "next_action_date": "2026-06-12",
       "timeline": [
         {
           "date": "2026-05-26",
