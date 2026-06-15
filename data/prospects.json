@@ -1,7 +1,7 @@
 {
   "meta": {
-    "last_updated": "2026-06-11T13:00:00+02:00",
-    "total_contacted": 378,
+    "last_updated": "2026-06-15T06:05:00+02:00",
+    "total_contacted": 379,
     "total_replied": 13,
     "total_bounced": 50,
     "total_autoresponse": 13,
@@ -28,8 +28,8 @@
       "status": "in_conversation",
       "first_contact": "2026-04-30",
       "last_activity": "2026-05-30",
-      "next_action": "Follow-up urgente — 30 giorni da ultima risposta Victoire (2026-05-12). Bump '?' inviato 30/05, nessuna risposta.",
-      "next_action_date": "2026-06-12",
+      "next_action": "Follow-up urgente — 34 giorni da ultima risposta Victoire (2026-05-12). Bump '?' inviato 30/05. Nessuna risposta.",
+      "next_action_date": "2026-06-16",
       "stape_score": 39,
       "notes": "Founder & CEO. Ha chiesto il report dopo bump del 12/05. Inviato report Stape completo il 13/05 (Ads 44/100).",
       "thread_id": "19ddac7248b1a78a",
@@ -119,9 +119,9 @@
       "platform": "Shopify",
       "status": "in_conversation",
       "first_contact": "2026-05-01",
-      "last_activity": "2026-05-27",
-      "next_action": "Follow-up urgente — 35 giorni da ultima risposta Valeria (2026-05-07). Ultimo FU 27/05: 'l ultima volta che mi faccio vivo'.",
-      "next_action_date": "2026-06-12",
+      "last_activity": "2026-06-15",
+      "next_action": "In attesa risposta — bump '?' inviato 15/06. 39 giorni da ultima risposta Valeria (2026-05-07).",
+      "next_action_date": "2026-06-18",
       "stape_score": null,
       "notes": "Risposta positiva il 07/05. Inviato video di analisi (10 min) l'08/05. Bump il 12/05. FU inviato il 20/05: ha avuto modo di vedere il video?",
       "thread_id": "19e026540b01048b",
@@ -145,6 +145,10 @@
         {
           "date": "2026-05-20",
           "action": "FU inviato (Claude/Cowork): ha avuto modo di vedere il video?"
+        },
+        {
+          "date": "2026-06-15",
+          "action": "FU brevissimo inviato da Antonio: '?' (bump email). 39 giorni da ultima risposta Valeria (2026-05-07)."
         }
       ],
       "label_id": "Label_8658624016447790536",
@@ -180,11 +184,17 @@
           "type": "manual",
           "sender": "Antonio",
           "snippet": "Ciao Valeria, l'ultima volta che mi faccio vivo — se il video le è piaciuto e c'è qualcosa su cui vuole muoversi, sono qui. Se invece non è il momento giusto, nessun probl"
+        },
+        {
+          "date": "2026-06-15",
+          "type": "manual",
+          "sender": "Antonio",
+          "snippet": "?"
         }
       ],
       "last_outbound_by_antonio": {
-        "date": "2026-05-27",
-        "snippet": "Ciao Valeria, l'ultima volta che mi faccio vivo — se il video le è piaciuto e c'è qualcosa su cui vuole muoversi, sono qui. Se invece non è il momento giusto, nessun probl"
+        "date": "2026-06-15",
+        "snippet": "?"
       },
       "last_reply_from_prospect": {
         "date": "2026-05-07",
@@ -214,8 +224,8 @@
       "status": "in_conversation",
       "first_contact": "2026-05-01",
       "last_activity": "2026-05-27",
-      "next_action": "Follow-up urgente — 24 giorni da ultima risposta Nicolò (2026-05-18). Ultimo FU 27/05: check eCommerce + virtual try-on.",
-      "next_action_date": "2026-06-12",
+      "next_action": "Follow-up urgente — 28 giorni da ultima risposta Nicolò (2026-05-18). Ultimo FU 27/05. Nessuna risposta.",
+      "next_action_date": "2026-06-16",
       "stape_score": null,
       "notes": "Email personale (nicodeka03@gmail.com). Risposta positiva il 07/05. Video inviato l'08/05. Risposta 13/05: molto insightful. Il 18/05: allega CV (off-topic). Antonio risponde il 19/05.",
       "thread_id": "19e02604b5efa2cb",
@@ -320,8 +330,8 @@
       "status": "in_conversation",
       "first_contact": "2026-05-13",
       "last_activity": "2026-05-27",
-      "next_action": "Follow-up urgente — 27 giorni da ultima risposta Sara (2026-05-15). Ultimo FU 27/05: verifica 'chi di competenza'.",
-      "next_action_date": "2026-06-12",
+      "next_action": "Follow-up urgente — 31 giorni da ultima risposta Sara (2026-05-15). Ultimo FU 27/05. Nessuna risposta.",
+      "next_action_date": "2026-06-16",
       "stape_score": null,
       "notes": "Luxury boutique Casale Monferrato",
       "thread_id": "19e213be13545c0d",
@@ -394,7 +404,7 @@
       "platform": "Shopify",
       "status": "in_conversation",
       "first_contact": "2026-05-15",
-      "last_activity": "2026-05-25",
+      "last_activity": "2026-06-15",
       "multi_to": false,
       "had_cc_bcc": false,
       "redirect_to": null,
@@ -413,6 +423,12 @@
           "type": "manual",
           "sender": "Antonio",
           "snippet": "Ciao Caterina, hai avuto modo di vedere il video? Fammi sapere se ha senso sentirci."
+        },
+        {
+          "date": "2026-06-15",
+          "type": "manual",
+          "sender": "Antonio",
+          "snippet": "?"
         }
       ],
       "scheduled_timeline": {
@@ -423,15 +439,15 @@
         "out_date": "2026-07-21"
       },
       "last_outbound_by_antonio": {
-        "date": "2026-05-25",
-        "snippet": "Ciao Caterina, hai avuto modo di vedere il video? Fammi sapere se ha senso sentirci."
+        "date": "2026-06-15",
+        "snippet": "?"
       },
       "last_reply_from_prospect": {
         "date": "2026-05-15",
         "snippet": "Ciao Antonio, Thank you for your email. I would be happy to have a look at your report, why not ;) Best, Caterina Zorzan E-commerce Manager"
       },
-      "next_action": "Follow-up urgente — 27 giorni da ultima risposta Caterina (2026-05-15). Ultimo FU 25/05: ha visto il video?",
-      "next_action_date": "2026-06-12",
+      "next_action": "In attesa risposta — bump '?' inviato 15/06. 31 giorni da ultima risposta Caterina (2026-05-15).",
+      "next_action_date": "2026-06-18",
       "timeline": [
         {
           "date": "2026-05-15",
@@ -448,6 +464,10 @@
         {
           "date": "2026-05-25",
           "action": "FU inviato da Antonio: ha avuto modo di vedere il video?"
+        },
+        {
+          "date": "2026-06-15",
+          "action": "FU brevissimo inviato da Antonio: '?' (bump email). 31 giorni da ultima risposta Caterina (2026-05-15)."
         }
       ]
     },
@@ -466,7 +486,7 @@
       "thread_id": "19e3c256514923a0",
       "status": "in_conversation",
       "first_contact": "2026-05-18",
-      "last_activity": "2026-05-28",
+      "last_activity": "2026-06-12",
       "multi_to": false,
       "had_cc_bcc": false,
       "redirect_to": null,
@@ -490,6 +510,12 @@
           "type": "manual",
           "sender": "Antonio",
           "snippet": "Ciao Andrea! Guarda la settimana che viene sono un attimo preso, ci vogliamo fare una chiacchierata la settimana dopo tipo il 9 o il 10 giugno di mattina?"
+        },
+        {
+          "date": "2026-06-12",
+          "type": "manual",
+          "sender": "Antonio",
+          "snippet": "Ciao Andrea! Come va? Vogliamo fare una chiacchierata e vedere se posso supportarti in qualcosa? :)"
         }
       ],
       "scheduled_timeline": {
@@ -500,15 +526,15 @@
         "out_date": "2026-07-22"
       },
       "last_outbound_by_antonio": {
-        "date": "2026-05-28",
-        "snippet": "Ciao Andrea! Guarda la settimana che viene sono un attimo preso, ci vogliamo fare una chiacchierata la settimana dopo tipo il 9 o il 10 giugno di mattina?"
+        "date": "2026-06-12",
+        "snippet": "Ciao Andrea! Come va? Vogliamo fare una chiacchierata e vedere se posso supportarti in qualcosa? :)"
       },
       "last_reply_from_prospect": {
         "date": "2026-05-28",
         "snippet": "Ciao Antonio, grazie mille per l'analisi, mi piacerebbe saperne di più, a presto, Andrea"
       },
-      "next_action": "Call proposta 9-10 giugno scaduta senza conferma — 14 giorni da ultima risposta Andrea (2026-05-28). FU urgente.",
-      "next_action_date": "2026-06-12",
+      "next_action": "In attesa risposta — FU inviato 12/06. 18 giorni da ultima risposta Andrea (2026-05-28).",
+      "next_action_date": "2026-06-16",
       "timeline": [
         {
           "date": "2026-05-18",
@@ -541,6 +567,10 @@
         {
           "date": "2026-05-28",
           "action": "Antonio propone call 9 o 10 giugno mattina"
+        },
+        {
+          "date": "2026-06-12",
+          "action": "FU inviato da Antonio: 'Ciao Andrea! Come va? Vogliamo fare una chiacchierata?' (18 giorni da ultima risposta Andrea)"
         }
       ],
       "skip": false,
@@ -602,8 +632,8 @@
         "date": "2026-05-19",
         "snippet": "sono a conoscenza del problema di tracking e verrà risolto oggi in giornata"
       },
-      "next_action": "Follow-up urgente — 23 giorni da ultima risposta ecommerce@ (2026-05-19). Doppio FU inviato 25/05.",
-      "next_action_date": "2026-06-12",
+      "next_action": "Follow-up urgente — 27 giorni da ultima risposta ecommerce@ (2026-05-19). Doppio FU inviato 25/05. Nessuna risposta.",
+      "next_action_date": "2026-06-16",
       "timeline": [
         {
           "date": "2026-05-18",
@@ -674,8 +704,8 @@
         "date": "2026-05-19",
         "snippet": "Before considering a call, could you share the case study and the full Stape audit (URL tested, scan date, detected issues, recommended fixes)?"
       },
-      "next_action": "Attesa risposta post-bump '?' del 11/06 — 23 giorni da ultima risposta Björn (2026-05-19)",
-      "next_action_date": null,
+      "next_action": "Follow-up urgente — 27 giorni da ultima risposta Björn (2026-05-19). Bump '?' inviato 11/06. Nessuna risposta.",
+      "next_action_date": "2026-06-18",
       "timeline": [
         {
           "date": "2026-05-18",
@@ -842,8 +872,8 @@
         "date": "2026-06-04",
         "snippet": "Ciao Antonio, Spero tutto okay. Perdonami la tarda risposta, sono giornate un pochino piene. Direi di fare la settimana prossima, che dici? Dimmi tu uno slot in cui sei disponibile e vediamo di organizzarci."
       },
-      "next_action": "Attesa risposta proposta post-call — follow-up inviato 11/06 a Ginevra e Massimiliano",
-      "next_action_date": null,
+      "next_action": "Attesa risposta proposta post-call — FU inviato 11/06 a Ginevra e Massimiliano. 11 giorni da ultima risposta Ginevra (2026-06-04).",
+      "next_action_date": "2026-06-18",
       "timeline": [
         {
           "date": "2026-05-26",
@@ -948,8 +978,8 @@
         "date": "2026-05-26",
         "snippet": "Ciao Antonio, certo, parliamone al telefono. Puoi contattarmi al 3381572496 Saluti, Luca"
       },
-      "next_action": "URGENTE — chiamare Luca al 3381572496. Ha chiesto call telefonica il 26/05, 16 giorni fa. FU-1 schedulato 10/06 scaduto.",
-      "next_action_date": "2026-06-12",
+      "next_action": "URGENTE — chiamare Luca al 3381572496. 20 giorni da risposta (2026-05-26). Richiesta call telefonica. FU-1 email scaduto 10/06.",
+      "next_action_date": "2026-06-16",
       "timeline": [
         {
           "date": "2026-05-26",
@@ -19011,6 +19041,50 @@
         }
       ],
       "skip": false
+    },
+    {
+      "id": "prospect_403",
+      "brand": "Colognese",
+      "contact": "Elisa",
+      "email": "ecommerce@colognese.com",
+      "domain": "colognese.com",
+      "subject_email": "Report colognese.com - tracking e opportunità",
+      "assigned_to": "Antonio",
+      "sender": "Antonio",
+      "label_id": null,
+      "angle": "1A",
+      "platform": "non-Shopify",
+      "status": "contacted",
+      "first_contact": "2026-06-12",
+      "last_activity": "2026-06-12",
+      "multi_to": false,
+      "had_cc_bcc": false,
+      "redirect_to": null,
+      "stape_score": 42,
+      "notes": "Contatto via LinkedIn (come promesso su LinkedIn). Report CRO + tracking (Stape 42/100) + GTmetrix D inviato via email. Stesso dominio di prospect_017 (elisa_zini2002@yahoo.com). Luxury boutique Montebelluna.",
+      "thread_id": "19ebb1100b8adf9d",
+      "skip": false,
+      "followups_sent": [],
+      "scheduled_timeline": {
+        "first_email": "2026-06-12",
+        "follow_up_1": "2026-06-26",
+        "follow_up_2": "2026-07-17",
+        "follow_up_3": "2026-08-27",
+        "out_date": "2026-08-28"
+      },
+      "next_action": "Follow-up 1",
+      "next_action_date": "2026-06-26",
+      "timeline": [
+        {
+          "date": "2026-06-12",
+          "action": "Prima email inviata da Antonio via LinkedIn — report CRO + tracking (Stape 42/100) + GTmetrix D. Proposta call 20-30 min."
+        }
+      ],
+      "last_outbound_by_antonio": {
+        "date": "2026-06-12",
+        "snippet": "Buongiorno Elisa, come promesso su LinkedIn, ecco il report. Ho analizzato il sito come farebbe un vostro cliente: ho navigato, ho provato"
+      },
+      "last_reply_from_prospect": null
     }
   ],
   "bounced": [
