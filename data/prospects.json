@@ -1,6 +1,6 @@
 {
   "meta": {
-    "last_updated": "2026-06-16T06:05:00+02:00",
+    "last_updated": "2026-06-17T06:05:00+02:00",
     "total_contacted": 379,
     "total_replied": 13,
     "total_bounced": 50,
@@ -28,8 +28,8 @@
       "status": "in_conversation",
       "first_contact": "2026-04-30",
       "last_activity": "2026-05-30",
-      "next_action": "Follow-up urgente — 35 giorni da ultima risposta Victoire (2026-05-12). Bump '?' inviato 30/05. Nessuna risposta.",
-      "next_action_date": "2026-06-17",
+      "next_action": "Follow-up urgente — 36 giorni da ultima risposta Victoire (2026-05-12). Bump '?' inviato 30/05. Nessuna risposta.",
+      "next_action_date": "2026-06-18",
       "stape_score": 39,
       "notes": "Founder & CEO. Ha chiesto il report dopo bump del 12/05. Inviato report Stape completo il 13/05 (Ads 44/100).",
       "thread_id": "19ddac7248b1a78a",
@@ -224,8 +224,8 @@
       "status": "in_conversation",
       "first_contact": "2026-05-01",
       "last_activity": "2026-05-27",
-      "next_action": "Follow-up urgente — 29 giorni da ultima risposta Nicolò (2026-05-18). Ultimo FU 27/05. Nessuna risposta.",
-      "next_action_date": "2026-06-17",
+      "next_action": "Follow-up urgente — 30 giorni da ultima risposta Nicolò (2026-05-18). Ultimo FU 27/05. Nessuna risposta.",
+      "next_action_date": "2026-06-18",
       "stape_score": null,
       "notes": "Email personale (nicodeka03@gmail.com). Risposta positiva il 07/05. Video inviato l'08/05. Risposta 13/05: molto insightful. Il 18/05: allega CV (off-topic). Antonio risponde il 19/05.",
       "thread_id": "19e02604b5efa2cb",
@@ -330,8 +330,8 @@
       "status": "in_conversation",
       "first_contact": "2026-05-13",
       "last_activity": "2026-05-27",
-      "next_action": "Follow-up urgente — 32 giorni da ultima risposta Sara (2026-05-15). Ultimo FU 27/05. Nessuna risposta.",
-      "next_action_date": "2026-06-17",
+      "next_action": "Follow-up urgente — 33 giorni da ultima risposta Sara (2026-05-15). Ultimo FU 27/05. Nessuna risposta.",
+      "next_action_date": "2026-06-18",
       "stape_score": null,
       "notes": "Luxury boutique Casale Monferrato",
       "thread_id": "19e213be13545c0d",
@@ -533,8 +533,8 @@
         "date": "2026-05-28",
         "snippet": "Ciao Antonio, grazie mille per l'analisi, mi piacerebbe saperne di più, a presto, Andrea"
       },
-      "next_action": "In attesa risposta — FU inviato 12/06. 19 giorni da ultima risposta Andrea (2026-05-28).",
-      "next_action_date": "2026-06-17",
+      "next_action": "Follow-up urgente — FU inviato 12/06. 20 giorni da ultima risposta Andrea (2026-05-28).",
+      "next_action_date": "2026-06-18",
       "timeline": [
         {
           "date": "2026-05-18",
@@ -632,8 +632,8 @@
         "date": "2026-05-19",
         "snippet": "sono a conoscenza del problema di tracking e verrà risolto oggi in giornata"
       },
-      "next_action": "Follow-up urgente — 28 giorni da ultima risposta ecommerce@ (2026-05-19). Doppio FU inviato 25/05. Nessuna risposta.",
-      "next_action_date": "2026-06-17",
+      "next_action": "Follow-up urgente — 29 giorni da ultima risposta ecommerce@ (2026-05-19). Doppio FU inviato 25/05. Nessuna risposta.",
+      "next_action_date": "2026-06-18",
       "timeline": [
         {
           "date": "2026-05-18",
@@ -824,7 +824,7 @@
       "platform": "non-Shopify",
       "status": "in_conversation",
       "first_contact": "2026-05-26",
-      "last_activity": "2026-06-11",
+      "last_activity": "2026-06-17",
       "multi_to": false,
       "had_cc_bcc": false,
       "redirect_to": null,
@@ -865,14 +865,14 @@
         "out_date": "2026-07-30"
       },
       "last_outbound_by_antonio": {
-        "date": "2026-06-11",
-        "snippet": "Ciao Ginevra e Massimiliano! Come va? Intanto grazie ancora per la chiacchierata dell'altro giorno, è stato utile. Ho avuto modo di fare un po' di brainstorming, sia da solo che con il team."
+        "date": "2026-06-17",
+        "snippet": "Ciao Ginevra! Come va ? Avete novità? Come è andata la promo via email? Fammi sapere son curioso"
       },
       "last_reply_from_prospect": {
         "date": "2026-06-04",
         "snippet": "Ciao Antonio, Spero tutto okay. Perdonami la tarda risposta, sono giornate un pochino piene. Direi di fare la settimana prossima, che dici? Dimmi tu uno slot in cui sei disponibile e vediamo di organizzarci."
       },
-      "next_action": "Attesa risposta proposta post-call — FU inviato 11/06 a Ginevra e Massimiliano. 12 giorni da ultima risposta Ginevra (2026-06-04).",
+      "next_action": "Follow-up urgente — bump inviato 17/06. 13 giorni da ultima risposta Ginevra (2026-06-04).",
       "next_action_date": "2026-06-18",
       "timeline": [
         {
@@ -938,6 +938,10 @@
         {
           "date": "2026-06-11",
           "action": "Follow-up post-call inviato da Antonio: proposta saldi estivi (Google Ads + fix tracking GA4/Shopify) + Step 2 DTC FW26. Destinatari: Ginevra + Massimiliano."
+        },
+        {
+          "date": "2026-06-17",
+          "action": "Email inviata da Antonio — 'Ciao Ginevra! Come va ? Avete novità? Come è andata la promo via email?'"
         }
       ]
     },
@@ -978,8 +982,8 @@
         "date": "2026-05-26",
         "snippet": "Ciao Antonio, certo, parliamone al telefono. Puoi contattarmi al 3381572496 Saluti, Luca"
       },
-      "next_action": "URGENTE — chiamare Luca al 3381572496. 21 giorni da risposta (2026-05-26). Richiesta call telefonica. FU-1 email scaduto 10/06.",
-      "next_action_date": "2026-06-17",
+      "next_action": "URGENTE — chiamare Luca al 3381572496. 22 giorni da risposta (2026-05-26). Richiesta call telefonica.",
+      "next_action_date": "2026-06-18",
       "timeline": [
         {
           "date": "2026-05-26",
