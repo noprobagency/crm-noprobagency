@@ -12598,7 +12598,7 @@
       "next_action": "Follow-up 2",
       "next_action_date": "2026-06-19",
       "stape_score": null,
-      "notes": "Luxury boutique Mantova",
+      "notes": "Luxury boutique Mantova [skip:true — stesso dominio di prospect_018 che ha chiesto di cancellarsi]",
       "thread_id": "19e2712de825de14",
       "timeline": [
         {
@@ -12636,7 +12636,8 @@
         "follow_up_3": "2026-07-17",
         "out_date": "2026-07-20"
       },
-      "subject_email": "Problema su bernardellistores.com"
+      "subject_email": "Problema su bernardellistores.com",
+      "skip": true
     },
     {
       "id": "prospect_206",
