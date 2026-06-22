@@ -1,8 +1,8 @@
 {
   "meta": {
-    "last_updated": "2026-06-25T09:00:00+02:00",
+    "last_updated": "2026-06-26T06:15:00+02:00",
     "total_contacted": 316,
-    "total_replied": 9,
+    "total_replied": 10,
     "total_bounced": 46,
     "total_autoresponse": 12,
     "first_run": false,
@@ -97,11 +97,11 @@
       "platform": "Shopify",
       "status": "in_conversation",
       "first_contact": "2026-05-01",
-      "last_activity": "2026-05-20",
+      "last_activity": "2026-06-15",
       "next_action": "Follow-up urgente",
       "next_action_date": "2026-06-26",
       "stape_score": null,
-      "notes": "Risposta positiva il 07/05. Inviato video di analisi (10 min) l'08/05. Bump il 12/05. FU inviato il 20/05: ha avuto modo di vedere il video?",
+      "notes": "Risposta positiva il 07/05. Inviato video di analisi (10 min) l'08/05. Bump il 12/05. FU inviato il 20/05: ha avuto modo di vedere il video? | 27/05: FU 'ultima volta'. 15/06: '?' di follow-up. Risposta ancora attesa.",
       "thread_id": "19e026540b01048b",
       "timeline": [
         {
@@ -123,6 +123,14 @@
         {
           "date": "2026-05-20",
           "action": "FU inviato (da Claude/Cowork): ha avuto modo di vedere il video?"
+        },
+        {
+          "date": "2026-05-27",
+          "action": "FU inviato da Antonio: 'l'ultima volta che mi faccio vivo'"
+        },
+        {
+          "date": "2026-06-15",
+          "action": "Follow-up Antonio: '?' — check brevissimo (nessuna risposta)"
         }
       ],
       "label_id": "Label_8658624016447790536",
@@ -146,11 +154,23 @@
           "type": "manual",
           "sender": "Antonio",
           "snippet": "Ciao Valeria, volevo solo verificare che il video fosse arrivato, ha avuto modo di vederlo?"
+        },
+        {
+          "date": "2026-05-27",
+          "type": "manual",
+          "sender": "Antonio",
+          "snippet": "l'ultima volta che mi faccio vivo — se il video le è piaciuto e c'è qualcosa su cui"
+        },
+        {
+          "date": "2026-06-15",
+          "type": "manual",
+          "sender": "Antonio",
+          "snippet": "? (follow-up brevissimo)"
         }
       ],
       "last_outbound_by_antonio": {
-        "date": "2026-05-12",
-        "snippet": "Ciao Valeria, volevo solo verificare che il video fosse arrivato, ha avuto modo di vederlo?"
+        "date": "2026-06-15",
+        "snippet": "? (follow-up brevissimo, in attesa risposta Valeria)"
       },
       "last_reply_from_prospect": {
         "date": "2026-05-07",
@@ -637,6 +657,81 @@
         "out_date": "2026-07-13"
       },
       "subject_email": "[RE]: Report julian-fashion.com"
+    },
+    {
+      "id": "prospect_233",
+      "brand": "Primrose Park",
+      "contact": "Jennifer",
+      "email": "jennifer@primroseparkmpls.com",
+      "domain": "primroseparkmpls.com",
+      "subject_email": "Primrose Park, the numbers aren't adding up",
+      "assigned_to": "Dami",
+      "sender": "Dami",
+      "label_id": "Label_8658624016447790536",
+      "angle": "1A",
+      "platform": "non-Shopify",
+      "thread_id": "19e2c2162ff35523",
+      "status": "in_conversation",
+      "first_contact": "2026-05-15",
+      "last_activity": "2026-06-22",
+      "multi_to": false,
+      "had_cc_bcc": false,
+      "redirect_to": null,
+      "stape_score": null,
+      "notes": "Risposta 22/06: 'Remove me.' — unsubscribe Jennifer Carnahan. Gestire manualmente.",
+      "followups_sent": [
+        {
+          "date": "2026-06-18",
+          "type": "follow_up_1",
+          "sender": "Antonio",
+          "snippet": "Rimando su nel caso, fammi sapere se ha senso parlarne."
+        },
+        {
+          "date": "2026-06-22",
+          "type": "follow_up_2",
+          "sender": "Claude",
+          "snippet": "Following up one more time, with summer in full swing, I thought it was a good moment to check back in."
+        }
+      ],
+      "scheduled_timeline": {
+        "first_email": "2026-05-15",
+        "follow_up_1": "2026-05-29",
+        "follow_up_2": "2026-06-22",
+        "follow_up_3": "2026-07-20",
+        "out_date": "2026-07-21"
+      },
+      "last_outbound_by_antonio": {
+        "date": "2026-06-22",
+        "snippet": "Following up one more time, with summer in full swing, I thought it was a good moment to check back in."
+      },
+      "last_reply_from_prospect": {
+        "date": "2026-06-22",
+        "snippet": "Remove me. (Jennifer Carnahan, Primrose Park)"
+      },
+      "next_action": "Risposta: 'Remove me.' — gestire manualmente (archiviare e rispondere)",
+      "next_action_date": "2026-06-26",
+      "timeline": [
+        {
+          "date": "2026-05-15",
+          "action": "Email outbound 1A inviata da Dami"
+        },
+        {
+          "date": "2026-06-18",
+          "action": "Follow-up 1 inviato"
+        },
+        {
+          "date": "2026-06-22",
+          "action": "Follow-up 2 inviato"
+        },
+        {
+          "date": "2026-06-22",
+          "action": "Risposta ricevuta: 'Remove me.' — Jennifer Carnahan (richiesta rimozione)"
+        }
+      ],
+      "is_first_email": true,
+      "first_email_snippet": "Ciao Jennifer, mi sono imbattuto in Primrose Park cercando le migliori realtà fashion del settore. Ho visto la piattaforma che state usando per le vendite online, la conosco molto bene.",
+      "next_followup_due": "2026-07-20",
+      "days_since_last_activity": -36
     }
   ],
   "no_reply": [
@@ -13657,74 +13752,6 @@
       ],
       "is_first_email": true,
       "first_email_snippet": "Ciao Sally, mi sono imbattuto in Somerville Scarves cercando le migliori realtà fashion del settore. Ho visto la piattaforma che state usando per le vendite online, la conosco molto bene.",
-      "next_followup_due": "2026-07-20",
-      "days_since_last_activity": -36
-    },
-    {
-      "id": "prospect_233",
-      "brand": "Primrose Park",
-      "contact": "Jennifer",
-      "email": "jennifer@primroseparkmpls.com",
-      "domain": "primroseparkmpls.com",
-      "subject_email": "Primrose Park, the numbers aren't adding up",
-      "assigned_to": "Dami",
-      "sender": "Dami",
-      "label_id": "Label_8658624016447790536",
-      "angle": "1A",
-      "platform": "non-Shopify",
-      "thread_id": "19e2c2162ff35523",
-      "status": "follow_up_2_sent",
-      "first_contact": "2026-05-15",
-      "last_activity": "2026-06-22",
-      "multi_to": false,
-      "had_cc_bcc": false,
-      "redirect_to": null,
-      "stape_score": null,
-      "notes": "",
-      "followups_sent": [
-        {
-          "date": "2026-06-18",
-          "type": "follow_up_1",
-          "sender": "Antonio",
-          "snippet": "Rimando su nel caso, fammi sapere se ha senso parlarne."
-        },
-        {
-          "date": "2026-06-22",
-          "type": "follow_up_2",
-          "sender": "Claude",
-          "snippet": "Following up one more time, with summer in full swing, I thought it was a good moment to check back in."
-        }
-      ],
-      "scheduled_timeline": {
-        "first_email": "2026-05-15",
-        "follow_up_1": "2026-05-29",
-        "follow_up_2": "2026-06-22",
-        "follow_up_3": "2026-07-20",
-        "out_date": "2026-07-21"
-      },
-      "last_outbound_by_antonio": {
-        "date": "2026-06-22",
-        "snippet": "Following up one more time, with summer in full swing, I thought it was a good moment to check back in."
-      },
-      "last_reply_from_prospect": null,
-      "next_action": "Follow-up 3",
-      "next_action_date": "2026-07-20",
-      "timeline": [
-        {
-          "date": "2026-05-15",
-          "action": "Email outbound 1A inviata da Dami"
-        },
-        {
-          "date": "2026-06-18",
-          "action": "Follow-up 1 inviato"
-        },
-        {
-          "date": "2026-06-22",
-          "action": "Follow-up 2 inviato"
-        }
-      ],
-      "is_first_email": true,
-      "first_email_snippet": "Ciao Jennifer, mi sono imbattuto in Primrose Park cercando le migliori realtà fashion del settore. Ho visto la piattaforma che state usando per le vendite online, la conosco molto bene.",
       "next_followup_due": "2026-07-20",
       "days_since_last_activity": -36
     },
