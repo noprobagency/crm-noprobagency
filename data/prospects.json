@@ -1,8 +1,8 @@
 {
   "meta": {
-    "last_updated": "2026-06-26T06:15:00+02:00",
-    "total_contacted": 316,
-    "total_replied": 10,
+    "last_updated": "2026-06-26T06:30:00+02:00",
+    "total_contacted": 317,
+    "total_replied": 11,
     "total_bounced": 46,
     "total_autoresponse": 12,
     "first_run": false,
@@ -29,7 +29,7 @@
       "first_contact": "2026-04-30",
       "last_activity": "2026-05-25",
       "next_action": "Follow-up urgente",
-      "next_action_date": "2026-06-26",
+      "next_action_date": "2026-06-29",
       "stape_score": 39,
       "notes": "Founder & CEO. Ha chiesto il report dopo bump del 12/05. Inviato report Stape completo il 13/05 (Ads 44/100).",
       "thread_id": "19ddac7248b1a78a",
@@ -99,7 +99,7 @@
       "first_contact": "2026-05-01",
       "last_activity": "2026-06-15",
       "next_action": "Follow-up urgente",
-      "next_action_date": "2026-06-26",
+      "next_action_date": "2026-06-29",
       "stape_score": null,
       "notes": "Risposta positiva il 07/05. Inviato video di analisi (10 min) l'08/05. Bump il 12/05. FU inviato il 20/05: ha avuto modo di vedere il video? | 27/05: FU 'ultima volta'. 15/06: '?' di follow-up. Risposta ancora attesa.",
       "thread_id": "19e026540b01048b",
@@ -201,7 +201,7 @@
       "first_contact": "2026-05-01",
       "last_activity": "2026-05-13",
       "next_action": "Follow-up urgente",
-      "next_action_date": "2026-06-26",
+      "next_action_date": "2026-06-29",
       "stape_score": null,
       "notes": "Email personale (nicodeka03@gmail.com). Risposta positiva il 07/05 ('Manda pure'). Video inviato l'08/05. Bump il 12/05. Risposta 13/05: molto insightful. Il 18/05: allega CV (off-topic). Antonio risponde il 19/05.",
       "thread_id": "19e02604b5efa2cb",
@@ -295,7 +295,7 @@
       "first_contact": "2026-05-13",
       "last_activity": "2026-05-15",
       "next_action": "Follow-up urgente",
-      "next_action_date": "2026-06-26",
+      "next_action_date": "2026-06-29",
       "stape_score": null,
       "notes": "Luxury boutique Casale Monferrato",
       "thread_id": "19e213be13545c0d",
@@ -372,7 +372,7 @@
         "snippet": "Ciao Antonio, Thank you for your email. I would be happy to have a look at your report, why not ;) Best, Caterina Zorzan E-commerce Manager"
       },
       "next_action": "Follow-up urgente",
-      "next_action_date": "2026-06-26",
+      "next_action_date": "2026-06-29",
       "timeline": [
         {
           "date": "2026-05-15",
@@ -434,7 +434,7 @@
         "snippet": "Ciao Antonio, manda pure grazie, Andrea"
       },
       "next_action": "Follow-up urgente",
-      "next_action_date": "2026-06-26",
+      "next_action_date": "2026-06-29",
       "timeline": [
         {
           "date": "2026-05-18",
@@ -507,7 +507,7 @@
       },
       "last_reply_from_prospect": null,
       "next_action": "Follow-up urgente",
-      "next_action_date": "2026-06-26",
+      "next_action_date": "2026-06-29",
       "timeline": [
         {
           "date": "2026-05-18",
@@ -570,7 +570,7 @@
         "snippet": "Hi Antonio, Thank you for reaching out. Before considering a call, could you please share the case study and the full Stape audit you refer to, including the exact URL tested, scan date, detected issues."
       },
       "next_action": "Follow-up urgente",
-      "next_action_date": "2026-06-26",
+      "next_action_date": "2026-06-29",
       "timeline": [
         {
           "date": "2026-05-18",
@@ -608,7 +608,7 @@
       "first_contact": "2026-05-07",
       "last_activity": "2026-05-25",
       "next_action": "Follow-up urgente",
-      "next_action_date": "2026-06-26",
+      "next_action_date": "2026-06-29",
       "stape_score": null,
       "notes": "3Â° contatto Julian (Sabina, boutique Rimini)",
       "thread_id": "19e02644a834f247",
@@ -709,7 +709,7 @@
         "snippet": "Remove me. (Jennifer Carnahan, Primrose Park)"
       },
       "next_action": "Risposta: 'Remove me.' — gestire manualmente (archiviare e rispondere)",
-      "next_action_date": "2026-06-26",
+      "next_action_date": "2026-06-29",
       "timeline": [
         {
           "date": "2026-05-15",
@@ -732,6 +732,124 @@
       "first_email_snippet": "Ciao Jennifer, mi sono imbattuto in Primrose Park cercando le migliori realtà fashion del settore. Ho visto la piattaforma che state usando per le vendite online, la conosco molto bene.",
       "next_followup_due": "2026-07-20",
       "days_since_last_activity": -36
+    },
+    {
+      "id": "prospect_340",
+      "brand": "Société Anonyme",
+      "contact": "Ginevra Giannelli",
+      "email": "customerservice@societeanonyme.it",
+      "domain": "societeanonyme.it",
+      "subject_email": "Report societeanonyme.it tracciamento",
+      "assigned_to": "Manu",
+      "sender": "Manu",
+      "label_id": "Label_1592668050883672428",
+      "angle": "1A",
+      "platform": "non-Shopify",
+      "status": "in_conversation",
+      "first_contact": "2026-05-26",
+      "last_activity": "2026-06-23",
+      "multi_to": false,
+      "had_cc_bcc": true,
+      "redirect_to": null,
+      "stape_score": null,
+      "notes": "Ginevra Giannelli, Digital Art Director. Concept Store Firenze, Via GB Niccolini 3/f. Auto-risposta CS e risposta umana stessa giornata (26/05). Call fissata 28/05 poi spostata — effettuata ~9/06 con Ginevra e Massimiliano. Post-call brainstorming inviato 11/06. FU 17/06: 'avete novità? come è andata la promo via email?'. FU brevissimo 23/06 ('?'). In attesa risposta.",
+      "thread_id": "19e636f0db2e3be7",
+      "followups_sent": [
+        {
+          "date": "2026-06-11",
+          "type": "manual",
+          "sender": "Antonio",
+          "snippet": "Grazie ancora per la chiacchierata dell'altro giorno, è stato utile. Ho avuto modo di fare un po' di brainstorming, sia da solo che con il team."
+        },
+        {
+          "date": "2026-06-17",
+          "type": "manual",
+          "sender": "Antonio",
+          "snippet": "Come va? Avete novità? Come è andata la promo via email? Fammi sapere son curioso."
+        },
+        {
+          "date": "2026-06-23",
+          "type": "manual",
+          "sender": "Antonio",
+          "snippet": "? (follow-up brevissimo)"
+        }
+      ],
+      "scheduled_timeline": {
+        "first_email": "2026-05-26",
+        "follow_up_1": "2026-06-09",
+        "follow_up_2": "2026-06-30",
+        "follow_up_3": "2026-07-28",
+        "out_date": "2026-07-29"
+      },
+      "last_outbound_by_antonio": {
+        "date": "2026-06-23",
+        "snippet": "? (follow-up brevissimo)"
+      },
+      "last_reply_from_prospect": {
+        "date": "2026-06-04",
+        "snippet": "Spero tutto okay. Perdonami la tarda risposta, sono giornate un pochino piene. Direi di fare la settimana prossima, che dici?"
+      },
+      "next_action": "Follow-up urgente",
+      "next_action_date": "2026-06-29",
+      "timeline": [
+        {
+          "date": "2026-05-26",
+          "action": "Email outbound 1A inviata da Manu"
+        },
+        {
+          "date": "2026-05-26",
+          "action": "Auto-risposta CS ricevuta"
+        },
+        {
+          "date": "2026-05-26",
+          "action": "Risposta umana: Ginevra Giannelli — interesse confermato, tracking confermato"
+        },
+        {
+          "date": "2026-05-26",
+          "action": "Call fissata per giovedì 28/05 alle 15:00"
+        },
+        {
+          "date": "2026-05-28",
+          "action": "Antonio invia link Google Meet"
+        },
+        {
+          "date": "2026-05-29",
+          "action": "Ginevra: si scusa per assenza call (sbagliato giorno), ripropone orario"
+        },
+        {
+          "date": "2026-05-30",
+          "action": "Antonio propone 4 o 5 giugno alle 10"
+        },
+        {
+          "date": "2026-06-04",
+          "action": "Ginevra: 'giornate piene', propone settimana successiva"
+        },
+        {
+          "date": "2026-06-05",
+          "action": "Antonio conferma martedì 9/06 alle 11:00"
+        },
+        {
+          "date": "2026-06-09",
+          "action": "Call effettuata con Ginevra e Massimiliano"
+        },
+        {
+          "date": "2026-06-11",
+          "action": "Email post-call: brainstorming + analisi inviate da Antonio"
+        },
+        {
+          "date": "2026-06-17",
+          "action": "Follow-up Antonio: 'avete novità? come è andata la promo via email?'"
+        },
+        {
+          "date": "2026-06-23",
+          "action": "Follow-up brevissimo da Antonio: '?'"
+        }
+      ],
+      "skip": false,
+      "is_first_email": true,
+      "first_email_snippet": "Buongiorno, mi sono imbattuto in Société Anonyme cercando le migliori boutique multibrand del settore in Italia, a proposito, la boutique a Firenze è stupenda. Ho visto la piattaforma che state usando",
+      "next_followup_due": null,
+      "days_since_last_activity": 3
     }
   ],
   "no_reply": [
