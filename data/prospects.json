@@ -1,10 +1,10 @@
 {
   "meta": {
-    "last_updated": "2026-06-26T06:30:00+02:00",
-    "total_contacted": 317,
+    "last_updated": "2026-06-25T08:00:00+02:00",
+    "total_contacted": 318,
     "total_replied": 11,
     "total_bounced": 46,
-    "total_autoresponse": 12,
+    "total_autoresponse": 13,
     "first_run": false,
     "coverage_note": "First run â copre outbound visibili negli ultimi ~9 giorni (2026-05-06 â 2026-05-13). Le runs giornaliere successive aggiungeranno nuovi thread incrementalmente.",
     "schema_version": "v3",
@@ -29,7 +29,7 @@
       "first_contact": "2026-04-30",
       "last_activity": "2026-05-25",
       "next_action": "Follow-up urgente",
-      "next_action_date": "2026-06-29",
+      "next_action_date": "2026-06-26",
       "stape_score": 39,
       "notes": "Founder & CEO. Ha chiesto il report dopo bump del 12/05. Inviato report Stape completo il 13/05 (Ads 44/100).",
       "thread_id": "19ddac7248b1a78a",
@@ -99,7 +99,7 @@
       "first_contact": "2026-05-01",
       "last_activity": "2026-06-15",
       "next_action": "Follow-up urgente",
-      "next_action_date": "2026-06-29",
+      "next_action_date": "2026-06-26",
       "stape_score": null,
       "notes": "Risposta positiva il 07/05. Inviato video di analisi (10 min) l'08/05. Bump il 12/05. FU inviato il 20/05: ha avuto modo di vedere il video? | 27/05: FU 'ultima volta'. 15/06: '?' di follow-up. Risposta ancora attesa.",
       "thread_id": "19e026540b01048b",
@@ -201,7 +201,7 @@
       "first_contact": "2026-05-01",
       "last_activity": "2026-05-13",
       "next_action": "Follow-up urgente",
-      "next_action_date": "2026-06-29",
+      "next_action_date": "2026-06-26",
       "stape_score": null,
       "notes": "Email personale (nicodeka03@gmail.com). Risposta positiva il 07/05 ('Manda pure'). Video inviato l'08/05. Bump il 12/05. Risposta 13/05: molto insightful. Il 18/05: allega CV (off-topic). Antonio risponde il 19/05.",
       "thread_id": "19e02604b5efa2cb",
@@ -295,7 +295,7 @@
       "first_contact": "2026-05-13",
       "last_activity": "2026-05-15",
       "next_action": "Follow-up urgente",
-      "next_action_date": "2026-06-29",
+      "next_action_date": "2026-06-26",
       "stape_score": null,
       "notes": "Luxury boutique Casale Monferrato",
       "thread_id": "19e213be13545c0d",
@@ -372,7 +372,7 @@
         "snippet": "Ciao Antonio, Thank you for your email. I would be happy to have a look at your report, why not ;) Best, Caterina Zorzan E-commerce Manager"
       },
       "next_action": "Follow-up urgente",
-      "next_action_date": "2026-06-29",
+      "next_action_date": "2026-06-26",
       "timeline": [
         {
           "date": "2026-05-15",
@@ -434,7 +434,7 @@
         "snippet": "Ciao Antonio, manda pure grazie, Andrea"
       },
       "next_action": "Follow-up urgente",
-      "next_action_date": "2026-06-29",
+      "next_action_date": "2026-06-26",
       "timeline": [
         {
           "date": "2026-05-18",
@@ -507,7 +507,7 @@
       },
       "last_reply_from_prospect": null,
       "next_action": "Follow-up urgente",
-      "next_action_date": "2026-06-29",
+      "next_action_date": "2026-06-26",
       "timeline": [
         {
           "date": "2026-05-18",
@@ -570,7 +570,7 @@
         "snippet": "Hi Antonio, Thank you for reaching out. Before considering a call, could you please share the case study and the full Stape audit you refer to, including the exact URL tested, scan date, detected issues."
       },
       "next_action": "Follow-up urgente",
-      "next_action_date": "2026-06-29",
+      "next_action_date": "2026-06-26",
       "timeline": [
         {
           "date": "2026-05-18",
@@ -608,7 +608,7 @@
       "first_contact": "2026-05-07",
       "last_activity": "2026-05-25",
       "next_action": "Follow-up urgente",
-      "next_action_date": "2026-06-29",
+      "next_action_date": "2026-06-26",
       "stape_score": null,
       "notes": "3Â° contatto Julian (Sabina, boutique Rimini)",
       "thread_id": "19e02644a834f247",
@@ -709,7 +709,7 @@
         "snippet": "Remove me. (Jennifer Carnahan, Primrose Park)"
       },
       "next_action": "Risposta: 'Remove me.' — gestire manualmente (archiviare e rispondere)",
-      "next_action_date": "2026-06-29",
+      "next_action_date": "2026-06-25",
       "timeline": [
         {
           "date": "2026-05-15",
@@ -790,7 +790,7 @@
         "snippet": "Spero tutto okay. Perdonami la tarda risposta, sono giornate un pochino piene. Direi di fare la settimana prossima, che dici?"
       },
       "next_action": "Follow-up urgente",
-      "next_action_date": "2026-06-29",
+      "next_action_date": "2026-06-26",
       "timeline": [
         {
           "date": "2026-05-26",
@@ -18553,14 +18553,14 @@
       "angle": "1A",
       "platform": "non-Shopify",
       "thread_id": "19e3bb1bee0b1dd8",
-      "status": "follow_up_2_sent",
+      "status": "autoresponse",
       "first_contact": "2026-05-18",
       "last_activity": "2026-06-24",
       "multi_to": false,
       "had_cc_bcc": false,
       "redirect_to": null,
       "stape_score": null,
-      "notes": "",
+      "notes": "CS autoresponse ricevuto 24/06 in risposta a FU2. Attendere risposta team CS.",
       "followups_sent": [
         {
           "date": "2026-06-18",
@@ -18587,8 +18587,8 @@
         "snippet": "Following up one more time, with summer in full swing, I thought it was a good moment to check back in."
       },
       "last_reply_from_prospect": null,
-      "next_action": "Follow-up 3",
-      "next_action_date": "2026-07-21",
+      "next_action": "Attendere risposta CS",
+      "next_action_date": "2026-06-30",
       "timeline": [
         {
           "date": "2026-05-18",
@@ -18601,6 +18601,10 @@
         {
           "date": "2026-06-24",
           "action": "Follow-up 2 inviato"
+        },
+        {
+          "date": "2026-06-24",
+          "action": "Autoresponse CS ricevuto: Thank you for contacting Luisa World"
         }
       ],
       "skip": false,
@@ -20624,6 +20628,61 @@
       "first_email_snippet": "Hi, I was looking into Toogood and noticed you're running Meta/Google campaigns on a Shopify store. Quick check on tracking found an issue you're likely unaware of.",
       "next_followup_due": "2026-07-22",
       "days_since_last_activity": -36
+    },
+    {
+      "id": "prospect_341",
+      "brand": "Retori",
+      "contact": "Laura Facchetti",
+      "email": "lfacchetti@retori.com",
+      "domain": "retori.com",
+      "subject_email": "Retori, una cosa sulle ads",
+      "assigned_to": "Antonio",
+      "sender": "Antonio",
+      "label_id": null,
+      "angle": "2B",
+      "platform": "Shopify",
+      "status": "follow_up_2_sent",
+      "first_contact": "2026-05-19",
+      "last_activity": "2026-06-25",
+      "multi_to": false,
+      "had_cc_bcc": false,
+      "redirect_to": null,
+      "stape_score": null,
+      "notes": "3° contatto Retori (altri: skollhof.ext@, cmaccagno@). FU2 inviato 25/06. FU1 non trovato nel thread (possibile invio separato).",
+      "thread_id": "19e3f83165f8b3d6",
+      "followups_sent": [
+        {
+          "date": "2026-06-25",
+          "type": "follow_up_2",
+          "sender": "Antonio",
+          "snippet": "Il problema di tracking che avevo notato è ancora lì. Posso mandarvi il report in 2 minuti."
+        }
+      ],
+      "scheduled_timeline": {
+        "first_email": "2026-05-19",
+        "follow_up_1": "2026-06-03",
+        "follow_up_2": "2026-06-24",
+        "follow_up_3": "2026-07-22",
+        "out_date": "2026-07-23"
+      },
+      "last_outbound_by_antonio": {
+        "date": "2026-06-25",
+        "snippet": "Il problema di tracking che avevo notato è ancora lì. Posso mandarvi il report in 2 minuti."
+      },
+      "last_reply_from_prospect": null,
+      "next_action": "Follow-up 3",
+      "next_action_date": "2026-07-22",
+      "skip": false,
+      "timeline": [
+        {
+          "date": "2026-05-19",
+          "action": "Email outbound 2B inviata da Antonio a lfacchetti@retori.com"
+        },
+        {
+          "date": "2026-06-25",
+          "action": "Follow-up 2 inviato"
+        }
+      ]
     }
   ],
   "bounced": [
