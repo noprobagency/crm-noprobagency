@@ -1,10 +1,10 @@
 {
   "meta": {
-    "last_updated": "2026-06-25T08:00:00+02:00",
-    "total_contacted": 318,
+    "last_updated": "2026-06-25T11:00:00+02:00",
+    "total_contacted": 317,
     "total_replied": 11,
-    "total_bounced": 46,
-    "total_autoresponse": 13,
+    "total_bounced": 47,
+    "total_autoresponse": 14,
     "first_run": false,
     "coverage_note": "First run â copre outbound visibili negli ultimi ~9 giorni (2026-05-06 â 2026-05-13). Le runs giornaliere successive aggiungeranno nuovi thread incrementalmente.",
     "schema_version": "v3",
@@ -20296,14 +20296,14 @@
       "label_id": "Label_8658624016447790536",
       "angle": "2B",
       "platform": "Shopify",
-      "status": "follow_up_2_sent",
+      "status": "autoresponse",
       "first_contact": "2026-05-19",
       "last_activity": "2026-06-25",
       "multi_to": false,
       "had_cc_bcc": false,
       "redirect_to": null,
       "stape_score": null,
-      "notes": "Secondo contatto dominio tizianafausti.com (vedi prospect_082 tiziana.fausti@). ceo@ bounced (bounce_046).",
+      "notes": "Secondo contatto dominio tizianafausti.com (vedi prospect_082 tiziana.fausti@). ceo@ bounced (bounce_046). | OOO 25/06 — rientro 29/06. FU schedulato 30/06.",
       "thread_id": "19e4089ecffc7ca2",
       "followups_sent": [
         {
@@ -20331,8 +20331,8 @@
         "snippet": "Il problema di tracking che avevo notato è ancora lì. Posso mandarvi il report in 2 minuti."
       },
       "last_reply_from_prospect": null,
-      "next_action": "Follow-up 3",
-      "next_action_date": "2026-07-22",
+      "next_action": "Follow-up al rientro",
+      "next_action_date": "2026-06-30",
       "timeline": [
         {
           "date": "2026-05-19",
@@ -20345,6 +20345,10 @@
         {
           "date": "2026-06-25",
           "action": "Follow-up 2 inviato"
+        },
+        {
+          "date": "2026-06-25",
+          "action": "Autoresponse OOO ricevuto (thread 19efdb0ef3c789c7) — rientro 29/06. FU al rientro schedulato per 30/06."
         }
       ],
       "skip": false,
@@ -20557,75 +20561,6 @@
       "skip": false,
       "is_first_email": true,
       "first_email_snippet": "Hi, I was looking into Retori and noticed you're running Meta/Google campaigns on a Shopify store. Quick check on tracking found an issue you're likely unaware of.",
-      "next_followup_due": "2026-07-22",
-      "days_since_last_activity": -36
-    },
-    {
-      "id": "prospect_339",
-      "brand": "Toogood",
-      "contact": null,
-      "email": "customer_relations@t-o-o-g-o-o-d.com",
-      "domain": "t-o-o-g-o-o-d.com",
-      "subject_email": "Toogood, one thing about your ads",
-      "assigned_to": "Claude",
-      "sender": "Claude",
-      "label_id": "Label_9196661710752787047",
-      "angle": "2B",
-      "platform": "Shopify",
-      "status": "follow_up_2_sent",
-      "first_contact": "2026-05-19",
-      "last_activity": "2026-06-25",
-      "multi_to": false,
-      "had_cc_bcc": false,
-      "redirect_to": null,
-      "stape_score": null,
-      "notes": "Secondo contatto dominio t-o-o-g-o-o-d.com (vedi prospect_162 mw@ status follow_up_1_sent). Claude ha inviato questa prima email a nuovo indirizzo.",
-      "thread_id": "19e3f33bf2b44f17",
-      "followups_sent": [
-        {
-          "date": "2026-06-18",
-          "type": "follow_up_1",
-          "sender": "Antonio",
-          "snippet": "Just bumping this up in case you missed it. Let me know if it makes sense to talk."
-        },
-        {
-          "date": "2026-06-25",
-          "type": "follow_up_2",
-          "sender": "Claude",
-          "snippet": "Following up one more time, summer campaigns are in full swing, which is exactly when tracking gaps hit hardest."
-        }
-      ],
-      "scheduled_timeline": {
-        "first_email": "2026-05-19",
-        "follow_up_1": "2026-06-03",
-        "follow_up_2": "2026-06-24",
-        "follow_up_3": "2026-07-22",
-        "out_date": "2026-07-23"
-      },
-      "last_outbound_by_antonio": {
-        "date": "2026-06-25",
-        "snippet": "Following up one more time, summer campaigns are in full swing, which is exactly when tracking gaps hit hardest."
-      },
-      "last_reply_from_prospect": null,
-      "next_action": "Follow-up 3",
-      "next_action_date": "2026-07-22",
-      "timeline": [
-        {
-          "date": "2026-05-19",
-          "action": "Email outbound 2B inviata da Claude"
-        },
-        {
-          "date": "2026-06-18",
-          "action": "Follow-up 1 inviato"
-        },
-        {
-          "date": "2026-06-25",
-          "action": "Follow-up 2 inviato"
-        }
-      ],
-      "skip": false,
-      "is_first_email": true,
-      "first_email_snippet": "Hi, I was looking into Toogood and noticed you're running Meta/Google campaigns on a Shopify store. Quick check on tracking found an issue you're likely unaware of.",
       "next_followup_due": "2026-07-22",
       "days_since_last_activity": -36
     },
@@ -21952,6 +21887,19 @@
       "is_first_email": false,
       "alt_contact_found": true,
       "suggested_action": "Verifica indirizzo alternativo nelle note"
+    },
+    {
+      "id": "bounce_047",
+      "brand": "Toogood",
+      "email": "customer_relations@t-o-o-g-o-o-d.com",
+      "domain": "t-o-o-g-o-o-d.com",
+      "subject_email": "Toogood, one thing about your ads",
+      "assigned_to": "Claude",
+      "angle": "2B",
+      "bounce_date": "2026-06-25",
+      "notes": "Bounce 550 su FU2 del 25/06. Mailer-daemon: customer_relations@toogood.com address not found. Vedi prospect_162 (mw@t-o-o-g-o-o-d.com) per contatto alternativo dello stesso brand.",
+      "thread_id": "19e3f33bf2b44f17",
+      "skip": false
     }
   ]
 }
