@@ -1,6 +1,6 @@
 {
   "meta": {
-    "last_updated": "2026-06-25T11:00:00+02:00",
+    "last_updated": "2026-06-26T06:15:00+02:00",
     "total_contacted": 317,
     "total_replied": 11,
     "total_bounced": 47,
@@ -29,7 +29,7 @@
       "first_contact": "2026-04-30",
       "last_activity": "2026-05-25",
       "next_action": "Follow-up urgente",
-      "next_action_date": "2026-06-26",
+      "next_action_date": "2026-06-29",
       "stape_score": 39,
       "notes": "Founder & CEO. Ha chiesto il report dopo bump del 12/05. Inviato report Stape completo il 13/05 (Ads 44/100).",
       "thread_id": "19ddac7248b1a78a",
@@ -99,7 +99,7 @@
       "first_contact": "2026-05-01",
       "last_activity": "2026-06-15",
       "next_action": "Follow-up urgente",
-      "next_action_date": "2026-06-26",
+      "next_action_date": "2026-06-29",
       "stape_score": null,
       "notes": "Risposta positiva il 07/05. Inviato video di analisi (10 min) l'08/05. Bump il 12/05. FU inviato il 20/05: ha avuto modo di vedere il video? | 27/05: FU 'ultima volta'. 15/06: '?' di follow-up. Risposta ancora attesa.",
       "thread_id": "19e026540b01048b",
@@ -201,7 +201,7 @@
       "first_contact": "2026-05-01",
       "last_activity": "2026-05-13",
       "next_action": "Follow-up urgente",
-      "next_action_date": "2026-06-26",
+      "next_action_date": "2026-06-29",
       "stape_score": null,
       "notes": "Email personale (nicodeka03@gmail.com). Risposta positiva il 07/05 ('Manda pure'). Video inviato l'08/05. Bump il 12/05. Risposta 13/05: molto insightful. Il 18/05: allega CV (off-topic). Antonio risponde il 19/05.",
       "thread_id": "19e02604b5efa2cb",
@@ -295,7 +295,7 @@
       "first_contact": "2026-05-13",
       "last_activity": "2026-05-15",
       "next_action": "Follow-up urgente",
-      "next_action_date": "2026-06-26",
+      "next_action_date": "2026-06-29",
       "stape_score": null,
       "notes": "Luxury boutique Casale Monferrato",
       "thread_id": "19e213be13545c0d",
@@ -348,7 +348,7 @@
       "platform": "Shopify",
       "status": "in_conversation",
       "first_contact": "2026-05-15",
-      "last_activity": "2026-05-25",
+      "last_activity": "2026-06-15",
       "multi_to": false,
       "had_cc_bcc": false,
       "redirect_to": null,
@@ -364,15 +364,15 @@
         "out_date": "2026-07-21"
       },
       "last_outbound_by_antonio": {
-        "date": "2026-05-20",
-        "snippet": "Buon pomeriggio Caterina! Scusami il ritardo, volevo registrare un video completo dettagliato cosi da darti piu informazioni e non trovavo mai il tempo! Qui trovi il video!"
+        "date": "2026-06-15",
+        "snippet": "? (follow-up brevissimo)"
       },
       "last_reply_from_prospect": {
         "date": "2026-05-15",
         "snippet": "Ciao Antonio, Thank you for your email. I would be happy to have a look at your report, why not ;) Best, Caterina Zorzan E-commerce Manager"
       },
       "next_action": "Follow-up urgente",
-      "next_action_date": "2026-06-26",
+      "next_action_date": "2026-06-29",
       "timeline": [
         {
           "date": "2026-05-15",
@@ -389,6 +389,10 @@
         {
           "date": "2026-05-25",
           "action": "Check-in inviato (25/05): video Loom del 20/05"
+        },
+        {
+          "date": "2026-06-15",
+          "action": "Follow-up brevissimo '?' inviato da Antonio"
         }
       ],
       "is_first_email": true,
@@ -434,7 +438,7 @@
         "snippet": "Ciao Antonio, manda pure grazie, Andrea"
       },
       "next_action": "Follow-up urgente",
-      "next_action_date": "2026-06-26",
+      "next_action_date": "2026-06-29",
       "timeline": [
         {
           "date": "2026-05-18",
@@ -507,7 +511,7 @@
       },
       "last_reply_from_prospect": null,
       "next_action": "Follow-up urgente",
-      "next_action_date": "2026-06-26",
+      "next_action_date": "2026-06-29",
       "timeline": [
         {
           "date": "2026-05-18",
@@ -547,7 +551,7 @@
       "thread_id": "19e3ba59a8eec5cd",
       "status": "in_conversation",
       "first_contact": "2026-05-18",
-      "last_activity": "2026-05-25",
+      "last_activity": "2026-06-11",
       "multi_to": false,
       "had_cc_bcc": false,
       "redirect_to": null,
@@ -562,15 +566,15 @@
         "out_date": "2026-07-22"
       },
       "last_outbound_by_antonio": {
-        "date": "2026-05-20",
-        "snippet": "Good morning, thank you for your reply. I'll go in order and answer directly through a complete email with case study and full Stape analysis."
+        "date": "2026-06-11",
+        "snippet": "? (follow-up brevissimo)"
       },
       "last_reply_from_prospect": {
         "date": "2026-05-19",
         "snippet": "Hi Antonio, Thank you for reaching out. Before considering a call, could you please share the case study and the full Stape audit you refer to, including the exact URL tested, scan date, detected issues."
       },
       "next_action": "Follow-up urgente",
-      "next_action_date": "2026-06-26",
+      "next_action_date": "2026-06-29",
       "timeline": [
         {
           "date": "2026-05-18",
@@ -587,6 +591,10 @@
         {
           "date": "2026-05-25",
           "action": "Check-in inviato (25/05): case study + Stape"
+        },
+        {
+          "date": "2026-06-11",
+          "action": "Follow-up brevissimo '?' inviato da Antonio"
         }
       ],
       "skip": false,
@@ -606,11 +614,11 @@
       "platform": "non-Shopify",
       "status": "in_conversation",
       "first_contact": "2026-05-07",
-      "last_activity": "2026-05-25",
-      "next_action": "Follow-up urgente",
-      "next_action_date": "2026-06-26",
+      "last_activity": "2026-05-26",
+      "next_action": "Follow-up settembre (accordo con Sabina)",
+      "next_action_date": "2026-09-01",
       "stape_score": null,
-      "notes": "3Â° contatto Julian (Sabina, boutique Rimini)",
+      "notes": "3Â° contatto Julian (Sabina, boutique Rimini) | 25/05: Sabina rinvia a settembre (migrazione Shopify). 26/05: Antonio conferma FU a settembre.",
       "thread_id": "19e02644a834f247",
       "timeline": [
         {
@@ -628,6 +636,14 @@
         {
           "date": "2026-05-25",
           "action": "Antonio ha risposto: proposto follow-up su migrazione Shopify"
+        },
+        {
+          "date": "2026-05-25",
+          "action": "Sabina Zabberoni risponde: 'nel caso La terrò in considerazione' (migrazione Shopify a settembre)"
+        },
+        {
+          "date": "2026-05-26",
+          "action": "Antonio risponde: 'Ottimo! Riguarderò il progetto a settembre'"
         }
       ],
       "label_id": "Label_1592668050883672428",
@@ -642,10 +658,13 @@
         }
       ],
       "last_outbound_by_antonio": {
-        "date": "2026-05-25",
-        "snippet": "Rimando su nel caso, fammi sapere se ha senso parlarne."
+        "date": "2026-05-26",
+        "snippet": "Ottimo !! Riguarderò il progetto a settembre allora, sono curioso di vedere il risultato"
       },
-      "last_reply_from_prospect": null,
+      "last_reply_from_prospect": {
+        "date": "2026-05-25",
+        "snippet": "Grazie mille Antonio Abbiamo costruito un team molto ampio anche con consulenti …nel caso La terrò assolutamente in considerazione"
+      },
       "next_followup_due": null,
       "days_since_last_activity": -12,
       "first_email_snippet": "Ciao Sabina, mi sono imbattuto in Julian Fashion cercando le migliori realtÃ  fashion del settore. Ho visto la piattaforma che state usando per le vendite online, la conosco molto bene.",
@@ -709,7 +728,7 @@
         "snippet": "Remove me. (Jennifer Carnahan, Primrose Park)"
       },
       "next_action": "Risposta: 'Remove me.' — gestire manualmente (archiviare e rispondere)",
-      "next_action_date": "2026-06-25",
+      "next_action_date": "2026-06-26",
       "timeline": [
         {
           "date": "2026-05-15",
@@ -790,7 +809,7 @@
         "snippet": "Spero tutto okay. Perdonami la tarda risposta, sono giornate un pochino piene. Direi di fare la settimana prossima, che dici?"
       },
       "next_action": "Follow-up urgente",
-      "next_action_date": "2026-06-26",
+      "next_action_date": "2026-06-29",
       "timeline": [
         {
           "date": "2026-05-26",
@@ -21897,9 +21916,9 @@
       "assigned_to": "Claude",
       "angle": "2B",
       "bounce_date": "2026-06-25",
-      "notes": "Bounce 550 su FU2 del 25/06. Mailer-daemon: customer_relations@toogood.com address not found. Vedi prospect_162 (mw@t-o-o-g-o-o-d.com) per contatto alternativo dello stesso brand.",
+      "notes": "Bounce 550 su FU2 del 25/06. Mailer-daemon: customer_relations@toogood.com address not found. Vedi prospect_162 (mw@t-o-o-g-o-o-d.com) per contatto alternativo dello stesso brand. | SKIP automatico — brand già gestito via prospect_162 (mw@t-o-o-g-o-o-d.com)",
       "thread_id": "19e3f33bf2b44f17",
-      "skip": false
+      "skip": true
     }
   ]
 }
