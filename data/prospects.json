@@ -1,8 +1,8 @@
 {
   "meta": {
-    "last_updated": "2026-06-26T06:15:00+02:00",
-    "total_contacted": 317,
-    "total_replied": 11,
+    "last_updated": "2026-06-29T08:30:00+02:00",
+    "total_contacted": 318,
+    "total_replied": 13,
     "total_bounced": 47,
     "total_autoresponse": 14,
     "first_run": false,
@@ -29,7 +29,7 @@
       "first_contact": "2026-04-30",
       "last_activity": "2026-05-25",
       "next_action": "Follow-up urgente",
-      "next_action_date": "2026-06-29",
+      "next_action_date": "2026-06-30",
       "stape_score": 39,
       "notes": "Founder & CEO. Ha chiesto il report dopo bump del 12/05. Inviato report Stape completo il 13/05 (Ads 44/100).",
       "thread_id": "19ddac7248b1a78a",
@@ -99,7 +99,7 @@
       "first_contact": "2026-05-01",
       "last_activity": "2026-06-15",
       "next_action": "Follow-up urgente",
-      "next_action_date": "2026-06-29",
+      "next_action_date": "2026-06-30",
       "stape_score": null,
       "notes": "Risposta positiva il 07/05. Inviato video di analisi (10 min) l'08/05. Bump il 12/05. FU inviato il 20/05: ha avuto modo di vedere il video? | 27/05: FU 'ultima volta'. 15/06: '?' di follow-up. Risposta ancora attesa.",
       "thread_id": "19e026540b01048b",
@@ -201,7 +201,7 @@
       "first_contact": "2026-05-01",
       "last_activity": "2026-05-13",
       "next_action": "Follow-up urgente",
-      "next_action_date": "2026-06-29",
+      "next_action_date": "2026-06-30",
       "stape_score": null,
       "notes": "Email personale (nicodeka03@gmail.com). Risposta positiva il 07/05 ('Manda pure'). Video inviato l'08/05. Bump il 12/05. Risposta 13/05: molto insightful. Il 18/05: allega CV (off-topic). Antonio risponde il 19/05.",
       "thread_id": "19e02604b5efa2cb",
@@ -295,7 +295,7 @@
       "first_contact": "2026-05-13",
       "last_activity": "2026-05-15",
       "next_action": "Follow-up urgente",
-      "next_action_date": "2026-06-29",
+      "next_action_date": "2026-06-30",
       "stape_score": null,
       "notes": "Luxury boutique Casale Monferrato",
       "thread_id": "19e213be13545c0d",
@@ -372,7 +372,7 @@
         "snippet": "Ciao Antonio, Thank you for your email. I would be happy to have a look at your report, why not ;) Best, Caterina Zorzan E-commerce Manager"
       },
       "next_action": "Follow-up urgente",
-      "next_action_date": "2026-06-29",
+      "next_action_date": "2026-06-30",
       "timeline": [
         {
           "date": "2026-05-15",
@@ -438,7 +438,7 @@
         "snippet": "Ciao Antonio, manda pure grazie, Andrea"
       },
       "next_action": "Follow-up urgente",
-      "next_action_date": "2026-06-29",
+      "next_action_date": "2026-06-30",
       "timeline": [
         {
           "date": "2026-05-18",
@@ -511,7 +511,7 @@
       },
       "last_reply_from_prospect": null,
       "next_action": "Follow-up urgente",
-      "next_action_date": "2026-06-29",
+      "next_action_date": "2026-06-30",
       "timeline": [
         {
           "date": "2026-05-18",
@@ -574,7 +574,7 @@
         "snippet": "Hi Antonio, Thank you for reaching out. Before considering a call, could you please share the case study and the full Stape audit you refer to, including the exact URL tested, scan date, detected issues."
       },
       "next_action": "Follow-up urgente",
-      "next_action_date": "2026-06-29",
+      "next_action_date": "2026-06-30",
       "timeline": [
         {
           "date": "2026-05-18",
@@ -809,7 +809,7 @@
         "snippet": "Spero tutto okay. Perdonami la tarda risposta, sono giornate un pochino piene. Direi di fare la settimana prossima, che dici?"
       },
       "next_action": "Follow-up urgente",
-      "next_action_date": "2026-06-29",
+      "next_action_date": "2026-06-30",
       "timeline": [
         {
           "date": "2026-05-26",
@@ -869,6 +869,148 @@
       "first_email_snippet": "Buongiorno, mi sono imbattuto in Société Anonyme cercando le migliori boutique multibrand del settore in Italia, a proposito, la boutique a Firenze è stupenda. Ho visto la piattaforma che state usando",
       "next_followup_due": null,
       "days_since_last_activity": 3
+    },
+    {
+      "id": "prospect_342",
+      "brand": "Colognese",
+      "contact": "Elisa",
+      "email": "ecommerce@colognese.com",
+      "domain": "colognese.com",
+      "subject_email": "Report colognese.com - tracking e opportunità",
+      "assigned_to": "Antonio",
+      "sender": "Antonio",
+      "label_id": null,
+      "angle": "3A",
+      "platform": "non-Shopify",
+      "status": "in_conversation",
+      "first_contact": "2026-06-12",
+      "last_activity": "2026-06-29",
+      "multi_to": false,
+      "had_cc_bcc": false,
+      "redirect_to": null,
+      "stape_score": null,
+      "notes": "Contatto via LinkedIn (\"come promesso su LinkedIn\"). Primo outreach non catturato dalla Routine (no label NoProb, pattern non standard). Risposta positiva 29/06.",
+      "thread_id": "19ebb1100b8adf9d",
+      "followups_sent": [
+        {
+          "date": "2026-06-27",
+          "type": "follow_up_1",
+          "sender": "Antonio",
+          "snippet": "Ciao Elisa! Hai avuto modo di dare un'occhiata?"
+        }
+      ],
+      "scheduled_timeline": {
+        "first_email": "2026-06-12",
+        "follow_up_1": "2026-06-26",
+        "follow_up_2": "2026-07-17",
+        "follow_up_3": "2026-08-27",
+        "out_date": "2026-08-28"
+      },
+      "last_outbound_by_antonio": {
+        "date": "2026-06-29",
+        "snippet": "Ciao Elisa, grazie a te per la risposta, sembra poco ma per me è importante davvero! Quando e se dovesse esserci l'occasione di confro"
+      },
+      "last_reply_from_prospect": {
+        "date": "2026-06-29",
+        "snippet": "Ciao Antonio, ti ringrazio davvero per il tempo che hai dedicato a questa analisi e per aver condiviso con noi il report. Ho apprezzato"
+      },
+      "next_action": "In attesa risposta",
+      "next_action_date": null,
+      "timeline": [
+        {
+          "date": "2026-06-12",
+          "action": "Prima email inviata da Antonio — Report colognese.com (via LinkedIn)"
+        },
+        {
+          "date": "2026-06-27",
+          "action": "Follow-up 1 inviato da Antonio"
+        },
+        {
+          "date": "2026-06-29",
+          "action": "Risposta ricevuta da Elisa (ecommerce@colognese.com) — apprezzamento per l'analisi"
+        },
+        {
+          "date": "2026-06-29",
+          "action": "Risposta inviata da Antonio"
+        }
+      ],
+      "skip": false
+    },
+    {
+      "id": "prospect_325",
+      "brand": "Filippo Marchesani",
+      "contact": "Piero",
+      "email": "piero@filippomarchesani.com",
+      "domain": "filippomarchesani.com",
+      "subject_email": "Re: Filippo Marchesani, una cosa sulle ads",
+      "assigned_to": "Dami",
+      "sender": "Dami",
+      "label_id": "Label_8658624016447790536",
+      "angle": "2B",
+      "platform": "Shopify",
+      "thread_id": "19e3b3d944e14019",
+      "status": "in_conversation",
+      "first_contact": "2026-05-18",
+      "last_activity": "2026-06-29",
+      "multi_to": false,
+      "had_cc_bcc": false,
+      "redirect_to": null,
+      "stape_score": null,
+      "notes": "Risposta ricevuta da ecommerce@filippomarchesani.com (con CC direzione@ e support@).",
+      "followups_sent": [
+        {
+          "date": "2026-06-18",
+          "type": "follow_up_1",
+          "sender": "Antonio",
+          "snippet": "Rimando su nel caso, fammi sapere se ha senso parlarne."
+        },
+        {
+          "date": "2026-06-25",
+          "type": "follow_up_2",
+          "sender": "Claude",
+          "snippet": "Il problema di tracking che avevo notato è ancora lì. Posso mandarvi il report in 2 minuti."
+        }
+      ],
+      "scheduled_timeline": {
+        "first_email": "2026-05-18",
+        "follow_up_1": "2026-06-01",
+        "follow_up_2": "2026-06-23",
+        "follow_up_3": "2026-07-21",
+        "out_date": "2026-07-22"
+      },
+      "last_outbound_by_antonio": {
+        "date": "2026-06-25",
+        "snippet": "Il problema di tracking che avevo notato è ancora lì. Posso mandarvi il report in 2 minuti."
+      },
+      "last_reply_from_prospect": {
+        "date": "2026-06-29",
+        "snippet": "Ciao Antonio, Dimmi di più, grazie. E-commerce Manager ecommerce@filippomarchesani.com | filippomarchesani.com"
+      },
+      "next_action": "In attesa risposta",
+      "next_action_date": null,
+      "timeline": [
+        {
+          "date": "2026-05-18",
+          "action": "Email outbound 2B inviata da Dami"
+        },
+        {
+          "date": "2026-06-18",
+          "action": "Follow-up 1 inviato"
+        },
+        {
+          "date": "2026-06-25",
+          "action": "Follow-up 2 inviato"
+        },
+        {
+          "date": "2026-06-29",
+          "action": "Risposta ricevuta da ecommerce@filippomarchesani.com — \"Dimmi di più, grazie\" (CC a direzione@ e support@)"
+        }
+      ],
+      "skip": false,
+      "is_first_email": true,
+      "first_email_snippet": "Hi, I was looking into Filippo Marchesani and noticed you're running Meta/Google campaigns on a Shopify store. Quick check on tracking found an issue you're likely unaware of.",
+      "next_followup_due": "2026-07-21",
+      "days_since_last_activity": -36
     }
   ],
   "no_reply": [
@@ -19784,75 +19926,6 @@
       "angle": "2B",
       "platform": "Shopify",
       "thread_id": "19e3b3e196fb6529",
-      "status": "follow_up_2_sent",
-      "first_contact": "2026-05-18",
-      "last_activity": "2026-06-25",
-      "multi_to": false,
-      "had_cc_bcc": false,
-      "redirect_to": null,
-      "stape_score": null,
-      "notes": "",
-      "followups_sent": [
-        {
-          "date": "2026-06-18",
-          "type": "follow_up_1",
-          "sender": "Antonio",
-          "snippet": "Rimando su nel caso, fammi sapere se ha senso parlarne."
-        },
-        {
-          "date": "2026-06-25",
-          "type": "follow_up_2",
-          "sender": "Claude",
-          "snippet": "Il problema di tracking che avevo notato è ancora lì. Posso mandarvi il report in 2 minuti."
-        }
-      ],
-      "scheduled_timeline": {
-        "first_email": "2026-05-18",
-        "follow_up_1": "2026-06-01",
-        "follow_up_2": "2026-06-23",
-        "follow_up_3": "2026-07-21",
-        "out_date": "2026-07-22"
-      },
-      "last_outbound_by_antonio": {
-        "date": "2026-06-25",
-        "snippet": "Il problema di tracking che avevo notato è ancora lì. Posso mandarvi il report in 2 minuti."
-      },
-      "last_reply_from_prospect": null,
-      "next_action": "Follow-up 3",
-      "next_action_date": "2026-07-21",
-      "timeline": [
-        {
-          "date": "2026-05-18",
-          "action": "Email outbound 2B inviata da Dami"
-        },
-        {
-          "date": "2026-06-18",
-          "action": "Follow-up 1 inviato"
-        },
-        {
-          "date": "2026-06-25",
-          "action": "Follow-up 2 inviato"
-        }
-      ],
-      "skip": false,
-      "is_first_email": true,
-      "first_email_snippet": "Hi, I was looking into Filippo Marchesani and noticed you're running Meta/Google campaigns on a Shopify store. Quick check on tracking found an issue you're likely unaware of.",
-      "next_followup_due": "2026-07-21",
-      "days_since_last_activity": -36
-    },
-    {
-      "id": "prospect_325",
-      "brand": "Filippo Marchesani",
-      "contact": "Piero",
-      "email": "piero@filippomarchesani.com",
-      "domain": "filippomarchesani.com",
-      "subject_email": "Re: Filippo Marchesani, una cosa sulle ads",
-      "assigned_to": "Dami",
-      "sender": "Dami",
-      "label_id": "Label_8658624016447790536",
-      "angle": "2B",
-      "platform": "Shopify",
-      "thread_id": "19e3b3d944e14019",
       "status": "follow_up_2_sent",
       "first_contact": "2026-05-18",
       "last_activity": "2026-06-25",
