@@ -1,6 +1,6 @@
 {
   "meta": {
-    "last_updated": "2026-06-29T08:30:00+02:00",
+    "last_updated": "2026-06-30T12:00:00+02:00",
     "total_contacted": 318,
     "total_replied": 13,
     "total_bounced": 47,
@@ -29,7 +29,7 @@
       "first_contact": "2026-04-30",
       "last_activity": "2026-05-25",
       "next_action": "Follow-up urgente",
-      "next_action_date": "2026-06-30",
+      "next_action_date": "2026-07-01",
       "stape_score": 39,
       "notes": "Founder & CEO. Ha chiesto il report dopo bump del 12/05. Inviato report Stape completo il 13/05 (Ads 44/100).",
       "thread_id": "19ddac7248b1a78a",
@@ -99,7 +99,7 @@
       "first_contact": "2026-05-01",
       "last_activity": "2026-06-15",
       "next_action": "Follow-up urgente",
-      "next_action_date": "2026-06-30",
+      "next_action_date": "2026-07-01",
       "stape_score": null,
       "notes": "Risposta positiva il 07/05. Inviato video di analisi (10 min) l'08/05. Bump il 12/05. FU inviato il 20/05: ha avuto modo di vedere il video? | 27/05: FU 'ultima volta'. 15/06: '?' di follow-up. Risposta ancora attesa.",
       "thread_id": "19e026540b01048b",
@@ -199,9 +199,9 @@
       "platform": "non-Shopify",
       "status": "in_conversation",
       "first_contact": "2026-05-01",
-      "last_activity": "2026-05-13",
+      "last_activity": "2026-05-19",
       "next_action": "Follow-up urgente",
-      "next_action_date": "2026-06-30",
+      "next_action_date": "2026-07-01",
       "stape_score": null,
       "notes": "Email personale (nicodeka03@gmail.com). Risposta positiva il 07/05 ('Manda pure'). Video inviato l'08/05. Bump il 12/05. Risposta 13/05: molto insightful. Il 18/05: allega CV (off-topic). Antonio risponde il 19/05.",
       "thread_id": "19e02604b5efa2cb",
@@ -263,12 +263,12 @@
         }
       ],
       "last_outbound_by_antonio": {
-        "date": "2026-05-12",
-        "snippet": "Ciao Nicolò, volevo solo verificare che il video fosse arrivato, hai avuto modo di vederlo?"
+        "date": "2026-05-19",
+        "snippet": "Grande, molto interessante. Oltre a lavorare nel growth eCommerce, mi occupo di consulenza..."
       },
       "last_reply_from_prospect": {
-        "date": "2026-05-07",
-        "snippet": "Ciao Antonio, Manda pure, non ho ricevuto nessuna mail."
+        "date": "2026-05-18",
+        "snippet": "CV allegato (risposta off-topic — probabilmente errore di Nicolò, risposta confusa)"
       },
       "next_followup_due": "2026-05-26",
       "days_since_last_activity": 0,
@@ -295,7 +295,7 @@
       "first_contact": "2026-05-13",
       "last_activity": "2026-05-15",
       "next_action": "Follow-up urgente",
-      "next_action_date": "2026-06-30",
+      "next_action_date": "2026-07-01",
       "stape_score": null,
       "notes": "Luxury boutique Casale Monferrato",
       "thread_id": "19e213be13545c0d",
@@ -372,7 +372,7 @@
         "snippet": "Ciao Antonio, Thank you for your email. I would be happy to have a look at your report, why not ;) Best, Caterina Zorzan E-commerce Manager"
       },
       "next_action": "Follow-up urgente",
-      "next_action_date": "2026-06-30",
+      "next_action_date": "2026-07-01",
       "timeline": [
         {
           "date": "2026-05-15",
@@ -438,7 +438,7 @@
         "snippet": "Ciao Antonio, manda pure grazie, Andrea"
       },
       "next_action": "Follow-up urgente",
-      "next_action_date": "2026-06-30",
+      "next_action_date": "2026-07-01",
       "timeline": [
         {
           "date": "2026-05-18",
@@ -509,9 +509,12 @@
         "date": "2026-05-25",
         "snippet": "Ciao Nino, volevo sapere se avete risolto il problema di tracking. Se vi può essere utile il report come riferimento, sono qui."
       },
-      "last_reply_from_prospect": null,
+      "last_reply_from_prospect": {
+        "date": "2026-05-19",
+        "snippet": "sono a conoscenza del problema di tracking e verrà risolto oggi in giornata"
+      },
       "next_action": "Follow-up urgente",
-      "next_action_date": "2026-06-30",
+      "next_action_date": "2026-07-01",
       "timeline": [
         {
           "date": "2026-05-18",
@@ -574,7 +577,7 @@
         "snippet": "Hi Antonio, Thank you for reaching out. Before considering a call, could you please share the case study and the full Stape audit you refer to, including the exact URL tested, scan date, detected issues."
       },
       "next_action": "Follow-up urgente",
-      "next_action_date": "2026-06-30",
+      "next_action_date": "2026-07-01",
       "timeline": [
         {
           "date": "2026-05-18",
@@ -728,7 +731,7 @@
         "snippet": "Remove me. (Jennifer Carnahan, Primrose Park)"
       },
       "next_action": "Risposta: 'Remove me.' — gestire manualmente (archiviare e rispondere)",
-      "next_action_date": "2026-06-26",
+      "next_action_date": "2026-07-01",
       "timeline": [
         {
           "date": "2026-05-15",
@@ -809,7 +812,7 @@
         "snippet": "Spero tutto okay. Perdonami la tarda risposta, sono giornate un pochino piene. Direi di fare la settimana prossima, che dici?"
       },
       "next_action": "Follow-up urgente",
-      "next_action_date": "2026-06-30",
+      "next_action_date": "2026-07-01",
       "timeline": [
         {
           "date": "2026-05-26",
@@ -951,12 +954,12 @@
       "thread_id": "19e3b3d944e14019",
       "status": "in_conversation",
       "first_contact": "2026-05-18",
-      "last_activity": "2026-06-29",
+      "last_activity": "2026-06-30",
       "multi_to": false,
       "had_cc_bcc": false,
       "redirect_to": null,
-      "stape_score": null,
-      "notes": "Risposta ricevuta da ecommerce@filippomarchesani.com (con CC direzione@ e support@).",
+      "stape_score": 18,
+      "notes": "Risposta ricevuta da ecommerce@filippomarchesani.com (con CC direzione@ e support@). Antonio risponde 30/06 con pitch Sprint Tracking System (stape 18/100).",
       "followups_sent": [
         {
           "date": "2026-06-18",
@@ -969,6 +972,12 @@
           "type": "follow_up_2",
           "sender": "Claude",
           "snippet": "Il problema di tracking che avevo notato è ancora lì. Posso mandarvi il report in 2 minuti."
+        },
+        {
+          "date": "2026-06-30",
+          "type": "manual",
+          "sender": "Antonio",
+          "snippet": "Ciao Nino! Circa un mese fa avevo notato dei problemi di tracciamento. Con i Summer Sales in partenza volevo risentirti"
         }
       ],
       "scheduled_timeline": {
@@ -979,8 +988,8 @@
         "out_date": "2026-07-22"
       },
       "last_outbound_by_antonio": {
-        "date": "2026-06-25",
-        "snippet": "Il problema di tracking che avevo notato è ancora lì. Posso mandarvi il report in 2 minuti."
+        "date": "2026-06-30",
+        "snippet": "Ciao Nino! Circa un mese fa avevo notato dei problemi di tracciamento. Con i Summer Sales in partenza volevo risentirti sulla questione. Ho ricontrollato il sito, il"
       },
       "last_reply_from_prospect": {
         "date": "2026-06-29",
@@ -1004,6 +1013,10 @@
         {
           "date": "2026-06-29",
           "action": "Risposta ricevuta da ecommerce@filippomarchesani.com — \"Dimmi di più, grazie\" (CC a direzione@ e support@)"
+        },
+        {
+          "date": "2026-06-30",
+          "action": "Email inviata da Antonio — pitch Sprint Tracking System, stape 18/100, Summer Sales"
         }
       ],
       "skip": false,
