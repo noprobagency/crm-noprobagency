@@ -1,6 +1,6 @@
 {
   "meta": {
-    "last_updated": "2026-07-22T06:05:00+02:00",
+    "last_updated": "2026-07-24T01:05:00+02:00",
     "total_contacted": 319,
     "total_replied": 17,
     "total_bounced": 47,
@@ -29,7 +29,7 @@
       "first_contact": "2026-04-30",
       "last_activity": "2026-05-25",
       "next_action": "Follow-up urgente",
-      "next_action_date": "2026-07-23",
+      "next_action_date": "2026-07-25",
       "stape_score": 39,
       "notes": "Founder & CEO. Ha chiesto il report dopo bump del 12/05. Inviato report Stape completo il 13/05 (Ads 44/100).",
       "thread_id": "19ddac7248b1a78a",
@@ -99,7 +99,7 @@
       "first_contact": "2026-05-01",
       "last_activity": "2026-06-15",
       "next_action": "Follow-up urgente",
-      "next_action_date": "2026-07-23",
+      "next_action_date": "2026-07-25",
       "stape_score": null,
       "notes": "Risposta positiva il 07/05. Inviato video di analisi (10 min) l'08/05. Bump il 12/05. FU inviato il 20/05: ha avuto modo di vedere il video? | 27/05: FU 'ultima volta'. 15/06: '?' di follow-up. Risposta ancora attesa.",
       "thread_id": "19e026540b01048b",
@@ -201,7 +201,7 @@
       "first_contact": "2026-05-01",
       "last_activity": "2026-05-19",
       "next_action": "Follow-up urgente",
-      "next_action_date": "2026-07-23",
+      "next_action_date": "2026-07-25",
       "stape_score": null,
       "notes": "Email personale (nicodeka03@gmail.com). Risposta positiva il 07/05 ('Manda pure'). Video inviato l'08/05. Bump il 12/05. Risposta 13/05: molto insightful. Il 18/05: allega CV (off-topic). Antonio risponde il 19/05.",
       "thread_id": "19e02604b5efa2cb",
@@ -295,7 +295,7 @@
       "first_contact": "2026-05-13",
       "last_activity": "2026-05-15",
       "next_action": "Follow-up urgente",
-      "next_action_date": "2026-07-23",
+      "next_action_date": "2026-07-25",
       "stape_score": null,
       "notes": "Luxury boutique Casale Monferrato",
       "thread_id": "19e213be13545c0d",
@@ -375,7 +375,7 @@
         "snippet": "Ciao Antonio, Thank you for your email. I would be happy to have a look at your report, why not ;) Best, Caterina Zorzan E-commerce Manager"
       },
       "next_action": "Follow-up urgente",
-      "next_action_date": "2026-07-23",
+      "next_action_date": "2026-07-25",
       "timeline": [
         {
           "date": "2026-05-15",
@@ -441,7 +441,7 @@
         "snippet": "Ciao Antonio, manda pure grazie, Andrea"
       },
       "next_action": "Follow-up urgente",
-      "next_action_date": "2026-07-23",
+      "next_action_date": "2026-07-25",
       "timeline": [
         {
           "date": "2026-05-18",
@@ -517,7 +517,7 @@
         "snippet": "sono a conoscenza del problema di tracking e verrà risolto oggi in giornata"
       },
       "next_action": "Follow-up urgente",
-      "next_action_date": "2026-07-23",
+      "next_action_date": "2026-07-25",
       "timeline": [
         {
           "date": "2026-05-18",
@@ -580,7 +580,7 @@
         "snippet": "Hi Antonio, Thank you for reaching out. Before considering a call, could you please share the case study and the full Stape audit you refer to, including the exact URL tested, scan date, detected issues."
       },
       "next_action": "Follow-up urgente",
-      "next_action_date": "2026-07-23",
+      "next_action_date": "2026-07-25",
       "timeline": [
         {
           "date": "2026-05-18",
@@ -734,7 +734,7 @@
         "snippet": "Remove me. (Jennifer Carnahan, Primrose Park)"
       },
       "next_action": "Risposta: 'Remove me.' — gestire manualmente (archiviare e rispondere)",
-      "next_action_date": "2026-07-22",
+      "next_action_date": "2026-07-24",
       "timeline": [
         {
           "date": "2026-05-15",
@@ -821,7 +821,7 @@
         "snippet": "Spero tutto okay. Perdonami la tarda risposta, sono giornate un pochino piene. Direi di fare la settimana prossima, che dici?"
       },
       "next_action": "Follow-up urgente",
-      "next_action_date": "2026-07-23",
+      "next_action_date": "2026-07-25",
       "timeline": [
         {
           "date": "2026-05-26",
@@ -931,7 +931,7 @@
         "snippet": "Buongiorno Antonio, ti ringrazio. Al momento siamo già seguiti da un'agenzia. Conserverò i tuoi riferimenti per future valutazioni."
       },
       "next_action": "Follow-up urgente",
-      "next_action_date": "2026-07-23",
+      "next_action_date": "2026-07-25",
       "timeline": [
         {
           "date": "2026-06-12",
@@ -1013,7 +1013,7 @@
         "snippet": "Scusa il ritardo. In realtà support è il mio supporto tecnico ecommerce e Direzione è sempre importante tenerlo informat"
       },
       "next_action": "Follow-up urgente",
-      "next_action_date": "2026-07-23",
+      "next_action_date": "2026-07-25",
       "timeline": [
         {
           "date": "2026-05-18",
@@ -1101,7 +1101,7 @@
         "snippet": "La ringraziamo per averci contattato. Al momento non ricerchiamo supporter tecnici. Grazie GiordanoCosenza.com"
       },
       "next_action": "Follow-up urgente",
-      "next_action_date": "2026-07-23",
+      "next_action_date": "2026-07-25",
       "timeline": [
         {
           "date": "2026-05-16",
@@ -18059,8 +18059,8 @@
         "snippet": "Rimando su nel caso, siamo in piena stagione estiva, momento in cui avere le vendite online ben strutturate conta davver"
       },
       "last_reply_from_prospect": null,
-      "next_action": "Follow-up 3",
-      "next_action_date": "2026-07-21",
+      "next_action": "Inviare Follow-up 3 (schedulato 2026-07-21)",
+      "next_action_date": "2026-07-24",
       "timeline": [
         {
           "date": "2026-05-18",
@@ -18128,8 +18128,8 @@
         "snippet": "Rimando su nel caso, estate è spesso il momento in cui piccole ottimizzazioni allo store fanno davvero la differenza."
       },
       "last_reply_from_prospect": null,
-      "next_action": "Follow-up 3",
-      "next_action_date": "2026-07-21",
+      "next_action": "Inviare Follow-up 3 (schedulato 2026-07-21)",
+      "next_action_date": "2026-07-24",
       "timeline": [
         {
           "date": "2026-05-18",
@@ -18197,8 +18197,8 @@
         "snippet": "Rimando su nel caso, estate è spesso il momento in cui piccole ottimizzazioni allo store fanno davvero la differenza."
       },
       "last_reply_from_prospect": null,
-      "next_action": "Follow-up 3",
-      "next_action_date": "2026-07-21",
+      "next_action": "Inviare Follow-up 3 (schedulato 2026-07-21)",
+      "next_action_date": "2026-07-24",
       "timeline": [
         {
           "date": "2026-05-18",
@@ -18266,8 +18266,8 @@
         "snippet": "Following up one more time, with summer in full swing, I thought it was a good moment to check back in."
       },
       "last_reply_from_prospect": null,
-      "next_action": "Follow-up 3",
-      "next_action_date": "2026-07-21",
+      "next_action": "Inviare Follow-up 3 (schedulato 2026-07-21)",
+      "next_action_date": "2026-07-24",
       "timeline": [
         {
           "date": "2026-05-18",
@@ -18335,8 +18335,8 @@
         "snippet": "Il problema di tracking che avevo notato è ancora lì. Posso mandarvi il report in 2 minuti."
       },
       "last_reply_from_prospect": null,
-      "next_action": "Follow-up 3",
-      "next_action_date": "2026-07-21",
+      "next_action": "Inviare Follow-up 3 (schedulato 2026-07-21)",
+      "next_action_date": "2026-07-24",
       "timeline": [
         {
           "date": "2026-05-18",
@@ -18404,8 +18404,8 @@
         "snippet": "Rimando su nel caso, estate è spesso il momento in cui piccole ottimizzazioni allo store fanno davvero la differenza."
       },
       "last_reply_from_prospect": null,
-      "next_action": "Follow-up 3",
-      "next_action_date": "2026-07-21",
+      "next_action": "Inviare Follow-up 3 (schedulato 2026-07-21)",
+      "next_action_date": "2026-07-24",
       "timeline": [
         {
           "date": "2026-05-18",
@@ -18473,8 +18473,8 @@
         "snippet": "Il problema di tracking che avevo notato è ancora lì. Posso mandarvi il report in 2 minuti."
       },
       "last_reply_from_prospect": null,
-      "next_action": "Follow-up 3",
-      "next_action_date": "2026-07-21",
+      "next_action": "Inviare Follow-up 3 (schedulato 2026-07-21)",
+      "next_action_date": "2026-07-24",
       "timeline": [
         {
           "date": "2026-05-18",
@@ -18542,8 +18542,8 @@
         "snippet": "Il problema di tracking che avevo notato è ancora lì. Posso mandarvi il report in 2 minuti."
       },
       "last_reply_from_prospect": null,
-      "next_action": "Follow-up 3",
-      "next_action_date": "2026-07-21",
+      "next_action": "Inviare Follow-up 3 (schedulato 2026-07-21)",
+      "next_action_date": "2026-07-24",
       "timeline": [
         {
           "date": "2026-05-18",
@@ -18611,8 +18611,8 @@
         "snippet": "Rimando su nel caso, estate è spesso il momento in cui piccole ottimizzazioni allo store fanno davvero la differenza."
       },
       "last_reply_from_prospect": null,
-      "next_action": "Follow-up 3",
-      "next_action_date": "2026-07-21",
+      "next_action": "Inviare Follow-up 3 (schedulato 2026-07-21)",
+      "next_action_date": "2026-07-24",
       "timeline": [
         {
           "date": "2026-05-18",
@@ -18680,8 +18680,8 @@
         "snippet": "Il problema di tracking che avevo notato è ancora lì. Posso mandarvi il report in 2 minuti."
       },
       "last_reply_from_prospect": null,
-      "next_action": "Follow-up 3",
-      "next_action_date": "2026-07-21",
+      "next_action": "Inviare Follow-up 3 (schedulato 2026-07-21)",
+      "next_action_date": "2026-07-24",
       "timeline": [
         {
           "date": "2026-05-18",
@@ -18737,7 +18737,7 @@
       },
       "last_reply_from_prospect": null,
       "next_action": "Follow-up 1",
-      "next_action_date": "2026-06-01",
+      "next_action_date": "2026-07-24",
       "timeline": [
         {
           "date": "2026-05-18",
@@ -18809,8 +18809,8 @@
         "snippet": "Il problema di tracking che avevo notato è ancora lì. Posso mandarvi il report in 2 minuti."
       },
       "last_reply_from_prospect": null,
-      "next_action": "Follow-up 3",
-      "next_action_date": "2026-07-21",
+      "next_action": "Inviare Follow-up 3 (schedulato 2026-07-21)",
+      "next_action_date": "2026-07-24",
       "timeline": [
         {
           "date": "2026-05-18",
@@ -18878,8 +18878,8 @@
         "snippet": "Rimando su nel caso, estate è spesso il momento in cui piccole ottimizzazioni allo store fanno davvero la differenza."
       },
       "last_reply_from_prospect": null,
-      "next_action": "Follow-up 3",
-      "next_action_date": "2026-07-21",
+      "next_action": "Inviare Follow-up 3 (schedulato 2026-07-21)",
+      "next_action_date": "2026-07-24",
       "timeline": [
         {
           "date": "2026-05-18",
@@ -18947,8 +18947,8 @@
         "snippet": "Rimando su nel caso, estate è spesso il momento in cui piccole ottimizzazioni allo store fanno davvero la differenza."
       },
       "last_reply_from_prospect": null,
-      "next_action": "Follow-up 3",
-      "next_action_date": "2026-07-21",
+      "next_action": "Inviare Follow-up 3 (schedulato 2026-07-21)",
+      "next_action_date": "2026-07-24",
       "timeline": [
         {
           "date": "2026-05-18",
@@ -19016,8 +19016,8 @@
         "snippet": "Rimando su nel caso, siamo in piena stagione estiva, momento in cui avere le vendite online ben strutturate conta davver"
       },
       "last_reply_from_prospect": null,
-      "next_action": "Follow-up 3",
-      "next_action_date": "2026-07-21",
+      "next_action": "Inviare Follow-up 3 (schedulato 2026-07-21)",
+      "next_action_date": "2026-07-24",
       "timeline": [
         {
           "date": "2026-05-18",
@@ -19085,8 +19085,8 @@
         "snippet": "Rimando su nel caso, siamo in piena stagione estiva, momento in cui avere le vendite online ben strutturate conta davver"
       },
       "last_reply_from_prospect": null,
-      "next_action": "Follow-up 3",
-      "next_action_date": "2026-07-21",
+      "next_action": "Inviare Follow-up 3 (schedulato 2026-07-21)",
+      "next_action_date": "2026-07-24",
       "timeline": [
         {
           "date": "2026-05-18",
@@ -19154,8 +19154,8 @@
         "snippet": "Rimando su nel caso, siamo in piena stagione estiva, momento in cui avere le vendite online ben strutturate conta davver"
       },
       "last_reply_from_prospect": null,
-      "next_action": "Follow-up 3",
-      "next_action_date": "2026-07-21",
+      "next_action": "Inviare Follow-up 3 (schedulato 2026-07-21)",
+      "next_action_date": "2026-07-24",
       "timeline": [
         {
           "date": "2026-05-18",
@@ -19223,8 +19223,8 @@
         "snippet": "Rimando su nel caso, siamo in piena stagione estiva, momento in cui avere le vendite online ben strutturate conta davver"
       },
       "last_reply_from_prospect": null,
-      "next_action": "Follow-up 3",
-      "next_action_date": "2026-07-21",
+      "next_action": "Inviare Follow-up 3 (schedulato 2026-07-21)",
+      "next_action_date": "2026-07-24",
       "timeline": [
         {
           "date": "2026-05-18",
@@ -19292,8 +19292,8 @@
         "snippet": "Rimando su nel caso, siamo in piena stagione estiva, momento in cui avere le vendite online ben strutturate conta davver"
       },
       "last_reply_from_prospect": null,
-      "next_action": "Follow-up 3",
-      "next_action_date": "2026-07-21",
+      "next_action": "Inviare Follow-up 3 (schedulato 2026-07-21)",
+      "next_action_date": "2026-07-24",
       "timeline": [
         {
           "date": "2026-05-18",
@@ -19409,8 +19409,8 @@
         "snippet": "Rimando su nel caso, siamo in piena stagione estiva, momento in cui avere le vendite online ben strutturate conta davver"
       },
       "last_reply_from_prospect": null,
-      "next_action": "Follow-up 3",
-      "next_action_date": "2026-07-21",
+      "next_action": "Inviare Follow-up 3 (schedulato 2026-07-21)",
+      "next_action_date": "2026-07-24",
       "timeline": [
         {
           "date": "2026-05-18",
@@ -19479,7 +19479,7 @@
       },
       "last_reply_from_prospect": null,
       "next_action": "Attendere risposta CS (URGENTE — scaduto il 30/06)",
-      "next_action_date": "2026-07-21",
+      "next_action_date": "2026-07-24",
       "timeline": [
         {
           "date": "2026-05-18",
@@ -19551,8 +19551,8 @@
         "snippet": "Rimando su nel caso, siamo in piena stagione estiva, momento in cui avere le vendite online ben strutturate conta davver"
       },
       "last_reply_from_prospect": null,
-      "next_action": "Follow-up 3",
-      "next_action_date": "2026-07-21",
+      "next_action": "Inviare Follow-up 3 (schedulato 2026-07-21)",
+      "next_action_date": "2026-07-24",
       "timeline": [
         {
           "date": "2026-05-18",
@@ -19620,8 +19620,8 @@
         "snippet": "Following up one more time, with summer in full swing, I thought it was a good moment to check back in."
       },
       "last_reply_from_prospect": null,
-      "next_action": "Follow-up 3",
-      "next_action_date": "2026-07-21",
+      "next_action": "Inviare Follow-up 3 (schedulato 2026-07-21)",
+      "next_action_date": "2026-07-24",
       "timeline": [
         {
           "date": "2026-05-18",
@@ -19689,8 +19689,8 @@
         "snippet": "Rimando su nel caso, siamo in piena stagione estiva, momento in cui avere le vendite online ben strutturate conta davver"
       },
       "last_reply_from_prospect": null,
-      "next_action": "Follow-up 3",
-      "next_action_date": "2026-07-21",
+      "next_action": "Inviare Follow-up 3 (schedulato 2026-07-21)",
+      "next_action_date": "2026-07-24",
       "timeline": [
         {
           "date": "2026-05-18",
@@ -19758,8 +19758,8 @@
         "snippet": "Rimando su nel caso, siamo in piena stagione estiva, momento in cui avere le vendite online ben strutturate conta davver"
       },
       "last_reply_from_prospect": null,
-      "next_action": "Follow-up 3",
-      "next_action_date": "2026-07-21",
+      "next_action": "Inviare Follow-up 3 (schedulato 2026-07-21)",
+      "next_action_date": "2026-07-24",
       "timeline": [
         {
           "date": "2026-05-18",
@@ -19827,8 +19827,8 @@
         "snippet": "Rimando su nel caso, siamo in piena stagione estiva, momento in cui avere le vendite online ben strutturate conta davver"
       },
       "last_reply_from_prospect": null,
-      "next_action": "Follow-up 3",
-      "next_action_date": "2026-07-21",
+      "next_action": "Inviare Follow-up 3 (schedulato 2026-07-21)",
+      "next_action_date": "2026-07-24",
       "timeline": [
         {
           "date": "2026-05-18",
@@ -19896,8 +19896,8 @@
         "snippet": "Following up one more time, with summer in full swing, I thought it was a good moment to check back in."
       },
       "last_reply_from_prospect": null,
-      "next_action": "Follow-up 3",
-      "next_action_date": "2026-07-21",
+      "next_action": "Inviare Follow-up 3 (schedulato 2026-07-21)",
+      "next_action_date": "2026-07-24",
       "timeline": [
         {
           "date": "2026-05-18",
@@ -19965,8 +19965,8 @@
         "snippet": "Rimando su nel caso, siamo in piena stagione estiva, momento in cui avere le vendite online ben strutturate conta davver"
       },
       "last_reply_from_prospect": null,
-      "next_action": "Follow-up 3",
-      "next_action_date": "2026-07-21",
+      "next_action": "Inviare Follow-up 3 (schedulato 2026-07-21)",
+      "next_action_date": "2026-07-24",
       "timeline": [
         {
           "date": "2026-05-18",
@@ -20034,8 +20034,8 @@
         "snippet": "Rimando su nel caso, siamo in piena stagione estiva, momento in cui avere le vendite online ben strutturate conta davver"
       },
       "last_reply_from_prospect": null,
-      "next_action": "Follow-up 3",
-      "next_action_date": "2026-07-21",
+      "next_action": "Inviare Follow-up 3 (schedulato 2026-07-21)",
+      "next_action_date": "2026-07-24",
       "timeline": [
         {
           "date": "2026-05-18",
@@ -20103,8 +20103,8 @@
         "snippet": "Rimando su nel caso, siamo in piena stagione estiva, momento in cui avere le vendite online ben strutturate conta davver"
       },
       "last_reply_from_prospect": null,
-      "next_action": "Follow-up 3",
-      "next_action_date": "2026-07-21",
+      "next_action": "Inviare Follow-up 3 (schedulato 2026-07-21)",
+      "next_action_date": "2026-07-24",
       "timeline": [
         {
           "date": "2026-05-18",
@@ -20172,8 +20172,8 @@
         "snippet": "Il problema di tracking che avevo notato è ancora lì. Posso mandarvi il report in 2 minuti."
       },
       "last_reply_from_prospect": null,
-      "next_action": "Follow-up 3",
-      "next_action_date": "2026-07-21",
+      "next_action": "Inviare Follow-up 3 (schedulato 2026-07-21)",
+      "next_action_date": "2026-07-24",
       "timeline": [
         {
           "date": "2026-05-18",
@@ -20241,8 +20241,8 @@
         "snippet": "Rimando su nel caso, estate è spesso il momento in cui piccole ottimizzazioni allo store fanno davvero la differenza."
       },
       "last_reply_from_prospect": null,
-      "next_action": "Follow-up 3",
-      "next_action_date": "2026-07-21",
+      "next_action": "Inviare Follow-up 3 (schedulato 2026-07-21)",
+      "next_action_date": "2026-07-24",
       "timeline": [
         {
           "date": "2026-05-18",
@@ -20310,8 +20310,8 @@
         "snippet": "Rimando su nel caso, estate è spesso il momento in cui piccole ottimizzazioni allo store fanno davvero la differenza."
       },
       "last_reply_from_prospect": null,
-      "next_action": "Follow-up 3",
-      "next_action_date": "2026-07-21",
+      "next_action": "Inviare Follow-up 3 (schedulato 2026-07-21)",
+      "next_action_date": "2026-07-24",
       "timeline": [
         {
           "date": "2026-05-18",
@@ -20367,7 +20367,7 @@
       },
       "last_reply_from_prospect": null,
       "next_action": "Follow-up 1",
-      "next_action_date": "2026-06-01",
+      "next_action_date": "2026-07-24",
       "timeline": [
         {
           "date": "2026-05-18",
@@ -20431,8 +20431,8 @@
         "snippet": "Rimando su nel caso, estate è spesso il momento in cui piccole ottimizzazioni allo store fanno davvero la differenza."
       },
       "last_reply_from_prospect": null,
-      "next_action": "Follow-up 3",
-      "next_action_date": "2026-07-21",
+      "next_action": "Inviare Follow-up 3 (schedulato 2026-07-21)",
+      "next_action_date": "2026-07-24",
       "timeline": [
         {
           "date": "2026-05-18",
@@ -20500,8 +20500,8 @@
         "snippet": "Rimando su nel caso, estate è spesso il momento in cui piccole ottimizzazioni allo store fanno davvero la differenza."
       },
       "last_reply_from_prospect": null,
-      "next_action": "Follow-up 3",
-      "next_action_date": "2026-07-21",
+      "next_action": "Inviare Follow-up 3 (schedulato 2026-07-21)",
+      "next_action_date": "2026-07-24",
       "timeline": [
         {
           "date": "2026-05-18",
@@ -20557,7 +20557,7 @@
       },
       "last_reply_from_prospect": null,
       "next_action": "Follow-up 1",
-      "next_action_date": "2026-06-01",
+      "next_action_date": "2026-07-24",
       "timeline": [
         {
           "date": "2026-05-18",
@@ -20621,8 +20621,8 @@
         "snippet": "Rimando su nel caso, estate è spesso il momento in cui piccole ottimizzazioni allo store fanno davvero la differenza."
       },
       "last_reply_from_prospect": null,
-      "next_action": "Follow-up 3",
-      "next_action_date": "2026-07-21",
+      "next_action": "Inviare Follow-up 3 (schedulato 2026-07-21)",
+      "next_action_date": "2026-07-24",
       "timeline": [
         {
           "date": "2026-05-18",
@@ -20690,8 +20690,8 @@
         "snippet": "Il problema di tracking che avevo notato è ancora lì. Posso mandarvi il report in 2 minuti."
       },
       "last_reply_from_prospect": null,
-      "next_action": "Follow-up 3",
-      "next_action_date": "2026-07-21",
+      "next_action": "Inviare Follow-up 3 (schedulato 2026-07-21)",
+      "next_action_date": "2026-07-24",
       "timeline": [
         {
           "date": "2026-05-18",
@@ -20759,8 +20759,8 @@
         "snippet": "Il problema di tracking che avevo notato è ancora lì. Posso mandarvi il report in 2 minuti."
       },
       "last_reply_from_prospect": null,
-      "next_action": "Follow-up 3",
-      "next_action_date": "2026-07-21",
+      "next_action": "Inviare Follow-up 3 (schedulato 2026-07-21)",
+      "next_action_date": "2026-07-24",
       "timeline": [
         {
           "date": "2026-05-18",
@@ -20822,8 +20822,8 @@
         "snippet": "Rimando su nel caso, fammi sapere se ha senso parlarne."
       },
       "last_reply_from_prospect": null,
-      "next_action": "Follow-up 2",
-      "next_action_date": "2026-06-24",
+      "next_action": "Inviare Follow-up 2 (schedulato 2026-06-24)",
+      "next_action_date": "2026-07-24",
       "timeline": [
         {
           "date": "2026-05-19",
@@ -20887,8 +20887,8 @@
         "snippet": "Il problema di tracking che avevo notato è ancora lì. Posso mandarvi il report in 2 minuti."
       },
       "last_reply_from_prospect": null,
-      "next_action": "Follow-up 3",
-      "next_action_date": "2026-07-22",
+      "next_action": "Inviare Follow-up 3 (schedulato 2026-07-22)",
+      "next_action_date": "2026-07-24",
       "timeline": [
         {
           "date": "2026-05-19",
@@ -20956,8 +20956,8 @@
         "snippet": "Following up one more time, summer campaigns are in full swing, which is exactly when tracking gaps hit hardest."
       },
       "last_reply_from_prospect": null,
-      "next_action": "Follow-up 3",
-      "next_action_date": "2026-07-22",
+      "next_action": "Inviare Follow-up 3 (schedulato 2026-07-22)",
+      "next_action_date": "2026-07-24",
       "timeline": [
         {
           "date": "2026-05-19",
@@ -21019,8 +21019,8 @@
         "snippet": "Rimando su nel caso, fammi sapere se ha senso parlarne."
       },
       "last_reply_from_prospect": null,
-      "next_action": "Follow-up 2",
-      "next_action_date": "2026-06-23",
+      "next_action": "Inviare Follow-up 2 (schedulato 2026-06-23)",
+      "next_action_date": "2026-07-24",
       "timeline": [
         {
           "date": "2026-05-18",
@@ -21084,8 +21084,8 @@
         "snippet": "Rimando su nel caso, estate è spesso il momento in cui piccole ottimizzazioni allo store fanno davvero la differenza."
       },
       "last_reply_from_prospect": null,
-      "next_action": "Follow-up 3",
-      "next_action_date": "2026-07-22",
+      "next_action": "Inviare Follow-up 3 (schedulato 2026-07-22)",
+      "next_action_date": "2026-07-24",
       "timeline": [
         {
           "date": "2026-05-19",
@@ -21154,7 +21154,7 @@
       },
       "last_reply_from_prospect": null,
       "next_action": "Follow-up al rientro (URGENTE — scaduto il 30/06)",
-      "next_action_date": "2026-07-21",
+      "next_action_date": "2026-07-24",
       "timeline": [
         {
           "date": "2026-05-19",
@@ -21226,8 +21226,8 @@
         "snippet": "Rimando su nel caso, estate è spesso il momento in cui piccole ottimizzazioni allo store fanno davvero la differenza."
       },
       "last_reply_from_prospect": null,
-      "next_action": "Follow-up 3",
-      "next_action_date": "2026-07-22",
+      "next_action": "Inviare Follow-up 3 (schedulato 2026-07-22)",
+      "next_action_date": "2026-07-24",
       "timeline": [
         {
           "date": "2026-05-19",
@@ -21295,8 +21295,8 @@
         "snippet": "Rimando su nel caso, estate è spesso il momento in cui piccole ottimizzazioni allo store fanno davvero la differenza."
       },
       "last_reply_from_prospect": null,
-      "next_action": "Follow-up 3",
-      "next_action_date": "2026-07-22",
+      "next_action": "Inviare Follow-up 3 (schedulato 2026-07-22)",
+      "next_action_date": "2026-07-24",
       "timeline": [
         {
           "date": "2026-05-19",
@@ -21364,8 +21364,8 @@
         "snippet": "Il problema di tracking che avevo notato è ancora lì. Posso mandarvi il report in 2 minuti."
       },
       "last_reply_from_prospect": null,
-      "next_action": "Follow-up 3",
-      "next_action_date": "2026-07-22",
+      "next_action": "Inviare Follow-up 3 (schedulato 2026-07-22)",
+      "next_action_date": "2026-07-24",
       "timeline": [
         {
           "date": "2026-05-19",
@@ -21427,8 +21427,8 @@
         "snippet": "Il problema di tracking che avevo notato è ancora lì. Posso mandarvi il report in 2 minuti."
       },
       "last_reply_from_prospect": null,
-      "next_action": "Follow-up 3",
-      "next_action_date": "2026-07-22",
+      "next_action": "Inviare Follow-up 3 (schedulato 2026-07-22)",
+      "next_action_date": "2026-07-24",
       "skip": false,
       "timeline": [
         {
