@@ -1,10 +1,10 @@
 {
   "meta": {
-    "last_updated": "2026-07-24T01:05:00+02:00",
+    "last_updated": "2026-07-24T06:01:00+02:00",
     "total_contacted": 319,
     "total_replied": 17,
     "total_bounced": 47,
-    "total_autoresponse": 5,
+    "total_autoresponse": 1,
     "first_run": false,
     "coverage_note": "First run â copre outbound visibili negli ultimi ~9 giorni (2026-05-06 â 2026-05-13). Le runs giornaliere successive aggiungeranno nuovi thread incrementalmente.",
     "schema_version": "v3",
@@ -18025,7 +18025,7 @@
       "angle": "1A",
       "platform": "non-Shopify",
       "thread_id": "19e3bcfc418a10a6",
-      "status": "follow_up_2_sent",
+      "status": "archived",
       "first_contact": "2026-05-18",
       "last_activity": "2026-06-24",
       "multi_to": false,
@@ -18059,8 +18059,8 @@
         "snippet": "Rimando su nel caso, siamo in piena stagione estiva, momento in cui avere le vendite online ben strutturate conta davver"
       },
       "last_reply_from_prospect": null,
-      "next_action": "Inviare Follow-up 3 (schedulato 2026-07-21)",
-      "next_action_date": "2026-07-24",
+      "next_action": null,
+      "next_action_date": null,
       "timeline": [
         {
           "date": "2026-05-18",
@@ -18073,6 +18073,10 @@
         {
           "date": "2026-06-24",
           "action": "Follow-up 2 inviato"
+        },
+        {
+          "date": "2026-07-24",
+          "action": "Archiviato automaticamente — sequenza completata (G46+) senza risposta [era: follow_up_2_sent]"
         }
       ],
       "skip": false,
@@ -18094,7 +18098,7 @@
       "angle": "3B",
       "platform": "Shopify",
       "thread_id": "19e3c0f297d8e2e7",
-      "status": "follow_up_2_sent",
+      "status": "archived",
       "first_contact": "2026-05-18",
       "last_activity": "2026-06-24",
       "multi_to": false,
@@ -18128,8 +18132,8 @@
         "snippet": "Rimando su nel caso, estate è spesso il momento in cui piccole ottimizzazioni allo store fanno davvero la differenza."
       },
       "last_reply_from_prospect": null,
-      "next_action": "Inviare Follow-up 3 (schedulato 2026-07-21)",
-      "next_action_date": "2026-07-24",
+      "next_action": null,
+      "next_action_date": null,
       "timeline": [
         {
           "date": "2026-05-18",
@@ -18142,6 +18146,10 @@
         {
           "date": "2026-06-24",
           "action": "Follow-up 2 inviato"
+        },
+        {
+          "date": "2026-07-24",
+          "action": "Archiviato automaticamente — sequenza completata (G46+) senza risposta [era: follow_up_2_sent]"
         }
       ],
       "skip": false,
@@ -18163,7 +18171,7 @@
       "angle": "3B",
       "platform": "Shopify",
       "thread_id": "19e3c08706673810",
-      "status": "follow_up_2_sent",
+      "status": "archived",
       "first_contact": "2026-05-18",
       "last_activity": "2026-06-24",
       "multi_to": false,
@@ -18197,8 +18205,8 @@
         "snippet": "Rimando su nel caso, estate è spesso il momento in cui piccole ottimizzazioni allo store fanno davvero la differenza."
       },
       "last_reply_from_prospect": null,
-      "next_action": "Inviare Follow-up 3 (schedulato 2026-07-21)",
-      "next_action_date": "2026-07-24",
+      "next_action": null,
+      "next_action_date": null,
       "timeline": [
         {
           "date": "2026-05-18",
@@ -18211,6 +18219,10 @@
         {
           "date": "2026-06-24",
           "action": "Follow-up 2 inviato"
+        },
+        {
+          "date": "2026-07-24",
+          "action": "Archiviato automaticamente — sequenza completata (G46+) senza risposta [era: follow_up_2_sent]"
         }
       ],
       "skip": false,
@@ -18232,7 +18244,7 @@
       "angle": "1A",
       "platform": "non-Shopify",
       "thread_id": "19e3bcb3b754fc4c",
-      "status": "follow_up_2_sent",
+      "status": "archived",
       "first_contact": "2026-05-18",
       "last_activity": "2026-06-24",
       "multi_to": false,
@@ -18266,8 +18278,8 @@
         "snippet": "Following up one more time, with summer in full swing, I thought it was a good moment to check back in."
       },
       "last_reply_from_prospect": null,
-      "next_action": "Inviare Follow-up 3 (schedulato 2026-07-21)",
-      "next_action_date": "2026-07-24",
+      "next_action": null,
+      "next_action_date": null,
       "timeline": [
         {
           "date": "2026-05-18",
@@ -18280,6 +18292,10 @@
         {
           "date": "2026-06-24",
           "action": "Follow-up 2 inviato"
+        },
+        {
+          "date": "2026-07-24",
+          "action": "Archiviato automaticamente — sequenza completata (G46+) senza risposta [era: follow_up_2_sent]"
         }
       ],
       "skip": false,
@@ -18301,7 +18317,7 @@
       "angle": "2B",
       "platform": "Shopify",
       "thread_id": "19e30610b87d040e",
-      "status": "follow_up_2_sent",
+      "status": "archived",
       "first_contact": "2026-05-18",
       "last_activity": "2026-06-24",
       "multi_to": false,
@@ -18335,8 +18351,8 @@
         "snippet": "Il problema di tracking che avevo notato è ancora lì. Posso mandarvi il report in 2 minuti."
       },
       "last_reply_from_prospect": null,
-      "next_action": "Inviare Follow-up 3 (schedulato 2026-07-21)",
-      "next_action_date": "2026-07-24",
+      "next_action": null,
+      "next_action_date": null,
       "timeline": [
         {
           "date": "2026-05-18",
@@ -18349,6 +18365,10 @@
         {
           "date": "2026-06-24",
           "action": "Follow-up 2 inviato"
+        },
+        {
+          "date": "2026-07-24",
+          "action": "Archiviato automaticamente — sequenza completata (G46+) senza risposta [era: follow_up_2_sent]"
         }
       ],
       "skip": false,
@@ -18370,7 +18390,7 @@
       "angle": "3B",
       "platform": "Shopify",
       "thread_id": "19e3067301268de4",
-      "status": "follow_up_2_sent",
+      "status": "archived",
       "first_contact": "2026-05-18",
       "last_activity": "2026-06-24",
       "multi_to": false,
@@ -18404,8 +18424,8 @@
         "snippet": "Rimando su nel caso, estate è spesso il momento in cui piccole ottimizzazioni allo store fanno davvero la differenza."
       },
       "last_reply_from_prospect": null,
-      "next_action": "Inviare Follow-up 3 (schedulato 2026-07-21)",
-      "next_action_date": "2026-07-24",
+      "next_action": null,
+      "next_action_date": null,
       "timeline": [
         {
           "date": "2026-05-18",
@@ -18418,6 +18438,10 @@
         {
           "date": "2026-06-24",
           "action": "Follow-up 2 inviato"
+        },
+        {
+          "date": "2026-07-24",
+          "action": "Archiviato automaticamente — sequenza completata (G46+) senza risposta [era: follow_up_2_sent]"
         }
       ],
       "skip": false,
@@ -18439,7 +18463,7 @@
       "angle": "2B",
       "platform": "Shopify",
       "thread_id": "19e30592843ceb7f",
-      "status": "follow_up_2_sent",
+      "status": "archived",
       "first_contact": "2026-05-18",
       "last_activity": "2026-06-24",
       "multi_to": false,
@@ -18473,8 +18497,8 @@
         "snippet": "Il problema di tracking che avevo notato è ancora lì. Posso mandarvi il report in 2 minuti."
       },
       "last_reply_from_prospect": null,
-      "next_action": "Inviare Follow-up 3 (schedulato 2026-07-21)",
-      "next_action_date": "2026-07-24",
+      "next_action": null,
+      "next_action_date": null,
       "timeline": [
         {
           "date": "2026-05-18",
@@ -18487,6 +18511,10 @@
         {
           "date": "2026-06-24",
           "action": "Follow-up 2 inviato"
+        },
+        {
+          "date": "2026-07-24",
+          "action": "Archiviato automaticamente — sequenza completata (G46+) senza risposta [era: follow_up_2_sent]"
         }
       ],
       "skip": false,
@@ -18508,7 +18536,7 @@
       "angle": "2B",
       "platform": "Shopify",
       "thread_id": "19e3070b4501a205",
-      "status": "follow_up_2_sent",
+      "status": "archived",
       "first_contact": "2026-05-18",
       "last_activity": "2026-06-24",
       "multi_to": false,
@@ -18542,8 +18570,8 @@
         "snippet": "Il problema di tracking che avevo notato è ancora lì. Posso mandarvi il report in 2 minuti."
       },
       "last_reply_from_prospect": null,
-      "next_action": "Inviare Follow-up 3 (schedulato 2026-07-21)",
-      "next_action_date": "2026-07-24",
+      "next_action": null,
+      "next_action_date": null,
       "timeline": [
         {
           "date": "2026-05-18",
@@ -18556,6 +18584,10 @@
         {
           "date": "2026-06-24",
           "action": "Follow-up 2 inviato"
+        },
+        {
+          "date": "2026-07-24",
+          "action": "Archiviato automaticamente — sequenza completata (G46+) senza risposta [era: follow_up_2_sent]"
         }
       ],
       "skip": false,
@@ -18577,7 +18609,7 @@
       "angle": "3B",
       "platform": "Shopify",
       "thread_id": "19e30519f45ba16c",
-      "status": "follow_up_2_sent",
+      "status": "archived",
       "first_contact": "2026-05-18",
       "last_activity": "2026-06-24",
       "multi_to": false,
@@ -18611,8 +18643,8 @@
         "snippet": "Rimando su nel caso, estate è spesso il momento in cui piccole ottimizzazioni allo store fanno davvero la differenza."
       },
       "last_reply_from_prospect": null,
-      "next_action": "Inviare Follow-up 3 (schedulato 2026-07-21)",
-      "next_action_date": "2026-07-24",
+      "next_action": null,
+      "next_action_date": null,
       "timeline": [
         {
           "date": "2026-05-18",
@@ -18625,6 +18657,10 @@
         {
           "date": "2026-06-24",
           "action": "Follow-up 2 inviato"
+        },
+        {
+          "date": "2026-07-24",
+          "action": "Archiviato automaticamente — sequenza completata (G46+) senza risposta [era: follow_up_2_sent]"
         }
       ],
       "skip": false,
@@ -18646,7 +18682,7 @@
       "angle": "2B",
       "platform": "Shopify",
       "thread_id": "19e3070907bf5dcd",
-      "status": "follow_up_2_sent",
+      "status": "archived",
       "first_contact": "2026-05-18",
       "last_activity": "2026-06-24",
       "multi_to": false,
@@ -18680,8 +18716,8 @@
         "snippet": "Il problema di tracking che avevo notato è ancora lì. Posso mandarvi il report in 2 minuti."
       },
       "last_reply_from_prospect": null,
-      "next_action": "Inviare Follow-up 3 (schedulato 2026-07-21)",
-      "next_action_date": "2026-07-24",
+      "next_action": null,
+      "next_action_date": null,
       "timeline": [
         {
           "date": "2026-05-18",
@@ -18694,6 +18730,10 @@
         {
           "date": "2026-06-24",
           "action": "Follow-up 2 inviato"
+        },
+        {
+          "date": "2026-07-24",
+          "action": "Archiviato automaticamente — sequenza completata (G46+) senza risposta [era: follow_up_2_sent]"
         }
       ],
       "skip": false,
@@ -18715,7 +18755,7 @@
       "angle": "2B",
       "platform": "Shopify",
       "thread_id": "19e3078b70d1d2a4",
-      "status": "autoresponse",
+      "status": "archived",
       "first_contact": "2026-05-18",
       "last_activity": "2026-05-19",
       "multi_to": false,
@@ -18736,8 +18776,8 @@
         "snippet": "Hi, I was looking into Retori and noticed you're running Meta/Google campaigns on a Shopify store. Quick check on tracking found an issue you're likely unaware of."
       },
       "last_reply_from_prospect": null,
-      "next_action": "Follow-up 1",
-      "next_action_date": "2026-07-24",
+      "next_action": null,
+      "next_action_date": null,
       "timeline": [
         {
           "date": "2026-05-18",
@@ -18754,6 +18794,10 @@
         {
           "date": "2026-05-19",
           "action": "Email outbound 2B inviate da Claude (Cowork) a lfacchetti@retori.com e cmaccagno@retori.com â prospect_330 e prospect_331 creati"
+        },
+        {
+          "date": "2026-07-24",
+          "action": "Archiviato automaticamente — sequenza completata (G46+) senza risposta [era: autoresponse]"
         }
       ],
       "skip": false,
@@ -18775,7 +18819,7 @@
       "angle": "2B",
       "platform": "Shopify",
       "thread_id": "19e30863e28b549f",
-      "status": "follow_up_2_sent",
+      "status": "archived",
       "first_contact": "2026-05-18",
       "last_activity": "2026-06-24",
       "multi_to": false,
@@ -18809,8 +18853,8 @@
         "snippet": "Il problema di tracking che avevo notato è ancora lì. Posso mandarvi il report in 2 minuti."
       },
       "last_reply_from_prospect": null,
-      "next_action": "Inviare Follow-up 3 (schedulato 2026-07-21)",
-      "next_action_date": "2026-07-24",
+      "next_action": null,
+      "next_action_date": null,
       "timeline": [
         {
           "date": "2026-05-18",
@@ -18823,6 +18867,10 @@
         {
           "date": "2026-06-24",
           "action": "Follow-up 2 inviato"
+        },
+        {
+          "date": "2026-07-24",
+          "action": "Archiviato automaticamente — sequenza completata (G46+) senza risposta [era: follow_up_2_sent]"
         }
       ],
       "skip": false,
@@ -18844,7 +18892,7 @@
       "angle": "3B",
       "platform": "Shopify",
       "thread_id": "19e307dabb9585c4",
-      "status": "follow_up_2_sent",
+      "status": "archived",
       "first_contact": "2026-05-18",
       "last_activity": "2026-06-24",
       "multi_to": false,
@@ -18878,8 +18926,8 @@
         "snippet": "Rimando su nel caso, estate è spesso il momento in cui piccole ottimizzazioni allo store fanno davvero la differenza."
       },
       "last_reply_from_prospect": null,
-      "next_action": "Inviare Follow-up 3 (schedulato 2026-07-21)",
-      "next_action_date": "2026-07-24",
+      "next_action": null,
+      "next_action_date": null,
       "timeline": [
         {
           "date": "2026-05-18",
@@ -18892,6 +18940,10 @@
         {
           "date": "2026-06-24",
           "action": "Follow-up 2 inviato"
+        },
+        {
+          "date": "2026-07-24",
+          "action": "Archiviato automaticamente — sequenza completata (G46+) senza risposta [era: follow_up_2_sent]"
         }
       ],
       "skip": false,
@@ -18913,7 +18965,7 @@
       "angle": "3B",
       "platform": "Shopify",
       "thread_id": "19e3be2604702148",
-      "status": "follow_up_2_sent",
+      "status": "archived",
       "first_contact": "2026-05-18",
       "last_activity": "2026-06-24",
       "multi_to": false,
@@ -18947,8 +18999,8 @@
         "snippet": "Rimando su nel caso, estate è spesso il momento in cui piccole ottimizzazioni allo store fanno davvero la differenza."
       },
       "last_reply_from_prospect": null,
-      "next_action": "Inviare Follow-up 3 (schedulato 2026-07-21)",
-      "next_action_date": "2026-07-24",
+      "next_action": null,
+      "next_action_date": null,
       "timeline": [
         {
           "date": "2026-05-18",
@@ -18961,6 +19013,10 @@
         {
           "date": "2026-06-24",
           "action": "Follow-up 2 inviato"
+        },
+        {
+          "date": "2026-07-24",
+          "action": "Archiviato automaticamente — sequenza completata (G46+) senza risposta [era: follow_up_2_sent]"
         }
       ],
       "skip": false,
@@ -18982,7 +19038,7 @@
       "angle": "1A",
       "platform": "non-Shopify",
       "thread_id": "19e3bc6be11b9474",
-      "status": "follow_up_2_sent",
+      "status": "archived",
       "first_contact": "2026-05-18",
       "last_activity": "2026-06-24",
       "multi_to": false,
@@ -19016,8 +19072,8 @@
         "snippet": "Rimando su nel caso, siamo in piena stagione estiva, momento in cui avere le vendite online ben strutturate conta davver"
       },
       "last_reply_from_prospect": null,
-      "next_action": "Inviare Follow-up 3 (schedulato 2026-07-21)",
-      "next_action_date": "2026-07-24",
+      "next_action": null,
+      "next_action_date": null,
       "timeline": [
         {
           "date": "2026-05-18",
@@ -19030,6 +19086,10 @@
         {
           "date": "2026-06-24",
           "action": "Follow-up 2 inviato"
+        },
+        {
+          "date": "2026-07-24",
+          "action": "Archiviato automaticamente — sequenza completata (G46+) senza risposta [era: follow_up_2_sent]"
         }
       ],
       "skip": false,
@@ -19051,7 +19111,7 @@
       "angle": "1A",
       "platform": "non-Shopify",
       "thread_id": "19e3bc31a6d953c6",
-      "status": "follow_up_2_sent",
+      "status": "archived",
       "first_contact": "2026-05-18",
       "last_activity": "2026-06-24",
       "multi_to": false,
@@ -19085,8 +19145,8 @@
         "snippet": "Rimando su nel caso, siamo in piena stagione estiva, momento in cui avere le vendite online ben strutturate conta davver"
       },
       "last_reply_from_prospect": null,
-      "next_action": "Inviare Follow-up 3 (schedulato 2026-07-21)",
-      "next_action_date": "2026-07-24",
+      "next_action": null,
+      "next_action_date": null,
       "timeline": [
         {
           "date": "2026-05-18",
@@ -19099,6 +19159,10 @@
         {
           "date": "2026-06-24",
           "action": "Follow-up 2 inviato"
+        },
+        {
+          "date": "2026-07-24",
+          "action": "Archiviato automaticamente — sequenza completata (G46+) senza risposta [era: follow_up_2_sent]"
         }
       ],
       "skip": false,
@@ -19120,7 +19184,7 @@
       "angle": "1A",
       "platform": "non-Shopify",
       "thread_id": "19e3bc14dc694d16",
-      "status": "follow_up_2_sent",
+      "status": "archived",
       "first_contact": "2026-05-18",
       "last_activity": "2026-06-24",
       "multi_to": false,
@@ -19154,8 +19218,8 @@
         "snippet": "Rimando su nel caso, siamo in piena stagione estiva, momento in cui avere le vendite online ben strutturate conta davver"
       },
       "last_reply_from_prospect": null,
-      "next_action": "Inviare Follow-up 3 (schedulato 2026-07-21)",
-      "next_action_date": "2026-07-24",
+      "next_action": null,
+      "next_action_date": null,
       "timeline": [
         {
           "date": "2026-05-18",
@@ -19168,6 +19232,10 @@
         {
           "date": "2026-06-24",
           "action": "Follow-up 2 inviato"
+        },
+        {
+          "date": "2026-07-24",
+          "action": "Archiviato automaticamente — sequenza completata (G46+) senza risposta [era: follow_up_2_sent]"
         }
       ],
       "skip": false,
@@ -19189,7 +19257,7 @@
       "angle": "1A",
       "platform": "non-Shopify",
       "thread_id": "19e3bbd72effaae1",
-      "status": "follow_up_2_sent",
+      "status": "archived",
       "first_contact": "2026-05-18",
       "last_activity": "2026-06-24",
       "multi_to": false,
@@ -19223,8 +19291,8 @@
         "snippet": "Rimando su nel caso, siamo in piena stagione estiva, momento in cui avere le vendite online ben strutturate conta davver"
       },
       "last_reply_from_prospect": null,
-      "next_action": "Inviare Follow-up 3 (schedulato 2026-07-21)",
-      "next_action_date": "2026-07-24",
+      "next_action": null,
+      "next_action_date": null,
       "timeline": [
         {
           "date": "2026-05-18",
@@ -19237,6 +19305,10 @@
         {
           "date": "2026-06-24",
           "action": "Follow-up 2 inviato"
+        },
+        {
+          "date": "2026-07-24",
+          "action": "Archiviato automaticamente — sequenza completata (G46+) senza risposta [era: follow_up_2_sent]"
         }
       ],
       "skip": false,
@@ -19258,7 +19330,7 @@
       "angle": "1A",
       "platform": "non-Shopify",
       "thread_id": "19e3bbb7301714b7",
-      "status": "follow_up_2_sent",
+      "status": "archived",
       "first_contact": "2026-05-18",
       "last_activity": "2026-06-24",
       "multi_to": false,
@@ -19292,8 +19364,8 @@
         "snippet": "Rimando su nel caso, siamo in piena stagione estiva, momento in cui avere le vendite online ben strutturate conta davver"
       },
       "last_reply_from_prospect": null,
-      "next_action": "Inviare Follow-up 3 (schedulato 2026-07-21)",
-      "next_action_date": "2026-07-24",
+      "next_action": null,
+      "next_action_date": null,
       "timeline": [
         {
           "date": "2026-05-18",
@@ -19306,6 +19378,10 @@
         {
           "date": "2026-06-24",
           "action": "Follow-up 2 inviato"
+        },
+        {
+          "date": "2026-07-24",
+          "action": "Archiviato automaticamente — sequenza completata (G46+) senza risposta [era: follow_up_2_sent]"
         }
       ],
       "skip": false,
@@ -19375,7 +19451,7 @@
       "angle": "1A",
       "platform": "non-Shopify",
       "thread_id": "19e3bb6179d40c86",
-      "status": "follow_up_2_sent",
+      "status": "archived",
       "first_contact": "2026-05-18",
       "last_activity": "2026-06-24",
       "multi_to": false,
@@ -19409,8 +19485,8 @@
         "snippet": "Rimando su nel caso, siamo in piena stagione estiva, momento in cui avere le vendite online ben strutturate conta davver"
       },
       "last_reply_from_prospect": null,
-      "next_action": "Inviare Follow-up 3 (schedulato 2026-07-21)",
-      "next_action_date": "2026-07-24",
+      "next_action": null,
+      "next_action_date": null,
       "timeline": [
         {
           "date": "2026-05-18",
@@ -19423,6 +19499,10 @@
         {
           "date": "2026-06-24",
           "action": "Follow-up 2 inviato"
+        },
+        {
+          "date": "2026-07-24",
+          "action": "Archiviato automaticamente — sequenza completata (G46+) senza risposta [era: follow_up_2_sent]"
         }
       ],
       "skip": false,
@@ -19444,7 +19524,7 @@
       "angle": "1A",
       "platform": "non-Shopify",
       "thread_id": "19e3bb1bee0b1dd8",
-      "status": "autoresponse",
+      "status": "archived",
       "first_contact": "2026-05-18",
       "last_activity": "2026-06-24",
       "multi_to": false,
@@ -19478,8 +19558,8 @@
         "snippet": "Following up one more time, with summer in full swing, I thought it was a good moment to check back in."
       },
       "last_reply_from_prospect": null,
-      "next_action": "Attendere risposta CS (URGENTE — scaduto il 30/06)",
-      "next_action_date": "2026-07-24",
+      "next_action": null,
+      "next_action_date": null,
       "timeline": [
         {
           "date": "2026-05-18",
@@ -19496,6 +19576,10 @@
         {
           "date": "2026-06-24",
           "action": "Autoresponse CS ricevuto: Thank you for contacting Luisa World"
+        },
+        {
+          "date": "2026-07-24",
+          "action": "Archiviato automaticamente — sequenza completata (G46+) senza risposta [era: autoresponse]"
         }
       ],
       "skip": false,
@@ -19517,7 +19601,7 @@
       "angle": "1A",
       "platform": "non-Shopify",
       "thread_id": "19e3bae1e424f2e3",
-      "status": "follow_up_2_sent",
+      "status": "archived",
       "first_contact": "2026-05-18",
       "last_activity": "2026-06-25",
       "multi_to": false,
@@ -19551,8 +19635,8 @@
         "snippet": "Rimando su nel caso, siamo in piena stagione estiva, momento in cui avere le vendite online ben strutturate conta davver"
       },
       "last_reply_from_prospect": null,
-      "next_action": "Inviare Follow-up 3 (schedulato 2026-07-21)",
-      "next_action_date": "2026-07-24",
+      "next_action": null,
+      "next_action_date": null,
       "timeline": [
         {
           "date": "2026-05-18",
@@ -19565,6 +19649,10 @@
         {
           "date": "2026-06-25",
           "action": "Follow-up 2 inviato"
+        },
+        {
+          "date": "2026-07-24",
+          "action": "Archiviato automaticamente — sequenza completata (G46+) senza risposta [era: follow_up_2_sent]"
         }
       ],
       "skip": false,
@@ -19586,7 +19674,7 @@
       "angle": "1A",
       "platform": "non-Shopify",
       "thread_id": "19e3ba9dbe1b2fc2",
-      "status": "follow_up_2_sent",
+      "status": "archived",
       "first_contact": "2026-05-18",
       "last_activity": "2026-06-25",
       "multi_to": false,
@@ -19620,8 +19708,8 @@
         "snippet": "Following up one more time, with summer in full swing, I thought it was a good moment to check back in."
       },
       "last_reply_from_prospect": null,
-      "next_action": "Inviare Follow-up 3 (schedulato 2026-07-21)",
-      "next_action_date": "2026-07-24",
+      "next_action": null,
+      "next_action_date": null,
       "timeline": [
         {
           "date": "2026-05-18",
@@ -19634,6 +19722,10 @@
         {
           "date": "2026-06-25",
           "action": "Follow-up 2 inviato"
+        },
+        {
+          "date": "2026-07-24",
+          "action": "Archiviato automaticamente — sequenza completata (G46+) senza risposta [era: follow_up_2_sent]"
         }
       ],
       "skip": false,
@@ -19655,7 +19747,7 @@
       "angle": "1A",
       "platform": "non-Shopify",
       "thread_id": "19e3ba1d9066fee1",
-      "status": "follow_up_2_sent",
+      "status": "archived",
       "first_contact": "2026-05-18",
       "last_activity": "2026-06-25",
       "multi_to": false,
@@ -19689,8 +19781,8 @@
         "snippet": "Rimando su nel caso, siamo in piena stagione estiva, momento in cui avere le vendite online ben strutturate conta davver"
       },
       "last_reply_from_prospect": null,
-      "next_action": "Inviare Follow-up 3 (schedulato 2026-07-21)",
-      "next_action_date": "2026-07-24",
+      "next_action": null,
+      "next_action_date": null,
       "timeline": [
         {
           "date": "2026-05-18",
@@ -19703,6 +19795,10 @@
         {
           "date": "2026-06-25",
           "action": "Follow-up 2 inviato"
+        },
+        {
+          "date": "2026-07-24",
+          "action": "Archiviato automaticamente — sequenza completata (G46+) senza risposta [era: follow_up_2_sent]"
         }
       ],
       "skip": false,
@@ -19724,7 +19820,7 @@
       "angle": "1A",
       "platform": "non-Shopify",
       "thread_id": "19e3b99d7d916736",
-      "status": "follow_up_2_sent",
+      "status": "archived",
       "first_contact": "2026-05-18",
       "last_activity": "2026-06-25",
       "multi_to": false,
@@ -19758,8 +19854,8 @@
         "snippet": "Rimando su nel caso, siamo in piena stagione estiva, momento in cui avere le vendite online ben strutturate conta davver"
       },
       "last_reply_from_prospect": null,
-      "next_action": "Inviare Follow-up 3 (schedulato 2026-07-21)",
-      "next_action_date": "2026-07-24",
+      "next_action": null,
+      "next_action_date": null,
       "timeline": [
         {
           "date": "2026-05-18",
@@ -19772,6 +19868,10 @@
         {
           "date": "2026-06-25",
           "action": "Follow-up 2 inviato"
+        },
+        {
+          "date": "2026-07-24",
+          "action": "Archiviato automaticamente — sequenza completata (G46+) senza risposta [era: follow_up_2_sent]"
         }
       ],
       "skip": false,
@@ -19793,7 +19893,7 @@
       "angle": "1A",
       "platform": "non-Shopify",
       "thread_id": "19e3b9740596c51c",
-      "status": "follow_up_2_sent",
+      "status": "archived",
       "first_contact": "2026-05-18",
       "last_activity": "2026-06-25",
       "multi_to": false,
@@ -19827,8 +19927,8 @@
         "snippet": "Rimando su nel caso, siamo in piena stagione estiva, momento in cui avere le vendite online ben strutturate conta davver"
       },
       "last_reply_from_prospect": null,
-      "next_action": "Inviare Follow-up 3 (schedulato 2026-07-21)",
-      "next_action_date": "2026-07-24",
+      "next_action": null,
+      "next_action_date": null,
       "timeline": [
         {
           "date": "2026-05-18",
@@ -19841,6 +19941,10 @@
         {
           "date": "2026-06-25",
           "action": "Follow-up 2 inviato"
+        },
+        {
+          "date": "2026-07-24",
+          "action": "Archiviato automaticamente — sequenza completata (G46+) senza risposta [era: follow_up_2_sent]"
         }
       ],
       "skip": false,
@@ -19862,7 +19966,7 @@
       "angle": "1A",
       "platform": "non-Shopify",
       "thread_id": "19e3b91aa3cbac60",
-      "status": "follow_up_2_sent",
+      "status": "archived",
       "first_contact": "2026-05-18",
       "last_activity": "2026-06-25",
       "multi_to": false,
@@ -19896,8 +20000,8 @@
         "snippet": "Following up one more time, with summer in full swing, I thought it was a good moment to check back in."
       },
       "last_reply_from_prospect": null,
-      "next_action": "Inviare Follow-up 3 (schedulato 2026-07-21)",
-      "next_action_date": "2026-07-24",
+      "next_action": null,
+      "next_action_date": null,
       "timeline": [
         {
           "date": "2026-05-18",
@@ -19910,6 +20014,10 @@
         {
           "date": "2026-06-25",
           "action": "Follow-up 2 inviato"
+        },
+        {
+          "date": "2026-07-24",
+          "action": "Archiviato automaticamente — sequenza completata (G46+) senza risposta [era: follow_up_2_sent]"
         }
       ],
       "skip": false,
@@ -19931,7 +20039,7 @@
       "angle": "1A",
       "platform": "non-Shopify",
       "thread_id": "19e3b8ef5583e253",
-      "status": "follow_up_2_sent",
+      "status": "archived",
       "first_contact": "2026-05-18",
       "last_activity": "2026-06-25",
       "multi_to": false,
@@ -19965,8 +20073,8 @@
         "snippet": "Rimando su nel caso, siamo in piena stagione estiva, momento in cui avere le vendite online ben strutturate conta davver"
       },
       "last_reply_from_prospect": null,
-      "next_action": "Inviare Follow-up 3 (schedulato 2026-07-21)",
-      "next_action_date": "2026-07-24",
+      "next_action": null,
+      "next_action_date": null,
       "timeline": [
         {
           "date": "2026-05-18",
@@ -19979,6 +20087,10 @@
         {
           "date": "2026-06-25",
           "action": "Follow-up 2 inviato"
+        },
+        {
+          "date": "2026-07-24",
+          "action": "Archiviato automaticamente — sequenza completata (G46+) senza risposta [era: follow_up_2_sent]"
         }
       ],
       "skip": false,
@@ -20000,7 +20112,7 @@
       "angle": "1A",
       "platform": "non-Shopify",
       "thread_id": "19e3b8c79f3da381",
-      "status": "follow_up_2_sent",
+      "status": "archived",
       "first_contact": "2026-05-18",
       "last_activity": "2026-06-25",
       "multi_to": false,
@@ -20034,8 +20146,8 @@
         "snippet": "Rimando su nel caso, siamo in piena stagione estiva, momento in cui avere le vendite online ben strutturate conta davver"
       },
       "last_reply_from_prospect": null,
-      "next_action": "Inviare Follow-up 3 (schedulato 2026-07-21)",
-      "next_action_date": "2026-07-24",
+      "next_action": null,
+      "next_action_date": null,
       "timeline": [
         {
           "date": "2026-05-18",
@@ -20048,6 +20160,10 @@
         {
           "date": "2026-06-25",
           "action": "Follow-up 2 inviato"
+        },
+        {
+          "date": "2026-07-24",
+          "action": "Archiviato automaticamente — sequenza completata (G46+) senza risposta [era: follow_up_2_sent]"
         }
       ],
       "skip": false,
@@ -20069,7 +20185,7 @@
       "angle": "1A",
       "platform": "non-Shopify",
       "thread_id": "19e3b890b65403b5",
-      "status": "follow_up_2_sent",
+      "status": "archived",
       "first_contact": "2026-05-18",
       "last_activity": "2026-06-25",
       "multi_to": false,
@@ -20103,8 +20219,8 @@
         "snippet": "Rimando su nel caso, siamo in piena stagione estiva, momento in cui avere le vendite online ben strutturate conta davver"
       },
       "last_reply_from_prospect": null,
-      "next_action": "Inviare Follow-up 3 (schedulato 2026-07-21)",
-      "next_action_date": "2026-07-24",
+      "next_action": null,
+      "next_action_date": null,
       "timeline": [
         {
           "date": "2026-05-18",
@@ -20117,6 +20233,10 @@
         {
           "date": "2026-06-25",
           "action": "Follow-up 2 inviato"
+        },
+        {
+          "date": "2026-07-24",
+          "action": "Archiviato automaticamente — sequenza completata (G46+) senza risposta [era: follow_up_2_sent]"
         }
       ],
       "skip": false,
@@ -20138,7 +20258,7 @@
       "angle": "2B",
       "platform": "Shopify",
       "thread_id": "19e3bee7547043e4",
-      "status": "follow_up_2_sent",
+      "status": "archived",
       "first_contact": "2026-05-18",
       "last_activity": "2026-06-25",
       "multi_to": false,
@@ -20172,8 +20292,8 @@
         "snippet": "Il problema di tracking che avevo notato è ancora lì. Posso mandarvi il report in 2 minuti."
       },
       "last_reply_from_prospect": null,
-      "next_action": "Inviare Follow-up 3 (schedulato 2026-07-21)",
-      "next_action_date": "2026-07-24",
+      "next_action": null,
+      "next_action_date": null,
       "timeline": [
         {
           "date": "2026-05-18",
@@ -20186,6 +20306,10 @@
         {
           "date": "2026-06-25",
           "action": "Follow-up 2 inviato"
+        },
+        {
+          "date": "2026-07-24",
+          "action": "Archiviato automaticamente — sequenza completata (G46+) senza risposta [era: follow_up_2_sent]"
         }
       ],
       "skip": false,
@@ -20207,7 +20331,7 @@
       "angle": "3B",
       "platform": "Shopify",
       "thread_id": "19e3be7cd73e5249",
-      "status": "follow_up_2_sent",
+      "status": "archived",
       "first_contact": "2026-05-18",
       "last_activity": "2026-06-25",
       "multi_to": false,
@@ -20241,8 +20365,8 @@
         "snippet": "Rimando su nel caso, estate è spesso il momento in cui piccole ottimizzazioni allo store fanno davvero la differenza."
       },
       "last_reply_from_prospect": null,
-      "next_action": "Inviare Follow-up 3 (schedulato 2026-07-21)",
-      "next_action_date": "2026-07-24",
+      "next_action": null,
+      "next_action_date": null,
       "timeline": [
         {
           "date": "2026-05-18",
@@ -20255,6 +20379,10 @@
         {
           "date": "2026-06-25",
           "action": "Follow-up 2 inviato"
+        },
+        {
+          "date": "2026-07-24",
+          "action": "Archiviato automaticamente — sequenza completata (G46+) senza risposta [era: follow_up_2_sent]"
         }
       ],
       "skip": false,
@@ -20276,7 +20404,7 @@
       "angle": "3B",
       "platform": "Shopify",
       "thread_id": "19e3be8eb74029b6",
-      "status": "follow_up_2_sent",
+      "status": "archived",
       "first_contact": "2026-05-18",
       "last_activity": "2026-06-25",
       "multi_to": false,
@@ -20310,8 +20438,8 @@
         "snippet": "Rimando su nel caso, estate è spesso il momento in cui piccole ottimizzazioni allo store fanno davvero la differenza."
       },
       "last_reply_from_prospect": null,
-      "next_action": "Inviare Follow-up 3 (schedulato 2026-07-21)",
-      "next_action_date": "2026-07-24",
+      "next_action": null,
+      "next_action_date": null,
       "timeline": [
         {
           "date": "2026-05-18",
@@ -20324,6 +20452,10 @@
         {
           "date": "2026-06-25",
           "action": "Follow-up 2 inviato"
+        },
+        {
+          "date": "2026-07-24",
+          "action": "Archiviato automaticamente — sequenza completata (G46+) senza risposta [era: follow_up_2_sent]"
         }
       ],
       "skip": false,
@@ -20345,7 +20477,7 @@
       "angle": "3B",
       "platform": "Shopify",
       "thread_id": "19e3be6d789bd15d",
-      "status": "autoresponse",
+      "status": "archived",
       "first_contact": "2026-05-18",
       "last_activity": "2026-05-18",
       "multi_to": false,
@@ -20366,8 +20498,8 @@
         "snippet": "Ciao, stavo guardando i migliori store Shopify del settore e mi sono imbattuto in Strike, brand forte. Ho visto 2-3 cose che frenano le conversioni."
       },
       "last_reply_from_prospect": null,
-      "next_action": "Follow-up 1",
-      "next_action_date": "2026-07-24",
+      "next_action": null,
+      "next_action_date": null,
       "timeline": [
         {
           "date": "2026-05-18",
@@ -20376,6 +20508,10 @@
         {
           "date": "2026-05-18",
           "action": "Autoresponse redirect: ceo@ -> andrea@strikestore.eu"
+        },
+        {
+          "date": "2026-07-24",
+          "action": "Archiviato automaticamente — sequenza completata (G46+) senza risposta [era: autoresponse]"
         }
       ],
       "skip": false,
@@ -20397,7 +20533,7 @@
       "angle": "3B",
       "platform": "Shopify",
       "thread_id": "19e3b4d39b67b7dd",
-      "status": "follow_up_2_sent",
+      "status": "archived",
       "first_contact": "2026-05-18",
       "last_activity": "2026-06-24",
       "multi_to": false,
@@ -20431,8 +20567,8 @@
         "snippet": "Rimando su nel caso, estate è spesso il momento in cui piccole ottimizzazioni allo store fanno davvero la differenza."
       },
       "last_reply_from_prospect": null,
-      "next_action": "Inviare Follow-up 3 (schedulato 2026-07-21)",
-      "next_action_date": "2026-07-24",
+      "next_action": null,
+      "next_action_date": null,
       "timeline": [
         {
           "date": "2026-05-18",
@@ -20445,6 +20581,10 @@
         {
           "date": "2026-06-24",
           "action": "Follow-up 2 inviato"
+        },
+        {
+          "date": "2026-07-24",
+          "action": "Archiviato automaticamente — sequenza completata (G46+) senza risposta [era: follow_up_2_sent]"
         }
       ],
       "skip": false,
@@ -20466,7 +20606,7 @@
       "angle": "3B",
       "platform": "Shopify",
       "thread_id": "19e3b4d1779b6757",
-      "status": "follow_up_2_sent",
+      "status": "archived",
       "first_contact": "2026-05-18",
       "last_activity": "2026-06-25",
       "multi_to": false,
@@ -20500,8 +20640,8 @@
         "snippet": "Rimando su nel caso, estate è spesso il momento in cui piccole ottimizzazioni allo store fanno davvero la differenza."
       },
       "last_reply_from_prospect": null,
-      "next_action": "Inviare Follow-up 3 (schedulato 2026-07-21)",
-      "next_action_date": "2026-07-24",
+      "next_action": null,
+      "next_action_date": null,
       "timeline": [
         {
           "date": "2026-05-18",
@@ -20514,6 +20654,10 @@
         {
           "date": "2026-06-25",
           "action": "Follow-up 2 inviato"
+        },
+        {
+          "date": "2026-07-24",
+          "action": "Archiviato automaticamente — sequenza completata (G46+) senza risposta [era: follow_up_2_sent]"
         }
       ],
       "skip": false,
@@ -20535,7 +20679,7 @@
       "angle": "3B",
       "platform": "Shopify",
       "thread_id": "19e3b48234458161",
-      "status": "autoresponse",
+      "status": "archived",
       "first_contact": "2026-05-18",
       "last_activity": "2026-05-18",
       "multi_to": false,
@@ -20556,8 +20700,8 @@
         "snippet": "Ciao Cristian, stavo guardando i migliori store Shopify del settore e mi sono imbattuto in Via Monte Shop, brand forte. Ho visto 2-3 cose che frenano le conversioni."
       },
       "last_reply_from_prospect": null,
-      "next_action": "Follow-up 1",
-      "next_action_date": "2026-07-24",
+      "next_action": null,
+      "next_action_date": null,
       "timeline": [
         {
           "date": "2026-05-18",
@@ -20566,6 +20710,10 @@
         {
           "date": "2026-05-18",
           "action": "CS autoresponse ricevuto da ViaMonte Shop"
+        },
+        {
+          "date": "2026-07-24",
+          "action": "Archiviato automaticamente — sequenza completata (G46+) senza risposta [era: autoresponse]"
         }
       ],
       "skip": false,
@@ -20587,7 +20735,7 @@
       "angle": "3B",
       "platform": "Shopify",
       "thread_id": "19e3b432850dbbe3",
-      "status": "follow_up_2_sent",
+      "status": "archived",
       "first_contact": "2026-05-18",
       "last_activity": "2026-06-25",
       "multi_to": false,
@@ -20621,8 +20769,8 @@
         "snippet": "Rimando su nel caso, estate è spesso il momento in cui piccole ottimizzazioni allo store fanno davvero la differenza."
       },
       "last_reply_from_prospect": null,
-      "next_action": "Inviare Follow-up 3 (schedulato 2026-07-21)",
-      "next_action_date": "2026-07-24",
+      "next_action": null,
+      "next_action_date": null,
       "timeline": [
         {
           "date": "2026-05-18",
@@ -20635,6 +20783,10 @@
         {
           "date": "2026-06-25",
           "action": "Follow-up 2 inviato"
+        },
+        {
+          "date": "2026-07-24",
+          "action": "Archiviato automaticamente — sequenza completata (G46+) senza risposta [era: follow_up_2_sent]"
         }
       ],
       "skip": false,
@@ -20656,7 +20808,7 @@
       "angle": "2B",
       "platform": "Shopify",
       "thread_id": "19e3b3e196fb6529",
-      "status": "follow_up_2_sent",
+      "status": "archived",
       "first_contact": "2026-05-18",
       "last_activity": "2026-06-25",
       "multi_to": false,
@@ -20690,8 +20842,8 @@
         "snippet": "Il problema di tracking che avevo notato è ancora lì. Posso mandarvi il report in 2 minuti."
       },
       "last_reply_from_prospect": null,
-      "next_action": "Inviare Follow-up 3 (schedulato 2026-07-21)",
-      "next_action_date": "2026-07-24",
+      "next_action": null,
+      "next_action_date": null,
       "timeline": [
         {
           "date": "2026-05-18",
@@ -20704,6 +20856,10 @@
         {
           "date": "2026-06-25",
           "action": "Follow-up 2 inviato"
+        },
+        {
+          "date": "2026-07-24",
+          "action": "Archiviato automaticamente — sequenza completata (G46+) senza risposta [era: follow_up_2_sent]"
         }
       ],
       "skip": false,
@@ -20725,7 +20881,7 @@
       "angle": "2B",
       "platform": "Shopify",
       "thread_id": "19e3b2fae372a106",
-      "status": "follow_up_2_sent",
+      "status": "archived",
       "first_contact": "2026-05-18",
       "last_activity": "2026-06-25",
       "multi_to": false,
@@ -20759,8 +20915,8 @@
         "snippet": "Il problema di tracking che avevo notato è ancora lì. Posso mandarvi il report in 2 minuti."
       },
       "last_reply_from_prospect": null,
-      "next_action": "Inviare Follow-up 3 (schedulato 2026-07-21)",
-      "next_action_date": "2026-07-24",
+      "next_action": null,
+      "next_action_date": null,
       "timeline": [
         {
           "date": "2026-05-18",
@@ -20773,6 +20929,10 @@
         {
           "date": "2026-06-25",
           "action": "Follow-up 2 inviato"
+        },
+        {
+          "date": "2026-07-24",
+          "action": "Archiviato automaticamente — sequenza completata (G46+) senza risposta [era: follow_up_2_sent]"
         }
       ],
       "skip": false,
@@ -20794,7 +20954,7 @@
       "angle": "2B",
       "platform": "Shopify",
       "thread_id": "19e406e492fa936d",
-      "status": "follow_up_1_sent",
+      "status": "archived",
       "first_contact": "2026-05-19",
       "last_activity": "2026-06-18",
       "multi_to": false,
@@ -20822,8 +20982,8 @@
         "snippet": "Rimando su nel caso, fammi sapere se ha senso parlarne."
       },
       "last_reply_from_prospect": null,
-      "next_action": "Inviare Follow-up 2 (schedulato 2026-06-24)",
-      "next_action_date": "2026-07-24",
+      "next_action": null,
+      "next_action_date": null,
       "timeline": [
         {
           "date": "2026-05-19",
@@ -20832,6 +20992,10 @@
         {
           "date": "2026-06-18",
           "action": "Follow-up 1 inviato"
+        },
+        {
+          "date": "2026-07-24",
+          "action": "Archiviato automaticamente — sequenza completata (G46+) senza risposta [era: follow_up_1_sent]"
         }
       ],
       "skip": false,
@@ -20853,7 +21017,7 @@
       "angle": "2B",
       "platform": "Shopify",
       "thread_id": "19e4071e2a61167b",
-      "status": "follow_up_2_sent",
+      "status": "archived",
       "first_contact": "2026-05-19",
       "last_activity": "2026-06-25",
       "multi_to": false,
@@ -20887,8 +21051,8 @@
         "snippet": "Il problema di tracking che avevo notato è ancora lì. Posso mandarvi il report in 2 minuti."
       },
       "last_reply_from_prospect": null,
-      "next_action": "Inviare Follow-up 3 (schedulato 2026-07-22)",
-      "next_action_date": "2026-07-24",
+      "next_action": null,
+      "next_action_date": null,
       "timeline": [
         {
           "date": "2026-05-19",
@@ -20901,6 +21065,10 @@
         {
           "date": "2026-06-25",
           "action": "Follow-up 2 inviato"
+        },
+        {
+          "date": "2026-07-24",
+          "action": "Archiviato automaticamente — sequenza completata (G46+) senza risposta [era: follow_up_2_sent]"
         }
       ],
       "skip": false,
@@ -20922,7 +21090,7 @@
       "angle": "2B",
       "platform": "Shopify",
       "thread_id": "19e40722d7f8dc95",
-      "status": "follow_up_2_sent",
+      "status": "archived",
       "first_contact": "2026-05-19",
       "last_activity": "2026-06-25",
       "multi_to": false,
@@ -20956,8 +21124,8 @@
         "snippet": "Following up one more time, summer campaigns are in full swing, which is exactly when tracking gaps hit hardest."
       },
       "last_reply_from_prospect": null,
-      "next_action": "Inviare Follow-up 3 (schedulato 2026-07-22)",
-      "next_action_date": "2026-07-24",
+      "next_action": null,
+      "next_action_date": null,
       "timeline": [
         {
           "date": "2026-05-19",
@@ -20970,6 +21138,10 @@
         {
           "date": "2026-06-25",
           "action": "Follow-up 2 inviato"
+        },
+        {
+          "date": "2026-07-24",
+          "action": "Archiviato automaticamente — sequenza completata (G46+) senza risposta [era: follow_up_2_sent]"
         }
       ],
       "skip": false,
@@ -20990,7 +21162,7 @@
       "label_id": "Label_8658624016447790536",
       "angle": "1A",
       "platform": "non-Shopify",
-      "status": "follow_up_1_sent",
+      "status": "archived",
       "first_contact": "2026-05-18",
       "last_activity": "2026-06-18",
       "multi_to": false,
@@ -21019,8 +21191,8 @@
         "snippet": "Rimando su nel caso, fammi sapere se ha senso parlarne."
       },
       "last_reply_from_prospect": null,
-      "next_action": "Inviare Follow-up 2 (schedulato 2026-06-23)",
-      "next_action_date": "2026-07-24",
+      "next_action": null,
+      "next_action_date": null,
       "timeline": [
         {
           "date": "2026-05-18",
@@ -21029,6 +21201,10 @@
         {
           "date": "2026-06-18",
           "action": "Follow-up 1 inviato"
+        },
+        {
+          "date": "2026-07-24",
+          "action": "Archiviato automaticamente — sequenza completata (G46+) senza risposta [era: follow_up_1_sent]"
         }
       ],
       "skip": false,
@@ -21049,7 +21225,7 @@
       "label_id": "Label_8658624016447790536",
       "angle": "1A",
       "platform": "non-Shopify",
-      "status": "follow_up_2_sent",
+      "status": "archived",
       "first_contact": "2026-05-19",
       "last_activity": "2026-06-25",
       "multi_to": false,
@@ -21084,8 +21260,8 @@
         "snippet": "Rimando su nel caso, estate è spesso il momento in cui piccole ottimizzazioni allo store fanno davvero la differenza."
       },
       "last_reply_from_prospect": null,
-      "next_action": "Inviare Follow-up 3 (schedulato 2026-07-22)",
-      "next_action_date": "2026-07-24",
+      "next_action": null,
+      "next_action_date": null,
       "timeline": [
         {
           "date": "2026-05-19",
@@ -21098,6 +21274,10 @@
         {
           "date": "2026-06-25",
           "action": "Follow-up 2 inviato"
+        },
+        {
+          "date": "2026-07-24",
+          "action": "Archiviato automaticamente — sequenza completata (G46+) senza risposta [era: follow_up_2_sent]"
         }
       ],
       "skip": false,
@@ -21118,7 +21298,7 @@
       "label_id": "Label_8658624016447790536",
       "angle": "2B",
       "platform": "Shopify",
-      "status": "autoresponse",
+      "status": "archived",
       "first_contact": "2026-05-19",
       "last_activity": "2026-06-25",
       "multi_to": false,
@@ -21153,8 +21333,8 @@
         "snippet": "Il problema di tracking che avevo notato è ancora lì. Posso mandarvi il report in 2 minuti."
       },
       "last_reply_from_prospect": null,
-      "next_action": "Follow-up al rientro (URGENTE — scaduto il 30/06)",
-      "next_action_date": "2026-07-24",
+      "next_action": null,
+      "next_action_date": null,
       "timeline": [
         {
           "date": "2026-05-19",
@@ -21171,6 +21351,10 @@
         {
           "date": "2026-06-25",
           "action": "Autoresponse OOO ricevuto (thread 19efdb0ef3c789c7) — rientro 29/06. FU al rientro schedulato per 30/06."
+        },
+        {
+          "date": "2026-07-24",
+          "action": "Archiviato automaticamente — sequenza completata (G46+) senza risposta [era: autoresponse]"
         }
       ],
       "skip": false,
@@ -21191,7 +21375,7 @@
       "label_id": "Label_8658624016447790536",
       "angle": "1A",
       "platform": "non-Shopify",
-      "status": "follow_up_2_sent",
+      "status": "archived",
       "first_contact": "2026-05-19",
       "last_activity": "2026-06-25",
       "multi_to": false,
@@ -21226,8 +21410,8 @@
         "snippet": "Rimando su nel caso, estate è spesso il momento in cui piccole ottimizzazioni allo store fanno davvero la differenza."
       },
       "last_reply_from_prospect": null,
-      "next_action": "Inviare Follow-up 3 (schedulato 2026-07-22)",
-      "next_action_date": "2026-07-24",
+      "next_action": null,
+      "next_action_date": null,
       "timeline": [
         {
           "date": "2026-05-19",
@@ -21240,6 +21424,10 @@
         {
           "date": "2026-06-25",
           "action": "Follow-up 2 inviato"
+        },
+        {
+          "date": "2026-07-24",
+          "action": "Archiviato automaticamente — sequenza completata (G46+) senza risposta [era: follow_up_2_sent]"
         }
       ],
       "skip": false,
@@ -21260,7 +21448,7 @@
       "label_id": "Label_8658624016447790536",
       "angle": "1A",
       "platform": "non-Shopify",
-      "status": "follow_up_2_sent",
+      "status": "archived",
       "first_contact": "2026-05-19",
       "last_activity": "2026-06-25",
       "multi_to": false,
@@ -21295,8 +21483,8 @@
         "snippet": "Rimando su nel caso, estate è spesso il momento in cui piccole ottimizzazioni allo store fanno davvero la differenza."
       },
       "last_reply_from_prospect": null,
-      "next_action": "Inviare Follow-up 3 (schedulato 2026-07-22)",
-      "next_action_date": "2026-07-24",
+      "next_action": null,
+      "next_action_date": null,
       "timeline": [
         {
           "date": "2026-05-19",
@@ -21309,6 +21497,10 @@
         {
           "date": "2026-06-25",
           "action": "Follow-up 2 inviato"
+        },
+        {
+          "date": "2026-07-24",
+          "action": "Archiviato automaticamente — sequenza completata (G46+) senza risposta [era: follow_up_2_sent]"
         }
       ],
       "skip": false,
@@ -21329,7 +21521,7 @@
       "label_id": "Label_9196661710752787047",
       "angle": "2B",
       "platform": "Shopify",
-      "status": "follow_up_2_sent",
+      "status": "archived",
       "first_contact": "2026-05-19",
       "last_activity": "2026-06-25",
       "multi_to": false,
@@ -21364,8 +21556,8 @@
         "snippet": "Il problema di tracking che avevo notato è ancora lì. Posso mandarvi il report in 2 minuti."
       },
       "last_reply_from_prospect": null,
-      "next_action": "Inviare Follow-up 3 (schedulato 2026-07-22)",
-      "next_action_date": "2026-07-24",
+      "next_action": null,
+      "next_action_date": null,
       "timeline": [
         {
           "date": "2026-05-19",
@@ -21378,6 +21570,10 @@
         {
           "date": "2026-06-25",
           "action": "Follow-up 2 inviato"
+        },
+        {
+          "date": "2026-07-24",
+          "action": "Archiviato automaticamente — sequenza completata (G46+) senza risposta [era: follow_up_2_sent]"
         }
       ],
       "skip": false,
@@ -21398,7 +21594,7 @@
       "label_id": null,
       "angle": "2B",
       "platform": "Shopify",
-      "status": "follow_up_2_sent",
+      "status": "archived",
       "first_contact": "2026-05-19",
       "last_activity": "2026-06-25",
       "multi_to": false,
@@ -21427,8 +21623,8 @@
         "snippet": "Il problema di tracking che avevo notato è ancora lì. Posso mandarvi il report in 2 minuti."
       },
       "last_reply_from_prospect": null,
-      "next_action": "Inviare Follow-up 3 (schedulato 2026-07-22)",
-      "next_action_date": "2026-07-24",
+      "next_action": null,
+      "next_action_date": null,
       "skip": false,
       "timeline": [
         {
@@ -21438,6 +21634,10 @@
         {
           "date": "2026-06-25",
           "action": "Follow-up 2 inviato"
+        },
+        {
+          "date": "2026-07-24",
+          "action": "Archiviato automaticamente — sequenza completata (G46+) senza risposta [era: follow_up_2_sent]"
         }
       ]
     }
