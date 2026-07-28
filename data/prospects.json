@@ -1,6 +1,6 @@
 {
   "meta": {
-    "last_updated": "2026-07-27T06:01:00+02:00",
+    "last_updated": "2026-07-28T06:01:00+02:00",
     "total_contacted": 319,
     "total_replied": 17,
     "total_bounced": 47,
@@ -734,7 +734,7 @@
         "snippet": "Remove me. (Jennifer Carnahan, Primrose Park)"
       },
       "next_action": "Risposta: 'Remove me.' — gestire manualmente (archiviare e rispondere)",
-      "next_action_date": "2026-07-28",
+      "next_action_date": null,
       "timeline": [
         {
           "date": "2026-05-15",
@@ -930,8 +930,8 @@
         "date": "2026-07-08",
         "snippet": "Buongiorno Antonio, ti ringrazio. Al momento siamo già seguiti da un'agenzia. Conserverò i tuoi riferimenti per future valutazioni."
       },
-      "next_action": "Follow-up urgente",
-      "next_action_date": "2026-07-28",
+      "next_action": "Soft no: 'siamo già seguiti da un'agenzia' (08/07) — conservare per valutazione futura, Antonio decide",
+      "next_action_date": null,
       "timeline": [
         {
           "date": "2026-06-12",
@@ -1100,8 +1100,8 @@
         "date": "2026-07-01",
         "snippet": "La ringraziamo per averci contattato. Al momento non ricerchiamo supporter tecnici. Grazie GiordanoCosenza.com"
       },
-      "next_action": "Follow-up urgente",
-      "next_action_date": "2026-07-28",
+      "next_action": "Risposta negativa: 'non ricerchiamo supporter tecnici' (01/07) — archiviare o ignorare, Antonio decide",
+      "next_action_date": null,
       "timeline": [
         {
           "date": "2026-05-16",
