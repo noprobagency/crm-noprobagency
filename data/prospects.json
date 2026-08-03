@@ -1,7 +1,7 @@
 {
   "meta": {
-    "last_updated": "2026-07-31T06:05:00+02:00",
-    "total_contacted": 319,
+    "last_updated": "2026-08-03T06:05:00+02:00",
+    "total_contacted": 320,
     "total_replied": 17,
     "total_bounced": 47,
     "total_autoresponse": 1,
@@ -29,7 +29,7 @@
       "first_contact": "2026-04-30",
       "last_activity": "2026-05-25",
       "next_action": "Follow-up urgente",
-      "next_action_date": "2026-08-01",
+      "next_action_date": "2026-08-04",
       "stape_score": 39,
       "notes": "Founder & CEO. Ha chiesto il report dopo bump del 12/05. Inviato report Stape completo il 13/05 (Ads 44/100).",
       "thread_id": "19ddac7248b1a78a",
@@ -99,7 +99,7 @@
       "first_contact": "2026-05-01",
       "last_activity": "2026-06-15",
       "next_action": "Follow-up urgente",
-      "next_action_date": "2026-08-01",
+      "next_action_date": "2026-08-04",
       "stape_score": null,
       "notes": "Risposta positiva il 07/05. Inviato video di analisi (10 min) l'08/05. Bump il 12/05. FU inviato il 20/05: ha avuto modo di vedere il video? | 27/05: FU 'ultima volta'. 15/06: '?' di follow-up. Risposta ancora attesa.",
       "thread_id": "19e026540b01048b",
@@ -201,7 +201,7 @@
       "first_contact": "2026-05-01",
       "last_activity": "2026-05-19",
       "next_action": "Follow-up urgente",
-      "next_action_date": "2026-08-01",
+      "next_action_date": "2026-08-04",
       "stape_score": null,
       "notes": "Email personale (nicodeka03@gmail.com). Risposta positiva il 07/05 ('Manda pure'). Video inviato l'08/05. Bump il 12/05. Risposta 13/05: molto insightful. Il 18/05: allega CV (off-topic). Antonio risponde il 19/05.",
       "thread_id": "19e02604b5efa2cb",
@@ -295,7 +295,7 @@
       "first_contact": "2026-05-13",
       "last_activity": "2026-05-15",
       "next_action": "Follow-up urgente",
-      "next_action_date": "2026-08-01",
+      "next_action_date": "2026-08-04",
       "stape_score": null,
       "notes": "Luxury boutique Casale Monferrato",
       "thread_id": "19e213be13545c0d",
@@ -375,7 +375,7 @@
         "snippet": "Ciao Antonio, Thank you for your email. I would be happy to have a look at your report, why not ;) Best, Caterina Zorzan E-commerce Manager"
       },
       "next_action": "Follow-up urgente",
-      "next_action_date": "2026-08-01",
+      "next_action_date": "2026-08-04",
       "timeline": [
         {
           "date": "2026-05-15",
@@ -441,7 +441,7 @@
         "snippet": "Ciao Antonio, manda pure grazie, Andrea"
       },
       "next_action": "Follow-up urgente",
-      "next_action_date": "2026-08-01",
+      "next_action_date": "2026-08-04",
       "timeline": [
         {
           "date": "2026-05-18",
@@ -517,7 +517,7 @@
         "snippet": "Scusa il ritardo. In realtà support è il mio supporto tecnico ecommerce e Direzione è sempre importante tenerlo informato, ci tiene molto. Ho un'agenzia di performance marketing"
       },
       "next_action": "Follow-up urgente",
-      "next_action_date": "2026-08-01",
+      "next_action_date": "2026-08-04",
       "timeline": [
         {
           "date": "2026-05-18",
@@ -577,13 +577,20 @@
       "thread_id": "19e3ba59a8eec5cd",
       "status": "in_conversation",
       "first_contact": "2026-05-18",
-      "last_activity": "2026-06-11",
+      "last_activity": "2026-08-01",
       "multi_to": false,
       "had_cc_bcc": false,
       "redirect_to": null,
       "stape_score": null,
       "notes": "Luxury multi-brand boutique Amsterdam. Risposta da Bjorn (bjorn@oger.nl, CC martijn@oger.nl) il 19/05: chiede case study + full Stape audit. Antonio risponde il 20/05 con email completa (case study Cumini + analisi Stape oger.nl).",
-      "followups_sent": [],
+      "followups_sent": [
+        {
+          "date": "2026-08-01",
+          "type": "manual",
+          "sender": "Antonio",
+          "snippet": "Hi Björn, hi Martijn, Last note from me on this thread. You asked for the full audit in May and I sent it over. I never heard back"
+        }
+      ],
       "scheduled_timeline": {
         "first_email": "2026-05-18",
         "follow_up_1": "2026-06-01",
@@ -592,15 +599,15 @@
         "out_date": "2026-07-22"
       },
       "last_outbound_by_antonio": {
-        "date": "2026-06-11",
-        "snippet": "? (follow-up brevissimo)"
+        "date": "2026-08-01",
+        "snippet": "Hi Björn, hi Martijn, Last note from me on this thread. You asked for the full audit in May and I sent it over. I never heard back, which is completely fine"
       },
       "last_reply_from_prospect": {
         "date": "2026-05-19",
         "snippet": "Hi Antonio, Thank you for reaching out. Before considering a call, could you please share the case study and the full Stape audit you refer to, including the exact URL tested, scan date, detected issues."
       },
-      "next_action": "Follow-up urgente",
-      "next_action_date": "2026-08-01",
+      "next_action": "In attesa risposta (FU inviato 01/08)",
+      "next_action_date": null,
       "timeline": [
         {
           "date": "2026-05-18",
@@ -621,6 +628,10 @@
         {
           "date": "2026-06-11",
           "action": "Follow-up brevissimo '?' inviato da Antonio"
+        },
+        {
+          "date": "2026-08-01",
+          "action": "Ultimo FU inviato da Antonio: 'Hi Björn, hi Martijn, Last note from me on this thread'"
         }
       ],
       "skip": false,
@@ -841,7 +852,7 @@
         "snippet": "Spero tutto okay. Perdonami la tarda risposta, sono giornate un pochino piene. Direi di fare la settimana prossima, che dici?"
       },
       "next_action": "Follow-up urgente",
-      "next_action_date": "2026-08-01",
+      "next_action_date": "2026-08-04",
       "timeline": [
         {
           "date": "2026-05-26",
@@ -1033,7 +1044,7 @@
         "snippet": "Scusa il ritardo. In realtà support è il mio supporto tecnico ecommerce e Direzione è sempre importante tenerlo informat"
       },
       "next_action": "Follow-up urgente",
-      "next_action_date": "2026-08-01",
+      "next_action_date": "2026-08-04",
       "timeline": [
         {
           "date": "2026-05-18",
@@ -1328,7 +1339,7 @@
         "snippet": "Ciao Antonio, certo, parliamone al telefono. Puoi contattarmi al 3381572496 Saluti, Luca"
       },
       "next_action": "URGENTE: Luca ha chiesto di essere chiamato il 26/05 (65+ giorni fa) — tel 3381572496",
-      "next_action_date": "2026-08-01",
+      "next_action_date": "2026-08-04",
       "skip": false,
       "timeline": [
         {
@@ -1343,6 +1354,52 @@
     }
   ],
   "no_reply": [
+    {
+      "id": "prospect_344",
+      "brand": "Wire Salad",
+      "contact": "Edvinas",
+      "email": "info@wiresalad.com",
+      "domain": "wiresalad.com",
+      "subject_email": "Shopify partner",
+      "assigned_to": "Antonio",
+      "sender": "Antonio",
+      "label_id": null,
+      "angle": "3B",
+      "platform": "Shopify",
+      "status": "contacted",
+      "first_contact": "2026-08-01",
+      "last_activity": "2026-08-01",
+      "multi_to": false,
+      "had_cc_bcc": false,
+      "redirect_to": null,
+      "stape_score": null,
+      "notes": "Email di partnership Shopify inviata da Antonio il 01/08 (sabato). Nessun label NoProb applicato. Pattern: 'Just came across Wire Salad'.",
+      "thread_id": "19fbcd45bdd46834",
+      "followups_sent": [],
+      "scheduled_timeline": {
+        "first_email": "2026-08-01",
+        "follow_up_1": "2026-08-27",
+        "follow_up_2": "2026-09-17",
+        "follow_up_3": "2026-10-15",
+        "out_date": "2026-10-16"
+      },
+      "last_outbound_by_antonio": {
+        "date": "2026-08-01",
+        "snippet": "Ciao Edvinas! Just came across Wire Salad and went through your brands. Really impressive stuff. I run a Shopify studio in Lisbon."
+      },
+      "last_reply_from_prospect": null,
+      "next_action": "Follow-up 1",
+      "next_action_date": "2026-08-27",
+      "timeline": [
+        {
+          "date": "2026-08-01",
+          "action": "Prima email 3B inviata da Antonio — partnership Shopify a info@wiresalad.com"
+        }
+      ],
+      "skip": false,
+      "is_first_email": true,
+      "first_email_snippet": "Ciao Edvinas! Just came across Wire Salad and went through your brands. Really impressive stuff, the pace you are moving at is rare. I run a Shopify studio in Lisbon."
+    },
     {
       "id": "prospect_010",
       "brand": "Laura Urbinati",
