@@ -1,6 +1,6 @@
 {
   "meta": {
-    "last_updated": "2026-08-03T06:05:00+02:00",
+    "last_updated": "2026-08-21T06:02:00+02:00",
     "total_contacted": 320,
     "total_replied": 17,
     "total_bounced": 47,
@@ -29,7 +29,7 @@
       "first_contact": "2026-04-30",
       "last_activity": "2026-05-25",
       "next_action": "Follow-up urgente",
-      "next_action_date": "2026-08-04",
+      "next_action_date": "2026-08-21",
       "stape_score": 39,
       "notes": "Founder & CEO. Ha chiesto il report dopo bump del 12/05. Inviato report Stape completo il 13/05 (Ads 44/100).",
       "thread_id": "19ddac7248b1a78a",
@@ -99,7 +99,7 @@
       "first_contact": "2026-05-01",
       "last_activity": "2026-06-15",
       "next_action": "Follow-up urgente",
-      "next_action_date": "2026-08-04",
+      "next_action_date": "2026-08-21",
       "stape_score": null,
       "notes": "Risposta positiva il 07/05. Inviato video di analisi (10 min) l'08/05. Bump il 12/05. FU inviato il 20/05: ha avuto modo di vedere il video? | 27/05: FU 'ultima volta'. 15/06: '?' di follow-up. Risposta ancora attesa.",
       "thread_id": "19e026540b01048b",
@@ -201,7 +201,7 @@
       "first_contact": "2026-05-01",
       "last_activity": "2026-05-19",
       "next_action": "Follow-up urgente",
-      "next_action_date": "2026-08-04",
+      "next_action_date": "2026-08-21",
       "stape_score": null,
       "notes": "Email personale (nicodeka03@gmail.com). Risposta positiva il 07/05 ('Manda pure'). Video inviato l'08/05. Bump il 12/05. Risposta 13/05: molto insightful. Il 18/05: allega CV (off-topic). Antonio risponde il 19/05.",
       "thread_id": "19e02604b5efa2cb",
@@ -295,7 +295,7 @@
       "first_contact": "2026-05-13",
       "last_activity": "2026-05-15",
       "next_action": "Follow-up urgente",
-      "next_action_date": "2026-08-04",
+      "next_action_date": "2026-08-21",
       "stape_score": null,
       "notes": "Luxury boutique Casale Monferrato",
       "thread_id": "19e213be13545c0d",
@@ -375,7 +375,7 @@
         "snippet": "Ciao Antonio, Thank you for your email. I would be happy to have a look at your report, why not ;) Best, Caterina Zorzan E-commerce Manager"
       },
       "next_action": "Follow-up urgente",
-      "next_action_date": "2026-08-04",
+      "next_action_date": "2026-08-21",
       "timeline": [
         {
           "date": "2026-05-15",
@@ -441,7 +441,7 @@
         "snippet": "Ciao Antonio, manda pure grazie, Andrea"
       },
       "next_action": "Follow-up urgente",
-      "next_action_date": "2026-08-04",
+      "next_action_date": "2026-08-21",
       "timeline": [
         {
           "date": "2026-05-18",
@@ -517,7 +517,7 @@
         "snippet": "Scusa il ritardo. In realtà support è il mio supporto tecnico ecommerce e Direzione è sempre importante tenerlo informato, ci tiene molto. Ho un'agenzia di performance marketing"
       },
       "next_action": "Follow-up urgente",
-      "next_action_date": "2026-08-04",
+      "next_action_date": "2026-08-21",
       "timeline": [
         {
           "date": "2026-05-18",
@@ -606,8 +606,8 @@
         "date": "2026-05-19",
         "snippet": "Hi Antonio, Thank you for reaching out. Before considering a call, could you please share the case study and the full Stape audit you refer to, including the exact URL tested, scan date, detected issues."
       },
-      "next_action": "In attesa risposta (FU inviato 01/08)",
-      "next_action_date": null,
+      "next_action": "Follow-up urgente",
+      "next_action_date": "2026-08-21",
       "timeline": [
         {
           "date": "2026-05-18",
@@ -852,7 +852,7 @@
         "snippet": "Spero tutto okay. Perdonami la tarda risposta, sono giornate un pochino piene. Direi di fare la settimana prossima, che dici?"
       },
       "next_action": "Follow-up urgente",
-      "next_action_date": "2026-08-04",
+      "next_action_date": "2026-08-21",
       "timeline": [
         {
           "date": "2026-05-26",
@@ -1044,7 +1044,7 @@
         "snippet": "Scusa il ritardo. In realtà support è il mio supporto tecnico ecommerce e Direzione è sempre importante tenerlo informat"
       },
       "next_action": "Follow-up urgente",
-      "next_action_date": "2026-08-04",
+      "next_action_date": "2026-08-21",
       "timeline": [
         {
           "date": "2026-05-18",
@@ -1339,7 +1339,7 @@
         "snippet": "Ciao Antonio, certo, parliamone al telefono. Puoi contattarmi al 3381572496 Saluti, Luca"
       },
       "next_action": "URGENTE: Luca ha chiesto di essere chiamato il 26/05 (65+ giorni fa) — tel 3381572496",
-      "next_action_date": "2026-08-04",
+      "next_action_date": "2026-08-21",
       "skip": false,
       "timeline": [
         {
